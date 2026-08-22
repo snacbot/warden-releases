@@ -1,70 +1,117 @@
-# Warden
+<div align="center">
 
-**A clean, fast, ad-free League of Legends companion for Windows.**
+<a href="https://khaosstudio.com/warden/">
+  <img src=".github/banner.png" alt="Warden. Lock in. Load out. Play." width="100%">
+</a>
 
-Warden is a native desktop app that helps you draft, build, and play better — with a real-time overlay, lobby scouting, build/rune import, and post-game coaching. No Overwolf, no ads, low footprint. It runs alongside the League client and only does work while you're playing.
+<br>
 
-> This repository hosts Warden's **published builds and auto-update manifests**. The Windows installer and a signed `latest.json` (which the app reads to update itself) live in [Releases](../../releases). Source is maintained privately.
->
-> **Website:** https://khaosstudio.com
+[![Latest release](https://img.shields.io/github/v/release/snacbot/warden-releases?style=flat-square&label=latest&color=48d4b1&labelColor=070a0d)](https://github.com/snacbot/warden-releases/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/snacbot/warden-releases/total?style=flat-square&label=downloads&color=48d4b1&labelColor=070a0d)](https://github.com/snacbot/warden-releases/releases)
+[![Windows 10+](https://img.shields.io/badge/Windows-10%2B-edf4f1?style=flat-square&labelColor=070a0d)](https://khaosstudio.com/warden/)
+[![26 MB](https://img.shields.io/badge/installer-26_MB-edf4f1?style=flat-square&labelColor=070a0d)](https://github.com/snacbot/warden-releases/releases/latest)
+[![Open beta](https://img.shields.io/badge/open-beta-d7b56a?style=flat-square&labelColor=070a0d)](https://discord.gg/UxfhSWavbQ)
+
+**[Download](https://github.com/snacbot/warden-releases/releases/latest/download/WardenSetup.exe)**
+&nbsp;·&nbsp;
+**[Website](https://khaosstudio.com/warden/)**
+&nbsp;·&nbsp;
+**[Discord](https://discord.gg/UxfhSWavbQ)**
+&nbsp;·&nbsp;
+**[Release notes](https://github.com/snacbot/warden-releases/releases)**
+
+</div>
 
 ---
 
-## What Warden does
+## What Warden is
 
-### In champ select
-- **One-click (or automatic) rune, item, and summoner-spell import** for Summoner's Rift and ARAM — straight into the League client.
-- **Build recommendations sliced by patch, rank, and role**, each shown with its data source and a confidence / sample-size indicator instead of a bare "highest win rate."
-- **Composition-aware builds** that adapt to the actual enemy team — more magic resist into heavy AP, armor into AD, anti-heal into sustain comps — with each adjustment explained.
-- **Pick & matchup suggestions** with short, scannable "why" reasoning (matchup, comp, power spike), not a wall of stats.
+Warden sits next to the League client and turns champ select into a build that's already loaded. It sees your champion, your role, and your queue, works out what you should be running, and puts the runes, items, and summoner spells into the client with one click. By the time the loading screen comes up you're done.
 
-### Pre-game lobby scouting
-- Scout **all 10 players** in Summoner's Rift and ranked: rank, win rate, most-played champions, role, and recent form.
-- **Plain-English reads** ("aggressive laner", "one-trick", "on a loss streak") that turn raw stats into something actionable.
+It's free, there are no ads anywhere in it, and there's no account to make. The installer is 26 MB and the app is a native Tauri build, so there's no Overwolf layer sitting underneath it and no second launcher to babysit. It wakes up when League does and gets out of the way when you close the game.
+
+Warden knows which mode you're in. Summoner's Rift gets a role-aware build with runes, spells, skill order, and an item path. ARAM and Arena get augment rankings next to the build, because augments are what actually decide those games. Arena in particular is the mode every other companion treats as a footnote, and it's the one we spent the most time on.
+
+Recommendations come with their sample size and their source attached. When the data is thin, Warden says so instead of inventing a number.
+
+## Install
+
+1. Download [`WardenSetup.exe`](https://github.com/snacbot/warden-releases/releases/latest/download/WardenSetup.exe) from the latest release. There's also an [MSI](https://github.com/snacbot/warden-releases/releases/latest/download/Warden.msi) if you deploy that way.
+2. Run it, then launch Warden alongside the League client.
+3. That's the whole setup. No account, no sign-in, no config file.
+
+Warden keeps itself current through signed update manifests, so you won't need to reinstall.
+
+**Requires Windows 10 or later.**
+
+## What it does
+
+**In champ select**
+
+- One-click or automatic import of runes, items, and summoner spells, straight into the client.
+- Builds sliced by patch, rank, and role, each shown with its source and a sample-size indicator rather than a bare "highest win rate."
+- Composition-aware adjustments that react to the actual enemy team: magic resist into heavy AP, armor into AD, anti-heal into sustain, with a line explaining each one.
+- Pick and matchup suggestions with short reasoning attached, not a wall of stats.
+
+**Lobby scouting**
+
+- All ten players in Summoner's Rift and ranked: rank, win rate, most-played champions, role, recent form.
+- Plain-English reads such as "one-trick" or "on a loss streak" instead of raw numbers.
 - Respects streamer mode and Riot's name-visibility settings.
 
-### Live in-game overlay
-- **Objective timers** — dragon, baron, and herald reminders.
-- **Jungle & scuttle respawn timers.**
-- **Enemy summoner-spell tracking** and **ultimate availability** estimates.
-- **Anti-heal / Grievous Wounds reminders** when the enemy comp calls for it.
-- **Damage calculator** — hover a candidate item and see how your auto-attack damage changes, computed from your own live stats.
-- **Live benchmarking** — your CS/min, gold/min, kill participation, and vision measured against your bracket, in real time.
-- **Jungle pathing** suggestions and **item-value-difference** readouts.
-- Minimap-anchored timer layout and per-portrait ult hints, all **toggleable and repositionable**.
+**Live overlay**
 
-### Arena (the flagship)
-- A **live 8-player / 4-team board** — the mode every other companion treats as an afterthought.
-- **Per-champion best augments** from real Arena match data, with explanations for *why* an augment is strong.
-- An **offered-augment picker**: see the best of what you were actually offered this round.
+- Dragon, baron, and herald timers, plus jungle camp and scuttle respawns.
+- Enemy summoner-spell tracking and ultimate availability estimates.
+- Grievous Wounds reminders when the enemy comp calls for it.
+- A damage calculator that reads your live stats: hover an item and see what your auto-attack does with it.
+- Live benchmarking of your CS/min, gold/min, kill participation, and vision against your bracket.
+- Minimap-anchored timers and per-portrait ult hints, all repositionable and individually toggleable.
 
-### After the game
-- **Plain-English coaching** — your top 3 things to improve, framed against your rank, plus CS benchmarks, vision gaps, and a gold-lead timeline.
-- **Arena post-game** with placement, augment review, and damage share.
-- **Historical coaching** for any past game in your match history.
+**Arena and ARAM**
 
-### Profile & stats
-- A polished **player profile**: rank progression, per-champion stats, strengths/weaknesses, challenges, recently-played-with, and full match history.
-- A **stats hub** with per-mode champion stats (SR / ARAM / Arena), tier lists, team synergies, and objective stats.
-- A **weekly graded dashboard** that trends your performance by category over time.
-- Optional **pro / high-elo build reference** — what the pros actually build, clearly labeled as such.
+- A live eight-player, four-team Arena board.
+- Per-champion best augments from real Arena match data, with reasoning for why each one is strong.
+- An offered-augment picker that ranks the three you were actually given this round.
 
----
+**After the game**
 
-## Why Warden
+- Three things to work on, framed against your rank, with CS benchmarks, vision gaps, and a gold-lead timeline.
+- Arena post-game with placement, augment review, and damage share.
+- The same coaching for any game already in your match history.
 
-- **Ad-free, always.** No ads in the app, the overlay, the loading screen, or your lobby.
-- **Native and standalone.** Built on Tauri — no Overwolf, no second-app layer, a small RAM/CPU footprint, and a live resource indicator so you can see it.
-- **Only runs with League.** The app ties its lifecycle to the game and gets out of the way when you're done.
-- **Honest by design.** Recommendations show their sample size and let you filter to your own rank bracket. When Warden doesn't have the data, it says so — it never fabricates a number.
-- **Built for Arena.** Deep, real-data Arena support that no other companion matches.
+**Profile and stats**
 
-## Safety & Riot ToS
+- Rank progression, per-champion stats, strengths and weaknesses, challenges, and full match history.
+- Per-mode champion stats, tier lists, team synergies, and objective stats.
+- A weekly graded dashboard that trends your performance by category.
+- Optional pro and high-elo build reference, clearly labeled as such.
 
-Warden is **passive and read-only**. It surfaces information you can already see and never automates gameplay or grants an unfair advantage. The one exception is the rune/item import in champ select — a sanctioned action through Riot's official League client API, the same mechanism other approved tools use. There are no ads in any Riot property, and the core experience is free.
+## Is this allowed?
 
-## Install & updates
+Warden reads the same local League client interfaces every other companion app uses, and everything it does is something you could do by hand: read champ select, then create a rune page and an item set. It does not automate gameplay, read game memory, or touch game files. Item and rune import goes through Riot's official client API, the sanctioned path other approved tools use.
 
-1. Download the latest Windows installer from [Releases](../../releases).
-2. Run it and launch Warden alongside the League client.
-3. Warden keeps itself up to date automatically via signed update manifests — no manual reinstalls.
+It also never overwrites anything it didn't make. Warden creates its own clearly named rune pages and item sets and leaves yours alone, so it runs fine alongside other tools.
+
+We're not Riot and can't speak for them. The longer version of this answer, with the reasoning, is [on the site](https://khaosstudio.com/warden/are-league-companion-apps-bannable/).
+
+## This repo
+
+The **public release channel** for Warden: published Windows builds and the signed `latest.json` manifest the app reads to update itself. The source is private.
+
+Warden is in open beta and is being shaped by the people running it. Bug reports and feature requests go in [Issues](https://github.com/snacbot/warden-releases/issues) or, faster, in [Discord](https://discord.gg/UxfhSWavbQ).
+
+## More
+
+- **Product page:** [khaosstudio.com/warden](https://khaosstudio.com/warden/)
+- **How rune import works:** [khaosstudio.com/warden/how-to-import-runes](https://khaosstudio.com/warden/how-to-import-runes/)
+- **ARAM and Arena builds:** [khaosstudio.com/warden/aram-arena-build-app](https://khaosstudio.com/warden/aram-arena-build-app/)
+- **Running without Overwolf:** [khaosstudio.com/warden/without-overwolf](https://khaosstudio.com/warden/without-overwolf/)
+- **Comparisons:** [Blitz](https://khaosstudio.com/warden/vs-blitz/), [Porofessor](https://khaosstudio.com/warden/vs-porofessor/), [Mobalytics](https://khaosstudio.com/warden/vs-mobalytics/), [op.gg](https://khaosstudio.com/warden/vs-op-gg/), or [the whole field](https://khaosstudio.com/warden/best-league-companion-apps/)
+- **Studio:** [Khaos Studios](https://khaosstudio.com) · [Privacy](https://khaosstudio.com/privacy.html) · [Terms](https://khaosstudio.com/terms.html)
+
+## License
+
+Warden is proprietary software. Copyright 2026 Khaos Studios LLC. All rights reserved.
+
+Warden isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
