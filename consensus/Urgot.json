@@ -1,17 +1,15 @@
 {
+  "version": 1,
+  "method": "warden-performance-tiers-v1",
   "championId": 6,
   "championKey": "Urgot",
   "set": "aram",
-  "source": "Mayhem source average",
-  "sourceUrl": "https://github.com/snacbot/warden-releases/blob/mayhem-data/README.md",
-  "winrateScope": "champion",
-  "pickrateScope": "champion",
   "patch": "16.18",
   "scrapedAt": "2026-09-12T02:34:26.350Z",
   "augments": [
     {
       "augmentId": 1134,
-      "winrate": 0.5523,
+      "tier": 1,
       "pickrate": 0.0756,
       "contributions": [
         {
@@ -19,29 +17,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5523,
           "games": 19004
         }
       ]
     },
     {
-      "augmentId": 2095,
-      "winrate": 0.5368,
-      "pickrate": 0.0182,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5368,
-          "games": 4575
-        }
-      ]
-    },
-    {
       "augmentId": 1181,
-      "winrate": 0.5222,
+      "tier": 2,
       "pickrate": 0.1592,
       "contributions": [
         {
@@ -49,134 +31,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5222,
           "games": 40009
         }
       ]
     },
     {
-      "augmentId": 1062,
-      "winrate": 0.5056,
-      "pickrate": 0.0067,
+      "augmentId": 2095,
+      "tier": 2,
+      "pickrate": 0.0182,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5056,
-          "games": 1693
-        }
-      ]
-    },
-    {
-      "augmentId": 1389,
-      "winrate": 0.5025,
-      "pickrate": 0.0024,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5025,
-          "games": 591
-        }
-      ]
-    },
-    {
-      "augmentId": 2107,
-      "winrate": 0.5017,
-      "pickrate": 0.0084,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5017,
-          "games": 2107
-        }
-      ]
-    },
-    {
-      "augmentId": 1152,
-      "winrate": 0.4999,
-      "pickrate": 0.1425,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4999,
-          "games": 35830
-        }
-      ]
-    },
-    {
-      "augmentId": 1006,
-      "winrate": 0.4983,
-      "pickrate": 0.0207,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4983,
-          "games": 5212
-        }
-      ]
-    },
-    {
-      "augmentId": 2031,
-      "winrate": 0.4974,
-      "pickrate": 0.0138,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4974,
-          "games": 3468
-        }
-      ]
-    },
-    {
-      "augmentId": 1053,
-      "winrate": 0.4966,
-      "pickrate": 0.03,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4966,
-          "games": 7543
-        }
-      ]
-    },
-    {
-      "augmentId": 1087,
-      "winrate": 0.4943,
-      "pickrate": 0.0489,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4943,
-          "games": 12291
+          "games": 4575
         }
       ]
     },
     {
       "augmentId": 1001,
-      "winrate": 0.4877,
+      "tier": 3,
       "pickrate": 0.0485,
       "contributions": [
         {
@@ -184,104 +59,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4877,
           "games": 12192
         }
       ]
     },
     {
-      "augmentId": 1333,
-      "winrate": 0.4868,
-      "pickrate": 0.0583,
+      "augmentId": 1006,
+      "tier": 3,
+      "pickrate": 0.0207,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4868,
-          "games": 14665
-        }
-      ]
-    },
-    {
-      "augmentId": 1105,
-      "winrate": 0.4862,
-      "pickrate": 0.01,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4862,
-          "games": 2503
-        }
-      ]
-    },
-    {
-      "augmentId": 1041,
-      "winrate": 0.4851,
-      "pickrate": 0.0736,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4851,
-          "games": 18511
-        }
-      ]
-    },
-    {
-      "augmentId": 1195,
-      "winrate": 0.4846,
-      "pickrate": 0.0089,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4846,
-          "games": 2237
-        }
-      ]
-    },
-    {
-      "augmentId": 1081,
-      "winrate": 0.4839,
-      "pickrate": 0.0837,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4839,
-          "games": 21036
-        }
-      ]
-    },
-    {
-      "augmentId": 2098,
-      "winrate": 0.4815,
-      "pickrate": 0.0169,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4815,
-          "games": 4239
+          "games": 5212
         }
       ]
     },
     {
       "augmentId": 1028,
-      "winrate": 0.4813,
+      "tier": 3,
       "pickrate": 0.0324,
       "contributions": [
         {
@@ -289,269 +87,83 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4813,
           "games": 8138
         }
       ]
     },
     {
-      "augmentId": 2119,
-      "winrate": 0.4783,
-      "pickrate": 0.0064,
+      "augmentId": 1041,
+      "tier": 3,
+      "pickrate": 0.0736,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4783,
-          "games": 1612
+          "games": 18511
         }
       ]
     },
     {
-      "augmentId": 1353,
-      "winrate": 0.4773,
-      "pickrate": 0.1914,
+      "augmentId": 1053,
+      "tier": 3,
+      "pickrate": 0.03,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4773,
-          "games": 48123
+          "games": 7543
         }
       ]
     },
     {
-      "augmentId": 1051,
-      "winrate": 0.476,
-      "pickrate": 0.0293,
+      "augmentId": 1062,
+      "tier": 3,
+      "pickrate": 0.0067,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.476,
-          "games": 7359
+          "games": 1693
         }
       ]
     },
     {
-      "augmentId": 1401,
-      "winrate": 0.4744,
-      "pickrate": 0.0535,
+      "augmentId": 1081,
+      "tier": 3,
+      "pickrate": 0.0837,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4744,
-          "games": 13437
+          "games": 21036
         }
       ]
     },
     {
-      "augmentId": 2141,
-      "winrate": 0.4743,
-      "pickrate": 0.0524,
+      "augmentId": 1087,
+      "tier": 3,
+      "pickrate": 0.0489,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4743,
-          "games": 13173
+          "games": 12291
         }
       ]
     },
     {
-      "augmentId": 1361,
-      "winrate": 0.4728,
-      "pickrate": 0.0201,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4728,
-          "games": 5055
-        }
-      ]
-    },
-    {
-      "augmentId": 1013,
-      "winrate": 0.472,
-      "pickrate": 0.0973,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.472,
-          "games": 24454
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "winrate": 0.4716,
-      "pickrate": 0.0213,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4716,
-          "games": 5343
-        }
-      ]
-    },
-    {
-      "augmentId": 1020,
-      "winrate": 0.4695,
-      "pickrate": 0.0552,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4695,
-          "games": 13865
-        }
-      ]
-    },
-    {
-      "augmentId": 1004,
-      "winrate": 0.4687,
-      "pickrate": 0.0201,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4687,
-          "games": 5040
-        }
-      ]
-    },
-    {
-      "augmentId": 2127,
-      "winrate": 0.4669,
-      "pickrate": 0.0366,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4669,
-          "games": 9191
-        }
-      ]
-    },
-    {
-      "augmentId": 1384,
-      "winrate": 0.466,
-      "pickrate": 0.0299,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.466,
-          "games": 7523
-        }
-      ]
-    },
-    {
-      "augmentId": 1337,
-      "winrate": 0.4639,
-      "pickrate": 0.0056,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4639,
-          "games": 1414
-        }
-      ]
-    },
-    {
-      "augmentId": 2026,
-      "winrate": 0.4635,
-      "pickrate": 0.017,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4635,
-          "games": 4278
-        }
-      ]
-    },
-    {
-      "augmentId": 1238,
-      "winrate": 0.4633,
-      "pickrate": 0.1045,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4633,
-          "games": 26276
-        }
-      ]
-    },
-    {
-      "augmentId": 1007,
-      "winrate": 0.4609,
-      "pickrate": 0.0746,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4609,
-          "games": 18745
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "winrate": 0.46,
-      "pickrate": 0.0071,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.46,
-          "games": 1789
-        }
-      ]
-    },
-    {
-      "augmentId": 2137,
-      "winrate": 0.4598,
+      "augmentId": 1105,
+      "tier": 3,
       "pickrate": 0.01,
       "contributions": [
         {
@@ -559,59 +171,195 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4598,
-          "games": 2525
+          "games": 2503
         }
       ]
     },
     {
-      "augmentId": 1308,
-      "winrate": 0.4596,
-      "pickrate": 0.0057,
+      "augmentId": 1152,
+      "tier": 3,
+      "pickrate": 0.1425,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4596,
-          "games": 1436
+          "games": 35830
         }
       ]
     },
     {
-      "augmentId": 1243,
-      "winrate": 0.4588,
-      "pickrate": 0.0248,
+      "augmentId": 1195,
+      "tier": 3,
+      "pickrate": 0.0089,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4588,
-          "games": 6242
+          "games": 2237
         }
       ]
     },
     {
-      "augmentId": 2006,
-      "winrate": 0.4581,
-      "pickrate": 0.1129,
+      "augmentId": 1333,
+      "tier": 3,
+      "pickrate": 0.0583,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4581,
-          "games": 28373
+          "games": 14665
+        }
+      ]
+    },
+    {
+      "augmentId": 1389,
+      "tier": 3,
+      "pickrate": 0.0024,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 591
+        }
+      ]
+    },
+    {
+      "augmentId": 2031,
+      "tier": 3,
+      "pickrate": 0.0138,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3468
+        }
+      ]
+    },
+    {
+      "augmentId": 2098,
+      "tier": 3,
+      "pickrate": 0.0169,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4239
+        }
+      ]
+    },
+    {
+      "augmentId": 2107,
+      "tier": 3,
+      "pickrate": 0.0084,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2107
+        }
+      ]
+    },
+    {
+      "augmentId": 1004,
+      "tier": 4,
+      "pickrate": 0.0201,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5040
+        }
+      ]
+    },
+    {
+      "augmentId": 1007,
+      "tier": 4,
+      "pickrate": 0.0746,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18745
+        }
+      ]
+    },
+    {
+      "augmentId": 1013,
+      "tier": 4,
+      "pickrate": 0.0973,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 24454
+        }
+      ]
+    },
+    {
+      "augmentId": 1020,
+      "tier": 4,
+      "pickrate": 0.0552,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13865
+        }
+      ]
+    },
+    {
+      "augmentId": 1046,
+      "tier": 4,
+      "pickrate": 0.0091,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2285
+        }
+      ]
+    },
+    {
+      "augmentId": 1051,
+      "tier": 4,
+      "pickrate": 0.0293,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7359
         }
       ]
     },
     {
       "augmentId": 1057,
-      "winrate": 0.4574,
+      "tier": 4,
       "pickrate": 0.0053,
       "contributions": [
         {
@@ -619,89 +367,69 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4574,
           "games": 1327
         }
       ]
     },
     {
-      "augmentId": 1416,
-      "winrate": 0.4574,
-      "pickrate": 0.0093,
+      "augmentId": 1060,
+      "tier": 4,
+      "pickrate": 0.0213,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4574,
-          "games": 2337
+          "games": 5343
         }
       ]
     },
     {
-      "augmentId": 1403,
-      "winrate": 0.4559,
-      "pickrate": 0.0208,
+      "augmentId": 1238,
+      "tier": 4,
+      "pickrate": 0.1045,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4559,
-          "games": 5220
+          "games": 26276
         }
       ]
     },
     {
-      "augmentId": 1046,
-      "winrate": 0.4534,
-      "pickrate": 0.0091,
+      "augmentId": 1243,
+      "tier": 4,
+      "pickrate": 0.0248,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4534,
-          "games": 2285
+          "games": 6242
         }
       ]
     },
     {
-      "augmentId": 2091,
-      "winrate": 0.453,
-      "pickrate": 0.08,
+      "augmentId": 1308,
+      "tier": 4,
+      "pickrate": 0.0057,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.453,
-          "games": 20104
-        }
-      ]
-    },
-    {
-      "augmentId": 1373,
-      "winrate": 0.4527,
-      "pickrate": 0.0354,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4527,
-          "games": 8905
+          "games": 1436
         }
       ]
     },
     {
       "augmentId": 1322,
-      "winrate": 0.4525,
+      "tier": 4,
       "pickrate": 0.0313,
       "contributions": [
         {
@@ -709,659 +437,153 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4525,
           "games": 7865
         }
       ]
     },
     {
-      "augmentId": 2102,
-      "winrate": 0.4503,
-      "pickrate": 0.061,
+      "augmentId": 1337,
+      "tier": 4,
+      "pickrate": 0.0056,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4503,
-          "games": 15322
+          "games": 1414
         }
       ]
     },
     {
-      "augmentId": 1319,
-      "winrate": 0.45,
-      "pickrate": 0.0465,
+      "augmentId": 1353,
+      "tier": 4,
+      "pickrate": 0.1914,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.45,
-          "games": 11699
+          "games": 48123
         }
       ]
     },
     {
-      "augmentId": 1415,
-      "winrate": 0.4496,
-      "pickrate": 0.0184,
+      "augmentId": 1361,
+      "tier": 4,
+      "pickrate": 0.0201,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4496,
-          "games": 4624
+          "games": 5055
         }
       ]
     },
     {
-      "augmentId": 1151,
-      "winrate": 0.4484,
-      "pickrate": 0.0189,
+      "augmentId": 1373,
+      "tier": 4,
+      "pickrate": 0.0354,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4484,
-          "games": 4744
+          "games": 8905
         }
       ]
     },
     {
-      "augmentId": 1071,
-      "winrate": 0.4483,
-      "pickrate": 0.0651,
+      "augmentId": 1384,
+      "tier": 4,
+      "pickrate": 0.0299,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4483,
-          "games": 16356
+          "games": 7523
         }
       ]
     },
     {
-      "augmentId": 1335,
-      "winrate": 0.4482,
-      "pickrate": 0.0042,
+      "augmentId": 1401,
+      "tier": 4,
+      "pickrate": 0.0535,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4482,
-          "games": 1062
+          "games": 13437
         }
       ]
     },
     {
-      "augmentId": 2005,
-      "winrate": 0.448,
-      "pickrate": 0.0202,
+      "augmentId": 1403,
+      "tier": 4,
+      "pickrate": 0.0208,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.448,
-          "games": 5080
+          "games": 5220
         }
       ]
     },
     {
-      "augmentId": 1329,
-      "winrate": 0.447,
-      "pickrate": 0.0203,
+      "augmentId": 1404,
+      "tier": 4,
+      "pickrate": 0.0071,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.447,
-          "games": 5099
+          "games": 1789
         }
       ]
     },
     {
-      "augmentId": 1098,
-      "winrate": 0.4462,
-      "pickrate": 0.0068,
+      "augmentId": 1416,
+      "tier": 4,
+      "pickrate": 0.0093,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4462,
-          "games": 1701
+          "games": 2337
         }
       ]
     },
     {
-      "augmentId": 1074,
-      "winrate": 0.4458,
-      "pickrate": 0.0414,
+      "augmentId": 2006,
+      "tier": 4,
+      "pickrate": 0.1129,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4458,
-          "games": 10408
+          "games": 28373
         }
       ]
     },
     {
-      "augmentId": 1025,
-      "winrate": 0.4457,
-      "pickrate": 0.0327,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4457,
-          "games": 8221
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "winrate": 0.4456,
-      "pickrate": 0.0604,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4456,
-          "games": 15172
-        }
-      ]
-    },
-    {
-      "augmentId": 2089,
-      "winrate": 0.445,
-      "pickrate": 0.0127,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.445,
-          "games": 3198
-        }
-      ]
-    },
-    {
-      "augmentId": 1061,
-      "winrate": 0.4446,
-      "pickrate": 0.0091,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4446,
-          "games": 2276
-        }
-      ]
-    },
-    {
-      "augmentId": 2032,
-      "winrate": 0.4445,
-      "pickrate": 0.0126,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4445,
-          "games": 3172
-        }
-      ]
-    },
-    {
-      "augmentId": 1038,
-      "winrate": 0.444,
-      "pickrate": 0.0083,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.444,
-          "games": 2079
-        }
-      ]
-    },
-    {
-      "augmentId": 1170,
-      "winrate": 0.444,
-      "pickrate": 0.0345,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.444,
-          "games": 8667
-        }
-      ]
-    },
-    {
-      "augmentId": 1036,
-      "winrate": 0.4429,
-      "pickrate": 0.069,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4429,
-          "games": 17353
-        }
-      ]
-    },
-    {
-      "augmentId": 1115,
-      "winrate": 0.4429,
-      "pickrate": 0.0197,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4429,
-          "games": 4949
-        }
-      ]
-    },
-    {
-      "augmentId": 2077,
-      "winrate": 0.4417,
-      "pickrate": 0.0391,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4417,
-          "games": 9833
-        }
-      ]
-    },
-    {
-      "augmentId": 1029,
-      "winrate": 0.4411,
-      "pickrate": 0.0555,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4411,
-          "games": 13954
-        }
-      ]
-    },
-    {
-      "augmentId": 1002,
-      "winrate": 0.4406,
-      "pickrate": 0.0394,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4406,
-          "games": 9903
-        }
-      ]
-    },
-    {
-      "augmentId": 2139,
-      "winrate": 0.4403,
-      "pickrate": 0.0298,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4403,
-          "games": 7488
-        }
-      ]
-    },
-    {
-      "augmentId": 1068,
-      "winrate": 0.4402,
-      "pickrate": 0.0246,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4402,
-          "games": 6183
-        }
-      ]
-    },
-    {
-      "augmentId": 2043,
-      "winrate": 0.4401,
-      "pickrate": 0.0214,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4401,
-          "games": 5385
-        }
-      ]
-    },
-    {
-      "augmentId": 1056,
-      "winrate": 0.4382,
-      "pickrate": 0.0095,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4382,
-          "games": 2385
-        }
-      ]
-    },
-    {
-      "augmentId": 1310,
-      "winrate": 0.4374,
-      "pickrate": 0.0161,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4374,
-          "games": 4047
-        }
-      ]
-    },
-    {
-      "augmentId": 2115,
-      "winrate": 0.4369,
-      "pickrate": 0.0072,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4369,
-          "games": 1808
-        }
-      ]
-    },
-    {
-      "augmentId": 2082,
-      "winrate": 0.4359,
-      "pickrate": 0.0176,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4359,
-          "games": 4414
-        }
-      ]
-    },
-    {
-      "augmentId": 1220,
-      "winrate": 0.4358,
-      "pickrate": 0.0307,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4358,
-          "games": 7708
-        }
-      ]
-    },
-    {
-      "augmentId": 2088,
-      "winrate": 0.4349,
-      "pickrate": 0.0141,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4349,
-          "games": 3543
-        }
-      ]
-    },
-    {
-      "augmentId": 1084,
-      "winrate": 0.4338,
-      "pickrate": 0.0112,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4338,
-          "games": 2826
-        }
-      ]
-    },
-    {
-      "augmentId": 1344,
-      "winrate": 0.4337,
-      "pickrate": 0.0081,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4337,
-          "games": 2043
-        }
-      ]
-    },
-    {
-      "augmentId": 1345,
-      "winrate": 0.4333,
-      "pickrate": 0.018,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4333,
-          "games": 4537
-        }
-      ]
-    },
-    {
-      "augmentId": 1116,
-      "winrate": 0.4326,
-      "pickrate": 0.0188,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4326,
-          "games": 4720
-        }
-      ]
-    },
-    {
-      "augmentId": 12317,
-      "winrate": 0.4318,
-      "pickrate": 0.0223,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4318,
-          "games": 5600
-        }
-      ]
-    },
-    {
-      "augmentId": 2018,
-      "winrate": 0.4305,
-      "pickrate": 0.0042,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4305,
-          "games": 1064
-        }
-      ]
-    },
-    {
-      "augmentId": 1326,
-      "winrate": 0.4287,
-      "pickrate": 0.0094,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4287,
-          "games": 2356
-        }
-      ]
-    },
-    {
-      "augmentId": 1088,
-      "winrate": 0.4277,
-      "pickrate": 0.008,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4277,
-          "games": 1999
-        }
-      ]
-    },
-    {
-      "augmentId": 1058,
-      "winrate": 0.4275,
-      "pickrate": 0.0206,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4275,
-          "games": 5169
-        }
-      ]
-    },
-    {
-      "augmentId": 2140,
-      "winrate": 0.4275,
-      "pickrate": 0.0671,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4275,
-          "games": 16858
-        }
-      ]
-    },
-    {
-      "augmentId": 2157,
-      "winrate": 0.4275,
-      "pickrate": 0.0659,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4275,
-          "games": 16553
-        }
-      ]
-    },
-    {
-      "augmentId": 1421,
-      "winrate": 0.4274,
-      "pickrate": 0.0038,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4274,
-          "games": 964
-        }
-      ]
-    },
-    {
-      "augmentId": 1358,
-      "winrate": 0.4269,
+      "augmentId": 2026,
+      "tier": 4,
       "pickrate": 0.017,
       "contributions": [
         {
@@ -1369,344 +591,111 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4269,
-          "games": 4261
+          "games": 4278
         }
       ]
     },
     {
-      "augmentId": 1413,
-      "winrate": 0.4263,
-      "pickrate": 0.0035,
+      "augmentId": 2091,
+      "tier": 4,
+      "pickrate": 0.08,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4263,
-          "games": 875
+          "games": 20104
         }
       ]
     },
     {
-      "augmentId": 2080,
-      "winrate": 0.4239,
-      "pickrate": 0.0165,
+      "augmentId": 2102,
+      "tier": 4,
+      "pickrate": 0.061,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4239,
-          "games": 4150
+          "games": 15322
         }
       ]
     },
     {
-      "augmentId": 1402,
-      "winrate": 0.4238,
-      "pickrate": 0.0063,
+      "augmentId": 2119,
+      "tier": 4,
+      "pickrate": 0.0064,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4238,
-          "games": 1581
+          "games": 1612
         }
       ]
     },
     {
-      "augmentId": 2083,
-      "winrate": 0.4237,
-      "pickrate": 0.0105,
+      "augmentId": 2127,
+      "tier": 4,
+      "pickrate": 0.0366,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4237,
-          "games": 2636
+          "games": 9191
         }
       ]
     },
     {
-      "augmentId": 1392,
-      "winrate": 0.4204,
-      "pickrate": 0.007,
+      "augmentId": 2137,
+      "tier": 4,
+      "pickrate": 0.01,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4204,
-          "games": 1765
+          "games": 2525
         }
       ]
     },
     {
-      "augmentId": 1388,
-      "winrate": 0.4193,
-      "pickrate": 0.0069,
+      "augmentId": 2141,
+      "tier": 4,
+      "pickrate": 0.0524,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4193,
-          "games": 1722
+          "games": 13173
         }
       ]
     },
     {
-      "augmentId": 1386,
-      "winrate": 0.4189,
-      "pickrate": 0.0096,
+      "augmentId": 1002,
+      "tier": 5,
+      "pickrate": 0.0394,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4189,
-          "games": 2411
-        }
-      ]
-    },
-    {
-      "augmentId": 2034,
-      "winrate": 0.4176,
-      "pickrate": 0.0132,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4176,
-          "games": 3326
-        }
-      ]
-    },
-    {
-      "augmentId": 2016,
-      "winrate": 0.4164,
-      "pickrate": 0.0044,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4164,
-          "games": 1107
-        }
-      ]
-    },
-    {
-      "augmentId": 1079,
-      "winrate": 0.416,
-      "pickrate": 0.0171,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.416,
-          "games": 4293
-        }
-      ]
-    },
-    {
-      "augmentId": 1048,
-      "winrate": 0.4154,
-      "pickrate": 0.0107,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4154,
-          "games": 2696
-        }
-      ]
-    },
-    {
-      "augmentId": 1356,
-      "winrate": 0.4105,
-      "pickrate": 0.034,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4105,
-          "games": 8546
-        }
-      ]
-    },
-    {
-      "augmentId": 1154,
-      "winrate": 0.4101,
-      "pickrate": 0.0123,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4101,
-          "games": 3097
-        }
-      ]
-    },
-    {
-      "augmentId": 1103,
-      "winrate": 0.4091,
-      "pickrate": 0.0045,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4091,
-          "games": 1122
-        }
-      ]
-    },
-    {
-      "augmentId": 1349,
-      "winrate": 0.4043,
-      "pickrate": 0.0039,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4043,
-          "games": 977
-        }
-      ]
-    },
-    {
-      "augmentId": 1328,
-      "winrate": 0.4016,
-      "pickrate": 0.0178,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4016,
-          "games": 4465
-        }
-      ]
-    },
-    {
-      "augmentId": 1225,
-      "winrate": 0.4012,
-      "pickrate": 0.0195,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4012,
-          "games": 4900
-        }
-      ]
-    },
-    {
-      "augmentId": 1194,
-      "winrate": 0.4,
-      "pickrate": 0.0011,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4,
-          "games": 265
-        }
-      ]
-    },
-    {
-      "augmentId": 1996,
-      "winrate": 0.3998,
-      "pickrate": 0.0097,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3998,
-          "games": 2429
-        }
-      ]
-    },
-    {
-      "augmentId": 2062,
-      "winrate": 0.3998,
-      "pickrate": 0.008,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3998,
-          "games": 2016
-        }
-      ]
-    },
-    {
-      "augmentId": 2118,
-      "winrate": 0.3994,
-      "pickrate": 0.0051,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3994,
-          "games": 1292
-        }
-      ]
-    },
-    {
-      "augmentId": 1112,
-      "winrate": 0.3993,
-      "pickrate": 0.0048,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3993,
-          "games": 1197
+          "games": 9903
         }
       ]
     },
     {
       "augmentId": 1011,
-      "winrate": 0.3964,
+      "tier": 5,
       "pickrate": 0.0022,
       "contributions": [
         {
@@ -1714,44 +703,195 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3964,
           "games": 550
         }
       ]
     },
     {
-      "augmentId": 1320,
-      "winrate": 0.3933,
-      "pickrate": 0.0061,
+      "augmentId": 1025,
+      "tier": 5,
+      "pickrate": 0.0327,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3933,
-          "games": 1523
+          "games": 8221
         }
       ]
     },
     {
-      "augmentId": 2099,
-      "winrate": 0.3922,
-      "pickrate": 0.0085,
+      "augmentId": 1029,
+      "tier": 5,
+      "pickrate": 0.0555,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3922,
-          "games": 2134
+          "games": 13954
         }
       ]
     },
     {
-      "augmentId": 2100,
-      "winrate": 0.3915,
+      "augmentId": 1036,
+      "tier": 5,
+      "pickrate": 0.069,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17353
+        }
+      ]
+    },
+    {
+      "augmentId": 1038,
+      "tier": 5,
+      "pickrate": 0.0083,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2079
+        }
+      ]
+    },
+    {
+      "augmentId": 1048,
+      "tier": 5,
+      "pickrate": 0.0107,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2696
+        }
+      ]
+    },
+    {
+      "augmentId": 1056,
+      "tier": 5,
+      "pickrate": 0.0095,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2385
+        }
+      ]
+    },
+    {
+      "augmentId": 1058,
+      "tier": 5,
+      "pickrate": 0.0206,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5169
+        }
+      ]
+    },
+    {
+      "augmentId": 1061,
+      "tier": 5,
+      "pickrate": 0.0091,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2276
+        }
+      ]
+    },
+    {
+      "augmentId": 1068,
+      "tier": 5,
+      "pickrate": 0.0246,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6183
+        }
+      ]
+    },
+    {
+      "augmentId": 1071,
+      "tier": 5,
+      "pickrate": 0.0651,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16356
+        }
+      ]
+    },
+    {
+      "augmentId": 1074,
+      "tier": 5,
+      "pickrate": 0.0414,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10408
+        }
+      ]
+    },
+    {
+      "augmentId": 1079,
+      "tier": 5,
+      "pickrate": 0.0171,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4293
+        }
+      ]
+    },
+    {
+      "augmentId": 1084,
+      "tier": 5,
+      "pickrate": 0.0112,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2826
+        }
+      ]
+    },
+    {
+      "augmentId": 1088,
+      "tier": 5,
       "pickrate": 0.008,
       "contributions": [
         {
@@ -1759,74 +899,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3915,
-          "games": 2005
+          "games": 1999
         }
       ]
     },
     {
-      "augmentId": 2063,
-      "winrate": 0.3891,
-      "pickrate": 0.0018,
+      "augmentId": 1098,
+      "tier": 5,
+      "pickrate": 0.0068,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3891,
-          "games": 460
+          "games": 1701
         }
       ]
     },
     {
-      "augmentId": 2010,
-      "winrate": 0.3882,
-      "pickrate": 0.0076,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3882,
-          "games": 1909
-        }
-      ]
-    },
-    {
-      "augmentId": 2143,
-      "winrate": 0.3845,
-      "pickrate": 0.0256,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3845,
-          "games": 6435
-        }
-      ]
-    },
-    {
-      "augmentId": 2046,
-      "winrate": 0.3829,
-      "pickrate": 0.0014,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3829,
-          "games": 350
-        }
-      ]
-    },
-    {
-      "augmentId": 2072,
-      "winrate": 0.3804,
+      "augmentId": 1103,
+      "tier": 5,
       "pickrate": 0.0045,
       "contributions": [
         {
@@ -1834,29 +927,111 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3804,
-          "games": 1120
+          "games": 1122
         }
       ]
     },
     {
-      "augmentId": 2087,
-      "winrate": 0.3744,
-      "pickrate": 0.0031,
+      "augmentId": 1112,
+      "tier": 5,
+      "pickrate": 0.0048,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3744,
-          "games": 780
+          "games": 1197
+        }
+      ]
+    },
+    {
+      "augmentId": 1115,
+      "tier": 5,
+      "pickrate": 0.0197,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4949
+        }
+      ]
+    },
+    {
+      "augmentId": 1116,
+      "tier": 5,
+      "pickrate": 0.0188,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4720
+        }
+      ]
+    },
+    {
+      "augmentId": 1151,
+      "tier": 5,
+      "pickrate": 0.0189,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4744
+        }
+      ]
+    },
+    {
+      "augmentId": 1154,
+      "tier": 5,
+      "pickrate": 0.0123,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3097
+        }
+      ]
+    },
+    {
+      "augmentId": 1170,
+      "tier": 5,
+      "pickrate": 0.0345,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8667
+        }
+      ]
+    },
+    {
+      "augmentId": 1194,
+      "tier": 5,
+      "pickrate": 0.0011,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 265
         }
       ]
     },
     {
       "augmentId": 1211,
-      "winrate": 0.37,
+      "tier": 5,
       "pickrate": 0.0039,
       "contributions": [
         {
@@ -1864,14 +1039,97 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.37,
           "games": 992
         }
       ]
     },
     {
+      "augmentId": 1220,
+      "tier": 5,
+      "pickrate": 0.0307,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7708
+        }
+      ]
+    },
+    {
+      "augmentId": 1225,
+      "tier": 5,
+      "pickrate": 0.0195,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4900
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": 5,
+      "pickrate": 0.0604,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15172
+        }
+      ]
+    },
+    {
+      "augmentId": 1310,
+      "tier": 5,
+      "pickrate": 0.0161,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4047
+        }
+      ]
+    },
+    {
+      "augmentId": 1319,
+      "tier": 5,
+      "pickrate": 0.0465,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11699
+        }
+      ]
+    },
+    {
+      "augmentId": 1320,
+      "tier": 5,
+      "pickrate": 0.0061,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1523
+        }
+      ]
+    },
+    {
       "augmentId": 1325,
-      "winrate": 0.308,
+      "tier": 5,
       "pickrate": 0.001,
       "contributions": [
         {
@@ -1879,11 +1137,625 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.308,
           "games": 263
         }
       ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": 5,
+      "pickrate": 0.0094,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2356
+        }
+      ]
+    },
+    {
+      "augmentId": 1328,
+      "tier": 5,
+      "pickrate": 0.0178,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4465
+        }
+      ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": 5,
+      "pickrate": 0.0203,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5099
+        }
+      ]
+    },
+    {
+      "augmentId": 1335,
+      "tier": 5,
+      "pickrate": 0.0042,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1062
+        }
+      ]
+    },
+    {
+      "augmentId": 1344,
+      "tier": 5,
+      "pickrate": 0.0081,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2043
+        }
+      ]
+    },
+    {
+      "augmentId": 1345,
+      "tier": 5,
+      "pickrate": 0.018,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4537
+        }
+      ]
+    },
+    {
+      "augmentId": 1349,
+      "tier": 5,
+      "pickrate": 0.0039,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 977
+        }
+      ]
+    },
+    {
+      "augmentId": 1356,
+      "tier": 5,
+      "pickrate": 0.034,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8546
+        }
+      ]
+    },
+    {
+      "augmentId": 1358,
+      "tier": 5,
+      "pickrate": 0.017,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4261
+        }
+      ]
+    },
+    {
+      "augmentId": 1386,
+      "tier": 5,
+      "pickrate": 0.0096,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2411
+        }
+      ]
+    },
+    {
+      "augmentId": 1388,
+      "tier": 5,
+      "pickrate": 0.0069,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1722
+        }
+      ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": 5,
+      "pickrate": 0.007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1765
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": 5,
+      "pickrate": 0.0063,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1581
+        }
+      ]
+    },
+    {
+      "augmentId": 1413,
+      "tier": 5,
+      "pickrate": 0.0035,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 875
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": 5,
+      "pickrate": 0.0184,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4624
+        }
+      ]
+    },
+    {
+      "augmentId": 1421,
+      "tier": 5,
+      "pickrate": 0.0038,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 964
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": 5,
+      "pickrate": 0.0097,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2429
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": 5,
+      "pickrate": 0.0202,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5080
+        }
+      ]
+    },
+    {
+      "augmentId": 2010,
+      "tier": 5,
+      "pickrate": 0.0076,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1909
+        }
+      ]
+    },
+    {
+      "augmentId": 2016,
+      "tier": 5,
+      "pickrate": 0.0044,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1107
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": 5,
+      "pickrate": 0.0042,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1064
+        }
+      ]
+    },
+    {
+      "augmentId": 2032,
+      "tier": 5,
+      "pickrate": 0.0126,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3172
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": 5,
+      "pickrate": 0.0132,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3326
+        }
+      ]
+    },
+    {
+      "augmentId": 2043,
+      "tier": 5,
+      "pickrate": 0.0214,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5385
+        }
+      ]
+    },
+    {
+      "augmentId": 2046,
+      "tier": 5,
+      "pickrate": 0.0014,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 350
+        }
+      ]
+    },
+    {
+      "augmentId": 2062,
+      "tier": 5,
+      "pickrate": 0.008,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2016
+        }
+      ]
+    },
+    {
+      "augmentId": 2063,
+      "tier": 5,
+      "pickrate": 0.0018,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 460
+        }
+      ]
+    },
+    {
+      "augmentId": 2072,
+      "tier": 5,
+      "pickrate": 0.0045,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1120
+        }
+      ]
+    },
+    {
+      "augmentId": 2077,
+      "tier": 5,
+      "pickrate": 0.0391,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9833
+        }
+      ]
+    },
+    {
+      "augmentId": 2080,
+      "tier": 5,
+      "pickrate": 0.0165,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4150
+        }
+      ]
+    },
+    {
+      "augmentId": 2082,
+      "tier": 5,
+      "pickrate": 0.0176,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4414
+        }
+      ]
+    },
+    {
+      "augmentId": 2083,
+      "tier": 5,
+      "pickrate": 0.0105,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2636
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": 5,
+      "pickrate": 0.0031,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 780
+        }
+      ]
+    },
+    {
+      "augmentId": 2088,
+      "tier": 5,
+      "pickrate": 0.0141,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3543
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": 5,
+      "pickrate": 0.0127,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3198
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": 5,
+      "pickrate": 0.0085,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2134
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": 5,
+      "pickrate": 0.008,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2005
+        }
+      ]
+    },
+    {
+      "augmentId": 2115,
+      "tier": 5,
+      "pickrate": 0.0072,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1808
+        }
+      ]
+    },
+    {
+      "augmentId": 2118,
+      "tier": 5,
+      "pickrate": 0.0051,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1292
+        }
+      ]
+    },
+    {
+      "augmentId": 2139,
+      "tier": 5,
+      "pickrate": 0.0298,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7488
+        }
+      ]
+    },
+    {
+      "augmentId": 2140,
+      "tier": 5,
+      "pickrate": 0.0671,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16858
+        }
+      ]
+    },
+    {
+      "augmentId": 2143,
+      "tier": 5,
+      "pickrate": 0.0256,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6435
+        }
+      ]
+    },
+    {
+      "augmentId": 2157,
+      "tier": 5,
+      "pickrate": 0.0659,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16553
+        }
+      ]
+    },
+    {
+      "augmentId": 12317,
+      "tier": 5,
+      "pickrate": 0.0223,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/urgot?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5600
+        }
+      ]
     }
-  ],
-  "method": "equal-source-mean"
+  ]
 }

@@ -1,47 +1,15 @@
 {
+  "version": 1,
+  "method": "warden-performance-tiers-v1",
   "championId": 517,
   "championKey": "Sylas",
   "set": "aram",
-  "source": "Mayhem source average",
-  "sourceUrl": "https://github.com/snacbot/warden-releases/blob/mayhem-data/README.md",
-  "winrateScope": "champion",
-  "pickrateScope": "champion",
   "patch": "16.18",
   "scrapedAt": "2026-09-12T02:34:26.350Z",
   "augments": [
     {
-      "augmentId": 2095,
-      "winrate": 0.5713,
-      "pickrate": 0.0201,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5713,
-          "games": 10743
-        }
-      ]
-    },
-    {
-      "augmentId": 2031,
-      "winrate": 0.5689,
-      "pickrate": 0.0143,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5689,
-          "games": 7668
-        }
-      ]
-    },
-    {
       "augmentId": 1004,
-      "winrate": 0.5525,
+      "tier": 1,
       "pickrate": 0.0545,
       "contributions": [
         {
@@ -49,44 +17,55 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5525,
           "games": 29118
         }
       ]
     },
     {
-      "augmentId": 1156,
-      "winrate": 0.5327,
-      "pickrate": 0.0286,
+      "augmentId": 2031,
+      "tier": 1,
+      "pickrate": 0.0143,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5327,
-          "games": 15272
+          "games": 7668
         }
       ]
     },
     {
-      "augmentId": 1333,
-      "winrate": 0.5269,
-      "pickrate": 0.0476,
+      "augmentId": 2095,
+      "tier": 1,
+      "pickrate": 0.0201,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5269,
-          "games": 25458
+          "games": 10743
+        }
+      ]
+    },
+    {
+      "augmentId": 1053,
+      "tier": 2,
+      "pickrate": 0.0228,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12189
         }
       ]
     },
     {
       "augmentId": 1129,
-      "winrate": 0.524,
+      "tier": 2,
       "pickrate": 0.2025,
       "contributions": [
         {
@@ -94,14 +73,55 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.524,
           "games": 108247
         }
       ]
     },
     {
+      "augmentId": 1156,
+      "tier": 2,
+      "pickrate": 0.0286,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15272
+        }
+      ]
+    },
+    {
+      "augmentId": 1333,
+      "tier": 2,
+      "pickrate": 0.0476,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 25458
+        }
+      ]
+    },
+    {
+      "augmentId": 1361,
+      "tier": 2,
+      "pickrate": 0.0059,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3139
+        }
+      ]
+    },
+    {
       "augmentId": 2102,
-      "winrate": 0.5214,
+      "tier": 2,
       "pickrate": 0.0185,
       "contributions": [
         {
@@ -109,479 +129,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5214,
           "games": 9874
         }
       ]
     },
     {
-      "augmentId": 1053,
-      "winrate": 0.5212,
-      "pickrate": 0.0228,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5212,
-          "games": 12189
-        }
-      ]
-    },
-    {
-      "augmentId": 1361,
-      "winrate": 0.5212,
-      "pickrate": 0.0059,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5212,
-          "games": 3139
-        }
-      ]
-    },
-    {
-      "augmentId": 2119,
-      "winrate": 0.5195,
-      "pickrate": 0.0036,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5195,
-          "games": 1948
-        }
-      ]
-    },
-    {
-      "augmentId": 1181,
-      "winrate": 0.5177,
-      "pickrate": 0.0266,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5177,
-          "games": 14226
-        }
-      ]
-    },
-    {
-      "augmentId": 1315,
-      "winrate": 0.515,
-      "pickrate": 0.0479,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.515,
-          "games": 25617
-        }
-      ]
-    },
-    {
-      "augmentId": 1152,
-      "winrate": 0.5107,
-      "pickrate": 0.0554,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5107,
-          "games": 29621
-        }
-      ]
-    },
-    {
-      "augmentId": 1062,
-      "winrate": 0.5101,
-      "pickrate": 0.004,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5101,
-          "games": 2129
-        }
-      ]
-    },
-    {
-      "augmentId": 1319,
-      "winrate": 0.5099,
-      "pickrate": 0.0095,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5099,
-          "games": 5056
-        }
-      ]
-    },
-    {
-      "augmentId": 1038,
-      "winrate": 0.5061,
-      "pickrate": 0.0433,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5061,
-          "games": 23158
-        }
-      ]
-    },
-    {
-      "augmentId": 1073,
-      "winrate": 0.5016,
-      "pickrate": 0.0593,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5016,
-          "games": 31720
-        }
-      ]
-    },
-    {
-      "augmentId": 1056,
-      "winrate": 0.5014,
-      "pickrate": 0.0233,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5014,
-          "games": 12449
-        }
-      ]
-    },
-    {
-      "augmentId": 1063,
-      "winrate": 0.5014,
-      "pickrate": 0.0454,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5014,
-          "games": 24290
-        }
-      ]
-    },
-    {
-      "augmentId": 1403,
-      "winrate": 0.4995,
-      "pickrate": 0.0162,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4995,
-          "games": 8654
-        }
-      ]
-    },
-    {
-      "augmentId": 1389,
-      "winrate": 0.4986,
-      "pickrate": 0.002,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4986,
-          "games": 1095
-        }
-      ]
-    },
-    {
-      "augmentId": 1310,
-      "winrate": 0.4983,
-      "pickrate": 0.0369,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4983,
-          "games": 19745
-        }
-      ]
-    },
-    {
-      "augmentId": 1390,
-      "winrate": 0.4981,
-      "pickrate": 0.0688,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4981,
-          "games": 36762
-        }
-      ]
-    },
-    {
-      "augmentId": 1337,
-      "winrate": 0.4971,
-      "pickrate": 0.0045,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4971,
-          "games": 2404
-        }
-      ]
-    },
-    {
-      "augmentId": 1238,
-      "winrate": 0.4967,
-      "pickrate": 0.0885,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4967,
-          "games": 47287
-        }
-      ]
-    },
-    {
-      "augmentId": 1041,
-      "winrate": 0.4964,
-      "pickrate": 0.0381,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4964,
-          "games": 20368
-        }
-      ]
-    },
-    {
-      "augmentId": 1384,
-      "winrate": 0.496,
-      "pickrate": 0.0256,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.496,
-          "games": 13664
-        }
-      ]
-    },
-    {
-      "augmentId": 1388,
-      "winrate": 0.4954,
-      "pickrate": 0.0424,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4954,
-          "games": 22680
-        }
-      ]
-    },
-    {
-      "augmentId": 1013,
-      "winrate": 0.4937,
-      "pickrate": 0.0257,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4937,
-          "games": 13711
-        }
-      ]
-    },
-    {
-      "augmentId": 1308,
-      "winrate": 0.4936,
-      "pickrate": 0.0106,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4936,
-          "games": 5691
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "winrate": 0.4929,
-      "pickrate": 0.0151,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4929,
-          "games": 8065
-        }
-      ]
-    },
-    {
-      "augmentId": 1180,
-      "winrate": 0.4924,
-      "pickrate": 0.0166,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4924,
-          "games": 8872
-        }
-      ]
-    },
-    {
-      "augmentId": 2083,
-      "winrate": 0.4922,
-      "pickrate": 0.0834,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4922,
-          "games": 44578
-        }
-      ]
-    },
-    {
-      "augmentId": 1020,
-      "winrate": 0.4917,
-      "pickrate": 0.0135,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4917,
-          "games": 7212
-        }
-      ]
-    },
-    {
-      "augmentId": 1402,
-      "winrate": 0.491,
-      "pickrate": 0.0052,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.491,
-          "games": 2766
-        }
-      ]
-    },
-    {
-      "augmentId": 1353,
-      "winrate": 0.4908,
-      "pickrate": 0.0591,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4908,
-          "games": 31610
-        }
-      ]
-    },
-    {
-      "augmentId": 1344,
-      "winrate": 0.49,
-      "pickrate": 0.018,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.49,
-          "games": 9641
-        }
-      ]
-    },
-    {
-      "augmentId": 2132,
-      "winrate": 0.49,
-      "pickrate": 0.1634,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.49,
-          "games": 87354
-        }
-      ]
-    },
-    {
       "augmentId": 1001,
-      "winrate": 0.4898,
+      "tier": 3,
       "pickrate": 0.0127,
       "contributions": [
         {
@@ -589,14 +143,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4898,
           "games": 6798
         }
       ]
     },
     {
+      "augmentId": 1013,
+      "tier": 3,
+      "pickrate": 0.0257,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13711
+        }
+      ]
+    },
+    {
       "augmentId": 1019,
-      "winrate": 0.4894,
+      "tier": 3,
       "pickrate": 0.0881,
       "contributions": [
         {
@@ -604,89 +171,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4894,
           "games": 47074
         }
       ]
     },
     {
-      "augmentId": 1318,
-      "winrate": 0.4877,
-      "pickrate": 0.0323,
+      "augmentId": 1020,
+      "tier": 3,
+      "pickrate": 0.0135,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4877,
-          "games": 17274
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "winrate": 0.4865,
-      "pickrate": 0.0057,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4865,
-          "games": 3048
-        }
-      ]
-    },
-    {
-      "augmentId": 1195,
-      "winrate": 0.4851,
-      "pickrate": 0.0087,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4851,
-          "games": 4628
-        }
-      ]
-    },
-    {
-      "augmentId": 1097,
-      "winrate": 0.4848,
-      "pickrate": 0.0412,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4848,
-          "games": 22046
-        }
-      ]
-    },
-    {
-      "augmentId": 1401,
-      "winrate": 0.4847,
-      "pickrate": 0.0258,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4847,
-          "games": 13812
+          "games": 7212
         }
       ]
     },
     {
       "augmentId": 1030,
-      "winrate": 0.4842,
+      "tier": 3,
       "pickrate": 0.0657,
       "contributions": [
         {
@@ -694,44 +199,97 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4842,
           "games": 35104
         }
       ]
     },
     {
-      "augmentId": 1373,
-      "winrate": 0.4842,
-      "pickrate": 0.0339,
+      "augmentId": 1038,
+      "tier": 3,
+      "pickrate": 0.0433,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4842,
-          "games": 18105
+          "games": 23158
         }
       ]
     },
     {
-      "augmentId": 2107,
-      "winrate": 0.4823,
-      "pickrate": 0.0056,
+      "augmentId": 1041,
+      "tier": 3,
+      "pickrate": 0.0381,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4823,
-          "games": 2967
+          "games": 20368
+        }
+      ]
+    },
+    {
+      "augmentId": 1056,
+      "tier": 3,
+      "pickrate": 0.0233,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12449
+        }
+      ]
+    },
+    {
+      "augmentId": 1060,
+      "tier": 3,
+      "pickrate": 0.0151,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8065
+        }
+      ]
+    },
+    {
+      "augmentId": 1062,
+      "tier": 3,
+      "pickrate": 0.004,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2129
+        }
+      ]
+    },
+    {
+      "augmentId": 1063,
+      "tier": 3,
+      "pickrate": 0.0454,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 24290
         }
       ]
     },
     {
       "augmentId": 1068,
-      "winrate": 0.482,
+      "tier": 3,
       "pickrate": 0.0969,
       "contributions": [
         {
@@ -739,539 +297,125 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.482,
           "games": 51784
         }
       ]
     },
     {
-      "augmentId": 2098,
-      "winrate": 0.4814,
-      "pickrate": 0.0081,
+      "augmentId": 1073,
+      "tier": 3,
+      "pickrate": 0.0593,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4814,
-          "games": 4344
+          "games": 31720
         }
       ]
     },
     {
-      "augmentId": 2127,
-      "winrate": 0.4811,
-      "pickrate": 0.025,
+      "augmentId": 1097,
+      "tier": 3,
+      "pickrate": 0.0412,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4811,
-          "games": 13385
+          "games": 22046
         }
       ]
     },
     {
-      "augmentId": 2009,
-      "winrate": 0.4801,
-      "pickrate": 0.0343,
+      "augmentId": 1152,
+      "tier": 3,
+      "pickrate": 0.0554,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4801,
-          "games": 18331
+          "games": 29621
         }
       ]
     },
     {
-      "augmentId": 1205,
-      "winrate": 0.4799,
-      "pickrate": 0.0903,
+      "augmentId": 1180,
+      "tier": 3,
+      "pickrate": 0.0166,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4799,
-          "games": 48289
+          "games": 8872
         }
       ]
     },
     {
-      "augmentId": 1095,
-      "winrate": 0.4788,
-      "pickrate": 0.0032,
+      "augmentId": 1181,
+      "tier": 3,
+      "pickrate": 0.0266,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4788,
-          "games": 1702
+          "games": 14226
         }
       ]
     },
     {
-      "augmentId": 1138,
-      "winrate": 0.4788,
-      "pickrate": 0.0868,
+      "augmentId": 1195,
+      "tier": 3,
+      "pickrate": 0.0087,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4788,
-          "games": 46381
+          "games": 4628
         }
       ]
     },
     {
-      "augmentId": 1237,
-      "winrate": 0.4786,
-      "pickrate": 0.0458,
+      "augmentId": 1238,
+      "tier": 3,
+      "pickrate": 0.0885,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4786,
-          "games": 24497
+          "games": 47287
         }
       ]
     },
     {
-      "augmentId": 2032,
-      "winrate": 0.4784,
-      "pickrate": 0.0069,
+      "augmentId": 1308,
+      "tier": 3,
+      "pickrate": 0.0106,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4784,
-          "games": 3689
+          "games": 5691
         }
       ]
     },
     {
-      "augmentId": 1996,
-      "winrate": 0.4778,
-      "pickrate": 0.0503,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4778,
-          "games": 26881
-        }
-      ]
-    },
-    {
-      "augmentId": 1015,
-      "winrate": 0.4776,
-      "pickrate": 0.0161,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4776,
-          "games": 8607
-        }
-      ]
-    },
-    {
-      "augmentId": 2026,
-      "winrate": 0.4773,
-      "pickrate": 0.0079,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4773,
-          "games": 4249
-        }
-      ]
-    },
-    {
-      "augmentId": 1025,
-      "winrate": 0.4764,
-      "pickrate": 0.022,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4764,
-          "games": 11756
-        }
-      ]
-    },
-    {
-      "augmentId": 1214,
-      "winrate": 0.4756,
-      "pickrate": 0.0843,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4756,
-          "games": 45078
-        }
-      ]
-    },
-    {
-      "augmentId": 1415,
-      "winrate": 0.4756,
-      "pickrate": 0.0148,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4756,
-          "games": 7933
-        }
-      ]
-    },
-    {
-      "augmentId": 1046,
-      "winrate": 0.4754,
-      "pickrate": 0.0089,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4754,
-          "games": 4769
-        }
-      ]
-    },
-    {
-      "augmentId": 1243,
-      "winrate": 0.4748,
-      "pickrate": 0.0217,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4748,
-          "games": 11598
-        }
-      ]
-    },
-    {
-      "augmentId": 1116,
-      "winrate": 0.474,
-      "pickrate": 0.0229,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.474,
-          "games": 12250
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "winrate": 0.4732,
-      "pickrate": 0.0243,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4732,
-          "games": 12987
-        }
-      ]
-    },
-    {
-      "augmentId": 1348,
-      "winrate": 0.4732,
-      "pickrate": 0.0007,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4732,
-          "games": 355
-        }
-      ]
-    },
-    {
-      "augmentId": 1154,
-      "winrate": 0.473,
-      "pickrate": 0.0116,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.473,
-          "games": 6222
-        }
-      ]
-    },
-    {
-      "augmentId": 1149,
-      "winrate": 0.4713,
-      "pickrate": 0.0041,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4713,
-          "games": 2175
-        }
-      ]
-    },
-    {
-      "augmentId": 1098,
-      "winrate": 0.4709,
-      "pickrate": 0.0095,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4709,
-          "games": 5080
-        }
-      ]
-    },
-    {
-      "augmentId": 1305,
-      "winrate": 0.4695,
-      "pickrate": 0.0205,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4695,
-          "games": 10954
-        }
-      ]
-    },
-    {
-      "augmentId": 1187,
-      "winrate": 0.4694,
-      "pickrate": 0.0008,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4694,
-          "games": 441
-        }
-      ]
-    },
-    {
-      "augmentId": 1322,
-      "winrate": 0.4682,
-      "pickrate": 0.0112,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4682,
-          "games": 5999
-        }
-      ]
-    },
-    {
-      "augmentId": 1136,
-      "winrate": 0.4681,
-      "pickrate": 0.0114,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4681,
-          "games": 6089
-        }
-      ]
-    },
-    {
-      "augmentId": 1034,
-      "winrate": 0.4677,
-      "pickrate": 0.0111,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4677,
-          "games": 5929
-        }
-      ]
-    },
-    {
-      "augmentId": 1028,
-      "winrate": 0.4666,
-      "pickrate": 0.0094,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4666,
-          "games": 5039
-        }
-      ]
-    },
-    {
-      "augmentId": 1027,
-      "winrate": 0.4662,
-      "pickrate": 0.0061,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4662,
-          "games": 3252
-        }
-      ]
-    },
-    {
-      "augmentId": 1335,
-      "winrate": 0.4661,
-      "pickrate": 0.003,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4661,
-          "games": 1607
-        }
-      ]
-    },
-    {
-      "augmentId": 2006,
-      "winrate": 0.4659,
-      "pickrate": 0.0579,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4659,
-          "games": 30949
-        }
-      ]
-    },
-    {
-      "augmentId": 1002,
-      "winrate": 0.4643,
-      "pickrate": 0.015,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4643,
-          "games": 8015
-        }
-      ]
-    },
-    {
-      "augmentId": 2139,
-      "winrate": 0.4637,
-      "pickrate": 0.0035,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4637,
-          "games": 1859
-        }
-      ]
-    },
-    {
-      "augmentId": 1048,
-      "winrate": 0.4636,
-      "pickrate": 0.0643,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4636,
-          "games": 34376
-        }
-      ]
-    },
-    {
-      "augmentId": 1018,
-      "winrate": 0.4635,
-      "pickrate": 0.0035,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4635,
-          "games": 1875
-        }
-      ]
-    },
-    {
-      "augmentId": 2091,
-      "winrate": 0.4632,
+      "augmentId": 1310,
+      "tier": 3,
       "pickrate": 0.0369,
       "contributions": [
         {
@@ -1279,299 +423,41 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4632,
-          "games": 19738
+          "games": 19745
         }
       ]
     },
     {
-      "augmentId": 1150,
-      "winrate": 0.4628,
-      "pickrate": 0.0584,
+      "augmentId": 1315,
+      "tier": 3,
+      "pickrate": 0.0479,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4628,
-          "games": 31239
+          "games": 25617
         }
       ]
     },
     {
-      "augmentId": 2089,
-      "winrate": 0.4628,
-      "pickrate": 0.0068,
+      "augmentId": 1318,
+      "tier": 3,
+      "pickrate": 0.0323,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4628,
-          "games": 3632
+          "games": 17274
         }
       ]
     },
     {
-      "augmentId": 1151,
-      "winrate": 0.4624,
-      "pickrate": 0.0304,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4624,
-          "games": 16234
-        }
-      ]
-    },
-    {
-      "augmentId": 2082,
-      "winrate": 0.462,
-      "pickrate": 0.0099,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.462,
-          "games": 5296
-        }
-      ]
-    },
-    {
-      "augmentId": 2099,
-      "winrate": 0.4602,
-      "pickrate": 0.0265,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4602,
-          "games": 14150
-        }
-      ]
-    },
-    {
-      "augmentId": 1349,
-      "winrate": 0.4585,
-      "pickrate": 0.0197,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4585,
-          "games": 10533
-        }
-      ]
-    },
-    {
-      "augmentId": 1084,
-      "winrate": 0.4576,
-      "pickrate": 0.0351,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4576,
-          "games": 18741
-        }
-      ]
-    },
-    {
-      "augmentId": 1058,
-      "winrate": 0.4572,
-      "pickrate": 0.0474,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4572,
-          "games": 25355
-        }
-      ]
-    },
-    {
-      "augmentId": 1311,
-      "winrate": 0.4568,
-      "pickrate": 0.0198,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4568,
-          "games": 10582
-        }
-      ]
-    },
-    {
-      "augmentId": 2043,
-      "winrate": 0.4549,
-      "pickrate": 0.007,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4549,
-          "games": 3744
-        }
-      ]
-    },
-    {
-      "augmentId": 2115,
-      "winrate": 0.4547,
-      "pickrate": 0.0014,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4547,
-          "games": 728
-        }
-      ]
-    },
-    {
-      "augmentId": 2077,
-      "winrate": 0.4543,
-      "pickrate": 0.0582,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4543,
-          "games": 31108
-        }
-      ]
-    },
-    {
-      "augmentId": 1211,
-      "winrate": 0.4538,
-      "pickrate": 0.0059,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4538,
-          "games": 3180
-        }
-      ]
-    },
-    {
-      "augmentId": 2016,
-      "winrate": 0.4538,
-      "pickrate": 0.0117,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4538,
-          "games": 6229
-        }
-      ]
-    },
-    {
-      "augmentId": 2005,
-      "winrate": 0.4527,
-      "pickrate": 0.0253,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4527,
-          "games": 13513
-        }
-      ]
-    },
-    {
-      "augmentId": 1054,
-      "winrate": 0.4518,
-      "pickrate": 0.0228,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4518,
-          "games": 12168
-        }
-      ]
-    },
-    {
-      "augmentId": 1326,
-      "winrate": 0.4512,
-      "pickrate": 0.0153,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4512,
-          "games": 8156
-        }
-      ]
-    },
-    {
-      "augmentId": 1358,
-      "winrate": 0.4505,
-      "pickrate": 0.0134,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4505,
-          "games": 7167
-        }
-      ]
-    },
-    {
-      "augmentId": 2034,
-      "winrate": 0.4492,
-      "pickrate": 0.0088,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4492,
-          "games": 4702
-        }
-      ]
-    },
-    {
-      "augmentId": 1345,
-      "winrate": 0.4488,
+      "augmentId": 1319,
+      "tier": 3,
       "pickrate": 0.0095,
       "contributions": [
         {
@@ -1579,344 +465,97 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4488,
-          "games": 5085
+          "games": 5056
         }
       ]
     },
     {
-      "augmentId": 1057,
-      "winrate": 0.4485,
-      "pickrate": 0.0018,
+      "augmentId": 1337,
+      "tier": 3,
+      "pickrate": 0.0045,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4485,
-          "games": 952
+          "games": 2404
         }
       ]
     },
     {
-      "augmentId": 12317,
-      "winrate": 0.4484,
-      "pickrate": 0.0178,
+      "augmentId": 1344,
+      "tier": 3,
+      "pickrate": 0.018,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4484,
-          "games": 9505
+          "games": 9641
         }
       ]
     },
     {
-      "augmentId": 1332,
-      "winrate": 0.448,
-      "pickrate": 0.0192,
+      "augmentId": 1353,
+      "tier": 3,
+      "pickrate": 0.0591,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.448,
-          "games": 10287
+          "games": 31610
         }
       ]
     },
     {
-      "augmentId": 1375,
-      "winrate": 0.4466,
-      "pickrate": 0.0078,
+      "augmentId": 1373,
+      "tier": 3,
+      "pickrate": 0.0339,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4466,
-          "games": 4187
+          "games": 18105
         }
       ]
     },
     {
-      "augmentId": 1301,
-      "winrate": 0.4465,
-      "pickrate": 0.0083,
+      "augmentId": 1384,
+      "tier": 3,
+      "pickrate": 0.0256,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4465,
-          "games": 4410
+          "games": 13664
         }
       ]
     },
     {
-      "augmentId": 2100,
-      "winrate": 0.4443,
-      "pickrate": 0.0398,
+      "augmentId": 1388,
+      "tier": 3,
+      "pickrate": 0.0424,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4443,
-          "games": 21276
+          "games": 22680
         }
       ]
     },
     {
-      "augmentId": 1421,
-      "winrate": 0.444,
-      "pickrate": 0.0013,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.444,
-          "games": 696
-        }
-      ]
-    },
-    {
-      "augmentId": 2088,
-      "winrate": 0.4438,
-      "pickrate": 0.0119,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4438,
-          "games": 6343
-        }
-      ]
-    },
-    {
-      "augmentId": 1029,
-      "winrate": 0.4425,
-      "pickrate": 0.0692,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4425,
-          "games": 37014
-        }
-      ]
-    },
-    {
-      "augmentId": 2018,
-      "winrate": 0.4423,
-      "pickrate": 0.0184,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4423,
-          "games": 9814
-        }
-      ]
-    },
-    {
-      "augmentId": 1112,
-      "winrate": 0.4416,
-      "pickrate": 0.01,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4416,
-          "games": 5337
-        }
-      ]
-    },
-    {
-      "augmentId": 1011,
-      "winrate": 0.4415,
-      "pickrate": 0.0032,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4415,
-          "games": 1692
-        }
-      ]
-    },
-    {
-      "augmentId": 1044,
-      "winrate": 0.4405,
-      "pickrate": 0.0015,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4405,
-          "games": 824
-        }
-      ]
-    },
-    {
-      "augmentId": 2087,
-      "winrate": 0.44,
-      "pickrate": 0.0384,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.44,
-          "games": 20505
-        }
-      ]
-    },
-    {
-      "augmentId": 1103,
-      "winrate": 0.4395,
-      "pickrate": 0.0096,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4395,
-          "games": 5119
-        }
-      ]
-    },
-    {
-      "augmentId": 1006,
-      "winrate": 0.4371,
-      "pickrate": 0.0069,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4371,
-          "games": 3686
-        }
-      ]
-    },
-    {
-      "augmentId": 2116,
-      "winrate": 0.4369,
-      "pickrate": 0.0265,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4369,
-          "games": 14139
-        }
-      ]
-    },
-    {
-      "augmentId": 2137,
-      "winrate": 0.4364,
-      "pickrate": 0.0019,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4364,
-          "games": 1038
-        }
-      ]
-    },
-    {
-      "augmentId": 2123,
-      "winrate": 0.4342,
-      "pickrate": 0.0268,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4342,
-          "games": 14336
-        }
-      ]
-    },
-    {
-      "augmentId": 1392,
-      "winrate": 0.4311,
-      "pickrate": 0.0062,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4311,
-          "games": 3326
-        }
-      ]
-    },
-    {
-      "augmentId": 1413,
-      "winrate": 0.431,
-      "pickrate": 0.0016,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.431,
-          "games": 833
-        }
-      ]
-    },
-    {
-      "augmentId": 2042,
-      "winrate": 0.431,
-      "pickrate": 0.0008,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.431,
-          "games": 413
-        }
-      ]
-    },
-    {
-      "augmentId": 1323,
-      "winrate": 0.4272,
+      "augmentId": 1389,
+      "tier": 3,
       "pickrate": 0.002,
       "contributions": [
         {
@@ -1924,59 +563,139 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4272,
-          "games": 1065
+          "games": 1095
         }
       ]
     },
     {
-      "augmentId": 2080,
-      "winrate": 0.4238,
-      "pickrate": 0.0137,
+      "augmentId": 1390,
+      "tier": 3,
+      "pickrate": 0.0688,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4238,
-          "games": 7324
+          "games": 36762
         }
       ]
     },
     {
-      "augmentId": 2134,
-      "winrate": 0.4116,
-      "pickrate": 0.001,
+      "augmentId": 1401,
+      "tier": 3,
+      "pickrate": 0.0258,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4116,
-          "games": 554
+          "games": 13812
         }
       ]
     },
     {
-      "augmentId": 2118,
-      "winrate": 0.4074,
-      "pickrate": 0.002,
+      "augmentId": 1402,
+      "tier": 3,
+      "pickrate": 0.0052,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4074,
-          "games": 1085
+          "games": 2766
         }
       ]
     },
     {
-      "augmentId": 1088,
-      "winrate": 0.4005,
+      "augmentId": 1403,
+      "tier": 3,
+      "pickrate": 0.0162,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8654
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": 3,
+      "pickrate": 0.0057,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3048
+        }
+      ]
+    },
+    {
+      "augmentId": 2009,
+      "tier": 3,
+      "pickrate": 0.0343,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18331
+        }
+      ]
+    },
+    {
+      "augmentId": 2083,
+      "tier": 3,
+      "pickrate": 0.0834,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 44578
+        }
+      ]
+    },
+    {
+      "augmentId": 2098,
+      "tier": 3,
+      "pickrate": 0.0081,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4344
+        }
+      ]
+    },
+    {
+      "augmentId": 2107,
+      "tier": 3,
+      "pickrate": 0.0056,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2967
+        }
+      ]
+    },
+    {
+      "augmentId": 2119,
+      "tier": 3,
       "pickrate": 0.0036,
       "contributions": [
         {
@@ -1984,14 +703,937 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4005,
+          "games": 1948
+        }
+      ]
+    },
+    {
+      "augmentId": 2127,
+      "tier": 3,
+      "pickrate": 0.025,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13385
+        }
+      ]
+    },
+    {
+      "augmentId": 2132,
+      "tier": 3,
+      "pickrate": 0.1634,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 87354
+        }
+      ]
+    },
+    {
+      "augmentId": 1002,
+      "tier": 4,
+      "pickrate": 0.015,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8015
+        }
+      ]
+    },
+    {
+      "augmentId": 1015,
+      "tier": 4,
+      "pickrate": 0.0161,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8607
+        }
+      ]
+    },
+    {
+      "augmentId": 1018,
+      "tier": 4,
+      "pickrate": 0.0035,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1875
+        }
+      ]
+    },
+    {
+      "augmentId": 1025,
+      "tier": 4,
+      "pickrate": 0.022,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11756
+        }
+      ]
+    },
+    {
+      "augmentId": 1027,
+      "tier": 4,
+      "pickrate": 0.0061,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3252
+        }
+      ]
+    },
+    {
+      "augmentId": 1028,
+      "tier": 4,
+      "pickrate": 0.0094,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5039
+        }
+      ]
+    },
+    {
+      "augmentId": 1034,
+      "tier": 4,
+      "pickrate": 0.0111,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5929
+        }
+      ]
+    },
+    {
+      "augmentId": 1046,
+      "tier": 4,
+      "pickrate": 0.0089,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4769
+        }
+      ]
+    },
+    {
+      "augmentId": 1048,
+      "tier": 4,
+      "pickrate": 0.0643,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 34376
+        }
+      ]
+    },
+    {
+      "augmentId": 1054,
+      "tier": 4,
+      "pickrate": 0.0228,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12168
+        }
+      ]
+    },
+    {
+      "augmentId": 1058,
+      "tier": 4,
+      "pickrate": 0.0474,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 25355
+        }
+      ]
+    },
+    {
+      "augmentId": 1084,
+      "tier": 4,
+      "pickrate": 0.0351,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18741
+        }
+      ]
+    },
+    {
+      "augmentId": 1095,
+      "tier": 4,
+      "pickrate": 0.0032,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1702
+        }
+      ]
+    },
+    {
+      "augmentId": 1098,
+      "tier": 4,
+      "pickrate": 0.0095,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5080
+        }
+      ]
+    },
+    {
+      "augmentId": 1116,
+      "tier": 4,
+      "pickrate": 0.0229,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12250
+        }
+      ]
+    },
+    {
+      "augmentId": 1136,
+      "tier": 4,
+      "pickrate": 0.0114,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6089
+        }
+      ]
+    },
+    {
+      "augmentId": 1138,
+      "tier": 4,
+      "pickrate": 0.0868,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 46381
+        }
+      ]
+    },
+    {
+      "augmentId": 1149,
+      "tier": 4,
+      "pickrate": 0.0041,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2175
+        }
+      ]
+    },
+    {
+      "augmentId": 1150,
+      "tier": 4,
+      "pickrate": 0.0584,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 31239
+        }
+      ]
+    },
+    {
+      "augmentId": 1151,
+      "tier": 4,
+      "pickrate": 0.0304,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16234
+        }
+      ]
+    },
+    {
+      "augmentId": 1154,
+      "tier": 4,
+      "pickrate": 0.0116,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6222
+        }
+      ]
+    },
+    {
+      "augmentId": 1187,
+      "tier": 4,
+      "pickrate": 0.0008,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 441
+        }
+      ]
+    },
+    {
+      "augmentId": 1205,
+      "tier": 4,
+      "pickrate": 0.0903,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 48289
+        }
+      ]
+    },
+    {
+      "augmentId": 1211,
+      "tier": 4,
+      "pickrate": 0.0059,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3180
+        }
+      ]
+    },
+    {
+      "augmentId": 1214,
+      "tier": 4,
+      "pickrate": 0.0843,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 45078
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": 4,
+      "pickrate": 0.0458,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 24497
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": 4,
+      "pickrate": 0.0217,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11598
+        }
+      ]
+    },
+    {
+      "augmentId": 1305,
+      "tier": 4,
+      "pickrate": 0.0205,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10954
+        }
+      ]
+    },
+    {
+      "augmentId": 1311,
+      "tier": 4,
+      "pickrate": 0.0198,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10582
+        }
+      ]
+    },
+    {
+      "augmentId": 1322,
+      "tier": 4,
+      "pickrate": 0.0112,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5999
+        }
+      ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": 4,
+      "pickrate": 0.0153,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8156
+        }
+      ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": 4,
+      "pickrate": 0.0243,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12987
+        }
+      ]
+    },
+    {
+      "augmentId": 1335,
+      "tier": 4,
+      "pickrate": 0.003,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1607
+        }
+      ]
+    },
+    {
+      "augmentId": 1348,
+      "tier": 4,
+      "pickrate": 0.0007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 355
+        }
+      ]
+    },
+    {
+      "augmentId": 1349,
+      "tier": 4,
+      "pickrate": 0.0197,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10533
+        }
+      ]
+    },
+    {
+      "augmentId": 1358,
+      "tier": 4,
+      "pickrate": 0.0134,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7167
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": 4,
+      "pickrate": 0.0148,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7933
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": 4,
+      "pickrate": 0.0503,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 26881
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": 4,
+      "pickrate": 0.0253,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13513
+        }
+      ]
+    },
+    {
+      "augmentId": 2006,
+      "tier": 4,
+      "pickrate": 0.0579,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 30949
+        }
+      ]
+    },
+    {
+      "augmentId": 2016,
+      "tier": 4,
+      "pickrate": 0.0117,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6229
+        }
+      ]
+    },
+    {
+      "augmentId": 2026,
+      "tier": 4,
+      "pickrate": 0.0079,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4249
+        }
+      ]
+    },
+    {
+      "augmentId": 2032,
+      "tier": 4,
+      "pickrate": 0.0069,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3689
+        }
+      ]
+    },
+    {
+      "augmentId": 2043,
+      "tier": 4,
+      "pickrate": 0.007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3744
+        }
+      ]
+    },
+    {
+      "augmentId": 2077,
+      "tier": 4,
+      "pickrate": 0.0582,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 31108
+        }
+      ]
+    },
+    {
+      "augmentId": 2082,
+      "tier": 4,
+      "pickrate": 0.0099,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5296
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": 4,
+      "pickrate": 0.0068,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3632
+        }
+      ]
+    },
+    {
+      "augmentId": 2091,
+      "tier": 4,
+      "pickrate": 0.0369,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 19738
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": 4,
+      "pickrate": 0.0265,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14150
+        }
+      ]
+    },
+    {
+      "augmentId": 2115,
+      "tier": 4,
+      "pickrate": 0.0014,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 728
+        }
+      ]
+    },
+    {
+      "augmentId": 2139,
+      "tier": 4,
+      "pickrate": 0.0035,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1859
+        }
+      ]
+    },
+    {
+      "augmentId": 1006,
+      "tier": 5,
+      "pickrate": 0.0069,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3686
+        }
+      ]
+    },
+    {
+      "augmentId": 1011,
+      "tier": 5,
+      "pickrate": 0.0032,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1692
+        }
+      ]
+    },
+    {
+      "augmentId": 1029,
+      "tier": 5,
+      "pickrate": 0.0692,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 37014
+        }
+      ]
+    },
+    {
+      "augmentId": 1044,
+      "tier": 5,
+      "pickrate": 0.0015,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 824
+        }
+      ]
+    },
+    {
+      "augmentId": 1057,
+      "tier": 5,
+      "pickrate": 0.0018,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 952
+        }
+      ]
+    },
+    {
+      "augmentId": 1088,
+      "tier": 5,
+      "pickrate": 0.0036,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
           "games": 1945
         }
       ]
     },
     {
+      "augmentId": 1103,
+      "tier": 5,
+      "pickrate": 0.0096,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5119
+        }
+      ]
+    },
+    {
+      "augmentId": 1112,
+      "tier": 5,
+      "pickrate": 0.01,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5337
+        }
+      ]
+    },
+    {
+      "augmentId": 1301,
+      "tier": 5,
+      "pickrate": 0.0083,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4410
+        }
+      ]
+    },
+    {
+      "augmentId": 1323,
+      "tier": 5,
+      "pickrate": 0.002,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1065
+        }
+      ]
+    },
+    {
+      "augmentId": 1332,
+      "tier": 5,
+      "pickrate": 0.0192,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10287
+        }
+      ]
+    },
+    {
+      "augmentId": 1345,
+      "tier": 5,
+      "pickrate": 0.0095,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5085
+        }
+      ]
+    },
+    {
+      "augmentId": 1375,
+      "tier": 5,
+      "pickrate": 0.0078,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4187
+        }
+      ]
+    },
+    {
       "augmentId": 1386,
-      "winrate": 0.3796,
+      "tier": 5,
       "pickrate": 0.0012,
       "contributions": [
         {
@@ -1999,14 +1641,41 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3796,
           "games": 648
         }
       ]
     },
     {
-      "augmentId": 2063,
-      "winrate": 0.3685,
+      "augmentId": 1392,
+      "tier": 5,
+      "pickrate": 0.0062,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3326
+        }
+      ]
+    },
+    {
+      "augmentId": 1413,
+      "tier": 5,
+      "pickrate": 0.0016,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 833
+        }
+      ]
+    },
+    {
+      "augmentId": 1421,
+      "tier": 5,
       "pickrate": 0.0013,
       "contributions": [
         {
@@ -2014,11 +1683,205 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3685,
+          "games": 696
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": 5,
+      "pickrate": 0.0184,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9814
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": 5,
+      "pickrate": 0.0088,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4702
+        }
+      ]
+    },
+    {
+      "augmentId": 2042,
+      "tier": 5,
+      "pickrate": 0.0008,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 413
+        }
+      ]
+    },
+    {
+      "augmentId": 2063,
+      "tier": 5,
+      "pickrate": 0.0013,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
           "games": 711
         }
       ]
+    },
+    {
+      "augmentId": 2080,
+      "tier": 5,
+      "pickrate": 0.0137,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7324
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": 5,
+      "pickrate": 0.0384,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 20505
+        }
+      ]
+    },
+    {
+      "augmentId": 2088,
+      "tier": 5,
+      "pickrate": 0.0119,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6343
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": 5,
+      "pickrate": 0.0398,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 21276
+        }
+      ]
+    },
+    {
+      "augmentId": 2116,
+      "tier": 5,
+      "pickrate": 0.0265,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14139
+        }
+      ]
+    },
+    {
+      "augmentId": 2118,
+      "tier": 5,
+      "pickrate": 0.002,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1085
+        }
+      ]
+    },
+    {
+      "augmentId": 2123,
+      "tier": 5,
+      "pickrate": 0.0268,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14336
+        }
+      ]
+    },
+    {
+      "augmentId": 2134,
+      "tier": 5,
+      "pickrate": 0.001,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 554
+        }
+      ]
+    },
+    {
+      "augmentId": 2137,
+      "tier": 5,
+      "pickrate": 0.0019,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1038
+        }
+      ]
+    },
+    {
+      "augmentId": 12317,
+      "tier": 5,
+      "pickrate": 0.0178,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/sylas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9505
+        }
+      ]
     }
-  ],
-  "method": "equal-source-mean"
+  ]
 }

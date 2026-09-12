@@ -1,59 +1,47 @@
-# Mayhem champion augment source averages
+# Mayhem champion augment ratings
 
-`pnpm ingest:mayhem` polls ARAMGG, ARAMKit, and Mayhem:Meta for every champion.
-The **Mayhem source polling** GitHub Actions workflow runs every six hours, at
-00:43, 06:43, 12:43, and 18:43 UTC, and can also be dispatched manually.
-Use `pnpm ingest:mayhem --champion=Thresh` for a focused local diagnostic.
+Warden presents augment recommendations as **Tier 1–5**, with Tier 1 highest.
+The overlay also shows champion-specific pick rate when available. Pick rate is
+popularity, not the chance of winning or a measure of strength. Missing champion
+ratings fall back to an explicitly labeled fit estimate or global catalog tier.
+All offered cards remain visible.
 
-Each champion/augment gets the arithmetic mean of the eligible source win rates.
-Each source gets one vote regardless of its sample size; overlapping match
-populations are possible, so sample counts are retained separately and never
-added together. This is a source average, not a pooled match win rate or a
-prediction for the player's current build. Repeated polls replace observations;
-they do not increase their weight.
+These are Warden ratings. The presentation follows the tier badges visible on
+Blitz's public Mayhem pages; Warden does not claim to reproduce Blitz's private
+formula or to have Riot's approval. Riot's published League policy prohibits
+augment win-rate displays. Product and feature review is still required:
+https://developer.riotgames.com/docs/lol#game-policy
 
-Eligibility requires the requested champion, champion-specific win and pick
-rates, at least 255 reported games, and a matching patch. Riot's 16.x API labels
-and sites' 26.x display labels are normalized. The target is the newest patch
-known to the local game catalog or ARAMKit's version manifest. Mayhem:Meta's
-actual page title determines its patch: its server may ignore the requested
-patch and return an older page. A single eligible source is explicitly labeled
-as one source. Missing rows never become zeroes.
+## Evidence and delivery
 
-ARAMMayhem.net is excluded because it derives data from ARAMGG.
-ARAMMayhem.com is excluded because its champion pages repeat global augment
-win rates. PlayARAM is excluded pending a verified accessible public feed:
-automated requests returned HTTP 403. No challenge bypass is attempted.
+The maintainer job polls ARAMGG, ARAMKit and Mayhem:Meta every six hours. Inputs
+must identify the requested champion and patch, declare champion-specific
+statistics, and report at least 255 games. Repeated polls replace observations.
+Source datasets can overlap, so their game counts are never added together.
+Mirrors and sources that repeat global data on champion pages are excluded.
 
-Sources:
+The private ingestion stage computes historical performance bands from eligible
+source averages. The **public stage exports only tier, pick rate, patch, source
+URLs, retrieval dates and per-source game counts**. It exports no win percentages,
+wins/losses, raw source responses or precise performance scores. The desktop
+ranks the public tiers and uses its champion-fit heuristic to break ties.
+Local observed win/loss counts no longer determine Mayhem's displayed rating.
 
-- ARAMGG: https://aramgg.com/en/champion-stats/412
-- ARAMKit manifest: https://data.aramkit.com/data/versions.json
-- Mayhem:Meta: https://mayhemmeta.com/champions/thresh
-- ARAMMayhem.net methodology: https://www.arammayhem.net/methodology/
+Run the polling stage with pnpm ingest:mayhem, then prepare publication with
+pnpm exec tsx scripts/publish-mayhem-ratings.ts. The second command writes the
+allowlisted public snapshots into .ingest-cache/public-mayhem. Publication
+replaces the current JSON files on the mayhem-data branch of
+snacbot/warden-releases. Git history is preserved. Application source and
+credentials are never published.
 
-Normalized last-successful source responses are cached under
-`.ingest-cache/mayhem/`, including through Actions cache. Failed polls retain
-their original timestamps; inputs older than seven days are excluded. Source
-fetch timestamps mean last successful retrieval, not the age of individual
-matches. The status report records failures, observed patches, and coverage at
-`data/augments/thirdparty/consensus/status.json`. Partial source outages can
-publish the remaining eligible data; a complete outage fails the job.
+The desktop caches remote snapshots for six hours and retries outages after
+15 minutes. It falls back to current bundled data, converts legacy private
+snapshots to the same public rating shape, and rejects expired inputs or patches
+older than its bundled game catalog. Inputs expire after seven days. An app
+update is required to display the new format; older desktop releases may retain
+old bundled displays until updated.
 
-Per-champion snapshots in `data/augments/thirdparty/consensus/` include each
-contributing rate, sample count, patch, source URL, and retrieval time. Writes
-are atomic per file. The workflow copies only these public-source statistics
-and this README to the `mayhem-data` branch of `snacbot/warden-releases`, using
-the existing `RELEASES_REPO_TOKEN`. No application source or credentials are
-published. The desktop agent reads those snapshots from that public data
-branch, caching successful reads for six hours and retrying failures after
-15 minutes. It falls back to recent bundled data when offline, revalidates the
-average and timestamps on read, and refuses snapshots older than its bundled
-game patch. The first app update is required to install this reader; subsequent
-polls reach it without requiring a new Windows release. `WARDEN_MAYHEM_BASE_URL`
-can override the snapshot directory for development. Other data transports are
-unchanged. Tests use the local transport unless a mock URL is supplied.
-
-The overlay displays one decimal place and the number of contributing sources.
-Its tooltip includes the patch and individual sample counts. Existing locally
-observed evidence retains its established precedence over external rates.
+Tooltips explain the historical rating and list the patch and source sample
+counts. They do not display source win rates or local win/loss scorelines.
+Percentages in augment effect descriptions are ordinary game mechanics; the
+restriction concerns outcome statistics.

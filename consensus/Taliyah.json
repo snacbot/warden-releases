@@ -1,17 +1,15 @@
 {
+  "version": 1,
+  "method": "warden-performance-tiers-v1",
   "championId": 163,
   "championKey": "Taliyah",
   "set": "aram",
-  "source": "Mayhem source average",
-  "sourceUrl": "https://github.com/snacbot/warden-releases/blob/mayhem-data/README.md",
-  "winrateScope": "champion",
-  "pickrateScope": "champion",
   "patch": "16.18",
   "scrapedAt": "2026-09-12T02:34:26.350Z",
   "augments": [
     {
       "augmentId": 2095,
-      "winrate": 0.5609,
+      "tier": 1,
       "pickrate": 0.0285,
       "contributions": [
         {
@@ -19,14 +17,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5609,
           "games": 3997
         }
       ]
     },
     {
       "augmentId": 1004,
-      "winrate": 0.5406,
+      "tier": 2,
       "pickrate": 0.1769,
       "contributions": [
         {
@@ -34,29 +31,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5406,
           "games": 24830
         }
       ]
     },
     {
-      "augmentId": 1195,
-      "winrate": 0.531,
-      "pickrate": 0.0343,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.531,
-          "games": 4821
-        }
-      ]
-    },
-    {
       "augmentId": 1053,
-      "winrate": 0.5227,
+      "tier": 2,
       "pickrate": 0.0309,
       "contributions": [
         {
@@ -64,14 +45,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5227,
           "games": 4343
         }
       ]
     },
     {
+      "augmentId": 1195,
+      "tier": 2,
+      "pickrate": 0.0343,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4821
+        }
+      ]
+    },
+    {
       "augmentId": 1375,
-      "winrate": 0.5223,
+      "tier": 2,
       "pickrate": 0.0037,
       "contributions": [
         {
@@ -79,134 +73,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5223,
           "games": 515
         }
       ]
     },
     {
-      "augmentId": 1038,
-      "winrate": 0.518,
-      "pickrate": 0.0579,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.518,
-          "games": 8127
-        }
-      ]
-    },
-    {
-      "augmentId": 1105,
-      "winrate": 0.5142,
-      "pickrate": 0.0597,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5142,
-          "games": 8376
-        }
-      ]
-    },
-    {
-      "augmentId": 2132,
-      "winrate": 0.5117,
-      "pickrate": 0.1507,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5117,
-          "games": 21153
-        }
-      ]
-    },
-    {
-      "augmentId": 1335,
-      "winrate": 0.5106,
-      "pickrate": 0.0121,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5106,
-          "games": 1692
-        }
-      ]
-    },
-    {
-      "augmentId": 1180,
-      "winrate": 0.5052,
-      "pickrate": 0.0279,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5052,
-          "games": 3917
-        }
-      ]
-    },
-    {
-      "augmentId": 1390,
-      "winrate": 0.5052,
-      "pickrate": 0.1253,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5052,
-          "games": 17586
-        }
-      ]
-    },
-    {
-      "augmentId": 1136,
-      "winrate": 0.5047,
-      "pickrate": 0.0173,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5047,
-          "games": 2433
-        }
-      ]
-    },
-    {
-      "augmentId": 1156,
-      "winrate": 0.503,
-      "pickrate": 0.0535,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.503,
-          "games": 7515
-        }
-      ]
-    },
-    {
       "augmentId": 1028,
-      "winrate": 0.5018,
+      "tier": 3,
       "pickrate": 0.0315,
       "contributions": [
         {
@@ -214,224 +87,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5018,
           "games": 4418
         }
       ]
     },
     {
-      "augmentId": 1138,
-      "winrate": 0.4995,
-      "pickrate": 0.0356,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4995,
-          "games": 4991
-        }
-      ]
-    },
-    {
-      "augmentId": 1388,
-      "winrate": 0.4994,
-      "pickrate": 0.0658,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4994,
-          "games": 9233
-        }
-      ]
-    },
-    {
-      "augmentId": 1403,
-      "winrate": 0.4994,
-      "pickrate": 0.0193,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4994,
-          "games": 2713
-        }
-      ]
-    },
-    {
-      "augmentId": 1389,
-      "winrate": 0.499,
-      "pickrate": 0.0071,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.499,
-          "games": 996
-        }
-      ]
-    },
-    {
-      "augmentId": 1062,
-      "winrate": 0.4964,
-      "pickrate": 0.0138,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4964,
-          "games": 1938
-        }
-      ]
-    },
-    {
-      "augmentId": 1402,
-      "winrate": 0.4964,
-      "pickrate": 0.0099,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4964,
-          "games": 1384
-        }
-      ]
-    },
-    {
-      "augmentId": 2116,
-      "winrate": 0.4954,
-      "pickrate": 0.0782,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4954,
-          "games": 10980
-        }
-      ]
-    },
-    {
-      "augmentId": 1373,
-      "winrate": 0.4952,
-      "pickrate": 0.1032,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4952,
-          "games": 14480
-        }
-      ]
-    },
-    {
-      "augmentId": 1318,
-      "winrate": 0.494,
-      "pickrate": 0.063,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.494,
-          "games": 8845
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "winrate": 0.4938,
-      "pickrate": 0.0317,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4938,
-          "games": 4449
-        }
-      ]
-    },
-    {
-      "augmentId": 1098,
-      "winrate": 0.4937,
-      "pickrate": 0.0298,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4937,
-          "games": 4177
-        }
-      ]
-    },
-    {
-      "augmentId": 2127,
-      "winrate": 0.493,
-      "pickrate": 0.0374,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.493,
-          "games": 5256
-        }
-      ]
-    },
-    {
-      "augmentId": 1308,
-      "winrate": 0.4905,
-      "pickrate": 0.0168,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4905,
-          "games": 2365
-        }
-      ]
-    },
-    {
-      "augmentId": 1056,
-      "winrate": 0.4904,
-      "pickrate": 0.0181,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4904,
-          "games": 2539
-        }
-      ]
-    },
-    {
       "augmentId": 1030,
-      "winrate": 0.4899,
+      "tier": 3,
       "pickrate": 0.1147,
       "contributions": [
         {
@@ -439,89 +101,55 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4899,
           "games": 16102
         }
       ]
     },
     {
-      "augmentId": 1238,
-      "winrate": 0.4883,
-      "pickrate": 0.1207,
+      "augmentId": 1038,
+      "tier": 3,
+      "pickrate": 0.0579,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4883,
-          "games": 16939
+          "games": 8127
         }
       ]
     },
     {
-      "augmentId": 2098,
-      "winrate": 0.4862,
-      "pickrate": 0.0065,
+      "augmentId": 1056,
+      "tier": 3,
+      "pickrate": 0.0181,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4862,
-          "games": 909
+          "games": 2539
         }
       ]
     },
     {
-      "augmentId": 2129,
-      "winrate": 0.4847,
-      "pickrate": 0.0251,
+      "augmentId": 1060,
+      "tier": 3,
+      "pickrate": 0.0317,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4847,
-          "games": 3520
-        }
-      ]
-    },
-    {
-      "augmentId": 1133,
-      "winrate": 0.4846,
-      "pickrate": 0.131,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4846,
-          "games": 18392
-        }
-      ]
-    },
-    {
-      "augmentId": 1068,
-      "winrate": 0.4837,
-      "pickrate": 0.117,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4837,
-          "games": 16419
+          "games": 4449
         }
       ]
     },
     {
       "augmentId": 1061,
-      "winrate": 0.4836,
+      "tier": 3,
       "pickrate": 0.0122,
       "contributions": [
         {
@@ -529,29 +157,181 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4836,
           "games": 1706
         }
       ]
     },
     {
-      "augmentId": 1337,
-      "winrate": 0.4833,
-      "pickrate": 0.0096,
+      "augmentId": 1062,
+      "tier": 3,
+      "pickrate": 0.0138,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4833,
-          "games": 1349
+          "games": 1938
+        }
+      ]
+    },
+    {
+      "augmentId": 1068,
+      "tier": 3,
+      "pickrate": 0.117,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16419
+        }
+      ]
+    },
+    {
+      "augmentId": 1098,
+      "tier": 3,
+      "pickrate": 0.0298,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4177
+        }
+      ]
+    },
+    {
+      "augmentId": 1105,
+      "tier": 3,
+      "pickrate": 0.0597,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8376
+        }
+      ]
+    },
+    {
+      "augmentId": 1133,
+      "tier": 3,
+      "pickrate": 0.131,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18392
+        }
+      ]
+    },
+    {
+      "augmentId": 1136,
+      "tier": 3,
+      "pickrate": 0.0173,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2433
+        }
+      ]
+    },
+    {
+      "augmentId": 1138,
+      "tier": 3,
+      "pickrate": 0.0356,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4991
+        }
+      ]
+    },
+    {
+      "augmentId": 1156,
+      "tier": 3,
+      "pickrate": 0.0535,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7515
+        }
+      ]
+    },
+    {
+      "augmentId": 1180,
+      "tier": 3,
+      "pickrate": 0.0279,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3917
+        }
+      ]
+    },
+    {
+      "augmentId": 1238,
+      "tier": 3,
+      "pickrate": 0.1207,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16939
+        }
+      ]
+    },
+    {
+      "augmentId": 1308,
+      "tier": 3,
+      "pickrate": 0.0168,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2365
+        }
+      ]
+    },
+    {
+      "augmentId": 1318,
+      "tier": 3,
+      "pickrate": 0.063,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8845
         }
       ]
     },
     {
       "augmentId": 1332,
-      "winrate": 0.4831,
+      "tier": 3,
       "pickrate": 0.0178,
       "contributions": [
         {
@@ -559,14 +339,55 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4831,
           "games": 2492
         }
       ]
     },
     {
+      "augmentId": 1335,
+      "tier": 3,
+      "pickrate": 0.0121,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1692
+        }
+      ]
+    },
+    {
+      "augmentId": 1337,
+      "tier": 3,
+      "pickrate": 0.0096,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1349
+        }
+      ]
+    },
+    {
+      "augmentId": 1373,
+      "tier": 3,
+      "pickrate": 0.1032,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14480
+        }
+      ]
+    },
+    {
       "augmentId": 1384,
-      "winrate": 0.4828,
+      "tier": 3,
       "pickrate": 0.0348,
       "contributions": [
         {
@@ -574,14 +395,83 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4828,
           "games": 4882
         }
       ]
     },
     {
+      "augmentId": 1388,
+      "tier": 3,
+      "pickrate": 0.0658,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9233
+        }
+      ]
+    },
+    {
+      "augmentId": 1389,
+      "tier": 3,
+      "pickrate": 0.0071,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 996
+        }
+      ]
+    },
+    {
+      "augmentId": 1390,
+      "tier": 3,
+      "pickrate": 0.1253,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17586
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": 3,
+      "pickrate": 0.0099,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1384
+        }
+      ]
+    },
+    {
+      "augmentId": 1403,
+      "tier": 3,
+      "pickrate": 0.0193,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2713
+        }
+      ]
+    },
+    {
       "augmentId": 1416,
-      "winrate": 0.4815,
+      "tier": 3,
       "pickrate": 0.0365,
       "contributions": [
         {
@@ -589,359 +479,83 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4815,
           "games": 5121
         }
       ]
     },
     {
-      "augmentId": 1415,
-      "winrate": 0.4798,
-      "pickrate": 0.0791,
+      "augmentId": 2098,
+      "tier": 3,
+      "pickrate": 0.0065,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4798,
-          "games": 11100
+          "games": 909
         }
       ]
     },
     {
-      "augmentId": 1072,
-      "winrate": 0.4784,
-      "pickrate": 0.0147,
+      "augmentId": 2116,
+      "tier": 3,
+      "pickrate": 0.0782,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4784,
-          "games": 2057
+          "games": 10980
         }
       ]
     },
     {
-      "augmentId": 1205,
-      "winrate": 0.4763,
-      "pickrate": 0.0888,
+      "augmentId": 2127,
+      "tier": 3,
+      "pickrate": 0.0374,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4763,
-          "games": 12464
+          "games": 5256
         }
       ]
     },
     {
-      "augmentId": 1048,
-      "winrate": 0.4744,
-      "pickrate": 0.1221,
+      "augmentId": 2129,
+      "tier": 3,
+      "pickrate": 0.0251,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4744,
-          "games": 17134
+          "games": 3520
         }
       ]
     },
     {
-      "augmentId": 2089,
-      "winrate": 0.4722,
-      "pickrate": 0.0141,
+      "augmentId": 2132,
+      "tier": 3,
+      "pickrate": 0.1507,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4722,
-          "games": 1980
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "winrate": 0.4714,
-      "pickrate": 0.0062,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4714,
-          "games": 874
-        }
-      ]
-    },
-    {
-      "augmentId": 1084,
-      "winrate": 0.4713,
-      "pickrate": 0.0399,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4713,
-          "games": 5604
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "winrate": 0.4707,
-      "pickrate": 0.0629,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4707,
-          "games": 8828
-        }
-      ]
-    },
-    {
-      "augmentId": 2077,
-      "winrate": 0.4706,
-      "pickrate": 0.0419,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4706,
-          "games": 5878
-        }
-      ]
-    },
-    {
-      "augmentId": 1151,
-      "winrate": 0.4699,
-      "pickrate": 0.0577,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4699,
-          "games": 8101
-        }
-      ]
-    },
-    {
-      "augmentId": 1113,
-      "winrate": 0.4686,
-      "pickrate": 0.0622,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4686,
-          "games": 8732
-        }
-      ]
-    },
-    {
-      "augmentId": 1097,
-      "winrate": 0.4673,
-      "pickrate": 0.061,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4673,
-          "games": 8565
-        }
-      ]
-    },
-    {
-      "augmentId": 1323,
-      "winrate": 0.4673,
-      "pickrate": 0.0145,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4673,
-          "games": 2031
-        }
-      ]
-    },
-    {
-      "augmentId": 1046,
-      "winrate": 0.4667,
-      "pickrate": 0.0231,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4667,
-          "games": 3242
-        }
-      ]
-    },
-    {
-      "augmentId": 1057,
-      "winrate": 0.4645,
-      "pickrate": 0.0031,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4645,
-          "games": 437
-        }
-      ]
-    },
-    {
-      "augmentId": 2083,
-      "winrate": 0.464,
-      "pickrate": 0.0549,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.464,
-          "games": 7700
-        }
-      ]
-    },
-    {
-      "augmentId": 1044,
-      "winrate": 0.4638,
-      "pickrate": 0.0652,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4638,
-          "games": 9150
-        }
-      ]
-    },
-    {
-      "augmentId": 1243,
-      "winrate": 0.4636,
-      "pickrate": 0.0347,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4636,
-          "games": 4877
-        }
-      ]
-    },
-    {
-      "augmentId": 2103,
-      "winrate": 0.4616,
-      "pickrate": 0.0545,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4616,
-          "games": 7649
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "winrate": 0.4615,
-      "pickrate": 0.0201,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4615,
-          "games": 2817
-        }
-      ]
-    },
-    {
-      "augmentId": 1103,
-      "winrate": 0.4595,
-      "pickrate": 0.0373,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4595,
-          "games": 5234
-        }
-      ]
-    },
-    {
-      "augmentId": 2100,
-      "winrate": 0.457,
-      "pickrate": 0.0555,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.457,
-          "games": 7790
-        }
-      ]
-    },
-    {
-      "augmentId": 1129,
-      "winrate": 0.4539,
-      "pickrate": 0.0129,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4539,
-          "games": 1813
+          "games": 21153
         }
       ]
     },
     {
       "augmentId": 1002,
-      "winrate": 0.4538,
+      "tier": 4,
       "pickrate": 0.0069,
       "contributions": [
         {
@@ -949,164 +563,55 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4538,
           "games": 963
         }
       ]
     },
     {
-      "augmentId": 2018,
-      "winrate": 0.4535,
-      "pickrate": 0.0416,
+      "augmentId": 1044,
+      "tier": 4,
+      "pickrate": 0.0652,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4535,
-          "games": 5844
+          "games": 9150
         }
       ]
     },
     {
-      "augmentId": 2034,
-      "winrate": 0.4484,
-      "pickrate": 0.0032,
+      "augmentId": 1046,
+      "tier": 4,
+      "pickrate": 0.0231,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4484,
-          "games": 455
+          "games": 3242
         }
       ]
     },
     {
-      "augmentId": 2131,
-      "winrate": 0.4482,
-      "pickrate": 0.017,
+      "augmentId": 1048,
+      "tier": 4,
+      "pickrate": 0.1221,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4482,
-          "games": 2385
+          "games": 17134
         }
       ]
     },
     {
-      "augmentId": 2078,
-      "winrate": 0.4467,
-      "pickrate": 0.0644,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4467,
-          "games": 9035
-        }
-      ]
-    },
-    {
-      "augmentId": 1301,
-      "winrate": 0.4433,
-      "pickrate": 0.0144,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4433,
-          "games": 2021
-        }
-      ]
-    },
-    {
-      "augmentId": 1154,
-      "winrate": 0.4421,
-      "pickrate": 0.0126,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4421,
-          "games": 1762
-        }
-      ]
-    },
-    {
-      "augmentId": 1996,
-      "winrate": 0.4421,
-      "pickrate": 0.002,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4421,
-          "games": 285
-        }
-      ]
-    },
-    {
-      "augmentId": 1392,
-      "winrate": 0.4406,
-      "pickrate": 0.0023,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4406,
-          "games": 320
-        }
-      ]
-    },
-    {
-      "augmentId": 2016,
-      "winrate": 0.4396,
-      "pickrate": 0.0057,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4396,
-          "games": 803
-        }
-      ]
-    },
-    {
-      "augmentId": 1150,
-      "winrate": 0.4385,
-      "pickrate": 0.0174,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4385,
-          "games": 2440
-        }
-      ]
-    },
-    {
-      "augmentId": 2005,
-      "winrate": 0.4385,
+      "augmentId": 1057,
+      "tier": 4,
       "pickrate": 0.0031,
       "contributions": [
         {
@@ -1114,209 +619,293 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4385,
-          "games": 431
+          "games": 437
         }
       ]
     },
     {
-      "augmentId": 1149,
-      "winrate": 0.4373,
-      "pickrate": 0.0026,
+      "augmentId": 1072,
+      "tier": 4,
+      "pickrate": 0.0147,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4373,
-          "games": 359
+          "games": 2057
         }
       ]
     },
     {
-      "augmentId": 1358,
-      "winrate": 0.4342,
-      "pickrate": 0.004,
+      "augmentId": 1084,
+      "tier": 4,
+      "pickrate": 0.0399,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4342,
-          "games": 562
+          "games": 5604
         }
       ]
     },
     {
-      "augmentId": 1029,
-      "winrate": 0.4336,
-      "pickrate": 0.0341,
+      "augmentId": 1097,
+      "tier": 4,
+      "pickrate": 0.061,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4336,
-          "games": 4790
+          "games": 8565
         }
       ]
     },
     {
-      "augmentId": 12317,
-      "winrate": 0.4324,
-      "pickrate": 0.0328,
+      "augmentId": 1103,
+      "tier": 4,
+      "pickrate": 0.0373,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4324,
-          "games": 4600
+          "games": 5234
         }
       ]
     },
     {
-      "augmentId": 2088,
-      "winrate": 0.432,
-      "pickrate": 0.0036,
+      "augmentId": 1113,
+      "tier": 4,
+      "pickrate": 0.0622,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.432,
-          "games": 507
+          "games": 8732
         }
       ]
     },
     {
-      "augmentId": 2087,
-      "winrate": 0.4244,
-      "pickrate": 0.0601,
+      "augmentId": 1129,
+      "tier": 4,
+      "pickrate": 0.0129,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4244,
-          "games": 8430
+          "games": 1813
         }
       ]
     },
     {
-      "augmentId": 1349,
-      "winrate": 0.4201,
-      "pickrate": 0.0036,
+      "augmentId": 1151,
+      "tier": 4,
+      "pickrate": 0.0577,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4201,
-          "games": 507
+          "games": 8101
         }
       ]
     },
     {
-      "augmentId": 2080,
-      "winrate": 0.4137,
-      "pickrate": 0.0022,
+      "augmentId": 1205,
+      "tier": 4,
+      "pickrate": 0.0888,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4137,
-          "games": 307
+          "games": 12464
         }
       ]
     },
     {
-      "augmentId": 1054,
-      "winrate": 0.4132,
-      "pickrate": 0.0068,
+      "augmentId": 1237,
+      "tier": 4,
+      "pickrate": 0.0629,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4132,
-          "games": 951
+          "games": 8828
         }
       ]
     },
     {
-      "augmentId": 2046,
-      "winrate": 0.4123,
-      "pickrate": 0.0022,
+      "augmentId": 1243,
+      "tier": 4,
+      "pickrate": 0.0347,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4123,
-          "games": 308
+          "games": 4877
         }
       ]
     },
     {
-      "augmentId": 1058,
-      "winrate": 0.4109,
-      "pickrate": 0.0072,
+      "augmentId": 1323,
+      "tier": 4,
+      "pickrate": 0.0145,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4109,
-          "games": 1010
+          "games": 2031
         }
       ]
     },
     {
-      "augmentId": 2123,
-      "winrate": 0.4089,
-      "pickrate": 0.0225,
+      "augmentId": 1329,
+      "tier": 4,
+      "pickrate": 0.0201,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4089,
-          "games": 3157
+          "games": 2817
         }
       ]
     },
     {
-      "augmentId": 1325,
-      "winrate": 0.4047,
-      "pickrate": 0.0064,
+      "augmentId": 1404,
+      "tier": 4,
+      "pickrate": 0.0062,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4047,
-          "games": 892
+          "games": 874
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": 4,
+      "pickrate": 0.0791,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11100
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": 4,
+      "pickrate": 0.0416,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5844
+        }
+      ]
+    },
+    {
+      "augmentId": 2077,
+      "tier": 4,
+      "pickrate": 0.0419,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5878
+        }
+      ]
+    },
+    {
+      "augmentId": 2083,
+      "tier": 4,
+      "pickrate": 0.0549,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7700
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": 4,
+      "pickrate": 0.0141,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1980
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": 4,
+      "pickrate": 0.0555,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7790
+        }
+      ]
+    },
+    {
+      "augmentId": 2103,
+      "tier": 4,
+      "pickrate": 0.0545,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7649
         }
       ]
     },
     {
       "augmentId": 1018,
-      "winrate": 0.3921,
+      "tier": 5,
       "pickrate": 0.0029,
       "contributions": [
         {
@@ -1324,11 +913,331 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3921,
           "games": 403
         }
       ]
+    },
+    {
+      "augmentId": 1029,
+      "tier": 5,
+      "pickrate": 0.0341,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4790
+        }
+      ]
+    },
+    {
+      "augmentId": 1054,
+      "tier": 5,
+      "pickrate": 0.0068,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 951
+        }
+      ]
+    },
+    {
+      "augmentId": 1058,
+      "tier": 5,
+      "pickrate": 0.0072,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1010
+        }
+      ]
+    },
+    {
+      "augmentId": 1149,
+      "tier": 5,
+      "pickrate": 0.0026,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 359
+        }
+      ]
+    },
+    {
+      "augmentId": 1150,
+      "tier": 5,
+      "pickrate": 0.0174,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2440
+        }
+      ]
+    },
+    {
+      "augmentId": 1154,
+      "tier": 5,
+      "pickrate": 0.0126,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1762
+        }
+      ]
+    },
+    {
+      "augmentId": 1301,
+      "tier": 5,
+      "pickrate": 0.0144,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2021
+        }
+      ]
+    },
+    {
+      "augmentId": 1325,
+      "tier": 5,
+      "pickrate": 0.0064,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 892
+        }
+      ]
+    },
+    {
+      "augmentId": 1349,
+      "tier": 5,
+      "pickrate": 0.0036,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 507
+        }
+      ]
+    },
+    {
+      "augmentId": 1358,
+      "tier": 5,
+      "pickrate": 0.004,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 562
+        }
+      ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": 5,
+      "pickrate": 0.0023,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 320
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": 5,
+      "pickrate": 0.002,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 285
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": 5,
+      "pickrate": 0.0031,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 431
+        }
+      ]
+    },
+    {
+      "augmentId": 2016,
+      "tier": 5,
+      "pickrate": 0.0057,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 803
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": 5,
+      "pickrate": 0.0032,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 455
+        }
+      ]
+    },
+    {
+      "augmentId": 2046,
+      "tier": 5,
+      "pickrate": 0.0022,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 308
+        }
+      ]
+    },
+    {
+      "augmentId": 2078,
+      "tier": 5,
+      "pickrate": 0.0644,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9035
+        }
+      ]
+    },
+    {
+      "augmentId": 2080,
+      "tier": 5,
+      "pickrate": 0.0022,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 307
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": 5,
+      "pickrate": 0.0601,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8430
+        }
+      ]
+    },
+    {
+      "augmentId": 2088,
+      "tier": 5,
+      "pickrate": 0.0036,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 507
+        }
+      ]
+    },
+    {
+      "augmentId": 2123,
+      "tier": 5,
+      "pickrate": 0.0225,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3157
+        }
+      ]
+    },
+    {
+      "augmentId": 2131,
+      "tier": 5,
+      "pickrate": 0.017,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2385
+        }
+      ]
+    },
+    {
+      "augmentId": 12317,
+      "tier": 5,
+      "pickrate": 0.0328,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/taliyah?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4600
+        }
+      ]
     }
-  ],
-  "method": "equal-source-mean"
+  ]
 }

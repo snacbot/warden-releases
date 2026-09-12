@@ -1,62 +1,15 @@
 {
+  "version": 1,
+  "method": "warden-performance-tiers-v1",
   "championId": 12,
   "championKey": "Alistar",
   "set": "aram",
-  "source": "Mayhem source average",
-  "sourceUrl": "https://github.com/snacbot/warden-releases/blob/mayhem-data/README.md",
-  "winrateScope": "champion",
-  "pickrateScope": "champion",
   "patch": "16.18",
   "scrapedAt": "2026-09-12T02:34:26.350Z",
   "augments": [
     {
-      "augmentId": 2102,
-      "winrate": 0.5921,
-      "pickrate": 0.0645,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5921,
-          "games": 27269
-        }
-      ]
-    },
-    {
-      "augmentId": 1361,
-      "winrate": 0.579,
-      "pickrate": 0.034,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.579,
-          "games": 14379
-        }
-      ]
-    },
-    {
-      "augmentId": 2095,
-      "winrate": 0.5642,
-      "pickrate": 0.0169,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5642,
-          "games": 7134
-        }
-      ]
-    },
-    {
       "augmentId": 1005,
-      "winrate": 0.5613,
+      "tier": 1,
       "pickrate": 0.0043,
       "contributions": [
         {
@@ -64,14 +17,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5613,
           "games": 1819
         }
       ]
     },
     {
       "augmentId": 1015,
-      "winrate": 0.559,
+      "tier": 1,
       "pickrate": 0.0108,
       "contributions": [
         {
@@ -79,29 +31,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.559,
           "games": 4567
         }
       ]
     },
     {
-      "augmentId": 1319,
-      "winrate": 0.556,
-      "pickrate": 0.071,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.556,
-          "games": 30043
-        }
-      ]
-    },
-    {
       "augmentId": 1053,
-      "winrate": 0.5523,
+      "tier": 1,
       "pickrate": 0.0349,
       "contributions": [
         {
@@ -109,14 +45,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5523,
           "games": 14757
         }
       ]
     },
     {
+      "augmentId": 1319,
+      "tier": 1,
+      "pickrate": 0.071,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 30043
+        }
+      ]
+    },
+    {
       "augmentId": 1323,
-      "winrate": 0.552,
+      "tier": 1,
       "pickrate": 0.0634,
       "contributions": [
         {
@@ -124,14 +73,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.552,
           "games": 26797
         }
       ]
     },
     {
+      "augmentId": 1361,
+      "tier": 1,
+      "pickrate": 0.034,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14379
+        }
+      ]
+    },
+    {
       "augmentId": 1388,
-      "winrate": 0.5519,
+      "tier": 1,
       "pickrate": 0.0336,
       "contributions": [
         {
@@ -139,194 +101,41 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5519,
           "games": 14212
         }
       ]
     },
     {
-      "augmentId": 1152,
-      "winrate": 0.5499,
-      "pickrate": 0.1182,
+      "augmentId": 2095,
+      "tier": 1,
+      "pickrate": 0.0169,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5499,
-          "games": 49976
+          "games": 7134
         }
       ]
     },
     {
-      "augmentId": 1375,
-      "winrate": 0.5464,
-      "pickrate": 0.0698,
+      "augmentId": 2102,
+      "tier": 1,
+      "pickrate": 0.0645,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5464,
-          "games": 29535
-        }
-      ]
-    },
-    {
-      "augmentId": 1349,
-      "winrate": 0.5456,
-      "pickrate": 0.0248,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5456,
-          "games": 10472
-        }
-      ]
-    },
-    {
-      "augmentId": 2127,
-      "winrate": 0.542,
-      "pickrate": 0.0242,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.542,
-          "games": 10244
-        }
-      ]
-    },
-    {
-      "augmentId": 1337,
-      "winrate": 0.541,
-      "pickrate": 0.0052,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.541,
-          "games": 2209
-        }
-      ]
-    },
-    {
-      "augmentId": 1353,
-      "winrate": 0.5409,
-      "pickrate": 0.1734,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5409,
-          "games": 73319
-        }
-      ]
-    },
-    {
-      "augmentId": 1018,
-      "winrate": 0.5403,
-      "pickrate": 0.0695,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5403,
-          "games": 29385
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "winrate": 0.5399,
-      "pickrate": 0.0174,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5399,
-          "games": 7351
-        }
-      ]
-    },
-    {
-      "augmentId": 2031,
-      "winrate": 0.5392,
-      "pickrate": 0.0321,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5392,
-          "games": 13594
-        }
-      ]
-    },
-    {
-      "augmentId": 2098,
-      "winrate": 0.538,
-      "pickrate": 0.005,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.538,
-          "games": 2106
-        }
-      ]
-    },
-    {
-      "augmentId": 1389,
-      "winrate": 0.5377,
-      "pickrate": 0.0019,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5377,
-          "games": 796
-        }
-      ]
-    },
-    {
-      "augmentId": 1181,
-      "winrate": 0.5358,
-      "pickrate": 0.0863,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5358,
-          "games": 36484
+          "games": 27269
         }
       ]
     },
     {
       "augmentId": 1013,
-      "winrate": 0.5339,
+      "tier": 2,
       "pickrate": 0.108,
       "contributions": [
         {
@@ -334,224 +143,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5339,
           "games": 45679
         }
       ]
     },
     {
-      "augmentId": 1373,
-      "winrate": 0.5339,
-      "pickrate": 0.0524,
+      "augmentId": 1018,
+      "tier": 2,
+      "pickrate": 0.0695,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5339,
-          "games": 22173
-        }
-      ]
-    },
-    {
-      "augmentId": 1401,
-      "winrate": 0.5336,
-      "pickrate": 0.0585,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5336,
-          "games": 24723
-        }
-      ]
-    },
-    {
-      "augmentId": 1333,
-      "winrate": 0.533,
-      "pickrate": 0.0548,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.533,
-          "games": 23187
-        }
-      ]
-    },
-    {
-      "augmentId": 1324,
-      "winrate": 0.5319,
-      "pickrate": 0.012,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5319,
-          "games": 5082
-        }
-      ]
-    },
-    {
-      "augmentId": 2076,
-      "winrate": 0.5303,
-      "pickrate": 0.0874,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5303,
-          "games": 36948
-        }
-      ]
-    },
-    {
-      "augmentId": 1062,
-      "winrate": 0.5292,
-      "pickrate": 0.0055,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5292,
-          "games": 2332
-        }
-      ]
-    },
-    {
-      "augmentId": 2119,
-      "winrate": 0.5288,
-      "pickrate": 0.007,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5288,
-          "games": 2971
-        }
-      ]
-    },
-    {
-      "augmentId": 2139,
-      "winrate": 0.5285,
-      "pickrate": 0.0332,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5285,
-          "games": 14018
-        }
-      ]
-    },
-    {
-      "augmentId": 1041,
-      "winrate": 0.5282,
-      "pickrate": 0.0877,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5282,
-          "games": 37081
-        }
-      ]
-    },
-    {
-      "augmentId": 1305,
-      "winrate": 0.528,
-      "pickrate": 0.0405,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.528,
-          "games": 17111
-        }
-      ]
-    },
-    {
-      "augmentId": 2062,
-      "winrate": 0.5267,
-      "pickrate": 0.0304,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5267,
-          "games": 12854
-        }
-      ]
-    },
-    {
-      "augmentId": 1073,
-      "winrate": 0.5244,
-      "pickrate": 0.0281,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5244,
-          "games": 11884
-        }
-      ]
-    },
-    {
-      "augmentId": 2107,
-      "winrate": 0.5234,
-      "pickrate": 0.0036,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5234,
-          "games": 1538
-        }
-      ]
-    },
-    {
-      "augmentId": 2077,
-      "winrate": 0.521,
-      "pickrate": 0.0796,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.521,
-          "games": 33675
+          "games": 29385
         }
       ]
     },
     {
       "augmentId": 1028,
-      "winrate": 0.52,
+      "tier": 2,
       "pickrate": 0.0099,
       "contributions": [
         {
@@ -559,524 +171,41 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.52,
           "games": 4198
         }
       ]
     },
     {
-      "augmentId": 1154,
-      "winrate": 0.5192,
-      "pickrate": 0.0063,
+      "augmentId": 1041,
+      "tier": 2,
+      "pickrate": 0.0877,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5192,
-          "games": 2662
+          "games": 37081
         }
       ]
     },
     {
-      "augmentId": 1403,
-      "winrate": 0.5189,
-      "pickrate": 0.0125,
+      "augmentId": 1060,
+      "tier": 2,
+      "pickrate": 0.0174,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5189,
-          "games": 5273
+          "games": 7351
         }
       ]
     },
     {
-      "augmentId": 1238,
-      "winrate": 0.5181,
-      "pickrate": 0.0755,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5181,
-          "games": 31924
-        }
-      ]
-    },
-    {
-      "augmentId": 1002,
-      "winrate": 0.5165,
-      "pickrate": 0.0276,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5165,
-          "games": 11666
-        }
-      ]
-    },
-    {
-      "augmentId": 2091,
-      "winrate": 0.5164,
-      "pickrate": 0.0424,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5164,
-          "games": 17923
-        }
-      ]
-    },
-    {
-      "augmentId": 1020,
-      "winrate": 0.5158,
-      "pickrate": 0.0447,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5158,
-          "games": 18901
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "winrate": 0.5155,
-      "pickrate": 0.0361,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5155,
-          "games": 15271
-        }
-      ]
-    },
-    {
-      "augmentId": 1068,
-      "winrate": 0.5152,
-      "pickrate": 0.0725,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5152,
-          "games": 30645
-        }
-      ]
-    },
-    {
-      "augmentId": 1136,
-      "winrate": 0.5149,
-      "pickrate": 0.0846,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5149,
-          "games": 35772
-        }
-      ]
-    },
-    {
-      "augmentId": 1384,
-      "winrate": 0.5141,
-      "pickrate": 0.0195,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5141,
-          "games": 8234
-        }
-      ]
-    },
-    {
-      "augmentId": 1308,
-      "winrate": 0.5135,
-      "pickrate": 0.009,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5135,
-          "games": 3825
-        }
-      ]
-    },
-    {
-      "augmentId": 1421,
-      "winrate": 0.5132,
-      "pickrate": 0.0085,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5132,
-          "games": 3591
-        }
-      ]
-    },
-    {
-      "augmentId": 1149,
-      "winrate": 0.5129,
-      "pickrate": 0.0348,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5129,
-          "games": 14699
-        }
-      ]
-    },
-    {
-      "augmentId": 1095,
-      "winrate": 0.5124,
-      "pickrate": 0.0032,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5124,
-          "games": 1335
-        }
-      ]
-    },
-    {
-      "augmentId": 1243,
-      "winrate": 0.51,
-      "pickrate": 0.0234,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.51,
-          "games": 9913
-        }
-      ]
-    },
-    {
-      "augmentId": 1315,
-      "winrate": 0.5094,
-      "pickrate": 0.0265,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5094,
-          "games": 11214
-        }
-      ]
-    },
-    {
-      "augmentId": 2026,
-      "winrate": 0.5088,
-      "pickrate": 0.009,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5088,
-          "games": 3797
-        }
-      ]
-    },
-    {
-      "augmentId": 1195,
-      "winrate": 0.5084,
-      "pickrate": 0.0058,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5084,
-          "games": 2449
-        }
-      ]
-    },
-    {
-      "augmentId": 2005,
-      "winrate": 0.508,
-      "pickrate": 0.0121,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.508,
-          "games": 5110
-        }
-      ]
-    },
-    {
-      "augmentId": 1045,
-      "winrate": 0.5073,
-      "pickrate": 0.006,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5073,
-          "games": 2541
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "winrate": 0.5068,
-      "pickrate": 0.0461,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5068,
-          "games": 19508
-        }
-      ]
-    },
-    {
-      "augmentId": 1056,
-      "winrate": 0.5066,
-      "pickrate": 0.0256,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5066,
-          "games": 10819
-        }
-      ]
-    },
-    {
-      "augmentId": 2089,
-      "winrate": 0.5048,
-      "pickrate": 0.0089,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5048,
-          "games": 3782
-        }
-      ]
-    },
-    {
-      "augmentId": 1420,
-      "winrate": 0.5046,
-      "pickrate": 0.0095,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5046,
-          "games": 4011
-        }
-      ]
-    },
-    {
-      "augmentId": 1072,
-      "winrate": 0.5037,
-      "pickrate": 0.007,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5037,
-          "games": 2944
-        }
-      ]
-    },
-    {
-      "augmentId": 2006,
-      "winrate": 0.5037,
-      "pickrate": 0.1205,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5037,
-          "games": 50935
-        }
-      ]
-    },
-    {
-      "augmentId": 2088,
-      "winrate": 0.5036,
-      "pickrate": 0.0242,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5036,
-          "games": 10239
-        }
-      ]
-    },
-    {
-      "augmentId": 1105,
-      "winrate": 0.5025,
-      "pickrate": 0.0098,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5025,
-          "games": 4123
-        }
-      ]
-    },
-    {
-      "augmentId": 1386,
-      "winrate": 0.5025,
-      "pickrate": 0.0067,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5025,
-          "games": 2834
-        }
-      ]
-    },
-    {
-      "augmentId": 1301,
-      "winrate": 0.5017,
-      "pickrate": 0.03,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5017,
-          "games": 12675
-        }
-      ]
-    },
-    {
-      "augmentId": 2034,
-      "winrate": 0.5016,
-      "pickrate": 0.0114,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5016,
-          "games": 4835
-        }
-      ]
-    },
-    {
-      "augmentId": 1098,
-      "winrate": 0.5011,
-      "pickrate": 0.0107,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5011,
-          "games": 4532
-        }
-      ]
-    },
-    {
-      "augmentId": 1025,
-      "winrate": 0.501,
-      "pickrate": 0.0591,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.501,
-          "games": 25004
-        }
-      ]
-    },
-    {
-      "augmentId": 1076,
-      "winrate": 0.5005,
-      "pickrate": 0.0066,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5005,
-          "games": 2771
-        }
-      ]
-    },
-    {
-      "augmentId": 1402,
-      "winrate": 0.4996,
+      "augmentId": 1062,
+      "tier": 2,
       "pickrate": 0.0055,
       "contributions": [
         {
@@ -1084,194 +213,181 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4996,
-          "games": 2334
+          "games": 2332
         }
       ]
     },
     {
-      "augmentId": 1404,
-      "winrate": 0.4995,
-      "pickrate": 0.007,
+      "augmentId": 1073,
+      "tier": 2,
+      "pickrate": 0.0281,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4995,
-          "games": 2969
+          "games": 11884
         }
       ]
     },
     {
-      "augmentId": 2115,
-      "winrate": 0.4992,
-      "pickrate": 0.0087,
+      "augmentId": 1152,
+      "tier": 2,
+      "pickrate": 0.1182,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4992,
-          "games": 3658
+          "games": 49976
         }
       ]
     },
     {
-      "augmentId": 1103,
-      "winrate": 0.4986,
-      "pickrate": 0.0394,
+      "augmentId": 1181,
+      "tier": 2,
+      "pickrate": 0.0863,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4986,
-          "games": 16674
+          "games": 36484
         }
       ]
     },
     {
-      "augmentId": 1063,
-      "winrate": 0.4985,
-      "pickrate": 0.0132,
+      "augmentId": 1305,
+      "tier": 2,
+      "pickrate": 0.0405,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4985,
-          "games": 5561
+          "games": 17111
         }
       ]
     },
     {
-      "augmentId": 1332,
-      "winrate": 0.4984,
-      "pickrate": 0.0029,
+      "augmentId": 1324,
+      "tier": 2,
+      "pickrate": 0.012,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4984,
-          "games": 1228
+          "games": 5082
         }
       ]
     },
     {
-      "augmentId": 1187,
-      "winrate": 0.4981,
-      "pickrate": 0.0012,
+      "augmentId": 1333,
+      "tier": 2,
+      "pickrate": 0.0548,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4981,
-          "games": 516
+          "games": 23187
         }
       ]
     },
     {
-      "augmentId": 2043,
-      "winrate": 0.4975,
-      "pickrate": 0.0214,
+      "augmentId": 1337,
+      "tier": 2,
+      "pickrate": 0.0052,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4975,
-          "games": 9054
+          "games": 2209
         }
       ]
     },
     {
-      "augmentId": 1116,
-      "winrate": 0.4972,
-      "pickrate": 0.0275,
+      "augmentId": 1349,
+      "tier": 2,
+      "pickrate": 0.0248,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4972,
-          "games": 11623
+          "games": 10472
         }
       ]
     },
     {
-      "augmentId": 2032,
-      "winrate": 0.4972,
-      "pickrate": 0.017,
+      "augmentId": 1353,
+      "tier": 2,
+      "pickrate": 0.1734,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4972,
-          "games": 7180
+          "games": 73319
         }
       ]
     },
     {
-      "augmentId": 1358,
-      "winrate": 0.4967,
-      "pickrate": 0.0186,
+      "augmentId": 1373,
+      "tier": 2,
+      "pickrate": 0.0524,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4967,
-          "games": 7876
+          "games": 22173
         }
       ]
     },
     {
-      "augmentId": 2104,
-      "winrate": 0.4964,
-      "pickrate": 0.0023,
+      "augmentId": 1375,
+      "tier": 2,
+      "pickrate": 0.0698,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4964,
-          "games": 977
+          "games": 29535
         }
       ]
     },
     {
-      "augmentId": 1331,
-      "winrate": 0.4954,
-      "pickrate": 0.0034,
+      "augmentId": 1389,
+      "tier": 2,
+      "pickrate": 0.0019,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4954,
-          "games": 1417
+          "games": 796
         }
       ]
     },
     {
-      "augmentId": 1029,
-      "winrate": 0.4948,
+      "augmentId": 1401,
+      "tier": 2,
       "pickrate": 0.0585,
       "contributions": [
         {
@@ -1279,704 +395,83 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4948,
-          "games": 24733
+          "games": 24723
         }
       ]
     },
     {
-      "augmentId": 1038,
-      "winrate": 0.4948,
-      "pickrate": 0.0048,
+      "augmentId": 2031,
+      "tier": 2,
+      "pickrate": 0.0321,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4948,
-          "games": 2031
+          "games": 13594
         }
       ]
     },
     {
-      "augmentId": 1057,
-      "winrate": 0.4943,
-      "pickrate": 0.0073,
+      "augmentId": 2062,
+      "tier": 2,
+      "pickrate": 0.0304,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4943,
-          "games": 3081
+          "games": 12854
         }
       ]
     },
     {
-      "augmentId": 1335,
-      "winrate": 0.4943,
-      "pickrate": 0.0029,
+      "augmentId": 2076,
+      "tier": 2,
+      "pickrate": 0.0874,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4943,
-          "games": 1220
+          "games": 36948
         }
       ]
     },
     {
-      "augmentId": 2082,
-      "winrate": 0.4942,
-      "pickrate": 0.0171,
+      "augmentId": 2077,
+      "tier": 2,
+      "pickrate": 0.0796,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4942,
-          "games": 7215
+          "games": 33675
         }
       ]
     },
     {
-      "augmentId": 2128,
-      "winrate": 0.4929,
-      "pickrate": 0.0193,
+      "augmentId": 2098,
+      "tier": 2,
+      "pickrate": 0.005,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4929,
-          "games": 8145
+          "games": 2106
         }
       ]
     },
     {
-      "augmentId": 1413,
-      "winrate": 0.4924,
-      "pickrate": 0.017,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4924,
-          "games": 7183
-        }
-      ]
-    },
-    {
-      "augmentId": 1001,
-      "winrate": 0.4919,
-      "pickrate": 0.0351,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4919,
-          "games": 14833
-        }
-      ]
-    },
-    {
-      "augmentId": 2137,
-      "winrate": 0.491,
-      "pickrate": 0.0058,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.491,
-          "games": 2456
-        }
-      ]
-    },
-    {
-      "augmentId": 1026,
-      "winrate": 0.4901,
-      "pickrate": 0.0025,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4901,
-          "games": 1059
-        }
-      ]
-    },
-    {
-      "augmentId": 1030,
-      "winrate": 0.4901,
-      "pickrate": 0.0164,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4901,
-          "games": 6937
-        }
-      ]
-    },
-    {
-      "augmentId": 2078,
-      "winrate": 0.4894,
-      "pickrate": 0.0709,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4894,
-          "games": 29987
-        }
-      ]
-    },
-    {
-      "augmentId": 2018,
-      "winrate": 0.4882,
-      "pickrate": 0.0236,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4882,
-          "games": 9983
-        }
-      ]
-    },
-    {
-      "augmentId": 12317,
-      "winrate": 0.4879,
-      "pickrate": 0.0179,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4879,
-          "games": 7567
-        }
-      ]
-    },
-    {
-      "augmentId": 1344,
-      "winrate": 0.4856,
-      "pickrate": 0.0092,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4856,
-          "games": 3894
-        }
-      ]
-    },
-    {
-      "augmentId": 1390,
-      "winrate": 0.4849,
-      "pickrate": 0.0272,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4849,
-          "games": 11494
-        }
-      ]
-    },
-    {
-      "augmentId": 1310,
-      "winrate": 0.4848,
-      "pickrate": 0.0245,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4848,
-          "games": 10380
-        }
-      ]
-    },
-    {
-      "augmentId": 1058,
-      "winrate": 0.4844,
-      "pickrate": 0.0078,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4844,
-          "games": 3297
-        }
-      ]
-    },
-    {
-      "augmentId": 2134,
-      "winrate": 0.484,
-      "pickrate": 0.0018,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.484,
-          "games": 779
-        }
-      ]
-    },
-    {
-      "augmentId": 1347,
-      "winrate": 0.4811,
-      "pickrate": 0.0022,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4811,
-          "games": 927
-        }
-      ]
-    },
-    {
-      "augmentId": 2100,
-      "winrate": 0.4802,
-      "pickrate": 0.0368,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4802,
-          "games": 15567
-        }
-      ]
-    },
-    {
-      "augmentId": 2087,
-      "winrate": 0.4796,
-      "pickrate": 0.0226,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4796,
-          "games": 9571
-        }
-      ]
-    },
-    {
-      "augmentId": 2080,
-      "winrate": 0.4795,
-      "pickrate": 0.0184,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4795,
-          "games": 7779
-        }
-      ]
-    },
-    {
-      "augmentId": 1088,
-      "winrate": 0.4786,
-      "pickrate": 0.009,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4786,
-          "games": 3805
-        }
-      ]
-    },
-    {
-      "augmentId": 1027,
-      "winrate": 0.4782,
-      "pickrate": 0.0069,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4782,
-          "games": 2913
-        }
-      ]
-    },
-    {
-      "augmentId": 1311,
-      "winrate": 0.4782,
-      "pickrate": 0.004,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4782,
-          "games": 1671
-        }
-      ]
-    },
-    {
-      "augmentId": 1415,
-      "winrate": 0.4772,
-      "pickrate": 0.0075,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4772,
-          "games": 3175
-        }
-      ]
-    },
-    {
-      "augmentId": 1150,
-      "winrate": 0.4767,
-      "pickrate": 0.0263,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4767,
-          "games": 11106
-        }
-      ]
-    },
-    {
-      "augmentId": 2118,
-      "winrate": 0.4754,
-      "pickrate": 0.0041,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4754,
-          "games": 1725
-        }
-      ]
-    },
-    {
-      "augmentId": 1205,
-      "winrate": 0.4745,
-      "pickrate": 0.0256,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4745,
-          "games": 10837
-        }
-      ]
-    },
-    {
-      "augmentId": 2132,
-      "winrate": 0.4739,
-      "pickrate": 0.0147,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4739,
-          "games": 6210
-        }
-      ]
-    },
-    {
-      "augmentId": 1392,
-      "winrate": 0.4732,
-      "pickrate": 0.0096,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4732,
-          "games": 4062
-        }
-      ]
-    },
-    {
-      "augmentId": 1044,
-      "winrate": 0.473,
-      "pickrate": 0.0044,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.473,
-          "games": 1871
-        }
-      ]
-    },
-    {
-      "augmentId": 2099,
-      "winrate": 0.4728,
-      "pickrate": 0.01,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4728,
-          "games": 4211
-        }
-      ]
-    },
-    {
-      "augmentId": 2064,
-      "winrate": 0.4718,
-      "pickrate": 0.036,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4718,
-          "games": 15207
-        }
-      ]
-    },
-    {
-      "augmentId": 1054,
-      "winrate": 0.4695,
-      "pickrate": 0.0026,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4695,
-          "games": 1099
-        }
-      ]
-    },
-    {
-      "augmentId": 1118,
-      "winrate": 0.468,
-      "pickrate": 0.0061,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.468,
-          "games": 2560
-        }
-      ]
-    },
-    {
-      "augmentId": 1112,
-      "winrate": 0.4654,
-      "pickrate": 0.0098,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4654,
-          "games": 4162
-        }
-      ]
-    },
-    {
-      "augmentId": 1097,
-      "winrate": 0.4647,
-      "pickrate": 0.0122,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4647,
-          "games": 5175
-        }
-      ]
-    },
-    {
-      "augmentId": 1046,
-      "winrate": 0.4643,
-      "pickrate": 0.0057,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4643,
-          "games": 2408
-        }
-      ]
-    },
-    {
-      "augmentId": 1180,
-      "winrate": 0.4642,
-      "pickrate": 0.0042,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4642,
-          "games": 1760
-        }
-      ]
-    },
-    {
-      "augmentId": 1004,
-      "winrate": 0.4618,
-      "pickrate": 0.0117,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4618,
-          "games": 4929
-        }
-      ]
-    },
-    {
-      "augmentId": 1151,
-      "winrate": 0.4587,
-      "pickrate": 0.0061,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4587,
-          "games": 2588
-        }
-      ]
-    },
-    {
-      "augmentId": 1141,
-      "winrate": 0.4583,
-      "pickrate": 0.0034,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4583,
-          "games": 1427
-        }
-      ]
-    },
-    {
-      "augmentId": 1019,
-      "winrate": 0.4571,
-      "pickrate": 0.0138,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4571,
-          "games": 5850
-        }
-      ]
-    },
-    {
-      "augmentId": 1318,
-      "winrate": 0.4565,
-      "pickrate": 0.0067,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4565,
-          "games": 2828
-        }
-      ]
-    },
-    {
-      "augmentId": 1348,
-      "winrate": 0.4565,
-      "pickrate": 0.0011,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4565,
-          "games": 471
-        }
-      ]
-    },
-    {
-      "augmentId": 1326,
-      "winrate": 0.4557,
+      "augmentId": 2107,
+      "tier": 2,
       "pickrate": 0.0036,
       "contributions": [
         {
@@ -1984,29 +479,531 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4557,
-          "games": 1534
+          "games": 1538
         }
       ]
     },
     {
-      "augmentId": 1379,
-      "winrate": 0.4537,
-      "pickrate": 0.001,
+      "augmentId": 2119,
+      "tier": 2,
+      "pickrate": 0.007,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4537,
-          "games": 410
+          "games": 2971
         }
       ]
     },
     {
-      "augmentId": 1996,
-      "winrate": 0.4528,
+      "augmentId": 2127,
+      "tier": 2,
+      "pickrate": 0.0242,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10244
+        }
+      ]
+    },
+    {
+      "augmentId": 2139,
+      "tier": 2,
+      "pickrate": 0.0332,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14018
+        }
+      ]
+    },
+    {
+      "augmentId": 1001,
+      "tier": 3,
+      "pickrate": 0.0351,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14833
+        }
+      ]
+    },
+    {
+      "augmentId": 1002,
+      "tier": 3,
+      "pickrate": 0.0276,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11666
+        }
+      ]
+    },
+    {
+      "augmentId": 1020,
+      "tier": 3,
+      "pickrate": 0.0447,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18901
+        }
+      ]
+    },
+    {
+      "augmentId": 1025,
+      "tier": 3,
+      "pickrate": 0.0591,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 25004
+        }
+      ]
+    },
+    {
+      "augmentId": 1026,
+      "tier": 3,
+      "pickrate": 0.0025,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1059
+        }
+      ]
+    },
+    {
+      "augmentId": 1029,
+      "tier": 3,
+      "pickrate": 0.0585,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 24733
+        }
+      ]
+    },
+    {
+      "augmentId": 1030,
+      "tier": 3,
+      "pickrate": 0.0164,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6937
+        }
+      ]
+    },
+    {
+      "augmentId": 1038,
+      "tier": 3,
+      "pickrate": 0.0048,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2031
+        }
+      ]
+    },
+    {
+      "augmentId": 1045,
+      "tier": 3,
+      "pickrate": 0.006,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2541
+        }
+      ]
+    },
+    {
+      "augmentId": 1056,
+      "tier": 3,
+      "pickrate": 0.0256,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10819
+        }
+      ]
+    },
+    {
+      "augmentId": 1057,
+      "tier": 3,
+      "pickrate": 0.0073,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3081
+        }
+      ]
+    },
+    {
+      "augmentId": 1058,
+      "tier": 3,
+      "pickrate": 0.0078,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3297
+        }
+      ]
+    },
+    {
+      "augmentId": 1063,
+      "tier": 3,
+      "pickrate": 0.0132,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5561
+        }
+      ]
+    },
+    {
+      "augmentId": 1068,
+      "tier": 3,
+      "pickrate": 0.0725,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 30645
+        }
+      ]
+    },
+    {
+      "augmentId": 1072,
+      "tier": 3,
+      "pickrate": 0.007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2944
+        }
+      ]
+    },
+    {
+      "augmentId": 1076,
+      "tier": 3,
+      "pickrate": 0.0066,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2771
+        }
+      ]
+    },
+    {
+      "augmentId": 1095,
+      "tier": 3,
+      "pickrate": 0.0032,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1335
+        }
+      ]
+    },
+    {
+      "augmentId": 1098,
+      "tier": 3,
+      "pickrate": 0.0107,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4532
+        }
+      ]
+    },
+    {
+      "augmentId": 1103,
+      "tier": 3,
+      "pickrate": 0.0394,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16674
+        }
+      ]
+    },
+    {
+      "augmentId": 1105,
+      "tier": 3,
+      "pickrate": 0.0098,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4123
+        }
+      ]
+    },
+    {
+      "augmentId": 1116,
+      "tier": 3,
+      "pickrate": 0.0275,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11623
+        }
+      ]
+    },
+    {
+      "augmentId": 1136,
+      "tier": 3,
+      "pickrate": 0.0846,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 35772
+        }
+      ]
+    },
+    {
+      "augmentId": 1149,
+      "tier": 3,
+      "pickrate": 0.0348,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14699
+        }
+      ]
+    },
+    {
+      "augmentId": 1154,
+      "tier": 3,
+      "pickrate": 0.0063,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2662
+        }
+      ]
+    },
+    {
+      "augmentId": 1187,
+      "tier": 3,
+      "pickrate": 0.0012,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 516
+        }
+      ]
+    },
+    {
+      "augmentId": 1195,
+      "tier": 3,
+      "pickrate": 0.0058,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2449
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": 3,
+      "pickrate": 0.0461,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 19508
+        }
+      ]
+    },
+    {
+      "augmentId": 1238,
+      "tier": 3,
+      "pickrate": 0.0755,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 31924
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": 3,
+      "pickrate": 0.0234,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9913
+        }
+      ]
+    },
+    {
+      "augmentId": 1301,
+      "tier": 3,
+      "pickrate": 0.03,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12675
+        }
+      ]
+    },
+    {
+      "augmentId": 1308,
+      "tier": 3,
+      "pickrate": 0.009,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3825
+        }
+      ]
+    },
+    {
+      "augmentId": 1310,
+      "tier": 3,
+      "pickrate": 0.0245,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10380
+        }
+      ]
+    },
+    {
+      "augmentId": 1315,
+      "tier": 3,
+      "pickrate": 0.0265,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11214
+        }
+      ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": 3,
+      "pickrate": 0.0361,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15271
+        }
+      ]
+    },
+    {
+      "augmentId": 1331,
+      "tier": 3,
       "pickrate": 0.0034,
       "contributions": [
         {
@@ -2014,74 +1011,433 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4528,
-          "games": 1418
+          "games": 1417
         }
       ]
     },
     {
-      "augmentId": 2004,
-      "winrate": 0.4429,
-      "pickrate": 0.0034,
+      "augmentId": 1332,
+      "tier": 3,
+      "pickrate": 0.0029,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4429,
-          "games": 1427
+          "games": 1228
         }
       ]
     },
     {
-      "augmentId": 1011,
-      "winrate": 0.4407,
-      "pickrate": 0.0038,
+      "augmentId": 1335,
+      "tier": 3,
+      "pickrate": 0.0029,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4407,
-          "games": 1627
+          "games": 1220
         }
       ]
     },
     {
-      "augmentId": 1156,
-      "winrate": 0.4374,
-      "pickrate": 0.0069,
+      "augmentId": 1344,
+      "tier": 3,
+      "pickrate": 0.0092,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4374,
-          "games": 2931
+          "games": 3894
         }
       ]
     },
     {
-      "augmentId": 1048,
-      "winrate": 0.4325,
-      "pickrate": 0.0138,
+      "augmentId": 1347,
+      "tier": 3,
+      "pickrate": 0.0022,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4325,
-          "games": 5815
+          "games": 927
         }
       ]
     },
     {
-      "augmentId": 2063,
-      "winrate": 0.4325,
+      "augmentId": 1358,
+      "tier": 3,
+      "pickrate": 0.0186,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7876
+        }
+      ]
+    },
+    {
+      "augmentId": 1384,
+      "tier": 3,
+      "pickrate": 0.0195,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8234
+        }
+      ]
+    },
+    {
+      "augmentId": 1386,
+      "tier": 3,
+      "pickrate": 0.0067,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2834
+        }
+      ]
+    },
+    {
+      "augmentId": 1390,
+      "tier": 3,
+      "pickrate": 0.0272,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11494
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": 3,
+      "pickrate": 0.0055,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2334
+        }
+      ]
+    },
+    {
+      "augmentId": 1403,
+      "tier": 3,
+      "pickrate": 0.0125,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5273
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": 3,
+      "pickrate": 0.007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2969
+        }
+      ]
+    },
+    {
+      "augmentId": 1413,
+      "tier": 3,
+      "pickrate": 0.017,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7183
+        }
+      ]
+    },
+    {
+      "augmentId": 1420,
+      "tier": 3,
+      "pickrate": 0.0095,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4011
+        }
+      ]
+    },
+    {
+      "augmentId": 1421,
+      "tier": 3,
+      "pickrate": 0.0085,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3591
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": 3,
+      "pickrate": 0.0121,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5110
+        }
+      ]
+    },
+    {
+      "augmentId": 2006,
+      "tier": 3,
+      "pickrate": 0.1205,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 50935
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": 3,
+      "pickrate": 0.0236,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9983
+        }
+      ]
+    },
+    {
+      "augmentId": 2026,
+      "tier": 3,
+      "pickrate": 0.009,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3797
+        }
+      ]
+    },
+    {
+      "augmentId": 2032,
+      "tier": 3,
+      "pickrate": 0.017,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7180
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": 3,
+      "pickrate": 0.0114,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4835
+        }
+      ]
+    },
+    {
+      "augmentId": 2043,
+      "tier": 3,
+      "pickrate": 0.0214,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9054
+        }
+      ]
+    },
+    {
+      "augmentId": 2078,
+      "tier": 3,
+      "pickrate": 0.0709,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 29987
+        }
+      ]
+    },
+    {
+      "augmentId": 2082,
+      "tier": 3,
+      "pickrate": 0.0171,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7215
+        }
+      ]
+    },
+    {
+      "augmentId": 2088,
+      "tier": 3,
+      "pickrate": 0.0242,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10239
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": 3,
+      "pickrate": 0.0089,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3782
+        }
+      ]
+    },
+    {
+      "augmentId": 2091,
+      "tier": 3,
+      "pickrate": 0.0424,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17923
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": 3,
+      "pickrate": 0.0368,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15567
+        }
+      ]
+    },
+    {
+      "augmentId": 2104,
+      "tier": 3,
+      "pickrate": 0.0023,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 977
+        }
+      ]
+    },
+    {
+      "augmentId": 2115,
+      "tier": 3,
+      "pickrate": 0.0087,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3658
+        }
+      ]
+    },
+    {
+      "augmentId": 2128,
+      "tier": 3,
+      "pickrate": 0.0193,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8145
+        }
+      ]
+    },
+    {
+      "augmentId": 2134,
+      "tier": 3,
       "pickrate": 0.0018,
       "contributions": [
         {
@@ -2089,59 +1445,293 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4325,
-          "games": 756
+          "games": 779
         }
       ]
     },
     {
-      "augmentId": 1129,
-      "winrate": 0.4305,
-      "pickrate": 0.0051,
+      "augmentId": 2137,
+      "tier": 3,
+      "pickrate": 0.0058,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4305,
-          "games": 2172
+          "games": 2456
         }
       ]
     },
     {
-      "augmentId": 2116,
-      "winrate": 0.427,
-      "pickrate": 0.0129,
+      "augmentId": 12317,
+      "tier": 3,
+      "pickrate": 0.0179,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.427,
-          "games": 5440
+          "games": 7567
         }
       ]
     },
     {
-      "augmentId": 2046,
-      "winrate": 0.4256,
-      "pickrate": 0.0014,
+      "augmentId": 1004,
+      "tier": 4,
+      "pickrate": 0.0117,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4256,
-          "games": 578
+          "games": 4929
         }
       ]
     },
     {
-      "augmentId": 2016,
-      "winrate": 0.4217,
+      "augmentId": 1019,
+      "tier": 4,
+      "pickrate": 0.0138,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5850
+        }
+      ]
+    },
+    {
+      "augmentId": 1027,
+      "tier": 4,
+      "pickrate": 0.0069,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2913
+        }
+      ]
+    },
+    {
+      "augmentId": 1044,
+      "tier": 4,
+      "pickrate": 0.0044,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1871
+        }
+      ]
+    },
+    {
+      "augmentId": 1046,
+      "tier": 4,
+      "pickrate": 0.0057,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2408
+        }
+      ]
+    },
+    {
+      "augmentId": 1054,
+      "tier": 4,
+      "pickrate": 0.0026,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1099
+        }
+      ]
+    },
+    {
+      "augmentId": 1088,
+      "tier": 4,
+      "pickrate": 0.009,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3805
+        }
+      ]
+    },
+    {
+      "augmentId": 1097,
+      "tier": 4,
+      "pickrate": 0.0122,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5175
+        }
+      ]
+    },
+    {
+      "augmentId": 1112,
+      "tier": 4,
+      "pickrate": 0.0098,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4162
+        }
+      ]
+    },
+    {
+      "augmentId": 1118,
+      "tier": 4,
+      "pickrate": 0.0061,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2560
+        }
+      ]
+    },
+    {
+      "augmentId": 1141,
+      "tier": 4,
+      "pickrate": 0.0034,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1427
+        }
+      ]
+    },
+    {
+      "augmentId": 1150,
+      "tier": 4,
+      "pickrate": 0.0263,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11106
+        }
+      ]
+    },
+    {
+      "augmentId": 1151,
+      "tier": 4,
+      "pickrate": 0.0061,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2588
+        }
+      ]
+    },
+    {
+      "augmentId": 1180,
+      "tier": 4,
+      "pickrate": 0.0042,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1760
+        }
+      ]
+    },
+    {
+      "augmentId": 1205,
+      "tier": 4,
+      "pickrate": 0.0256,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10837
+        }
+      ]
+    },
+    {
+      "augmentId": 1311,
+      "tier": 4,
+      "pickrate": 0.004,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1671
+        }
+      ]
+    },
+    {
+      "augmentId": 1318,
+      "tier": 4,
+      "pickrate": 0.0067,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2828
+        }
+      ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": 4,
+      "pickrate": 0.0036,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1534
+        }
+      ]
+    },
+    {
+      "augmentId": 1348,
+      "tier": 4,
       "pickrate": 0.0011,
       "contributions": [
         {
@@ -2149,14 +1739,209 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4217,
-          "games": 479
+          "games": 471
+        }
+      ]
+    },
+    {
+      "augmentId": 1379,
+      "tier": 4,
+      "pickrate": 0.001,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 410
+        }
+      ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": 4,
+      "pickrate": 0.0096,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4062
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": 4,
+      "pickrate": 0.0075,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3175
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": 4,
+      "pickrate": 0.0034,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1418
+        }
+      ]
+    },
+    {
+      "augmentId": 2064,
+      "tier": 4,
+      "pickrate": 0.036,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15207
+        }
+      ]
+    },
+    {
+      "augmentId": 2080,
+      "tier": 4,
+      "pickrate": 0.0184,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7779
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": 4,
+      "pickrate": 0.0226,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9571
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": 4,
+      "pickrate": 0.01,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4211
+        }
+      ]
+    },
+    {
+      "augmentId": 2118,
+      "tier": 4,
+      "pickrate": 0.0041,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1725
+        }
+      ]
+    },
+    {
+      "augmentId": 2132,
+      "tier": 4,
+      "pickrate": 0.0147,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6210
+        }
+      ]
+    },
+    {
+      "augmentId": 1011,
+      "tier": 5,
+      "pickrate": 0.0038,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1627
+        }
+      ]
+    },
+    {
+      "augmentId": 1048,
+      "tier": 5,
+      "pickrate": 0.0138,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5815
+        }
+      ]
+    },
+    {
+      "augmentId": 1129,
+      "tier": 5,
+      "pickrate": 0.0051,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2172
+        }
+      ]
+    },
+    {
+      "augmentId": 1156,
+      "tier": 5,
+      "pickrate": 0.0069,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2931
         }
       ]
     },
     {
       "augmentId": 1211,
-      "winrate": 0.4209,
+      "tier": 5,
       "pickrate": 0.0021,
       "contributions": [
         {
@@ -2164,11 +1949,79 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4209,
           "games": 872
         }
       ]
+    },
+    {
+      "augmentId": 2004,
+      "tier": 5,
+      "pickrate": 0.0034,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1427
+        }
+      ]
+    },
+    {
+      "augmentId": 2016,
+      "tier": 5,
+      "pickrate": 0.0011,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 479
+        }
+      ]
+    },
+    {
+      "augmentId": 2046,
+      "tier": 5,
+      "pickrate": 0.0014,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 578
+        }
+      ]
+    },
+    {
+      "augmentId": 2063,
+      "tier": 5,
+      "pickrate": 0.0018,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 756
+        }
+      ]
+    },
+    {
+      "augmentId": 2116,
+      "tier": 5,
+      "pickrate": 0.0129,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5440
+        }
+      ]
     }
-  ],
-  "method": "equal-source-mean"
+  ]
 }

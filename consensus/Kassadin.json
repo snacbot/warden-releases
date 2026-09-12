@@ -1,77 +1,15 @@
 {
+  "version": 1,
+  "method": "warden-performance-tiers-v1",
   "championId": 38,
   "championKey": "Kassadin",
   "set": "aram",
-  "source": "Mayhem source average",
-  "sourceUrl": "https://github.com/snacbot/warden-releases/blob/mayhem-data/README.md",
-  "winrateScope": "champion",
-  "pickrateScope": "champion",
   "patch": "16.18",
   "scrapedAt": "2026-09-12T02:34:26.350Z",
   "augments": [
     {
-      "augmentId": 2095,
-      "winrate": 0.6197,
-      "pickrate": 0.0547,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.6197,
-          "games": 11629
-        }
-      ]
-    },
-    {
-      "augmentId": 2031,
-      "winrate": 0.6134,
-      "pickrate": 0.0127,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.6134,
-          "games": 2698
-        }
-      ]
-    },
-    {
-      "augmentId": 1056,
-      "winrate": 0.5729,
-      "pickrate": 0.1289,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5729,
-          "games": 27398
-        }
-      ]
-    },
-    {
-      "augmentId": 1344,
-      "winrate": 0.5613,
-      "pickrate": 0.0904,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5613,
-          "games": 19218
-        }
-      ]
-    },
-    {
       "augmentId": 1053,
-      "winrate": 0.55,
+      "tier": 1,
       "pickrate": 0.0176,
       "contributions": [
         {
@@ -79,149 +17,69 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.55,
           "games": 3749
         }
       ]
     },
     {
-      "augmentId": 1389,
-      "winrate": 0.5438,
-      "pickrate": 0.0026,
+      "augmentId": 1056,
+      "tier": 1,
+      "pickrate": 0.1289,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5438,
-          "games": 559
+          "games": 27398
         }
       ]
     },
     {
-      "augmentId": 1038,
-      "winrate": 0.5437,
-      "pickrate": 0.0558,
+      "augmentId": 1344,
+      "tier": 1,
+      "pickrate": 0.0904,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5437,
-          "games": 11859
+          "games": 19218
         }
       ]
     },
     {
-      "augmentId": 2132,
-      "winrate": 0.5427,
-      "pickrate": 0.181,
+      "augmentId": 2031,
+      "tier": 1,
+      "pickrate": 0.0127,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5427,
-          "games": 38462
+          "games": 2698
         }
       ]
     },
     {
-      "augmentId": 1205,
-      "winrate": 0.5415,
-      "pickrate": 0.1103,
+      "augmentId": 2095,
+      "tier": 1,
+      "pickrate": 0.0547,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5415,
-          "games": 23436
-        }
-      ]
-    },
-    {
-      "augmentId": 1384,
-      "winrate": 0.5367,
-      "pickrate": 0.0309,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5367,
-          "games": 6560
-        }
-      ]
-    },
-    {
-      "augmentId": 1156,
-      "winrate": 0.5343,
-      "pickrate": 0.0377,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5343,
-          "games": 8018
-        }
-      ]
-    },
-    {
-      "augmentId": 1063,
-      "winrate": 0.5342,
-      "pickrate": 0.0716,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5342,
-          "games": 15209
-        }
-      ]
-    },
-    {
-      "augmentId": 1333,
-      "winrate": 0.5334,
-      "pickrate": 0.0385,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5334,
-          "games": 8183
-        }
-      ]
-    },
-    {
-      "augmentId": 2119,
-      "winrate": 0.5319,
-      "pickrate": 0.0036,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5319,
-          "games": 767
+          "games": 11629
         }
       ]
     },
     {
       "augmentId": 1011,
-      "winrate": 0.5313,
+      "tier": 2,
       "pickrate": 0.0726,
       "contributions": [
         {
@@ -229,59 +87,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5313,
           "games": 15427
         }
       ]
     },
     {
-      "augmentId": 1335,
-      "winrate": 0.5303,
-      "pickrate": 0.0033,
+      "augmentId": 1038,
+      "tier": 2,
+      "pickrate": 0.0558,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5303,
-          "games": 709
-        }
-      ]
-    },
-    {
-      "augmentId": 1194,
-      "winrate": 0.5299,
-      "pickrate": 0.0672,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5299,
-          "games": 14287
-        }
-      ]
-    },
-    {
-      "augmentId": 2083,
-      "winrate": 0.5294,
-      "pickrate": 0.0981,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5294,
-          "games": 20848
+          "games": 11859
         }
       ]
     },
     {
       "augmentId": 1062,
-      "winrate": 0.5293,
+      "tier": 2,
       "pickrate": 0.0039,
       "contributions": [
         {
@@ -289,44 +115,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5293,
           "games": 820
         }
       ]
     },
     {
-      "augmentId": 1238,
-      "winrate": 0.5265,
-      "pickrate": 0.1037,
+      "augmentId": 1063,
+      "tier": 2,
+      "pickrate": 0.0716,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5265,
-          "games": 22026
-        }
-      ]
-    },
-    {
-      "augmentId": 1390,
-      "winrate": 0.5259,
-      "pickrate": 0.0919,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5259,
-          "games": 19530
+          "games": 15209
         }
       ]
     },
     {
       "augmentId": 1073,
-      "winrate": 0.5246,
+      "tier": 2,
       "pickrate": 0.0765,
       "contributions": [
         {
@@ -334,14 +143,83 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5246,
           "games": 16253
         }
       ]
     },
     {
+      "augmentId": 1156,
+      "tier": 2,
+      "pickrate": 0.0377,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8018
+        }
+      ]
+    },
+    {
+      "augmentId": 1180,
+      "tier": 2,
+      "pickrate": 0.0368,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7818
+        }
+      ]
+    },
+    {
+      "augmentId": 1194,
+      "tier": 2,
+      "pickrate": 0.0672,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14287
+        }
+      ]
+    },
+    {
+      "augmentId": 1205,
+      "tier": 2,
+      "pickrate": 0.1103,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 23436
+        }
+      ]
+    },
+    {
+      "augmentId": 1238,
+      "tier": 2,
+      "pickrate": 0.1037,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 22026
+        }
+      ]
+    },
+    {
       "augmentId": 1243,
-      "winrate": 0.5211,
+      "tier": 2,
       "pickrate": 0.0189,
       "contributions": [
         {
@@ -349,14 +227,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5211,
           "games": 4022
         }
       ]
     },
     {
       "augmentId": 1310,
-      "winrate": 0.5201,
+      "tier": 2,
       "pickrate": 0.0322,
       "contributions": [
         {
@@ -364,29 +241,41 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5201,
           "games": 6837
         }
       ]
     },
     {
-      "augmentId": 1180,
-      "winrate": 0.52,
-      "pickrate": 0.0368,
+      "augmentId": 1333,
+      "tier": 2,
+      "pickrate": 0.0385,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.52,
-          "games": 7818
+          "games": 8183
+        }
+      ]
+    },
+    {
+      "augmentId": 1335,
+      "tier": 2,
+      "pickrate": 0.0033,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 709
         }
       ]
     },
     {
       "augmentId": 1337,
-      "winrate": 0.52,
+      "tier": 2,
       "pickrate": 0.0067,
       "contributions": [
         {
@@ -394,569 +283,97 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.52,
           "games": 1423
         }
       ]
     },
     {
-      "augmentId": 1403,
-      "winrate": 0.5198,
-      "pickrate": 0.0213,
+      "augmentId": 1384,
+      "tier": 2,
+      "pickrate": 0.0309,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5198,
-          "games": 4523
+          "games": 6560
         }
       ]
     },
     {
-      "augmentId": 1402,
-      "winrate": 0.518,
-      "pickrate": 0.0052,
+      "augmentId": 1389,
+      "tier": 2,
+      "pickrate": 0.0026,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.518,
-          "games": 1112
+          "games": 559
         }
       ]
     },
     {
-      "augmentId": 2032,
-      "winrate": 0.518,
-      "pickrate": 0.0066,
+      "augmentId": 1390,
+      "tier": 2,
+      "pickrate": 0.0919,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.518,
-          "games": 1392
+          "games": 19530
         }
       ]
     },
     {
-      "augmentId": 1195,
-      "winrate": 0.5176,
-      "pickrate": 0.0105,
+      "augmentId": 2083,
+      "tier": 2,
+      "pickrate": 0.0981,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5176,
-          "games": 2239
+          "games": 20848
         }
       ]
     },
     {
-      "augmentId": 1138,
-      "winrate": 0.5173,
-      "pickrate": 0.0532,
+      "augmentId": 2119,
+      "tier": 2,
+      "pickrate": 0.0036,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5173,
-          "games": 11295
+          "games": 767
         }
       ]
     },
     {
-      "augmentId": 1315,
-      "winrate": 0.5163,
-      "pickrate": 0.0575,
+      "augmentId": 2132,
+      "tier": 2,
+      "pickrate": 0.181,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5163,
-          "games": 12211
-        }
-      ]
-    },
-    {
-      "augmentId": 1388,
-      "winrate": 0.5155,
-      "pickrate": 0.0332,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5155,
-          "games": 7048
-        }
-      ]
-    },
-    {
-      "augmentId": 1030,
-      "winrate": 0.5092,
-      "pickrate": 0.0664,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5092,
-          "games": 14120
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "winrate": 0.5085,
-      "pickrate": 0.0154,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5085,
-          "games": 3276
-        }
-      ]
-    },
-    {
-      "augmentId": 2107,
-      "winrate": 0.5083,
-      "pickrate": 0.0031,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5083,
-          "games": 661
-        }
-      ]
-    },
-    {
-      "augmentId": 1068,
-      "winrate": 0.5079,
-      "pickrate": 0.0987,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5079,
-          "games": 20969
-        }
-      ]
-    },
-    {
-      "augmentId": 1373,
-      "winrate": 0.5076,
-      "pickrate": 0.0507,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5076,
-          "games": 10783
-        }
-      ]
-    },
-    {
-      "augmentId": 1308,
-      "winrate": 0.5035,
-      "pickrate": 0.0094,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5035,
-          "games": 1996
-        }
-      ]
-    },
-    {
-      "augmentId": 1211,
-      "winrate": 0.5032,
-      "pickrate": 0.0989,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5032,
-          "games": 21011
-        }
-      ]
-    },
-    {
-      "augmentId": 1311,
-      "winrate": 0.5027,
-      "pickrate": 0.0595,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5027,
-          "games": 12642
-        }
-      ]
-    },
-    {
-      "augmentId": 1129,
-      "winrate": 0.5013,
-      "pickrate": 0.1089,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5013,
-          "games": 23142
-        }
-      ]
-    },
-    {
-      "augmentId": 1318,
-      "winrate": 0.5006,
-      "pickrate": 0.0367,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5006,
-          "games": 7789
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "winrate": 0.4983,
-      "pickrate": 0.018,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4983,
-          "games": 3835
-        }
-      ]
-    },
-    {
-      "augmentId": 1020,
-      "winrate": 0.4978,
-      "pickrate": 0.0105,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4978,
-          "games": 2230
-        }
-      ]
-    },
-    {
-      "augmentId": 1116,
-      "winrate": 0.4971,
-      "pickrate": 0.0257,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4971,
-          "games": 5454
-        }
-      ]
-    },
-    {
-      "augmentId": 1048,
-      "winrate": 0.4965,
-      "pickrate": 0.0746,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4965,
-          "games": 15854
-        }
-      ]
-    },
-    {
-      "augmentId": 1112,
-      "winrate": 0.4957,
-      "pickrate": 0.0795,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4957,
-          "games": 16888
-        }
-      ]
-    },
-    {
-      "augmentId": 12317,
-      "winrate": 0.4955,
-      "pickrate": 0.0172,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4955,
-          "games": 3653
-        }
-      ]
-    },
-    {
-      "augmentId": 1415,
-      "winrate": 0.4952,
-      "pickrate": 0.0133,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4952,
-          "games": 2821
-        }
-      ]
-    },
-    {
-      "augmentId": 2016,
-      "winrate": 0.4952,
-      "pickrate": 0.022,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4952,
-          "games": 4677
-        }
-      ]
-    },
-    {
-      "augmentId": 2043,
-      "winrate": 0.4952,
-      "pickrate": 0.0087,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4952,
-          "games": 1858
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "winrate": 0.4951,
-      "pickrate": 0.0369,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4951,
-          "games": 7841
-        }
-      ]
-    },
-    {
-      "augmentId": 1025,
-      "winrate": 0.4948,
-      "pickrate": 0.0184,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4948,
-          "games": 3917
-        }
-      ]
-    },
-    {
-      "augmentId": 1029,
-      "winrate": 0.4942,
-      "pickrate": 0.0655,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4942,
-          "games": 13920
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "winrate": 0.4942,
-      "pickrate": 0.0045,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4942,
-          "games": 949
-        }
-      ]
-    },
-    {
-      "augmentId": 1098,
-      "winrate": 0.4939,
-      "pickrate": 0.014,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4939,
-          "games": 2970
-        }
-      ]
-    },
-    {
-      "augmentId": 1305,
-      "winrate": 0.4932,
-      "pickrate": 0.0149,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4932,
-          "games": 3173
-        }
-      ]
-    },
-    {
-      "augmentId": 1034,
-      "winrate": 0.493,
-      "pickrate": 0.0091,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.493,
-          "games": 1927
-        }
-      ]
-    },
-    {
-      "augmentId": 1041,
-      "winrate": 0.4897,
-      "pickrate": 0.0209,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4897,
-          "games": 4439
-        }
-      ]
-    },
-    {
-      "augmentId": 1097,
-      "winrate": 0.4897,
-      "pickrate": 0.0368,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4897,
-          "games": 7821
-        }
-      ]
-    },
-    {
-      "augmentId": 1349,
-      "winrate": 0.488,
-      "pickrate": 0.0333,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.488,
-          "games": 7086
-        }
-      ]
-    },
-    {
-      "augmentId": 2034,
-      "winrate": 0.4873,
-      "pickrate": 0.0074,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4873,
-          "games": 1574
+          "games": 38462
         }
       ]
     },
     {
       "augmentId": 1013,
-      "winrate": 0.4871,
+      "tier": 3,
       "pickrate": 0.0178,
       "contributions": [
         {
@@ -964,89 +381,97 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4871,
           "games": 3773
         }
       ]
     },
     {
-      "augmentId": 2089,
-      "winrate": 0.4861,
-      "pickrate": 0.0088,
+      "augmentId": 1020,
+      "tier": 3,
+      "pickrate": 0.0105,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4861,
-          "games": 1864
+          "games": 2230
         }
       ]
     },
     {
-      "augmentId": 1326,
-      "winrate": 0.4859,
-      "pickrate": 0.0292,
+      "augmentId": 1025,
+      "tier": 3,
+      "pickrate": 0.0184,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4859,
-          "games": 6197
+          "games": 3917
         }
       ]
     },
     {
-      "augmentId": 1154,
-      "winrate": 0.4837,
-      "pickrate": 0.0097,
+      "augmentId": 1029,
+      "tier": 3,
+      "pickrate": 0.0655,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4837,
-          "games": 2061
+          "games": 13920
         }
       ]
     },
     {
-      "augmentId": 2098,
-      "winrate": 0.4833,
-      "pickrate": 0.0065,
+      "augmentId": 1030,
+      "tier": 3,
+      "pickrate": 0.0664,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4833,
-          "games": 1380
+          "games": 14120
         }
       ]
     },
     {
-      "augmentId": 1996,
-      "winrate": 0.4832,
-      "pickrate": 0.0448,
+      "augmentId": 1034,
+      "tier": 3,
+      "pickrate": 0.0091,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4832,
-          "games": 9511
+          "games": 1927
+        }
+      ]
+    },
+    {
+      "augmentId": 1041,
+      "tier": 3,
+      "pickrate": 0.0209,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4439
         }
       ]
     },
     {
       "augmentId": 1046,
-      "winrate": 0.483,
+      "tier": 3,
       "pickrate": 0.0079,
       "contributions": [
         {
@@ -1054,14 +479,55 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.483,
           "games": 1679
         }
       ]
     },
     {
+      "augmentId": 1048,
+      "tier": 3,
+      "pickrate": 0.0746,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15854
+        }
+      ]
+    },
+    {
+      "augmentId": 1060,
+      "tier": 3,
+      "pickrate": 0.0154,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3276
+        }
+      ]
+    },
+    {
+      "augmentId": 1068,
+      "tier": 3,
+      "pickrate": 0.0987,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 20969
+        }
+      ]
+    },
+    {
       "augmentId": 1084,
-      "winrate": 0.4823,
+      "tier": 3,
       "pickrate": 0.0517,
       "contributions": [
         {
@@ -1069,629 +535,167 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4823,
           "games": 10978
         }
       ]
     },
     {
-      "augmentId": 2009,
-      "winrate": 0.4814,
-      "pickrate": 0.0161,
+      "augmentId": 1097,
+      "tier": 3,
+      "pickrate": 0.0368,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4814,
-          "games": 3411
+          "games": 7821
         }
       ]
     },
     {
-      "augmentId": 2127,
-      "winrate": 0.4808,
-      "pickrate": 0.0175,
+      "augmentId": 1098,
+      "tier": 3,
+      "pickrate": 0.014,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4808,
-          "games": 3723
+          "games": 2970
         }
       ]
     },
     {
-      "augmentId": 1019,
-      "winrate": 0.4793,
-      "pickrate": 0.0559,
+      "augmentId": 1112,
+      "tier": 3,
+      "pickrate": 0.0795,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4793,
-          "games": 11887
+          "games": 16888
         }
       ]
     },
     {
-      "augmentId": 1353,
-      "winrate": 0.4772,
-      "pickrate": 0.0376,
+      "augmentId": 1116,
+      "tier": 3,
+      "pickrate": 0.0257,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4772,
-          "games": 7996
+          "games": 5454
         }
       ]
     },
     {
-      "augmentId": 2099,
-      "winrate": 0.4769,
-      "pickrate": 0.0168,
+      "augmentId": 1129,
+      "tier": 3,
+      "pickrate": 0.1089,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4769,
-          "games": 3571
+          "games": 23142
         }
       ]
     },
     {
-      "augmentId": 2006,
-      "winrate": 0.4764,
-      "pickrate": 0.0436,
+      "augmentId": 1138,
+      "tier": 3,
+      "pickrate": 0.0532,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4764,
-          "games": 9269
+          "games": 11295
         }
       ]
     },
     {
-      "augmentId": 2116,
-      "winrate": 0.4761,
-      "pickrate": 0.0453,
+      "augmentId": 1154,
+      "tier": 3,
+      "pickrate": 0.0097,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4761,
-          "games": 9622
+          "games": 2061
         }
       ]
     },
     {
-      "augmentId": 1044,
-      "winrate": 0.4757,
-      "pickrate": 0.0045,
+      "augmentId": 1195,
+      "tier": 3,
+      "pickrate": 0.0105,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4757,
-          "games": 946
+          "games": 2239
         }
       ]
     },
     {
-      "augmentId": 2018,
-      "winrate": 0.4749,
-      "pickrate": 0.0239,
+      "augmentId": 1211,
+      "tier": 3,
+      "pickrate": 0.0989,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4749,
-          "games": 5068
+          "games": 21011
         }
       ]
     },
     {
-      "augmentId": 2091,
-      "winrate": 0.4733,
-      "pickrate": 0.0185,
+      "augmentId": 1237,
+      "tier": 3,
+      "pickrate": 0.0369,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4733,
-          "games": 3921
+          "games": 7841
         }
       ]
     },
     {
-      "augmentId": 1361,
-      "winrate": 0.473,
-      "pickrate": 0.0024,
+      "augmentId": 1305,
+      "tier": 3,
+      "pickrate": 0.0149,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.473,
-          "games": 518
+          "games": 3173
         }
       ]
     },
     {
-      "augmentId": 1027,
-      "winrate": 0.4729,
-      "pickrate": 0.0164,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4729,
-          "games": 3489
-        }
-      ]
-    },
-    {
-      "augmentId": 1322,
-      "winrate": 0.4719,
-      "pickrate": 0.0109,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4719,
-          "games": 2310
-        }
-      ]
-    },
-    {
-      "augmentId": 2026,
-      "winrate": 0.4719,
-      "pickrate": 0.0071,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4719,
-          "games": 1511
-        }
-      ]
-    },
-    {
-      "augmentId": 1006,
-      "winrate": 0.469,
-      "pickrate": 0.0051,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.469,
-          "games": 1081
-        }
-      ]
-    },
-    {
-      "augmentId": 1392,
-      "winrate": 0.467,
-      "pickrate": 0.0044,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.467,
-          "games": 940
-        }
-      ]
-    },
-    {
-      "augmentId": 1345,
-      "winrate": 0.4656,
-      "pickrate": 0.0126,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4656,
-          "games": 2678
-        }
-      ]
-    },
-    {
-      "augmentId": 1358,
-      "winrate": 0.4656,
-      "pickrate": 0.012,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4656,
-          "games": 2543
-        }
-      ]
-    },
-    {
-      "augmentId": 1301,
-      "winrate": 0.4649,
-      "pickrate": 0.01,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4649,
-          "games": 2121
-        }
-      ]
-    },
-    {
-      "augmentId": 1151,
-      "winrate": 0.4642,
-      "pickrate": 0.029,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4642,
-          "games": 6168
-        }
-      ]
-    },
-    {
-      "augmentId": 2005,
-      "winrate": 0.464,
-      "pickrate": 0.0128,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.464,
-          "games": 2720
-        }
-      ]
-    },
-    {
-      "augmentId": 2088,
-      "winrate": 0.4625,
-      "pickrate": 0.0072,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4625,
-          "games": 1522
-        }
-      ]
-    },
-    {
-      "augmentId": 2087,
-      "winrate": 0.4612,
-      "pickrate": 0.0292,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4612,
-          "games": 6212
-        }
-      ]
-    },
-    {
-      "augmentId": 1332,
-      "winrate": 0.4599,
-      "pickrate": 0.015,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4599,
-          "games": 3192
-        }
-      ]
-    },
-    {
-      "augmentId": 1002,
-      "winrate": 0.4569,
-      "pickrate": 0.0116,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4569,
-          "games": 2471
-        }
-      ]
-    },
-    {
-      "augmentId": 1001,
-      "winrate": 0.4549,
-      "pickrate": 0.0052,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4549,
-          "games": 1097
-        }
-      ]
-    },
-    {
-      "augmentId": 1181,
-      "winrate": 0.4534,
-      "pickrate": 0.0063,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4534,
-          "games": 1341
-        }
-      ]
-    },
-    {
-      "augmentId": 2118,
-      "winrate": 0.4516,
-      "pickrate": 0.0173,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4516,
-          "games": 3678
-        }
-      ]
-    },
-    {
-      "augmentId": 2064,
-      "winrate": 0.4499,
-      "pickrate": 0.0281,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4499,
-          "games": 5970
-        }
-      ]
-    },
-    {
-      "augmentId": 2042,
-      "winrate": 0.4484,
-      "pickrate": 0.0016,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4484,
-          "games": 339
-        }
-      ]
-    },
-    {
-      "augmentId": 2100,
-      "winrate": 0.4484,
-      "pickrate": 0.0182,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4484,
-          "games": 3860
-        }
-      ]
-    },
-    {
-      "augmentId": 1150,
-      "winrate": 0.4467,
-      "pickrate": 0.0098,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4467,
-          "games": 2082
-        }
-      ]
-    },
-    {
-      "augmentId": 1103,
-      "winrate": 0.4458,
-      "pickrate": 0.0112,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4458,
-          "games": 2371
-        }
-      ]
-    },
-    {
-      "augmentId": 2134,
-      "winrate": 0.4451,
-      "pickrate": 0.0078,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4451,
-          "games": 1667
-        }
-      ]
-    },
-    {
-      "augmentId": 2080,
-      "winrate": 0.4447,
-      "pickrate": 0.0114,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4447,
-          "games": 2431
-        }
-      ]
-    },
-    {
-      "augmentId": 1028,
-      "winrate": 0.4445,
-      "pickrate": 0.007,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4445,
-          "games": 1478
-        }
-      ]
-    },
-    {
-      "augmentId": 2123,
-      "winrate": 0.4427,
-      "pickrate": 0.0064,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4427,
-          "games": 1369
-        }
-      ]
-    },
-    {
-      "augmentId": 1054,
-      "winrate": 0.4292,
-      "pickrate": 0.0068,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4292,
-          "games": 1447
-        }
-      ]
-    },
-    {
-      "augmentId": 1058,
-      "winrate": 0.4261,
-      "pickrate": 0.0096,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4261,
-          "games": 2049
-        }
-      ]
-    },
-    {
-      "augmentId": 2137,
-      "winrate": 0.4237,
-      "pickrate": 0.0023,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4237,
-          "games": 498
-        }
-      ]
-    },
-    {
-      "augmentId": 1152,
-      "winrate": 0.4236,
-      "pickrate": 0.0265,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4236,
-          "games": 5635
-        }
-      ]
-    },
-    {
-      "augmentId": 2102,
-      "winrate": 0.4236,
+      "augmentId": 1308,
+      "tier": 3,
       "pickrate": 0.0094,
       "contributions": [
         {
@@ -1699,11 +703,891 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4236,
+          "games": 1996
+        }
+      ]
+    },
+    {
+      "augmentId": 1311,
+      "tier": 3,
+      "pickrate": 0.0595,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12642
+        }
+      ]
+    },
+    {
+      "augmentId": 1315,
+      "tier": 3,
+      "pickrate": 0.0575,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12211
+        }
+      ]
+    },
+    {
+      "augmentId": 1318,
+      "tier": 3,
+      "pickrate": 0.0367,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7789
+        }
+      ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": 3,
+      "pickrate": 0.0292,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6197
+        }
+      ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": 3,
+      "pickrate": 0.018,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3835
+        }
+      ]
+    },
+    {
+      "augmentId": 1349,
+      "tier": 3,
+      "pickrate": 0.0333,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7086
+        }
+      ]
+    },
+    {
+      "augmentId": 1373,
+      "tier": 3,
+      "pickrate": 0.0507,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10783
+        }
+      ]
+    },
+    {
+      "augmentId": 1388,
+      "tier": 3,
+      "pickrate": 0.0332,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7048
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": 3,
+      "pickrate": 0.0052,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1112
+        }
+      ]
+    },
+    {
+      "augmentId": 1403,
+      "tier": 3,
+      "pickrate": 0.0213,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4523
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": 3,
+      "pickrate": 0.0045,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 949
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": 3,
+      "pickrate": 0.0133,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2821
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": 3,
+      "pickrate": 0.0448,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9511
+        }
+      ]
+    },
+    {
+      "augmentId": 2009,
+      "tier": 3,
+      "pickrate": 0.0161,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3411
+        }
+      ]
+    },
+    {
+      "augmentId": 2016,
+      "tier": 3,
+      "pickrate": 0.022,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4677
+        }
+      ]
+    },
+    {
+      "augmentId": 2032,
+      "tier": 3,
+      "pickrate": 0.0066,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1392
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": 3,
+      "pickrate": 0.0074,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1574
+        }
+      ]
+    },
+    {
+      "augmentId": 2043,
+      "tier": 3,
+      "pickrate": 0.0087,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1858
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": 3,
+      "pickrate": 0.0088,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1864
+        }
+      ]
+    },
+    {
+      "augmentId": 2098,
+      "tier": 3,
+      "pickrate": 0.0065,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1380
+        }
+      ]
+    },
+    {
+      "augmentId": 2107,
+      "tier": 3,
+      "pickrate": 0.0031,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 661
+        }
+      ]
+    },
+    {
+      "augmentId": 2127,
+      "tier": 3,
+      "pickrate": 0.0175,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3723
+        }
+      ]
+    },
+    {
+      "augmentId": 12317,
+      "tier": 3,
+      "pickrate": 0.0172,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3653
+        }
+      ]
+    },
+    {
+      "augmentId": 1001,
+      "tier": 4,
+      "pickrate": 0.0052,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1097
+        }
+      ]
+    },
+    {
+      "augmentId": 1002,
+      "tier": 4,
+      "pickrate": 0.0116,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2471
+        }
+      ]
+    },
+    {
+      "augmentId": 1006,
+      "tier": 4,
+      "pickrate": 0.0051,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1081
+        }
+      ]
+    },
+    {
+      "augmentId": 1019,
+      "tier": 4,
+      "pickrate": 0.0559,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11887
+        }
+      ]
+    },
+    {
+      "augmentId": 1027,
+      "tier": 4,
+      "pickrate": 0.0164,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3489
+        }
+      ]
+    },
+    {
+      "augmentId": 1044,
+      "tier": 4,
+      "pickrate": 0.0045,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 946
+        }
+      ]
+    },
+    {
+      "augmentId": 1151,
+      "tier": 4,
+      "pickrate": 0.029,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6168
+        }
+      ]
+    },
+    {
+      "augmentId": 1181,
+      "tier": 4,
+      "pickrate": 0.0063,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1341
+        }
+      ]
+    },
+    {
+      "augmentId": 1301,
+      "tier": 4,
+      "pickrate": 0.01,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2121
+        }
+      ]
+    },
+    {
+      "augmentId": 1322,
+      "tier": 4,
+      "pickrate": 0.0109,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2310
+        }
+      ]
+    },
+    {
+      "augmentId": 1332,
+      "tier": 4,
+      "pickrate": 0.015,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3192
+        }
+      ]
+    },
+    {
+      "augmentId": 1345,
+      "tier": 4,
+      "pickrate": 0.0126,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2678
+        }
+      ]
+    },
+    {
+      "augmentId": 1353,
+      "tier": 4,
+      "pickrate": 0.0376,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7996
+        }
+      ]
+    },
+    {
+      "augmentId": 1358,
+      "tier": 4,
+      "pickrate": 0.012,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2543
+        }
+      ]
+    },
+    {
+      "augmentId": 1361,
+      "tier": 4,
+      "pickrate": 0.0024,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 518
+        }
+      ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": 4,
+      "pickrate": 0.0044,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 940
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": 4,
+      "pickrate": 0.0128,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2720
+        }
+      ]
+    },
+    {
+      "augmentId": 2006,
+      "tier": 4,
+      "pickrate": 0.0436,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9269
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": 4,
+      "pickrate": 0.0239,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5068
+        }
+      ]
+    },
+    {
+      "augmentId": 2026,
+      "tier": 4,
+      "pickrate": 0.0071,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1511
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": 4,
+      "pickrate": 0.0292,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6212
+        }
+      ]
+    },
+    {
+      "augmentId": 2088,
+      "tier": 4,
+      "pickrate": 0.0072,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1522
+        }
+      ]
+    },
+    {
+      "augmentId": 2091,
+      "tier": 4,
+      "pickrate": 0.0185,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3921
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": 4,
+      "pickrate": 0.0168,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3571
+        }
+      ]
+    },
+    {
+      "augmentId": 2116,
+      "tier": 4,
+      "pickrate": 0.0453,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9622
+        }
+      ]
+    },
+    {
+      "augmentId": 2118,
+      "tier": 4,
+      "pickrate": 0.0173,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3678
+        }
+      ]
+    },
+    {
+      "augmentId": 1028,
+      "tier": 5,
+      "pickrate": 0.007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1478
+        }
+      ]
+    },
+    {
+      "augmentId": 1054,
+      "tier": 5,
+      "pickrate": 0.0068,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1447
+        }
+      ]
+    },
+    {
+      "augmentId": 1058,
+      "tier": 5,
+      "pickrate": 0.0096,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2049
+        }
+      ]
+    },
+    {
+      "augmentId": 1103,
+      "tier": 5,
+      "pickrate": 0.0112,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2371
+        }
+      ]
+    },
+    {
+      "augmentId": 1150,
+      "tier": 5,
+      "pickrate": 0.0098,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2082
+        }
+      ]
+    },
+    {
+      "augmentId": 1152,
+      "tier": 5,
+      "pickrate": 0.0265,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5635
+        }
+      ]
+    },
+    {
+      "augmentId": 2042,
+      "tier": 5,
+      "pickrate": 0.0016,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 339
+        }
+      ]
+    },
+    {
+      "augmentId": 2064,
+      "tier": 5,
+      "pickrate": 0.0281,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5970
+        }
+      ]
+    },
+    {
+      "augmentId": 2080,
+      "tier": 5,
+      "pickrate": 0.0114,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2431
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": 5,
+      "pickrate": 0.0182,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3860
+        }
+      ]
+    },
+    {
+      "augmentId": 2102,
+      "tier": 5,
+      "pickrate": 0.0094,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
           "games": 1997
         }
       ]
+    },
+    {
+      "augmentId": 2123,
+      "tier": 5,
+      "pickrate": 0.0064,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1369
+        }
+      ]
+    },
+    {
+      "augmentId": 2134,
+      "tier": 5,
+      "pickrate": 0.0078,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1667
+        }
+      ]
+    },
+    {
+      "augmentId": 2137,
+      "tier": 5,
+      "pickrate": 0.0023,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kassadin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 498
+        }
+      ]
     }
-  ],
-  "method": "equal-source-mean"
+  ]
 }

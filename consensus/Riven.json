@@ -1,17 +1,15 @@
 {
+  "version": 1,
+  "method": "warden-performance-tiers-v1",
   "championId": 92,
   "championKey": "Riven",
   "set": "aram",
-  "source": "Mayhem source average",
-  "sourceUrl": "https://github.com/snacbot/warden-releases/blob/mayhem-data/README.md",
-  "winrateScope": "champion",
-  "pickrateScope": "champion",
   "patch": "16.18",
   "scrapedAt": "2026-09-12T02:34:26.350Z",
   "augments": [
     {
       "augmentId": 2095,
-      "winrate": 0.6101,
+      "tier": 1,
       "pickrate": 0.0193,
       "contributions": [
         {
@@ -19,14 +17,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.6101,
           "games": 3745
         }
       ]
     },
     {
       "augmentId": 1053,
-      "winrate": 0.5297,
+      "tier": 2,
       "pickrate": 0.0243,
       "contributions": [
         {
@@ -34,14 +31,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5297,
           "games": 4716
         }
       ]
     },
     {
       "augmentId": 1389,
-      "winrate": 0.5263,
+      "tier": 2,
       "pickrate": 0.002,
       "contributions": [
         {
@@ -49,14 +45,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5263,
           "games": 380
         }
       ]
     },
     {
       "augmentId": 1007,
-      "winrate": 0.5158,
+      "tier": 3,
       "pickrate": 0.0754,
       "contributions": [
         {
@@ -64,314 +59,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5158,
           "games": 14651
         }
       ]
     },
     {
-      "augmentId": 1073,
-      "winrate": 0.5146,
-      "pickrate": 0.0852,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5146,
-          "games": 16554
-        }
-      ]
-    },
-    {
-      "augmentId": 1027,
-      "winrate": 0.5139,
-      "pickrate": 0.0247,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5139,
-          "games": 4799
-        }
-      ]
-    },
-    {
-      "augmentId": 1315,
-      "winrate": 0.5138,
-      "pickrate": 0.0573,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5138,
-          "games": 11121
-        }
-      ]
-    },
-    {
-      "augmentId": 1384,
-      "winrate": 0.5133,
-      "pickrate": 0.0338,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5133,
-          "games": 6565
-        }
-      ]
-    },
-    {
-      "augmentId": 1388,
-      "winrate": 0.513,
-      "pickrate": 0.035,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.513,
-          "games": 6799
-        }
-      ]
-    },
-    {
-      "augmentId": 2031,
-      "winrate": 0.511,
-      "pickrate": 0.0091,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.511,
-          "games": 1769
-        }
-      ]
-    },
-    {
-      "augmentId": 1310,
-      "winrate": 0.5105,
-      "pickrate": 0.0534,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5105,
-          "games": 10371
-        }
-      ]
-    },
-    {
-      "augmentId": 1403,
-      "winrate": 0.5076,
-      "pickrate": 0.02,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5076,
-          "games": 3889
-        }
-      ]
-    },
-    {
-      "augmentId": 1063,
-      "winrate": 0.5067,
-      "pickrate": 0.1097,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5067,
-          "games": 21304
-        }
-      ]
-    },
-    {
-      "augmentId": 1038,
-      "winrate": 0.5066,
-      "pickrate": 0.0334,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5066,
-          "games": 6490
-        }
-      ]
-    },
-    {
-      "augmentId": 1333,
-      "winrate": 0.5065,
-      "pickrate": 0.0351,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5065,
-          "games": 6819
-        }
-      ]
-    },
-    {
-      "augmentId": 1238,
-      "winrate": 0.5045,
-      "pickrate": 0.1018,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5045,
-          "games": 19773
-        }
-      ]
-    },
-    {
-      "augmentId": 1349,
-      "winrate": 0.4991,
-      "pickrate": 0.0319,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4991,
-          "games": 6199
-        }
-      ]
-    },
-    {
-      "augmentId": 2119,
-      "winrate": 0.499,
-      "pickrate": 0.0052,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.499,
-          "games": 1006
-        }
-      ]
-    },
-    {
-      "augmentId": 2141,
-      "winrate": 0.4972,
-      "pickrate": 0.0525,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4972,
-          "games": 10188
-        }
-      ]
-    },
-    {
-      "augmentId": 2140,
-      "winrate": 0.4963,
-      "pickrate": 0.0891,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4963,
-          "games": 17306
-        }
-      ]
-    },
-    {
-      "augmentId": 1019,
-      "winrate": 0.4943,
-      "pickrate": 0.1081,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4943,
-          "games": 20999
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "winrate": 0.4943,
-      "pickrate": 0.0036,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4943,
-          "games": 706
-        }
-      ]
-    },
-    {
-      "augmentId": 2083,
-      "winrate": 0.4943,
-      "pickrate": 0.0807,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4943,
-          "games": 15671
-        }
-      ]
-    },
-    {
-      "augmentId": 1136,
-      "winrate": 0.4932,
-      "pickrate": 0.0284,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4932,
-          "games": 5517
-        }
-      ]
-    },
-    {
       "augmentId": 1018,
-      "winrate": 0.4921,
+      "tier": 3,
       "pickrate": 0.0172,
       "contributions": [
         {
@@ -379,134 +73,55 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4921,
           "games": 3349
         }
       ]
     },
     {
-      "augmentId": 1344,
-      "winrate": 0.4912,
-      "pickrate": 0.0444,
+      "augmentId": 1019,
+      "tier": 3,
+      "pickrate": 0.1081,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4912,
-          "games": 8620
+          "games": 20999
         }
       ]
     },
     {
-      "augmentId": 1373,
-      "winrate": 0.4889,
-      "pickrate": 0.0482,
+      "augmentId": 1027,
+      "tier": 3,
+      "pickrate": 0.0247,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4889,
-          "games": 9361
+          "games": 4799
         }
       ]
     },
     {
-      "augmentId": 1068,
-      "winrate": 0.4883,
-      "pickrate": 0.1151,
+      "augmentId": 1038,
+      "tier": 3,
+      "pickrate": 0.0334,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4883,
-          "games": 22353
-        }
-      ]
-    },
-    {
-      "augmentId": 2076,
-      "winrate": 0.4881,
-      "pickrate": 0.0376,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4881,
-          "games": 7308
-        }
-      ]
-    },
-    {
-      "augmentId": 1195,
-      "winrate": 0.4868,
-      "pickrate": 0.0123,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4868,
-          "games": 2385
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "winrate": 0.4864,
-      "pickrate": 0.0284,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4864,
-          "games": 5518
-        }
-      ]
-    },
-    {
-      "augmentId": 1098,
-      "winrate": 0.4857,
-      "pickrate": 0.0224,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4857,
-          "games": 4359
-        }
-      ]
-    },
-    {
-      "augmentId": 1402,
-      "winrate": 0.4843,
-      "pickrate": 0.0056,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4843,
-          "games": 1084
+          "games": 6490
         }
       ]
     },
     {
       "augmentId": 1041,
-      "winrate": 0.4832,
+      "tier": 3,
       "pickrate": 0.0331,
       "contributions": [
         {
@@ -514,14 +129,69 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4832,
           "games": 6438
         }
       ]
     },
     {
+      "augmentId": 1063,
+      "tier": 3,
+      "pickrate": 0.1097,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 21304
+        }
+      ]
+    },
+    {
+      "augmentId": 1068,
+      "tier": 3,
+      "pickrate": 0.1151,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 22353
+        }
+      ]
+    },
+    {
+      "augmentId": 1073,
+      "tier": 3,
+      "pickrate": 0.0852,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16554
+        }
+      ]
+    },
+    {
+      "augmentId": 1098,
+      "tier": 3,
+      "pickrate": 0.0224,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4359
+        }
+      ]
+    },
+    {
       "augmentId": 1116,
-      "winrate": 0.4806,
+      "tier": 3,
       "pickrate": 0.0526,
       "contributions": [
         {
@@ -529,584 +199,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4806,
           "games": 10213
         }
       ]
     },
     {
-      "augmentId": 1375,
-      "winrate": 0.4805,
-      "pickrate": 0.0257,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4805,
-          "games": 4982
-        }
-      ]
-    },
-    {
-      "augmentId": 2043,
-      "winrate": 0.4805,
-      "pickrate": 0.0091,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4805,
-          "games": 1767
-        }
-      ]
-    },
-    {
-      "augmentId": 1337,
-      "winrate": 0.4787,
-      "pickrate": 0.0047,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4787,
-          "games": 915
-        }
-      ]
-    },
-    {
-      "augmentId": 1314,
-      "winrate": 0.4773,
-      "pickrate": 0.0278,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4773,
-          "games": 5403
-        }
-      ]
-    },
-    {
-      "augmentId": 1062,
-      "winrate": 0.4737,
-      "pickrate": 0.0045,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4737,
-          "games": 876
-        }
-      ]
-    },
-    {
-      "augmentId": 1004,
-      "winrate": 0.4734,
-      "pickrate": 0.0185,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4734,
-          "games": 3585
-        }
-      ]
-    },
-    {
-      "augmentId": 2157,
-      "winrate": 0.4723,
-      "pickrate": 0.1014,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4723,
-          "games": 19700
-        }
-      ]
-    },
-    {
-      "augmentId": 2123,
-      "winrate": 0.4721,
-      "pickrate": 0.0425,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4721,
-          "games": 8255
-        }
-      ]
-    },
-    {
-      "augmentId": 2127,
-      "winrate": 0.4716,
-      "pickrate": 0.0149,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4716,
-          "games": 2901
-        }
-      ]
-    },
-    {
-      "augmentId": 2034,
-      "winrate": 0.4695,
-      "pickrate": 0.0089,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4695,
-          "games": 1721
-        }
-      ]
-    },
-    {
-      "augmentId": 12317,
-      "winrate": 0.4693,
-      "pickrate": 0.021,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4693,
-          "games": 4083
-        }
-      ]
-    },
-    {
-      "augmentId": 1214,
-      "winrate": 0.4689,
-      "pickrate": 0.0677,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4689,
-          "games": 13146
-        }
-      ]
-    },
-    {
-      "augmentId": 2077,
-      "winrate": 0.4689,
-      "pickrate": 0.0553,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4689,
-          "games": 10731
-        }
-      ]
-    },
-    {
-      "augmentId": 1308,
-      "winrate": 0.4685,
-      "pickrate": 0.0029,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4685,
-          "games": 555
-        }
-      ]
-    },
-    {
-      "augmentId": 1095,
-      "winrate": 0.4683,
-      "pickrate": 0.0019,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4683,
-          "games": 378
-        }
-      ]
-    },
-    {
-      "augmentId": 1138,
-      "winrate": 0.4679,
-      "pickrate": 0.0613,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4679,
-          "games": 11907
-        }
-      ]
-    },
-    {
-      "augmentId": 1361,
-      "winrate": 0.4675,
-      "pickrate": 0.0039,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4675,
-          "games": 755
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "winrate": 0.4667,
-      "pickrate": 0.0306,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4667,
-          "games": 5939
-        }
-      ]
-    },
-    {
-      "augmentId": 1151,
-      "winrate": 0.4662,
-      "pickrate": 0.0381,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4662,
-          "games": 7392
-        }
-      ]
-    },
-    {
-      "augmentId": 1243,
-      "winrate": 0.4657,
-      "pickrate": 0.0221,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4657,
-          "games": 4299
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "winrate": 0.4656,
-      "pickrate": 0.0048,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4656,
-          "games": 930
-        }
-      ]
-    },
-    {
-      "augmentId": 1046,
-      "winrate": 0.4639,
-      "pickrate": 0.0045,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4639,
-          "games": 873
-        }
-      ]
-    },
-    {
-      "augmentId": 2005,
-      "winrate": 0.4638,
-      "pickrate": 0.0384,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4638,
-          "games": 7452
-        }
-      ]
-    },
-    {
-      "augmentId": 2107,
-      "winrate": 0.4638,
-      "pickrate": 0.0075,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4638,
-          "games": 1451
-        }
-      ]
-    },
-    {
-      "augmentId": 1025,
-      "winrate": 0.4636,
-      "pickrate": 0.0156,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4636,
-          "games": 3024
-        }
-      ]
-    },
-    {
-      "augmentId": 2091,
-      "winrate": 0.4626,
-      "pickrate": 0.0689,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4626,
-          "games": 13384
-        }
-      ]
-    },
-    {
-      "augmentId": 1034,
-      "winrate": 0.4624,
-      "pickrate": 0.0066,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4624,
-          "games": 1276
-        }
-      ]
-    },
-    {
-      "augmentId": 2098,
-      "winrate": 0.462,
-      "pickrate": 0.014,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.462,
-          "games": 2723
-        }
-      ]
-    },
-    {
-      "augmentId": 1322,
-      "winrate": 0.4597,
-      "pickrate": 0.0262,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4597,
-          "games": 5086
-        }
-      ]
-    },
-    {
-      "augmentId": 1013,
-      "winrate": 0.4582,
-      "pickrate": 0.0239,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4582,
-          "games": 4636
-        }
-      ]
-    },
-    {
-      "augmentId": 1084,
-      "winrate": 0.4574,
-      "pickrate": 0.0445,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4574,
-          "games": 8638
-        }
-      ]
-    },
-    {
-      "augmentId": 2087,
-      "winrate": 0.4567,
-      "pickrate": 0.0219,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4567,
-          "games": 4252
-        }
-      ]
-    },
-    {
-      "augmentId": 2026,
-      "winrate": 0.4548,
-      "pickrate": 0.0078,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4548,
-          "games": 1515
-        }
-      ]
-    },
-    {
-      "augmentId": 1103,
-      "winrate": 0.4544,
-      "pickrate": 0.0589,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4544,
-          "games": 11447
-        }
-      ]
-    },
-    {
-      "augmentId": 1154,
-      "winrate": 0.454,
-      "pickrate": 0.0124,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.454,
-          "games": 2414
-        }
-      ]
-    },
-    {
-      "augmentId": 1358,
-      "winrate": 0.454,
-      "pickrate": 0.0168,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.454,
-          "games": 3264
-        }
-      ]
-    },
-    {
-      "augmentId": 1305,
-      "winrate": 0.4535,
-      "pickrate": 0.0216,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4535,
-          "games": 4190
-        }
-      ]
-    },
-    {
-      "augmentId": 2143,
-      "winrate": 0.4527,
-      "pickrate": 0.0669,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4527,
-          "games": 12995
-        }
-      ]
-    },
-    {
-      "augmentId": 1326,
-      "winrate": 0.4516,
+      "augmentId": 1136,
+      "tier": 3,
       "pickrate": 0.0284,
       "contributions": [
         {
@@ -1114,14 +213,335 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4516,
-          "games": 5514
+          "games": 5517
+        }
+      ]
+    },
+    {
+      "augmentId": 1195,
+      "tier": 3,
+      "pickrate": 0.0123,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2385
+        }
+      ]
+    },
+    {
+      "augmentId": 1238,
+      "tier": 3,
+      "pickrate": 0.1018,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 19773
+        }
+      ]
+    },
+    {
+      "augmentId": 1310,
+      "tier": 3,
+      "pickrate": 0.0534,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10371
+        }
+      ]
+    },
+    {
+      "augmentId": 1315,
+      "tier": 3,
+      "pickrate": 0.0573,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11121
+        }
+      ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": 3,
+      "pickrate": 0.0284,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5518
+        }
+      ]
+    },
+    {
+      "augmentId": 1333,
+      "tier": 3,
+      "pickrate": 0.0351,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6819
+        }
+      ]
+    },
+    {
+      "augmentId": 1344,
+      "tier": 3,
+      "pickrate": 0.0444,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8620
+        }
+      ]
+    },
+    {
+      "augmentId": 1349,
+      "tier": 3,
+      "pickrate": 0.0319,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6199
+        }
+      ]
+    },
+    {
+      "augmentId": 1373,
+      "tier": 3,
+      "pickrate": 0.0482,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9361
+        }
+      ]
+    },
+    {
+      "augmentId": 1375,
+      "tier": 3,
+      "pickrate": 0.0257,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4982
+        }
+      ]
+    },
+    {
+      "augmentId": 1384,
+      "tier": 3,
+      "pickrate": 0.0338,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6565
+        }
+      ]
+    },
+    {
+      "augmentId": 1388,
+      "tier": 3,
+      "pickrate": 0.035,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6799
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": 3,
+      "pickrate": 0.0056,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1084
+        }
+      ]
+    },
+    {
+      "augmentId": 1403,
+      "tier": 3,
+      "pickrate": 0.02,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3889
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": 3,
+      "pickrate": 0.0036,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 706
+        }
+      ]
+    },
+    {
+      "augmentId": 2031,
+      "tier": 3,
+      "pickrate": 0.0091,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1769
+        }
+      ]
+    },
+    {
+      "augmentId": 2043,
+      "tier": 3,
+      "pickrate": 0.0091,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1767
+        }
+      ]
+    },
+    {
+      "augmentId": 2076,
+      "tier": 3,
+      "pickrate": 0.0376,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7308
+        }
+      ]
+    },
+    {
+      "augmentId": 2083,
+      "tier": 3,
+      "pickrate": 0.0807,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15671
+        }
+      ]
+    },
+    {
+      "augmentId": 2119,
+      "tier": 3,
+      "pickrate": 0.0052,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1006
+        }
+      ]
+    },
+    {
+      "augmentId": 2140,
+      "tier": 3,
+      "pickrate": 0.0891,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17306
+        }
+      ]
+    },
+    {
+      "augmentId": 2141,
+      "tier": 3,
+      "pickrate": 0.0525,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10188
+        }
+      ]
+    },
+    {
+      "augmentId": 1004,
+      "tier": 4,
+      "pickrate": 0.0185,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3585
         }
       ]
     },
     {
       "augmentId": 1006,
-      "winrate": 0.4511,
+      "tier": 4,
       "pickrate": 0.0149,
       "contributions": [
         {
@@ -1129,74 +549,97 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4511,
           "games": 2893
         }
       ]
     },
     {
-      "augmentId": 1149,
-      "winrate": 0.4508,
-      "pickrate": 0.0058,
+      "augmentId": 1013,
+      "tier": 4,
+      "pickrate": 0.0239,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4508,
-          "games": 1127
+          "games": 4636
         }
       ]
     },
     {
-      "augmentId": 2089,
-      "winrate": 0.4503,
-      "pickrate": 0.007,
+      "augmentId": 1025,
+      "tier": 4,
+      "pickrate": 0.0156,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4503,
-          "games": 1359
+          "games": 3024
         }
       ]
     },
     {
-      "augmentId": 2100,
-      "winrate": 0.4491,
-      "pickrate": 0.072,
+      "augmentId": 1034,
+      "tier": 4,
+      "pickrate": 0.0066,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4491,
-          "games": 13991
+          "games": 1276
         }
       ]
     },
     {
-      "augmentId": 2125,
-      "winrate": 0.4489,
-      "pickrate": 0.0179,
+      "augmentId": 1046,
+      "tier": 4,
+      "pickrate": 0.0045,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4489,
-          "games": 3484
+          "games": 873
         }
       ]
     },
     {
-      "augmentId": 1048,
-      "winrate": 0.448,
+      "augmentId": 1060,
+      "tier": 4,
+      "pickrate": 0.0048,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 930
+        }
+      ]
+    },
+    {
+      "augmentId": 1062,
+      "tier": 4,
+      "pickrate": 0.0045,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 876
+        }
+      ]
+    },
+    {
+      "augmentId": 1084,
+      "tier": 4,
       "pickrate": 0.0445,
       "contributions": [
         {
@@ -1204,194 +647,55 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.448,
-          "games": 8640
+          "games": 8638
         }
       ]
     },
     {
-      "augmentId": 1150,
-      "winrate": 0.4469,
-      "pickrate": 0.0244,
+      "augmentId": 1095,
+      "tier": 4,
+      "pickrate": 0.0019,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4469,
-          "games": 4744
+          "games": 378
         }
       ]
     },
     {
-      "augmentId": 1020,
-      "winrate": 0.4468,
-      "pickrate": 0.0165,
+      "augmentId": 1103,
+      "tier": 4,
+      "pickrate": 0.0589,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4468,
-          "games": 3205
+          "games": 11447
         }
       ]
     },
     {
-      "augmentId": 1011,
-      "winrate": 0.4462,
-      "pickrate": 0.0081,
+      "augmentId": 1138,
+      "tier": 4,
+      "pickrate": 0.0613,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4462,
-          "games": 1571
+          "games": 11907
         }
       ]
     },
     {
-      "augmentId": 2096,
-      "winrate": 0.4462,
-      "pickrate": 0.0474,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4462,
-          "games": 9215
-        }
-      ]
-    },
-    {
-      "augmentId": 2099,
-      "winrate": 0.4459,
-      "pickrate": 0.0266,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4459,
-          "games": 5158
-        }
-      ]
-    },
-    {
-      "augmentId": 2137,
-      "winrate": 0.4448,
-      "pickrate": 0.0032,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4448,
-          "games": 616
-        }
-      ]
-    },
-    {
-      "augmentId": 2144,
-      "winrate": 0.4433,
-      "pickrate": 0.043,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4433,
-          "games": 8348
-        }
-      ]
-    },
-    {
-      "augmentId": 1353,
-      "winrate": 0.4431,
-      "pickrate": 0.0412,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4431,
-          "games": 8001
-        }
-      ]
-    },
-    {
-      "augmentId": 2032,
-      "winrate": 0.443,
-      "pickrate": 0.0067,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.443,
-          "games": 1307
-        }
-      ]
-    },
-    {
-      "augmentId": 2088,
-      "winrate": 0.4427,
-      "pickrate": 0.0092,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4427,
-          "games": 1780
-        }
-      ]
-    },
-    {
-      "augmentId": 1415,
-      "winrate": 0.4397,
-      "pickrate": 0.0069,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4397,
-          "games": 1344
-        }
-      ]
-    },
-    {
-      "augmentId": 1323,
-      "winrate": 0.439,
-      "pickrate": 0.005,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.439,
-          "games": 968
-        }
-      ]
-    },
-    {
-      "augmentId": 2018,
-      "winrate": 0.4389,
+      "augmentId": 1149,
+      "tier": 4,
       "pickrate": 0.0058,
       "contributions": [
         {
@@ -1399,209 +703,391 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4389,
-          "games": 1121
+          "games": 1127
         }
       ]
     },
     {
-      "augmentId": 1077,
-      "winrate": 0.4385,
-      "pickrate": 0.0268,
+      "augmentId": 1151,
+      "tier": 4,
+      "pickrate": 0.0381,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4385,
-          "games": 5204
+          "games": 7392
         }
       ]
     },
     {
-      "augmentId": 2102,
-      "winrate": 0.4385,
-      "pickrate": 0.0139,
+      "augmentId": 1154,
+      "tier": 4,
+      "pickrate": 0.0124,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4385,
-          "games": 2698
+          "games": 2414
         }
       ]
     },
     {
-      "augmentId": 1301,
-      "winrate": 0.4382,
-      "pickrate": 0.0095,
+      "augmentId": 1214,
+      "tier": 4,
+      "pickrate": 0.0677,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4382,
-          "games": 1837
+          "games": 13146
         }
       ]
     },
     {
-      "augmentId": 2080,
-      "winrate": 0.4375,
-      "pickrate": 0.0147,
+      "augmentId": 1237,
+      "tier": 4,
+      "pickrate": 0.0306,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4375,
-          "games": 2862
+          "games": 5939
         }
       ]
     },
     {
-      "augmentId": 1335,
-      "winrate": 0.4367,
-      "pickrate": 0.0021,
+      "augmentId": 1243,
+      "tier": 4,
+      "pickrate": 0.0221,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4367,
-          "games": 403
+          "games": 4299
         }
       ]
     },
     {
-      "augmentId": 1028,
-      "winrate": 0.4351,
-      "pickrate": 0.0063,
+      "augmentId": 1305,
+      "tier": 4,
+      "pickrate": 0.0216,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4351,
-          "games": 1225
+          "games": 4190
         }
       ]
     },
     {
-      "augmentId": 1320,
-      "winrate": 0.4351,
-      "pickrate": 0.0244,
+      "augmentId": 1308,
+      "tier": 4,
+      "pickrate": 0.0029,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4351,
-          "games": 4744
+          "games": 555
         }
       ]
     },
     {
-      "augmentId": 1211,
-      "winrate": 0.4347,
-      "pickrate": 0.0121,
+      "augmentId": 1314,
+      "tier": 4,
+      "pickrate": 0.0278,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4347,
-          "games": 2349
+          "games": 5403
         }
       ]
     },
     {
-      "augmentId": 1345,
-      "winrate": 0.4342,
-      "pickrate": 0.0105,
+      "augmentId": 1322,
+      "tier": 4,
+      "pickrate": 0.0262,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4342,
-          "games": 2036
+          "games": 5086
         }
       ]
     },
     {
-      "augmentId": 2116,
-      "winrate": 0.4338,
-      "pickrate": 0.0483,
+      "augmentId": 1326,
+      "tier": 4,
+      "pickrate": 0.0284,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4338,
-          "games": 9373
+          "games": 5514
         }
       ]
     },
     {
-      "augmentId": 1029,
-      "winrate": 0.4336,
-      "pickrate": 0.0729,
+      "augmentId": 1337,
+      "tier": 4,
+      "pickrate": 0.0047,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4336,
-          "games": 14160
+          "games": 915
         }
       ]
     },
     {
-      "augmentId": 1112,
-      "winrate": 0.432,
-      "pickrate": 0.0178,
+      "augmentId": 1358,
+      "tier": 4,
+      "pickrate": 0.0168,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.432,
-          "games": 3449
+          "games": 3264
         }
       ]
     },
     {
-      "augmentId": 1392,
-      "winrate": 0.4303,
-      "pickrate": 0.0095,
+      "augmentId": 1361,
+      "tier": 4,
+      "pickrate": 0.0039,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4303,
-          "games": 1850
+          "games": 755
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": 4,
+      "pickrate": 0.0384,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7452
+        }
+      ]
+    },
+    {
+      "augmentId": 2026,
+      "tier": 4,
+      "pickrate": 0.0078,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1515
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": 4,
+      "pickrate": 0.0089,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1721
+        }
+      ]
+    },
+    {
+      "augmentId": 2077,
+      "tier": 4,
+      "pickrate": 0.0553,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10731
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": 4,
+      "pickrate": 0.0219,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4252
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": 4,
+      "pickrate": 0.007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1359
+        }
+      ]
+    },
+    {
+      "augmentId": 2091,
+      "tier": 4,
+      "pickrate": 0.0689,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13384
+        }
+      ]
+    },
+    {
+      "augmentId": 2098,
+      "tier": 4,
+      "pickrate": 0.014,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2723
+        }
+      ]
+    },
+    {
+      "augmentId": 2107,
+      "tier": 4,
+      "pickrate": 0.0075,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1451
+        }
+      ]
+    },
+    {
+      "augmentId": 2123,
+      "tier": 4,
+      "pickrate": 0.0425,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8255
+        }
+      ]
+    },
+    {
+      "augmentId": 2127,
+      "tier": 4,
+      "pickrate": 0.0149,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2901
+        }
+      ]
+    },
+    {
+      "augmentId": 2143,
+      "tier": 4,
+      "pickrate": 0.0669,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12995
+        }
+      ]
+    },
+    {
+      "augmentId": 2157,
+      "tier": 4,
+      "pickrate": 0.1014,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 19700
+        }
+      ]
+    },
+    {
+      "augmentId": 12317,
+      "tier": 4,
+      "pickrate": 0.021,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4083
         }
       ]
     },
     {
       "augmentId": 1001,
-      "winrate": 0.4277,
+      "tier": 5,
       "pickrate": 0.0158,
       "contributions": [
         {
@@ -1609,134 +1095,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4277,
           "games": 3065
         }
       ]
     },
     {
-      "augmentId": 2006,
-      "winrate": 0.4264,
-      "pickrate": 0.0516,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4264,
-          "games": 10022
-        }
-      ]
-    },
-    {
-      "augmentId": 1187,
-      "winrate": 0.4251,
-      "pickrate": 0.0017,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4251,
-          "games": 334
-        }
-      ]
-    },
-    {
-      "augmentId": 1181,
-      "winrate": 0.4246,
-      "pickrate": 0.0159,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4246,
-          "games": 3095
-        }
-      ]
-    },
-    {
-      "augmentId": 1996,
-      "winrate": 0.4238,
-      "pickrate": 0.0136,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4238,
-          "games": 2638
-        }
-      ]
-    },
-    {
-      "augmentId": 1152,
-      "winrate": 0.4213,
-      "pickrate": 0.0375,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4213,
-          "games": 7291
-        }
-      ]
-    },
-    {
-      "augmentId": 2139,
-      "winrate": 0.418,
-      "pickrate": 0.0035,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.418,
-          "games": 689
-        }
-      ]
-    },
-    {
-      "augmentId": 2062,
-      "winrate": 0.4175,
-      "pickrate": 0.0081,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4175,
-          "games": 1581
-        }
-      ]
-    },
-    {
-      "augmentId": 1058,
-      "winrate": 0.4172,
-      "pickrate": 0.0329,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4172,
-          "games": 6397
-        }
-      ]
-    },
-    {
       "augmentId": 1002,
-      "winrate": 0.4166,
+      "tier": 5,
       "pickrate": 0.0133,
       "contributions": [
         {
@@ -1744,104 +1109,83 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4166,
           "games": 2590
         }
       ]
     },
     {
-      "augmentId": 1088,
-      "winrate": 0.4109,
-      "pickrate": 0.006,
+      "augmentId": 1011,
+      "tier": 5,
+      "pickrate": 0.0081,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4109,
-          "games": 1173
+          "games": 1571
         }
       ]
     },
     {
-      "augmentId": 2118,
-      "winrate": 0.4106,
-      "pickrate": 0.0033,
+      "augmentId": 1020,
+      "tier": 5,
+      "pickrate": 0.0165,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4106,
-          "games": 643
+          "games": 3205
         }
       ]
     },
     {
-      "augmentId": 2135,
-      "winrate": 0.4077,
-      "pickrate": 0.0109,
+      "augmentId": 1028,
+      "tier": 5,
+      "pickrate": 0.0063,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4077,
-          "games": 2112
+          "games": 1225
         }
       ]
     },
     {
-      "augmentId": 2063,
-      "winrate": 0.4068,
-      "pickrate": 0.0015,
+      "augmentId": 1029,
+      "tier": 5,
+      "pickrate": 0.0729,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4068,
-          "games": 295
+          "games": 14160
         }
       ]
     },
     {
-      "augmentId": 1220,
-      "winrate": 0.391,
-      "pickrate": 0.0044,
+      "augmentId": 1048,
+      "tier": 5,
+      "pickrate": 0.0445,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.391,
-          "games": 862
-        }
-      ]
-    },
-    {
-      "augmentId": 1194,
-      "winrate": 0.3796,
-      "pickrate": 0.0034,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3796,
-          "games": 656
+          "games": 8640
         }
       ]
     },
     {
       "augmentId": 1057,
-      "winrate": 0.3686,
+      "tier": 5,
       "pickrate": 0.0013,
       "contributions": [
         {
@@ -1849,14 +1193,251 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3686,
           "games": 255
         }
       ]
     },
     {
+      "augmentId": 1058,
+      "tier": 5,
+      "pickrate": 0.0329,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6397
+        }
+      ]
+    },
+    {
+      "augmentId": 1077,
+      "tier": 5,
+      "pickrate": 0.0268,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5204
+        }
+      ]
+    },
+    {
+      "augmentId": 1088,
+      "tier": 5,
+      "pickrate": 0.006,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1173
+        }
+      ]
+    },
+    {
+      "augmentId": 1112,
+      "tier": 5,
+      "pickrate": 0.0178,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3449
+        }
+      ]
+    },
+    {
+      "augmentId": 1150,
+      "tier": 5,
+      "pickrate": 0.0244,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4744
+        }
+      ]
+    },
+    {
+      "augmentId": 1152,
+      "tier": 5,
+      "pickrate": 0.0375,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7291
+        }
+      ]
+    },
+    {
+      "augmentId": 1181,
+      "tier": 5,
+      "pickrate": 0.0159,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3095
+        }
+      ]
+    },
+    {
+      "augmentId": 1187,
+      "tier": 5,
+      "pickrate": 0.0017,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 334
+        }
+      ]
+    },
+    {
+      "augmentId": 1194,
+      "tier": 5,
+      "pickrate": 0.0034,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 656
+        }
+      ]
+    },
+    {
+      "augmentId": 1211,
+      "tier": 5,
+      "pickrate": 0.0121,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2349
+        }
+      ]
+    },
+    {
+      "augmentId": 1220,
+      "tier": 5,
+      "pickrate": 0.0044,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 862
+        }
+      ]
+    },
+    {
+      "augmentId": 1301,
+      "tier": 5,
+      "pickrate": 0.0095,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1837
+        }
+      ]
+    },
+    {
+      "augmentId": 1320,
+      "tier": 5,
+      "pickrate": 0.0244,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4744
+        }
+      ]
+    },
+    {
+      "augmentId": 1323,
+      "tier": 5,
+      "pickrate": 0.005,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 968
+        }
+      ]
+    },
+    {
+      "augmentId": 1335,
+      "tier": 5,
+      "pickrate": 0.0021,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 403
+        }
+      ]
+    },
+    {
+      "augmentId": 1345,
+      "tier": 5,
+      "pickrate": 0.0105,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2036
+        }
+      ]
+    },
+    {
+      "augmentId": 1353,
+      "tier": 5,
+      "pickrate": 0.0412,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8001
+        }
+      ]
+    },
+    {
       "augmentId": 1386,
-      "winrate": 0.3399,
+      "tier": 5,
       "pickrate": 0.0016,
       "contributions": [
         {
@@ -1864,11 +1445,303 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3399,
           "games": 306
         }
       ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": 5,
+      "pickrate": 0.0095,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1850
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": 5,
+      "pickrate": 0.0069,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1344
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": 5,
+      "pickrate": 0.0136,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2638
+        }
+      ]
+    },
+    {
+      "augmentId": 2006,
+      "tier": 5,
+      "pickrate": 0.0516,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10022
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": 5,
+      "pickrate": 0.0058,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1121
+        }
+      ]
+    },
+    {
+      "augmentId": 2032,
+      "tier": 5,
+      "pickrate": 0.0067,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1307
+        }
+      ]
+    },
+    {
+      "augmentId": 2062,
+      "tier": 5,
+      "pickrate": 0.0081,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1581
+        }
+      ]
+    },
+    {
+      "augmentId": 2063,
+      "tier": 5,
+      "pickrate": 0.0015,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 295
+        }
+      ]
+    },
+    {
+      "augmentId": 2080,
+      "tier": 5,
+      "pickrate": 0.0147,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2862
+        }
+      ]
+    },
+    {
+      "augmentId": 2088,
+      "tier": 5,
+      "pickrate": 0.0092,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1780
+        }
+      ]
+    },
+    {
+      "augmentId": 2096,
+      "tier": 5,
+      "pickrate": 0.0474,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9215
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": 5,
+      "pickrate": 0.0266,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5158
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": 5,
+      "pickrate": 0.072,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13991
+        }
+      ]
+    },
+    {
+      "augmentId": 2102,
+      "tier": 5,
+      "pickrate": 0.0139,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2698
+        }
+      ]
+    },
+    {
+      "augmentId": 2116,
+      "tier": 5,
+      "pickrate": 0.0483,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9373
+        }
+      ]
+    },
+    {
+      "augmentId": 2118,
+      "tier": 5,
+      "pickrate": 0.0033,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 643
+        }
+      ]
+    },
+    {
+      "augmentId": 2125,
+      "tier": 5,
+      "pickrate": 0.0179,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3484
+        }
+      ]
+    },
+    {
+      "augmentId": 2135,
+      "tier": 5,
+      "pickrate": 0.0109,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2112
+        }
+      ]
+    },
+    {
+      "augmentId": 2137,
+      "tier": 5,
+      "pickrate": 0.0032,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 616
+        }
+      ]
+    },
+    {
+      "augmentId": 2139,
+      "tier": 5,
+      "pickrate": 0.0035,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 689
+        }
+      ]
+    },
+    {
+      "augmentId": 2144,
+      "tier": 5,
+      "pickrate": 0.043,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/riven?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8348
+        }
+      ]
     }
-  ],
-  "method": "equal-source-mean"
+  ]
 }

@@ -1,62 +1,15 @@
 {
+  "version": 1,
+  "method": "warden-performance-tiers-v1",
   "championId": 104,
   "championKey": "Graves",
   "set": "aram",
-  "source": "Mayhem source average",
-  "sourceUrl": "https://github.com/snacbot/warden-releases/blob/mayhem-data/README.md",
-  "winrateScope": "champion",
-  "pickrateScope": "champion",
   "patch": "16.18",
   "scrapedAt": "2026-09-12T02:34:26.350Z",
   "augments": [
     {
-      "augmentId": 1134,
-      "winrate": 0.6403,
-      "pickrate": 0.1785,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.6403,
-          "games": 149058
-        }
-      ]
-    },
-    {
-      "augmentId": 2095,
-      "winrate": 0.6234,
-      "pickrate": 0.024,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.6234,
-          "games": 20005
-        }
-      ]
-    },
-    {
-      "augmentId": 1389,
-      "winrate": 0.5683,
-      "pickrate": 0.0028,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5683,
-          "games": 2312
-        }
-      ]
-    },
-    {
       "augmentId": 1004,
-      "winrate": 0.5645,
+      "tier": 1,
       "pickrate": 0.0451,
       "contributions": [
         {
@@ -64,14 +17,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5645,
           "games": 37624
         }
       ]
     },
     {
+      "augmentId": 1134,
+      "tier": 1,
+      "pickrate": 0.1785,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 149058
+        }
+      ]
+    },
+    {
       "augmentId": 1315,
-      "winrate": 0.5582,
+      "tier": 1,
       "pickrate": 0.0121,
       "contributions": [
         {
@@ -79,14 +45,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5582,
           "games": 10137
         }
       ]
     },
     {
       "augmentId": 1333,
-      "winrate": 0.556,
+      "tier": 1,
       "pickrate": 0.0365,
       "contributions": [
         {
@@ -94,44 +59,41 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.556,
           "games": 30507
         }
       ]
     },
     {
-      "augmentId": 1053,
-      "winrate": 0.5496,
-      "pickrate": 0.0246,
+      "augmentId": 1389,
+      "tier": 1,
+      "pickrate": 0.0028,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5496,
-          "games": 20538
+          "games": 2312
         }
       ]
     },
     {
-      "augmentId": 2107,
-      "winrate": 0.5428,
-      "pickrate": 0.0047,
+      "augmentId": 2095,
+      "tier": 1,
+      "pickrate": 0.024,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5428,
-          "games": 3939
+          "games": 20005
         }
       ]
     },
     {
       "augmentId": 1007,
-      "winrate": 0.5419,
+      "tier": 2,
       "pickrate": 0.1201,
       "contributions": [
         {
@@ -139,29 +101,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5419,
           "games": 100242
         }
       ]
     },
     {
-      "augmentId": 1195,
-      "winrate": 0.5402,
-      "pickrate": 0.0316,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5402,
-          "games": 26420
-        }
-      ]
-    },
-    {
       "augmentId": 1038,
-      "winrate": 0.5377,
+      "tier": 2,
       "pickrate": 0.0574,
       "contributions": [
         {
@@ -169,149 +115,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5377,
           "games": 47903
         }
       ]
     },
     {
-      "augmentId": 1080,
-      "winrate": 0.537,
-      "pickrate": 0.0789,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.537,
-          "games": 65843
-        }
-      ]
-    },
-    {
-      "augmentId": 1206,
-      "winrate": 0.5356,
-      "pickrate": 0.0635,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5356,
-          "games": 52982
-        }
-      ]
-    },
-    {
-      "augmentId": 2083,
-      "winrate": 0.5351,
-      "pickrate": 0.1111,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5351,
-          "games": 92773
-        }
-      ]
-    },
-    {
-      "augmentId": 1077,
-      "winrate": 0.5349,
-      "pickrate": 0.206,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5349,
-          "games": 172010
-        }
-      ]
-    },
-    {
-      "augmentId": 1310,
-      "winrate": 0.5339,
-      "pickrate": 0.0566,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5339,
-          "games": 47284
-        }
-      ]
-    },
-    {
-      "augmentId": 1384,
-      "winrate": 0.5336,
-      "pickrate": 0.0348,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5336,
-          "games": 29023
-        }
-      ]
-    },
-    {
-      "augmentId": 1138,
-      "winrate": 0.5319,
-      "pickrate": 0.0876,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5319,
-          "games": 73151
-        }
-      ]
-    },
-    {
-      "augmentId": 1403,
-      "winrate": 0.5316,
-      "pickrate": 0.0209,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5316,
-          "games": 17455
-        }
-      ]
-    },
-    {
-      "augmentId": 2141,
-      "winrate": 0.5313,
-      "pickrate": 0.0416,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5313,
-          "games": 34704
-        }
-      ]
-    },
-    {
       "augmentId": 1048,
-      "winrate": 0.5312,
+      "tier": 2,
       "pickrate": 0.0757,
       "contributions": [
         {
@@ -319,59 +129,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5312,
           "games": 63236
         }
       ]
     },
     {
-      "augmentId": 1073,
-      "winrate": 0.531,
-      "pickrate": 0.0368,
+      "augmentId": 1053,
+      "tier": 2,
+      "pickrate": 0.0246,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.531,
-          "games": 30697
-        }
-      ]
-    },
-    {
-      "augmentId": 1071,
-      "winrate": 0.5281,
-      "pickrate": 0.0736,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5281,
-          "games": 61481
-        }
-      ]
-    },
-    {
-      "augmentId": 1238,
-      "winrate": 0.5227,
-      "pickrate": 0.1121,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5227,
-          "games": 93632
+          "games": 20538
         }
       ]
     },
     {
       "augmentId": 1062,
-      "winrate": 0.5204,
+      "tier": 2,
       "pickrate": 0.008,
       "contributions": [
         {
@@ -379,14 +157,139 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5204,
           "games": 6649
         }
       ]
     },
     {
+      "augmentId": 1071,
+      "tier": 2,
+      "pickrate": 0.0736,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 61481
+        }
+      ]
+    },
+    {
+      "augmentId": 1073,
+      "tier": 2,
+      "pickrate": 0.0368,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 30697
+        }
+      ]
+    },
+    {
+      "augmentId": 1077,
+      "tier": 2,
+      "pickrate": 0.206,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 172010
+        }
+      ]
+    },
+    {
+      "augmentId": 1080,
+      "tier": 2,
+      "pickrate": 0.0789,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 65843
+        }
+      ]
+    },
+    {
+      "augmentId": 1138,
+      "tier": 2,
+      "pickrate": 0.0876,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 73151
+        }
+      ]
+    },
+    {
+      "augmentId": 1195,
+      "tier": 2,
+      "pickrate": 0.0316,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 26420
+        }
+      ]
+    },
+    {
+      "augmentId": 1206,
+      "tier": 2,
+      "pickrate": 0.0635,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 52982
+        }
+      ]
+    },
+    {
+      "augmentId": 1238,
+      "tier": 2,
+      "pickrate": 0.1121,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 93632
+        }
+      ]
+    },
+    {
+      "augmentId": 1310,
+      "tier": 2,
+      "pickrate": 0.0566,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 47284
+        }
+      ]
+    },
+    {
       "augmentId": 1356,
-      "winrate": 0.5204,
+      "tier": 2,
       "pickrate": 0.1311,
       "contributions": [
         {
@@ -394,584 +297,55 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5204,
           "games": 109436
         }
       ]
     },
     {
-      "augmentId": 2009,
-      "winrate": 0.5173,
-      "pickrate": 0.0259,
+      "augmentId": 1384,
+      "tier": 2,
+      "pickrate": 0.0348,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5173,
-          "games": 21601
+          "games": 29023
         }
       ]
     },
     {
-      "augmentId": 1415,
-      "winrate": 0.5167,
-      "pickrate": 0.0154,
+      "augmentId": 1403,
+      "tier": 2,
+      "pickrate": 0.0209,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5167,
-          "games": 12843
+          "games": 17455
         }
       ]
     },
     {
-      "augmentId": 1060,
-      "winrate": 0.5166,
-      "pickrate": 0.0062,
+      "augmentId": 2083,
+      "tier": 2,
+      "pickrate": 0.1111,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5166,
-          "games": 5155
+          "games": 92773
         }
       ]
     },
     {
-      "augmentId": 1170,
-      "winrate": 0.5165,
-      "pickrate": 0.0317,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5165,
-          "games": 26427
-        }
-      ]
-    },
-    {
-      "augmentId": 1105,
-      "winrate": 0.5161,
-      "pickrate": 0.0084,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5161,
-          "games": 6981
-        }
-      ]
-    },
-    {
-      "augmentId": 1154,
-      "winrate": 0.5151,
-      "pickrate": 0.0196,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5151,
-          "games": 16330
-        }
-      ]
-    },
-    {
-      "augmentId": 1115,
-      "winrate": 0.5143,
-      "pickrate": 0.0341,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5143,
-          "games": 28438
-        }
-      ]
-    },
-    {
-      "augmentId": 1344,
-      "winrate": 0.5136,
-      "pickrate": 0.0131,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5136,
-          "games": 10920
-        }
-      ]
-    },
-    {
-      "augmentId": 2119,
-      "winrate": 0.5129,
-      "pickrate": 0.0014,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5129,
-          "games": 1201
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "winrate": 0.5123,
-      "pickrate": 0.006,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5123,
-          "games": 4972
-        }
-      ]
-    },
-    {
-      "augmentId": 2140,
-      "winrate": 0.5118,
-      "pickrate": 0.0253,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5118,
-          "games": 21143
-        }
-      ]
-    },
-    {
-      "augmentId": 1373,
-      "winrate": 0.5109,
-      "pickrate": 0.0301,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5109,
-          "games": 25138
-        }
-      ]
-    },
-    {
-      "augmentId": 1034,
-      "winrate": 0.5099,
-      "pickrate": 0.0127,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5099,
-          "games": 10573
-        }
-      ]
-    },
-    {
-      "augmentId": 1063,
-      "winrate": 0.5091,
-      "pickrate": 0.0189,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5091,
-          "games": 15796
-        }
-      ]
-    },
-    {
-      "augmentId": 1320,
-      "winrate": 0.5089,
-      "pickrate": 0.1135,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5089,
-          "games": 94724
-        }
-      ]
-    },
-    {
-      "augmentId": 2098,
-      "winrate": 0.5086,
-      "pickrate": 0.013,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5086,
-          "games": 10874
-        }
-      ]
-    },
-    {
-      "augmentId": 1322,
-      "winrate": 0.5085,
-      "pickrate": 0.0433,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5085,
-          "games": 36160
-        }
-      ]
-    },
-    {
-      "augmentId": 1061,
-      "winrate": 0.5075,
-      "pickrate": 0.0034,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5075,
-          "games": 2851
-        }
-      ]
-    },
-    {
-      "augmentId": 1047,
-      "winrate": 0.504,
-      "pickrate": 0.0738,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.504,
-          "games": 61633
-        }
-      ]
-    },
-    {
-      "augmentId": 1402,
-      "winrate": 0.5029,
-      "pickrate": 0.0084,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5029,
-          "games": 7021
-        }
-      ]
-    },
-    {
-      "augmentId": 1116,
-      "winrate": 0.5026,
-      "pickrate": 0.028,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5026,
-          "games": 23379
-        }
-      ]
-    },
-    {
-      "augmentId": 1243,
-      "winrate": 0.5025,
-      "pickrate": 0.0301,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5025,
-          "games": 25136
-        }
-      ]
-    },
-    {
-      "augmentId": 1336,
-      "winrate": 0.5019,
-      "pickrate": 0.2295,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5019,
-          "games": 191633
-        }
-      ]
-    },
-    {
-      "augmentId": 1028,
-      "winrate": 0.5007,
-      "pickrate": 0.0087,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5007,
-          "games": 7246
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "winrate": 0.5007,
-      "pickrate": 0.0248,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5007,
-          "games": 20719
-        }
-      ]
-    },
-    {
-      "augmentId": 1151,
-      "winrate": 0.5006,
-      "pickrate": 0.0242,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5006,
-          "games": 20221
-        }
-      ]
-    },
-    {
-      "augmentId": 1084,
-      "winrate": 0.5004,
-      "pickrate": 0.0685,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5004,
-          "games": 57224
-        }
-      ]
-    },
-    {
-      "augmentId": 1098,
-      "winrate": 0.4998,
-      "pickrate": 0.0035,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4998,
-          "games": 2961
-        }
-      ]
-    },
-    {
-      "augmentId": 1308,
-      "winrate": 0.4998,
-      "pickrate": 0.0027,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4998,
-          "games": 2215
-        }
-      ]
-    },
-    {
-      "augmentId": 1326,
-      "winrate": 0.499,
-      "pickrate": 0.0338,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.499,
-          "games": 28217
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "winrate": 0.4987,
-      "pickrate": 0.0437,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4987,
-          "games": 36510
-        }
-      ]
-    },
-    {
-      "augmentId": 1057,
-      "winrate": 0.4975,
-      "pickrate": 0.0014,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4975,
-          "games": 1190
-        }
-      ]
-    },
-    {
-      "augmentId": 1361,
-      "winrate": 0.497,
-      "pickrate": 0.0004,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.497,
-          "games": 334
-        }
-      ]
-    },
-    {
-      "augmentId": 1328,
-      "winrate": 0.4968,
-      "pickrate": 0.0621,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4968,
-          "games": 51881
-        }
-      ]
-    },
-    {
-      "augmentId": 1046,
-      "winrate": 0.4965,
-      "pickrate": 0.0118,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4965,
-          "games": 9877
-        }
-      ]
-    },
-    {
-      "augmentId": 1092,
-      "winrate": 0.4955,
-      "pickrate": 0.1258,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4955,
-          "games": 105054
-        }
-      ]
-    },
-    {
-      "augmentId": 2127,
-      "winrate": 0.4941,
-      "pickrate": 0.0229,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4941,
-          "games": 19084
-        }
-      ]
-    },
-    {
-      "augmentId": 1337,
-      "winrate": 0.4937,
-      "pickrate": 0.0076,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4937,
-          "games": 6344
-        }
-      ]
-    },
-    {
-      "augmentId": 1335,
-      "winrate": 0.4935,
+      "augmentId": 2107,
+      "tier": 2,
       "pickrate": 0.0047,
       "contributions": [
         {
@@ -979,14 +353,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4935,
-          "games": 3935
+          "games": 3939
+        }
+      ]
+    },
+    {
+      "augmentId": 2141,
+      "tier": 2,
+      "pickrate": 0.0416,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 34704
         }
       ]
     },
     {
       "augmentId": 1022,
-      "winrate": 0.492,
+      "tier": 3,
       "pickrate": 0.0145,
       "contributions": [
         {
@@ -994,254 +381,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.492,
           "games": 12074
         }
       ]
     },
     {
-      "augmentId": 1220,
-      "winrate": 0.491,
-      "pickrate": 0.0311,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.491,
-          "games": 26006
-        }
-      ]
-    },
-    {
-      "augmentId": 2137,
-      "winrate": 0.4902,
-      "pickrate": 0.0019,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4902,
-          "games": 1581
-        }
-      ]
-    },
-    {
-      "augmentId": 2088,
-      "winrate": 0.4899,
-      "pickrate": 0.0069,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4899,
-          "games": 5777
-        }
-      ]
-    },
-    {
-      "augmentId": 2089,
-      "winrate": 0.4896,
-      "pickrate": 0.0081,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4896,
-          "games": 6804
-        }
-      ]
-    },
-    {
-      "augmentId": 1225,
-      "winrate": 0.4867,
-      "pickrate": 0.0288,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4867,
-          "games": 24074
-        }
-      ]
-    },
-    {
-      "augmentId": 1416,
-      "winrate": 0.4862,
-      "pickrate": 0.0101,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4862,
-          "games": 8413
-        }
-      ]
-    },
-    {
-      "augmentId": 1068,
-      "winrate": 0.4847,
-      "pickrate": 0.0141,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4847,
-          "games": 11758
-        }
-      ]
-    },
-    {
-      "augmentId": 1036,
-      "winrate": 0.4834,
-      "pickrate": 0.0082,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4834,
-          "games": 6883
-        }
-      ]
-    },
-    {
-      "augmentId": 1358,
-      "winrate": 0.4832,
-      "pickrate": 0.0089,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4832,
-          "games": 7422
-        }
-      ]
-    },
-    {
-      "augmentId": 2024,
-      "winrate": 0.4812,
-      "pickrate": 0.0273,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4812,
-          "games": 22767
-        }
-      ]
-    },
-    {
-      "augmentId": 1388,
-      "winrate": 0.4806,
-      "pickrate": 0.0056,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4806,
-          "games": 4669
-        }
-      ]
-    },
-    {
-      "augmentId": 2034,
-      "winrate": 0.4802,
-      "pickrate": 0.0058,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4802,
-          "games": 4883
-        }
-      ]
-    },
-    {
-      "augmentId": 2099,
-      "winrate": 0.4801,
-      "pickrate": 0.0136,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4801,
-          "games": 11392
-        }
-      ]
-    },
-    {
-      "augmentId": 2091,
-      "winrate": 0.4792,
-      "pickrate": 0.0116,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4792,
-          "games": 9727
-        }
-      ]
-    },
-    {
-      "augmentId": 2116,
-      "winrate": 0.4724,
-      "pickrate": 0.023,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4724,
-          "games": 19208
-        }
-      ]
-    },
-    {
-      "augmentId": 2080,
-      "winrate": 0.4718,
-      "pickrate": 0.0093,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4718,
-          "games": 7757
-        }
-      ]
-    },
-    {
-      "augmentId": 1345,
-      "winrate": 0.4708,
+      "augmentId": 1028,
+      "tier": 3,
       "pickrate": 0.0087,
       "contributions": [
         {
@@ -1249,134 +395,69 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4708,
-          "games": 7268
+          "games": 7246
         }
       ]
     },
     {
-      "augmentId": 1211,
-      "winrate": 0.4694,
-      "pickrate": 0.006,
+      "augmentId": 1034,
+      "tier": 3,
+      "pickrate": 0.0127,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4694,
-          "games": 4981
+          "games": 10573
         }
       ]
     },
     {
-      "augmentId": 1006,
-      "winrate": 0.4673,
-      "pickrate": 0.0134,
+      "augmentId": 1036,
+      "tier": 3,
+      "pickrate": 0.0082,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4673,
-          "games": 11226
+          "games": 6883
         }
       ]
     },
     {
-      "augmentId": 1087,
-      "winrate": 0.4672,
-      "pickrate": 0.0124,
+      "augmentId": 1046,
+      "tier": 3,
+      "pickrate": 0.0118,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4672,
-          "games": 10345
+          "games": 9877
         }
       ]
     },
     {
-      "augmentId": 1392,
-      "winrate": 0.4672,
-      "pickrate": 0.0112,
+      "augmentId": 1047,
+      "tier": 3,
+      "pickrate": 0.0738,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4672,
-          "games": 9373
+          "games": 61633
         }
       ]
     },
     {
-      "augmentId": 1081,
-      "winrate": 0.4663,
-      "pickrate": 0.0071,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4663,
-          "games": 5941
-        }
-      ]
-    },
-    {
-      "augmentId": 2006,
-      "winrate": 0.4652,
-      "pickrate": 0.0302,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4652,
-          "games": 25200
-        }
-      ]
-    },
-    {
-      "augmentId": 1002,
-      "winrate": 0.465,
-      "pickrate": 0.0025,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.465,
-          "games": 2073
-        }
-      ]
-    },
-    {
-      "augmentId": 1051,
-      "winrate": 0.4637,
-      "pickrate": 0.0041,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4637,
-          "games": 3403
-        }
-      ]
-    },
-    {
-      "augmentId": 2042,
-      "winrate": 0.4628,
+      "augmentId": 1057,
+      "tier": 3,
       "pickrate": 0.0014,
       "contributions": [
         {
@@ -1384,389 +465,391 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4628,
-          "games": 1210
+          "games": 1190
         }
       ]
     },
     {
-      "augmentId": 1019,
-      "winrate": 0.4627,
-      "pickrate": 0.0143,
+      "augmentId": 1060,
+      "tier": 3,
+      "pickrate": 0.0062,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4627,
-          "games": 11916
+          "games": 5155
         }
       ]
     },
     {
-      "augmentId": 1011,
-      "winrate": 0.4609,
-      "pickrate": 0.003,
+      "augmentId": 1061,
+      "tier": 3,
+      "pickrate": 0.0034,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4609,
-          "games": 2478
+          "games": 2851
         }
       ]
     },
     {
-      "augmentId": 12317,
-      "winrate": 0.4606,
-      "pickrate": 0.0271,
+      "augmentId": 1063,
+      "tier": 3,
+      "pickrate": 0.0189,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4606,
-          "games": 22603
+          "games": 15796
         }
       ]
     },
     {
-      "augmentId": 2016,
-      "winrate": 0.4596,
-      "pickrate": 0.0028,
+      "augmentId": 1068,
+      "tier": 3,
+      "pickrate": 0.0141,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4596,
-          "games": 2313
+          "games": 11758
         }
       ]
     },
     {
-      "augmentId": 2005,
-      "winrate": 0.4587,
-      "pickrate": 0.0068,
+      "augmentId": 1084,
+      "tier": 3,
+      "pickrate": 0.0685,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4587,
-          "games": 5655
+          "games": 57224
         }
       ]
     },
     {
-      "augmentId": 1079,
-      "winrate": 0.4583,
-      "pickrate": 0.0154,
+      "augmentId": 1092,
+      "tier": 3,
+      "pickrate": 0.1258,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4583,
-          "games": 12827
+          "games": 105054
         }
       ]
     },
     {
-      "augmentId": 1074,
-      "winrate": 0.4559,
-      "pickrate": 0.0182,
+      "augmentId": 1098,
+      "tier": 3,
+      "pickrate": 0.0035,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4559,
-          "games": 15221
+          "games": 2961
         }
       ]
     },
     {
-      "augmentId": 1349,
-      "winrate": 0.455,
-      "pickrate": 0.0042,
+      "augmentId": 1105,
+      "tier": 3,
+      "pickrate": 0.0084,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.455,
-          "games": 3541
+          "games": 6981
         }
       ]
     },
     {
-      "augmentId": 1103,
-      "winrate": 0.4536,
-      "pickrate": 0.0112,
+      "augmentId": 1115,
+      "tier": 3,
+      "pickrate": 0.0341,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4536,
-          "games": 9376
+          "games": 28438
         }
       ]
     },
     {
-      "augmentId": 1150,
-      "winrate": 0.4528,
-      "pickrate": 0.0041,
+      "augmentId": 1116,
+      "tier": 3,
+      "pickrate": 0.028,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4528,
-          "games": 3461
+          "games": 23379
         }
       ]
     },
     {
-      "augmentId": 2115,
-      "winrate": 0.4519,
-      "pickrate": 0.0007,
+      "augmentId": 1151,
+      "tier": 3,
+      "pickrate": 0.0242,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4519,
-          "games": 551
+          "games": 20221
         }
       ]
     },
     {
-      "augmentId": 1001,
-      "winrate": 0.4506,
-      "pickrate": 0.004,
+      "augmentId": 1154,
+      "tier": 3,
+      "pickrate": 0.0196,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4506,
-          "games": 3331
+          "games": 16330
         }
       ]
     },
     {
-      "augmentId": 2010,
-      "winrate": 0.4494,
-      "pickrate": 0.0394,
+      "augmentId": 1170,
+      "tier": 3,
+      "pickrate": 0.0317,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4494,
-          "games": 32861
+          "games": 26427
         }
       ]
     },
     {
-      "augmentId": 1112,
-      "winrate": 0.4484,
-      "pickrate": 0.0021,
+      "augmentId": 1220,
+      "tier": 3,
+      "pickrate": 0.0311,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4484,
-          "games": 1755
+          "games": 26006
         }
       ]
     },
     {
-      "augmentId": 1088,
-      "winrate": 0.4474,
-      "pickrate": 0.0059,
+      "augmentId": 1225,
+      "tier": 3,
+      "pickrate": 0.0288,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4474,
-          "games": 4953
+          "games": 24074
         }
       ]
     },
     {
-      "augmentId": 2100,
-      "winrate": 0.4471,
-      "pickrate": 0.0135,
+      "augmentId": 1237,
+      "tier": 3,
+      "pickrate": 0.0437,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4471,
-          "games": 11310
+          "games": 36510
         }
       ]
     },
     {
-      "augmentId": 2139,
-      "winrate": 0.4464,
-      "pickrate": 0.0007,
+      "augmentId": 1243,
+      "tier": 3,
+      "pickrate": 0.0301,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4464,
-          "games": 569
+          "games": 25136
         }
       ]
     },
     {
-      "augmentId": 1325,
-      "winrate": 0.4377,
-      "pickrate": 0.005,
+      "augmentId": 1308,
+      "tier": 3,
+      "pickrate": 0.0027,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4377,
-          "games": 4165
+          "games": 2215
         }
       ]
     },
     {
-      "augmentId": 2087,
-      "winrate": 0.4374,
-      "pickrate": 0.0028,
+      "augmentId": 1320,
+      "tier": 3,
+      "pickrate": 0.1135,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4374,
-          "games": 2339
+          "games": 94724
         }
       ]
     },
     {
-      "augmentId": 1058,
-      "winrate": 0.4372,
-      "pickrate": 0.0148,
+      "augmentId": 1322,
+      "tier": 3,
+      "pickrate": 0.0433,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4372,
-          "games": 12343
+          "games": 36160
         }
       ]
     },
     {
-      "augmentId": 2018,
-      "winrate": 0.4341,
-      "pickrate": 0.0022,
+      "augmentId": 1326,
+      "tier": 3,
+      "pickrate": 0.0338,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4341,
-          "games": 1797
+          "games": 28217
         }
       ]
     },
     {
-      "augmentId": 1386,
-      "winrate": 0.4337,
-      "pickrate": 0.0016,
+      "augmentId": 1328,
+      "tier": 3,
+      "pickrate": 0.0621,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4337,
-          "games": 1372
+          "games": 51881
         }
       ]
     },
     {
-      "augmentId": 2055,
-      "winrate": 0.4329,
-      "pickrate": 0.0106,
+      "augmentId": 1329,
+      "tier": 3,
+      "pickrate": 0.0248,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4329,
-          "games": 8821
+          "games": 20719
         }
       ]
     },
     {
-      "augmentId": 1027,
-      "winrate": 0.429,
-      "pickrate": 0.0013,
+      "augmentId": 1335,
+      "tier": 3,
+      "pickrate": 0.0047,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.429,
-          "games": 1112
+          "games": 3935
         }
       ]
     },
     {
-      "augmentId": 2118,
-      "winrate": 0.4205,
-      "pickrate": 0.003,
+      "augmentId": 1336,
+      "tier": 3,
+      "pickrate": 0.2295,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4205,
-          "games": 2540
+          "games": 191633
         }
       ]
     },
     {
-      "augmentId": 2123,
-      "winrate": 0.4185,
+      "augmentId": 1337,
+      "tier": 3,
+      "pickrate": 0.0076,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6344
+        }
+      ]
+    },
+    {
+      "augmentId": 1344,
+      "tier": 3,
+      "pickrate": 0.0131,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10920
+        }
+      ]
+    },
+    {
+      "augmentId": 1358,
+      "tier": 3,
       "pickrate": 0.0089,
       "contributions": [
         {
@@ -1774,14 +857,573 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4185,
-          "games": 7396
+          "games": 7422
         }
       ]
     },
     {
-      "augmentId": 2046,
-      "winrate": 0.4184,
+      "augmentId": 1361,
+      "tier": 3,
+      "pickrate": 0.0004,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 334
+        }
+      ]
+    },
+    {
+      "augmentId": 1373,
+      "tier": 3,
+      "pickrate": 0.0301,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 25138
+        }
+      ]
+    },
+    {
+      "augmentId": 1388,
+      "tier": 3,
+      "pickrate": 0.0056,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4669
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": 3,
+      "pickrate": 0.0084,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7021
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": 3,
+      "pickrate": 0.006,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4972
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": 3,
+      "pickrate": 0.0154,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12843
+        }
+      ]
+    },
+    {
+      "augmentId": 1416,
+      "tier": 3,
+      "pickrate": 0.0101,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8413
+        }
+      ]
+    },
+    {
+      "augmentId": 2009,
+      "tier": 3,
+      "pickrate": 0.0259,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 21601
+        }
+      ]
+    },
+    {
+      "augmentId": 2024,
+      "tier": 3,
+      "pickrate": 0.0273,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 22767
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": 3,
+      "pickrate": 0.0058,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4883
+        }
+      ]
+    },
+    {
+      "augmentId": 2088,
+      "tier": 3,
+      "pickrate": 0.0069,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5777
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": 3,
+      "pickrate": 0.0081,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6804
+        }
+      ]
+    },
+    {
+      "augmentId": 2098,
+      "tier": 3,
+      "pickrate": 0.013,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10874
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": 3,
+      "pickrate": 0.0136,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11392
+        }
+      ]
+    },
+    {
+      "augmentId": 2119,
+      "tier": 3,
+      "pickrate": 0.0014,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1201
+        }
+      ]
+    },
+    {
+      "augmentId": 2127,
+      "tier": 3,
+      "pickrate": 0.0229,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 19084
+        }
+      ]
+    },
+    {
+      "augmentId": 2137,
+      "tier": 3,
+      "pickrate": 0.0019,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1581
+        }
+      ]
+    },
+    {
+      "augmentId": 2140,
+      "tier": 3,
+      "pickrate": 0.0253,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 21143
+        }
+      ]
+    },
+    {
+      "augmentId": 1001,
+      "tier": 4,
+      "pickrate": 0.004,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3331
+        }
+      ]
+    },
+    {
+      "augmentId": 1002,
+      "tier": 4,
+      "pickrate": 0.0025,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2073
+        }
+      ]
+    },
+    {
+      "augmentId": 1006,
+      "tier": 4,
+      "pickrate": 0.0134,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11226
+        }
+      ]
+    },
+    {
+      "augmentId": 1011,
+      "tier": 4,
+      "pickrate": 0.003,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2478
+        }
+      ]
+    },
+    {
+      "augmentId": 1019,
+      "tier": 4,
+      "pickrate": 0.0143,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11916
+        }
+      ]
+    },
+    {
+      "augmentId": 1051,
+      "tier": 4,
+      "pickrate": 0.0041,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3403
+        }
+      ]
+    },
+    {
+      "augmentId": 1074,
+      "tier": 4,
+      "pickrate": 0.0182,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15221
+        }
+      ]
+    },
+    {
+      "augmentId": 1079,
+      "tier": 4,
+      "pickrate": 0.0154,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12827
+        }
+      ]
+    },
+    {
+      "augmentId": 1081,
+      "tier": 4,
+      "pickrate": 0.0071,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5941
+        }
+      ]
+    },
+    {
+      "augmentId": 1087,
+      "tier": 4,
+      "pickrate": 0.0124,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10345
+        }
+      ]
+    },
+    {
+      "augmentId": 1103,
+      "tier": 4,
+      "pickrate": 0.0112,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9376
+        }
+      ]
+    },
+    {
+      "augmentId": 1150,
+      "tier": 4,
+      "pickrate": 0.0041,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3461
+        }
+      ]
+    },
+    {
+      "augmentId": 1211,
+      "tier": 4,
+      "pickrate": 0.006,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4981
+        }
+      ]
+    },
+    {
+      "augmentId": 1345,
+      "tier": 4,
+      "pickrate": 0.0087,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7268
+        }
+      ]
+    },
+    {
+      "augmentId": 1349,
+      "tier": 4,
+      "pickrate": 0.0042,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3541
+        }
+      ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": 4,
+      "pickrate": 0.0112,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9373
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": 4,
+      "pickrate": 0.0068,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5655
+        }
+      ]
+    },
+    {
+      "augmentId": 2006,
+      "tier": 4,
+      "pickrate": 0.0302,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 25200
+        }
+      ]
+    },
+    {
+      "augmentId": 2016,
+      "tier": 4,
+      "pickrate": 0.0028,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2313
+        }
+      ]
+    },
+    {
+      "augmentId": 2042,
+      "tier": 4,
+      "pickrate": 0.0014,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1210
+        }
+      ]
+    },
+    {
+      "augmentId": 2080,
+      "tier": 4,
+      "pickrate": 0.0093,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7757
+        }
+      ]
+    },
+    {
+      "augmentId": 2091,
+      "tier": 4,
+      "pickrate": 0.0116,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9727
+        }
+      ]
+    },
+    {
+      "augmentId": 2115,
+      "tier": 4,
       "pickrate": 0.0007,
       "contributions": [
         {
@@ -1789,14 +1431,181 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4184,
+          "games": 551
+        }
+      ]
+    },
+    {
+      "augmentId": 2116,
+      "tier": 4,
+      "pickrate": 0.023,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 19208
+        }
+      ]
+    },
+    {
+      "augmentId": 12317,
+      "tier": 4,
+      "pickrate": 0.0271,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 22603
+        }
+      ]
+    },
+    {
+      "augmentId": 1027,
+      "tier": 5,
+      "pickrate": 0.0013,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1112
+        }
+      ]
+    },
+    {
+      "augmentId": 1058,
+      "tier": 5,
+      "pickrate": 0.0148,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12343
+        }
+      ]
+    },
+    {
+      "augmentId": 1088,
+      "tier": 5,
+      "pickrate": 0.0059,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4953
+        }
+      ]
+    },
+    {
+      "augmentId": 1112,
+      "tier": 5,
+      "pickrate": 0.0021,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1755
+        }
+      ]
+    },
+    {
+      "augmentId": 1325,
+      "tier": 5,
+      "pickrate": 0.005,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4165
+        }
+      ]
+    },
+    {
+      "augmentId": 1386,
+      "tier": 5,
+      "pickrate": 0.0016,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1372
+        }
+      ]
+    },
+    {
+      "augmentId": 2010,
+      "tier": 5,
+      "pickrate": 0.0394,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 32861
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": 5,
+      "pickrate": 0.0022,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1797
+        }
+      ]
+    },
+    {
+      "augmentId": 2046,
+      "tier": 5,
+      "pickrate": 0.0007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
           "games": 588
         }
       ]
     },
     {
+      "augmentId": 2055,
+      "tier": 5,
+      "pickrate": 0.0106,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8821
+        }
+      ]
+    },
+    {
       "augmentId": 2063,
-      "winrate": 0.3965,
+      "tier": 5,
       "pickrate": 0.0015,
       "contributions": [
         {
@@ -1804,14 +1613,69 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3965,
           "games": 1256
         }
       ]
     },
     {
+      "augmentId": 2087,
+      "tier": 5,
+      "pickrate": 0.0028,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2339
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": 5,
+      "pickrate": 0.0135,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11310
+        }
+      ]
+    },
+    {
+      "augmentId": 2118,
+      "tier": 5,
+      "pickrate": 0.003,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2540
+        }
+      ]
+    },
+    {
+      "augmentId": 2123,
+      "tier": 5,
+      "pickrate": 0.0089,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7396
+        }
+      ]
+    },
+    {
       "augmentId": 2134,
-      "winrate": 0.3881,
+      "tier": 5,
       "pickrate": 0.0007,
       "contributions": [
         {
@@ -1819,11 +1683,23 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3881,
           "games": 554
         }
       ]
+    },
+    {
+      "augmentId": 2139,
+      "tier": 5,
+      "pickrate": 0.0007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 569
+        }
+      ]
     }
-  ],
-  "method": "equal-source-mean"
+  ]
 }

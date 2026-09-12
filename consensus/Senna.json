@@ -1,32 +1,15 @@
 {
+  "version": 1,
+  "method": "warden-performance-tiers-v1",
   "championId": 235,
   "championKey": "Senna",
   "set": "aram",
-  "source": "Mayhem source average",
-  "sourceUrl": "https://github.com/snacbot/warden-releases/blob/mayhem-data/README.md",
-  "winrateScope": "champion",
-  "pickrateScope": "champion",
   "patch": "16.18",
   "scrapedAt": "2026-09-12T02:34:26.350Z",
   "augments": [
     {
-      "augmentId": 2095,
-      "winrate": 0.5875,
-      "pickrate": 0.0539,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5875,
-          "games": 33116
-        }
-      ]
-    },
-    {
       "augmentId": 1005,
-      "winrate": 0.5756,
+      "tier": 1,
       "pickrate": 0.0122,
       "contributions": [
         {
@@ -34,14 +17,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5756,
           "games": 7481
         }
       ]
     },
     {
       "augmentId": 1204,
-      "winrate": 0.565,
+      "tier": 1,
       "pickrate": 0.0756,
       "contributions": [
         {
@@ -49,44 +31,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.565,
           "games": 46451
         }
       ]
     },
     {
-      "augmentId": 1389,
-      "winrate": 0.5478,
-      "pickrate": 0.0032,
+      "augmentId": 2095,
+      "tier": 1,
+      "pickrate": 0.0539,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5478,
-          "games": 1946
-        }
-      ]
-    },
-    {
-      "augmentId": 1095,
-      "winrate": 0.5362,
-      "pickrate": 0.0059,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5362,
-          "games": 3650
+          "games": 33116
         }
       ]
     },
     {
       "augmentId": 1053,
-      "winrate": 0.5293,
+      "tier": 2,
       "pickrate": 0.0179,
       "contributions": [
         {
@@ -94,14 +59,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5293,
           "games": 10970
         }
       ]
     },
     {
+      "augmentId": 1095,
+      "tier": 2,
+      "pickrate": 0.0059,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3650
+        }
+      ]
+    },
+    {
       "augmentId": 1154,
-      "winrate": 0.5232,
+      "tier": 2,
       "pickrate": 0.0171,
       "contributions": [
         {
@@ -109,329 +87,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5232,
           "games": 10471
         }
       ]
     },
     {
-      "augmentId": 1379,
-      "winrate": 0.5184,
-      "pickrate": 0.0433,
+      "augmentId": 1389,
+      "tier": 2,
+      "pickrate": 0.0032,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5184,
-          "games": 26568
-        }
-      ]
-    },
-    {
-      "augmentId": 1105,
-      "winrate": 0.5177,
-      "pickrate": 0.0339,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5177,
-          "games": 20816
-        }
-      ]
-    },
-    {
-      "augmentId": 1403,
-      "winrate": 0.5153,
-      "pickrate": 0.0145,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5153,
-          "games": 8925
-        }
-      ]
-    },
-    {
-      "augmentId": 1373,
-      "winrate": 0.5146,
-      "pickrate": 0.0683,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5146,
-          "games": 41957
-        }
-      ]
-    },
-    {
-      "augmentId": 1206,
-      "winrate": 0.5113,
-      "pickrate": 0.0441,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5113,
-          "games": 27113
-        }
-      ]
-    },
-    {
-      "augmentId": 1324,
-      "winrate": 0.51,
-      "pickrate": 0.0115,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.51,
-          "games": 7039
-        }
-      ]
-    },
-    {
-      "augmentId": 1195,
-      "winrate": 0.5092,
-      "pickrate": 0.0283,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5092,
-          "games": 17390
-        }
-      ]
-    },
-    {
-      "augmentId": 1141,
-      "winrate": 0.5085,
-      "pickrate": 0.014,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5085,
-          "games": 8612
-        }
-      ]
-    },
-    {
-      "augmentId": 2141,
-      "winrate": 0.5049,
-      "pickrate": 0.0287,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5049,
-          "games": 17602
-        }
-      ]
-    },
-    {
-      "augmentId": 2104,
-      "winrate": 0.5037,
-      "pickrate": 0.0153,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5037,
-          "games": 9402
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "winrate": 0.5031,
-      "pickrate": 0.0107,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5031,
-          "games": 6589
-        }
-      ]
-    },
-    {
-      "augmentId": 1420,
-      "winrate": 0.5002,
-      "pickrate": 0.0132,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5002,
-          "games": 8125
-        }
-      ]
-    },
-    {
-      "augmentId": 1037,
-      "winrate": 0.4994,
-      "pickrate": 0.019,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4994,
-          "games": 11645
-        }
-      ]
-    },
-    {
-      "augmentId": 1081,
-      "winrate": 0.4988,
-      "pickrate": 0.0637,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4988,
-          "games": 39145
-        }
-      ]
-    },
-    {
-      "augmentId": 1118,
-      "winrate": 0.4986,
-      "pickrate": 0.0584,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4986,
-          "games": 35845
-        }
-      ]
-    },
-    {
-      "augmentId": 2119,
-      "winrate": 0.4985,
-      "pickrate": 0.0005,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4985,
-          "games": 325
-        }
-      ]
-    },
-    {
-      "augmentId": 1051,
-      "winrate": 0.4976,
-      "pickrate": 0.0283,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4976,
-          "games": 17363
-        }
-      ]
-    },
-    {
-      "augmentId": 1225,
-      "winrate": 0.497,
-      "pickrate": 0.1088,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.497,
-          "games": 66807
-        }
-      ]
-    },
-    {
-      "augmentId": 1061,
-      "winrate": 0.4964,
-      "pickrate": 0.0046,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4964,
-          "games": 2814
-        }
-      ]
-    },
-    {
-      "augmentId": 1134,
-      "winrate": 0.4947,
-      "pickrate": 0.021,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4947,
-          "games": 12897
-        }
-      ]
-    },
-    {
-      "augmentId": 1062,
-      "winrate": 0.494,
-      "pickrate": 0.0074,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.494,
-          "games": 4569
+          "games": 1946
         }
       ]
     },
     {
       "augmentId": 1007,
-      "winrate": 0.4928,
+      "tier": 3,
       "pickrate": 0.0656,
       "contributions": [
         {
@@ -439,104 +115,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4928,
           "games": 40273
         }
       ]
     },
     {
-      "augmentId": 1038,
-      "winrate": 0.4922,
-      "pickrate": 0.0327,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4922,
-          "games": 20063
-        }
-      ]
-    },
-    {
-      "augmentId": 1071,
-      "winrate": 0.4921,
-      "pickrate": 0.1154,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4921,
-          "games": 70844
-        }
-      ]
-    },
-    {
-      "augmentId": 1036,
-      "winrate": 0.4916,
-      "pickrate": 0.0318,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4916,
-          "games": 19539
-        }
-      ]
-    },
-    {
-      "augmentId": 1238,
-      "winrate": 0.491,
-      "pickrate": 0.0792,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.491,
-          "games": 48623
-        }
-      ]
-    },
-    {
-      "augmentId": 1076,
-      "winrate": 0.4901,
-      "pickrate": 0.0142,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4901,
-          "games": 8744
-        }
-      ]
-    },
-    {
-      "augmentId": 1384,
-      "winrate": 0.4893,
-      "pickrate": 0.02,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4893,
-          "games": 12302
-        }
-      ]
-    },
-    {
       "augmentId": 1028,
-      "winrate": 0.4887,
+      "tier": 3,
       "pickrate": 0.013,
       "contributions": [
         {
@@ -544,1079 +129,83 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4887,
           "games": 7982
         }
       ]
     },
     {
-      "augmentId": 2089,
-      "winrate": 0.4881,
-      "pickrate": 0.0093,
+      "augmentId": 1036,
+      "tier": 3,
+      "pickrate": 0.0318,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4881,
-          "games": 5687
+          "games": 19539
         }
       ]
     },
     {
-      "augmentId": 1335,
-      "winrate": 0.4851,
-      "pickrate": 0.0065,
+      "augmentId": 1037,
+      "tier": 3,
+      "pickrate": 0.019,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4851,
-          "games": 3987
+          "games": 11645
         }
       ]
     },
     {
-      "augmentId": 1356,
-      "winrate": 0.4838,
-      "pickrate": 0.1976,
+      "augmentId": 1038,
+      "tier": 3,
+      "pickrate": 0.0327,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4838,
-          "games": 121364
+          "games": 20063
         }
       ]
     },
     {
-      "augmentId": 1337,
-      "winrate": 0.4836,
-      "pickrate": 0.004,
+      "augmentId": 1051,
+      "tier": 3,
+      "pickrate": 0.0283,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4836,
-          "games": 2463
+          "games": 17363
         }
       ]
     },
     {
-      "augmentId": 1220,
-      "winrate": 0.4833,
-      "pickrate": 0.0786,
+      "augmentId": 1060,
+      "tier": 3,
+      "pickrate": 0.0107,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4833,
-          "games": 48276
+          "games": 6589
         }
       ]
     },
     {
-      "augmentId": 1087,
-      "winrate": 0.4823,
-      "pickrate": 0.0673,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4823,
-          "games": 41326
-        }
-      ]
-    },
-    {
-      "augmentId": 1388,
-      "winrate": 0.4815,
-      "pickrate": 0.0186,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4815,
-          "games": 11449
-        }
-      ]
-    },
-    {
-      "augmentId": 1068,
-      "winrate": 0.481,
-      "pickrate": 0.0232,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.481,
-          "games": 14263
-        }
-      ]
-    },
-    {
-      "augmentId": 2127,
-      "winrate": 0.4808,
-      "pickrate": 0.0196,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4808,
-          "games": 12066
-        }
-      ]
-    },
-    {
-      "augmentId": 1115,
-      "winrate": 0.4799,
-      "pickrate": 0.0697,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4799,
-          "games": 42815
-        }
-      ]
-    },
-    {
-      "augmentId": 1098,
-      "winrate": 0.4788,
-      "pickrate": 0.0088,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4788,
-          "games": 5380
-        }
-      ]
-    },
-    {
-      "augmentId": 2100,
-      "winrate": 0.4788,
-      "pickrate": 0.0395,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4788,
-          "games": 24270
-        }
-      ]
-    },
-    {
-      "augmentId": 1022,
-      "winrate": 0.4769,
-      "pickrate": 0.0755,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4769,
-          "games": 46373
-        }
-      ]
-    },
-    {
-      "augmentId": 1056,
-      "winrate": 0.4752,
-      "pickrate": 0.002,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4752,
-          "games": 1208
-        }
-      ]
-    },
-    {
-      "augmentId": 1322,
-      "winrate": 0.4752,
-      "pickrate": 0.0282,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4752,
-          "games": 17346
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "winrate": 0.4752,
-      "pickrate": 0.0051,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4752,
-          "games": 3102
-        }
-      ]
-    },
-    {
-      "augmentId": 1074,
-      "winrate": 0.4746,
-      "pickrate": 0.0428,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4746,
-          "games": 26309
-        }
-      ]
-    },
-    {
-      "augmentId": 2133,
-      "winrate": 0.4741,
-      "pickrate": 0.075,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4741,
-          "games": 46044
-        }
-      ]
-    },
-    {
-      "augmentId": 2009,
-      "winrate": 0.4736,
-      "pickrate": 0.0471,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4736,
-          "games": 28941
-        }
-      ]
-    },
-    {
-      "augmentId": 1318,
-      "winrate": 0.4732,
-      "pickrate": 0.0005,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4732,
-          "games": 298
-        }
-      ]
-    },
-    {
-      "augmentId": 1080,
-      "winrate": 0.4729,
-      "pickrate": 0.0412,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4729,
-          "games": 25305
-        }
-      ]
-    },
-    {
-      "augmentId": 1416,
-      "winrate": 0.4718,
-      "pickrate": 0.0193,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4718,
-          "games": 11874
-        }
-      ]
-    },
-    {
-      "augmentId": 1057,
-      "winrate": 0.4714,
-      "pickrate": 0.0016,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4714,
-          "games": 980
-        }
-      ]
-    },
-    {
-      "augmentId": 1129,
-      "winrate": 0.4703,
-      "pickrate": 0.0044,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4703,
-          "games": 2694
-        }
-      ]
-    },
-    {
-      "augmentId": 1331,
-      "winrate": 0.4699,
-      "pickrate": 0.004,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4699,
-          "games": 2462
-        }
-      ]
-    },
-    {
-      "augmentId": 1345,
-      "winrate": 0.4697,
-      "pickrate": 0.0084,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4697,
-          "games": 5167
-        }
-      ]
-    },
-    {
-      "augmentId": 1103,
-      "winrate": 0.4696,
-      "pickrate": 0.0299,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4696,
-          "games": 18339
-        }
-      ]
-    },
-    {
-      "augmentId": 1243,
-      "winrate": 0.469,
-      "pickrate": 0.0237,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.469,
-          "games": 14584
-        }
-      ]
-    },
-    {
-      "augmentId": 2140,
-      "winrate": 0.469,
-      "pickrate": 0.0224,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.469,
-          "games": 13735
-        }
-      ]
-    },
-    {
-      "augmentId": 1004,
-      "winrate": 0.4681,
-      "pickrate": 0.0296,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4681,
-          "games": 18158
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "winrate": 0.468,
-      "pickrate": 0.0391,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.468,
-          "games": 23995
-        }
-      ]
-    },
-    {
-      "augmentId": 1402,
-      "winrate": 0.4678,
-      "pickrate": 0.0072,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4678,
-          "games": 4438
-        }
-      ]
-    },
-    {
-      "augmentId": 2132,
-      "winrate": 0.467,
-      "pickrate": 0.0137,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.467,
-          "games": 8403
-        }
-      ]
-    },
-    {
-      "augmentId": 1332,
-      "winrate": 0.4669,
-      "pickrate": 0.0024,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4669,
-          "games": 1495
-        }
-      ]
-    },
-    {
-      "augmentId": 1170,
-      "winrate": 0.4667,
-      "pickrate": 0.0577,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4667,
-          "games": 35418
-        }
-      ]
-    },
-    {
-      "augmentId": 2107,
-      "winrate": 0.4662,
-      "pickrate": 0.0018,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4662,
-          "games": 1094
-        }
-      ]
-    },
-    {
-      "augmentId": 1092,
-      "winrate": 0.4654,
-      "pickrate": 0.1497,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4654,
-          "games": 91952
-        }
-      ]
-    },
-    {
-      "augmentId": 1415,
-      "winrate": 0.4653,
-      "pickrate": 0.0434,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4653,
-          "games": 26630
-        }
-      ]
-    },
-    {
-      "augmentId": 1077,
-      "winrate": 0.4648,
-      "pickrate": 0.1048,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4648,
-          "games": 64345
-        }
-      ]
-    },
-    {
-      "augmentId": 1996,
-      "winrate": 0.4648,
-      "pickrate": 0.0156,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4648,
-          "games": 9583
-        }
-      ]
-    },
-    {
-      "augmentId": 1072,
-      "winrate": 0.4634,
-      "pickrate": 0.0071,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4634,
-          "games": 4344
-        }
-      ]
-    },
-    {
-      "augmentId": 1308,
-      "winrate": 0.4633,
-      "pickrate": 0.0033,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4633,
-          "games": 2029
-        }
-      ]
-    },
-    {
-      "augmentId": 1054,
-      "winrate": 0.4617,
-      "pickrate": 0.0141,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4617,
-          "games": 8648
-        }
-      ]
-    },
-    {
-      "augmentId": 2016,
-      "winrate": 0.4613,
-      "pickrate": 0.009,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4613,
-          "games": 5523
-        }
-      ]
-    },
-    {
-      "augmentId": 1328,
-      "winrate": 0.4607,
-      "pickrate": 0.0913,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4607,
-          "games": 56062
-        }
-      ]
-    },
-    {
-      "augmentId": 2010,
-      "winrate": 0.4603,
-      "pickrate": 0.0787,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4603,
-          "games": 48343
-        }
-      ]
-    },
-    {
-      "augmentId": 1084,
-      "winrate": 0.4602,
-      "pickrate": 0.0299,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4602,
-          "games": 18348
-        }
-      ]
-    },
-    {
-      "augmentId": 1336,
-      "winrate": 0.4586,
-      "pickrate": 0.1361,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4586,
-          "games": 83552
-        }
-      ]
-    },
-    {
-      "augmentId": 1002,
-      "winrate": 0.4585,
-      "pickrate": 0.0059,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4585,
-          "games": 3594
-        }
-      ]
-    },
-    {
-      "augmentId": 1113,
-      "winrate": 0.4584,
-      "pickrate": 0.0207,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4584,
-          "games": 12704
-        }
-      ]
-    },
-    {
-      "augmentId": 1301,
-      "winrate": 0.4581,
-      "pickrate": 0.0113,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4581,
-          "games": 6951
-        }
-      ]
-    },
-    {
-      "augmentId": 1097,
-      "winrate": 0.4564,
-      "pickrate": 0.0009,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4564,
-          "games": 550
-        }
-      ]
-    },
-    {
-      "augmentId": 1386,
-      "winrate": 0.4563,
-      "pickrate": 0.0013,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4563,
-          "games": 800
-        }
-      ]
-    },
-    {
-      "augmentId": 1046,
-      "winrate": 0.4561,
-      "pickrate": 0.0087,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4561,
-          "games": 5348
-        }
-      ]
-    },
-    {
-      "augmentId": 1015,
-      "winrate": 0.4558,
-      "pickrate": 0.0109,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4558,
-          "games": 6716
-        }
-      ]
-    },
-    {
-      "augmentId": 1326,
-      "winrate": 0.4552,
-      "pickrate": 0.0063,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4552,
-          "games": 3873
-        }
-      ]
-    },
-    {
-      "augmentId": 2024,
-      "winrate": 0.4552,
-      "pickrate": 0.0263,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4552,
-          "games": 16142
-        }
-      ]
-    },
-    {
-      "augmentId": 2004,
-      "winrate": 0.4549,
-      "pickrate": 0.0118,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4549,
-          "games": 7237
-        }
-      ]
-    },
-    {
-      "augmentId": 2116,
-      "winrate": 0.4528,
-      "pickrate": 0.0273,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4528,
-          "games": 16741
-        }
-      ]
-    },
-    {
-      "augmentId": 2063,
-      "winrate": 0.4524,
-      "pickrate": 0.0007,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4524,
-          "games": 431
-        }
-      ]
-    },
-    {
-      "augmentId": 1320,
-      "winrate": 0.452,
-      "pickrate": 0.0742,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.452,
-          "games": 45580
-        }
-      ]
-    },
-    {
-      "augmentId": 1390,
-      "winrate": 0.4519,
-      "pickrate": 0.0059,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4519,
-          "games": 3598
-        }
-      ]
-    },
-    {
-      "augmentId": 1058,
-      "winrate": 0.4512,
-      "pickrate": 0.0348,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4512,
-          "games": 21383
-        }
-      ]
-    },
-    {
-      "augmentId": 2077,
-      "winrate": 0.4502,
-      "pickrate": 0.0144,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4502,
-          "games": 8867
-        }
-      ]
-    },
-    {
-      "augmentId": 2083,
-      "winrate": 0.45,
-      "pickrate": 0.0228,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.45,
-          "games": 14012
-        }
-      ]
-    },
-    {
-      "augmentId": 1133,
-      "winrate": 0.4484,
-      "pickrate": 0.023,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4484,
-          "games": 14154
-        }
-      ]
-    },
-    {
-      "augmentId": 2103,
-      "winrate": 0.4478,
-      "pickrate": 0.0096,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4478,
-          "games": 5895
-        }
-      ]
-    },
-    {
-      "augmentId": 1079,
-      "winrate": 0.4475,
-      "pickrate": 0.0304,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4475,
-          "games": 18653
-        }
-      ]
-    },
-    {
-      "augmentId": 1151,
-      "winrate": 0.4456,
-      "pickrate": 0.0018,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4456,
-          "games": 1113
-        }
-      ]
-    },
-    {
-      "augmentId": 1150,
-      "winrate": 0.4437,
-      "pickrate": 0.0074,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4437,
-          "games": 4517
-        }
-      ]
-    },
-    {
-      "augmentId": 1311,
-      "winrate": 0.4425,
-      "pickrate": 0.0028,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4425,
-          "games": 1747
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "winrate": 0.4393,
+      "augmentId": 1061,
+      "tier": 3,
       "pickrate": 0.0046,
       "contributions": [
         {
@@ -1624,329 +213,531 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4393,
-          "games": 2809
+          "games": 2814
         }
       ]
     },
     {
-      "augmentId": 12317,
-      "winrate": 0.4385,
-      "pickrate": 0.0182,
+      "augmentId": 1062,
+      "tier": 3,
+      "pickrate": 0.0074,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4385,
-          "games": 11201
+          "games": 4569
         }
       ]
     },
     {
-      "augmentId": 1047,
-      "winrate": 0.4369,
-      "pickrate": 0.0423,
+      "augmentId": 1068,
+      "tier": 3,
+      "pickrate": 0.0232,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4369,
-          "games": 26004
+          "games": 14263
         }
       ]
     },
     {
-      "augmentId": 2088,
-      "winrate": 0.4351,
-      "pickrate": 0.0006,
+      "augmentId": 1071,
+      "tier": 3,
+      "pickrate": 0.1154,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4351,
-          "games": 393
+          "games": 70844
         }
       ]
     },
     {
-      "augmentId": 1344,
-      "winrate": 0.4341,
-      "pickrate": 0.0041,
+      "augmentId": 1076,
+      "tier": 3,
+      "pickrate": 0.0142,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4341,
-          "games": 2497
+          "games": 8744
         }
       ]
     },
     {
-      "augmentId": 1030,
-      "winrate": 0.4339,
-      "pickrate": 0.0013,
+      "augmentId": 1081,
+      "tier": 3,
+      "pickrate": 0.0637,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4339,
-          "games": 772
+          "games": 39145
         }
       ]
     },
     {
-      "augmentId": 1112,
-      "winrate": 0.4332,
-      "pickrate": 0.0012,
+      "augmentId": 1087,
+      "tier": 3,
+      "pickrate": 0.0673,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4332,
-          "games": 748
+          "games": 41326
         }
       ]
     },
     {
-      "augmentId": 2072,
-      "winrate": 0.4331,
-      "pickrate": 0.0122,
+      "augmentId": 1105,
+      "tier": 3,
+      "pickrate": 0.0339,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4331,
-          "games": 7472
+          "games": 20816
         }
       ]
     },
     {
-      "augmentId": 1194,
-      "winrate": 0.4291,
-      "pickrate": 0.0062,
+      "augmentId": 1118,
+      "tier": 3,
+      "pickrate": 0.0584,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4291,
-          "games": 3838
+          "games": 35845
         }
       ]
     },
     {
-      "augmentId": 1358,
-      "winrate": 0.4289,
-      "pickrate": 0.0008,
+      "augmentId": 1134,
+      "tier": 3,
+      "pickrate": 0.021,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4289,
-          "games": 499
+          "games": 12897
         }
       ]
     },
     {
-      "augmentId": 1048,
-      "winrate": 0.4274,
-      "pickrate": 0.0344,
+      "augmentId": 1141,
+      "tier": 3,
+      "pickrate": 0.014,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4274,
-          "games": 21150
+          "games": 8612
         }
       ]
     },
     {
-      "augmentId": 2087,
-      "winrate": 0.4265,
-      "pickrate": 0.0077,
+      "augmentId": 1195,
+      "tier": 3,
+      "pickrate": 0.0283,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4265,
-          "games": 4746
+          "games": 17390
         }
       ]
     },
     {
-      "augmentId": 1088,
-      "winrate": 0.4236,
-      "pickrate": 0.0047,
+      "augmentId": 1206,
+      "tier": 3,
+      "pickrate": 0.0441,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4236,
-          "games": 2866
+          "games": 27113
         }
       ]
     },
     {
-      "augmentId": 1349,
-      "winrate": 0.4223,
-      "pickrate": 0.0043,
+      "augmentId": 1220,
+      "tier": 3,
+      "pickrate": 0.0786,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4223,
-          "games": 2638
+          "games": 48276
         }
       ]
     },
     {
-      "augmentId": 1211,
-      "winrate": 0.4202,
-      "pickrate": 0.0029,
+      "augmentId": 1225,
+      "tier": 3,
+      "pickrate": 0.1088,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4202,
-          "games": 1799
+          "games": 66807
         }
       ]
     },
     {
-      "augmentId": 2080,
-      "winrate": 0.4192,
-      "pickrate": 0.0006,
+      "augmentId": 1238,
+      "tier": 3,
+      "pickrate": 0.0792,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4192,
-          "games": 365
+          "games": 48623
         }
       ]
     },
     {
-      "augmentId": 2034,
-      "winrate": 0.4187,
-      "pickrate": 0.0008,
+      "augmentId": 1324,
+      "tier": 3,
+      "pickrate": 0.0115,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4187,
-          "games": 492
+          "games": 7039
         }
       ]
     },
     {
-      "augmentId": 2005,
-      "winrate": 0.4164,
-      "pickrate": 0.0017,
+      "augmentId": 1335,
+      "tier": 3,
+      "pickrate": 0.0065,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4164,
-          "games": 1071
+          "games": 3987
         }
       ]
     },
     {
-      "augmentId": 2134,
-      "winrate": 0.4111,
-      "pickrate": 0.0011,
+      "augmentId": 1337,
+      "tier": 3,
+      "pickrate": 0.004,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4111,
-          "games": 703
+          "games": 2463
         }
       ]
     },
     {
-      "augmentId": 2018,
-      "winrate": 0.4107,
-      "pickrate": 0.0035,
+      "augmentId": 1356,
+      "tier": 3,
+      "pickrate": 0.1976,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4107,
-          "games": 2177
+          "games": 121364
         }
       ]
     },
     {
-      "augmentId": 2055,
-      "winrate": 0.4104,
-      "pickrate": 0.01,
+      "augmentId": 1373,
+      "tier": 3,
+      "pickrate": 0.0683,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4104,
-          "games": 6133
+          "games": 41957
         }
       ]
     },
     {
-      "augmentId": 2118,
-      "winrate": 0.406,
-      "pickrate": 0.0028,
+      "augmentId": 1379,
+      "tier": 3,
+      "pickrate": 0.0433,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.406,
-          "games": 1702
+          "games": 26568
         }
       ]
     },
     {
-      "augmentId": 1011,
-      "winrate": 0.4039,
+      "augmentId": 1384,
+      "tier": 3,
+      "pickrate": 0.02,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12302
+        }
+      ]
+    },
+    {
+      "augmentId": 1388,
+      "tier": 3,
+      "pickrate": 0.0186,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11449
+        }
+      ]
+    },
+    {
+      "augmentId": 1403,
+      "tier": 3,
+      "pickrate": 0.0145,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8925
+        }
+      ]
+    },
+    {
+      "augmentId": 1420,
+      "tier": 3,
+      "pickrate": 0.0132,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8125
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": 3,
+      "pickrate": 0.0093,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5687
+        }
+      ]
+    },
+    {
+      "augmentId": 2104,
+      "tier": 3,
+      "pickrate": 0.0153,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9402
+        }
+      ]
+    },
+    {
+      "augmentId": 2119,
+      "tier": 3,
+      "pickrate": 0.0005,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 325
+        }
+      ]
+    },
+    {
+      "augmentId": 2127,
+      "tier": 3,
+      "pickrate": 0.0196,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12066
+        }
+      ]
+    },
+    {
+      "augmentId": 2141,
+      "tier": 3,
+      "pickrate": 0.0287,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17602
+        }
+      ]
+    },
+    {
+      "augmentId": 1002,
+      "tier": 4,
+      "pickrate": 0.0059,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3594
+        }
+      ]
+    },
+    {
+      "augmentId": 1004,
+      "tier": 4,
+      "pickrate": 0.0296,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18158
+        }
+      ]
+    },
+    {
+      "augmentId": 1015,
+      "tier": 4,
+      "pickrate": 0.0109,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6716
+        }
+      ]
+    },
+    {
+      "augmentId": 1022,
+      "tier": 4,
+      "pickrate": 0.0755,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 46373
+        }
+      ]
+    },
+    {
+      "augmentId": 1046,
+      "tier": 4,
+      "pickrate": 0.0087,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5348
+        }
+      ]
+    },
+    {
+      "augmentId": 1054,
+      "tier": 4,
+      "pickrate": 0.0141,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8648
+        }
+      ]
+    },
+    {
+      "augmentId": 1056,
+      "tier": 4,
+      "pickrate": 0.002,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1208
+        }
+      ]
+    },
+    {
+      "augmentId": 1057,
+      "tier": 4,
       "pickrate": 0.0016,
       "contributions": [
         {
@@ -1954,59 +745,111 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4039,
-          "games": 973
+          "games": 980
         }
       ]
     },
     {
-      "augmentId": 1325,
-      "winrate": 0.4001,
-      "pickrate": 0.0048,
+      "augmentId": 1058,
+      "tier": 4,
+      "pickrate": 0.0348,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4001,
-          "games": 2949
+          "games": 21383
         }
       ]
     },
     {
-      "augmentId": 2099,
-      "winrate": 0.3974,
-      "pickrate": 0.0022,
+      "augmentId": 1072,
+      "tier": 4,
+      "pickrate": 0.0071,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3974,
-          "games": 1364
+          "games": 4344
         }
       ]
     },
     {
-      "augmentId": 1392,
-      "winrate": 0.3903,
-      "pickrate": 0.0008,
+      "augmentId": 1074,
+      "tier": 4,
+      "pickrate": 0.0428,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3903,
-          "games": 515
+          "games": 26309
         }
       ]
     },
     {
-      "augmentId": 2046,
-      "winrate": 0.3775,
+      "augmentId": 1077,
+      "tier": 4,
+      "pickrate": 0.1048,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 64345
+        }
+      ]
+    },
+    {
+      "augmentId": 1080,
+      "tier": 4,
+      "pickrate": 0.0412,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 25305
+        }
+      ]
+    },
+    {
+      "augmentId": 1084,
+      "tier": 4,
+      "pickrate": 0.0299,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18348
+        }
+      ]
+    },
+    {
+      "augmentId": 1092,
+      "tier": 4,
+      "pickrate": 0.1497,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 91952
+        }
+      ]
+    },
+    {
+      "augmentId": 1097,
+      "tier": 4,
       "pickrate": 0.0009,
       "contributions": [
         {
@@ -2014,14 +857,279 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3775,
-          "games": 551
+          "games": 550
         }
       ]
     },
     {
-      "augmentId": 1205,
-      "winrate": 0.3753,
+      "augmentId": 1098,
+      "tier": 4,
+      "pickrate": 0.0088,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5380
+        }
+      ]
+    },
+    {
+      "augmentId": 1103,
+      "tier": 4,
+      "pickrate": 0.0299,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18339
+        }
+      ]
+    },
+    {
+      "augmentId": 1113,
+      "tier": 4,
+      "pickrate": 0.0207,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12704
+        }
+      ]
+    },
+    {
+      "augmentId": 1115,
+      "tier": 4,
+      "pickrate": 0.0697,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 42815
+        }
+      ]
+    },
+    {
+      "augmentId": 1129,
+      "tier": 4,
+      "pickrate": 0.0044,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2694
+        }
+      ]
+    },
+    {
+      "augmentId": 1170,
+      "tier": 4,
+      "pickrate": 0.0577,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 35418
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": 4,
+      "pickrate": 0.0391,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 23995
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": 4,
+      "pickrate": 0.0237,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14584
+        }
+      ]
+    },
+    {
+      "augmentId": 1301,
+      "tier": 4,
+      "pickrate": 0.0113,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6951
+        }
+      ]
+    },
+    {
+      "augmentId": 1308,
+      "tier": 4,
+      "pickrate": 0.0033,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2029
+        }
+      ]
+    },
+    {
+      "augmentId": 1318,
+      "tier": 4,
+      "pickrate": 0.0005,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 298
+        }
+      ]
+    },
+    {
+      "augmentId": 1320,
+      "tier": 4,
+      "pickrate": 0.0742,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 45580
+        }
+      ]
+    },
+    {
+      "augmentId": 1322,
+      "tier": 4,
+      "pickrate": 0.0282,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17346
+        }
+      ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": 4,
+      "pickrate": 0.0063,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3873
+        }
+      ]
+    },
+    {
+      "augmentId": 1328,
+      "tier": 4,
+      "pickrate": 0.0913,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 56062
+        }
+      ]
+    },
+    {
+      "augmentId": 1331,
+      "tier": 4,
+      "pickrate": 0.004,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2462
+        }
+      ]
+    },
+    {
+      "augmentId": 1332,
+      "tier": 4,
+      "pickrate": 0.0024,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1495
+        }
+      ]
+    },
+    {
+      "augmentId": 1336,
+      "tier": 4,
+      "pickrate": 0.1361,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 83552
+        }
+      ]
+    },
+    {
+      "augmentId": 1345,
+      "tier": 4,
+      "pickrate": 0.0084,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5167
+        }
+      ]
+    },
+    {
+      "augmentId": 1386,
+      "tier": 4,
       "pickrate": 0.0013,
       "contributions": [
         {
@@ -2029,11 +1137,765 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3753,
+          "games": 800
+        }
+      ]
+    },
+    {
+      "augmentId": 1390,
+      "tier": 4,
+      "pickrate": 0.0059,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3598
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": 4,
+      "pickrate": 0.0072,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4438
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": 4,
+      "pickrate": 0.0051,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3102
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": 4,
+      "pickrate": 0.0434,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 26630
+        }
+      ]
+    },
+    {
+      "augmentId": 1416,
+      "tier": 4,
+      "pickrate": 0.0193,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11874
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": 4,
+      "pickrate": 0.0156,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9583
+        }
+      ]
+    },
+    {
+      "augmentId": 2004,
+      "tier": 4,
+      "pickrate": 0.0118,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7237
+        }
+      ]
+    },
+    {
+      "augmentId": 2009,
+      "tier": 4,
+      "pickrate": 0.0471,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 28941
+        }
+      ]
+    },
+    {
+      "augmentId": 2010,
+      "tier": 4,
+      "pickrate": 0.0787,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 48343
+        }
+      ]
+    },
+    {
+      "augmentId": 2016,
+      "tier": 4,
+      "pickrate": 0.009,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5523
+        }
+      ]
+    },
+    {
+      "augmentId": 2024,
+      "tier": 4,
+      "pickrate": 0.0263,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16142
+        }
+      ]
+    },
+    {
+      "augmentId": 2063,
+      "tier": 4,
+      "pickrate": 0.0007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 431
+        }
+      ]
+    },
+    {
+      "augmentId": 2077,
+      "tier": 4,
+      "pickrate": 0.0144,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8867
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": 4,
+      "pickrate": 0.0395,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 24270
+        }
+      ]
+    },
+    {
+      "augmentId": 2107,
+      "tier": 4,
+      "pickrate": 0.0018,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1094
+        }
+      ]
+    },
+    {
+      "augmentId": 2116,
+      "tier": 4,
+      "pickrate": 0.0273,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16741
+        }
+      ]
+    },
+    {
+      "augmentId": 2132,
+      "tier": 4,
+      "pickrate": 0.0137,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8403
+        }
+      ]
+    },
+    {
+      "augmentId": 2133,
+      "tier": 4,
+      "pickrate": 0.075,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 46044
+        }
+      ]
+    },
+    {
+      "augmentId": 2140,
+      "tier": 4,
+      "pickrate": 0.0224,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13735
+        }
+      ]
+    },
+    {
+      "augmentId": 1011,
+      "tier": 5,
+      "pickrate": 0.0016,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 973
+        }
+      ]
+    },
+    {
+      "augmentId": 1030,
+      "tier": 5,
+      "pickrate": 0.0013,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 772
+        }
+      ]
+    },
+    {
+      "augmentId": 1047,
+      "tier": 5,
+      "pickrate": 0.0423,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 26004
+        }
+      ]
+    },
+    {
+      "augmentId": 1048,
+      "tier": 5,
+      "pickrate": 0.0344,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 21150
+        }
+      ]
+    },
+    {
+      "augmentId": 1079,
+      "tier": 5,
+      "pickrate": 0.0304,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18653
+        }
+      ]
+    },
+    {
+      "augmentId": 1088,
+      "tier": 5,
+      "pickrate": 0.0047,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2866
+        }
+      ]
+    },
+    {
+      "augmentId": 1112,
+      "tier": 5,
+      "pickrate": 0.0012,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 748
+        }
+      ]
+    },
+    {
+      "augmentId": 1133,
+      "tier": 5,
+      "pickrate": 0.023,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14154
+        }
+      ]
+    },
+    {
+      "augmentId": 1150,
+      "tier": 5,
+      "pickrate": 0.0074,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4517
+        }
+      ]
+    },
+    {
+      "augmentId": 1151,
+      "tier": 5,
+      "pickrate": 0.0018,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1113
+        }
+      ]
+    },
+    {
+      "augmentId": 1194,
+      "tier": 5,
+      "pickrate": 0.0062,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3838
+        }
+      ]
+    },
+    {
+      "augmentId": 1205,
+      "tier": 5,
+      "pickrate": 0.0013,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
           "games": 786
         }
       ]
+    },
+    {
+      "augmentId": 1211,
+      "tier": 5,
+      "pickrate": 0.0029,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1799
+        }
+      ]
+    },
+    {
+      "augmentId": 1311,
+      "tier": 5,
+      "pickrate": 0.0028,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1747
+        }
+      ]
+    },
+    {
+      "augmentId": 1325,
+      "tier": 5,
+      "pickrate": 0.0048,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2949
+        }
+      ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": 5,
+      "pickrate": 0.0046,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2809
+        }
+      ]
+    },
+    {
+      "augmentId": 1344,
+      "tier": 5,
+      "pickrate": 0.0041,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2497
+        }
+      ]
+    },
+    {
+      "augmentId": 1349,
+      "tier": 5,
+      "pickrate": 0.0043,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2638
+        }
+      ]
+    },
+    {
+      "augmentId": 1358,
+      "tier": 5,
+      "pickrate": 0.0008,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 499
+        }
+      ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": 5,
+      "pickrate": 0.0008,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 515
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": 5,
+      "pickrate": 0.0017,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1071
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": 5,
+      "pickrate": 0.0035,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2177
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": 5,
+      "pickrate": 0.0008,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 492
+        }
+      ]
+    },
+    {
+      "augmentId": 2046,
+      "tier": 5,
+      "pickrate": 0.0009,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 551
+        }
+      ]
+    },
+    {
+      "augmentId": 2055,
+      "tier": 5,
+      "pickrate": 0.01,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6133
+        }
+      ]
+    },
+    {
+      "augmentId": 2072,
+      "tier": 5,
+      "pickrate": 0.0122,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7472
+        }
+      ]
+    },
+    {
+      "augmentId": 2080,
+      "tier": 5,
+      "pickrate": 0.0006,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 365
+        }
+      ]
+    },
+    {
+      "augmentId": 2083,
+      "tier": 5,
+      "pickrate": 0.0228,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14012
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": 5,
+      "pickrate": 0.0077,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4746
+        }
+      ]
+    },
+    {
+      "augmentId": 2088,
+      "tier": 5,
+      "pickrate": 0.0006,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 393
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": 5,
+      "pickrate": 0.0022,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1364
+        }
+      ]
+    },
+    {
+      "augmentId": 2103,
+      "tier": 5,
+      "pickrate": 0.0096,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5895
+        }
+      ]
+    },
+    {
+      "augmentId": 2118,
+      "tier": 5,
+      "pickrate": 0.0028,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1702
+        }
+      ]
+    },
+    {
+      "augmentId": 2134,
+      "tier": 5,
+      "pickrate": 0.0011,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 703
+        }
+      ]
+    },
+    {
+      "augmentId": 12317,
+      "tier": 5,
+      "pickrate": 0.0182,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11201
+        }
+      ]
     }
-  ],
-  "method": "equal-source-mean"
+  ]
 }

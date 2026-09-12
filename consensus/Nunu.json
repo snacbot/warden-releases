@@ -1,17 +1,15 @@
 {
+  "version": 1,
+  "method": "warden-performance-tiers-v1",
   "championId": 20,
   "championKey": "Nunu",
   "set": "aram",
-  "source": "Mayhem source average",
-  "sourceUrl": "https://github.com/snacbot/warden-releases/blob/mayhem-data/README.md",
-  "winrateScope": "champion",
-  "pickrateScope": "champion",
   "patch": "16.18",
   "scrapedAt": "2026-09-12T02:34:26.350Z",
   "augments": [
     {
       "augmentId": 2031,
-      "winrate": 0.5649,
+      "tier": 1,
       "pickrate": 0.0465,
       "contributions": [
         {
@@ -19,14 +17,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5649,
           "games": 7732
         }
       ]
     },
     {
       "augmentId": 1361,
-      "winrate": 0.5261,
+      "tier": 2,
       "pickrate": 0.0167,
       "contributions": [
         {
@@ -34,59 +31,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5261,
           "games": 2775
         }
       ]
     },
     {
-      "augmentId": 2102,
-      "winrate": 0.5143,
-      "pickrate": 0.0381,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5143,
-          "games": 6337
-        }
-      ]
-    },
-    {
-      "augmentId": 1319,
-      "winrate": 0.5065,
-      "pickrate": 0.029,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5065,
-          "games": 4829
-        }
-      ]
-    },
-    {
-      "augmentId": 2095,
-      "winrate": 0.5012,
-      "pickrate": 0.0171,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5012,
-          "games": 2851
-        }
-      ]
-    },
-    {
       "augmentId": 1015,
-      "winrate": 0.4915,
+      "tier": 3,
       "pickrate": 0.044,
       "contributions": [
         {
@@ -94,29 +45,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4915,
           "games": 7312
         }
       ]
     },
     {
-      "augmentId": 2032,
-      "winrate": 0.491,
-      "pickrate": 0.0386,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.491,
-          "games": 6417
-        }
-      ]
-    },
-    {
       "augmentId": 1053,
-      "winrate": 0.4888,
+      "tier": 3,
       "pickrate": 0.029,
       "contributions": [
         {
@@ -124,29 +59,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4888,
           "games": 4822
         }
       ]
     },
     {
-      "augmentId": 1308,
-      "winrate": 0.488,
-      "pickrate": 0.0116,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.488,
-          "games": 1922
-        }
-      ]
-    },
-    {
       "augmentId": 1152,
-      "winrate": 0.484,
+      "tier": 3,
       "pickrate": 0.072,
       "contributions": [
         {
@@ -154,29 +73,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.484,
           "games": 11971
         }
       ]
     },
     {
-      "augmentId": 1181,
-      "winrate": 0.4833,
-      "pickrate": 0.0345,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4833,
-          "games": 5731
-        }
-      ]
-    },
-    {
       "augmentId": 1156,
-      "winrate": 0.4824,
+      "tier": 3,
       "pickrate": 0.0303,
       "contributions": [
         {
@@ -184,629 +87,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4824,
           "games": 5046
         }
       ]
     },
     {
-      "augmentId": 1333,
-      "winrate": 0.4817,
-      "pickrate": 0.0439,
+      "augmentId": 1181,
+      "tier": 3,
+      "pickrate": 0.0345,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4817,
-          "games": 7295
+          "games": 5731
         }
       ]
     },
     {
-      "augmentId": 1001,
-      "winrate": 0.4798,
-      "pickrate": 0.0174,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4798,
-          "games": 2899
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "winrate": 0.4773,
-      "pickrate": 0.0102,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4773,
-          "games": 1697
-        }
-      ]
-    },
-    {
-      "augmentId": 1375,
-      "winrate": 0.4762,
-      "pickrate": 0.0163,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4762,
-          "games": 2709
-        }
-      ]
-    },
-    {
-      "augmentId": 1038,
-      "winrate": 0.4753,
-      "pickrate": 0.0362,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4753,
-          "games": 6022
-        }
-      ]
-    },
-    {
-      "augmentId": 1105,
-      "winrate": 0.4749,
-      "pickrate": 0.0261,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4749,
-          "games": 4338
-        }
-      ]
-    },
-    {
-      "augmentId": 2139,
-      "winrate": 0.4734,
-      "pickrate": 0.017,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4734,
-          "games": 2824
-        }
-      ]
-    },
-    {
-      "augmentId": 1353,
-      "winrate": 0.4733,
-      "pickrate": 0.1117,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4733,
-          "games": 18584
-        }
-      ]
-    },
-    {
-      "augmentId": 2127,
-      "winrate": 0.4721,
-      "pickrate": 0.0222,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4721,
-          "games": 3692
-        }
-      ]
-    },
-    {
-      "augmentId": 1013,
-      "winrate": 0.4701,
-      "pickrate": 0.0627,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4701,
-          "games": 10434
-        }
-      ]
-    },
-    {
-      "augmentId": 2131,
-      "winrate": 0.4686,
-      "pickrate": 0.0742,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4686,
-          "games": 12337
-        }
-      ]
-    },
-    {
-      "augmentId": 1373,
-      "winrate": 0.4676,
-      "pickrate": 0.0408,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4676,
-          "games": 6781
-        }
-      ]
-    },
-    {
-      "augmentId": 2089,
-      "winrate": 0.4674,
-      "pickrate": 0.0123,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4674,
-          "games": 2043
-        }
-      ]
-    },
-    {
-      "augmentId": 1025,
-      "winrate": 0.4652,
-      "pickrate": 0.069,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4652,
-          "games": 11485
-        }
-      ]
-    },
-    {
-      "augmentId": 1305,
-      "winrate": 0.4652,
-      "pickrate": 0.0409,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4652,
-          "games": 6806
-        }
-      ]
-    },
-    {
-      "augmentId": 2091,
-      "winrate": 0.4639,
-      "pickrate": 0.028,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4639,
-          "games": 4652
-        }
-      ]
-    },
-    {
-      "augmentId": 1004,
-      "winrate": 0.4634,
-      "pickrate": 0.0194,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4634,
-          "games": 3220
-        }
-      ]
-    },
-    {
-      "augmentId": 1310,
-      "winrate": 0.4631,
-      "pickrate": 0.0351,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4631,
-          "games": 5837
-        }
-      ]
-    },
-    {
-      "augmentId": 1403,
-      "winrate": 0.4627,
-      "pickrate": 0.0187,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4627,
-          "games": 3106
-        }
-      ]
-    },
-    {
-      "augmentId": 1388,
-      "winrate": 0.4625,
-      "pickrate": 0.0248,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4625,
-          "games": 4130
-        }
-      ]
-    },
-    {
-      "augmentId": 1390,
-      "winrate": 0.4625,
-      "pickrate": 0.0486,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4625,
-          "games": 8089
-        }
-      ]
-    },
-    {
-      "augmentId": 1018,
-      "winrate": 0.4623,
-      "pickrate": 0.0087,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4623,
-          "games": 1445
-        }
-      ]
-    },
-    {
-      "augmentId": 1026,
-      "winrate": 0.461,
-      "pickrate": 0.017,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.461,
-          "games": 2824
-        }
-      ]
-    },
-    {
-      "augmentId": 1041,
-      "winrate": 0.4609,
-      "pickrate": 0.062,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4609,
-          "games": 10313
-        }
-      ]
-    },
-    {
-      "augmentId": 1337,
-      "winrate": 0.4608,
-      "pickrate": 0.0061,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4608,
-          "games": 1020
-        }
-      ]
-    },
-    {
-      "augmentId": 1136,
-      "winrate": 0.4605,
-      "pickrate": 0.0164,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4605,
-          "games": 2723
-        }
-      ]
-    },
-    {
-      "augmentId": 1020,
-      "winrate": 0.46,
-      "pickrate": 0.034,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.46,
-          "games": 5648
-        }
-      ]
-    },
-    {
-      "augmentId": 1326,
-      "winrate": 0.4596,
-      "pickrate": 0.0078,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4596,
-          "games": 1299
-        }
-      ]
-    },
-    {
-      "augmentId": 2098,
-      "winrate": 0.4594,
-      "pickrate": 0.0044,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4594,
-          "games": 727
-        }
-      ]
-    },
-    {
-      "augmentId": 1347,
-      "winrate": 0.4583,
-      "pickrate": 0.0026,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4583,
-          "games": 432
-        }
-      ]
-    },
-    {
-      "augmentId": 1384,
-      "winrate": 0.4576,
-      "pickrate": 0.029,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4576,
-          "games": 4821
-        }
-      ]
-    },
-    {
-      "augmentId": 1205,
-      "winrate": 0.4564,
-      "pickrate": 0.0472,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4564,
-          "games": 7847
-        }
-      ]
-    },
-    {
-      "augmentId": 2107,
-      "winrate": 0.4556,
-      "pickrate": 0.0026,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4556,
-          "games": 428
-        }
-      ]
-    },
-    {
-      "augmentId": 1401,
-      "winrate": 0.4554,
-      "pickrate": 0.0503,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4554,
-          "games": 8368
-        }
-      ]
-    },
-    {
-      "augmentId": 1238,
-      "winrate": 0.4551,
-      "pickrate": 0.0895,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4551,
-          "games": 14889
-        }
-      ]
-    },
-    {
-      "augmentId": 1002,
-      "winrate": 0.4549,
-      "pickrate": 0.0173,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4549,
-          "games": 2880
-        }
-      ]
-    },
-    {
-      "augmentId": 1243,
-      "winrate": 0.454,
-      "pickrate": 0.0235,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.454,
-          "games": 3910
-        }
-      ]
-    },
-    {
-      "augmentId": 1195,
-      "winrate": 0.4525,
-      "pickrate": 0.015,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4525,
-          "games": 2495
-        }
-      ]
-    },
-    {
-      "augmentId": 1180,
-      "winrate": 0.452,
-      "pickrate": 0.032,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.452,
-          "games": 5319
-        }
-      ]
-    },
-    {
-      "augmentId": 2043,
-      "winrate": 0.4518,
-      "pickrate": 0.019,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4518,
-          "games": 3156
-        }
-      ]
-    },
-    {
-      "augmentId": 1057,
-      "winrate": 0.4517,
-      "pickrate": 0.0033,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4517,
-          "games": 549
-        }
-      ]
-    },
-    {
-      "augmentId": 1129,
-      "winrate": 0.4517,
+      "augmentId": 1308,
+      "tier": 3,
       "pickrate": 0.0116,
       "contributions": [
         {
@@ -814,224 +115,111 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4517,
-          "games": 1935
+          "games": 1922
         }
       ]
     },
     {
-      "augmentId": 1345,
-      "winrate": 0.4517,
-      "pickrate": 0.0208,
+      "augmentId": 1319,
+      "tier": 3,
+      "pickrate": 0.029,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4517,
-          "games": 3467
+          "games": 4829
         }
       ]
     },
     {
-      "augmentId": 1062,
-      "winrate": 0.4514,
-      "pickrate": 0.0061,
+      "augmentId": 1333,
+      "tier": 3,
+      "pickrate": 0.0439,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4514,
-          "games": 1008
+          "games": 7295
         }
       ]
     },
     {
-      "augmentId": 1028,
-      "winrate": 0.4507,
-      "pickrate": 0.0074,
+      "augmentId": 2032,
+      "tier": 3,
+      "pickrate": 0.0386,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4507,
-          "games": 1227
+          "games": 6417
         }
       ]
     },
     {
-      "augmentId": 1095,
-      "winrate": 0.4503,
-      "pickrate": 0.0047,
+      "augmentId": 2095,
+      "tier": 3,
+      "pickrate": 0.0171,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4503,
-          "games": 775
+          "games": 2851
         }
       ]
     },
     {
-      "augmentId": 1030,
-      "winrate": 0.4502,
-      "pickrate": 0.0395,
+      "augmentId": 2102,
+      "tier": 3,
+      "pickrate": 0.0381,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4502,
-          "games": 6572
+          "games": 6337
         }
       ]
     },
     {
-      "augmentId": 1329,
-      "winrate": 0.4498,
-      "pickrate": 0.0533,
+      "augmentId": 1001,
+      "tier": 4,
+      "pickrate": 0.0174,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4498,
-          "games": 8862
+          "games": 2899
         }
       ]
     },
     {
-      "augmentId": 1097,
-      "winrate": 0.4496,
-      "pickrate": 0.0379,
+      "augmentId": 1002,
+      "tier": 4,
+      "pickrate": 0.0173,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4496,
-          "games": 6305
+          "games": 2880
         }
       ]
     },
     {
-      "augmentId": 1311,
-      "winrate": 0.4481,
-      "pickrate": 0.0225,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4481,
-          "games": 3745
-        }
-      ]
-    },
-    {
-      "augmentId": 2115,
-      "winrate": 0.4475,
-      "pickrate": 0.005,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4475,
-          "games": 829
-        }
-      ]
-    },
-    {
-      "augmentId": 2128,
-      "winrate": 0.4471,
-      "pickrate": 0.022,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4471,
-          "games": 3666
-        }
-      ]
-    },
-    {
-      "augmentId": 2099,
-      "winrate": 0.4467,
-      "pickrate": 0.0065,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4467,
-          "games": 1079
-        }
-      ]
-    },
-    {
-      "augmentId": 1335,
-      "winrate": 0.446,
-      "pickrate": 0.0035,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.446,
-          "games": 583
-        }
-      ]
-    },
-    {
-      "augmentId": 1029,
-      "winrate": 0.4459,
-      "pickrate": 0.034,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4459,
-          "games": 5660
-        }
-      ]
-    },
-    {
-      "augmentId": 1068,
-      "winrate": 0.4439,
-      "pickrate": 0.0737,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4439,
-          "games": 12259
-        }
-      ]
-    },
-    {
-      "augmentId": 1138,
-      "winrate": 0.443,
+      "augmentId": 1004,
+      "tier": 4,
       "pickrate": 0.0194,
       "contributions": [
         {
@@ -1039,944 +227,545 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.443,
-          "games": 3230
+          "games": 3220
         }
       ]
     },
     {
-      "augmentId": 1056,
-      "winrate": 0.4429,
-      "pickrate": 0.0198,
+      "augmentId": 1013,
+      "tier": 4,
+      "pickrate": 0.0627,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4429,
-          "games": 3292
+          "games": 10434
         }
       ]
     },
     {
-      "augmentId": 1149,
-      "winrate": 0.4428,
-      "pickrate": 0.0143,
+      "augmentId": 1018,
+      "tier": 4,
+      "pickrate": 0.0087,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4428,
-          "games": 2376
+          "games": 1445
         }
       ]
     },
     {
-      "augmentId": 2034,
-      "winrate": 0.4428,
-      "pickrate": 0.0136,
+      "augmentId": 1020,
+      "tier": 4,
+      "pickrate": 0.034,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4428,
-          "games": 2265
+          "games": 5648
         }
       ]
     },
     {
-      "augmentId": 2006,
-      "winrate": 0.4427,
-      "pickrate": 0.0914,
+      "augmentId": 1025,
+      "tier": 4,
+      "pickrate": 0.069,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4427,
-          "games": 15197
+          "games": 11485
         }
       ]
     },
     {
-      "augmentId": 1323,
-      "winrate": 0.4423,
-      "pickrate": 0.0139,
+      "augmentId": 1026,
+      "tier": 4,
+      "pickrate": 0.017,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4423,
-          "games": 2313
+          "games": 2824
         }
       ]
     },
     {
-      "augmentId": 2083,
-      "winrate": 0.4414,
-      "pickrate": 0.066,
+      "augmentId": 1028,
+      "tier": 4,
+      "pickrate": 0.0074,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4414,
-          "games": 10976
+          "games": 1227
         }
       ]
     },
     {
-      "augmentId": 2077,
-      "winrate": 0.4413,
-      "pickrate": 0.0965,
+      "augmentId": 1030,
+      "tier": 4,
+      "pickrate": 0.0395,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4413,
-          "games": 16061
+          "games": 6572
         }
       ]
     },
     {
-      "augmentId": 2137,
-      "winrate": 0.4413,
-      "pickrate": 0.012,
+      "augmentId": 1038,
+      "tier": 4,
+      "pickrate": 0.0362,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4413,
-          "games": 1994
+          "games": 6022
         }
       ]
     },
     {
-      "augmentId": 1332,
-      "winrate": 0.441,
-      "pickrate": 0.0089,
+      "augmentId": 1041,
+      "tier": 4,
+      "pickrate": 0.062,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.441,
-          "games": 1474
+          "games": 10313
         }
       ]
     },
     {
-      "augmentId": 12317,
-      "winrate": 0.441,
-      "pickrate": 0.0198,
+      "augmentId": 1057,
+      "tier": 4,
+      "pickrate": 0.0033,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.441,
-          "games": 3288
+          "games": 549
         }
       ]
     },
     {
-      "augmentId": 1389,
-      "winrate": 0.4408,
-      "pickrate": 0.0024,
+      "augmentId": 1060,
+      "tier": 4,
+      "pickrate": 0.0102,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4408,
-          "games": 397
+          "games": 1697
         }
       ]
     },
     {
-      "augmentId": 1237,
-      "winrate": 0.4398,
-      "pickrate": 0.0392,
+      "augmentId": 1062,
+      "tier": 4,
+      "pickrate": 0.0061,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4398,
-          "games": 6521
+          "games": 1008
         }
       ]
     },
     {
-      "augmentId": 1088,
-      "winrate": 0.4384,
-      "pickrate": 0.0222,
+      "augmentId": 1095,
+      "tier": 4,
+      "pickrate": 0.0047,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4384,
-          "games": 3686
+          "games": 775
         }
       ]
     },
     {
-      "augmentId": 2132,
-      "winrate": 0.4381,
-      "pickrate": 0.0641,
+      "augmentId": 1105,
+      "tier": 4,
+      "pickrate": 0.0261,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4381,
-          "games": 10671
+          "games": 4338
         }
       ]
     },
     {
-      "augmentId": 1402,
-      "winrate": 0.438,
-      "pickrate": 0.0064,
+      "augmentId": 1129,
+      "tier": 4,
+      "pickrate": 0.0116,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.438,
-          "games": 1057
+          "games": 1935
         }
       ]
     },
     {
-      "augmentId": 1048,
-      "winrate": 0.4376,
-      "pickrate": 0.0611,
+      "augmentId": 1136,
+      "tier": 4,
+      "pickrate": 0.0164,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4376,
-          "games": 10160
+          "games": 2723
         }
       ]
     },
     {
-      "augmentId": 1112,
-      "winrate": 0.4366,
-      "pickrate": 0.0609,
+      "augmentId": 1180,
+      "tier": 4,
+      "pickrate": 0.032,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4366,
-          "games": 10125
+          "games": 5319
         }
       ]
     },
     {
-      "augmentId": 1413,
-      "winrate": 0.4349,
-      "pickrate": 0.0393,
+      "augmentId": 1195,
+      "tier": 4,
+      "pickrate": 0.015,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4349,
-          "games": 6533
+          "games": 2495
         }
       ]
     },
     {
-      "augmentId": 1046,
-      "winrate": 0.4348,
-      "pickrate": 0.0091,
+      "augmentId": 1205,
+      "tier": 4,
+      "pickrate": 0.0472,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4348,
-          "games": 1518
+          "games": 7847
         }
       ]
     },
     {
-      "augmentId": 2087,
-      "winrate": 0.4343,
-      "pickrate": 0.0169,
+      "augmentId": 1238,
+      "tier": 4,
+      "pickrate": 0.0895,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4343,
-          "games": 2809
+          "games": 14889
         }
       ]
     },
     {
-      "augmentId": 2119,
-      "winrate": 0.4339,
-      "pickrate": 0.0077,
+      "augmentId": 1243,
+      "tier": 4,
+      "pickrate": 0.0235,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4339,
-          "games": 1279
+          "games": 3910
         }
       ]
     },
     {
-      "augmentId": 1358,
-      "winrate": 0.4327,
-      "pickrate": 0.0331,
+      "augmentId": 1305,
+      "tier": 4,
+      "pickrate": 0.0409,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4327,
-          "games": 5514
+          "games": 6806
         }
       ]
     },
     {
-      "augmentId": 1084,
-      "winrate": 0.4326,
-      "pickrate": 0.0372,
+      "augmentId": 1310,
+      "tier": 4,
+      "pickrate": 0.0351,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4326,
-          "games": 6184
+          "games": 5837
         }
       ]
     },
     {
-      "augmentId": 1150,
-      "winrate": 0.4313,
-      "pickrate": 0.0434,
+      "augmentId": 1326,
+      "tier": 4,
+      "pickrate": 0.0078,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4313,
-          "games": 7227
+          "games": 1299
         }
       ]
     },
     {
-      "augmentId": 1344,
-      "winrate": 0.4312,
-      "pickrate": 0.0159,
+      "augmentId": 1337,
+      "tier": 4,
+      "pickrate": 0.0061,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4312,
-          "games": 2653
+          "games": 1020
         }
       ]
     },
     {
-      "augmentId": 2134,
-      "winrate": 0.4308,
-      "pickrate": 0.0031,
+      "augmentId": 1345,
+      "tier": 4,
+      "pickrate": 0.0208,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4308,
-          "games": 520
+          "games": 3467
         }
       ]
     },
     {
-      "augmentId": 1421,
-      "winrate": 0.4297,
-      "pickrate": 0.0052,
+      "augmentId": 1347,
+      "tier": 4,
+      "pickrate": 0.0026,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4297,
-          "games": 861
+          "games": 432
         }
       ]
     },
     {
-      "augmentId": 2026,
-      "winrate": 0.4296,
-      "pickrate": 0.0145,
+      "augmentId": 1353,
+      "tier": 4,
+      "pickrate": 0.1117,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4296,
-          "games": 2409
+          "games": 18584
         }
       ]
     },
     {
-      "augmentId": 1045,
-      "winrate": 0.4295,
-      "pickrate": 0.0063,
+      "augmentId": 1373,
+      "tier": 4,
+      "pickrate": 0.0408,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4295,
-          "games": 1043
+          "games": 6781
         }
       ]
     },
     {
-      "augmentId": 1301,
-      "winrate": 0.4291,
-      "pickrate": 0.0182,
+      "augmentId": 1375,
+      "tier": 4,
+      "pickrate": 0.0163,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4291,
-          "games": 3020
+          "games": 2709
         }
       ]
     },
     {
-      "augmentId": 1211,
-      "winrate": 0.4288,
-      "pickrate": 0.047,
+      "augmentId": 1384,
+      "tier": 4,
+      "pickrate": 0.029,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4288,
-          "games": 7817
+          "games": 4821
         }
       ]
     },
     {
-      "augmentId": 1103,
-      "winrate": 0.4285,
-      "pickrate": 0.0421,
+      "augmentId": 1388,
+      "tier": 4,
+      "pickrate": 0.0248,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4285,
-          "games": 7001
+          "games": 4130
         }
       ]
     },
     {
-      "augmentId": 2082,
-      "winrate": 0.4283,
-      "pickrate": 0.014,
+      "augmentId": 1390,
+      "tier": 4,
+      "pickrate": 0.0486,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4283,
-          "games": 2335
+          "games": 8089
         }
       ]
     },
     {
-      "augmentId": 1116,
-      "winrate": 0.4282,
-      "pickrate": 0.0153,
+      "augmentId": 1401,
+      "tier": 4,
+      "pickrate": 0.0503,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4282,
-          "games": 2541
+          "games": 8368
         }
       ]
     },
     {
-      "augmentId": 2005,
-      "winrate": 0.4279,
-      "pickrate": 0.0076,
+      "augmentId": 1403,
+      "tier": 4,
+      "pickrate": 0.0187,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4279,
-          "games": 1262
+          "games": 3106
         }
       ]
     },
     {
-      "augmentId": 1318,
-      "winrate": 0.427,
-      "pickrate": 0.0205,
+      "augmentId": 2043,
+      "tier": 4,
+      "pickrate": 0.019,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.427,
-          "games": 3410
+          "games": 3156
         }
       ]
     },
     {
-      "augmentId": 2088,
-      "winrate": 0.4265,
-      "pickrate": 0.0226,
+      "augmentId": 2089,
+      "tier": 4,
+      "pickrate": 0.0123,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4265,
-          "games": 3756
+          "games": 2043
         }
       ]
     },
     {
-      "augmentId": 1098,
-      "winrate": 0.4259,
-      "pickrate": 0.0215,
+      "augmentId": 2091,
+      "tier": 4,
+      "pickrate": 0.028,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4259,
-          "games": 3571
+          "games": 4652
         }
       ]
     },
     {
-      "augmentId": 2073,
-      "winrate": 0.4257,
-      "pickrate": 0.0663,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4257,
-          "games": 11037
-        }
-      ]
-    },
-    {
-      "augmentId": 1011,
-      "winrate": 0.4241,
-      "pickrate": 0.0317,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4241,
-          "games": 5265
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "winrate": 0.4239,
-      "pickrate": 0.0055,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4239,
-          "games": 920
-        }
-      ]
-    },
-    {
-      "augmentId": 1392,
-      "winrate": 0.4236,
-      "pickrate": 0.0127,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4236,
-          "games": 2108
-        }
-      ]
-    },
-    {
-      "augmentId": 1058,
-      "winrate": 0.4229,
-      "pickrate": 0.0039,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4229,
-          "games": 655
-        }
-      ]
-    },
-    {
-      "augmentId": 1415,
-      "winrate": 0.4226,
-      "pickrate": 0.0091,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4226,
-          "games": 1512
-        }
-      ]
-    },
-    {
-      "augmentId": 1322,
-      "winrate": 0.4214,
-      "pickrate": 0.0066,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4214,
-          "games": 1094
-        }
-      ]
-    },
-    {
-      "augmentId": 1194,
-      "winrate": 0.4208,
-      "pickrate": 0.0241,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4208,
-          "games": 4009
-        }
-      ]
-    },
-    {
-      "augmentId": 1996,
-      "winrate": 0.4189,
-      "pickrate": 0.0036,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4189,
-          "games": 592
-        }
-      ]
-    },
-    {
-      "augmentId": 1154,
-      "winrate": 0.4184,
-      "pickrate": 0.008,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4184,
-          "games": 1336
-        }
-      ]
-    },
-    {
-      "augmentId": 2116,
-      "winrate": 0.4179,
-      "pickrate": 0.0518,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4179,
-          "games": 8614
-        }
-      ]
-    },
-    {
-      "augmentId": 1044,
-      "winrate": 0.4159,
-      "pickrate": 0.0277,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4159,
-          "games": 4612
-        }
-      ]
-    },
-    {
-      "augmentId": 2118,
-      "winrate": 0.4137,
-      "pickrate": 0.0132,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4137,
-          "games": 2190
-        }
-      ]
-    },
-    {
-      "augmentId": 2080,
-      "winrate": 0.4132,
-      "pickrate": 0.0238,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4132,
-          "games": 3967
-        }
-      ]
-    },
-    {
-      "augmentId": 2018,
-      "winrate": 0.4111,
-      "pickrate": 0.016,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4111,
-          "games": 2666
-        }
-      ]
-    },
-    {
-      "augmentId": 2138,
-      "winrate": 0.4111,
-      "pickrate": 0.0252,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4111,
-          "games": 4191
-        }
-      ]
-    },
-    {
-      "augmentId": 2123,
-      "winrate": 0.4071,
-      "pickrate": 0.0193,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4071,
-          "games": 3208
-        }
-      ]
-    },
-    {
-      "augmentId": 1151,
-      "winrate": 0.4069,
-      "pickrate": 0.0109,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4069,
-          "games": 1821
-        }
-      ]
-    },
-    {
-      "augmentId": 1054,
-      "winrate": 0.4056,
-      "pickrate": 0.0037,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4056,
-          "games": 609
-        }
-      ]
-    },
-    {
-      "augmentId": 2100,
-      "winrate": 0.4033,
-      "pickrate": 0.0522,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4033,
-          "games": 8678
-        }
-      ]
-    },
-    {
-      "augmentId": 1349,
-      "winrate": 0.403,
-      "pickrate": 0.0103,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.403,
-          "games": 1717
-        }
-      ]
-    },
-    {
-      "augmentId": 2042,
-      "winrate": 0.4011,
-      "pickrate": 0.0034,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4011,
-          "games": 561
-        }
-      ]
-    },
-    {
-      "augmentId": 2016,
-      "winrate": 0.3879,
-      "pickrate": 0.0023,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3879,
-          "games": 379
-        }
-      ]
-    },
-    {
-      "augmentId": 2046,
-      "winrate": 0.3867,
-      "pickrate": 0.0015,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3867,
-          "games": 256
-        }
-      ]
-    },
-    {
-      "augmentId": 2063,
-      "winrate": 0.3288,
+      "augmentId": 2098,
+      "tier": 4,
       "pickrate": 0.0044,
       "contributions": [
         {
@@ -1984,11 +773,1087 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3288,
+          "games": 727
+        }
+      ]
+    },
+    {
+      "augmentId": 2107,
+      "tier": 4,
+      "pickrate": 0.0026,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 428
+        }
+      ]
+    },
+    {
+      "augmentId": 2127,
+      "tier": 4,
+      "pickrate": 0.0222,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3692
+        }
+      ]
+    },
+    {
+      "augmentId": 2131,
+      "tier": 4,
+      "pickrate": 0.0742,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12337
+        }
+      ]
+    },
+    {
+      "augmentId": 2139,
+      "tier": 4,
+      "pickrate": 0.017,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2824
+        }
+      ]
+    },
+    {
+      "augmentId": 1011,
+      "tier": 5,
+      "pickrate": 0.0317,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5265
+        }
+      ]
+    },
+    {
+      "augmentId": 1029,
+      "tier": 5,
+      "pickrate": 0.034,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5660
+        }
+      ]
+    },
+    {
+      "augmentId": 1044,
+      "tier": 5,
+      "pickrate": 0.0277,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4612
+        }
+      ]
+    },
+    {
+      "augmentId": 1045,
+      "tier": 5,
+      "pickrate": 0.0063,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1043
+        }
+      ]
+    },
+    {
+      "augmentId": 1046,
+      "tier": 5,
+      "pickrate": 0.0091,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1518
+        }
+      ]
+    },
+    {
+      "augmentId": 1048,
+      "tier": 5,
+      "pickrate": 0.0611,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10160
+        }
+      ]
+    },
+    {
+      "augmentId": 1054,
+      "tier": 5,
+      "pickrate": 0.0037,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 609
+        }
+      ]
+    },
+    {
+      "augmentId": 1056,
+      "tier": 5,
+      "pickrate": 0.0198,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3292
+        }
+      ]
+    },
+    {
+      "augmentId": 1058,
+      "tier": 5,
+      "pickrate": 0.0039,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 655
+        }
+      ]
+    },
+    {
+      "augmentId": 1068,
+      "tier": 5,
+      "pickrate": 0.0737,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12259
+        }
+      ]
+    },
+    {
+      "augmentId": 1084,
+      "tier": 5,
+      "pickrate": 0.0372,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6184
+        }
+      ]
+    },
+    {
+      "augmentId": 1088,
+      "tier": 5,
+      "pickrate": 0.0222,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3686
+        }
+      ]
+    },
+    {
+      "augmentId": 1097,
+      "tier": 5,
+      "pickrate": 0.0379,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6305
+        }
+      ]
+    },
+    {
+      "augmentId": 1098,
+      "tier": 5,
+      "pickrate": 0.0215,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3571
+        }
+      ]
+    },
+    {
+      "augmentId": 1103,
+      "tier": 5,
+      "pickrate": 0.0421,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7001
+        }
+      ]
+    },
+    {
+      "augmentId": 1112,
+      "tier": 5,
+      "pickrate": 0.0609,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10125
+        }
+      ]
+    },
+    {
+      "augmentId": 1116,
+      "tier": 5,
+      "pickrate": 0.0153,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2541
+        }
+      ]
+    },
+    {
+      "augmentId": 1138,
+      "tier": 5,
+      "pickrate": 0.0194,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3230
+        }
+      ]
+    },
+    {
+      "augmentId": 1149,
+      "tier": 5,
+      "pickrate": 0.0143,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2376
+        }
+      ]
+    },
+    {
+      "augmentId": 1150,
+      "tier": 5,
+      "pickrate": 0.0434,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7227
+        }
+      ]
+    },
+    {
+      "augmentId": 1151,
+      "tier": 5,
+      "pickrate": 0.0109,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1821
+        }
+      ]
+    },
+    {
+      "augmentId": 1154,
+      "tier": 5,
+      "pickrate": 0.008,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1336
+        }
+      ]
+    },
+    {
+      "augmentId": 1194,
+      "tier": 5,
+      "pickrate": 0.0241,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4009
+        }
+      ]
+    },
+    {
+      "augmentId": 1211,
+      "tier": 5,
+      "pickrate": 0.047,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7817
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": 5,
+      "pickrate": 0.0392,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6521
+        }
+      ]
+    },
+    {
+      "augmentId": 1301,
+      "tier": 5,
+      "pickrate": 0.0182,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3020
+        }
+      ]
+    },
+    {
+      "augmentId": 1311,
+      "tier": 5,
+      "pickrate": 0.0225,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3745
+        }
+      ]
+    },
+    {
+      "augmentId": 1318,
+      "tier": 5,
+      "pickrate": 0.0205,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3410
+        }
+      ]
+    },
+    {
+      "augmentId": 1322,
+      "tier": 5,
+      "pickrate": 0.0066,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1094
+        }
+      ]
+    },
+    {
+      "augmentId": 1323,
+      "tier": 5,
+      "pickrate": 0.0139,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2313
+        }
+      ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": 5,
+      "pickrate": 0.0533,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8862
+        }
+      ]
+    },
+    {
+      "augmentId": 1332,
+      "tier": 5,
+      "pickrate": 0.0089,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1474
+        }
+      ]
+    },
+    {
+      "augmentId": 1335,
+      "tier": 5,
+      "pickrate": 0.0035,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 583
+        }
+      ]
+    },
+    {
+      "augmentId": 1344,
+      "tier": 5,
+      "pickrate": 0.0159,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2653
+        }
+      ]
+    },
+    {
+      "augmentId": 1349,
+      "tier": 5,
+      "pickrate": 0.0103,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1717
+        }
+      ]
+    },
+    {
+      "augmentId": 1358,
+      "tier": 5,
+      "pickrate": 0.0331,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5514
+        }
+      ]
+    },
+    {
+      "augmentId": 1389,
+      "tier": 5,
+      "pickrate": 0.0024,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 397
+        }
+      ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": 5,
+      "pickrate": 0.0127,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2108
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": 5,
+      "pickrate": 0.0064,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1057
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": 5,
+      "pickrate": 0.0055,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 920
+        }
+      ]
+    },
+    {
+      "augmentId": 1413,
+      "tier": 5,
+      "pickrate": 0.0393,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6533
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": 5,
+      "pickrate": 0.0091,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1512
+        }
+      ]
+    },
+    {
+      "augmentId": 1421,
+      "tier": 5,
+      "pickrate": 0.0052,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 861
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": 5,
+      "pickrate": 0.0036,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 592
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": 5,
+      "pickrate": 0.0076,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1262
+        }
+      ]
+    },
+    {
+      "augmentId": 2006,
+      "tier": 5,
+      "pickrate": 0.0914,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15197
+        }
+      ]
+    },
+    {
+      "augmentId": 2016,
+      "tier": 5,
+      "pickrate": 0.0023,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 379
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": 5,
+      "pickrate": 0.016,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2666
+        }
+      ]
+    },
+    {
+      "augmentId": 2026,
+      "tier": 5,
+      "pickrate": 0.0145,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2409
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": 5,
+      "pickrate": 0.0136,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2265
+        }
+      ]
+    },
+    {
+      "augmentId": 2042,
+      "tier": 5,
+      "pickrate": 0.0034,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 561
+        }
+      ]
+    },
+    {
+      "augmentId": 2046,
+      "tier": 5,
+      "pickrate": 0.0015,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 256
+        }
+      ]
+    },
+    {
+      "augmentId": 2063,
+      "tier": 5,
+      "pickrate": 0.0044,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
           "games": 730
         }
       ]
+    },
+    {
+      "augmentId": 2073,
+      "tier": 5,
+      "pickrate": 0.0663,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11037
+        }
+      ]
+    },
+    {
+      "augmentId": 2077,
+      "tier": 5,
+      "pickrate": 0.0965,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16061
+        }
+      ]
+    },
+    {
+      "augmentId": 2080,
+      "tier": 5,
+      "pickrate": 0.0238,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3967
+        }
+      ]
+    },
+    {
+      "augmentId": 2082,
+      "tier": 5,
+      "pickrate": 0.014,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2335
+        }
+      ]
+    },
+    {
+      "augmentId": 2083,
+      "tier": 5,
+      "pickrate": 0.066,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10976
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": 5,
+      "pickrate": 0.0169,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2809
+        }
+      ]
+    },
+    {
+      "augmentId": 2088,
+      "tier": 5,
+      "pickrate": 0.0226,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3756
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": 5,
+      "pickrate": 0.0065,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1079
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": 5,
+      "pickrate": 0.0522,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8678
+        }
+      ]
+    },
+    {
+      "augmentId": 2115,
+      "tier": 5,
+      "pickrate": 0.005,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 829
+        }
+      ]
+    },
+    {
+      "augmentId": 2116,
+      "tier": 5,
+      "pickrate": 0.0518,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8614
+        }
+      ]
+    },
+    {
+      "augmentId": 2118,
+      "tier": 5,
+      "pickrate": 0.0132,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2190
+        }
+      ]
+    },
+    {
+      "augmentId": 2119,
+      "tier": 5,
+      "pickrate": 0.0077,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1279
+        }
+      ]
+    },
+    {
+      "augmentId": 2123,
+      "tier": 5,
+      "pickrate": 0.0193,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3208
+        }
+      ]
+    },
+    {
+      "augmentId": 2128,
+      "tier": 5,
+      "pickrate": 0.022,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3666
+        }
+      ]
+    },
+    {
+      "augmentId": 2132,
+      "tier": 5,
+      "pickrate": 0.0641,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10671
+        }
+      ]
+    },
+    {
+      "augmentId": 2134,
+      "tier": 5,
+      "pickrate": 0.0031,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 520
+        }
+      ]
+    },
+    {
+      "augmentId": 2137,
+      "tier": 5,
+      "pickrate": 0.012,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1994
+        }
+      ]
+    },
+    {
+      "augmentId": 2138,
+      "tier": 5,
+      "pickrate": 0.0252,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4191
+        }
+      ]
+    },
+    {
+      "augmentId": 12317,
+      "tier": 5,
+      "pickrate": 0.0198,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nunu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3288
+        }
+      ]
     }
-  ],
-  "method": "equal-source-mean"
+  ]
 }

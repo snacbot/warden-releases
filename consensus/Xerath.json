@@ -1,32 +1,15 @@
 {
+  "version": 1,
+  "method": "warden-performance-tiers-v1",
   "championId": 101,
   "championKey": "Xerath",
   "set": "aram",
-  "source": "Mayhem source average",
-  "sourceUrl": "https://github.com/snacbot/warden-releases/blob/mayhem-data/README.md",
-  "winrateScope": "champion",
-  "pickrateScope": "champion",
   "patch": "16.18",
   "scrapedAt": "2026-09-12T02:34:26.350Z",
   "augments": [
     {
-      "augmentId": 2103,
-      "winrate": 0.5275,
-      "pickrate": 0.1247,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5275,
-          "games": 58065
-        }
-      ]
-    },
-    {
       "augmentId": 1105,
-      "winrate": 0.525,
+      "tier": 2,
       "pickrate": 0.0771,
       "contributions": [
         {
@@ -34,404 +17,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.525,
           "games": 35884
         }
       ]
     },
     {
-      "augmentId": 1337,
-      "winrate": 0.5189,
-      "pickrate": 0.0043,
+      "augmentId": 2103,
+      "tier": 2,
+      "pickrate": 0.1247,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5189,
-          "games": 2010
-        }
-      ]
-    },
-    {
-      "augmentId": 1195,
-      "winrate": 0.5184,
-      "pickrate": 0.0336,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5184,
-          "games": 15656
-        }
-      ]
-    },
-    {
-      "augmentId": 1062,
-      "winrate": 0.5146,
-      "pickrate": 0.0122,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5146,
-          "games": 5686
-        }
-      ]
-    },
-    {
-      "augmentId": 2095,
-      "winrate": 0.5146,
-      "pickrate": 0.0255,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5146,
-          "games": 11853
-        }
-      ]
-    },
-    {
-      "augmentId": 1038,
-      "winrate": 0.5139,
-      "pickrate": 0.069,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5139,
-          "games": 32129
-        }
-      ]
-    },
-    {
-      "augmentId": 1335,
-      "winrate": 0.5086,
-      "pickrate": 0.013,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5086,
-          "games": 6070
-        }
-      ]
-    },
-    {
-      "augmentId": 1053,
-      "winrate": 0.5085,
-      "pickrate": 0.0283,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5085,
-          "games": 13181
-        }
-      ]
-    },
-    {
-      "augmentId": 1390,
-      "winrate": 0.5068,
-      "pickrate": 0.1226,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5068,
-          "games": 57090
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "winrate": 0.506,
-      "pickrate": 0.0351,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.506,
-          "games": 16328
-        }
-      ]
-    },
-    {
-      "augmentId": 1389,
-      "winrate": 0.5053,
-      "pickrate": 0.0063,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5053,
-          "games": 2929
-        }
-      ]
-    },
-    {
-      "augmentId": 1373,
-      "winrate": 0.5051,
-      "pickrate": 0.1645,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5051,
-          "games": 76558
-        }
-      ]
-    },
-    {
-      "augmentId": 1098,
-      "winrate": 0.5046,
-      "pickrate": 0.0366,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5046,
-          "games": 17015
-        }
-      ]
-    },
-    {
-      "augmentId": 1061,
-      "winrate": 0.5043,
-      "pickrate": 0.0087,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5043,
-          "games": 4065
-        }
-      ]
-    },
-    {
-      "augmentId": 2042,
-      "winrate": 0.5005,
-      "pickrate": 0.0022,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5005,
-          "games": 1027
-        }
-      ]
-    },
-    {
-      "augmentId": 1180,
-      "winrate": 0.5001,
-      "pickrate": 0.0296,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5001,
-          "games": 13766
-        }
-      ]
-    },
-    {
-      "augmentId": 1156,
-      "winrate": 0.4972,
-      "pickrate": 0.065,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4972,
-          "games": 30277
-        }
-      ]
-    },
-    {
-      "augmentId": 1133,
-      "winrate": 0.4959,
-      "pickrate": 0.1612,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4959,
-          "games": 75046
-        }
-      ]
-    },
-    {
-      "augmentId": 1415,
-      "winrate": 0.4949,
-      "pickrate": 0.0914,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4949,
-          "games": 42556
-        }
-      ]
-    },
-    {
-      "augmentId": 1154,
-      "winrate": 0.4908,
-      "pickrate": 0.0123,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4908,
-          "games": 5723
-        }
-      ]
-    },
-    {
-      "augmentId": 1384,
-      "winrate": 0.4901,
-      "pickrate": 0.0328,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4901,
-          "games": 15280
-        }
-      ]
-    },
-    {
-      "augmentId": 2098,
-      "winrate": 0.4899,
-      "pickrate": 0.0037,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4899,
-          "games": 1739
-        }
-      ]
-    },
-    {
-      "augmentId": 2119,
-      "winrate": 0.4899,
-      "pickrate": 0.0007,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4899,
-          "games": 347
-        }
-      ]
-    },
-    {
-      "augmentId": 1057,
-      "winrate": 0.4897,
-      "pickrate": 0.0021,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4897,
-          "games": 968
-        }
-      ]
-    },
-    {
-      "augmentId": 1416,
-      "winrate": 0.4879,
-      "pickrate": 0.0487,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4879,
-          "games": 22678
-        }
-      ]
-    },
-    {
-      "augmentId": 1238,
-      "winrate": 0.4864,
-      "pickrate": 0.1162,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4864,
-          "games": 54087
-        }
-      ]
-    },
-    {
-      "augmentId": 1388,
-      "winrate": 0.4861,
-      "pickrate": 0.0736,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4861,
-          "games": 34270
+          "games": 58065
         }
       ]
     },
     {
       "augmentId": 1030,
-      "winrate": 0.4847,
+      "tier": 3,
       "pickrate": 0.1556,
       "contributions": [
         {
@@ -439,14 +45,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4847,
           "games": 72454
         }
       ]
     },
     {
+      "augmentId": 1038,
+      "tier": 3,
+      "pickrate": 0.069,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 32129
+        }
+      ]
+    },
+    {
       "augmentId": 1046,
-      "winrate": 0.4831,
+      "tier": 3,
       "pickrate": 0.0306,
       "contributions": [
         {
@@ -454,29 +73,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4831,
           "games": 14222
         }
       ]
     },
     {
-      "augmentId": 2089,
-      "winrate": 0.483,
-      "pickrate": 0.0112,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.483,
-          "games": 5228
-        }
-      ]
-    },
-    {
       "augmentId": 1048,
-      "winrate": 0.4827,
+      "tier": 3,
       "pickrate": 0.1446,
       "contributions": [
         {
@@ -484,779 +87,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4827,
           "games": 67329
         }
       ]
     },
     {
-      "augmentId": 2127,
-      "winrate": 0.4821,
-      "pickrate": 0.0371,
+      "augmentId": 1053,
+      "tier": 3,
+      "pickrate": 0.0283,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4821,
-          "games": 17293
+          "games": 13181
         }
       ]
     },
     {
-      "augmentId": 2132,
-      "winrate": 0.48,
-      "pickrate": 0.078,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.48,
-          "games": 36327
-        }
-      ]
-    },
-    {
-      "augmentId": 2116,
-      "winrate": 0.4798,
-      "pickrate": 0.0491,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4798,
-          "games": 22866
-        }
-      ]
-    },
-    {
-      "augmentId": 1403,
-      "winrate": 0.4789,
-      "pickrate": 0.02,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4789,
-          "games": 9287
-        }
-      ]
-    },
-    {
-      "augmentId": 1068,
-      "winrate": 0.4785,
-      "pickrate": 0.1132,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4785,
-          "games": 52685
-        }
-      ]
-    },
-    {
-      "augmentId": 1318,
-      "winrate": 0.4755,
-      "pickrate": 0.0548,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4755,
-          "games": 25508
-        }
-      ]
-    },
-    {
-      "augmentId": 1088,
-      "winrate": 0.4753,
-      "pickrate": 0.0373,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4753,
-          "games": 17376
-        }
-      ]
-    },
-    {
-      "augmentId": 1332,
-      "winrate": 0.4752,
-      "pickrate": 0.011,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4752,
-          "games": 5141
-        }
-      ]
-    },
-    {
-      "augmentId": 1205,
-      "winrate": 0.475,
-      "pickrate": 0.1036,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.475,
-          "games": 48211
-        }
-      ]
-    },
-    {
-      "augmentId": 1028,
-      "winrate": 0.4749,
-      "pickrate": 0.0109,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4749,
-          "games": 5089
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "winrate": 0.4744,
-      "pickrate": 0.0599,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4744,
-          "games": 27903
-        }
-      ]
-    },
-    {
-      "augmentId": 2034,
-      "winrate": 0.4744,
-      "pickrate": 0.0019,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4744,
-          "games": 900
-        }
-      ]
-    },
-    {
-      "augmentId": 1243,
-      "winrate": 0.4733,
-      "pickrate": 0.0339,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4733,
-          "games": 15784
-        }
-      ]
-    },
-    {
-      "augmentId": 1097,
-      "winrate": 0.473,
-      "pickrate": 0.0842,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.473,
-          "games": 39186
-        }
-      ]
-    },
-    {
-      "augmentId": 1004,
-      "winrate": 0.4719,
-      "pickrate": 0.0305,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4719,
-          "games": 14176
-        }
-      ]
-    },
-    {
-      "augmentId": 1002,
-      "winrate": 0.4716,
-      "pickrate": 0.0093,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4716,
-          "games": 4326
-        }
-      ]
-    },
-    {
-      "augmentId": 1345,
-      "winrate": 0.471,
-      "pickrate": 0.0122,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.471,
-          "games": 5690
-        }
-      ]
-    },
-    {
-      "augmentId": 1113,
-      "winrate": 0.4709,
-      "pickrate": 0.163,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4709,
-          "games": 75868
-        }
-      ]
-    },
-    {
-      "augmentId": 1402,
-      "winrate": 0.4703,
-      "pickrate": 0.01,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4703,
-          "games": 4640
-        }
-      ]
-    },
-    {
-      "augmentId": 2083,
-      "winrate": 0.4691,
-      "pickrate": 0.0577,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4691,
-          "games": 26839
-        }
-      ]
-    },
-    {
-      "augmentId": 2131,
-      "winrate": 0.469,
-      "pickrate": 0.0296,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.469,
-          "games": 13796
-        }
-      ]
-    },
-    {
-      "augmentId": 1138,
-      "winrate": 0.4689,
-      "pickrate": 0.017,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4689,
-          "games": 7927
-        }
-      ]
-    },
-    {
-      "augmentId": 1084,
-      "winrate": 0.4667,
-      "pickrate": 0.0518,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4667,
-          "games": 24121
-        }
-      ]
-    },
-    {
-      "augmentId": 1358,
-      "winrate": 0.4659,
-      "pickrate": 0.0024,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4659,
-          "games": 1116
-        }
-      ]
-    },
-    {
-      "augmentId": 1211,
-      "winrate": 0.4651,
-      "pickrate": 0.0186,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4651,
-          "games": 8675
-        }
-      ]
-    },
-    {
-      "augmentId": 1056,
-      "winrate": 0.4649,
-      "pickrate": 0.0174,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4649,
-          "games": 8094
-        }
-      ]
-    },
-    {
-      "augmentId": 1103,
-      "winrate": 0.4646,
-      "pickrate": 0.049,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4646,
-          "games": 22820
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "winrate": 0.4637,
-      "pickrate": 0.0128,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4637,
-          "games": 5943
-        }
-      ]
-    },
-    {
-      "augmentId": 2100,
-      "winrate": 0.4637,
-      "pickrate": 0.0357,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4637,
-          "games": 16609
-        }
-      ]
-    },
-    {
-      "augmentId": 1308,
-      "winrate": 0.4623,
-      "pickrate": 0.0094,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4623,
-          "games": 4382
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "winrate": 0.4621,
-      "pickrate": 0.0081,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4621,
-          "games": 3755
-        }
-      ]
-    },
-    {
-      "augmentId": 2077,
-      "winrate": 0.4619,
-      "pickrate": 0.0199,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4619,
-          "games": 9262
-        }
-      ]
-    },
-    {
-      "augmentId": 2018,
-      "winrate": 0.4606,
-      "pickrate": 0.0718,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4606,
-          "games": 33415
-        }
-      ]
-    },
-    {
-      "augmentId": 2118,
-      "winrate": 0.4559,
-      "pickrate": 0.0243,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4559,
-          "games": 11335
-        }
-      ]
-    },
-    {
-      "augmentId": 1326,
-      "winrate": 0.4556,
-      "pickrate": 0.0022,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4556,
-          "games": 1036
-        }
-      ]
-    },
-    {
-      "augmentId": 1029,
-      "winrate": 0.4545,
-      "pickrate": 0.0178,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4545,
-          "games": 8293
-        }
-      ]
-    },
-    {
-      "augmentId": 1044,
-      "winrate": 0.4544,
-      "pickrate": 0.0138,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4544,
-          "games": 6435
-        }
-      ]
-    },
-    {
-      "augmentId": 1129,
-      "winrate": 0.4543,
-      "pickrate": 0.0129,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4543,
-          "games": 6007
-        }
-      ]
-    },
-    {
-      "augmentId": 1325,
-      "winrate": 0.4505,
-      "pickrate": 0.0242,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4505,
-          "games": 11282
-        }
-      ]
-    },
-    {
-      "augmentId": 2087,
-      "winrate": 0.4493,
-      "pickrate": 0.076,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4493,
-          "games": 35395
-        }
-      ]
-    },
-    {
-      "augmentId": 1150,
-      "winrate": 0.4466,
-      "pickrate": 0.0223,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4466,
-          "games": 10401
-        }
-      ]
-    },
-    {
-      "augmentId": 2016,
-      "winrate": 0.4466,
-      "pickrate": 0.0092,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4466,
-          "games": 4301
-        }
-      ]
-    },
-    {
-      "augmentId": 2134,
-      "winrate": 0.4455,
-      "pickrate": 0.0029,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4455,
-          "games": 1358
-        }
-      ]
-    },
-    {
-      "augmentId": 1311,
-      "winrate": 0.4448,
-      "pickrate": 0.015,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4448,
-          "games": 6989
-        }
-      ]
-    },
-    {
-      "augmentId": 1344,
-      "winrate": 0.443,
-      "pickrate": 0.0023,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.443,
-          "games": 1052
-        }
-      ]
-    },
-    {
-      "augmentId": 2080,
-      "winrate": 0.4427,
-      "pickrate": 0.0012,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4427,
-          "games": 558
-        }
-      ]
-    },
-    {
-      "augmentId": 12317,
-      "winrate": 0.4405,
-      "pickrate": 0.0297,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4405,
-          "games": 13838
-        }
-      ]
-    },
-    {
-      "augmentId": 1151,
-      "winrate": 0.4402,
-      "pickrate": 0.0209,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4402,
-          "games": 9714
-        }
-      ]
-    },
-    {
-      "augmentId": 1349,
-      "winrate": 0.4401,
-      "pickrate": 0.0159,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4401,
-          "games": 7380
-        }
-      ]
-    },
-    {
-      "augmentId": 1112,
-      "winrate": 0.4383,
-      "pickrate": 0.0029,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4383,
-          "games": 1346
-        }
-      ]
-    },
-    {
-      "augmentId": 2055,
-      "winrate": 0.4367,
-      "pickrate": 0.0175,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4367,
-          "games": 8150
-        }
-      ]
-    },
-    {
-      "augmentId": 2088,
-      "winrate": 0.436,
+      "augmentId": 1057,
+      "tier": 3,
       "pickrate": 0.0021,
       "contributions": [
         {
@@ -1264,44 +115,223 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.436,
-          "games": 1000
+          "games": 968
         }
       ]
     },
     {
-      "augmentId": 2046,
-      "winrate": 0.4359,
-      "pickrate": 0.0014,
+      "augmentId": 1060,
+      "tier": 3,
+      "pickrate": 0.0351,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4359,
-          "games": 663
+          "games": 16328
         }
       ]
     },
     {
-      "augmentId": 1386,
-      "winrate": 0.4353,
-      "pickrate": 0.0007,
+      "augmentId": 1061,
+      "tier": 3,
+      "pickrate": 0.0087,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4353,
-          "games": 340
+          "games": 4065
         }
       ]
     },
     {
-      "augmentId": 1054,
-      "winrate": 0.4308,
+      "augmentId": 1062,
+      "tier": 3,
+      "pickrate": 0.0122,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5686
+        }
+      ]
+    },
+    {
+      "augmentId": 1098,
+      "tier": 3,
+      "pickrate": 0.0366,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17015
+        }
+      ]
+    },
+    {
+      "augmentId": 1133,
+      "tier": 3,
+      "pickrate": 0.1612,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 75046
+        }
+      ]
+    },
+    {
+      "augmentId": 1154,
+      "tier": 3,
+      "pickrate": 0.0123,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5723
+        }
+      ]
+    },
+    {
+      "augmentId": 1156,
+      "tier": 3,
+      "pickrate": 0.065,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 30277
+        }
+      ]
+    },
+    {
+      "augmentId": 1180,
+      "tier": 3,
+      "pickrate": 0.0296,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13766
+        }
+      ]
+    },
+    {
+      "augmentId": 1195,
+      "tier": 3,
+      "pickrate": 0.0336,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15656
+        }
+      ]
+    },
+    {
+      "augmentId": 1238,
+      "tier": 3,
+      "pickrate": 0.1162,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 54087
+        }
+      ]
+    },
+    {
+      "augmentId": 1335,
+      "tier": 3,
+      "pickrate": 0.013,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6070
+        }
+      ]
+    },
+    {
+      "augmentId": 1337,
+      "tier": 3,
+      "pickrate": 0.0043,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2010
+        }
+      ]
+    },
+    {
+      "augmentId": 1373,
+      "tier": 3,
+      "pickrate": 0.1645,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 76558
+        }
+      ]
+    },
+    {
+      "augmentId": 1384,
+      "tier": 3,
+      "pickrate": 0.0328,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15280
+        }
+      ]
+    },
+    {
+      "augmentId": 1388,
+      "tier": 3,
+      "pickrate": 0.0736,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 34270
+        }
+      ]
+    },
+    {
+      "augmentId": 1389,
+      "tier": 3,
       "pickrate": 0.0063,
       "contributions": [
         {
@@ -1309,29 +339,671 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4308,
-          "games": 2911
+          "games": 2929
         }
       ]
     },
     {
-      "augmentId": 2107,
-      "winrate": 0.4283,
-      "pickrate": 0.001,
+      "augmentId": 1390,
+      "tier": 3,
+      "pickrate": 0.1226,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4283,
-          "games": 488
+          "games": 57090
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": 3,
+      "pickrate": 0.0914,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 42556
+        }
+      ]
+    },
+    {
+      "augmentId": 1416,
+      "tier": 3,
+      "pickrate": 0.0487,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 22678
+        }
+      ]
+    },
+    {
+      "augmentId": 2042,
+      "tier": 3,
+      "pickrate": 0.0022,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1027
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": 3,
+      "pickrate": 0.0112,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5228
+        }
+      ]
+    },
+    {
+      "augmentId": 2095,
+      "tier": 3,
+      "pickrate": 0.0255,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11853
+        }
+      ]
+    },
+    {
+      "augmentId": 2098,
+      "tier": 3,
+      "pickrate": 0.0037,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1739
+        }
+      ]
+    },
+    {
+      "augmentId": 2119,
+      "tier": 3,
+      "pickrate": 0.0007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 347
+        }
+      ]
+    },
+    {
+      "augmentId": 2127,
+      "tier": 3,
+      "pickrate": 0.0371,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17293
+        }
+      ]
+    },
+    {
+      "augmentId": 1002,
+      "tier": 4,
+      "pickrate": 0.0093,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4326
+        }
+      ]
+    },
+    {
+      "augmentId": 1004,
+      "tier": 4,
+      "pickrate": 0.0305,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14176
+        }
+      ]
+    },
+    {
+      "augmentId": 1028,
+      "tier": 4,
+      "pickrate": 0.0109,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5089
+        }
+      ]
+    },
+    {
+      "augmentId": 1029,
+      "tier": 4,
+      "pickrate": 0.0178,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8293
+        }
+      ]
+    },
+    {
+      "augmentId": 1044,
+      "tier": 4,
+      "pickrate": 0.0138,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6435
+        }
+      ]
+    },
+    {
+      "augmentId": 1056,
+      "tier": 4,
+      "pickrate": 0.0174,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8094
+        }
+      ]
+    },
+    {
+      "augmentId": 1068,
+      "tier": 4,
+      "pickrate": 0.1132,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 52685
+        }
+      ]
+    },
+    {
+      "augmentId": 1084,
+      "tier": 4,
+      "pickrate": 0.0518,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 24121
+        }
+      ]
+    },
+    {
+      "augmentId": 1088,
+      "tier": 4,
+      "pickrate": 0.0373,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17376
+        }
+      ]
+    },
+    {
+      "augmentId": 1097,
+      "tier": 4,
+      "pickrate": 0.0842,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 39186
+        }
+      ]
+    },
+    {
+      "augmentId": 1103,
+      "tier": 4,
+      "pickrate": 0.049,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 22820
+        }
+      ]
+    },
+    {
+      "augmentId": 1113,
+      "tier": 4,
+      "pickrate": 0.163,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 75868
+        }
+      ]
+    },
+    {
+      "augmentId": 1129,
+      "tier": 4,
+      "pickrate": 0.0129,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6007
+        }
+      ]
+    },
+    {
+      "augmentId": 1138,
+      "tier": 4,
+      "pickrate": 0.017,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7927
+        }
+      ]
+    },
+    {
+      "augmentId": 1205,
+      "tier": 4,
+      "pickrate": 0.1036,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 48211
+        }
+      ]
+    },
+    {
+      "augmentId": 1211,
+      "tier": 4,
+      "pickrate": 0.0186,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8675
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": 4,
+      "pickrate": 0.0599,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 27903
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": 4,
+      "pickrate": 0.0339,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15784
+        }
+      ]
+    },
+    {
+      "augmentId": 1308,
+      "tier": 4,
+      "pickrate": 0.0094,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4382
+        }
+      ]
+    },
+    {
+      "augmentId": 1318,
+      "tier": 4,
+      "pickrate": 0.0548,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 25508
+        }
+      ]
+    },
+    {
+      "augmentId": 1325,
+      "tier": 4,
+      "pickrate": 0.0242,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11282
+        }
+      ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": 4,
+      "pickrate": 0.0022,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1036
+        }
+      ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": 4,
+      "pickrate": 0.0128,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5943
+        }
+      ]
+    },
+    {
+      "augmentId": 1332,
+      "tier": 4,
+      "pickrate": 0.011,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5141
+        }
+      ]
+    },
+    {
+      "augmentId": 1345,
+      "tier": 4,
+      "pickrate": 0.0122,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5690
+        }
+      ]
+    },
+    {
+      "augmentId": 1358,
+      "tier": 4,
+      "pickrate": 0.0024,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1116
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": 4,
+      "pickrate": 0.01,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4640
+        }
+      ]
+    },
+    {
+      "augmentId": 1403,
+      "tier": 4,
+      "pickrate": 0.02,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9287
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": 4,
+      "pickrate": 0.0081,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3755
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": 4,
+      "pickrate": 0.0718,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 33415
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": 4,
+      "pickrate": 0.0019,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 900
+        }
+      ]
+    },
+    {
+      "augmentId": 2077,
+      "tier": 4,
+      "pickrate": 0.0199,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9262
+        }
+      ]
+    },
+    {
+      "augmentId": 2083,
+      "tier": 4,
+      "pickrate": 0.0577,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 26839
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": 4,
+      "pickrate": 0.0357,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16609
+        }
+      ]
+    },
+    {
+      "augmentId": 2116,
+      "tier": 4,
+      "pickrate": 0.0491,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 22866
+        }
+      ]
+    },
+    {
+      "augmentId": 2118,
+      "tier": 4,
+      "pickrate": 0.0243,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11335
+        }
+      ]
+    },
+    {
+      "augmentId": 2131,
+      "tier": 4,
+      "pickrate": 0.0296,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13796
+        }
+      ]
+    },
+    {
+      "augmentId": 2132,
+      "tier": 4,
+      "pickrate": 0.078,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 36327
         }
       ]
     },
     {
       "augmentId": 1011,
-      "winrate": 0.4256,
+      "tier": 5,
       "pickrate": 0.0028,
       "contributions": [
         {
@@ -1339,59 +1011,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4256,
           "games": 1290
         }
       ]
     },
     {
-      "augmentId": 2072,
-      "winrate": 0.424,
-      "pickrate": 0.0256,
+      "augmentId": 1054,
+      "tier": 5,
+      "pickrate": 0.0063,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.424,
-          "games": 11921
-        }
-      ]
-    },
-    {
-      "augmentId": 1392,
-      "winrate": 0.4203,
-      "pickrate": 0.0011,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4203,
-          "games": 533
-        }
-      ]
-    },
-    {
-      "augmentId": 1996,
-      "winrate": 0.4187,
-      "pickrate": 0.0015,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4187,
-          "games": 683
+          "games": 2911
         }
       ]
     },
     {
       "augmentId": 1058,
-      "winrate": 0.4166,
+      "tier": 5,
       "pickrate": 0.0031,
       "contributions": [
         {
@@ -1399,11 +1039,275 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4166,
           "games": 1462
         }
       ]
+    },
+    {
+      "augmentId": 1112,
+      "tier": 5,
+      "pickrate": 0.0029,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1346
+        }
+      ]
+    },
+    {
+      "augmentId": 1150,
+      "tier": 5,
+      "pickrate": 0.0223,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10401
+        }
+      ]
+    },
+    {
+      "augmentId": 1151,
+      "tier": 5,
+      "pickrate": 0.0209,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9714
+        }
+      ]
+    },
+    {
+      "augmentId": 1311,
+      "tier": 5,
+      "pickrate": 0.015,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6989
+        }
+      ]
+    },
+    {
+      "augmentId": 1344,
+      "tier": 5,
+      "pickrate": 0.0023,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1052
+        }
+      ]
+    },
+    {
+      "augmentId": 1349,
+      "tier": 5,
+      "pickrate": 0.0159,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7380
+        }
+      ]
+    },
+    {
+      "augmentId": 1386,
+      "tier": 5,
+      "pickrate": 0.0007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 340
+        }
+      ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": 5,
+      "pickrate": 0.0011,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 533
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": 5,
+      "pickrate": 0.0015,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 683
+        }
+      ]
+    },
+    {
+      "augmentId": 2016,
+      "tier": 5,
+      "pickrate": 0.0092,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4301
+        }
+      ]
+    },
+    {
+      "augmentId": 2046,
+      "tier": 5,
+      "pickrate": 0.0014,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 663
+        }
+      ]
+    },
+    {
+      "augmentId": 2055,
+      "tier": 5,
+      "pickrate": 0.0175,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8150
+        }
+      ]
+    },
+    {
+      "augmentId": 2072,
+      "tier": 5,
+      "pickrate": 0.0256,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11921
+        }
+      ]
+    },
+    {
+      "augmentId": 2080,
+      "tier": 5,
+      "pickrate": 0.0012,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 558
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": 5,
+      "pickrate": 0.076,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 35395
+        }
+      ]
+    },
+    {
+      "augmentId": 2088,
+      "tier": 5,
+      "pickrate": 0.0021,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1000
+        }
+      ]
+    },
+    {
+      "augmentId": 2107,
+      "tier": 5,
+      "pickrate": 0.001,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 488
+        }
+      ]
+    },
+    {
+      "augmentId": 2134,
+      "tier": 5,
+      "pickrate": 0.0029,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1358
+        }
+      ]
+    },
+    {
+      "augmentId": 12317,
+      "tier": 5,
+      "pickrate": 0.0297,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/xerath?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13838
+        }
+      ]
     }
-  ],
-  "method": "equal-source-mean"
+  ]
 }

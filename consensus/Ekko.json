@@ -1,32 +1,15 @@
 {
+  "version": 1,
+  "method": "warden-performance-tiers-v1",
   "championId": 245,
   "championKey": "Ekko",
   "set": "aram",
-  "source": "Mayhem source average",
-  "sourceUrl": "https://github.com/snacbot/warden-releases/blob/mayhem-data/README.md",
-  "winrateScope": "champion",
-  "pickrateScope": "champion",
   "patch": "16.18",
   "scrapedAt": "2026-09-12T02:34:26.350Z",
   "augments": [
     {
-      "augmentId": 2095,
-      "winrate": 0.627,
-      "pickrate": 0.0228,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.627,
-          "games": 10035
-        }
-      ]
-    },
-    {
       "augmentId": 1029,
-      "winrate": 0.6007,
+      "tier": 1,
       "pickrate": 0.2524,
       "contributions": [
         {
@@ -34,149 +17,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.6007,
           "games": 111170
         }
       ]
     },
     {
-      "augmentId": 2031,
-      "winrate": 0.5953,
-      "pickrate": 0.0173,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5953,
-          "games": 7641
-        }
-      ]
-    },
-    {
-      "augmentId": 2055,
-      "winrate": 0.5929,
-      "pickrate": 0.0371,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5929,
-          "games": 16347
-        }
-      ]
-    },
-    {
-      "augmentId": 1389,
-      "winrate": 0.584,
-      "pickrate": 0.0027,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.584,
-          "games": 1173
-        }
-      ]
-    },
-    {
-      "augmentId": 1156,
-      "winrate": 0.5817,
-      "pickrate": 0.0442,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5817,
-          "games": 19492
-        }
-      ]
-    },
-    {
-      "augmentId": 1053,
-      "winrate": 0.5739,
-      "pickrate": 0.0236,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5739,
-          "games": 10383
-        }
-      ]
-    },
-    {
-      "augmentId": 2072,
-      "winrate": 0.5637,
-      "pickrate": 0.0484,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5637,
-          "games": 21313
-        }
-      ]
-    },
-    {
-      "augmentId": 2132,
-      "winrate": 0.5621,
-      "pickrate": 0.1511,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5621,
-          "games": 66543
-        }
-      ]
-    },
-    {
-      "augmentId": 1038,
-      "winrate": 0.5604,
-      "pickrate": 0.0668,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5604,
-          "games": 29435
-        }
-      ]
-    },
-    {
-      "augmentId": 2119,
-      "winrate": 0.5587,
-      "pickrate": 0.0031,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5587,
-          "games": 1380
-        }
-      ]
-    },
-    {
       "augmentId": 1030,
-      "winrate": 0.5561,
+      "tier": 1,
       "pickrate": 0.0997,
       "contributions": [
         {
@@ -184,44 +31,41 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5561,
           "games": 43900
         }
       ]
     },
     {
-      "augmentId": 1308,
-      "winrate": 0.5555,
-      "pickrate": 0.014,
+      "augmentId": 1038,
+      "tier": 1,
+      "pickrate": 0.0668,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5555,
-          "games": 6175
+          "games": 29435
         }
       ]
     },
     {
-      "augmentId": 1388,
-      "winrate": 0.5528,
-      "pickrate": 0.0478,
+      "augmentId": 1053,
+      "tier": 1,
+      "pickrate": 0.0236,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5528,
-          "games": 21068
+          "games": 10383
         }
       ]
     },
     {
       "augmentId": 1073,
-      "winrate": 0.552,
+      "tier": 1,
       "pickrate": 0.105,
       "contributions": [
         {
@@ -229,14 +73,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.552,
           "games": 46268
         }
       ]
     },
     {
       "augmentId": 1129,
-      "winrate": 0.5512,
+      "tier": 1,
       "pickrate": 0.1536,
       "contributions": [
         {
@@ -244,359 +87,153 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5512,
           "games": 67686
         }
       ]
     },
     {
-      "augmentId": 1026,
-      "winrate": 0.5487,
-      "pickrate": 0.0196,
+      "augmentId": 1156,
+      "tier": 1,
+      "pickrate": 0.0442,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5487,
-          "games": 8638
+          "games": 19492
         }
       ]
     },
     {
-      "augmentId": 1390,
-      "winrate": 0.5484,
-      "pickrate": 0.0746,
+      "augmentId": 1308,
+      "tier": 1,
+      "pickrate": 0.014,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5484,
-          "games": 32846
+          "games": 6175
         }
       ]
     },
     {
-      "augmentId": 1195,
-      "winrate": 0.5463,
-      "pickrate": 0.0341,
+      "augmentId": 1388,
+      "tier": 1,
+      "pickrate": 0.0478,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5463,
-          "games": 15026
+          "games": 21068
         }
       ]
     },
     {
-      "augmentId": 1333,
-      "winrate": 0.5463,
-      "pickrate": 0.0535,
+      "augmentId": 1389,
+      "tier": 1,
+      "pickrate": 0.0027,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5463,
-          "games": 23550
+          "games": 1173
         }
       ]
     },
     {
-      "augmentId": 2098,
-      "winrate": 0.546,
-      "pickrate": 0.0101,
+      "augmentId": 2031,
+      "tier": 1,
+      "pickrate": 0.0173,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.546,
-          "games": 4436
+          "games": 7641
         }
       ]
     },
     {
-      "augmentId": 1332,
-      "winrate": 0.5451,
-      "pickrate": 0.0129,
+      "augmentId": 2055,
+      "tier": 1,
+      "pickrate": 0.0371,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5451,
-          "games": 5696
+          "games": 16347
         }
       ]
     },
     {
-      "augmentId": 1384,
-      "winrate": 0.5451,
-      "pickrate": 0.0293,
+      "augmentId": 2072,
+      "tier": 1,
+      "pickrate": 0.0484,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5451,
-          "games": 12916
+          "games": 21313
         }
       ]
     },
     {
-      "augmentId": 1403,
-      "winrate": 0.5444,
-      "pickrate": 0.0185,
+      "augmentId": 2095,
+      "tier": 1,
+      "pickrate": 0.0228,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5444,
-          "games": 8156
+          "games": 10035
         }
       ]
     },
     {
-      "augmentId": 1315,
-      "winrate": 0.5428,
-      "pickrate": 0.031,
+      "augmentId": 2119,
+      "tier": 1,
+      "pickrate": 0.0031,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5428,
-          "games": 13667
+          "games": 1380
         }
       ]
     },
     {
-      "augmentId": 1337,
-      "winrate": 0.5428,
-      "pickrate": 0.0064,
+      "augmentId": 2132,
+      "tier": 1,
+      "pickrate": 0.1511,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5428,
-          "games": 2813
-        }
-      ]
-    },
-    {
-      "augmentId": 1238,
-      "winrate": 0.5426,
-      "pickrate": 0.1153,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5426,
-          "games": 50796
-        }
-      ]
-    },
-    {
-      "augmentId": 1996,
-      "winrate": 0.5426,
-      "pickrate": 0.0841,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5426,
-          "games": 37070
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "winrate": 0.5415,
-      "pickrate": 0.0115,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5415,
-          "games": 5075
-        }
-      ]
-    },
-    {
-      "augmentId": 1310,
-      "winrate": 0.5399,
-      "pickrate": 0.0542,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5399,
-          "games": 23884
-        }
-      ]
-    },
-    {
-      "augmentId": 1180,
-      "winrate": 0.5397,
-      "pickrate": 0.0207,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5397,
-          "games": 9097
-        }
-      ]
-    },
-    {
-      "augmentId": 1373,
-      "winrate": 0.5395,
-      "pickrate": 0.0728,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5395,
-          "games": 32085
-        }
-      ]
-    },
-    {
-      "augmentId": 1105,
-      "winrate": 0.538,
-      "pickrate": 0.0097,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.538,
-          "games": 4258
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "winrate": 0.5376,
-      "pickrate": 0.0271,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5376,
-          "games": 11957
-        }
-      ]
-    },
-    {
-      "augmentId": 1138,
-      "winrate": 0.537,
-      "pickrate": 0.0522,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.537,
-          "games": 22976
-        }
-      ]
-    },
-    {
-      "augmentId": 1348,
-      "winrate": 0.5367,
-      "pickrate": 0.0006,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5367,
-          "games": 259
-        }
-      ]
-    },
-    {
-      "augmentId": 1068,
-      "winrate": 0.5366,
-      "pickrate": 0.0995,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5366,
-          "games": 43841
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "winrate": 0.5366,
-      "pickrate": 0.0057,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5366,
-          "games": 2527
-        }
-      ]
-    },
-    {
-      "augmentId": 1097,
-      "winrate": 0.5364,
-      "pickrate": 0.0534,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5364,
-          "games": 23512
+          "games": 66543
         }
       ]
     },
     {
       "augmentId": 1004,
-      "winrate": 0.5363,
+      "tier": 2,
       "pickrate": 0.0107,
       "contributions": [
         {
@@ -604,104 +241,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5363,
           "games": 4706
         }
       ]
     },
     {
-      "augmentId": 1098,
-      "winrate": 0.5361,
-      "pickrate": 0.02,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5361,
-          "games": 8830
-        }
-      ]
-    },
-    {
-      "augmentId": 1205,
-      "winrate": 0.5332,
-      "pickrate": 0.0943,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5332,
-          "games": 41549
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "winrate": 0.5329,
-      "pickrate": 0.0526,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5329,
-          "games": 23183
-        }
-      ]
-    },
-    {
-      "augmentId": 1335,
-      "winrate": 0.5324,
-      "pickrate": 0.0047,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5324,
-          "games": 2085
-        }
-      ]
-    },
-    {
-      "augmentId": 1243,
-      "winrate": 0.5322,
-      "pickrate": 0.0252,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5322,
-          "games": 11123
-        }
-      ]
-    },
-    {
-      "augmentId": 2083,
-      "winrate": 0.5319,
-      "pickrate": 0.1347,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5319,
-          "games": 59347
-        }
-      ]
-    },
-    {
       "augmentId": 1006,
-      "winrate": 0.5307,
+      "tier": 2,
       "pickrate": 0.0145,
       "contributions": [
         {
@@ -709,44 +255,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5307,
           "games": 6393
         }
       ]
     },
     {
-      "augmentId": 1415,
-      "winrate": 0.5293,
-      "pickrate": 0.021,
+      "augmentId": 1026,
+      "tier": 2,
+      "pickrate": 0.0196,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5293,
-          "games": 9247
-        }
-      ]
-    },
-    {
-      "augmentId": 1062,
-      "winrate": 0.5286,
-      "pickrate": 0.0048,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5286,
-          "games": 2134
+          "games": 8638
         }
       ]
     },
     {
       "augmentId": 1046,
-      "winrate": 0.5259,
+      "tier": 2,
       "pickrate": 0.0141,
       "contributions": [
         {
@@ -754,119 +283,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5259,
           "games": 6208
         }
       ]
     },
     {
-      "augmentId": 1063,
-      "winrate": 0.5258,
-      "pickrate": 0.0122,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5258,
-          "games": 5354
-        }
-      ]
-    },
-    {
-      "augmentId": 2100,
-      "winrate": 0.5245,
-      "pickrate": 0.0485,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5245,
-          "games": 21349
-        }
-      ]
-    },
-    {
-      "augmentId": 1103,
-      "winrate": 0.5236,
-      "pickrate": 0.0386,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5236,
-          "games": 17004
-        }
-      ]
-    },
-    {
-      "augmentId": 1305,
-      "winrate": 0.5236,
-      "pickrate": 0.0229,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5236,
-          "games": 10106
-        }
-      ]
-    },
-    {
-      "augmentId": 1116,
-      "winrate": 0.5232,
-      "pickrate": 0.0222,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5232,
-          "games": 9775
-        }
-      ]
-    },
-    {
-      "augmentId": 2009,
-      "winrate": 0.5219,
-      "pickrate": 0.0577,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5219,
-          "games": 25419
-        }
-      ]
-    },
-    {
-      "augmentId": 1322,
-      "winrate": 0.5207,
-      "pickrate": 0.0189,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5207,
-          "games": 8327
-        }
-      ]
-    },
-    {
       "augmentId": 1048,
-      "winrate": 0.5205,
+      "tier": 2,
       "pickrate": 0.0987,
       "contributions": [
         {
@@ -874,179 +297,237 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5205,
           "games": 43476
         }
       ]
     },
     {
-      "augmentId": 1056,
-      "winrate": 0.5191,
-      "pickrate": 0.0046,
+      "augmentId": 1060,
+      "tier": 2,
+      "pickrate": 0.0115,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5191,
-          "games": 2015
+          "games": 5075
         }
       ]
     },
     {
-      "augmentId": 1057,
-      "winrate": 0.5188,
-      "pickrate": 0.0014,
+      "augmentId": 1062,
+      "tier": 2,
+      "pickrate": 0.0048,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5188,
-          "games": 611
+          "games": 2134
         }
       ]
     },
     {
-      "augmentId": 1058,
-      "winrate": 0.5186,
-      "pickrate": 0.0226,
+      "augmentId": 1063,
+      "tier": 2,
+      "pickrate": 0.0122,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5186,
-          "games": 9962
+          "games": 5354
         }
       ]
     },
     {
-      "augmentId": 1318,
-      "winrate": 0.5175,
-      "pickrate": 0.0539,
+      "augmentId": 1068,
+      "tier": 2,
+      "pickrate": 0.0995,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5175,
-          "games": 23739
+          "games": 43841
         }
       ]
     },
     {
-      "augmentId": 1154,
-      "winrate": 0.5174,
-      "pickrate": 0.0117,
+      "augmentId": 1097,
+      "tier": 2,
+      "pickrate": 0.0534,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5174,
-          "games": 5145
+          "games": 23512
         }
       ]
     },
     {
-      "augmentId": 1402,
-      "winrate": 0.5168,
-      "pickrate": 0.0061,
+      "augmentId": 1098,
+      "tier": 2,
+      "pickrate": 0.02,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5168,
-          "games": 2684
+          "games": 8830
         }
       ]
     },
     {
-      "augmentId": 2089,
-      "winrate": 0.5165,
-      "pickrate": 0.0076,
+      "augmentId": 1103,
+      "tier": 2,
+      "pickrate": 0.0386,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5165,
-          "games": 3367
+          "games": 17004
         }
       ]
     },
     {
-      "augmentId": 1344,
-      "winrate": 0.5159,
-      "pickrate": 0.0102,
+      "augmentId": 1105,
+      "tier": 2,
+      "pickrate": 0.0097,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5159,
-          "games": 4505
+          "games": 4258
         }
       ]
     },
     {
-      "augmentId": 2127,
-      "winrate": 0.5153,
-      "pickrate": 0.0276,
+      "augmentId": 1116,
+      "tier": 2,
+      "pickrate": 0.0222,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5153,
-          "games": 12159
+          "games": 9775
         }
       ]
     },
     {
-      "augmentId": 1019,
-      "winrate": 0.5149,
-      "pickrate": 0.0658,
+      "augmentId": 1138,
+      "tier": 2,
+      "pickrate": 0.0522,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5149,
-          "games": 28992
+          "games": 22976
         }
       ]
     },
     {
-      "augmentId": 1041,
-      "winrate": 0.5099,
-      "pickrate": 0.0158,
+      "augmentId": 1180,
+      "tier": 2,
+      "pickrate": 0.0207,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5099,
-          "games": 6947
+          "games": 9097
         }
       ]
     },
     {
-      "augmentId": 1025,
-      "winrate": 0.5094,
+      "augmentId": 1195,
+      "tier": 2,
+      "pickrate": 0.0341,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15026
+        }
+      ]
+    },
+    {
+      "augmentId": 1205,
+      "tier": 2,
+      "pickrate": 0.0943,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 41549
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": 2,
+      "pickrate": 0.0526,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 23183
+        }
+      ]
+    },
+    {
+      "augmentId": 1238,
+      "tier": 2,
+      "pickrate": 0.1153,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 50796
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": 2,
+      "pickrate": 0.0252,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11123
+        }
+      ]
+    },
+    {
+      "augmentId": 1305,
+      "tier": 2,
       "pickrate": 0.0229,
       "contributions": [
         {
@@ -1054,509 +535,125 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5094,
-          "games": 10071
+          "games": 10106
         }
       ]
     },
     {
-      "augmentId": 1034,
-      "winrate": 0.5094,
-      "pickrate": 0.0166,
+      "augmentId": 1310,
+      "tier": 2,
+      "pickrate": 0.0542,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5094,
-          "games": 7332
+          "games": 23884
         }
       ]
     },
     {
-      "augmentId": 1084,
-      "winrate": 0.5092,
-      "pickrate": 0.0489,
+      "augmentId": 1315,
+      "tier": 2,
+      "pickrate": 0.031,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5092,
-          "games": 21527
+          "games": 13667
         }
       ]
     },
     {
-      "augmentId": 2018,
-      "winrate": 0.5083,
-      "pickrate": 0.0368,
+      "augmentId": 1322,
+      "tier": 2,
+      "pickrate": 0.0189,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5083,
-          "games": 16206
+          "games": 8327
         }
       ]
     },
     {
-      "augmentId": 1151,
-      "winrate": 0.5081,
-      "pickrate": 0.0379,
+      "augmentId": 1329,
+      "tier": 2,
+      "pickrate": 0.0271,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5081,
-          "games": 16701
+          "games": 11957
         }
       ]
     },
     {
-      "augmentId": 1311,
-      "winrate": 0.5072,
-      "pickrate": 0.0076,
+      "augmentId": 1332,
+      "tier": 2,
+      "pickrate": 0.0129,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5072,
-          "games": 3354
+          "games": 5696
         }
       ]
     },
     {
-      "augmentId": 1044,
-      "winrate": 0.5071,
-      "pickrate": 0.0072,
+      "augmentId": 1333,
+      "tier": 2,
+      "pickrate": 0.0535,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5071,
-          "games": 3171
+          "games": 23550
         }
       ]
     },
     {
-      "augmentId": 2034,
-      "winrate": 0.5066,
-      "pickrate": 0.0086,
+      "augmentId": 1335,
+      "tier": 2,
+      "pickrate": 0.0047,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5066,
-          "games": 3800
+          "games": 2085
         }
       ]
     },
     {
-      "augmentId": 2016,
-      "winrate": 0.5063,
-      "pickrate": 0.0111,
+      "augmentId": 1337,
+      "tier": 2,
+      "pickrate": 0.0064,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5063,
-          "games": 4875
+          "games": 2813
         }
       ]
     },
     {
-      "augmentId": 1027,
-      "winrate": 0.5032,
-      "pickrate": 0.0049,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5032,
-          "games": 2160
-        }
-      ]
-    },
-    {
-      "augmentId": 2026,
-      "winrate": 0.5021,
-      "pickrate": 0.0132,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5021,
-          "games": 5830
-        }
-      ]
-    },
-    {
-      "augmentId": 2099,
-      "winrate": 0.5021,
-      "pickrate": 0.0288,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5021,
-          "games": 12698
-        }
-      ]
-    },
-    {
-      "augmentId": 1326,
-      "winrate": 0.5002,
-      "pickrate": 0.0254,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5002,
-          "games": 11171
-        }
-      ]
-    },
-    {
-      "augmentId": 1001,
-      "winrate": 0.4987,
-      "pickrate": 0.0027,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4987,
-          "games": 1197
-        }
-      ]
-    },
-    {
-      "augmentId": 1358,
-      "winrate": 0.4985,
-      "pickrate": 0.0119,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4985,
-          "games": 5242
-        }
-      ]
-    },
-    {
-      "augmentId": 1347,
-      "winrate": 0.4981,
-      "pickrate": 0.0012,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4981,
-          "games": 538
-        }
-      ]
-    },
-    {
-      "augmentId": 1002,
-      "winrate": 0.4968,
-      "pickrate": 0.0101,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4968,
-          "games": 4442
-        }
-      ]
-    },
-    {
-      "augmentId": 1088,
-      "winrate": 0.4966,
-      "pickrate": 0.0158,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4966,
-          "games": 6970
-        }
-      ]
-    },
-    {
-      "augmentId": 2116,
-      "winrate": 0.4958,
-      "pickrate": 0.0364,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4958,
-          "games": 16041
-        }
-      ]
-    },
-    {
-      "augmentId": 1345,
-      "winrate": 0.495,
-      "pickrate": 0.0096,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.495,
-          "games": 4214
-        }
-      ]
-    },
-    {
-      "augmentId": 1028,
-      "winrate": 0.4925,
-      "pickrate": 0.0078,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4925,
-          "games": 3458
-        }
-      ]
-    },
-    {
-      "augmentId": 2088,
-      "winrate": 0.4884,
-      "pickrate": 0.0111,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4884,
-          "games": 4898
-        }
-      ]
-    },
-    {
-      "augmentId": 2107,
-      "winrate": 0.4884,
-      "pickrate": 0.0027,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4884,
-          "games": 1208
-        }
-      ]
-    },
-    {
-      "augmentId": 12317,
-      "winrate": 0.4878,
-      "pickrate": 0.0197,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4878,
-          "games": 8666
-        }
-      ]
-    },
-    {
-      "augmentId": 1150,
-      "winrate": 0.486,
-      "pickrate": 0.0075,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.486,
-          "games": 3317
-        }
-      ]
-    },
-    {
-      "augmentId": 2091,
-      "winrate": 0.4853,
-      "pickrate": 0.0112,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4853,
-          "games": 4935
-        }
-      ]
-    },
-    {
-      "augmentId": 2087,
-      "winrate": 0.485,
-      "pickrate": 0.0333,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.485,
-          "games": 14665
-        }
-      ]
-    },
-    {
-      "augmentId": 1349,
-      "winrate": 0.4821,
-      "pickrate": 0.0175,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4821,
-          "games": 7722
-        }
-      ]
-    },
-    {
-      "augmentId": 1187,
-      "winrate": 0.4818,
-      "pickrate": 0.0007,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4818,
-          "games": 330
-        }
-      ]
-    },
-    {
-      "augmentId": 2005,
-      "winrate": 0.4816,
-      "pickrate": 0.0095,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4816,
-          "games": 4192
-        }
-      ]
-    },
-    {
-      "augmentId": 2123,
-      "winrate": 0.4795,
-      "pickrate": 0.0193,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4795,
-          "games": 8524
-        }
-      ]
-    },
-    {
-      "augmentId": 1054,
-      "winrate": 0.4756,
-      "pickrate": 0.0066,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4756,
-          "games": 2887
-        }
-      ]
-    },
-    {
-      "augmentId": 1301,
-      "winrate": 0.4736,
-      "pickrate": 0.0065,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4736,
-          "games": 2884
-        }
-      ]
-    },
-    {
-      "augmentId": 2080,
-      "winrate": 0.4727,
-      "pickrate": 0.0112,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4727,
-          "games": 4912
-        }
-      ]
-    },
-    {
-      "augmentId": 2046,
-      "winrate": 0.4712,
+      "augmentId": 1348,
+      "tier": 2,
       "pickrate": 0.0006,
       "contributions": [
         {
@@ -1564,74 +661,307 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4712,
-          "games": 278
+          "games": 259
         }
       ]
     },
     {
-      "augmentId": 1392,
-      "winrate": 0.4701,
-      "pickrate": 0.0067,
+      "augmentId": 1373,
+      "tier": 2,
+      "pickrate": 0.0728,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4701,
-          "games": 2957
+          "games": 32085
         }
       ]
     },
     {
-      "augmentId": 2137,
-      "winrate": 0.4698,
-      "pickrate": 0.0018,
+      "augmentId": 1384,
+      "tier": 2,
+      "pickrate": 0.0293,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4698,
-          "games": 796
+          "games": 12916
         }
       ]
     },
     {
-      "augmentId": 1194,
-      "winrate": 0.4662,
-      "pickrate": 0.0013,
+      "augmentId": 1390,
+      "tier": 2,
+      "pickrate": 0.0746,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4662,
-          "games": 577
+          "games": 32846
         }
       ]
     },
     {
-      "augmentId": 1386,
-      "winrate": 0.4646,
-      "pickrate": 0.0012,
+      "augmentId": 1403,
+      "tier": 2,
+      "pickrate": 0.0185,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4646,
-          "games": 523
+          "games": 8156
         }
       ]
     },
     {
-      "augmentId": 2042,
-      "winrate": 0.4526,
+      "augmentId": 1404,
+      "tier": 2,
+      "pickrate": 0.0057,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2527
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": 2,
+      "pickrate": 0.021,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9247
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": 2,
+      "pickrate": 0.0841,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 37070
+        }
+      ]
+    },
+    {
+      "augmentId": 2009,
+      "tier": 2,
+      "pickrate": 0.0577,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 25419
+        }
+      ]
+    },
+    {
+      "augmentId": 2083,
+      "tier": 2,
+      "pickrate": 0.1347,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 59347
+        }
+      ]
+    },
+    {
+      "augmentId": 2098,
+      "tier": 2,
+      "pickrate": 0.0101,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4436
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": 2,
+      "pickrate": 0.0485,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 21349
+        }
+      ]
+    },
+    {
+      "augmentId": 1001,
+      "tier": 3,
+      "pickrate": 0.0027,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1197
+        }
+      ]
+    },
+    {
+      "augmentId": 1002,
+      "tier": 3,
+      "pickrate": 0.0101,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4442
+        }
+      ]
+    },
+    {
+      "augmentId": 1019,
+      "tier": 3,
+      "pickrate": 0.0658,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 28992
+        }
+      ]
+    },
+    {
+      "augmentId": 1025,
+      "tier": 3,
+      "pickrate": 0.0229,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10071
+        }
+      ]
+    },
+    {
+      "augmentId": 1027,
+      "tier": 3,
+      "pickrate": 0.0049,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2160
+        }
+      ]
+    },
+    {
+      "augmentId": 1028,
+      "tier": 3,
+      "pickrate": 0.0078,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3458
+        }
+      ]
+    },
+    {
+      "augmentId": 1034,
+      "tier": 3,
+      "pickrate": 0.0166,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7332
+        }
+      ]
+    },
+    {
+      "augmentId": 1041,
+      "tier": 3,
+      "pickrate": 0.0158,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6947
+        }
+      ]
+    },
+    {
+      "augmentId": 1044,
+      "tier": 3,
+      "pickrate": 0.0072,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3171
+        }
+      ]
+    },
+    {
+      "augmentId": 1056,
+      "tier": 3,
+      "pickrate": 0.0046,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2015
+        }
+      ]
+    },
+    {
+      "augmentId": 1057,
+      "tier": 3,
       "pickrate": 0.0014,
       "contributions": [
         {
@@ -1639,59 +969,573 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4526,
+          "games": 611
+        }
+      ]
+    },
+    {
+      "augmentId": 1058,
+      "tier": 3,
+      "pickrate": 0.0226,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9962
+        }
+      ]
+    },
+    {
+      "augmentId": 1084,
+      "tier": 3,
+      "pickrate": 0.0489,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 21527
+        }
+      ]
+    },
+    {
+      "augmentId": 1088,
+      "tier": 3,
+      "pickrate": 0.0158,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6970
+        }
+      ]
+    },
+    {
+      "augmentId": 1150,
+      "tier": 3,
+      "pickrate": 0.0075,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3317
+        }
+      ]
+    },
+    {
+      "augmentId": 1151,
+      "tier": 3,
+      "pickrate": 0.0379,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16701
+        }
+      ]
+    },
+    {
+      "augmentId": 1154,
+      "tier": 3,
+      "pickrate": 0.0117,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5145
+        }
+      ]
+    },
+    {
+      "augmentId": 1187,
+      "tier": 3,
+      "pickrate": 0.0007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 330
+        }
+      ]
+    },
+    {
+      "augmentId": 1311,
+      "tier": 3,
+      "pickrate": 0.0076,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3354
+        }
+      ]
+    },
+    {
+      "augmentId": 1318,
+      "tier": 3,
+      "pickrate": 0.0539,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 23739
+        }
+      ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": 3,
+      "pickrate": 0.0254,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11171
+        }
+      ]
+    },
+    {
+      "augmentId": 1344,
+      "tier": 3,
+      "pickrate": 0.0102,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4505
+        }
+      ]
+    },
+    {
+      "augmentId": 1345,
+      "tier": 3,
+      "pickrate": 0.0096,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4214
+        }
+      ]
+    },
+    {
+      "augmentId": 1347,
+      "tier": 3,
+      "pickrate": 0.0012,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 538
+        }
+      ]
+    },
+    {
+      "augmentId": 1349,
+      "tier": 3,
+      "pickrate": 0.0175,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7722
+        }
+      ]
+    },
+    {
+      "augmentId": 1358,
+      "tier": 3,
+      "pickrate": 0.0119,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5242
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": 3,
+      "pickrate": 0.0061,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2684
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": 3,
+      "pickrate": 0.0095,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4192
+        }
+      ]
+    },
+    {
+      "augmentId": 2016,
+      "tier": 3,
+      "pickrate": 0.0111,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4875
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": 3,
+      "pickrate": 0.0368,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16206
+        }
+      ]
+    },
+    {
+      "augmentId": 2026,
+      "tier": 3,
+      "pickrate": 0.0132,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5830
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": 3,
+      "pickrate": 0.0086,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3800
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": 3,
+      "pickrate": 0.0333,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14665
+        }
+      ]
+    },
+    {
+      "augmentId": 2088,
+      "tier": 3,
+      "pickrate": 0.0111,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4898
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": 3,
+      "pickrate": 0.0076,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3367
+        }
+      ]
+    },
+    {
+      "augmentId": 2091,
+      "tier": 3,
+      "pickrate": 0.0112,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4935
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": 3,
+      "pickrate": 0.0288,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12698
+        }
+      ]
+    },
+    {
+      "augmentId": 2107,
+      "tier": 3,
+      "pickrate": 0.0027,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1208
+        }
+      ]
+    },
+    {
+      "augmentId": 2116,
+      "tier": 3,
+      "pickrate": 0.0364,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16041
+        }
+      ]
+    },
+    {
+      "augmentId": 2127,
+      "tier": 3,
+      "pickrate": 0.0276,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12159
+        }
+      ]
+    },
+    {
+      "augmentId": 12317,
+      "tier": 3,
+      "pickrate": 0.0197,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8666
+        }
+      ]
+    },
+    {
+      "augmentId": 1054,
+      "tier": 4,
+      "pickrate": 0.0066,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2887
+        }
+      ]
+    },
+    {
+      "augmentId": 1194,
+      "tier": 4,
+      "pickrate": 0.0013,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 577
+        }
+      ]
+    },
+    {
+      "augmentId": 1301,
+      "tier": 4,
+      "pickrate": 0.0065,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2884
+        }
+      ]
+    },
+    {
+      "augmentId": 1386,
+      "tier": 4,
+      "pickrate": 0.0012,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 523
+        }
+      ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": 4,
+      "pickrate": 0.0067,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2957
+        }
+      ]
+    },
+    {
+      "augmentId": 2042,
+      "tier": 4,
+      "pickrate": 0.0014,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
           "games": 623
         }
       ]
     },
     {
-      "augmentId": 2134,
-      "winrate": 0.4493,
-      "pickrate": 0.001,
+      "augmentId": 2046,
+      "tier": 4,
+      "pickrate": 0.0006,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4493,
-          "games": 434
+          "games": 278
         }
       ]
     },
     {
-      "augmentId": 1421,
-      "winrate": 0.4462,
-      "pickrate": 0.0009,
+      "augmentId": 2080,
+      "tier": 4,
+      "pickrate": 0.0112,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4462,
-          "games": 381
+          "games": 4912
         }
       ]
     },
     {
-      "augmentId": 1211,
-      "winrate": 0.441,
-      "pickrate": 0.0056,
+      "augmentId": 2123,
+      "tier": 4,
+      "pickrate": 0.0193,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.441,
-          "games": 2465
+          "games": 8524
+        }
+      ]
+    },
+    {
+      "augmentId": 2137,
+      "tier": 4,
+      "pickrate": 0.0018,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 796
         }
       ]
     },
     {
       "augmentId": 1011,
-      "winrate": 0.4332,
+      "tier": 5,
       "pickrate": 0.0022,
       "contributions": [
         {
@@ -1699,29 +1543,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4332,
           "games": 958
         }
       ]
     },
     {
-      "augmentId": 2118,
-      "winrate": 0.4225,
-      "pickrate": 0.0077,
+      "augmentId": 1211,
+      "tier": 5,
+      "pickrate": 0.0056,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4225,
-          "games": 3392
+          "games": 2465
         }
       ]
     },
     {
-      "augmentId": 2063,
-      "winrate": 0.3986,
+      "augmentId": 1421,
+      "tier": 5,
       "pickrate": 0.0009,
       "contributions": [
         {
@@ -1729,11 +1571,51 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3986,
+          "games": 381
+        }
+      ]
+    },
+    {
+      "augmentId": 2063,
+      "tier": 5,
+      "pickrate": 0.0009,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
           "games": 414
         }
       ]
+    },
+    {
+      "augmentId": 2118,
+      "tier": 5,
+      "pickrate": 0.0077,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3392
+        }
+      ]
+    },
+    {
+      "augmentId": 2134,
+      "tier": 5,
+      "pickrate": 0.001,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ekko?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 434
+        }
+      ]
     }
-  ],
-  "method": "equal-source-mean"
+  ]
 }

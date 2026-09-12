@@ -1,62 +1,15 @@
 {
+  "version": 1,
+  "method": "warden-performance-tiers-v1",
   "championId": 67,
   "championKey": "Vayne",
   "set": "aram",
-  "source": "Mayhem source average",
-  "sourceUrl": "https://github.com/snacbot/warden-releases/blob/mayhem-data/README.md",
-  "winrateScope": "champion",
-  "pickrateScope": "champion",
   "patch": "16.18",
   "scrapedAt": "2026-09-12T02:34:26.350Z",
   "augments": [
     {
-      "augmentId": 2095,
-      "winrate": 0.5928,
-      "pickrate": 0.0398,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5928,
-          "games": 32331
-        }
-      ]
-    },
-    {
-      "augmentId": 1225,
-      "winrate": 0.5713,
-      "pickrate": 0.1568,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5713,
-          "games": 127317
-        }
-      ]
-    },
-    {
-      "augmentId": 1220,
-      "winrate": 0.5698,
-      "pickrate": 0.1547,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5698,
-          "games": 125583
-        }
-      ]
-    },
-    {
       "augmentId": 1073,
-      "winrate": 0.5546,
+      "tier": 1,
       "pickrate": 0.091,
       "contributions": [
         {
@@ -64,164 +17,55 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5546,
           "games": 73928
         }
       ]
     },
     {
-      "augmentId": 1053,
-      "winrate": 0.5451,
-      "pickrate": 0.0115,
+      "augmentId": 1220,
+      "tier": 1,
+      "pickrate": 0.1547,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5451,
-          "games": 9365
+          "games": 125583
         }
       ]
     },
     {
-      "augmentId": 1389,
-      "winrate": 0.5407,
-      "pickrate": 0.001,
+      "augmentId": 1225,
+      "tier": 1,
+      "pickrate": 0.1568,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5407,
-          "games": 799
+          "games": 127317
         }
       ]
     },
     {
-      "augmentId": 1403,
-      "winrate": 0.5383,
-      "pickrate": 0.0146,
+      "augmentId": 2095,
+      "tier": 1,
+      "pickrate": 0.0398,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5383,
-          "games": 11886
-        }
-      ]
-    },
-    {
-      "augmentId": 2111,
-      "winrate": 0.5383,
-      "pickrate": 0.1814,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5383,
-          "games": 147294
-        }
-      ]
-    },
-    {
-      "augmentId": 1344,
-      "winrate": 0.5366,
-      "pickrate": 0.0257,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5366,
-          "games": 20831
-        }
-      ]
-    },
-    {
-      "augmentId": 1996,
-      "winrate": 0.5338,
-      "pickrate": 0.0125,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5338,
-          "games": 10184
-        }
-      ]
-    },
-    {
-      "augmentId": 2119,
-      "winrate": 0.5335,
-      "pickrate": 0.0006,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5335,
-          "games": 493
-        }
-      ]
-    },
-    {
-      "augmentId": 1063,
-      "winrate": 0.532,
-      "pickrate": 0.0201,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.532,
-          "games": 16309
-        }
-      ]
-    },
-    {
-      "augmentId": 1195,
-      "winrate": 0.5319,
-      "pickrate": 0.053,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5319,
-          "games": 43026
-        }
-      ]
-    },
-    {
-      "augmentId": 1238,
-      "winrate": 0.5297,
-      "pickrate": 0.1049,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5297,
-          "games": 85176
+          "games": 32331
         }
       ]
     },
     {
       "augmentId": 1026,
-      "winrate": 0.5293,
+      "tier": 2,
       "pickrate": 0.0108,
       "contributions": [
         {
@@ -229,194 +73,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5293,
           "games": 8748
         }
       ]
     },
     {
-      "augmentId": 1077,
-      "winrate": 0.5287,
-      "pickrate": 0.1021,
+      "augmentId": 1053,
+      "tier": 2,
+      "pickrate": 0.0115,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5287,
-          "games": 82930
-        }
-      ]
-    },
-    {
-      "augmentId": 1080,
-      "winrate": 0.5281,
-      "pickrate": 0.0408,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5281,
-          "games": 33141
-        }
-      ]
-    },
-    {
-      "augmentId": 1134,
-      "winrate": 0.528,
-      "pickrate": 0.0325,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.528,
-          "games": 26381
-        }
-      ]
-    },
-    {
-      "augmentId": 1105,
-      "winrate": 0.5265,
-      "pickrate": 0.0166,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5265,
-          "games": 13459
-        }
-      ]
-    },
-    {
-      "augmentId": 1206,
-      "winrate": 0.5259,
-      "pickrate": 0.0219,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5259,
-          "games": 17786
-        }
-      ]
-    },
-    {
-      "augmentId": 2127,
-      "winrate": 0.5252,
-      "pickrate": 0.0172,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5252,
-          "games": 13960
-        }
-      ]
-    },
-    {
-      "augmentId": 1315,
-      "winrate": 0.5247,
-      "pickrate": 0.0206,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5247,
-          "games": 16754
-        }
-      ]
-    },
-    {
-      "augmentId": 2010,
-      "winrate": 0.5239,
-      "pickrate": 0.1165,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5239,
-          "games": 94599
-        }
-      ]
-    },
-    {
-      "augmentId": 2009,
-      "winrate": 0.5235,
-      "pickrate": 0.0438,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5235,
-          "games": 35591
-        }
-      ]
-    },
-    {
-      "augmentId": 1384,
-      "winrate": 0.5231,
-      "pickrate": 0.0263,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5231,
-          "games": 21352
-        }
-      ]
-    },
-    {
-      "augmentId": 1356,
-      "winrate": 0.5229,
-      "pickrate": 0.1781,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5229,
-          "games": 144629
-        }
-      ]
-    },
-    {
-      "augmentId": 2141,
-      "winrate": 0.5213,
-      "pickrate": 0.0159,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5213,
-          "games": 12916
+          "games": 9365
         }
       ]
     },
     {
       "augmentId": 1062,
-      "winrate": 0.521,
+      "tier": 2,
       "pickrate": 0.0054,
       "contributions": [
         {
@@ -424,14 +101,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.521,
           "games": 4384
         }
       ]
     },
     {
+      "augmentId": 1063,
+      "tier": 2,
+      "pickrate": 0.0201,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16309
+        }
+      ]
+    },
+    {
       "augmentId": 1071,
-      "winrate": 0.5209,
+      "tier": 2,
       "pickrate": 0.1514,
       "contributions": [
         {
@@ -439,1214 +129,167 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5209,
           "games": 122939
         }
       ]
     },
     {
-      "augmentId": 1051,
-      "winrate": 0.5189,
-      "pickrate": 0.0382,
+      "augmentId": 1077,
+      "tier": 2,
+      "pickrate": 0.1021,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5189,
-          "games": 31016
+          "games": 82930
         }
       ]
     },
     {
-      "augmentId": 2073,
-      "winrate": 0.5173,
-      "pickrate": 0.0423,
+      "augmentId": 1080,
+      "tier": 2,
+      "pickrate": 0.0408,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5173,
-          "games": 34355
+          "games": 33141
         }
       ]
     },
     {
-      "augmentId": 1007,
-      "winrate": 0.517,
-      "pickrate": 0.047,
+      "augmentId": 1105,
+      "tier": 2,
+      "pickrate": 0.0166,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.517,
-          "games": 38167
+          "games": 13459
         }
       ]
     },
     {
-      "augmentId": 1038,
-      "winrate": 0.5167,
-      "pickrate": 0.0142,
+      "augmentId": 1134,
+      "tier": 2,
+      "pickrate": 0.0325,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5167,
-          "games": 11560
+          "games": 26381
         }
       ]
     },
     {
-      "augmentId": 1022,
-      "winrate": 0.5155,
-      "pickrate": 0.1218,
+      "augmentId": 1195,
+      "tier": 2,
+      "pickrate": 0.053,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5155,
-          "games": 98933
+          "games": 43026
         }
       ]
     },
     {
-      "augmentId": 1047,
-      "winrate": 0.5154,
-      "pickrate": 0.058,
+      "augmentId": 1206,
+      "tier": 2,
+      "pickrate": 0.0219,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5154,
-          "games": 47081
+          "games": 17786
         }
       ]
     },
     {
-      "augmentId": 2116,
-      "winrate": 0.5145,
-      "pickrate": 0.0334,
+      "augmentId": 1238,
+      "tier": 2,
+      "pickrate": 0.1049,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5145,
-          "games": 27115
+          "games": 85176
         }
       ]
     },
     {
-      "augmentId": 1036,
-      "winrate": 0.5138,
-      "pickrate": 0.0283,
+      "augmentId": 1315,
+      "tier": 2,
+      "pickrate": 0.0206,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5138,
-          "games": 22961
+          "games": 16754
         }
       ]
     },
     {
-      "augmentId": 1328,
-      "winrate": 0.5133,
-      "pickrate": 0.1147,
+      "augmentId": 1344,
+      "tier": 2,
+      "pickrate": 0.0257,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5133,
-          "games": 93133
+          "games": 20831
         }
       ]
     },
     {
-      "augmentId": 1092,
-      "winrate": 0.5122,
-      "pickrate": 0.1201,
+      "augmentId": 1356,
+      "tier": 2,
+      "pickrate": 0.1781,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5122,
-          "games": 97524
+          "games": 144629
         }
       ]
     },
     {
-      "augmentId": 1081,
-      "winrate": 0.5116,
-      "pickrate": 0.044,
+      "augmentId": 1384,
+      "tier": 2,
+      "pickrate": 0.0263,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5116,
-          "games": 35767
+          "games": 21352
         }
       ]
     },
     {
-      "augmentId": 1154,
-      "winrate": 0.5088,
-      "pickrate": 0.0137,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5088,
-          "games": 11141
-        }
-      ]
-    },
-    {
-      "augmentId": 1305,
-      "winrate": 0.5088,
-      "pickrate": 0.0303,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5088,
-          "games": 24628
-        }
-      ]
-    },
-    {
-      "augmentId": 1243,
-      "winrate": 0.5086,
-      "pickrate": 0.0237,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5086,
-          "games": 19226
-        }
-      ]
-    },
-    {
-      "augmentId": 1402,
-      "winrate": 0.5085,
-      "pickrate": 0.0059,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5085,
-          "games": 4791
-        }
-      ]
-    },
-    {
-      "augmentId": 2096,
-      "winrate": 0.5084,
-      "pickrate": 0.1041,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5084,
-          "games": 84532
-        }
-      ]
-    },
-    {
-      "augmentId": 2125,
-      "winrate": 0.5082,
-      "pickrate": 0.0262,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5082,
-          "games": 21260
-        }
-      ]
-    },
-    {
-      "augmentId": 1322,
-      "winrate": 0.508,
-      "pickrate": 0.0583,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.508,
-          "games": 47342
-        }
-      ]
-    },
-    {
-      "augmentId": 1115,
-      "winrate": 0.5065,
-      "pickrate": 0.0672,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5065,
-          "games": 54528
-        }
-      ]
-    },
-    {
-      "augmentId": 1373,
-      "winrate": 0.5058,
-      "pickrate": 0.0402,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5058,
-          "games": 32682
-        }
-      ]
-    },
-    {
-      "augmentId": 1103,
-      "winrate": 0.5056,
-      "pickrate": 0.0307,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5056,
-          "games": 24905
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "winrate": 0.5053,
-      "pickrate": 0.004,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5053,
-          "games": 3224
-        }
-      ]
-    },
-    {
-      "augmentId": 1337,
-      "winrate": 0.5045,
-      "pickrate": 0.0039,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5045,
-          "games": 3146
-        }
-      ]
-    },
-    {
-      "augmentId": 2137,
-      "winrate": 0.5022,
-      "pickrate": 0.0028,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5022,
-          "games": 2292
-        }
-      ]
-    },
-    {
-      "augmentId": 2026,
-      "winrate": 0.502,
-      "pickrate": 0.0087,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.502,
-          "games": 7048
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "winrate": 0.5005,
-      "pickrate": 0.0381,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5005,
-          "games": 30948
-        }
-      ]
-    },
-    {
-      "augmentId": 2089,
-      "winrate": 0.4991,
-      "pickrate": 0.005,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4991,
-          "games": 4097
-        }
-      ]
-    },
-    {
-      "augmentId": 1347,
-      "winrate": 0.4989,
-      "pickrate": 0.0081,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4989,
-          "games": 6575
-        }
-      ]
-    },
-    {
-      "augmentId": 1087,
-      "winrate": 0.4973,
-      "pickrate": 0.0612,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4973,
-          "games": 49725
-        }
-      ]
-    },
-    {
-      "augmentId": 1061,
-      "winrate": 0.4971,
-      "pickrate": 0.0027,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4971,
-          "games": 2207
-        }
-      ]
-    },
-    {
-      "augmentId": 1170,
-      "winrate": 0.4945,
-      "pickrate": 0.0607,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4945,
-          "games": 49308
-        }
-      ]
-    },
-    {
-      "augmentId": 2083,
-      "winrate": 0.4944,
-      "pickrate": 0.0246,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4944,
-          "games": 19980
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "winrate": 0.4934,
-      "pickrate": 0.0041,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4934,
-          "games": 3350
-        }
-      ]
-    },
-    {
-      "augmentId": 1057,
-      "winrate": 0.4924,
-      "pickrate": 0.0011,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4924,
-          "games": 926
-        }
-      ]
-    },
-    {
-      "augmentId": 1336,
-      "winrate": 0.4919,
-      "pickrate": 0.1336,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4919,
-          "games": 108451
-        }
-      ]
-    },
-    {
-      "augmentId": 2016,
-      "winrate": 0.4913,
-      "pickrate": 0.0034,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4913,
-          "games": 2748
-        }
-      ]
-    },
-    {
-      "augmentId": 1320,
-      "winrate": 0.4903,
-      "pickrate": 0.042,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4903,
-          "games": 34116
-        }
-      ]
-    },
-    {
-      "augmentId": 1068,
-      "winrate": 0.488,
-      "pickrate": 0.0086,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.488,
-          "games": 7021
-        }
-      ]
-    },
-    {
-      "augmentId": 1326,
-      "winrate": 0.4868,
-      "pickrate": 0.0287,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4868,
-          "games": 23295
-        }
-      ]
-    },
-    {
-      "augmentId": 1079,
-      "winrate": 0.4863,
-      "pickrate": 0.0335,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4863,
-          "games": 27193
-        }
-      ]
-    },
-    {
-      "augmentId": 1074,
-      "winrate": 0.4845,
-      "pickrate": 0.027,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4845,
-          "games": 21938
-        }
-      ]
-    },
-    {
-      "augmentId": 1416,
-      "winrate": 0.4834,
-      "pickrate": 0.0058,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4834,
-          "games": 4671
-        }
-      ]
-    },
-    {
-      "augmentId": 12317,
-      "winrate": 0.4829,
-      "pickrate": 0.0215,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4829,
-          "games": 17433
-        }
-      ]
-    },
-    {
-      "augmentId": 2140,
-      "winrate": 0.4825,
-      "pickrate": 0.0078,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4825,
-          "games": 6299
-        }
-      ]
-    },
-    {
-      "augmentId": 1046,
-      "winrate": 0.4794,
-      "pickrate": 0.005,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4794,
-          "games": 4049
-        }
-      ]
-    },
-    {
-      "augmentId": 1112,
-      "winrate": 0.4792,
-      "pickrate": 0.0121,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4792,
-          "games": 9839
-        }
-      ]
-    },
-    {
-      "augmentId": 1058,
-      "winrate": 0.4785,
-      "pickrate": 0.0262,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4785,
-          "games": 21311
-        }
-      ]
-    },
-    {
-      "augmentId": 2024,
-      "winrate": 0.4781,
-      "pickrate": 0.0094,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4781,
-          "games": 7596
-        }
-      ]
-    },
-    {
-      "augmentId": 2107,
-      "winrate": 0.478,
-      "pickrate": 0.0026,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.478,
-          "games": 2094
-        }
-      ]
-    },
-    {
-      "augmentId": 1133,
-      "winrate": 0.4766,
-      "pickrate": 0.0054,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4766,
-          "games": 4425
-        }
-      ]
-    },
-    {
-      "augmentId": 2065,
-      "winrate": 0.4766,
-      "pickrate": 0.0107,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4766,
-          "games": 8691
-        }
-      ]
-    },
-    {
-      "augmentId": 2098,
-      "winrate": 0.4764,
-      "pickrate": 0.0057,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4764,
-          "games": 4603
-        }
-      ]
-    },
-    {
-      "augmentId": 1002,
-      "winrate": 0.4753,
-      "pickrate": 0.0034,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4753,
-          "games": 2754
-        }
-      ]
-    },
-    {
-      "augmentId": 1211,
-      "winrate": 0.4749,
-      "pickrate": 0.0037,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4749,
-          "games": 3013
-        }
-      ]
-    },
-    {
-      "augmentId": 1335,
-      "winrate": 0.4737,
-      "pickrate": 0.0029,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4737,
-          "games": 2375
-        }
-      ]
-    },
-    {
-      "augmentId": 1345,
-      "winrate": 0.4733,
-      "pickrate": 0.0061,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4733,
-          "games": 4950
-        }
-      ]
-    },
-    {
-      "augmentId": 2042,
-      "winrate": 0.4711,
-      "pickrate": 0.0006,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4711,
-          "games": 484
-        }
-      ]
-    },
-    {
-      "augmentId": 2078,
-      "winrate": 0.4705,
-      "pickrate": 0.0131,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4705,
-          "games": 10606
-        }
-      ]
-    },
-    {
-      "augmentId": 1308,
-      "winrate": 0.4703,
-      "pickrate": 0.0014,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4703,
-          "games": 1161
-        }
-      ]
-    },
-    {
-      "augmentId": 1048,
-      "winrate": 0.4656,
-      "pickrate": 0.0136,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4656,
-          "games": 11083
-        }
-      ]
-    },
-    {
-      "augmentId": 1151,
-      "winrate": 0.4655,
-      "pickrate": 0.0029,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4655,
-          "games": 2320
-        }
-      ]
-    },
-    {
-      "augmentId": 1019,
-      "winrate": 0.4602,
-      "pickrate": 0.0196,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4602,
-          "games": 15905
-        }
-      ]
-    },
-    {
-      "augmentId": 2046,
-      "winrate": 0.458,
-      "pickrate": 0.0005,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.458,
-          "games": 441
-        }
-      ]
-    },
-    {
-      "augmentId": 2135,
-      "winrate": 0.4575,
-      "pickrate": 0.0172,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4575,
-          "games": 14006
-        }
-      ]
-    },
-    {
-      "augmentId": 1011,
-      "winrate": 0.4557,
-      "pickrate": 0.0079,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4557,
-          "games": 6414
-        }
-      ]
-    },
-    {
-      "augmentId": 1349,
-      "winrate": 0.4555,
-      "pickrate": 0.0103,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4555,
-          "games": 8390
-        }
-      ]
-    },
-    {
-      "augmentId": 2099,
-      "winrate": 0.4502,
-      "pickrate": 0.004,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4502,
-          "games": 3252
-        }
-      ]
-    },
-    {
-      "augmentId": 2103,
-      "winrate": 0.4473,
-      "pickrate": 0.0007,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4473,
-          "games": 550
-        }
-      ]
-    },
-    {
-      "augmentId": 2034,
-      "winrate": 0.4463,
-      "pickrate": 0.0007,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4463,
-          "games": 540
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "winrate": 0.445,
-      "pickrate": 0.0035,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.445,
-          "games": 2854
-        }
-      ]
-    },
-    {
-      "augmentId": 1388,
-      "winrate": 0.4405,
-      "pickrate": 0.0042,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4405,
-          "games": 3444
-        }
-      ]
-    },
-    {
-      "augmentId": 1386,
-      "winrate": 0.4401,
-      "pickrate": 0.0014,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4401,
-          "games": 1136
-        }
-      ]
-    },
-    {
-      "augmentId": 2118,
-      "winrate": 0.4399,
-      "pickrate": 0.0043,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4399,
-          "games": 3512
-        }
-      ]
-    },
-    {
-      "augmentId": 1027,
-      "winrate": 0.4385,
-      "pickrate": 0.0012,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4385,
-          "games": 951
-        }
-      ]
-    },
-    {
-      "augmentId": 1088,
-      "winrate": 0.4384,
-      "pickrate": 0.0044,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4384,
-          "games": 3538
-        }
-      ]
-    },
-    {
-      "augmentId": 1358,
-      "winrate": 0.4369,
-      "pickrate": 0.0007,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4369,
-          "games": 563
-        }
-      ]
-    },
-    {
-      "augmentId": 2080,
-      "winrate": 0.4278,
-      "pickrate": 0.0007,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4278,
-          "games": 554
-        }
-      ]
-    },
-    {
-      "augmentId": 2134,
-      "winrate": 0.4254,
-      "pickrate": 0.0008,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4254,
-          "games": 637
-        }
-      ]
-    },
-    {
-      "augmentId": 1392,
-      "winrate": 0.4234,
-      "pickrate": 0.0013,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4234,
-          "games": 1051
-        }
-      ]
-    },
-    {
-      "augmentId": 2088,
-      "winrate": 0.4201,
-      "pickrate": 0.0003,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4201,
-          "games": 269
-        }
-      ]
-    },
-    {
-      "augmentId": 2005,
-      "winrate": 0.4195,
+      "augmentId": 1389,
+      "tier": 2,
       "pickrate": 0.001,
       "contributions": [
         {
@@ -1654,14 +297,209 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4195,
-          "games": 839
+          "games": 799
         }
       ]
     },
     {
-      "augmentId": 2087,
-      "winrate": 0.4112,
+      "augmentId": 1403,
+      "tier": 2,
+      "pickrate": 0.0146,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11886
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": 2,
+      "pickrate": 0.0125,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10184
+        }
+      ]
+    },
+    {
+      "augmentId": 2009,
+      "tier": 2,
+      "pickrate": 0.0438,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 35591
+        }
+      ]
+    },
+    {
+      "augmentId": 2010,
+      "tier": 2,
+      "pickrate": 0.1165,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 94599
+        }
+      ]
+    },
+    {
+      "augmentId": 2111,
+      "tier": 2,
+      "pickrate": 0.1814,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 147294
+        }
+      ]
+    },
+    {
+      "augmentId": 2119,
+      "tier": 2,
+      "pickrate": 0.0006,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 493
+        }
+      ]
+    },
+    {
+      "augmentId": 2127,
+      "tier": 2,
+      "pickrate": 0.0172,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13960
+        }
+      ]
+    },
+    {
+      "augmentId": 2141,
+      "tier": 2,
+      "pickrate": 0.0159,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12916
+        }
+      ]
+    },
+    {
+      "augmentId": 1007,
+      "tier": 3,
+      "pickrate": 0.047,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 38167
+        }
+      ]
+    },
+    {
+      "augmentId": 1022,
+      "tier": 3,
+      "pickrate": 0.1218,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 98933
+        }
+      ]
+    },
+    {
+      "augmentId": 1036,
+      "tier": 3,
+      "pickrate": 0.0283,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 22961
+        }
+      ]
+    },
+    {
+      "augmentId": 1038,
+      "tier": 3,
+      "pickrate": 0.0142,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11560
+        }
+      ]
+    },
+    {
+      "augmentId": 1047,
+      "tier": 3,
+      "pickrate": 0.058,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 47081
+        }
+      ]
+    },
+    {
+      "augmentId": 1051,
+      "tier": 3,
+      "pickrate": 0.0382,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 31016
+        }
+      ]
+    },
+    {
+      "augmentId": 1057,
+      "tier": 3,
       "pickrate": 0.0011,
       "contributions": [
         {
@@ -1669,29 +507,881 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4112,
-          "games": 856
+          "games": 926
         }
       ]
     },
     {
-      "augmentId": 2063,
-      "winrate": 0.4069,
-      "pickrate": 0.0004,
+      "augmentId": 1060,
+      "tier": 3,
+      "pickrate": 0.0041,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4069,
-          "games": 317
+          "games": 3350
+        }
+      ]
+    },
+    {
+      "augmentId": 1061,
+      "tier": 3,
+      "pickrate": 0.0027,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2207
+        }
+      ]
+    },
+    {
+      "augmentId": 1068,
+      "tier": 3,
+      "pickrate": 0.0086,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7021
+        }
+      ]
+    },
+    {
+      "augmentId": 1074,
+      "tier": 3,
+      "pickrate": 0.027,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 21938
+        }
+      ]
+    },
+    {
+      "augmentId": 1079,
+      "tier": 3,
+      "pickrate": 0.0335,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 27193
+        }
+      ]
+    },
+    {
+      "augmentId": 1081,
+      "tier": 3,
+      "pickrate": 0.044,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 35767
+        }
+      ]
+    },
+    {
+      "augmentId": 1087,
+      "tier": 3,
+      "pickrate": 0.0612,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 49725
+        }
+      ]
+    },
+    {
+      "augmentId": 1092,
+      "tier": 3,
+      "pickrate": 0.1201,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 97524
+        }
+      ]
+    },
+    {
+      "augmentId": 1103,
+      "tier": 3,
+      "pickrate": 0.0307,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 24905
+        }
+      ]
+    },
+    {
+      "augmentId": 1115,
+      "tier": 3,
+      "pickrate": 0.0672,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 54528
+        }
+      ]
+    },
+    {
+      "augmentId": 1154,
+      "tier": 3,
+      "pickrate": 0.0137,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11141
+        }
+      ]
+    },
+    {
+      "augmentId": 1170,
+      "tier": 3,
+      "pickrate": 0.0607,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 49308
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": 3,
+      "pickrate": 0.0381,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 30948
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": 3,
+      "pickrate": 0.0237,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 19226
+        }
+      ]
+    },
+    {
+      "augmentId": 1305,
+      "tier": 3,
+      "pickrate": 0.0303,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 24628
+        }
+      ]
+    },
+    {
+      "augmentId": 1320,
+      "tier": 3,
+      "pickrate": 0.042,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 34116
+        }
+      ]
+    },
+    {
+      "augmentId": 1322,
+      "tier": 3,
+      "pickrate": 0.0583,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 47342
+        }
+      ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": 3,
+      "pickrate": 0.0287,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 23295
+        }
+      ]
+    },
+    {
+      "augmentId": 1328,
+      "tier": 3,
+      "pickrate": 0.1147,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 93133
+        }
+      ]
+    },
+    {
+      "augmentId": 1336,
+      "tier": 3,
+      "pickrate": 0.1336,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 108451
+        }
+      ]
+    },
+    {
+      "augmentId": 1337,
+      "tier": 3,
+      "pickrate": 0.0039,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3146
+        }
+      ]
+    },
+    {
+      "augmentId": 1347,
+      "tier": 3,
+      "pickrate": 0.0081,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6575
+        }
+      ]
+    },
+    {
+      "augmentId": 1373,
+      "tier": 3,
+      "pickrate": 0.0402,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 32682
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": 3,
+      "pickrate": 0.0059,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4791
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": 3,
+      "pickrate": 0.004,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3224
+        }
+      ]
+    },
+    {
+      "augmentId": 1416,
+      "tier": 3,
+      "pickrate": 0.0058,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4671
+        }
+      ]
+    },
+    {
+      "augmentId": 2016,
+      "tier": 3,
+      "pickrate": 0.0034,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2748
+        }
+      ]
+    },
+    {
+      "augmentId": 2026,
+      "tier": 3,
+      "pickrate": 0.0087,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7048
+        }
+      ]
+    },
+    {
+      "augmentId": 2073,
+      "tier": 3,
+      "pickrate": 0.0423,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 34355
+        }
+      ]
+    },
+    {
+      "augmentId": 2083,
+      "tier": 3,
+      "pickrate": 0.0246,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 19980
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": 3,
+      "pickrate": 0.005,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4097
+        }
+      ]
+    },
+    {
+      "augmentId": 2096,
+      "tier": 3,
+      "pickrate": 0.1041,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 84532
+        }
+      ]
+    },
+    {
+      "augmentId": 2116,
+      "tier": 3,
+      "pickrate": 0.0334,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 27115
+        }
+      ]
+    },
+    {
+      "augmentId": 2125,
+      "tier": 3,
+      "pickrate": 0.0262,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 21260
+        }
+      ]
+    },
+    {
+      "augmentId": 2137,
+      "tier": 3,
+      "pickrate": 0.0028,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2292
+        }
+      ]
+    },
+    {
+      "augmentId": 2140,
+      "tier": 3,
+      "pickrate": 0.0078,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6299
+        }
+      ]
+    },
+    {
+      "augmentId": 12317,
+      "tier": 3,
+      "pickrate": 0.0215,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17433
+        }
+      ]
+    },
+    {
+      "augmentId": 1002,
+      "tier": 4,
+      "pickrate": 0.0034,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2754
+        }
+      ]
+    },
+    {
+      "augmentId": 1011,
+      "tier": 4,
+      "pickrate": 0.0079,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6414
+        }
+      ]
+    },
+    {
+      "augmentId": 1019,
+      "tier": 4,
+      "pickrate": 0.0196,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15905
+        }
+      ]
+    },
+    {
+      "augmentId": 1046,
+      "tier": 4,
+      "pickrate": 0.005,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4049
+        }
+      ]
+    },
+    {
+      "augmentId": 1048,
+      "tier": 4,
+      "pickrate": 0.0136,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11083
+        }
+      ]
+    },
+    {
+      "augmentId": 1058,
+      "tier": 4,
+      "pickrate": 0.0262,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 21311
+        }
+      ]
+    },
+    {
+      "augmentId": 1112,
+      "tier": 4,
+      "pickrate": 0.0121,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9839
+        }
+      ]
+    },
+    {
+      "augmentId": 1133,
+      "tier": 4,
+      "pickrate": 0.0054,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4425
+        }
+      ]
+    },
+    {
+      "augmentId": 1151,
+      "tier": 4,
+      "pickrate": 0.0029,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2320
+        }
+      ]
+    },
+    {
+      "augmentId": 1211,
+      "tier": 4,
+      "pickrate": 0.0037,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3013
+        }
+      ]
+    },
+    {
+      "augmentId": 1308,
+      "tier": 4,
+      "pickrate": 0.0014,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1161
+        }
+      ]
+    },
+    {
+      "augmentId": 1335,
+      "tier": 4,
+      "pickrate": 0.0029,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2375
+        }
+      ]
+    },
+    {
+      "augmentId": 1345,
+      "tier": 4,
+      "pickrate": 0.0061,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4950
+        }
+      ]
+    },
+    {
+      "augmentId": 1349,
+      "tier": 4,
+      "pickrate": 0.0103,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8390
+        }
+      ]
+    },
+    {
+      "augmentId": 2024,
+      "tier": 4,
+      "pickrate": 0.0094,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7596
+        }
+      ]
+    },
+    {
+      "augmentId": 2042,
+      "tier": 4,
+      "pickrate": 0.0006,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 484
+        }
+      ]
+    },
+    {
+      "augmentId": 2046,
+      "tier": 4,
+      "pickrate": 0.0005,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 441
+        }
+      ]
+    },
+    {
+      "augmentId": 2065,
+      "tier": 4,
+      "pickrate": 0.0107,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8691
+        }
+      ]
+    },
+    {
+      "augmentId": 2078,
+      "tier": 4,
+      "pickrate": 0.0131,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10606
+        }
+      ]
+    },
+    {
+      "augmentId": 2098,
+      "tier": 4,
+      "pickrate": 0.0057,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4603
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": 4,
+      "pickrate": 0.004,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3252
+        }
+      ]
+    },
+    {
+      "augmentId": 2107,
+      "tier": 4,
+      "pickrate": 0.0026,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2094
+        }
+      ]
+    },
+    {
+      "augmentId": 2135,
+      "tier": 4,
+      "pickrate": 0.0172,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14006
+        }
+      ]
+    },
+    {
+      "augmentId": 1027,
+      "tier": 5,
+      "pickrate": 0.0012,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 951
+        }
+      ]
+    },
+    {
+      "augmentId": 1088,
+      "tier": 5,
+      "pickrate": 0.0044,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3538
         }
       ]
     },
     {
       "augmentId": 1325,
-      "winrate": 0.405,
+      "tier": 5,
       "pickrate": 0.0022,
       "contributions": [
         {
@@ -1699,11 +1389,205 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.405,
           "games": 1810
         }
       ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": 5,
+      "pickrate": 0.0035,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2854
+        }
+      ]
+    },
+    {
+      "augmentId": 1358,
+      "tier": 5,
+      "pickrate": 0.0007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 563
+        }
+      ]
+    },
+    {
+      "augmentId": 1386,
+      "tier": 5,
+      "pickrate": 0.0014,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1136
+        }
+      ]
+    },
+    {
+      "augmentId": 1388,
+      "tier": 5,
+      "pickrate": 0.0042,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3444
+        }
+      ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": 5,
+      "pickrate": 0.0013,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1051
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": 5,
+      "pickrate": 0.001,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 839
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": 5,
+      "pickrate": 0.0007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 540
+        }
+      ]
+    },
+    {
+      "augmentId": 2063,
+      "tier": 5,
+      "pickrate": 0.0004,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 317
+        }
+      ]
+    },
+    {
+      "augmentId": 2080,
+      "tier": 5,
+      "pickrate": 0.0007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 554
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": 5,
+      "pickrate": 0.0011,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 856
+        }
+      ]
+    },
+    {
+      "augmentId": 2088,
+      "tier": 5,
+      "pickrate": 0.0003,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 269
+        }
+      ]
+    },
+    {
+      "augmentId": 2103,
+      "tier": 5,
+      "pickrate": 0.0007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 550
+        }
+      ]
+    },
+    {
+      "augmentId": 2118,
+      "tier": 5,
+      "pickrate": 0.0043,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3512
+        }
+      ]
+    },
+    {
+      "augmentId": 2134,
+      "tier": 5,
+      "pickrate": 0.0008,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vayne?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 637
+        }
+      ]
     }
-  ],
-  "method": "equal-source-mean"
+  ]
 }

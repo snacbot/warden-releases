@@ -1,32 +1,15 @@
 {
+  "version": 1,
+  "method": "warden-performance-tiers-v1",
   "championId": 142,
   "championKey": "Zoe",
   "set": "aram",
-  "source": "Mayhem source average",
-  "sourceUrl": "https://github.com/snacbot/warden-releases/blob/mayhem-data/README.md",
-  "winrateScope": "champion",
-  "pickrateScope": "champion",
   "patch": "16.18",
   "scrapedAt": "2026-09-12T02:34:26.350Z",
   "augments": [
     {
-      "augmentId": 1329,
-      "winrate": 0.5164,
-      "pickrate": 0.0919,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5164,
-          "games": 15636
-        }
-      ]
-    },
-    {
       "augmentId": 1004,
-      "winrate": 0.5014,
+      "tier": 3,
       "pickrate": 0.0086,
       "contributions": [
         {
@@ -34,119 +17,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5014,
           "games": 1466
         }
       ]
     },
     {
-      "augmentId": 2095,
-      "winrate": 0.5011,
-      "pickrate": 0.0245,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5011,
-          "games": 4165
-        }
-      ]
-    },
-    {
-      "augmentId": 1062,
-      "winrate": 0.5007,
-      "pickrate": 0.012,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5007,
-          "games": 2039
-        }
-      ]
-    },
-    {
-      "augmentId": 1061,
-      "winrate": 0.4997,
-      "pickrate": 0.0093,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4997,
-          "games": 1579
-        }
-      ]
-    },
-    {
-      "augmentId": 1333,
-      "winrate": 0.4975,
-      "pickrate": 0.0407,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4975,
-          "games": 6928
-        }
-      ]
-    },
-    {
-      "augmentId": 1389,
-      "winrate": 0.4957,
-      "pickrate": 0.0055,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4957,
-          "games": 930
-        }
-      ]
-    },
-    {
-      "augmentId": 1337,
-      "winrate": 0.4951,
-      "pickrate": 0.006,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4951,
-          "games": 1014
-        }
-      ]
-    },
-    {
-      "augmentId": 1180,
-      "winrate": 0.4932,
-      "pickrate": 0.0274,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4932,
-          "games": 4665
-        }
-      ]
-    },
-    {
       "augmentId": 1038,
-      "winrate": 0.4909,
+      "tier": 3,
       "pickrate": 0.0708,
       "contributions": [
         {
@@ -154,14 +31,41 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4909,
           "games": 12050
         }
       ]
     },
     {
+      "augmentId": 1061,
+      "tier": 3,
+      "pickrate": 0.0093,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1579
+        }
+      ]
+    },
+    {
+      "augmentId": 1062,
+      "tier": 3,
+      "pickrate": 0.012,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2039
+        }
+      ]
+    },
+    {
       "augmentId": 1105,
-      "winrate": 0.4896,
+      "tier": 3,
       "pickrate": 0.0537,
       "contributions": [
         {
@@ -169,119 +73,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4896,
           "games": 9142
         }
       ]
     },
     {
-      "augmentId": 1358,
-      "winrate": 0.4894,
-      "pickrate": 0.0625,
+      "augmentId": 1180,
+      "tier": 3,
+      "pickrate": 0.0274,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4894,
-          "games": 10633
-        }
-      ]
-    },
-    {
-      "augmentId": 2088,
-      "winrate": 0.4878,
-      "pickrate": 0.0511,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4878,
-          "games": 8688
-        }
-      ]
-    },
-    {
-      "augmentId": 2034,
-      "winrate": 0.4863,
-      "pickrate": 0.0367,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4863,
-          "games": 6249
-        }
-      ]
-    },
-    {
-      "augmentId": 2042,
-      "winrate": 0.4852,
-      "pickrate": 0.0016,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4852,
-          "games": 270
-        }
-      ]
-    },
-    {
-      "augmentId": 1335,
-      "winrate": 0.4851,
-      "pickrate": 0.0085,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4851,
-          "games": 1439
-        }
-      ]
-    },
-    {
-      "augmentId": 1344,
-      "winrate": 0.4851,
-      "pickrate": 0.0281,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4851,
-          "games": 4776
-        }
-      ]
-    },
-    {
-      "augmentId": 1308,
-      "winrate": 0.4846,
-      "pickrate": 0.0221,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4846,
-          "games": 3764
+          "games": 4665
         }
       ]
     },
     {
       "augmentId": 1195,
-      "winrate": 0.4844,
+      "tier": 3,
       "pickrate": 0.0316,
       "contributions": [
         {
@@ -289,1229 +101,139 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4844,
           "games": 5374
         }
       ]
     },
     {
-      "augmentId": 2132,
-      "winrate": 0.4793,
-      "pickrate": 0.0873,
+      "augmentId": 1308,
+      "tier": 3,
+      "pickrate": 0.0221,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4793,
-          "games": 14854
+          "games": 3764
         }
       ]
     },
     {
-      "augmentId": 1116,
-      "winrate": 0.4784,
-      "pickrate": 0.0294,
+      "augmentId": 1329,
+      "tier": 3,
+      "pickrate": 0.0919,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4784,
-          "games": 5004
+          "games": 15636
         }
       ]
     },
     {
-      "augmentId": 1156,
-      "winrate": 0.4783,
-      "pickrate": 0.0594,
+      "augmentId": 1333,
+      "tier": 3,
+      "pickrate": 0.0407,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4783,
-          "games": 10107
+          "games": 6928
         }
       ]
     },
     {
-      "augmentId": 1034,
-      "winrate": 0.4756,
-      "pickrate": 0.0412,
+      "augmentId": 1335,
+      "tier": 3,
+      "pickrate": 0.0085,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4756,
-          "games": 7019
+          "games": 1439
         }
       ]
     },
     {
-      "augmentId": 1060,
-      "winrate": 0.4748,
-      "pickrate": 0.0185,
+      "augmentId": 1337,
+      "tier": 3,
+      "pickrate": 0.006,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4748,
-          "games": 3140
+          "games": 1014
         }
       ]
     },
     {
-      "augmentId": 1053,
-      "winrate": 0.4745,
-      "pickrate": 0.028,
+      "augmentId": 1344,
+      "tier": 3,
+      "pickrate": 0.0281,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4745,
-          "games": 4761
+          "games": 4776
         }
       ]
     },
     {
-      "augmentId": 2127,
-      "winrate": 0.4745,
-      "pickrate": 0.0318,
+      "augmentId": 1358,
+      "tier": 3,
+      "pickrate": 0.0625,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4745,
-          "games": 5406
+          "games": 10633
         }
       ]
     },
     {
-      "augmentId": 1238,
-      "winrate": 0.4714,
-      "pickrate": 0.1033,
+      "augmentId": 1389,
+      "tier": 3,
+      "pickrate": 0.0055,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4714,
-          "games": 17574
+          "games": 930
         }
       ]
     },
     {
-      "augmentId": 1384,
-      "winrate": 0.4714,
-      "pickrate": 0.0299,
+      "augmentId": 2034,
+      "tier": 3,
+      "pickrate": 0.0367,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4714,
-          "games": 5091
+          "games": 6249
         }
       ]
     },
     {
-      "augmentId": 1373,
-      "winrate": 0.4712,
-      "pickrate": 0.092,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4712,
-          "games": 15663
-        }
-      ]
-    },
-    {
-      "augmentId": 1211,
-      "winrate": 0.4685,
-      "pickrate": 0.073,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4685,
-          "games": 12428
-        }
-      ]
-    },
-    {
-      "augmentId": 1996,
-      "winrate": 0.468,
-      "pickrate": 0.0235,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.468,
-          "games": 4000
-        }
-      ]
-    },
-    {
-      "augmentId": 1332,
-      "winrate": 0.4679,
-      "pickrate": 0.0134,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4679,
-          "games": 2272
-        }
-      ]
-    },
-    {
-      "augmentId": 2116,
-      "winrate": 0.4679,
-      "pickrate": 0.0867,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4679,
-          "games": 14752
-        }
-      ]
-    },
-    {
-      "augmentId": 1388,
-      "winrate": 0.4678,
-      "pickrate": 0.051,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4678,
-          "games": 8675
-        }
-      ]
-    },
-    {
-      "augmentId": 1315,
-      "winrate": 0.4672,
-      "pickrate": 0.0198,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4672,
-          "games": 3369
-        }
-      ]
-    },
-    {
-      "augmentId": 2080,
-      "winrate": 0.4668,
-      "pickrate": 0.0351,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4668,
-          "games": 5973
-        }
-      ]
-    },
-    {
-      "augmentId": 1129,
-      "winrate": 0.4651,
-      "pickrate": 0.0592,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4651,
-          "games": 10074
-        }
-      ]
-    },
-    {
-      "augmentId": 1068,
-      "winrate": 0.464,
-      "pickrate": 0.0989,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.464,
-          "games": 16832
-        }
-      ]
-    },
-    {
-      "augmentId": 1011,
-      "winrate": 0.4638,
-      "pickrate": 0.0492,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4638,
-          "games": 8377
-        }
-      ]
-    },
-    {
-      "augmentId": 1318,
-      "winrate": 0.4636,
-      "pickrate": 0.0518,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4636,
-          "games": 8809
-        }
-      ]
-    },
-    {
-      "augmentId": 1243,
-      "winrate": 0.463,
-      "pickrate": 0.0329,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.463,
-          "games": 5600
-        }
-      ]
-    },
-    {
-      "augmentId": 1098,
-      "winrate": 0.4616,
-      "pickrate": 0.0228,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4616,
-          "games": 3884
-        }
-      ]
-    },
-    {
-      "augmentId": 1416,
-      "winrate": 0.4616,
-      "pickrate": 0.0384,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4616,
-          "games": 6540
-        }
-      ]
-    },
-    {
-      "augmentId": 1322,
-      "winrate": 0.4608,
-      "pickrate": 0.0052,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4608,
-          "games": 881
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "winrate": 0.4604,
-      "pickrate": 0.0576,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4604,
-          "games": 9798
-        }
-      ]
-    },
-    {
-      "augmentId": 2083,
-      "winrate": 0.4601,
-      "pickrate": 0.0954,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4601,
-          "games": 16231
-        }
-      ]
-    },
-    {
-      "augmentId": 2137,
-      "winrate": 0.4566,
-      "pickrate": 0.0023,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4566,
-          "games": 392
-        }
-      ]
-    },
-    {
-      "augmentId": 1018,
-      "winrate": 0.4565,
-      "pickrate": 0.003,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4565,
-          "games": 506
-        }
-      ]
-    },
-    {
-      "augmentId": 1030,
-      "winrate": 0.4553,
-      "pickrate": 0.1065,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4553,
-          "games": 18129
-        }
-      ]
-    },
-    {
-      "augmentId": 1057,
-      "winrate": 0.4543,
-      "pickrate": 0.0024,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4543,
-          "games": 405
-        }
-      ]
-    },
-    {
-      "augmentId": 2077,
-      "winrate": 0.4526,
-      "pickrate": 0.0392,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4526,
-          "games": 6672
-        }
-      ]
-    },
-    {
-      "augmentId": 2089,
-      "winrate": 0.4521,
-      "pickrate": 0.0103,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4521,
-          "games": 1745
-        }
-      ]
-    },
-    {
-      "augmentId": 1046,
-      "winrate": 0.4516,
-      "pickrate": 0.0301,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4516,
-          "games": 5128
-        }
-      ]
-    },
-    {
-      "augmentId": 1310,
-      "winrate": 0.451,
-      "pickrate": 0.0131,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.451,
-          "games": 2235
-        }
-      ]
-    },
-    {
-      "augmentId": 1323,
-      "winrate": 0.4505,
-      "pickrate": 0.0135,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4505,
-          "games": 2293
-        }
-      ]
-    },
-    {
-      "augmentId": 1154,
-      "winrate": 0.4501,
-      "pickrate": 0.0137,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4501,
-          "games": 2333
-        }
-      ]
-    },
-    {
-      "augmentId": 1136,
-      "winrate": 0.4499,
-      "pickrate": 0.0178,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4499,
-          "games": 3023
-        }
-      ]
-    },
-    {
-      "augmentId": 1392,
-      "winrate": 0.4483,
-      "pickrate": 0.0231,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4483,
-          "games": 3924
-        }
-      ]
-    },
-    {
-      "augmentId": 1415,
-      "winrate": 0.4483,
-      "pickrate": 0.0447,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4483,
-          "games": 7615
-        }
-      ]
-    },
-    {
-      "augmentId": 1073,
-      "winrate": 0.4481,
-      "pickrate": 0.0309,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4481,
-          "games": 5253
-        }
-      ]
-    },
-    {
-      "augmentId": 1133,
-      "winrate": 0.4464,
-      "pickrate": 0.0884,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4464,
-          "games": 15042
-        }
-      ]
-    },
-    {
-      "augmentId": 1402,
-      "winrate": 0.4464,
-      "pickrate": 0.0099,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4464,
-          "games": 1678
-        }
-      ]
-    },
-    {
-      "augmentId": 1048,
-      "winrate": 0.446,
-      "pickrate": 0.1299,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.446,
-          "games": 22109
-        }
-      ]
-    },
-    {
-      "augmentId": 1056,
-      "winrate": 0.446,
-      "pickrate": 0.0076,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.446,
-          "games": 1296
-        }
-      ]
-    },
-    {
-      "augmentId": 1349,
-      "winrate": 0.4459,
-      "pickrate": 0.0294,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4459,
-          "games": 4997
-        }
-      ]
-    },
-    {
-      "augmentId": 1205,
-      "winrate": 0.4453,
-      "pickrate": 0.084,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4453,
-          "games": 14301
-        }
-      ]
-    },
-    {
-      "augmentId": 1151,
-      "winrate": 0.4448,
-      "pickrate": 0.0503,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4448,
-          "games": 8553
-        }
-      ]
-    },
-    {
-      "augmentId": 1403,
-      "winrate": 0.4447,
-      "pickrate": 0.0171,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4447,
-          "games": 2914
-        }
-      ]
-    },
-    {
-      "augmentId": 1345,
-      "winrate": 0.4444,
-      "pickrate": 0.0117,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4444,
-          "games": 1996
-        }
-      ]
-    },
-    {
-      "augmentId": 2046,
-      "winrate": 0.4435,
-      "pickrate": 0.0021,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4435,
-          "games": 363
-        }
-      ]
-    },
-    {
-      "augmentId": 1097,
-      "winrate": 0.4434,
-      "pickrate": 0.0731,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4434,
-          "games": 12446
-        }
-      ]
-    },
-    {
-      "augmentId": 1390,
-      "winrate": 0.4431,
-      "pickrate": 0.0617,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4431,
-          "games": 10496
-        }
-      ]
-    },
-    {
-      "augmentId": 2100,
-      "winrate": 0.4419,
-      "pickrate": 0.0464,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4419,
-          "games": 7894
-        }
-      ]
-    },
-    {
-      "augmentId": 1029,
-      "winrate": 0.4404,
-      "pickrate": 0.0475,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4404,
-          "games": 8081
-        }
-      ]
-    },
-    {
-      "augmentId": 1112,
-      "winrate": 0.438,
-      "pickrate": 0.0335,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.438,
-          "games": 5703
-        }
-      ]
-    },
-    {
-      "augmentId": 1002,
-      "winrate": 0.4373,
-      "pickrate": 0.0087,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4373,
-          "games": 1484
-        }
-      ]
-    },
-    {
-      "augmentId": 2018,
-      "winrate": 0.4367,
-      "pickrate": 0.04,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4367,
-          "games": 6806
-        }
-      ]
-    },
-    {
-      "augmentId": 12317,
-      "winrate": 0.4362,
-      "pickrate": 0.0291,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4362,
-          "games": 4957
-        }
-      ]
-    },
-    {
-      "augmentId": 1084,
-      "winrate": 0.4361,
-      "pickrate": 0.0606,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4361,
-          "games": 10309
-        }
-      ]
-    },
-    {
-      "augmentId": 1063,
-      "winrate": 0.4339,
-      "pickrate": 0.0035,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4339,
-          "games": 590
-        }
-      ]
-    },
-    {
-      "augmentId": 2087,
-      "winrate": 0.4335,
-      "pickrate": 0.0536,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4335,
-          "games": 9127
-        }
-      ]
-    },
-    {
-      "augmentId": 1027,
-      "winrate": 0.433,
-      "pickrate": 0.0053,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.433,
-          "games": 903
-        }
-      ]
-    },
-    {
-      "augmentId": 1113,
-      "winrate": 0.4325,
-      "pickrate": 0.0598,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4325,
-          "games": 10179
-        }
-      ]
-    },
-    {
-      "augmentId": 2103,
-      "winrate": 0.4318,
-      "pickrate": 0.0344,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4318,
-          "games": 5861
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "winrate": 0.4304,
-      "pickrate": 0.0073,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4304,
-          "games": 1243
-        }
-      ]
-    },
-    {
-      "augmentId": 2099,
-      "winrate": 0.426,
-      "pickrate": 0.0048,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.426,
-          "games": 824
-        }
-      ]
-    },
-    {
-      "augmentId": 1019,
-      "winrate": 0.4255,
-      "pickrate": 0.0148,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4255,
-          "games": 2524
-        }
-      ]
-    },
-    {
-      "augmentId": 1103,
-      "winrate": 0.4231,
-      "pickrate": 0.0376,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4231,
-          "games": 6398
-        }
-      ]
-    },
-    {
-      "augmentId": 1326,
-      "winrate": 0.4195,
-      "pickrate": 0.0066,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4195,
-          "games": 1118
-        }
-      ]
-    },
-    {
-      "augmentId": 2134,
-      "winrate": 0.4154,
-      "pickrate": 0.0084,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4154,
-          "games": 1425
-        }
-      ]
-    },
-    {
-      "augmentId": 1028,
-      "winrate": 0.4134,
-      "pickrate": 0.0077,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4134,
-          "games": 1316
-        }
-      ]
-    },
-    {
-      "augmentId": 1375,
-      "winrate": 0.407,
-      "pickrate": 0.0035,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.407,
-          "games": 597
-        }
-      ]
-    },
-    {
-      "augmentId": 2016,
-      "winrate": 0.4037,
-      "pickrate": 0.0073,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4037,
-          "games": 1246
-        }
-      ]
-    },
-    {
-      "augmentId": 1054,
-      "winrate": 0.4029,
-      "pickrate": 0.0066,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4029,
-          "games": 1122
-        }
-      ]
-    },
-    {
-      "augmentId": 2118,
-      "winrate": 0.401,
-      "pickrate": 0.0036,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.401,
-          "games": 611
-        }
-      ]
-    },
-    {
-      "augmentId": 1311,
-      "winrate": 0.3999,
-      "pickrate": 0.0133,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3999,
-          "games": 2263
-        }
-      ]
-    },
-    {
-      "augmentId": 1058,
-      "winrate": 0.398,
-      "pickrate": 0.0059,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.398,
-          "games": 1010
-        }
-      ]
-    },
-    {
-      "augmentId": 1325,
-      "winrate": 0.3953,
-      "pickrate": 0.0149,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3953,
-          "games": 2530
-        }
-      ]
-    },
-    {
-      "augmentId": 1006,
-      "winrate": 0.3948,
-      "pickrate": 0.0036,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3948,
-          "games": 613
-        }
-      ]
-    },
-    {
-      "augmentId": 2005,
-      "winrate": 0.3905,
-      "pickrate": 0.0024,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3905,
-          "games": 402
-        }
-      ]
-    },
-    {
-      "augmentId": 1149,
-      "winrate": 0.3777,
+      "augmentId": 2042,
+      "tier": 3,
       "pickrate": 0.0016,
       "contributions": [
         {
@@ -1519,29 +241,545 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3777,
-          "games": 278
+          "games": 270
         }
       ]
     },
     {
-      "augmentId": 2063,
-      "winrate": 0.3704,
-      "pickrate": 0.0017,
+      "augmentId": 2088,
+      "tier": 3,
+      "pickrate": 0.0511,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3704,
-          "games": 297
+          "games": 8688
         }
       ]
     },
     {
-      "augmentId": 1044,
-      "winrate": 0.3559,
+      "augmentId": 2095,
+      "tier": 3,
+      "pickrate": 0.0245,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4165
+        }
+      ]
+    },
+    {
+      "augmentId": 1011,
+      "tier": 4,
+      "pickrate": 0.0492,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8377
+        }
+      ]
+    },
+    {
+      "augmentId": 1018,
+      "tier": 4,
+      "pickrate": 0.003,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 506
+        }
+      ]
+    },
+    {
+      "augmentId": 1030,
+      "tier": 4,
+      "pickrate": 0.1065,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18129
+        }
+      ]
+    },
+    {
+      "augmentId": 1034,
+      "tier": 4,
+      "pickrate": 0.0412,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7019
+        }
+      ]
+    },
+    {
+      "augmentId": 1046,
+      "tier": 4,
+      "pickrate": 0.0301,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5128
+        }
+      ]
+    },
+    {
+      "augmentId": 1053,
+      "tier": 4,
+      "pickrate": 0.028,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4761
+        }
+      ]
+    },
+    {
+      "augmentId": 1057,
+      "tier": 4,
+      "pickrate": 0.0024,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 405
+        }
+      ]
+    },
+    {
+      "augmentId": 1060,
+      "tier": 4,
+      "pickrate": 0.0185,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3140
+        }
+      ]
+    },
+    {
+      "augmentId": 1068,
+      "tier": 4,
+      "pickrate": 0.0989,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16832
+        }
+      ]
+    },
+    {
+      "augmentId": 1098,
+      "tier": 4,
+      "pickrate": 0.0228,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3884
+        }
+      ]
+    },
+    {
+      "augmentId": 1116,
+      "tier": 4,
+      "pickrate": 0.0294,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5004
+        }
+      ]
+    },
+    {
+      "augmentId": 1129,
+      "tier": 4,
+      "pickrate": 0.0592,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10074
+        }
+      ]
+    },
+    {
+      "augmentId": 1154,
+      "tier": 4,
+      "pickrate": 0.0137,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2333
+        }
+      ]
+    },
+    {
+      "augmentId": 1156,
+      "tier": 4,
+      "pickrate": 0.0594,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10107
+        }
+      ]
+    },
+    {
+      "augmentId": 1211,
+      "tier": 4,
+      "pickrate": 0.073,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12428
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": 4,
+      "pickrate": 0.0576,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9798
+        }
+      ]
+    },
+    {
+      "augmentId": 1238,
+      "tier": 4,
+      "pickrate": 0.1033,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17574
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": 4,
+      "pickrate": 0.0329,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5600
+        }
+      ]
+    },
+    {
+      "augmentId": 1310,
+      "tier": 4,
+      "pickrate": 0.0131,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2235
+        }
+      ]
+    },
+    {
+      "augmentId": 1315,
+      "tier": 4,
+      "pickrate": 0.0198,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3369
+        }
+      ]
+    },
+    {
+      "augmentId": 1318,
+      "tier": 4,
+      "pickrate": 0.0518,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8809
+        }
+      ]
+    },
+    {
+      "augmentId": 1322,
+      "tier": 4,
+      "pickrate": 0.0052,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 881
+        }
+      ]
+    },
+    {
+      "augmentId": 1323,
+      "tier": 4,
+      "pickrate": 0.0135,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2293
+        }
+      ]
+    },
+    {
+      "augmentId": 1332,
+      "tier": 4,
+      "pickrate": 0.0134,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2272
+        }
+      ]
+    },
+    {
+      "augmentId": 1373,
+      "tier": 4,
+      "pickrate": 0.092,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15663
+        }
+      ]
+    },
+    {
+      "augmentId": 1384,
+      "tier": 4,
+      "pickrate": 0.0299,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5091
+        }
+      ]
+    },
+    {
+      "augmentId": 1388,
+      "tier": 4,
+      "pickrate": 0.051,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8675
+        }
+      ]
+    },
+    {
+      "augmentId": 1416,
+      "tier": 4,
+      "pickrate": 0.0384,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6540
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": 4,
+      "pickrate": 0.0235,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4000
+        }
+      ]
+    },
+    {
+      "augmentId": 2077,
+      "tier": 4,
+      "pickrate": 0.0392,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6672
+        }
+      ]
+    },
+    {
+      "augmentId": 2080,
+      "tier": 4,
+      "pickrate": 0.0351,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5973
+        }
+      ]
+    },
+    {
+      "augmentId": 2083,
+      "tier": 4,
+      "pickrate": 0.0954,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16231
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": 4,
+      "pickrate": 0.0103,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1745
+        }
+      ]
+    },
+    {
+      "augmentId": 2116,
+      "tier": 4,
+      "pickrate": 0.0867,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14752
+        }
+      ]
+    },
+    {
+      "augmentId": 2127,
+      "tier": 4,
+      "pickrate": 0.0318,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5406
+        }
+      ]
+    },
+    {
+      "augmentId": 2132,
+      "tier": 4,
+      "pickrate": 0.0873,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14854
+        }
+      ]
+    },
+    {
+      "augmentId": 2137,
+      "tier": 4,
       "pickrate": 0.0023,
       "contributions": [
         {
@@ -1549,11 +787,667 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3559,
+          "games": 392
+        }
+      ]
+    },
+    {
+      "augmentId": 1002,
+      "tier": 5,
+      "pickrate": 0.0087,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1484
+        }
+      ]
+    },
+    {
+      "augmentId": 1006,
+      "tier": 5,
+      "pickrate": 0.0036,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 613
+        }
+      ]
+    },
+    {
+      "augmentId": 1019,
+      "tier": 5,
+      "pickrate": 0.0148,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2524
+        }
+      ]
+    },
+    {
+      "augmentId": 1027,
+      "tier": 5,
+      "pickrate": 0.0053,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 903
+        }
+      ]
+    },
+    {
+      "augmentId": 1028,
+      "tier": 5,
+      "pickrate": 0.0077,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1316
+        }
+      ]
+    },
+    {
+      "augmentId": 1029,
+      "tier": 5,
+      "pickrate": 0.0475,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8081
+        }
+      ]
+    },
+    {
+      "augmentId": 1044,
+      "tier": 5,
+      "pickrate": 0.0023,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
           "games": 399
         }
       ]
+    },
+    {
+      "augmentId": 1048,
+      "tier": 5,
+      "pickrate": 0.1299,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 22109
+        }
+      ]
+    },
+    {
+      "augmentId": 1054,
+      "tier": 5,
+      "pickrate": 0.0066,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1122
+        }
+      ]
+    },
+    {
+      "augmentId": 1056,
+      "tier": 5,
+      "pickrate": 0.0076,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1296
+        }
+      ]
+    },
+    {
+      "augmentId": 1058,
+      "tier": 5,
+      "pickrate": 0.0059,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1010
+        }
+      ]
+    },
+    {
+      "augmentId": 1063,
+      "tier": 5,
+      "pickrate": 0.0035,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 590
+        }
+      ]
+    },
+    {
+      "augmentId": 1073,
+      "tier": 5,
+      "pickrate": 0.0309,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5253
+        }
+      ]
+    },
+    {
+      "augmentId": 1084,
+      "tier": 5,
+      "pickrate": 0.0606,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10309
+        }
+      ]
+    },
+    {
+      "augmentId": 1097,
+      "tier": 5,
+      "pickrate": 0.0731,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12446
+        }
+      ]
+    },
+    {
+      "augmentId": 1103,
+      "tier": 5,
+      "pickrate": 0.0376,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6398
+        }
+      ]
+    },
+    {
+      "augmentId": 1112,
+      "tier": 5,
+      "pickrate": 0.0335,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5703
+        }
+      ]
+    },
+    {
+      "augmentId": 1113,
+      "tier": 5,
+      "pickrate": 0.0598,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10179
+        }
+      ]
+    },
+    {
+      "augmentId": 1133,
+      "tier": 5,
+      "pickrate": 0.0884,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15042
+        }
+      ]
+    },
+    {
+      "augmentId": 1136,
+      "tier": 5,
+      "pickrate": 0.0178,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3023
+        }
+      ]
+    },
+    {
+      "augmentId": 1149,
+      "tier": 5,
+      "pickrate": 0.0016,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 278
+        }
+      ]
+    },
+    {
+      "augmentId": 1151,
+      "tier": 5,
+      "pickrate": 0.0503,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8553
+        }
+      ]
+    },
+    {
+      "augmentId": 1205,
+      "tier": 5,
+      "pickrate": 0.084,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14301
+        }
+      ]
+    },
+    {
+      "augmentId": 1311,
+      "tier": 5,
+      "pickrate": 0.0133,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2263
+        }
+      ]
+    },
+    {
+      "augmentId": 1325,
+      "tier": 5,
+      "pickrate": 0.0149,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2530
+        }
+      ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": 5,
+      "pickrate": 0.0066,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1118
+        }
+      ]
+    },
+    {
+      "augmentId": 1345,
+      "tier": 5,
+      "pickrate": 0.0117,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1996
+        }
+      ]
+    },
+    {
+      "augmentId": 1349,
+      "tier": 5,
+      "pickrate": 0.0294,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4997
+        }
+      ]
+    },
+    {
+      "augmentId": 1375,
+      "tier": 5,
+      "pickrate": 0.0035,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 597
+        }
+      ]
+    },
+    {
+      "augmentId": 1390,
+      "tier": 5,
+      "pickrate": 0.0617,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10496
+        }
+      ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": 5,
+      "pickrate": 0.0231,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3924
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": 5,
+      "pickrate": 0.0099,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1678
+        }
+      ]
+    },
+    {
+      "augmentId": 1403,
+      "tier": 5,
+      "pickrate": 0.0171,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2914
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": 5,
+      "pickrate": 0.0073,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1243
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": 5,
+      "pickrate": 0.0447,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7615
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": 5,
+      "pickrate": 0.0024,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 402
+        }
+      ]
+    },
+    {
+      "augmentId": 2016,
+      "tier": 5,
+      "pickrate": 0.0073,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1246
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": 5,
+      "pickrate": 0.04,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6806
+        }
+      ]
+    },
+    {
+      "augmentId": 2046,
+      "tier": 5,
+      "pickrate": 0.0021,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 363
+        }
+      ]
+    },
+    {
+      "augmentId": 2063,
+      "tier": 5,
+      "pickrate": 0.0017,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 297
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": 5,
+      "pickrate": 0.0536,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9127
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": 5,
+      "pickrate": 0.0048,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 824
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": 5,
+      "pickrate": 0.0464,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7894
+        }
+      ]
+    },
+    {
+      "augmentId": 2103,
+      "tier": 5,
+      "pickrate": 0.0344,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5861
+        }
+      ]
+    },
+    {
+      "augmentId": 2118,
+      "tier": 5,
+      "pickrate": 0.0036,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 611
+        }
+      ]
+    },
+    {
+      "augmentId": 2134,
+      "tier": 5,
+      "pickrate": 0.0084,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1425
+        }
+      ]
+    },
+    {
+      "augmentId": 12317,
+      "tier": 5,
+      "pickrate": 0.0291,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zoe?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4957
+        }
+      ]
     }
-  ],
-  "method": "equal-source-mean"
+  ]
 }

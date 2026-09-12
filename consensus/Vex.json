@@ -1,32 +1,15 @@
 {
+  "version": 1,
+  "method": "warden-performance-tiers-v1",
   "championId": 711,
   "championKey": "Vex",
   "set": "aram",
-  "source": "Mayhem source average",
-  "sourceUrl": "https://github.com/snacbot/warden-releases/blob/mayhem-data/README.md",
-  "winrateScope": "champion",
-  "pickrateScope": "champion",
   "patch": "16.18",
   "scrapedAt": "2026-09-12T02:34:26.350Z",
   "augments": [
     {
-      "augmentId": 2095,
-      "winrate": 0.5546,
-      "pickrate": 0.0214,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5546,
-          "games": 3033
-        }
-      ]
-    },
-    {
       "augmentId": 1004,
-      "winrate": 0.5532,
+      "tier": 1,
       "pickrate": 0.0391,
       "contributions": [
         {
@@ -34,29 +17,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5532,
           "games": 5551
         }
       ]
     },
     {
-      "augmentId": 1156,
-      "winrate": 0.5368,
-      "pickrate": 0.055,
+      "augmentId": 2095,
+      "tier": 1,
+      "pickrate": 0.0214,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5368,
-          "games": 7800
+          "games": 3033
         }
       ]
     },
     {
       "augmentId": 1053,
-      "winrate": 0.5366,
+      "tier": 2,
       "pickrate": 0.0274,
       "contributions": [
         {
@@ -64,29 +45,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5366,
           "games": 3891
         }
       ]
     },
     {
-      "augmentId": 1337,
-      "winrate": 0.5342,
-      "pickrate": 0.0052,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5342,
-          "games": 732
-        }
-      ]
-    },
-    {
       "augmentId": 1061,
-      "winrate": 0.5299,
+      "tier": 2,
       "pickrate": 0.0105,
       "contributions": [
         {
@@ -94,44 +59,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5299,
           "games": 1489
         }
       ]
     },
     {
-      "augmentId": 1389,
-      "winrate": 0.527,
-      "pickrate": 0.0046,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.527,
-          "games": 649
-        }
-      ]
-    },
-    {
-      "augmentId": 1180,
-      "winrate": 0.5261,
-      "pickrate": 0.0451,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5261,
-          "games": 6392
-        }
-      ]
-    },
-    {
       "augmentId": 1098,
-      "winrate": 0.5216,
+      "tier": 2,
       "pickrate": 0.0265,
       "contributions": [
         {
@@ -139,14 +73,41 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5216,
           "games": 3756
         }
       ]
     },
     {
+      "augmentId": 1156,
+      "tier": 2,
+      "pickrate": 0.055,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7800
+        }
+      ]
+    },
+    {
+      "augmentId": 1180,
+      "tier": 2,
+      "pickrate": 0.0451,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6392
+        }
+      ]
+    },
+    {
       "augmentId": 1195,
-      "winrate": 0.521,
+      "tier": 2,
       "pickrate": 0.0261,
       "contributions": [
         {
@@ -154,134 +115,55 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.521,
           "games": 3699
         }
       ]
     },
     {
-      "augmentId": 1390,
-      "winrate": 0.5194,
-      "pickrate": 0.1132,
+      "augmentId": 1337,
+      "tier": 2,
+      "pickrate": 0.0052,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5194,
-          "games": 16054
+          "games": 732
         }
       ]
     },
     {
-      "augmentId": 1105,
-      "winrate": 0.5184,
-      "pickrate": 0.0447,
+      "augmentId": 1389,
+      "tier": 2,
+      "pickrate": 0.0046,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5184,
-          "games": 6342
+          "games": 649
         }
       ]
     },
     {
-      "augmentId": 1038,
-      "winrate": 0.5171,
-      "pickrate": 0.0572,
+      "augmentId": 1028,
+      "tier": 3,
+      "pickrate": 0.0179,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5171,
-          "games": 8116
-        }
-      ]
-    },
-    {
-      "augmentId": 2132,
-      "winrate": 0.5165,
-      "pickrate": 0.1435,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5165,
-          "games": 20358
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "winrate": 0.5151,
-      "pickrate": 0.0246,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5151,
-          "games": 3483
-        }
-      ]
-    },
-    {
-      "augmentId": 1384,
-      "winrate": 0.5136,
-      "pickrate": 0.0293,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5136,
-          "games": 4159
-        }
-      ]
-    },
-    {
-      "augmentId": 1402,
-      "winrate": 0.512,
-      "pickrate": 0.0079,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.512,
-          "games": 1125
-        }
-      ]
-    },
-    {
-      "augmentId": 1388,
-      "winrate": 0.5116,
-      "pickrate": 0.0631,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5116,
-          "games": 8953
+          "games": 2535
         }
       ]
     },
     {
       "augmentId": 1030,
-      "winrate": 0.511,
+      "tier": 3,
       "pickrate": 0.129,
       "contributions": [
         {
@@ -289,524 +171,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.511,
           "games": 18293
         }
       ]
     },
     {
-      "augmentId": 2098,
-      "winrate": 0.5092,
-      "pickrate": 0.0073,
+      "augmentId": 1038,
+      "tier": 3,
+      "pickrate": 0.0572,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5092,
-          "games": 1029
-        }
-      ]
-    },
-    {
-      "augmentId": 1062,
-      "winrate": 0.5083,
-      "pickrate": 0.0098,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5083,
-          "games": 1393
-        }
-      ]
-    },
-    {
-      "augmentId": 1403,
-      "winrate": 0.508,
-      "pickrate": 0.0177,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.508,
-          "games": 2512
-        }
-      ]
-    },
-    {
-      "augmentId": 1136,
-      "winrate": 0.5056,
-      "pickrate": 0.0151,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5056,
-          "games": 2148
-        }
-      ]
-    },
-    {
-      "augmentId": 1308,
-      "winrate": 0.505,
-      "pickrate": 0.0211,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.505,
-          "games": 2996
-        }
-      ]
-    },
-    {
-      "augmentId": 2103,
-      "winrate": 0.5039,
-      "pickrate": 0.0683,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5039,
-          "games": 9685
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "winrate": 0.5029,
-      "pickrate": 0.0528,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5029,
-          "games": 7490
-        }
-      ]
-    },
-    {
-      "augmentId": 1373,
-      "winrate": 0.5025,
-      "pickrate": 0.1237,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5025,
-          "games": 17538
-        }
-      ]
-    },
-    {
-      "augmentId": 2089,
-      "winrate": 0.5021,
-      "pickrate": 0.0117,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5021,
-          "games": 1661
-        }
-      ]
-    },
-    {
-      "augmentId": 1318,
-      "winrate": 0.5005,
-      "pickrate": 0.0718,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5005,
-          "games": 10186
-        }
-      ]
-    },
-    {
-      "augmentId": 1415,
-      "winrate": 0.4988,
-      "pickrate": 0.0742,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4988,
-          "games": 10526
-        }
-      ]
-    },
-    {
-      "augmentId": 2046,
-      "winrate": 0.4981,
-      "pickrate": 0.0019,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4981,
-          "games": 269
-        }
-      ]
-    },
-    {
-      "augmentId": 1243,
-      "winrate": 0.498,
-      "pickrate": 0.0293,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.498,
-          "games": 4153
-        }
-      ]
-    },
-    {
-      "augmentId": 1238,
-      "winrate": 0.4974,
-      "pickrate": 0.1066,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4974,
-          "games": 15112
-        }
-      ]
-    },
-    {
-      "augmentId": 1314,
-      "winrate": 0.4974,
-      "pickrate": 0.0173,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4974,
-          "games": 2457
-        }
-      ]
-    },
-    {
-      "augmentId": 1133,
-      "winrate": 0.4959,
-      "pickrate": 0.1297,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4959,
-          "games": 18398
-        }
-      ]
-    },
-    {
-      "augmentId": 1056,
-      "winrate": 0.4953,
-      "pickrate": 0.015,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4953,
-          "games": 2122
-        }
-      ]
-    },
-    {
-      "augmentId": 1138,
-      "winrate": 0.4947,
-      "pickrate": 0.0508,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4947,
-          "games": 7210
-        }
-      ]
-    },
-    {
-      "augmentId": 2127,
-      "winrate": 0.4944,
-      "pickrate": 0.0303,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4944,
-          "games": 4300
-        }
-      ]
-    },
-    {
-      "augmentId": 1068,
-      "winrate": 0.4935,
-      "pickrate": 0.1287,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4935,
-          "games": 18251
-        }
-      ]
-    },
-    {
-      "augmentId": 1205,
-      "winrate": 0.4933,
-      "pickrate": 0.0789,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4933,
-          "games": 11195
-        }
-      ]
-    },
-    {
-      "augmentId": 1345,
-      "winrate": 0.4919,
-      "pickrate": 0.0191,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4919,
-          "games": 2710
-        }
-      ]
-    },
-    {
-      "augmentId": 1335,
-      "winrate": 0.491,
-      "pickrate": 0.009,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.491,
-          "games": 1279
-        }
-      ]
-    },
-    {
-      "augmentId": 1358,
-      "winrate": 0.4908,
-      "pickrate": 0.0196,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4908,
-          "games": 2779
-        }
-      ]
-    },
-    {
-      "augmentId": 1097,
-      "winrate": 0.4905,
-      "pickrate": 0.0759,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4905,
-          "games": 10771
-        }
-      ]
-    },
-    {
-      "augmentId": 1375,
-      "winrate": 0.4901,
-      "pickrate": 0.0039,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4901,
-          "games": 553
-        }
-      ]
-    },
-    {
-      "augmentId": 2119,
-      "winrate": 0.4901,
-      "pickrate": 0.0029,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4901,
-          "games": 406
-        }
-      ]
-    },
-    {
-      "augmentId": 1305,
-      "winrate": 0.49,
-      "pickrate": 0.0281,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.49,
-          "games": 3982
-        }
-      ]
-    },
-    {
-      "augmentId": 1028,
-      "winrate": 0.4892,
-      "pickrate": 0.0179,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4892,
-          "games": 2535
-        }
-      ]
-    },
-    {
-      "augmentId": 2083,
-      "winrate": 0.4884,
-      "pickrate": 0.0779,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4884,
-          "games": 11049
-        }
-      ]
-    },
-    {
-      "augmentId": 1310,
-      "winrate": 0.4869,
-      "pickrate": 0.0262,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4869,
-          "games": 3713
-        }
-      ]
-    },
-    {
-      "augmentId": 2088,
-      "winrate": 0.4865,
-      "pickrate": 0.0216,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4865,
-          "games": 3065
-        }
-      ]
-    },
-    {
-      "augmentId": 2116,
-      "winrate": 0.4842,
-      "pickrate": 0.0456,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4842,
-          "games": 6471
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "winrate": 0.484,
-      "pickrate": 0.0537,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.484,
-          "games": 7622
+          "games": 8116
         }
       ]
     },
     {
       "augmentId": 1048,
-      "winrate": 0.4837,
+      "tier": 3,
       "pickrate": 0.1118,
       "contributions": [
         {
@@ -814,29 +199,153 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4837,
           "games": 15859
         }
       ]
     },
     {
-      "augmentId": 2100,
-      "winrate": 0.4828,
-      "pickrate": 0.0435,
+      "augmentId": 1056,
+      "tier": 3,
+      "pickrate": 0.015,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4828,
-          "games": 6174
+          "games": 2122
+        }
+      ]
+    },
+    {
+      "augmentId": 1060,
+      "tier": 3,
+      "pickrate": 0.0246,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3483
+        }
+      ]
+    },
+    {
+      "augmentId": 1062,
+      "tier": 3,
+      "pickrate": 0.0098,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1393
+        }
+      ]
+    },
+    {
+      "augmentId": 1068,
+      "tier": 3,
+      "pickrate": 0.1287,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18251
+        }
+      ]
+    },
+    {
+      "augmentId": 1097,
+      "tier": 3,
+      "pickrate": 0.0759,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10771
+        }
+      ]
+    },
+    {
+      "augmentId": 1105,
+      "tier": 3,
+      "pickrate": 0.0447,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6342
+        }
+      ]
+    },
+    {
+      "augmentId": 1116,
+      "tier": 3,
+      "pickrate": 0.0178,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2531
+        }
+      ]
+    },
+    {
+      "augmentId": 1133,
+      "tier": 3,
+      "pickrate": 0.1297,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18398
+        }
+      ]
+    },
+    {
+      "augmentId": 1136,
+      "tier": 3,
+      "pickrate": 0.0151,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2148
+        }
+      ]
+    },
+    {
+      "augmentId": 1138,
+      "tier": 3,
+      "pickrate": 0.0508,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7210
         }
       ]
     },
     {
       "augmentId": 1154,
-      "winrate": 0.4817,
+      "tier": 3,
       "pickrate": 0.0129,
       "contributions": [
         {
@@ -844,29 +353,153 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4817,
           "games": 1829
         }
       ]
     },
     {
-      "augmentId": 1116,
-      "winrate": 0.4812,
-      "pickrate": 0.0178,
+      "augmentId": 1205,
+      "tier": 3,
+      "pickrate": 0.0789,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4812,
-          "games": 2531
+          "games": 11195
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": 3,
+      "pickrate": 0.0537,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7622
+        }
+      ]
+    },
+    {
+      "augmentId": 1238,
+      "tier": 3,
+      "pickrate": 0.1066,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15112
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": 3,
+      "pickrate": 0.0293,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4153
+        }
+      ]
+    },
+    {
+      "augmentId": 1305,
+      "tier": 3,
+      "pickrate": 0.0281,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3982
+        }
+      ]
+    },
+    {
+      "augmentId": 1308,
+      "tier": 3,
+      "pickrate": 0.0211,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2996
+        }
+      ]
+    },
+    {
+      "augmentId": 1310,
+      "tier": 3,
+      "pickrate": 0.0262,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3713
+        }
+      ]
+    },
+    {
+      "augmentId": 1314,
+      "tier": 3,
+      "pickrate": 0.0173,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2457
+        }
+      ]
+    },
+    {
+      "augmentId": 1318,
+      "tier": 3,
+      "pickrate": 0.0718,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10186
+        }
+      ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": 3,
+      "pickrate": 0.0528,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7490
         }
       ]
     },
     {
       "augmentId": 1332,
-      "winrate": 0.4812,
+      "tier": 3,
       "pickrate": 0.0141,
       "contributions": [
         {
@@ -874,14 +507,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4812,
           "games": 1995
         }
       ]
     },
     {
+      "augmentId": 1335,
+      "tier": 3,
+      "pickrate": 0.009,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1279
+        }
+      ]
+    },
+    {
       "augmentId": 1344,
-      "winrate": 0.4802,
+      "tier": 3,
       "pickrate": 0.021,
       "contributions": [
         {
@@ -889,359 +535,111 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4802,
           "games": 2974
         }
       ]
     },
     {
-      "augmentId": 2034,
-      "winrate": 0.4802,
-      "pickrate": 0.0073,
+      "augmentId": 1345,
+      "tier": 3,
+      "pickrate": 0.0191,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4802,
-          "games": 1033
+          "games": 2710
         }
       ]
     },
     {
-      "augmentId": 1416,
-      "winrate": 0.4777,
-      "pickrate": 0.0399,
+      "augmentId": 1358,
+      "tier": 3,
+      "pickrate": 0.0196,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4777,
-          "games": 5654
+          "games": 2779
         }
       ]
     },
     {
-      "augmentId": 1103,
-      "winrate": 0.4774,
-      "pickrate": 0.0582,
+      "augmentId": 1373,
+      "tier": 3,
+      "pickrate": 0.1237,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4774,
-          "games": 8257
+          "games": 17538
         }
       ]
     },
     {
-      "augmentId": 1347,
-      "winrate": 0.477,
-      "pickrate": 0.0028,
+      "augmentId": 1375,
+      "tier": 3,
+      "pickrate": 0.0039,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.477,
-          "games": 392
+          "games": 553
         }
       ]
     },
     {
-      "augmentId": 1057,
-      "winrate": 0.4764,
-      "pickrate": 0.0027,
+      "augmentId": 1384,
+      "tier": 3,
+      "pickrate": 0.0293,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4764,
-          "games": 382
+          "games": 4159
         }
       ]
     },
     {
-      "augmentId": 1084,
-      "winrate": 0.4761,
-      "pickrate": 0.0627,
+      "augmentId": 1388,
+      "tier": 3,
+      "pickrate": 0.0631,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4761,
-          "games": 8889
+          "games": 8953
         }
       ]
     },
     {
-      "augmentId": 1046,
-      "winrate": 0.4754,
-      "pickrate": 0.0235,
+      "augmentId": 1390,
+      "tier": 3,
+      "pickrate": 0.1132,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4754,
-          "games": 3332
+          "games": 16054
         }
       ]
     },
     {
-      "augmentId": 2018,
-      "winrate": 0.4743,
-      "pickrate": 0.0558,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4743,
-          "games": 7914
-        }
-      ]
-    },
-    {
-      "augmentId": 1058,
-      "winrate": 0.4727,
-      "pickrate": 0.0074,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4727,
-          "games": 1043
-        }
-      ]
-    },
-    {
-      "augmentId": 1113,
-      "winrate": 0.4723,
-      "pickrate": 0.1143,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4723,
-          "games": 16208
-        }
-      ]
-    },
-    {
-      "augmentId": 1029,
-      "winrate": 0.4717,
-      "pickrate": 0.041,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4717,
-          "games": 5811
-        }
-      ]
-    },
-    {
-      "augmentId": 1311,
-      "winrate": 0.4699,
-      "pickrate": 0.0123,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4699,
-          "games": 1745
-        }
-      ]
-    },
-    {
-      "augmentId": 1349,
-      "winrate": 0.4687,
-      "pickrate": 0.0264,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4687,
-          "games": 3742
-        }
-      ]
-    },
-    {
-      "augmentId": 1326,
-      "winrate": 0.4686,
-      "pickrate": 0.013,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4686,
-          "games": 1848
-        }
-      ]
-    },
-    {
-      "augmentId": 1392,
-      "winrate": 0.4669,
-      "pickrate": 0.0115,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4669,
-          "games": 1632
-        }
-      ]
-    },
-    {
-      "augmentId": 1112,
-      "winrate": 0.4647,
-      "pickrate": 0.0236,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4647,
-          "games": 3340
-        }
-      ]
-    },
-    {
-      "augmentId": 1151,
-      "winrate": 0.4645,
-      "pickrate": 0.0218,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4645,
-          "games": 3098
-        }
-      ]
-    },
-    {
-      "augmentId": 2099,
-      "winrate": 0.4644,
-      "pickrate": 0.0112,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4644,
-          "games": 1585
-        }
-      ]
-    },
-    {
-      "augmentId": 1002,
-      "winrate": 0.4641,
-      "pickrate": 0.0088,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4641,
-          "games": 1252
-        }
-      ]
-    },
-    {
-      "augmentId": 2107,
-      "winrate": 0.4624,
-      "pickrate": 0.003,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4624,
-          "games": 426
-        }
-      ]
-    },
-    {
-      "augmentId": 2134,
-      "winrate": 0.4598,
-      "pickrate": 0.0035,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4598,
-          "games": 498
-        }
-      ]
-    },
-    {
-      "augmentId": 1323,
-      "winrate": 0.4594,
-      "pickrate": 0.0104,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4594,
-          "games": 1478
-        }
-      ]
-    },
-    {
-      "augmentId": 12317,
-      "winrate": 0.4588,
-      "pickrate": 0.0248,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4588,
-          "games": 3511
-        }
-      ]
-    },
-    {
-      "augmentId": 2016,
-      "winrate": 0.4577,
+      "augmentId": 1402,
+      "tier": 3,
       "pickrate": 0.0079,
       "contributions": [
         {
@@ -1249,164 +647,237 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4577,
-          "games": 1123
+          "games": 1125
         }
       ]
     },
     {
-      "augmentId": 1129,
-      "winrate": 0.4574,
-      "pickrate": 0.0205,
+      "augmentId": 1403,
+      "tier": 3,
+      "pickrate": 0.0177,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4574,
-          "games": 2910
+          "games": 2512
         }
       ]
     },
     {
-      "augmentId": 1211,
-      "winrate": 0.4574,
-      "pickrate": 0.0178,
+      "augmentId": 1415,
+      "tier": 3,
+      "pickrate": 0.0742,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4574,
-          "games": 2525
+          "games": 10526
         }
       ]
     },
     {
-      "augmentId": 1194,
-      "winrate": 0.4572,
-      "pickrate": 0.0145,
+      "augmentId": 2034,
+      "tier": 3,
+      "pickrate": 0.0073,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4572,
-          "games": 2058
+          "games": 1033
         }
       ]
     },
     {
-      "augmentId": 2087,
-      "winrate": 0.4563,
-      "pickrate": 0.0749,
+      "augmentId": 2046,
+      "tier": 3,
+      "pickrate": 0.0019,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4563,
-          "games": 10625
+          "games": 269
         }
       ]
     },
     {
-      "augmentId": 2026,
-      "winrate": 0.4558,
-      "pickrate": 0.0054,
+      "augmentId": 2083,
+      "tier": 3,
+      "pickrate": 0.0779,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4558,
-          "games": 770
+          "games": 11049
         }
       ]
     },
     {
-      "augmentId": 2080,
-      "winrate": 0.4556,
-      "pickrate": 0.0162,
+      "augmentId": 2088,
+      "tier": 3,
+      "pickrate": 0.0216,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4556,
-          "games": 2296
+          "games": 3065
         }
       ]
     },
     {
-      "augmentId": 1149,
-      "winrate": 0.4554,
-      "pickrate": 0.0022,
+      "augmentId": 2089,
+      "tier": 3,
+      "pickrate": 0.0117,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4554,
-          "games": 314
+          "games": 1661
         }
       ]
     },
     {
-      "augmentId": 2123,
-      "winrate": 0.4552,
-      "pickrate": 0.0356,
+      "augmentId": 2098,
+      "tier": 3,
+      "pickrate": 0.0073,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4552,
-          "games": 5051
+          "games": 1029
         }
       ]
     },
     {
-      "augmentId": 1150,
-      "winrate": 0.4543,
-      "pickrate": 0.0298,
+      "augmentId": 2100,
+      "tier": 3,
+      "pickrate": 0.0435,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4543,
-          "games": 4231
+          "games": 6174
         }
       ]
     },
     {
-      "augmentId": 1315,
-      "winrate": 0.4533,
-      "pickrate": 0.0035,
+      "augmentId": 2103,
+      "tier": 3,
+      "pickrate": 0.0683,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4533,
-          "games": 492
+          "games": 9685
+        }
+      ]
+    },
+    {
+      "augmentId": 2116,
+      "tier": 3,
+      "pickrate": 0.0456,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6471
+        }
+      ]
+    },
+    {
+      "augmentId": 2119,
+      "tier": 3,
+      "pickrate": 0.0029,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 406
+        }
+      ]
+    },
+    {
+      "augmentId": 2127,
+      "tier": 3,
+      "pickrate": 0.0303,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4300
+        }
+      ]
+    },
+    {
+      "augmentId": 2132,
+      "tier": 3,
+      "pickrate": 0.1435,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 20358
+        }
+      ]
+    },
+    {
+      "augmentId": 1002,
+      "tier": 4,
+      "pickrate": 0.0088,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1252
+        }
+      ]
+    },
+    {
+      "augmentId": 1029,
+      "tier": 4,
+      "pickrate": 0.041,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5811
         }
       ]
     },
     {
       "augmentId": 1044,
-      "winrate": 0.4523,
+      "tier": 4,
       "pickrate": 0.0134,
       "contributions": [
         {
@@ -1414,14 +885,209 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4523,
           "games": 1906
         }
       ]
     },
     {
-      "augmentId": 1996,
-      "winrate": 0.4512,
+      "augmentId": 1046,
+      "tier": 4,
+      "pickrate": 0.0235,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3332
+        }
+      ]
+    },
+    {
+      "augmentId": 1057,
+      "tier": 4,
+      "pickrate": 0.0027,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 382
+        }
+      ]
+    },
+    {
+      "augmentId": 1058,
+      "tier": 4,
+      "pickrate": 0.0074,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1043
+        }
+      ]
+    },
+    {
+      "augmentId": 1084,
+      "tier": 4,
+      "pickrate": 0.0627,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8889
+        }
+      ]
+    },
+    {
+      "augmentId": 1103,
+      "tier": 4,
+      "pickrate": 0.0582,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8257
+        }
+      ]
+    },
+    {
+      "augmentId": 1112,
+      "tier": 4,
+      "pickrate": 0.0236,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3340
+        }
+      ]
+    },
+    {
+      "augmentId": 1113,
+      "tier": 4,
+      "pickrate": 0.1143,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16208
+        }
+      ]
+    },
+    {
+      "augmentId": 1129,
+      "tier": 4,
+      "pickrate": 0.0205,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2910
+        }
+      ]
+    },
+    {
+      "augmentId": 1149,
+      "tier": 4,
+      "pickrate": 0.0022,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 314
+        }
+      ]
+    },
+    {
+      "augmentId": 1150,
+      "tier": 4,
+      "pickrate": 0.0298,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4231
+        }
+      ]
+    },
+    {
+      "augmentId": 1151,
+      "tier": 4,
+      "pickrate": 0.0218,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3098
+        }
+      ]
+    },
+    {
+      "augmentId": 1194,
+      "tier": 4,
+      "pickrate": 0.0145,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2058
+        }
+      ]
+    },
+    {
+      "augmentId": 1211,
+      "tier": 4,
+      "pickrate": 0.0178,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2525
+        }
+      ]
+    },
+    {
+      "augmentId": 1311,
+      "tier": 4,
+      "pickrate": 0.0123,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1745
+        }
+      ]
+    },
+    {
+      "augmentId": 1315,
+      "tier": 4,
       "pickrate": 0.0035,
       "contributions": [
         {
@@ -1429,149 +1095,41 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4512,
           "games": 492
         }
       ]
     },
     {
-      "augmentId": 1018,
-      "winrate": 0.4472,
-      "pickrate": 0.0025,
+      "augmentId": 1323,
+      "tier": 4,
+      "pickrate": 0.0104,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4472,
-          "games": 360
+          "games": 1478
         }
       ]
     },
     {
-      "augmentId": 2005,
-      "winrate": 0.4454,
-      "pickrate": 0.0068,
+      "augmentId": 1326,
+      "tier": 4,
+      "pickrate": 0.013,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4454,
-          "games": 970
+          "games": 1848
         }
       ]
     },
     {
-      "augmentId": 2137,
-      "winrate": 0.4454,
-      "pickrate": 0.0025,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4454,
-          "games": 357
-        }
-      ]
-    },
-    {
-      "augmentId": 1019,
-      "winrate": 0.4447,
-      "pickrate": 0.0031,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4447,
-          "games": 434
-        }
-      ]
-    },
-    {
-      "augmentId": 1011,
-      "winrate": 0.4414,
-      "pickrate": 0.0179,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4414,
-          "games": 2535
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "winrate": 0.435,
-      "pickrate": 0.0077,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.435,
-          "games": 1085
-        }
-      ]
-    },
-    {
-      "augmentId": 1088,
-      "winrate": 0.4317,
-      "pickrate": 0.0102,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4317,
-          "games": 1450
-        }
-      ]
-    },
-    {
-      "augmentId": 1325,
-      "winrate": 0.4207,
-      "pickrate": 0.0068,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4207,
-          "games": 958
-        }
-      ]
-    },
-    {
-      "augmentId": 2118,
-      "winrate": 0.4146,
-      "pickrate": 0.0064,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4146,
-          "games": 907
-        }
-      ]
-    },
-    {
-      "augmentId": 2091,
-      "winrate": 0.4135,
+      "augmentId": 1347,
+      "tier": 4,
       "pickrate": 0.0028,
       "contributions": [
         {
@@ -1579,14 +1137,251 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4135,
-          "games": 399
+          "games": 392
+        }
+      ]
+    },
+    {
+      "augmentId": 1349,
+      "tier": 4,
+      "pickrate": 0.0264,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3742
+        }
+      ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": 4,
+      "pickrate": 0.0115,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1632
+        }
+      ]
+    },
+    {
+      "augmentId": 1416,
+      "tier": 4,
+      "pickrate": 0.0399,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5654
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": 4,
+      "pickrate": 0.0035,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 492
+        }
+      ]
+    },
+    {
+      "augmentId": 2016,
+      "tier": 4,
+      "pickrate": 0.0079,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1123
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": 4,
+      "pickrate": 0.0558,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7914
+        }
+      ]
+    },
+    {
+      "augmentId": 2026,
+      "tier": 4,
+      "pickrate": 0.0054,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 770
+        }
+      ]
+    },
+    {
+      "augmentId": 2080,
+      "tier": 4,
+      "pickrate": 0.0162,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2296
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": 4,
+      "pickrate": 0.0749,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10625
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": 4,
+      "pickrate": 0.0112,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1585
+        }
+      ]
+    },
+    {
+      "augmentId": 2107,
+      "tier": 4,
+      "pickrate": 0.003,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 426
+        }
+      ]
+    },
+    {
+      "augmentId": 2123,
+      "tier": 4,
+      "pickrate": 0.0356,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5051
+        }
+      ]
+    },
+    {
+      "augmentId": 2134,
+      "tier": 4,
+      "pickrate": 0.0035,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 498
+        }
+      ]
+    },
+    {
+      "augmentId": 12317,
+      "tier": 4,
+      "pickrate": 0.0248,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3511
+        }
+      ]
+    },
+    {
+      "augmentId": 1011,
+      "tier": 5,
+      "pickrate": 0.0179,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2535
+        }
+      ]
+    },
+    {
+      "augmentId": 1018,
+      "tier": 5,
+      "pickrate": 0.0025,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 360
+        }
+      ]
+    },
+    {
+      "augmentId": 1019,
+      "tier": 5,
+      "pickrate": 0.0031,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 434
         }
       ]
     },
     {
       "augmentId": 1054,
-      "winrate": 0.412,
+      "tier": 5,
       "pickrate": 0.0085,
       "contributions": [
         {
@@ -1594,11 +1389,107 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.412,
           "games": 1199
         }
       ]
+    },
+    {
+      "augmentId": 1088,
+      "tier": 5,
+      "pickrate": 0.0102,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1450
+        }
+      ]
+    },
+    {
+      "augmentId": 1325,
+      "tier": 5,
+      "pickrate": 0.0068,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 958
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": 5,
+      "pickrate": 0.0077,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1085
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": 5,
+      "pickrate": 0.0068,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 970
+        }
+      ]
+    },
+    {
+      "augmentId": 2091,
+      "tier": 5,
+      "pickrate": 0.0028,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 399
+        }
+      ]
+    },
+    {
+      "augmentId": 2118,
+      "tier": 5,
+      "pickrate": 0.0064,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 907
+        }
+      ]
+    },
+    {
+      "augmentId": 2137,
+      "tier": 5,
+      "pickrate": 0.0025,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vex?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 357
+        }
+      ]
     }
-  ],
-  "method": "equal-source-mean"
+  ]
 }

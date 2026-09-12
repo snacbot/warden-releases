@@ -1,17 +1,15 @@
 {
+  "version": 1,
+  "method": "warden-performance-tiers-v1",
   "championId": 32,
   "championKey": "Amumu",
   "set": "aram",
-  "source": "Mayhem source average",
-  "sourceUrl": "https://github.com/snacbot/warden-releases/blob/mayhem-data/README.md",
-  "winrateScope": "champion",
-  "pickrateScope": "champion",
   "patch": "16.18",
   "scrapedAt": "2026-09-12T02:34:26.350Z",
   "augments": [
     {
       "augmentId": 2031,
-      "winrate": 0.5627,
+      "tier": 1,
       "pickrate": 0.0381,
       "contributions": [
         {
@@ -19,59 +17,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5627,
           "games": 14685
         }
       ]
     },
     {
-      "augmentId": 2098,
-      "winrate": 0.5432,
-      "pickrate": 0.0072,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5432,
-          "games": 2780
-        }
-      ]
-    },
-    {
-      "augmentId": 2102,
-      "winrate": 0.5339,
-      "pickrate": 0.0767,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5339,
-          "games": 29569
-        }
-      ]
-    },
-    {
-      "augmentId": 1361,
-      "winrate": 0.5336,
-      "pickrate": 0.0435,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5336,
-          "games": 16796
-        }
-      ]
-    },
-    {
       "augmentId": 1045,
-      "winrate": 0.5327,
+      "tier": 2,
       "pickrate": 0.0449,
       "contributions": [
         {
@@ -79,14 +31,69 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5327,
           "games": 17335
         }
       ]
     },
     {
+      "augmentId": 1361,
+      "tier": 2,
+      "pickrate": 0.0435,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16796
+        }
+      ]
+    },
+    {
+      "augmentId": 2095,
+      "tier": 2,
+      "pickrate": 0.0177,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6812
+        }
+      ]
+    },
+    {
+      "augmentId": 2098,
+      "tier": 2,
+      "pickrate": 0.0072,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2780
+        }
+      ]
+    },
+    {
+      "augmentId": 2102,
+      "tier": 2,
+      "pickrate": 0.0767,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 29569
+        }
+      ]
+    },
+    {
       "augmentId": 2107,
-      "winrate": 0.5282,
+      "tier": 2,
       "pickrate": 0.0044,
       "contributions": [
         {
@@ -94,629 +101,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5282,
           "games": 1683
         }
       ]
     },
     {
-      "augmentId": 2095,
-      "winrate": 0.5236,
-      "pickrate": 0.0177,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5236,
-          "games": 6812
-        }
-      ]
-    },
-    {
-      "augmentId": 2076,
-      "winrate": 0.5195,
-      "pickrate": 0.1021,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5195,
-          "games": 39386
-        }
-      ]
-    },
-    {
-      "augmentId": 2127,
-      "winrate": 0.5161,
-      "pickrate": 0.0298,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5161,
-          "games": 11487
-        }
-      ]
-    },
-    {
-      "augmentId": 1152,
-      "winrate": 0.5131,
-      "pickrate": 0.1202,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5131,
-          "games": 46365
-        }
-      ]
-    },
-    {
-      "augmentId": 1053,
-      "winrate": 0.5127,
-      "pickrate": 0.0282,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5127,
-          "games": 10884
-        }
-      ]
-    },
-    {
-      "augmentId": 1028,
-      "winrate": 0.5103,
-      "pickrate": 0.027,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5103,
-          "games": 10406
-        }
-      ]
-    },
-    {
-      "augmentId": 1337,
-      "winrate": 0.5098,
-      "pickrate": 0.0048,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5098,
-          "games": 1844
-        }
-      ]
-    },
-    {
-      "augmentId": 1187,
-      "winrate": 0.5094,
-      "pickrate": 0.0011,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5094,
-          "games": 424
-        }
-      ]
-    },
-    {
-      "augmentId": 1319,
-      "winrate": 0.5056,
-      "pickrate": 0.0874,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5056,
-          "games": 33719
-        }
-      ]
-    },
-    {
-      "augmentId": 1333,
-      "winrate": 0.5055,
-      "pickrate": 0.0464,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5055,
-          "games": 17902
-        }
-      ]
-    },
-    {
-      "augmentId": 1390,
-      "winrate": 0.503,
-      "pickrate": 0.0551,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.503,
-          "games": 21239
-        }
-      ]
-    },
-    {
-      "augmentId": 1041,
-      "winrate": 0.5023,
-      "pickrate": 0.0884,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5023,
-          "games": 34082
-        }
-      ]
-    },
-    {
-      "augmentId": 2119,
-      "winrate": 0.5006,
-      "pickrate": 0.0065,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5006,
-          "games": 2511
-        }
-      ]
-    },
-    {
-      "augmentId": 1029,
-      "winrate": 0.498,
-      "pickrate": 0.084,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.498,
-          "games": 32387
-        }
-      ]
-    },
-    {
-      "augmentId": 1310,
-      "winrate": 0.4961,
-      "pickrate": 0.0269,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4961,
-          "games": 10377
-        }
-      ]
-    },
-    {
-      "augmentId": 1238,
-      "winrate": 0.4954,
-      "pickrate": 0.0816,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4954,
-          "games": 31480
-        }
-      ]
-    },
-    {
-      "augmentId": 1062,
-      "winrate": 0.4951,
-      "pickrate": 0.0055,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4951,
-          "games": 2133
-        }
-      ]
-    },
-    {
-      "augmentId": 1353,
-      "winrate": 0.4943,
-      "pickrate": 0.1672,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4943,
-          "games": 64503
-        }
-      ]
-    },
-    {
-      "augmentId": 2032,
-      "winrate": 0.4936,
-      "pickrate": 0.0238,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4936,
-          "games": 9172
-        }
-      ]
-    },
-    {
-      "augmentId": 1025,
-      "winrate": 0.4932,
-      "pickrate": 0.0688,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4932,
-          "games": 26521
-        }
-      ]
-    },
-    {
-      "augmentId": 1013,
-      "winrate": 0.4931,
-      "pickrate": 0.1063,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4931,
-          "games": 41012
-        }
-      ]
-    },
-    {
-      "augmentId": 2128,
-      "winrate": 0.4927,
-      "pickrate": 0.1387,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4927,
-          "games": 53493
-        }
-      ]
-    },
-    {
-      "augmentId": 1181,
-      "winrate": 0.4925,
-      "pickrate": 0.0732,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4925,
-          "games": 28247
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "winrate": 0.492,
-      "pickrate": 0.019,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.492,
-          "games": 7313
-        }
-      ]
-    },
-    {
-      "augmentId": 1308,
-      "winrate": 0.4918,
-      "pickrate": 0.0102,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4918,
-          "games": 3924
-        }
-      ]
-    },
-    {
-      "augmentId": 1323,
-      "winrate": 0.4905,
-      "pickrate": 0.0385,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4905,
-          "games": 14854
-        }
-      ]
-    },
-    {
-      "augmentId": 1195,
-      "winrate": 0.4904,
-      "pickrate": 0.0043,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4904,
-          "games": 1664
-        }
-      ]
-    },
-    {
-      "augmentId": 1401,
-      "winrate": 0.4904,
-      "pickrate": 0.0543,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4904,
-          "games": 20953
-        }
-      ]
-    },
-    {
-      "augmentId": 2006,
-      "winrate": 0.489,
-      "pickrate": 0.1254,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.489,
-          "games": 48353
-        }
-      ]
-    },
-    {
-      "augmentId": 2091,
-      "winrate": 0.4884,
-      "pickrate": 0.0479,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4884,
-          "games": 18469
-        }
-      ]
-    },
-    {
-      "augmentId": 1335,
-      "winrate": 0.4883,
-      "pickrate": 0.0048,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4883,
-          "games": 1845
-        }
-      ]
-    },
-    {
-      "augmentId": 1402,
-      "winrate": 0.4883,
-      "pickrate": 0.006,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4883,
-          "games": 2314
-        }
-      ]
-    },
-    {
-      "augmentId": 1415,
-      "winrate": 0.4877,
-      "pickrate": 0.0124,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4877,
-          "games": 4798
-        }
-      ]
-    },
-    {
-      "augmentId": 1403,
-      "winrate": 0.4862,
-      "pickrate": 0.0162,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4862,
-          "games": 6255
-        }
-      ]
-    },
-    {
-      "augmentId": 1413,
-      "winrate": 0.4862,
-      "pickrate": 0.0221,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4862,
-          "games": 8506
-        }
-      ]
-    },
-    {
-      "augmentId": 2062,
-      "winrate": 0.4856,
-      "pickrate": 0.0394,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4856,
-          "games": 15203
-        }
-      ]
-    },
-    {
-      "augmentId": 1020,
-      "winrate": 0.4851,
-      "pickrate": 0.0473,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4851,
-          "games": 18262
-        }
-      ]
-    },
-    {
-      "augmentId": 2089,
-      "winrate": 0.4847,
-      "pickrate": 0.0102,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4847,
-          "games": 3953
-        }
-      ]
-    },
-    {
-      "augmentId": 1057,
-      "winrate": 0.4843,
-      "pickrate": 0.0055,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4843,
-          "games": 2131
-        }
-      ]
-    },
-    {
-      "augmentId": 2139,
-      "winrate": 0.4841,
-      "pickrate": 0.0375,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4841,
-          "games": 14474
-        }
-      ]
-    },
-    {
-      "augmentId": 1243,
-      "winrate": 0.4839,
-      "pickrate": 0.0249,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4839,
-          "games": 9616
-        }
-      ]
-    },
-    {
       "augmentId": 1002,
-      "winrate": 0.4819,
+      "tier": 3,
       "pickrate": 0.0267,
       "contributions": [
         {
@@ -724,884 +115,111 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4819,
           "games": 10299
         }
       ]
     },
     {
-      "augmentId": 1344,
-      "winrate": 0.4816,
-      "pickrate": 0.0105,
+      "augmentId": 1013,
+      "tier": 3,
+      "pickrate": 0.1063,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4816,
-          "games": 4045
+          "games": 41012
         }
       ]
     },
     {
-      "augmentId": 1384,
-      "winrate": 0.4811,
-      "pickrate": 0.0241,
+      "augmentId": 1020,
+      "tier": 3,
+      "pickrate": 0.0473,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4811,
-          "games": 9278
+          "games": 18262
         }
       ]
     },
     {
-      "augmentId": 2077,
-      "winrate": 0.4806,
-      "pickrate": 0.0531,
+      "augmentId": 1025,
+      "tier": 3,
+      "pickrate": 0.0688,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4806,
-          "games": 20477
+          "games": 26521
         }
       ]
     },
     {
-      "augmentId": 1088,
-      "winrate": 0.4796,
-      "pickrate": 0.0471,
+      "augmentId": 1028,
+      "tier": 3,
+      "pickrate": 0.027,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4796,
-          "games": 18170
+          "games": 10406
         }
       ]
     },
     {
-      "augmentId": 1404,
-      "winrate": 0.4794,
-      "pickrate": 0.007,
+      "augmentId": 1029,
+      "tier": 3,
+      "pickrate": 0.084,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4794,
-          "games": 2693
+          "games": 32387
         }
       ]
     },
     {
-      "augmentId": 1315,
-      "winrate": 0.4791,
-      "pickrate": 0.0128,
+      "augmentId": 1041,
+      "tier": 3,
+      "pickrate": 0.0884,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4791,
-          "games": 4936
+          "games": 34082
         }
       ]
     },
     {
-      "augmentId": 1038,
-      "winrate": 0.4778,
-      "pickrate": 0.0136,
+      "augmentId": 1053,
+      "tier": 3,
+      "pickrate": 0.0282,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4778,
-          "games": 5232
+          "games": 10884
         }
       ]
     },
     {
-      "augmentId": 1237,
-      "winrate": 0.4775,
-      "pickrate": 0.0467,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4775,
-          "games": 18028
-        }
-      ]
-    },
-    {
-      "augmentId": 1018,
-      "winrate": 0.4761,
-      "pickrate": 0.0345,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4761,
-          "games": 13316
-        }
-      ]
-    },
-    {
-      "augmentId": 2132,
-      "winrate": 0.4758,
-      "pickrate": 0.0436,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4758,
-          "games": 16832
-        }
-      ]
-    },
-    {
-      "augmentId": 1305,
-      "winrate": 0.4747,
-      "pickrate": 0.0251,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4747,
-          "games": 9663
-        }
-      ]
-    },
-    {
-      "augmentId": 1373,
-      "winrate": 0.4745,
-      "pickrate": 0.0183,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4745,
-          "games": 7041
-        }
-      ]
-    },
-    {
-      "augmentId": 2026,
-      "winrate": 0.4739,
-      "pickrate": 0.006,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4739,
-          "games": 2298
-        }
-      ]
-    },
-    {
-      "augmentId": 1332,
-      "winrate": 0.4735,
-      "pickrate": 0.006,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4735,
-          "games": 2302
-        }
-      ]
-    },
-    {
-      "augmentId": 1375,
-      "winrate": 0.4731,
-      "pickrate": 0.0455,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4731,
-          "games": 17553
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "winrate": 0.4728,
-      "pickrate": 0.0298,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4728,
-          "games": 11480
-        }
-      ]
-    },
-    {
-      "augmentId": 1138,
-      "winrate": 0.4723,
-      "pickrate": 0.0174,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4723,
-          "games": 6707
-        }
-      ]
-    },
-    {
-      "augmentId": 1073,
-      "winrate": 0.472,
-      "pickrate": 0.008,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.472,
-          "games": 3087
-        }
-      ]
-    },
-    {
-      "augmentId": 1149,
-      "winrate": 0.4716,
-      "pickrate": 0.0279,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4716,
-          "games": 10747
-        }
-      ]
-    },
-    {
-      "augmentId": 1180,
-      "winrate": 0.4714,
-      "pickrate": 0.0083,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4714,
-          "games": 3218
-        }
-      ]
-    },
-    {
-      "augmentId": 1136,
-      "winrate": 0.4713,
-      "pickrate": 0.0476,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4713,
-          "games": 18356
-        }
-      ]
-    },
-    {
-      "augmentId": 1068,
-      "winrate": 0.4701,
-      "pickrate": 0.0566,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4701,
-          "games": 21849
-        }
-      ]
-    },
-    {
-      "augmentId": 1056,
-      "winrate": 0.47,
-      "pickrate": 0.0302,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.47,
-          "games": 11634
-        }
-      ]
-    },
-    {
-      "augmentId": 2005,
-      "winrate": 0.4697,
-      "pickrate": 0.0133,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4697,
-          "games": 5118
-        }
-      ]
-    },
-    {
-      "augmentId": 1001,
-      "winrate": 0.4657,
-      "pickrate": 0.0363,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4657,
-          "games": 13995
-        }
-      ]
-    },
-    {
-      "augmentId": 2064,
-      "winrate": 0.4648,
-      "pickrate": 0.0342,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4648,
-          "games": 13190
-        }
-      ]
-    },
-    {
-      "augmentId": 2115,
-      "winrate": 0.4648,
-      "pickrate": 0.0075,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4648,
-          "games": 2887
-        }
-      ]
-    },
-    {
-      "augmentId": 1063,
-      "winrate": 0.4638,
-      "pickrate": 0.0107,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4638,
-          "games": 4120
-        }
-      ]
-    },
-    {
-      "augmentId": 1388,
-      "winrate": 0.4633,
-      "pickrate": 0.0224,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4633,
-          "games": 8625
-        }
-      ]
-    },
-    {
-      "augmentId": 1421,
-      "winrate": 0.4627,
-      "pickrate": 0.0057,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4627,
-          "games": 2200
-        }
-      ]
-    },
-    {
-      "augmentId": 2082,
-      "winrate": 0.4625,
-      "pickrate": 0.015,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4625,
-          "games": 5767
-        }
-      ]
-    },
-    {
-      "augmentId": 1103,
-      "winrate": 0.4622,
-      "pickrate": 0.0231,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4622,
-          "games": 8926
-        }
-      ]
-    },
-    {
-      "augmentId": 1116,
-      "winrate": 0.4614,
-      "pickrate": 0.0254,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4614,
-          "games": 9792
-        }
-      ]
-    },
-    {
-      "augmentId": 2043,
-      "winrate": 0.4611,
-      "pickrate": 0.0178,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4611,
-          "games": 6875
-        }
-      ]
-    },
-    {
-      "augmentId": 1214,
-      "winrate": 0.4607,
-      "pickrate": 0.0299,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4607,
-          "games": 11516
-        }
-      ]
-    },
-    {
-      "augmentId": 1058,
-      "winrate": 0.4584,
-      "pickrate": 0.0066,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4584,
-          "games": 2535
-        }
-      ]
-    },
-    {
-      "augmentId": 1097,
-      "winrate": 0.4579,
-      "pickrate": 0.0182,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4579,
-          "games": 7039
-        }
-      ]
-    },
-    {
-      "augmentId": 2034,
-      "winrate": 0.4555,
-      "pickrate": 0.0136,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4555,
-          "games": 5232
-        }
-      ]
-    },
-    {
-      "augmentId": 1027,
-      "winrate": 0.4541,
-      "pickrate": 0.0035,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4541,
-          "games": 1361
-        }
-      ]
-    },
-    {
-      "augmentId": 1044,
-      "winrate": 0.4522,
-      "pickrate": 0.0142,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4522,
-          "games": 5486
-        }
-      ]
-    },
-    {
-      "augmentId": 1389,
-      "winrate": 0.4521,
-      "pickrate": 0.0017,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4521,
-          "games": 668
-        }
-      ]
-    },
-    {
-      "augmentId": 2088,
-      "winrate": 0.4521,
-      "pickrate": 0.0198,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4521,
-          "games": 7637
-        }
-      ]
-    },
-    {
-      "augmentId": 1156,
-      "winrate": 0.4511,
-      "pickrate": 0.0095,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4511,
-          "games": 3660
-        }
-      ]
-    },
-    {
-      "augmentId": 1358,
-      "winrate": 0.4508,
-      "pickrate": 0.0187,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4508,
-          "games": 7199
-        }
-      ]
-    },
-    {
-      "augmentId": 12317,
-      "winrate": 0.4504,
-      "pickrate": 0.0185,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4504,
-          "games": 7149
-        }
-      ]
-    },
-    {
-      "augmentId": 1011,
-      "winrate": 0.4503,
-      "pickrate": 0.005,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4503,
-          "games": 1930
-        }
-      ]
-    },
-    {
-      "augmentId": 1205,
-      "winrate": 0.4499,
-      "pickrate": 0.0337,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4499,
-          "games": 13012
-        }
-      ]
-    },
-    {
-      "augmentId": 1318,
-      "winrate": 0.4497,
-      "pickrate": 0.0111,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4497,
-          "games": 4285
-        }
-      ]
-    },
-    {
-      "augmentId": 1311,
-      "winrate": 0.4487,
-      "pickrate": 0.0059,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4487,
-          "games": 2282
-        }
-      ]
-    },
-    {
-      "augmentId": 1046,
-      "winrate": 0.4485,
-      "pickrate": 0.0074,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4485,
-          "games": 2854
-        }
-      ]
-    },
-    {
-      "augmentId": 1348,
-      "winrate": 0.4478,
-      "pickrate": 0.0008,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4478,
-          "games": 297
-        }
-      ]
-    },
-    {
-      "augmentId": 1084,
-      "winrate": 0.4465,
-      "pickrate": 0.0148,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4465,
-          "games": 5722
-        }
-      ]
-    },
-    {
-      "augmentId": 1098,
-      "winrate": 0.4465,
-      "pickrate": 0.0062,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4465,
-          "games": 2394
-        }
-      ]
-    },
-    {
-      "augmentId": 2099,
-      "winrate": 0.4463,
-      "pickrate": 0.0058,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4463,
-          "games": 2227
-        }
-      ]
-    },
-    {
-      "augmentId": 1151,
-      "winrate": 0.4445,
-      "pickrate": 0.0168,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4445,
-          "games": 6483
-        }
-      ]
-    },
-    {
-      "augmentId": 1386,
-      "winrate": 0.4444,
-      "pickrate": 0.0032,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4444,
-          "games": 1224
-        }
-      ]
-    },
-    {
-      "augmentId": 2080,
-      "winrate": 0.4441,
-      "pickrate": 0.0158,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4441,
-          "games": 6091
-        }
-      ]
-    },
-    {
-      "augmentId": 1301,
-      "winrate": 0.4438,
-      "pickrate": 0.0171,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4438,
-          "games": 6598
-        }
-      ]
-    },
-    {
-      "augmentId": 1129,
-      "winrate": 0.4417,
+      "augmentId": 1057,
+      "tier": 3,
       "pickrate": 0.0055,
       "contributions": [
         {
@@ -1609,29 +227,69 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4417,
-          "games": 2126
+          "games": 2131
         }
       ]
     },
     {
-      "augmentId": 1154,
-      "winrate": 0.4414,
-      "pickrate": 0.0063,
+      "augmentId": 1060,
+      "tier": 3,
+      "pickrate": 0.019,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4414,
-          "games": 2422
+          "games": 7313
         }
       ]
     },
     {
-      "augmentId": 2046,
-      "winrate": 0.4412,
+      "augmentId": 1062,
+      "tier": 3,
+      "pickrate": 0.0055,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2133
+        }
+      ]
+    },
+    {
+      "augmentId": 1152,
+      "tier": 3,
+      "pickrate": 0.1202,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 46365
+        }
+      ]
+    },
+    {
+      "augmentId": 1181,
+      "tier": 3,
+      "pickrate": 0.0732,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 28247
+        }
+      ]
+    },
+    {
+      "augmentId": 1187,
+      "tier": 3,
       "pickrate": 0.0011,
       "contributions": [
         {
@@ -1639,44 +297,265 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4412,
-          "games": 442
+          "games": 424
         }
       ]
     },
     {
-      "augmentId": 1211,
-      "winrate": 0.4408,
-      "pickrate": 0.0261,
+      "augmentId": 1195,
+      "tier": 3,
+      "pickrate": 0.0043,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4408,
-          "games": 10069
+          "games": 1664
         }
       ]
     },
     {
-      "augmentId": 2137,
-      "winrate": 0.4407,
-      "pickrate": 0.0051,
+      "augmentId": 1238,
+      "tier": 3,
+      "pickrate": 0.0816,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4407,
-          "games": 1983
+          "games": 31480
         }
       ]
     },
     {
-      "augmentId": 2087,
-      "winrate": 0.4396,
+      "augmentId": 1243,
+      "tier": 3,
+      "pickrate": 0.0249,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9616
+        }
+      ]
+    },
+    {
+      "augmentId": 1308,
+      "tier": 3,
+      "pickrate": 0.0102,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3924
+        }
+      ]
+    },
+    {
+      "augmentId": 1310,
+      "tier": 3,
+      "pickrate": 0.0269,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10377
+        }
+      ]
+    },
+    {
+      "augmentId": 1319,
+      "tier": 3,
+      "pickrate": 0.0874,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 33719
+        }
+      ]
+    },
+    {
+      "augmentId": 1323,
+      "tier": 3,
+      "pickrate": 0.0385,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14854
+        }
+      ]
+    },
+    {
+      "augmentId": 1333,
+      "tier": 3,
+      "pickrate": 0.0464,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17902
+        }
+      ]
+    },
+    {
+      "augmentId": 1335,
+      "tier": 3,
+      "pickrate": 0.0048,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1845
+        }
+      ]
+    },
+    {
+      "augmentId": 1337,
+      "tier": 3,
+      "pickrate": 0.0048,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1844
+        }
+      ]
+    },
+    {
+      "augmentId": 1344,
+      "tier": 3,
+      "pickrate": 0.0105,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4045
+        }
+      ]
+    },
+    {
+      "augmentId": 1353,
+      "tier": 3,
+      "pickrate": 0.1672,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 64503
+        }
+      ]
+    },
+    {
+      "augmentId": 1384,
+      "tier": 3,
+      "pickrate": 0.0241,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9278
+        }
+      ]
+    },
+    {
+      "augmentId": 1390,
+      "tier": 3,
+      "pickrate": 0.0551,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 21239
+        }
+      ]
+    },
+    {
+      "augmentId": 1401,
+      "tier": 3,
+      "pickrate": 0.0543,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 20953
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": 3,
+      "pickrate": 0.006,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2314
+        }
+      ]
+    },
+    {
+      "augmentId": 1403,
+      "tier": 3,
+      "pickrate": 0.0162,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6255
+        }
+      ]
+    },
+    {
+      "augmentId": 1413,
+      "tier": 3,
+      "pickrate": 0.0221,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8506
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": 3,
       "pickrate": 0.0124,
       "contributions": [
         {
@@ -1684,239 +563,279 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4396,
-          "games": 4773
+          "games": 4798
         }
       ]
     },
     {
-      "augmentId": 1004,
-      "winrate": 0.439,
-      "pickrate": 0.0029,
+      "augmentId": 2006,
+      "tier": 3,
+      "pickrate": 0.1254,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.439,
-          "games": 1123
+          "games": 48353
         }
       ]
     },
     {
-      "augmentId": 2118,
-      "winrate": 0.437,
-      "pickrate": 0.0286,
+      "augmentId": 2032,
+      "tier": 3,
+      "pickrate": 0.0238,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.437,
-          "games": 11013
+          "games": 9172
         }
       ]
     },
     {
-      "augmentId": 1030,
-      "winrate": 0.4369,
-      "pickrate": 0.0178,
+      "augmentId": 2062,
+      "tier": 3,
+      "pickrate": 0.0394,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4369,
-          "games": 6851
+          "games": 15203
         }
       ]
     },
     {
-      "augmentId": 1048,
-      "winrate": 0.4366,
-      "pickrate": 0.0159,
+      "augmentId": 2076,
+      "tier": 3,
+      "pickrate": 0.1021,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4366,
-          "games": 6139
+          "games": 39386
         }
       ]
     },
     {
-      "augmentId": 1996,
-      "winrate": 0.436,
-      "pickrate": 0.0024,
+      "augmentId": 2077,
+      "tier": 3,
+      "pickrate": 0.0531,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.436,
-          "games": 922
+          "games": 20477
         }
       ]
     },
     {
-      "augmentId": 1392,
-      "winrate": 0.4346,
-      "pickrate": 0.008,
+      "augmentId": 2089,
+      "tier": 3,
+      "pickrate": 0.0102,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4346,
-          "games": 3104
+          "games": 3953
         }
       ]
     },
     {
-      "augmentId": 2018,
-      "winrate": 0.4346,
-      "pickrate": 0.0168,
+      "augmentId": 2091,
+      "tier": 3,
+      "pickrate": 0.0479,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4346,
-          "games": 6495
+          "games": 18469
         }
       ]
     },
     {
-      "augmentId": 1019,
-      "winrate": 0.4344,
-      "pickrate": 0.0053,
+      "augmentId": 2119,
+      "tier": 3,
+      "pickrate": 0.0065,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4344,
-          "games": 2042
+          "games": 2511
         }
       ]
     },
     {
-      "augmentId": 1112,
-      "winrate": 0.434,
-      "pickrate": 0.0134,
+      "augmentId": 2127,
+      "tier": 3,
+      "pickrate": 0.0298,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.434,
-          "games": 5184
+          "games": 11487
         }
       ]
     },
     {
-      "augmentId": 1349,
-      "winrate": 0.4317,
-      "pickrate": 0.0172,
+      "augmentId": 2128,
+      "tier": 3,
+      "pickrate": 0.1387,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4317,
-          "games": 6621
+          "games": 53493
         }
       ]
     },
     {
-      "augmentId": 2016,
-      "winrate": 0.4309,
-      "pickrate": 0.0021,
+      "augmentId": 2139,
+      "tier": 3,
+      "pickrate": 0.0375,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4309,
-          "games": 803
+          "games": 14474
         }
       ]
     },
     {
-      "augmentId": 2100,
-      "winrate": 0.4308,
-      "pickrate": 0.0177,
+      "augmentId": 1001,
+      "tier": 4,
+      "pickrate": 0.0363,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4308,
-          "games": 6832
+          "games": 13995
         }
       ]
     },
     {
-      "augmentId": 1194,
-      "winrate": 0.4307,
-      "pickrate": 0.0154,
+      "augmentId": 1011,
+      "tier": 4,
+      "pickrate": 0.005,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4307,
-          "games": 5944
+          "games": 1930
         }
       ]
     },
     {
-      "augmentId": 2083,
-      "winrate": 0.4274,
-      "pickrate": 0.0211,
+      "augmentId": 1018,
+      "tier": 4,
+      "pickrate": 0.0345,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4274,
-          "games": 8139
+          "games": 13316
         }
       ]
     },
     {
-      "augmentId": 2134,
-      "winrate": 0.4237,
-      "pickrate": 0.003,
+      "augmentId": 1027,
+      "tier": 4,
+      "pickrate": 0.0035,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4237,
-          "games": 1154
+          "games": 1361
         }
       ]
     },
     {
-      "augmentId": 2116,
-      "winrate": 0.4226,
+      "augmentId": 1038,
+      "tier": 4,
+      "pickrate": 0.0136,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5232
+        }
+      ]
+    },
+    {
+      "augmentId": 1044,
+      "tier": 4,
+      "pickrate": 0.0142,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5486
+        }
+      ]
+    },
+    {
+      "augmentId": 1056,
+      "tier": 4,
+      "pickrate": 0.0302,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11634
+        }
+      ]
+    },
+    {
+      "augmentId": 1058,
+      "tier": 4,
+      "pickrate": 0.0066,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2535
+        }
+      ]
+    },
+    {
+      "augmentId": 1063,
+      "tier": 4,
       "pickrate": 0.0107,
       "contributions": [
         {
@@ -1924,29 +843,335 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4226,
-          "games": 4139
+          "games": 4120
         }
       ]
     },
     {
-      "augmentId": 2063,
-      "winrate": 0.4225,
-      "pickrate": 0.0012,
+      "augmentId": 1068,
+      "tier": 4,
+      "pickrate": 0.0566,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4225,
-          "games": 445
+          "games": 21849
         }
       ]
     },
     {
-      "augmentId": 1054,
-      "winrate": 0.4148,
+      "augmentId": 1073,
+      "tier": 4,
+      "pickrate": 0.008,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3087
+        }
+      ]
+    },
+    {
+      "augmentId": 1088,
+      "tier": 4,
+      "pickrate": 0.0471,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18170
+        }
+      ]
+    },
+    {
+      "augmentId": 1097,
+      "tier": 4,
+      "pickrate": 0.0182,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7039
+        }
+      ]
+    },
+    {
+      "augmentId": 1103,
+      "tier": 4,
+      "pickrate": 0.0231,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8926
+        }
+      ]
+    },
+    {
+      "augmentId": 1116,
+      "tier": 4,
+      "pickrate": 0.0254,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9792
+        }
+      ]
+    },
+    {
+      "augmentId": 1136,
+      "tier": 4,
+      "pickrate": 0.0476,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18356
+        }
+      ]
+    },
+    {
+      "augmentId": 1138,
+      "tier": 4,
+      "pickrate": 0.0174,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6707
+        }
+      ]
+    },
+    {
+      "augmentId": 1149,
+      "tier": 4,
+      "pickrate": 0.0279,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10747
+        }
+      ]
+    },
+    {
+      "augmentId": 1156,
+      "tier": 4,
+      "pickrate": 0.0095,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3660
+        }
+      ]
+    },
+    {
+      "augmentId": 1180,
+      "tier": 4,
+      "pickrate": 0.0083,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3218
+        }
+      ]
+    },
+    {
+      "augmentId": 1214,
+      "tier": 4,
+      "pickrate": 0.0299,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11516
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": 4,
+      "pickrate": 0.0467,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18028
+        }
+      ]
+    },
+    {
+      "augmentId": 1305,
+      "tier": 4,
+      "pickrate": 0.0251,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9663
+        }
+      ]
+    },
+    {
+      "augmentId": 1315,
+      "tier": 4,
+      "pickrate": 0.0128,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4936
+        }
+      ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": 4,
+      "pickrate": 0.0298,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11480
+        }
+      ]
+    },
+    {
+      "augmentId": 1332,
+      "tier": 4,
+      "pickrate": 0.006,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2302
+        }
+      ]
+    },
+    {
+      "augmentId": 1358,
+      "tier": 4,
+      "pickrate": 0.0187,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7199
+        }
+      ]
+    },
+    {
+      "augmentId": 1373,
+      "tier": 4,
+      "pickrate": 0.0183,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7041
+        }
+      ]
+    },
+    {
+      "augmentId": 1375,
+      "tier": 4,
+      "pickrate": 0.0455,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17553
+        }
+      ]
+    },
+    {
+      "augmentId": 1388,
+      "tier": 4,
+      "pickrate": 0.0224,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8625
+        }
+      ]
+    },
+    {
+      "augmentId": 1389,
+      "tier": 4,
+      "pickrate": 0.0017,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 668
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": 4,
+      "pickrate": 0.007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2693
+        }
+      ]
+    },
+    {
+      "augmentId": 1421,
+      "tier": 4,
       "pickrate": 0.0057,
       "contributions": [
         {
@@ -1954,14 +1179,503 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4148,
+          "games": 2200
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": 4,
+      "pickrate": 0.0133,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5118
+        }
+      ]
+    },
+    {
+      "augmentId": 2026,
+      "tier": 4,
+      "pickrate": 0.006,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2298
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": 4,
+      "pickrate": 0.0136,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5232
+        }
+      ]
+    },
+    {
+      "augmentId": 2043,
+      "tier": 4,
+      "pickrate": 0.0178,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6875
+        }
+      ]
+    },
+    {
+      "augmentId": 2064,
+      "tier": 4,
+      "pickrate": 0.0342,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13190
+        }
+      ]
+    },
+    {
+      "augmentId": 2082,
+      "tier": 4,
+      "pickrate": 0.015,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5767
+        }
+      ]
+    },
+    {
+      "augmentId": 2088,
+      "tier": 4,
+      "pickrate": 0.0198,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7637
+        }
+      ]
+    },
+    {
+      "augmentId": 2115,
+      "tier": 4,
+      "pickrate": 0.0075,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2887
+        }
+      ]
+    },
+    {
+      "augmentId": 2132,
+      "tier": 4,
+      "pickrate": 0.0436,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16832
+        }
+      ]
+    },
+    {
+      "augmentId": 12317,
+      "tier": 4,
+      "pickrate": 0.0185,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7149
+        }
+      ]
+    },
+    {
+      "augmentId": 1004,
+      "tier": 5,
+      "pickrate": 0.0029,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1123
+        }
+      ]
+    },
+    {
+      "augmentId": 1019,
+      "tier": 5,
+      "pickrate": 0.0053,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2042
+        }
+      ]
+    },
+    {
+      "augmentId": 1030,
+      "tier": 5,
+      "pickrate": 0.0178,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6851
+        }
+      ]
+    },
+    {
+      "augmentId": 1046,
+      "tier": 5,
+      "pickrate": 0.0074,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2854
+        }
+      ]
+    },
+    {
+      "augmentId": 1048,
+      "tier": 5,
+      "pickrate": 0.0159,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6139
+        }
+      ]
+    },
+    {
+      "augmentId": 1054,
+      "tier": 5,
+      "pickrate": 0.0057,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
           "games": 2184
         }
       ]
     },
     {
+      "augmentId": 1084,
+      "tier": 5,
+      "pickrate": 0.0148,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5722
+        }
+      ]
+    },
+    {
+      "augmentId": 1098,
+      "tier": 5,
+      "pickrate": 0.0062,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2394
+        }
+      ]
+    },
+    {
+      "augmentId": 1112,
+      "tier": 5,
+      "pickrate": 0.0134,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5184
+        }
+      ]
+    },
+    {
+      "augmentId": 1129,
+      "tier": 5,
+      "pickrate": 0.0055,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2126
+        }
+      ]
+    },
+    {
+      "augmentId": 1151,
+      "tier": 5,
+      "pickrate": 0.0168,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6483
+        }
+      ]
+    },
+    {
+      "augmentId": 1154,
+      "tier": 5,
+      "pickrate": 0.0063,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2422
+        }
+      ]
+    },
+    {
+      "augmentId": 1194,
+      "tier": 5,
+      "pickrate": 0.0154,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5944
+        }
+      ]
+    },
+    {
+      "augmentId": 1205,
+      "tier": 5,
+      "pickrate": 0.0337,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13012
+        }
+      ]
+    },
+    {
+      "augmentId": 1211,
+      "tier": 5,
+      "pickrate": 0.0261,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10069
+        }
+      ]
+    },
+    {
+      "augmentId": 1301,
+      "tier": 5,
+      "pickrate": 0.0171,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6598
+        }
+      ]
+    },
+    {
+      "augmentId": 1311,
+      "tier": 5,
+      "pickrate": 0.0059,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2282
+        }
+      ]
+    },
+    {
+      "augmentId": 1318,
+      "tier": 5,
+      "pickrate": 0.0111,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4285
+        }
+      ]
+    },
+    {
+      "augmentId": 1348,
+      "tier": 5,
+      "pickrate": 0.0008,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 297
+        }
+      ]
+    },
+    {
+      "augmentId": 1349,
+      "tier": 5,
+      "pickrate": 0.0172,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6621
+        }
+      ]
+    },
+    {
+      "augmentId": 1386,
+      "tier": 5,
+      "pickrate": 0.0032,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1224
+        }
+      ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": 5,
+      "pickrate": 0.008,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3104
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": 5,
+      "pickrate": 0.0024,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 922
+        }
+      ]
+    },
+    {
+      "augmentId": 2016,
+      "tier": 5,
+      "pickrate": 0.0021,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 803
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": 5,
+      "pickrate": 0.0168,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6495
+        }
+      ]
+    },
+    {
       "augmentId": 2042,
-      "winrate": 0.4065,
+      "tier": 5,
       "pickrate": 0.0007,
       "contributions": [
         {
@@ -1969,11 +1683,163 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4065,
           "games": 278
         }
       ]
+    },
+    {
+      "augmentId": 2046,
+      "tier": 5,
+      "pickrate": 0.0011,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 442
+        }
+      ]
+    },
+    {
+      "augmentId": 2063,
+      "tier": 5,
+      "pickrate": 0.0012,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 445
+        }
+      ]
+    },
+    {
+      "augmentId": 2080,
+      "tier": 5,
+      "pickrate": 0.0158,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6091
+        }
+      ]
+    },
+    {
+      "augmentId": 2083,
+      "tier": 5,
+      "pickrate": 0.0211,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8139
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": 5,
+      "pickrate": 0.0124,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4773
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": 5,
+      "pickrate": 0.0058,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2227
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": 5,
+      "pickrate": 0.0177,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6832
+        }
+      ]
+    },
+    {
+      "augmentId": 2116,
+      "tier": 5,
+      "pickrate": 0.0107,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4139
+        }
+      ]
+    },
+    {
+      "augmentId": 2118,
+      "tier": 5,
+      "pickrate": 0.0286,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11013
+        }
+      ]
+    },
+    {
+      "augmentId": 2134,
+      "tier": 5,
+      "pickrate": 0.003,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1154
+        }
+      ]
+    },
+    {
+      "augmentId": 2137,
+      "tier": 5,
+      "pickrate": 0.0051,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/amumu?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1983
+        }
+      ]
     }
-  ],
-  "method": "equal-source-mean"
+  ]
 }

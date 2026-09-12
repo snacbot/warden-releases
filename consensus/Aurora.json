@@ -1,47 +1,15 @@
 {
+  "version": 1,
+  "method": "warden-performance-tiers-v1",
   "championId": 893,
   "championKey": "Aurora",
   "set": "aram",
-  "source": "Mayhem source average",
-  "sourceUrl": "https://github.com/snacbot/warden-releases/blob/mayhem-data/README.md",
-  "winrateScope": "champion",
-  "pickrateScope": "champion",
   "patch": "16.18",
   "scrapedAt": "2026-09-12T02:34:26.350Z",
   "augments": [
     {
-      "augmentId": 2095,
-      "winrate": 0.595,
-      "pickrate": 0.0246,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.595,
-          "games": 12750
-        }
-      ]
-    },
-    {
-      "augmentId": 1073,
-      "winrate": 0.5637,
-      "pickrate": 0.0851,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5637,
-          "games": 44130
-        }
-      ]
-    },
-    {
       "augmentId": 1004,
-      "winrate": 0.562,
+      "tier": 1,
       "pickrate": 0.0899,
       "contributions": [
         {
@@ -49,14 +17,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.562,
           "games": 46624
         }
       ]
     },
     {
       "augmentId": 1029,
-      "winrate": 0.5588,
+      "tier": 1,
       "pickrate": 0.195,
       "contributions": [
         {
@@ -64,14 +31,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5588,
           "games": 101149
         }
       ]
     },
     {
       "augmentId": 1053,
-      "winrate": 0.5531,
+      "tier": 1,
       "pickrate": 0.0299,
       "contributions": [
         {
@@ -79,14 +45,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5531,
           "games": 15485
         }
       ]
     },
     {
+      "augmentId": 1073,
+      "tier": 1,
+      "pickrate": 0.0851,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 44130
+        }
+      ]
+    },
+    {
       "augmentId": 1156,
-      "winrate": 0.5514,
+      "tier": 1,
       "pickrate": 0.054,
       "contributions": [
         {
@@ -94,59 +73,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5514,
           "games": 28013
         }
       ]
     },
     {
-      "augmentId": 1389,
-      "winrate": 0.5491,
-      "pickrate": 0.0036,
+      "augmentId": 2095,
+      "tier": 1,
+      "pickrate": 0.0246,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5491,
-          "games": 1883
-        }
-      ]
-    },
-    {
-      "augmentId": 1390,
-      "winrate": 0.5481,
-      "pickrate": 0.0938,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5481,
-          "games": 48644
-        }
-      ]
-    },
-    {
-      "augmentId": 1315,
-      "winrate": 0.5446,
-      "pickrate": 0.0133,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5446,
-          "games": 6904
+          "games": 12750
         }
       ]
     },
     {
       "augmentId": 1026,
-      "winrate": 0.5432,
+      "tier": 2,
       "pickrate": 0.021,
       "contributions": [
         {
@@ -154,89 +101,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5432,
           "games": 10892
         }
       ]
     },
     {
-      "augmentId": 1180,
-      "winrate": 0.5427,
-      "pickrate": 0.0282,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5427,
-          "games": 14633
-        }
-      ]
-    },
-    {
-      "augmentId": 1038,
-      "winrate": 0.5424,
-      "pickrate": 0.0717,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5424,
-          "games": 37179
-        }
-      ]
-    },
-    {
-      "augmentId": 1105,
-      "winrate": 0.5421,
-      "pickrate": 0.0371,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5421,
-          "games": 19263
-        }
-      ]
-    },
-    {
-      "augmentId": 2132,
-      "winrate": 0.5419,
-      "pickrate": 0.1702,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5419,
-          "games": 88255
-        }
-      ]
-    },
-    {
-      "augmentId": 1195,
-      "winrate": 0.5391,
-      "pickrate": 0.0609,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5391,
-          "games": 31561
-        }
-      ]
-    },
-    {
       "augmentId": 1030,
-      "winrate": 0.5365,
+      "tier": 2,
       "pickrate": 0.1213,
       "contributions": [
         {
@@ -244,194 +115,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5365,
           "games": 62902
         }
       ]
     },
     {
-      "augmentId": 1333,
-      "winrate": 0.5362,
-      "pickrate": 0.0296,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5362,
-          "games": 15342
-        }
-      ]
-    },
-    {
-      "augmentId": 1388,
-      "winrate": 0.5341,
-      "pickrate": 0.0569,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5341,
-          "games": 29512
-        }
-      ]
-    },
-    {
-      "augmentId": 1335,
-      "winrate": 0.5318,
-      "pickrate": 0.0072,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5318,
-          "games": 3757
-        }
-      ]
-    },
-    {
-      "augmentId": 1373,
-      "winrate": 0.529,
-      "pickrate": 0.1193,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.529,
-          "games": 61881
-        }
-      ]
-    },
-    {
-      "augmentId": 1098,
-      "winrate": 0.5251,
-      "pickrate": 0.0348,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5251,
-          "games": 18031
-        }
-      ]
-    },
-    {
-      "augmentId": 1384,
-      "winrate": 0.5249,
-      "pickrate": 0.0286,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5249,
-          "games": 14810
-        }
-      ]
-    },
-    {
-      "augmentId": 1403,
-      "winrate": 0.5245,
-      "pickrate": 0.0182,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5245,
-          "games": 9446
-        }
-      ]
-    },
-    {
-      "augmentId": 1063,
-      "winrate": 0.5233,
-      "pickrate": 0.0075,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5233,
-          "games": 3879
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "winrate": 0.5225,
-      "pickrate": 0.013,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5225,
-          "games": 6723
-        }
-      ]
-    },
-    {
-      "augmentId": 1062,
-      "winrate": 0.5215,
-      "pickrate": 0.0068,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5215,
-          "games": 3536
-        }
-      ]
-    },
-    {
-      "augmentId": 2083,
-      "winrate": 0.5212,
-      "pickrate": 0.1237,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5212,
-          "games": 64145
-        }
-      ]
-    },
-    {
-      "augmentId": 1138,
-      "winrate": 0.5209,
-      "pickrate": 0.0511,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5209,
-          "games": 26516
-        }
-      ]
-    },
-    {
       "augmentId": 1034,
-      "winrate": 0.5208,
+      "tier": 2,
       "pickrate": 0.0149,
       "contributions": [
         {
@@ -439,224 +129,55 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5208,
           "games": 7731
         }
       ]
     },
     {
-      "augmentId": 1061,
-      "winrate": 0.5198,
-      "pickrate": 0.0061,
+      "augmentId": 1038,
+      "tier": 2,
+      "pickrate": 0.0717,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5198,
-          "games": 3159
+          "games": 37179
         }
       ]
     },
     {
-      "augmentId": 1238,
-      "winrate": 0.5193,
-      "pickrate": 0.0944,
+      "augmentId": 1060,
+      "tier": 2,
+      "pickrate": 0.013,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5193,
-          "games": 48945
+          "games": 6723
         }
       ]
     },
     {
-      "augmentId": 1337,
-      "winrate": 0.519,
-      "pickrate": 0.006,
+      "augmentId": 1062,
+      "tier": 2,
+      "pickrate": 0.0068,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.519,
-          "games": 3127
+          "games": 3536
         }
       ]
     },
     {
-      "augmentId": 1308,
-      "winrate": 0.5173,
-      "pickrate": 0.015,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5173,
-          "games": 7757
-        }
-      ]
-    },
-    {
-      "augmentId": 1068,
-      "winrate": 0.5169,
-      "pickrate": 0.1115,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5169,
-          "games": 57836
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "winrate": 0.5159,
-      "pickrate": 0.005,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5159,
-          "games": 2578
-        }
-      ]
-    },
-    {
-      "augmentId": 1097,
-      "winrate": 0.5125,
-      "pickrate": 0.0524,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5125,
-          "games": 27153
-        }
-      ]
-    },
-    {
-      "augmentId": 1305,
-      "winrate": 0.5123,
-      "pickrate": 0.0265,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5123,
-          "games": 13735
-        }
-      ]
-    },
-    {
-      "augmentId": 2098,
-      "winrate": 0.5121,
-      "pickrate": 0.0091,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5121,
-          "games": 4733
-        }
-      ]
-    },
-    {
-      "augmentId": 2137,
-      "winrate": 0.5119,
-      "pickrate": 0.0032,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5119,
-          "games": 1645
-        }
-      ]
-    },
-    {
-      "augmentId": 1332,
-      "winrate": 0.5118,
-      "pickrate": 0.0225,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5118,
-          "games": 11682
-        }
-      ]
-    },
-    {
-      "augmentId": 1134,
-      "winrate": 0.5117,
-      "pickrate": 0.0019,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5117,
-          "games": 981
-        }
-      ]
-    },
-    {
-      "augmentId": 1057,
-      "winrate": 0.5109,
-      "pickrate": 0.0011,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5109,
-          "games": 548
-        }
-      ]
-    },
-    {
-      "augmentId": 1205,
-      "winrate": 0.509,
-      "pickrate": 0.0844,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.509,
-          "games": 43790
-        }
-      ]
-    },
-    {
-      "augmentId": 1402,
-      "winrate": 0.508,
+      "augmentId": 1063,
+      "tier": 2,
       "pickrate": 0.0075,
       "contributions": [
         {
@@ -664,59 +185,55 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.508,
-          "games": 3892
+          "games": 3879
         }
       ]
     },
     {
-      "augmentId": 1056,
-      "winrate": 0.5077,
-      "pickrate": 0.0053,
+      "augmentId": 1098,
+      "tier": 2,
+      "pickrate": 0.0348,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5077,
-          "games": 2730
+          "games": 18031
         }
       ]
     },
     {
-      "augmentId": 1019,
-      "winrate": 0.507,
-      "pickrate": 0.041,
+      "augmentId": 1105,
+      "tier": 2,
+      "pickrate": 0.0371,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.507,
-          "games": 21276
+          "games": 19263
         }
       ]
     },
     {
-      "augmentId": 1133,
-      "winrate": 0.5064,
-      "pickrate": 0.0762,
+      "augmentId": 1138,
+      "tier": 2,
+      "pickrate": 0.0511,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5064,
-          "games": 39499
+          "games": 26516
         }
       ]
     },
     {
-      "augmentId": 1243,
-      "winrate": 0.5058,
+      "augmentId": 1180,
+      "tier": 2,
       "pickrate": 0.0282,
       "contributions": [
         {
@@ -724,269 +241,181 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5058,
-          "games": 14646
+          "games": 14633
         }
       ]
     },
     {
-      "augmentId": 2042,
-      "winrate": 0.5048,
-      "pickrate": 0.0026,
+      "augmentId": 1195,
+      "tier": 2,
+      "pickrate": 0.0609,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5048,
-          "games": 1361
+          "games": 31561
         }
       ]
     },
     {
-      "augmentId": 1415,
-      "winrate": 0.5043,
-      "pickrate": 0.0317,
+      "augmentId": 1315,
+      "tier": 2,
+      "pickrate": 0.0133,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5043,
-          "games": 16418
+          "games": 6904
         }
       ]
     },
     {
-      "augmentId": 1237,
-      "winrate": 0.5037,
-      "pickrate": 0.0451,
+      "augmentId": 1333,
+      "tier": 2,
+      "pickrate": 0.0296,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5037,
-          "games": 23403
+          "games": 15342
         }
       ]
     },
     {
-      "augmentId": 2119,
-      "winrate": 0.5036,
-      "pickrate": 0.0019,
+      "augmentId": 1335,
+      "tier": 2,
+      "pickrate": 0.0072,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5036,
-          "games": 969
+          "games": 3757
         }
       ]
     },
     {
-      "augmentId": 1046,
-      "winrate": 0.5026,
-      "pickrate": 0.0146,
+      "augmentId": 1373,
+      "tier": 2,
+      "pickrate": 0.1193,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5026,
-          "games": 7551
+          "games": 61881
         }
       ]
     },
     {
-      "augmentId": 1318,
-      "winrate": 0.5014,
-      "pickrate": 0.038,
+      "augmentId": 1384,
+      "tier": 2,
+      "pickrate": 0.0286,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5014,
-          "games": 19700
+          "games": 14810
         }
       ]
     },
     {
-      "augmentId": 2127,
-      "winrate": 0.5011,
-      "pickrate": 0.0221,
+      "augmentId": 1388,
+      "tier": 2,
+      "pickrate": 0.0569,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5011,
-          "games": 11478
+          "games": 29512
         }
       ]
     },
     {
-      "augmentId": 1416,
-      "winrate": 0.4996,
-      "pickrate": 0.0214,
+      "augmentId": 1389,
+      "tier": 2,
+      "pickrate": 0.0036,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4996,
-          "games": 11096
+          "games": 1883
         }
       ]
     },
     {
-      "augmentId": 2026,
-      "winrate": 0.4994,
-      "pickrate": 0.0101,
+      "augmentId": 1390,
+      "tier": 2,
+      "pickrate": 0.0938,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4994,
-          "games": 5224
+          "games": 48644
         }
       ]
     },
     {
-      "augmentId": 1116,
-      "winrate": 0.4985,
-      "pickrate": 0.0187,
+      "augmentId": 1403,
+      "tier": 2,
+      "pickrate": 0.0182,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4985,
-          "games": 9719
+          "games": 9446
         }
       ]
     },
     {
-      "augmentId": 2082,
-      "winrate": 0.4983,
-      "pickrate": 0.0023,
+      "augmentId": 2083,
+      "tier": 2,
+      "pickrate": 0.1237,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4983,
-          "games": 1182
+          "games": 64145
         }
       ]
     },
     {
-      "augmentId": 1129,
-      "winrate": 0.4975,
-      "pickrate": 0.035,
+      "augmentId": 2132,
+      "tier": 2,
+      "pickrate": 0.1702,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4975,
-          "games": 18130
-        }
-      ]
-    },
-    {
-      "augmentId": 1194,
-      "winrate": 0.4972,
-      "pickrate": 0.0308,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4972,
-          "games": 15998
-        }
-      ]
-    },
-    {
-      "augmentId": 1322,
-      "winrate": 0.496,
-      "pickrate": 0.0138,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.496,
-          "games": 7141
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "winrate": 0.4952,
-      "pickrate": 0.0254,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4952,
-          "games": 13161
-        }
-      ]
-    },
-    {
-      "augmentId": 1401,
-      "winrate": 0.4931,
-      "pickrate": 0.0053,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4931,
-          "games": 2772
-        }
-      ]
-    },
-    {
-      "augmentId": 2089,
-      "winrate": 0.4916,
-      "pickrate": 0.01,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4916,
-          "games": 5181
+          "games": 88255
         }
       ]
     },
     {
       "augmentId": 1002,
-      "winrate": 0.4909,
+      "tier": 3,
       "pickrate": 0.0065,
       "contributions": [
         {
@@ -994,179 +423,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4909,
           "games": 3369
         }
       ]
     },
     {
-      "augmentId": 2009,
-      "winrate": 0.4908,
-      "pickrate": 0.0126,
+      "augmentId": 1019,
+      "tier": 3,
+      "pickrate": 0.041,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4908,
-          "games": 6557
-        }
-      ]
-    },
-    {
-      "augmentId": 1048,
-      "winrate": 0.4906,
-      "pickrate": 0.1152,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4906,
-          "games": 59721
-        }
-      ]
-    },
-    {
-      "augmentId": 1211,
-      "winrate": 0.4905,
-      "pickrate": 0.0266,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4905,
-          "games": 13795
-        }
-      ]
-    },
-    {
-      "augmentId": 1347,
-      "winrate": 0.4901,
-      "pickrate": 0.0038,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4901,
-          "games": 1977
-        }
-      ]
-    },
-    {
-      "augmentId": 2116,
-      "winrate": 0.49,
-      "pickrate": 0.0435,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.49,
-          "games": 22566
-        }
-      ]
-    },
-    {
-      "augmentId": 1103,
-      "winrate": 0.4895,
-      "pickrate": 0.0449,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4895,
-          "games": 23275
-        }
-      ]
-    },
-    {
-      "augmentId": 1084,
-      "winrate": 0.4888,
-      "pickrate": 0.0633,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4888,
-          "games": 32849
-        }
-      ]
-    },
-    {
-      "augmentId": 2073,
-      "winrate": 0.4886,
-      "pickrate": 0.057,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4886,
-          "games": 29544
-        }
-      ]
-    },
-    {
-      "augmentId": 1310,
-      "winrate": 0.4873,
-      "pickrate": 0.0224,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4873,
-          "games": 11593
-        }
-      ]
-    },
-    {
-      "augmentId": 2100,
-      "winrate": 0.4856,
-      "pickrate": 0.0451,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4856,
-          "games": 23402
-        }
-      ]
-    },
-    {
-      "augmentId": 1311,
-      "winrate": 0.4852,
-      "pickrate": 0.0147,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4852,
-          "games": 7619
+          "games": 21276
         }
       ]
     },
     {
       "augmentId": 1028,
-      "winrate": 0.4839,
+      "tier": 3,
       "pickrate": 0.0086,
       "contributions": [
         {
@@ -1174,749 +451,55 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4839,
           "games": 4447
         }
       ]
     },
     {
-      "augmentId": 1344,
-      "winrate": 0.483,
-      "pickrate": 0.0111,
+      "augmentId": 1046,
+      "tier": 3,
+      "pickrate": 0.0146,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.483,
-          "games": 5758
+          "games": 7551
         }
       ]
     },
     {
-      "augmentId": 1154,
-      "winrate": 0.4825,
-      "pickrate": 0.011,
+      "augmentId": 1048,
+      "tier": 3,
+      "pickrate": 0.1152,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4825,
-          "games": 5697
+          "games": 59721
         }
       ]
     },
     {
-      "augmentId": 1151,
-      "winrate": 0.4821,
-      "pickrate": 0.0339,
+      "augmentId": 1056,
+      "tier": 3,
+      "pickrate": 0.0053,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4821,
-          "games": 17583
+          "games": 2730
         }
       ]
     },
     {
-      "augmentId": 1996,
-      "winrate": 0.4798,
-      "pickrate": 0.0088,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4798,
-          "games": 4573
-        }
-      ]
-    },
-    {
-      "augmentId": 1345,
-      "winrate": 0.4786,
-      "pickrate": 0.0167,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4786,
-          "games": 8648
-        }
-      ]
-    },
-    {
-      "augmentId": 2103,
-      "winrate": 0.4782,
-      "pickrate": 0.011,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4782,
-          "games": 5700
-        }
-      ]
-    },
-    {
-      "augmentId": 2018,
-      "winrate": 0.4781,
-      "pickrate": 0.0494,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4781,
-          "games": 25610
-        }
-      ]
-    },
-    {
-      "augmentId": 2088,
-      "winrate": 0.4779,
-      "pickrate": 0.0084,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4779,
-          "games": 4382
-        }
-      ]
-    },
-    {
-      "augmentId": 1036,
-      "winrate": 0.4769,
-      "pickrate": 0.0062,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4769,
-          "games": 3204
-        }
-      ]
-    },
-    {
-      "augmentId": 1326,
-      "winrate": 0.4756,
-      "pickrate": 0.0233,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4756,
-          "games": 12091
-        }
-      ]
-    },
-    {
-      "augmentId": 2136,
-      "winrate": 0.4739,
-      "pickrate": 0.0396,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4739,
-          "games": 20530
-        }
-      ]
-    },
-    {
-      "augmentId": 1349,
-      "winrate": 0.4705,
-      "pickrate": 0.0199,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4705,
-          "games": 10340
-        }
-      ]
-    },
-    {
-      "augmentId": 1011,
-      "winrate": 0.4695,
-      "pickrate": 0.0087,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4695,
-          "games": 4537
-        }
-      ]
-    },
-    {
-      "augmentId": 2034,
-      "winrate": 0.4683,
-      "pickrate": 0.0047,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4683,
-          "games": 2415
-        }
-      ]
-    },
-    {
-      "augmentId": 2016,
-      "winrate": 0.4681,
-      "pickrate": 0.0046,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4681,
-          "games": 2367
-        }
-      ]
-    },
-    {
-      "augmentId": 1015,
-      "winrate": 0.4673,
-      "pickrate": 0.0012,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4673,
-          "games": 627
-        }
-      ]
-    },
-    {
-      "augmentId": 1058,
-      "winrate": 0.4668,
-      "pickrate": 0.011,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4668,
-          "games": 5711
-        }
-      ]
-    },
-    {
-      "augmentId": 2099,
-      "winrate": 0.4657,
-      "pickrate": 0.0137,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4657,
-          "games": 7108
-        }
-      ]
-    },
-    {
-      "augmentId": 2080,
-      "winrate": 0.4654,
-      "pickrate": 0.0082,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4654,
-          "games": 4267
-        }
-      ]
-    },
-    {
-      "augmentId": 1044,
-      "winrate": 0.4653,
-      "pickrate": 0.0057,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4653,
-          "games": 2951
-        }
-      ]
-    },
-    {
-      "augmentId": 1358,
-      "winrate": 0.4653,
-      "pickrate": 0.0108,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4653,
-          "games": 5598
-        }
-      ]
-    },
-    {
-      "augmentId": 1079,
-      "winrate": 0.465,
-      "pickrate": 0.0008,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.465,
-          "games": 400
-        }
-      ]
-    },
-    {
-      "augmentId": 1301,
-      "winrate": 0.465,
-      "pickrate": 0.0065,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.465,
-          "games": 3346
-        }
-      ]
-    },
-    {
-      "augmentId": 2107,
-      "winrate": 0.4639,
-      "pickrate": 0.0019,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4639,
-          "games": 996
-        }
-      ]
-    },
-    {
-      "augmentId": 12317,
-      "winrate": 0.4632,
-      "pickrate": 0.0215,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4632,
-          "games": 11164
-        }
-      ]
-    },
-    {
-      "augmentId": 1392,
-      "winrate": 0.4625,
-      "pickrate": 0.0055,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4625,
-          "games": 2850
-        }
-      ]
-    },
-    {
-      "augmentId": 2087,
-      "winrate": 0.4622,
-      "pickrate": 0.0505,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4622,
-          "games": 26181
-        }
-      ]
-    },
-    {
-      "augmentId": 1027,
-      "winrate": 0.4601,
-      "pickrate": 0.0024,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4601,
-          "games": 1265
-        }
-      ]
-    },
-    {
-      "augmentId": 2134,
-      "winrate": 0.4566,
-      "pickrate": 0.0038,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4566,
-          "games": 1993
-        }
-      ]
-    },
-    {
-      "augmentId": 1225,
-      "winrate": 0.4558,
-      "pickrate": 0.0017,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4558,
-          "games": 882
-        }
-      ]
-    },
-    {
-      "augmentId": 1051,
-      "winrate": 0.455,
-      "pickrate": 0.0013,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.455,
-          "games": 655
-        }
-      ]
-    },
-    {
-      "augmentId": 1150,
-      "winrate": 0.4541,
-      "pickrate": 0.0116,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4541,
-          "games": 5994
-        }
-      ]
-    },
-    {
-      "augmentId": 1072,
-      "winrate": 0.4537,
-      "pickrate": 0.0059,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4537,
-          "games": 3046
-        }
-      ]
-    },
-    {
-      "augmentId": 1022,
-      "winrate": 0.4532,
-      "pickrate": 0.0014,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4532,
-          "games": 748
-        }
-      ]
-    },
-    {
-      "augmentId": 1074,
-      "winrate": 0.4531,
-      "pickrate": 0.0044,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4531,
-          "games": 2269
-        }
-      ]
-    },
-    {
-      "augmentId": 1087,
-      "winrate": 0.4508,
-      "pickrate": 0.0022,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4508,
-          "games": 1118
-        }
-      ]
-    },
-    {
-      "augmentId": 1088,
-      "winrate": 0.4491,
-      "pickrate": 0.01,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4491,
-          "games": 5182
-        }
-      ]
-    },
-    {
-      "augmentId": 1113,
-      "winrate": 0.4487,
-      "pickrate": 0.0235,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4487,
-          "games": 12182
-        }
-      ]
-    },
-    {
-      "augmentId": 1006,
-      "winrate": 0.4484,
-      "pickrate": 0.004,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4484,
-          "games": 2094
-        }
-      ]
-    },
-    {
-      "augmentId": 1112,
-      "winrate": 0.4458,
-      "pickrate": 0.007,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4458,
-          "games": 3623
-        }
-      ]
-    },
-    {
-      "augmentId": 1081,
-      "winrate": 0.4419,
-      "pickrate": 0.0009,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4419,
-          "games": 473
-        }
-      ]
-    },
-    {
-      "augmentId": 1386,
-      "winrate": 0.4408,
-      "pickrate": 0.0008,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4408,
-          "games": 431
-        }
-      ]
-    },
-    {
-      "augmentId": 2091,
-      "winrate": 0.44,
-      "pickrate": 0.0013,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.44,
-          "games": 700
-        }
-      ]
-    },
-    {
-      "augmentId": 2063,
-      "winrate": 0.4363,
-      "pickrate": 0.0009,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4363,
-          "games": 479
-        }
-      ]
-    },
-    {
-      "augmentId": 2005,
-      "winrate": 0.4288,
-      "pickrate": 0.0043,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4288,
-          "games": 2248
-        }
-      ]
-    },
-    {
-      "augmentId": 2118,
-      "winrate": 0.4239,
-      "pickrate": 0.0044,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4239,
-          "games": 2293
-        }
-      ]
-    },
-    {
-      "augmentId": 1054,
-      "winrate": 0.4226,
-      "pickrate": 0.0049,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4226,
-          "games": 2565
-        }
-      ]
-    },
-    {
-      "augmentId": 1325,
-      "winrate": 0.4122,
-      "pickrate": 0.007,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4122,
-          "games": 3632
-        }
-      ]
-    },
-    {
-      "augmentId": 2046,
-      "winrate": 0.4063,
-      "pickrate": 0.001,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4063,
-          "games": 507
-        }
-      ]
-    },
-    {
-      "augmentId": 1328,
-      "winrate": 0.3932,
+      "augmentId": 1057,
+      "tier": 3,
       "pickrate": 0.0011,
       "contributions": [
         {
@@ -1924,11 +507,1297 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3932,
+          "games": 548
+        }
+      ]
+    },
+    {
+      "augmentId": 1061,
+      "tier": 3,
+      "pickrate": 0.0061,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3159
+        }
+      ]
+    },
+    {
+      "augmentId": 1068,
+      "tier": 3,
+      "pickrate": 0.1115,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 57836
+        }
+      ]
+    },
+    {
+      "augmentId": 1084,
+      "tier": 3,
+      "pickrate": 0.0633,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 32849
+        }
+      ]
+    },
+    {
+      "augmentId": 1097,
+      "tier": 3,
+      "pickrate": 0.0524,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 27153
+        }
+      ]
+    },
+    {
+      "augmentId": 1103,
+      "tier": 3,
+      "pickrate": 0.0449,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 23275
+        }
+      ]
+    },
+    {
+      "augmentId": 1116,
+      "tier": 3,
+      "pickrate": 0.0187,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9719
+        }
+      ]
+    },
+    {
+      "augmentId": 1129,
+      "tier": 3,
+      "pickrate": 0.035,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18130
+        }
+      ]
+    },
+    {
+      "augmentId": 1133,
+      "tier": 3,
+      "pickrate": 0.0762,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 39499
+        }
+      ]
+    },
+    {
+      "augmentId": 1134,
+      "tier": 3,
+      "pickrate": 0.0019,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 981
+        }
+      ]
+    },
+    {
+      "augmentId": 1151,
+      "tier": 3,
+      "pickrate": 0.0339,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17583
+        }
+      ]
+    },
+    {
+      "augmentId": 1154,
+      "tier": 3,
+      "pickrate": 0.011,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5697
+        }
+      ]
+    },
+    {
+      "augmentId": 1194,
+      "tier": 3,
+      "pickrate": 0.0308,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15998
+        }
+      ]
+    },
+    {
+      "augmentId": 1205,
+      "tier": 3,
+      "pickrate": 0.0844,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 43790
+        }
+      ]
+    },
+    {
+      "augmentId": 1211,
+      "tier": 3,
+      "pickrate": 0.0266,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13795
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": 3,
+      "pickrate": 0.0451,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 23403
+        }
+      ]
+    },
+    {
+      "augmentId": 1238,
+      "tier": 3,
+      "pickrate": 0.0944,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 48945
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": 3,
+      "pickrate": 0.0282,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14646
+        }
+      ]
+    },
+    {
+      "augmentId": 1305,
+      "tier": 3,
+      "pickrate": 0.0265,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13735
+        }
+      ]
+    },
+    {
+      "augmentId": 1308,
+      "tier": 3,
+      "pickrate": 0.015,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7757
+        }
+      ]
+    },
+    {
+      "augmentId": 1310,
+      "tier": 3,
+      "pickrate": 0.0224,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11593
+        }
+      ]
+    },
+    {
+      "augmentId": 1311,
+      "tier": 3,
+      "pickrate": 0.0147,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7619
+        }
+      ]
+    },
+    {
+      "augmentId": 1318,
+      "tier": 3,
+      "pickrate": 0.038,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 19700
+        }
+      ]
+    },
+    {
+      "augmentId": 1322,
+      "tier": 3,
+      "pickrate": 0.0138,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7141
+        }
+      ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": 3,
+      "pickrate": 0.0254,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13161
+        }
+      ]
+    },
+    {
+      "augmentId": 1332,
+      "tier": 3,
+      "pickrate": 0.0225,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11682
+        }
+      ]
+    },
+    {
+      "augmentId": 1337,
+      "tier": 3,
+      "pickrate": 0.006,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3127
+        }
+      ]
+    },
+    {
+      "augmentId": 1344,
+      "tier": 3,
+      "pickrate": 0.0111,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5758
+        }
+      ]
+    },
+    {
+      "augmentId": 1347,
+      "tier": 3,
+      "pickrate": 0.0038,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1977
+        }
+      ]
+    },
+    {
+      "augmentId": 1401,
+      "tier": 3,
+      "pickrate": 0.0053,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2772
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": 3,
+      "pickrate": 0.0075,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3892
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": 3,
+      "pickrate": 0.005,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2578
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": 3,
+      "pickrate": 0.0317,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16418
+        }
+      ]
+    },
+    {
+      "augmentId": 1416,
+      "tier": 3,
+      "pickrate": 0.0214,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11096
+        }
+      ]
+    },
+    {
+      "augmentId": 2009,
+      "tier": 3,
+      "pickrate": 0.0126,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6557
+        }
+      ]
+    },
+    {
+      "augmentId": 2026,
+      "tier": 3,
+      "pickrate": 0.0101,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5224
+        }
+      ]
+    },
+    {
+      "augmentId": 2042,
+      "tier": 3,
+      "pickrate": 0.0026,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1361
+        }
+      ]
+    },
+    {
+      "augmentId": 2073,
+      "tier": 3,
+      "pickrate": 0.057,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 29544
+        }
+      ]
+    },
+    {
+      "augmentId": 2082,
+      "tier": 3,
+      "pickrate": 0.0023,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1182
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": 3,
+      "pickrate": 0.01,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5181
+        }
+      ]
+    },
+    {
+      "augmentId": 2098,
+      "tier": 3,
+      "pickrate": 0.0091,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4733
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": 3,
+      "pickrate": 0.0451,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 23402
+        }
+      ]
+    },
+    {
+      "augmentId": 2116,
+      "tier": 3,
+      "pickrate": 0.0435,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 22566
+        }
+      ]
+    },
+    {
+      "augmentId": 2119,
+      "tier": 3,
+      "pickrate": 0.0019,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 969
+        }
+      ]
+    },
+    {
+      "augmentId": 2127,
+      "tier": 3,
+      "pickrate": 0.0221,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11478
+        }
+      ]
+    },
+    {
+      "augmentId": 2137,
+      "tier": 3,
+      "pickrate": 0.0032,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1645
+        }
+      ]
+    },
+    {
+      "augmentId": 1011,
+      "tier": 4,
+      "pickrate": 0.0087,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4537
+        }
+      ]
+    },
+    {
+      "augmentId": 1015,
+      "tier": 4,
+      "pickrate": 0.0012,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 627
+        }
+      ]
+    },
+    {
+      "augmentId": 1022,
+      "tier": 4,
+      "pickrate": 0.0014,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 748
+        }
+      ]
+    },
+    {
+      "augmentId": 1027,
+      "tier": 4,
+      "pickrate": 0.0024,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1265
+        }
+      ]
+    },
+    {
+      "augmentId": 1036,
+      "tier": 4,
+      "pickrate": 0.0062,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3204
+        }
+      ]
+    },
+    {
+      "augmentId": 1044,
+      "tier": 4,
+      "pickrate": 0.0057,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2951
+        }
+      ]
+    },
+    {
+      "augmentId": 1051,
+      "tier": 4,
+      "pickrate": 0.0013,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 655
+        }
+      ]
+    },
+    {
+      "augmentId": 1058,
+      "tier": 4,
+      "pickrate": 0.011,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5711
+        }
+      ]
+    },
+    {
+      "augmentId": 1072,
+      "tier": 4,
+      "pickrate": 0.0059,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3046
+        }
+      ]
+    },
+    {
+      "augmentId": 1074,
+      "tier": 4,
+      "pickrate": 0.0044,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2269
+        }
+      ]
+    },
+    {
+      "augmentId": 1079,
+      "tier": 4,
+      "pickrate": 0.0008,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 400
+        }
+      ]
+    },
+    {
+      "augmentId": 1087,
+      "tier": 4,
+      "pickrate": 0.0022,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1118
+        }
+      ]
+    },
+    {
+      "augmentId": 1150,
+      "tier": 4,
+      "pickrate": 0.0116,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5994
+        }
+      ]
+    },
+    {
+      "augmentId": 1225,
+      "tier": 4,
+      "pickrate": 0.0017,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 882
+        }
+      ]
+    },
+    {
+      "augmentId": 1301,
+      "tier": 4,
+      "pickrate": 0.0065,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3346
+        }
+      ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": 4,
+      "pickrate": 0.0233,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12091
+        }
+      ]
+    },
+    {
+      "augmentId": 1345,
+      "tier": 4,
+      "pickrate": 0.0167,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8648
+        }
+      ]
+    },
+    {
+      "augmentId": 1349,
+      "tier": 4,
+      "pickrate": 0.0199,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10340
+        }
+      ]
+    },
+    {
+      "augmentId": 1358,
+      "tier": 4,
+      "pickrate": 0.0108,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5598
+        }
+      ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": 4,
+      "pickrate": 0.0055,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2850
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": 4,
+      "pickrate": 0.0088,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4573
+        }
+      ]
+    },
+    {
+      "augmentId": 2016,
+      "tier": 4,
+      "pickrate": 0.0046,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2367
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": 4,
+      "pickrate": 0.0494,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 25610
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": 4,
+      "pickrate": 0.0047,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2415
+        }
+      ]
+    },
+    {
+      "augmentId": 2080,
+      "tier": 4,
+      "pickrate": 0.0082,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4267
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": 4,
+      "pickrate": 0.0505,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 26181
+        }
+      ]
+    },
+    {
+      "augmentId": 2088,
+      "tier": 4,
+      "pickrate": 0.0084,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4382
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": 4,
+      "pickrate": 0.0137,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7108
+        }
+      ]
+    },
+    {
+      "augmentId": 2103,
+      "tier": 4,
+      "pickrate": 0.011,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5700
+        }
+      ]
+    },
+    {
+      "augmentId": 2107,
+      "tier": 4,
+      "pickrate": 0.0019,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 996
+        }
+      ]
+    },
+    {
+      "augmentId": 2134,
+      "tier": 4,
+      "pickrate": 0.0038,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1993
+        }
+      ]
+    },
+    {
+      "augmentId": 2136,
+      "tier": 4,
+      "pickrate": 0.0396,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 20530
+        }
+      ]
+    },
+    {
+      "augmentId": 12317,
+      "tier": 4,
+      "pickrate": 0.0215,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11164
+        }
+      ]
+    },
+    {
+      "augmentId": 1006,
+      "tier": 5,
+      "pickrate": 0.004,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2094
+        }
+      ]
+    },
+    {
+      "augmentId": 1054,
+      "tier": 5,
+      "pickrate": 0.0049,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2565
+        }
+      ]
+    },
+    {
+      "augmentId": 1081,
+      "tier": 5,
+      "pickrate": 0.0009,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 473
+        }
+      ]
+    },
+    {
+      "augmentId": 1088,
+      "tier": 5,
+      "pickrate": 0.01,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5182
+        }
+      ]
+    },
+    {
+      "augmentId": 1112,
+      "tier": 5,
+      "pickrate": 0.007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3623
+        }
+      ]
+    },
+    {
+      "augmentId": 1113,
+      "tier": 5,
+      "pickrate": 0.0235,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12182
+        }
+      ]
+    },
+    {
+      "augmentId": 1325,
+      "tier": 5,
+      "pickrate": 0.007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3632
+        }
+      ]
+    },
+    {
+      "augmentId": 1328,
+      "tier": 5,
+      "pickrate": 0.0011,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
           "games": 590
         }
       ]
+    },
+    {
+      "augmentId": 1386,
+      "tier": 5,
+      "pickrate": 0.0008,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 431
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": 5,
+      "pickrate": 0.0043,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2248
+        }
+      ]
+    },
+    {
+      "augmentId": 2046,
+      "tier": 5,
+      "pickrate": 0.001,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 507
+        }
+      ]
+    },
+    {
+      "augmentId": 2063,
+      "tier": 5,
+      "pickrate": 0.0009,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 479
+        }
+      ]
+    },
+    {
+      "augmentId": 2091,
+      "tier": 5,
+      "pickrate": 0.0013,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 700
+        }
+      ]
+    },
+    {
+      "augmentId": 2118,
+      "tier": 5,
+      "pickrate": 0.0044,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/aurora?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2293
+        }
+      ]
     }
-  ],
-  "method": "equal-source-mean"
+  ]
 }

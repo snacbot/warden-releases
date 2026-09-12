@@ -1,17 +1,15 @@
 {
+  "version": 1,
+  "method": "warden-performance-tiers-v1",
   "championId": 134,
   "championKey": "Syndra",
   "set": "aram",
-  "source": "Mayhem source average",
-  "sourceUrl": "https://github.com/snacbot/warden-releases/blob/mayhem-data/README.md",
-  "winrateScope": "champion",
-  "pickrateScope": "champion",
   "patch": "16.18",
   "scrapedAt": "2026-09-12T02:34:26.350Z",
   "augments": [
     {
       "augmentId": 1004,
-      "winrate": 0.5754,
+      "tier": 1,
       "pickrate": 0.0317,
       "contributions": [
         {
@@ -19,44 +17,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5754,
           "games": 12549
         }
       ]
     },
     {
-      "augmentId": 2095,
-      "winrate": 0.5696,
-      "pickrate": 0.0362,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5696,
-          "games": 14355
-        }
-      ]
-    },
-    {
-      "augmentId": 1105,
-      "winrate": 0.5575,
-      "pickrate": 0.0779,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5575,
-          "games": 30881
-        }
-      ]
-    },
-    {
       "augmentId": 1053,
-      "winrate": 0.5541,
+      "tier": 1,
       "pickrate": 0.033,
       "contributions": [
         {
@@ -64,44 +31,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5541,
           "games": 13065
         }
       ]
     },
     {
-      "augmentId": 1180,
-      "winrate": 0.5539,
-      "pickrate": 0.033,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5539,
-          "games": 13070
-        }
-      ]
-    },
-    {
-      "augmentId": 1388,
-      "winrate": 0.5536,
-      "pickrate": 0.0791,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5536,
-          "games": 31326
-        }
-      ]
-    },
-    {
       "augmentId": 1098,
-      "winrate": 0.5522,
+      "tier": 1,
       "pickrate": 0.0402,
       "contributions": [
         {
@@ -109,29 +45,69 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5522,
           "games": 15910
         }
       ]
     },
     {
-      "augmentId": 1030,
-      "winrate": 0.5451,
-      "pickrate": 0.1672,
+      "augmentId": 1105,
+      "tier": 1,
+      "pickrate": 0.0779,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5451,
-          "games": 66235
+          "games": 30881
+        }
+      ]
+    },
+    {
+      "augmentId": 1180,
+      "tier": 1,
+      "pickrate": 0.033,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13070
+        }
+      ]
+    },
+    {
+      "augmentId": 1388,
+      "tier": 1,
+      "pickrate": 0.0791,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 31326
+        }
+      ]
+    },
+    {
+      "augmentId": 2095,
+      "tier": 1,
+      "pickrate": 0.0362,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14355
         }
       ]
     },
     {
       "augmentId": 1026,
-      "winrate": 0.5389,
+      "tier": 2,
       "pickrate": 0.0075,
       "contributions": [
         {
@@ -139,119 +115,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5389,
           "games": 2980
         }
       ]
     },
     {
-      "augmentId": 1195,
-      "winrate": 0.5353,
-      "pickrate": 0.0392,
+      "augmentId": 1030,
+      "tier": 2,
+      "pickrate": 0.1672,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5353,
-          "games": 15546
-        }
-      ]
-    },
-    {
-      "augmentId": 2132,
-      "winrate": 0.5344,
-      "pickrate": 0.1409,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5344,
-          "games": 55820
-        }
-      ]
-    },
-    {
-      "augmentId": 1373,
-      "winrate": 0.5343,
-      "pickrate": 0.1467,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5343,
-          "games": 58110
-        }
-      ]
-    },
-    {
-      "augmentId": 1389,
-      "winrate": 0.534,
-      "pickrate": 0.0058,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.534,
-          "games": 2279
-        }
-      ]
-    },
-    {
-      "augmentId": 1056,
-      "winrate": 0.5299,
-      "pickrate": 0.0163,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5299,
-          "games": 6463
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "winrate": 0.5273,
-      "pickrate": 0.0284,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5273,
-          "games": 11234
-        }
-      ]
-    },
-    {
-      "augmentId": 1156,
-      "winrate": 0.5268,
-      "pickrate": 0.0619,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5268,
-          "games": 24528
+          "games": 66235
         }
       ]
     },
     {
       "augmentId": 1038,
-      "winrate": 0.5246,
+      "tier": 2,
       "pickrate": 0.0736,
       "contributions": [
         {
@@ -259,689 +143,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5246,
           "games": 29159
         }
       ]
     },
     {
-      "augmentId": 1061,
-      "winrate": 0.524,
-      "pickrate": 0.0063,
+      "augmentId": 1056,
+      "tier": 2,
+      "pickrate": 0.0163,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.524,
-          "games": 2498
+          "games": 6463
         }
       ]
     },
     {
-      "augmentId": 1305,
-      "winrate": 0.5211,
-      "pickrate": 0.0261,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5211,
-          "games": 10356
-        }
-      ]
-    },
-    {
-      "augmentId": 1068,
-      "winrate": 0.5208,
-      "pickrate": 0.1352,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5208,
-          "games": 53557
-        }
-      ]
-    },
-    {
-      "augmentId": 1062,
-      "winrate": 0.5191,
-      "pickrate": 0.0101,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5191,
-          "games": 4009
-        }
-      ]
-    },
-    {
-      "augmentId": 1384,
-      "winrate": 0.5161,
-      "pickrate": 0.0283,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5161,
-          "games": 11198
-        }
-      ]
-    },
-    {
-      "augmentId": 1138,
-      "winrate": 0.516,
-      "pickrate": 0.0358,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.516,
-          "games": 14193
-        }
-      ]
-    },
-    {
-      "augmentId": 1335,
-      "winrate": 0.5154,
-      "pickrate": 0.0093,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5154,
-          "games": 3694
-        }
-      ]
-    },
-    {
-      "augmentId": 1403,
-      "winrate": 0.5147,
-      "pickrate": 0.0169,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5147,
-          "games": 6699
-        }
-      ]
-    },
-    {
-      "augmentId": 1390,
-      "winrate": 0.5139,
-      "pickrate": 0.114,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5139,
-          "games": 45176
-        }
-      ]
-    },
-    {
-      "augmentId": 1332,
-      "winrate": 0.5121,
-      "pickrate": 0.0152,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5121,
-          "games": 6030
-        }
-      ]
-    },
-    {
-      "augmentId": 1337,
-      "winrate": 0.5116,
-      "pickrate": 0.0048,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5116,
-          "games": 1898
-        }
-      ]
-    },
-    {
-      "augmentId": 1238,
-      "winrate": 0.5114,
-      "pickrate": 0.1093,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5114,
-          "games": 43293
-        }
-      ]
-    },
-    {
-      "augmentId": 1308,
-      "winrate": 0.5109,
-      "pickrate": 0.0196,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5109,
-          "games": 7757
-        }
-      ]
-    },
-    {
-      "augmentId": 2026,
-      "winrate": 0.5109,
-      "pickrate": 0.0035,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5109,
-          "games": 1376
-        }
-      ]
-    },
-    {
-      "augmentId": 1057,
-      "winrate": 0.5108,
-      "pickrate": 0.0028,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5108,
-          "games": 1106
-        }
-      ]
-    },
-    {
-      "augmentId": 2103,
-      "winrate": 0.5097,
-      "pickrate": 0.0468,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5097,
-          "games": 18523
-        }
-      ]
-    },
-    {
-      "augmentId": 1318,
-      "winrate": 0.5084,
-      "pickrate": 0.0793,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5084,
-          "games": 31428
-        }
-      ]
-    },
-    {
-      "augmentId": 1347,
-      "winrate": 0.5067,
-      "pickrate": 0.0083,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5067,
-          "games": 3288
-        }
-      ]
-    },
-    {
-      "augmentId": 2018,
-      "winrate": 0.5056,
-      "pickrate": 0.0807,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5056,
-          "games": 31953
-        }
-      ]
-    },
-    {
-      "augmentId": 2100,
-      "winrate": 0.5053,
-      "pickrate": 0.0476,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5053,
-          "games": 18878
-        }
-      ]
-    },
-    {
-      "augmentId": 1415,
-      "winrate": 0.5048,
-      "pickrate": 0.0559,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5048,
-          "games": 22165
-        }
-      ]
-    },
-    {
-      "augmentId": 1243,
-      "winrate": 0.5045,
-      "pickrate": 0.0316,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5045,
-          "games": 12537
-        }
-      ]
-    },
-    {
-      "augmentId": 1205,
-      "winrate": 0.5016,
-      "pickrate": 0.1115,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5016,
-          "games": 44164
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "winrate": 0.5016,
-      "pickrate": 0.0617,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5016,
-          "games": 24449
-        }
-      ]
-    },
-    {
-      "augmentId": 1349,
-      "winrate": 0.5015,
-      "pickrate": 0.0289,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5015,
-          "games": 11447
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "winrate": 0.5012,
-      "pickrate": 0.0081,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5012,
-          "games": 3202
-        }
-      ]
-    },
-    {
-      "augmentId": 2127,
-      "winrate": 0.5012,
-      "pickrate": 0.0319,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5012,
-          "games": 12653
-        }
-      ]
-    },
-    {
-      "augmentId": 2089,
-      "winrate": 0.5011,
-      "pickrate": 0.0095,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5011,
-          "games": 3780
-        }
-      ]
-    },
-    {
-      "augmentId": 1133,
-      "winrate": 0.4998,
-      "pickrate": 0.0826,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4998,
-          "games": 32725
-        }
-      ]
-    },
-    {
-      "augmentId": 1097,
-      "winrate": 0.4995,
-      "pickrate": 0.0776,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4995,
-          "games": 30726
-        }
-      ]
-    },
-    {
-      "augmentId": 1046,
-      "winrate": 0.4988,
-      "pickrate": 0.0229,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4988,
-          "games": 9086
-        }
-      ]
-    },
-    {
-      "augmentId": 2128,
-      "winrate": 0.4987,
-      "pickrate": 0.0418,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4987,
-          "games": 16561
-        }
-      ]
-    },
-    {
-      "augmentId": 2077,
-      "winrate": 0.4975,
-      "pickrate": 0.0728,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4975,
-          "games": 28857
-        }
-      ]
-    },
-    {
-      "augmentId": 1416,
-      "winrate": 0.4971,
-      "pickrate": 0.0339,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4971,
-          "games": 13447
-        }
-      ]
-    },
-    {
-      "augmentId": 1402,
-      "winrate": 0.4963,
-      "pickrate": 0.0091,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4963,
-          "games": 3615
-        }
-      ]
-    },
-    {
-      "augmentId": 1048,
-      "winrate": 0.4957,
-      "pickrate": 0.1265,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4957,
-          "games": 50131
-        }
-      ]
-    },
-    {
-      "augmentId": 1311,
-      "winrate": 0.4932,
-      "pickrate": 0.0098,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4932,
-          "games": 3875
-        }
-      ]
-    },
-    {
-      "augmentId": 1151,
-      "winrate": 0.4927,
-      "pickrate": 0.0742,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4927,
-          "games": 29387
-        }
-      ]
-    },
-    {
-      "augmentId": 2083,
-      "winrate": 0.4926,
-      "pickrate": 0.1054,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4926,
-          "games": 41767
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "winrate": 0.4915,
-      "pickrate": 0.0146,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4915,
-          "games": 5786
-        }
-      ]
-    },
-    {
-      "augmentId": 1154,
-      "winrate": 0.49,
-      "pickrate": 0.0114,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.49,
-          "games": 4514
-        }
-      ]
-    },
-    {
-      "augmentId": 2087,
-      "winrate": 0.4881,
-      "pickrate": 0.082,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4881,
-          "games": 32505
-        }
-      ]
-    },
-    {
-      "augmentId": 1028,
-      "winrate": 0.4867,
-      "pickrate": 0.0125,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4867,
-          "games": 4956
-        }
-      ]
-    },
-    {
-      "augmentId": 1084,
-      "winrate": 0.4855,
-      "pickrate": 0.0437,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4855,
-          "games": 17317
-        }
-      ]
-    },
-    {
-      "augmentId": 2078,
-      "winrate": 0.4832,
-      "pickrate": 0.1067,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4832,
-          "games": 42282
-        }
-      ]
-    },
-    {
-      "augmentId": 1045,
-      "winrate": 0.483,
+      "augmentId": 1060,
+      "tier": 2,
       "pickrate": 0.0284,
       "contributions": [
         {
@@ -949,29 +171,391 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.483,
-          "games": 11255
+          "games": 11234
         }
       ]
     },
     {
-      "augmentId": 1344,
-      "winrate": 0.4826,
-      "pickrate": 0.0071,
+      "augmentId": 1061,
+      "tier": 2,
+      "pickrate": 0.0063,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4826,
-          "games": 2824
+          "games": 2498
+        }
+      ]
+    },
+    {
+      "augmentId": 1068,
+      "tier": 2,
+      "pickrate": 0.1352,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 53557
+        }
+      ]
+    },
+    {
+      "augmentId": 1156,
+      "tier": 2,
+      "pickrate": 0.0619,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 24528
+        }
+      ]
+    },
+    {
+      "augmentId": 1195,
+      "tier": 2,
+      "pickrate": 0.0392,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15546
+        }
+      ]
+    },
+    {
+      "augmentId": 1305,
+      "tier": 2,
+      "pickrate": 0.0261,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10356
+        }
+      ]
+    },
+    {
+      "augmentId": 1373,
+      "tier": 2,
+      "pickrate": 0.1467,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 58110
+        }
+      ]
+    },
+    {
+      "augmentId": 1389,
+      "tier": 2,
+      "pickrate": 0.0058,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2279
+        }
+      ]
+    },
+    {
+      "augmentId": 2132,
+      "tier": 2,
+      "pickrate": 0.1409,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 55820
+        }
+      ]
+    },
+    {
+      "augmentId": 1028,
+      "tier": 3,
+      "pickrate": 0.0125,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4956
+        }
+      ]
+    },
+    {
+      "augmentId": 1045,
+      "tier": 3,
+      "pickrate": 0.0284,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11255
+        }
+      ]
+    },
+    {
+      "augmentId": 1046,
+      "tier": 3,
+      "pickrate": 0.0229,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9086
+        }
+      ]
+    },
+    {
+      "augmentId": 1048,
+      "tier": 3,
+      "pickrate": 0.1265,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 50131
+        }
+      ]
+    },
+    {
+      "augmentId": 1057,
+      "tier": 3,
+      "pickrate": 0.0028,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1106
+        }
+      ]
+    },
+    {
+      "augmentId": 1062,
+      "tier": 3,
+      "pickrate": 0.0101,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4009
+        }
+      ]
+    },
+    {
+      "augmentId": 1084,
+      "tier": 3,
+      "pickrate": 0.0437,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17317
+        }
+      ]
+    },
+    {
+      "augmentId": 1097,
+      "tier": 3,
+      "pickrate": 0.0776,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 30726
+        }
+      ]
+    },
+    {
+      "augmentId": 1133,
+      "tier": 3,
+      "pickrate": 0.0826,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 32725
+        }
+      ]
+    },
+    {
+      "augmentId": 1138,
+      "tier": 3,
+      "pickrate": 0.0358,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14193
+        }
+      ]
+    },
+    {
+      "augmentId": 1151,
+      "tier": 3,
+      "pickrate": 0.0742,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 29387
+        }
+      ]
+    },
+    {
+      "augmentId": 1154,
+      "tier": 3,
+      "pickrate": 0.0114,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4514
+        }
+      ]
+    },
+    {
+      "augmentId": 1205,
+      "tier": 3,
+      "pickrate": 0.1115,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 44164
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": 3,
+      "pickrate": 0.0617,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 24449
+        }
+      ]
+    },
+    {
+      "augmentId": 1238,
+      "tier": 3,
+      "pickrate": 0.1093,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 43293
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": 3,
+      "pickrate": 0.0316,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12537
+        }
+      ]
+    },
+    {
+      "augmentId": 1308,
+      "tier": 3,
+      "pickrate": 0.0196,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7757
+        }
+      ]
+    },
+    {
+      "augmentId": 1311,
+      "tier": 3,
+      "pickrate": 0.0098,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3875
+        }
+      ]
+    },
+    {
+      "augmentId": 1318,
+      "tier": 3,
+      "pickrate": 0.0793,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 31428
         }
       ]
     },
     {
       "augmentId": 1322,
-      "winrate": 0.4819,
+      "tier": 3,
       "pickrate": 0.0035,
       "contributions": [
         {
@@ -979,284 +563,41 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4819,
           "games": 1378
         }
       ]
     },
     {
-      "augmentId": 2098,
-      "winrate": 0.4807,
-      "pickrate": 0.0039,
+      "augmentId": 1329,
+      "tier": 3,
+      "pickrate": 0.0146,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4807,
-          "games": 1531
+          "games": 5786
         }
       ]
     },
     {
-      "augmentId": 1002,
-      "winrate": 0.4789,
-      "pickrate": 0.0067,
+      "augmentId": 1332,
+      "tier": 3,
+      "pickrate": 0.0152,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4789,
-          "games": 2650
+          "games": 6030
         }
       ]
     },
     {
-      "augmentId": 1358,
-      "winrate": 0.4779,
-      "pickrate": 0.0025,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4779,
-          "games": 973
-        }
-      ]
-    },
-    {
-      "augmentId": 1345,
-      "winrate": 0.4761,
-      "pickrate": 0.0111,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4761,
-          "games": 4394
-        }
-      ]
-    },
-    {
-      "augmentId": 12317,
-      "winrate": 0.4729,
-      "pickrate": 0.0264,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4729,
-          "games": 10458
-        }
-      ]
-    },
-    {
-      "augmentId": 1103,
-      "winrate": 0.4726,
-      "pickrate": 0.0327,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4726,
-          "games": 12962
-        }
-      ]
-    },
-    {
-      "augmentId": 2099,
-      "winrate": 0.4715,
-      "pickrate": 0.0042,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4715,
-          "games": 1665
-        }
-      ]
-    },
-    {
-      "augmentId": 1129,
-      "winrate": 0.4711,
-      "pickrate": 0.0084,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4711,
-          "games": 3335
-        }
-      ]
-    },
-    {
-      "augmentId": 2080,
-      "winrate": 0.471,
-      "pickrate": 0.0014,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.471,
-          "games": 535
-        }
-      ]
-    },
-    {
-      "augmentId": 2046,
-      "winrate": 0.4701,
-      "pickrate": 0.0014,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4701,
-          "games": 536
-        }
-      ]
-    },
-    {
-      "augmentId": 2137,
-      "winrate": 0.47,
-      "pickrate": 0.0013,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.47,
-          "games": 517
-        }
-      ]
-    },
-    {
-      "augmentId": 1011,
-      "winrate": 0.4682,
-      "pickrate": 0.0052,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4682,
-          "games": 2044
-        }
-      ]
-    },
-    {
-      "augmentId": 1326,
-      "winrate": 0.4675,
-      "pickrate": 0.0042,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4675,
-          "games": 1660
-        }
-      ]
-    },
-    {
-      "augmentId": 1112,
-      "winrate": 0.4643,
-      "pickrate": 0.0046,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4643,
-          "games": 1833
-        }
-      ]
-    },
-    {
-      "augmentId": 1113,
-      "winrate": 0.4634,
-      "pickrate": 0.0659,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4634,
-          "games": 26116
-        }
-      ]
-    },
-    {
-      "augmentId": 1029,
-      "winrate": 0.4586,
-      "pickrate": 0.0148,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4586,
-          "games": 5879
-        }
-      ]
-    },
-    {
-      "augmentId": 2134,
-      "winrate": 0.4583,
-      "pickrate": 0.0026,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4583,
-          "games": 1030
-        }
-      ]
-    },
-    {
-      "augmentId": 1325,
-      "winrate": 0.4577,
-      "pickrate": 0.0059,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4577,
-          "games": 2338
-        }
-      ]
-    },
-    {
-      "augmentId": 1150,
-      "winrate": 0.4574,
+      "augmentId": 1335,
+      "tier": 3,
       "pickrate": 0.0093,
       "contributions": [
         {
@@ -1264,74 +605,377 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4574,
-          "games": 3666
+          "games": 3694
         }
       ]
     },
     {
-      "augmentId": 1211,
-      "winrate": 0.4566,
-      "pickrate": 0.0121,
+      "augmentId": 1337,
+      "tier": 3,
+      "pickrate": 0.0048,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4566,
-          "games": 4790
+          "games": 1898
         }
       ]
     },
     {
-      "augmentId": 2107,
-      "winrate": 0.456,
-      "pickrate": 0.0013,
+      "augmentId": 1344,
+      "tier": 3,
+      "pickrate": 0.0071,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.456,
-          "games": 511
+          "games": 2824
         }
       ]
     },
     {
-      "augmentId": 2088,
-      "winrate": 0.4546,
-      "pickrate": 0.0024,
+      "augmentId": 1347,
+      "tier": 3,
+      "pickrate": 0.0083,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4546,
-          "games": 959
+          "games": 3288
         }
       ]
     },
     {
-      "augmentId": 1996,
-      "winrate": 0.4537,
-      "pickrate": 0.0011,
+      "augmentId": 1349,
+      "tier": 3,
+      "pickrate": 0.0289,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4537,
-          "games": 454
+          "games": 11447
+        }
+      ]
+    },
+    {
+      "augmentId": 1384,
+      "tier": 3,
+      "pickrate": 0.0283,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11198
+        }
+      ]
+    },
+    {
+      "augmentId": 1390,
+      "tier": 3,
+      "pickrate": 0.114,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 45176
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": 3,
+      "pickrate": 0.0091,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3615
+        }
+      ]
+    },
+    {
+      "augmentId": 1403,
+      "tier": 3,
+      "pickrate": 0.0169,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6699
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": 3,
+      "pickrate": 0.0081,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3202
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": 3,
+      "pickrate": 0.0559,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 22165
+        }
+      ]
+    },
+    {
+      "augmentId": 1416,
+      "tier": 3,
+      "pickrate": 0.0339,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13447
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": 3,
+      "pickrate": 0.0807,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 31953
+        }
+      ]
+    },
+    {
+      "augmentId": 2026,
+      "tier": 3,
+      "pickrate": 0.0035,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1376
+        }
+      ]
+    },
+    {
+      "augmentId": 2077,
+      "tier": 3,
+      "pickrate": 0.0728,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 28857
+        }
+      ]
+    },
+    {
+      "augmentId": 2078,
+      "tier": 3,
+      "pickrate": 0.1067,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 42282
+        }
+      ]
+    },
+    {
+      "augmentId": 2083,
+      "tier": 3,
+      "pickrate": 0.1054,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 41767
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": 3,
+      "pickrate": 0.082,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 32505
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": 3,
+      "pickrate": 0.0095,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3780
+        }
+      ]
+    },
+    {
+      "augmentId": 2098,
+      "tier": 3,
+      "pickrate": 0.0039,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1531
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": 3,
+      "pickrate": 0.0476,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18878
+        }
+      ]
+    },
+    {
+      "augmentId": 2103,
+      "tier": 3,
+      "pickrate": 0.0468,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18523
+        }
+      ]
+    },
+    {
+      "augmentId": 2127,
+      "tier": 3,
+      "pickrate": 0.0319,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12653
+        }
+      ]
+    },
+    {
+      "augmentId": 2128,
+      "tier": 3,
+      "pickrate": 0.0418,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16561
+        }
+      ]
+    },
+    {
+      "augmentId": 1002,
+      "tier": 4,
+      "pickrate": 0.0067,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2650
+        }
+      ]
+    },
+    {
+      "augmentId": 1011,
+      "tier": 4,
+      "pickrate": 0.0052,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2044
+        }
+      ]
+    },
+    {
+      "augmentId": 1029,
+      "tier": 4,
+      "pickrate": 0.0148,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5879
         }
       ]
     },
     {
       "augmentId": 1088,
-      "winrate": 0.4505,
+      "tier": 4,
       "pickrate": 0.0213,
       "contributions": [
         {
@@ -1339,104 +983,153 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4505,
           "games": 8426
         }
       ]
     },
     {
-      "augmentId": 2042,
-      "winrate": 0.4487,
-      "pickrate": 0.001,
+      "augmentId": 1103,
+      "tier": 4,
+      "pickrate": 0.0327,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4487,
-          "games": 390
+          "games": 12962
         }
       ]
     },
     {
-      "augmentId": 1058,
-      "winrate": 0.4475,
-      "pickrate": 0.0041,
+      "augmentId": 1112,
+      "tier": 4,
+      "pickrate": 0.0046,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4475,
-          "games": 1620
+          "games": 1833
         }
       ]
     },
     {
-      "augmentId": 1044,
-      "winrate": 0.447,
-      "pickrate": 0.0076,
+      "augmentId": 1113,
+      "tier": 4,
+      "pickrate": 0.0659,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.447,
-          "games": 3029
+          "games": 26116
         }
       ]
     },
     {
-      "augmentId": 2123,
-      "winrate": 0.4447,
-      "pickrate": 0.0266,
+      "augmentId": 1129,
+      "tier": 4,
+      "pickrate": 0.0084,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4447,
-          "games": 10537
+          "games": 3335
         }
       ]
     },
     {
-      "augmentId": 1392,
-      "winrate": 0.4443,
-      "pickrate": 0.0015,
+      "augmentId": 1150,
+      "tier": 4,
+      "pickrate": 0.0093,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4443,
-          "games": 592
+          "games": 3666
         }
       ]
     },
     {
-      "augmentId": 2034,
-      "winrate": 0.4409,
-      "pickrate": 0.0017,
+      "augmentId": 1211,
+      "tier": 4,
+      "pickrate": 0.0121,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4409,
-          "games": 660
+          "games": 4790
         }
       ]
     },
     {
-      "augmentId": 2005,
-      "winrate": 0.4315,
+      "augmentId": 1325,
+      "tier": 4,
+      "pickrate": 0.0059,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2338
+        }
+      ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": 4,
+      "pickrate": 0.0042,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1660
+        }
+      ]
+    },
+    {
+      "augmentId": 1345,
+      "tier": 4,
+      "pickrate": 0.0111,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4394
+        }
+      ]
+    },
+    {
+      "augmentId": 1358,
+      "tier": 4,
+      "pickrate": 0.0025,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 973
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": 4,
       "pickrate": 0.0011,
       "contributions": [
         {
@@ -1444,44 +1137,125 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4315,
-          "games": 445
+          "games": 454
         }
       ]
     },
     {
-      "augmentId": 2016,
-      "winrate": 0.4292,
-      "pickrate": 0.0049,
+      "augmentId": 2046,
+      "tier": 4,
+      "pickrate": 0.0014,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4292,
-          "games": 1941
+          "games": 536
         }
       ]
     },
     {
-      "augmentId": 1054,
-      "winrate": 0.4201,
-      "pickrate": 0.0037,
+      "augmentId": 2080,
+      "tier": 4,
+      "pickrate": 0.0014,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4201,
-          "games": 1452
+          "games": 535
         }
       ]
     },
     {
-      "augmentId": 2118,
-      "winrate": 0.4046,
+      "augmentId": 2088,
+      "tier": 4,
+      "pickrate": 0.0024,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 959
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": 4,
+      "pickrate": 0.0042,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1665
+        }
+      ]
+    },
+    {
+      "augmentId": 2107,
+      "tier": 4,
+      "pickrate": 0.0013,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 511
+        }
+      ]
+    },
+    {
+      "augmentId": 2134,
+      "tier": 4,
+      "pickrate": 0.0026,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1030
+        }
+      ]
+    },
+    {
+      "augmentId": 2137,
+      "tier": 4,
+      "pickrate": 0.0013,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 517
+        }
+      ]
+    },
+    {
+      "augmentId": 12317,
+      "tier": 4,
+      "pickrate": 0.0264,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10458
+        }
+      ]
+    },
+    {
+      "augmentId": 1044,
+      "tier": 5,
       "pickrate": 0.0076,
       "contributions": [
         {
@@ -1489,11 +1263,135 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4046,
+          "games": 3029
+        }
+      ]
+    },
+    {
+      "augmentId": 1054,
+      "tier": 5,
+      "pickrate": 0.0037,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1452
+        }
+      ]
+    },
+    {
+      "augmentId": 1058,
+      "tier": 5,
+      "pickrate": 0.0041,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1620
+        }
+      ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": 5,
+      "pickrate": 0.0015,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 592
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": 5,
+      "pickrate": 0.0011,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 445
+        }
+      ]
+    },
+    {
+      "augmentId": 2016,
+      "tier": 5,
+      "pickrate": 0.0049,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1941
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": 5,
+      "pickrate": 0.0017,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 660
+        }
+      ]
+    },
+    {
+      "augmentId": 2042,
+      "tier": 5,
+      "pickrate": 0.001,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 390
+        }
+      ]
+    },
+    {
+      "augmentId": 2118,
+      "tier": 5,
+      "pickrate": 0.0076,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
           "games": 3008
         }
       ]
+    },
+    {
+      "augmentId": 2123,
+      "tier": 5,
+      "pickrate": 0.0266,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/syndra?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10537
+        }
+      ]
     }
-  ],
-  "method": "equal-source-mean"
+  ]
 }

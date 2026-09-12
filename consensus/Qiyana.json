@@ -1,17 +1,15 @@
 {
+  "version": 1,
+  "method": "warden-performance-tiers-v1",
   "championId": 246,
   "championKey": "Qiyana",
   "set": "aram",
-  "source": "Mayhem source average",
-  "sourceUrl": "https://github.com/snacbot/warden-releases/blob/mayhem-data/README.md",
-  "winrateScope": "champion",
-  "pickrateScope": "champion",
   "patch": "16.18",
   "scrapedAt": "2026-09-12T02:34:26.350Z",
   "augments": [
     {
       "augmentId": 2123,
-      "winrate": 0.5627,
+      "tier": 1,
       "pickrate": 0.1574,
       "contributions": [
         {
@@ -19,29 +17,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5627,
           "games": 38469
         }
       ]
     },
     {
-      "augmentId": 2095,
-      "winrate": 0.5419,
-      "pickrate": 0.0218,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5419,
-          "games": 5318
-        }
-      ]
-    },
-    {
       "augmentId": 1004,
-      "winrate": 0.5205,
+      "tier": 2,
       "pickrate": 0.0262,
       "contributions": [
         {
@@ -49,74 +31,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5205,
           "games": 6402
         }
       ]
     },
     {
-      "augmentId": 2031,
-      "winrate": 0.5138,
-      "pickrate": 0.0104,
+      "augmentId": 2095,
+      "tier": 2,
+      "pickrate": 0.0218,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5138,
-          "games": 2536
-        }
-      ]
-    },
-    {
-      "augmentId": 1315,
-      "winrate": 0.5087,
-      "pickrate": 0.0425,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5087,
-          "games": 10395
-        }
-      ]
-    },
-    {
-      "augmentId": 1389,
-      "winrate": 0.5045,
-      "pickrate": 0.0023,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5045,
-          "games": 561
-        }
-      ]
-    },
-    {
-      "augmentId": 1310,
-      "winrate": 0.502,
-      "pickrate": 0.0743,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.502,
-          "games": 18166
+          "games": 5318
         }
       ]
     },
     {
       "augmentId": 1038,
-      "winrate": 0.5004,
+      "tier": 3,
       "pickrate": 0.1007,
       "contributions": [
         {
@@ -124,29 +59,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5004,
           "games": 24623
         }
       ]
     },
     {
-      "augmentId": 1063,
-      "winrate": 0.4982,
-      "pickrate": 0.0433,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4982,
-          "games": 10585
-        }
-      ]
-    },
-    {
       "augmentId": 1053,
-      "winrate": 0.4967,
+      "tier": 3,
       "pickrate": 0.0204,
       "contributions": [
         {
@@ -154,14 +73,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4967,
           "games": 4981
         }
       ]
     },
     {
+      "augmentId": 1056,
+      "tier": 3,
+      "pickrate": 0.0037,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 905
+        }
+      ]
+    },
+    {
       "augmentId": 1060,
-      "winrate": 0.493,
+      "tier": 3,
       "pickrate": 0.0096,
       "contributions": [
         {
@@ -169,29 +101,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.493,
           "games": 2347
         }
       ]
     },
     {
-      "augmentId": 1056,
-      "winrate": 0.4928,
-      "pickrate": 0.0037,
+      "augmentId": 1063,
+      "tier": 3,
+      "pickrate": 0.0433,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4928,
-          "games": 905
+          "games": 10585
         }
       ]
     },
     {
       "augmentId": 1073,
-      "winrate": 0.4927,
+      "tier": 3,
       "pickrate": 0.1037,
       "contributions": [
         {
@@ -199,74 +129,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4927,
           "games": 25336
         }
       ]
     },
     {
-      "augmentId": 1384,
-      "winrate": 0.4909,
-      "pickrate": 0.0473,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4909,
-          "games": 11567
-        }
-      ]
-    },
-    {
-      "augmentId": 2098,
-      "winrate": 0.4898,
-      "pickrate": 0.0066,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4898,
-          "games": 1619
-        }
-      ]
-    },
-    {
-      "augmentId": 1333,
-      "winrate": 0.4891,
-      "pickrate": 0.0439,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4891,
-          "games": 10722
-        }
-      ]
-    },
-    {
-      "augmentId": 2083,
-      "winrate": 0.488,
-      "pickrate": 0.1539,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.488,
-          "games": 37607
-        }
-      ]
-    },
-    {
       "augmentId": 1195,
-      "winrate": 0.4872,
+      "tier": 3,
       "pickrate": 0.0269,
       "contributions": [
         {
@@ -274,14 +143,83 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4872,
           "games": 6579
         }
       ]
     },
     {
+      "augmentId": 1310,
+      "tier": 3,
+      "pickrate": 0.0743,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18166
+        }
+      ]
+    },
+    {
+      "augmentId": 1315,
+      "tier": 3,
+      "pickrate": 0.0425,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10395
+        }
+      ]
+    },
+    {
+      "augmentId": 1333,
+      "tier": 3,
+      "pickrate": 0.0439,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10722
+        }
+      ]
+    },
+    {
+      "augmentId": 1384,
+      "tier": 3,
+      "pickrate": 0.0473,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11567
+        }
+      ]
+    },
+    {
+      "augmentId": 1389,
+      "tier": 3,
+      "pickrate": 0.0023,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 561
+        }
+      ]
+    },
+    {
       "augmentId": 1404,
-      "winrate": 0.4849,
+      "tier": 3,
       "pickrate": 0.0061,
       "contributions": [
         {
@@ -289,104 +227,55 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4849,
           "games": 1491
         }
       ]
     },
     {
-      "augmentId": 1337,
-      "winrate": 0.4778,
-      "pickrate": 0.0053,
+      "augmentId": 2031,
+      "tier": 3,
+      "pickrate": 0.0104,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4778,
-          "games": 1285
+          "games": 2536
         }
       ]
     },
     {
-      "augmentId": 1027,
-      "winrate": 0.4767,
-      "pickrate": 0.0138,
+      "augmentId": 2083,
+      "tier": 3,
+      "pickrate": 0.1539,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4767,
-          "games": 3373
+          "games": 37607
         }
       ]
     },
     {
-      "augmentId": 2089,
-      "winrate": 0.4746,
-      "pickrate": 0.0137,
+      "augmentId": 2098,
+      "tier": 3,
+      "pickrate": 0.0066,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4746,
-          "games": 3342
-        }
-      ]
-    },
-    {
-      "augmentId": 2141,
-      "winrate": 0.474,
-      "pickrate": 0.0397,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.474,
-          "games": 9715
-        }
-      ]
-    },
-    {
-      "augmentId": 1206,
-      "winrate": 0.4739,
-      "pickrate": 0.0619,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4739,
-          "games": 15124
-        }
-      ]
-    },
-    {
-      "augmentId": 1238,
-      "winrate": 0.4727,
-      "pickrate": 0.1334,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4727,
-          "games": 32609
+          "games": 1619
         }
       ]
     },
     {
       "augmentId": 1007,
-      "winrate": 0.4722,
+      "tier": 4,
       "pickrate": 0.1108,
       "contributions": [
         {
@@ -394,284 +283,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4722,
           "games": 27085
         }
       ]
     },
     {
-      "augmentId": 2157,
-      "winrate": 0.4717,
-      "pickrate": 0.0664,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4717,
-          "games": 16223
-        }
-      ]
-    },
-    {
-      "augmentId": 1062,
-      "winrate": 0.4716,
-      "pickrate": 0.0056,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4716,
-          "games": 1372
-        }
-      ]
-    },
-    {
-      "augmentId": 1403,
-      "winrate": 0.4708,
-      "pickrate": 0.027,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4708,
-          "games": 6595
-        }
-      ]
-    },
-    {
-      "augmentId": 1335,
-      "winrate": 0.4703,
-      "pickrate": 0.005,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4703,
-          "games": 1214
-        }
-      ]
-    },
-    {
-      "augmentId": 1138,
-      "winrate": 0.469,
-      "pickrate": 0.0326,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.469,
-          "games": 7973
-        }
-      ]
-    },
-    {
-      "augmentId": 1098,
-      "winrate": 0.4669,
-      "pickrate": 0.0193,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4669,
-          "games": 4720
-        }
-      ]
-    },
-    {
-      "augmentId": 1402,
-      "winrate": 0.4655,
-      "pickrate": 0.0065,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4655,
-          "games": 1594
-        }
-      ]
-    },
-    {
-      "augmentId": 1041,
-      "winrate": 0.4648,
-      "pickrate": 0.0125,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4648,
-          "games": 3044
-        }
-      ]
-    },
-    {
-      "augmentId": 1375,
-      "winrate": 0.4633,
-      "pickrate": 0.0032,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4633,
-          "games": 790
-        }
-      ]
-    },
-    {
-      "augmentId": 1344,
-      "winrate": 0.4602,
-      "pickrate": 0.0155,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4602,
-          "games": 3790
-        }
-      ]
-    },
-    {
-      "augmentId": 2116,
-      "winrate": 0.4595,
-      "pickrate": 0.0996,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4595,
-          "games": 24338
-        }
-      ]
-    },
-    {
-      "augmentId": 1026,
-      "winrate": 0.4593,
-      "pickrate": 0.0063,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4593,
-          "games": 1537
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "winrate": 0.4587,
-      "pickrate": 0.0313,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4587,
-          "games": 7657
-        }
-      ]
-    },
-    {
-      "augmentId": 2119,
-      "winrate": 0.458,
-      "pickrate": 0.0057,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.458,
-          "games": 1404
-        }
-      ]
-    },
-    {
-      "augmentId": 1116,
-      "winrate": 0.4566,
-      "pickrate": 0.0484,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4566,
-          "games": 11830
-        }
-      ]
-    },
-    {
-      "augmentId": 1243,
-      "winrate": 0.4557,
-      "pickrate": 0.0256,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4557,
-          "games": 6265
-        }
-      ]
-    },
-    {
-      "augmentId": 2032,
-      "winrate": 0.4554,
-      "pickrate": 0.0101,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4554,
-          "games": 2466
-        }
-      ]
-    },
-    {
-      "augmentId": 2140,
-      "winrate": 0.4549,
-      "pickrate": 0.0579,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4549,
-          "games": 14140
-        }
-      ]
-    },
-    {
       "augmentId": 1025,
-      "winrate": 0.4545,
+      "tier": 4,
       "pickrate": 0.0238,
       "contributions": [
         {
@@ -679,314 +297,69 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4545,
           "games": 5819
         }
       ]
     },
     {
-      "augmentId": 1136,
-      "winrate": 0.4525,
-      "pickrate": 0.0077,
+      "augmentId": 1026,
+      "tier": 4,
+      "pickrate": 0.0063,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4525,
-          "games": 1874
+          "games": 1537
         }
       ]
     },
     {
-      "augmentId": 12317,
-      "winrate": 0.4491,
-      "pickrate": 0.0242,
+      "augmentId": 1027,
+      "tier": 4,
+      "pickrate": 0.0138,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4491,
-          "games": 5912
+          "games": 3373
         }
       ]
     },
     {
-      "augmentId": 1322,
-      "winrate": 0.4489,
-      "pickrate": 0.0285,
+      "augmentId": 1041,
+      "tier": 4,
+      "pickrate": 0.0125,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4489,
-          "games": 6977
+          "games": 3044
         }
       ]
     },
     {
-      "augmentId": 1149,
-      "winrate": 0.4482,
-      "pickrate": 0.0016,
+      "augmentId": 1062,
+      "tier": 4,
+      "pickrate": 0.0056,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4482,
-          "games": 386
+          "games": 1372
         }
       ]
     },
     {
-      "augmentId": 1105,
-      "winrate": 0.4481,
-      "pickrate": 0.0052,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4481,
-          "games": 1261
-        }
-      ]
-    },
-    {
-      "augmentId": 1057,
-      "winrate": 0.4471,
-      "pickrate": 0.0014,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4471,
-          "games": 331
-        }
-      ]
-    },
-    {
-      "augmentId": 1046,
-      "winrate": 0.4463,
-      "pickrate": 0.0187,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4463,
-          "games": 4571
-        }
-      ]
-    },
-    {
-      "augmentId": 2107,
-      "winrate": 0.4462,
-      "pickrate": 0.0038,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4462,
-          "games": 930
-        }
-      ]
-    },
-    {
-      "augmentId": 1154,
-      "winrate": 0.4455,
-      "pickrate": 0.0122,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4455,
-          "games": 2974
-        }
-      ]
-    },
-    {
-      "augmentId": 1084,
-      "winrate": 0.4449,
-      "pickrate": 0.0966,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4449,
-          "games": 23622
-        }
-      ]
-    },
-    {
-      "augmentId": 2005,
-      "winrate": 0.4433,
-      "pickrate": 0.0191,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4433,
-          "games": 4658
-        }
-      ]
-    },
-    {
-      "augmentId": 1392,
-      "winrate": 0.4421,
-      "pickrate": 0.0092,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4421,
-          "games": 2255
-        }
-      ]
-    },
-    {
-      "augmentId": 1068,
-      "winrate": 0.4419,
-      "pickrate": 0.1166,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4419,
-          "games": 28501
-        }
-      ]
-    },
-    {
-      "augmentId": 2099,
-      "winrate": 0.4406,
-      "pickrate": 0.0285,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4406,
-          "games": 6963
-        }
-      ]
-    },
-    {
-      "augmentId": 1415,
-      "winrate": 0.4401,
-      "pickrate": 0.0129,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4401,
-          "games": 3161
-        }
-      ]
-    },
-    {
-      "augmentId": 1305,
-      "winrate": 0.4384,
-      "pickrate": 0.0208,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4384,
-          "games": 5073
-        }
-      ]
-    },
-    {
-      "augmentId": 1388,
-      "winrate": 0.4384,
-      "pickrate": 0.0356,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4384,
-          "games": 8713
-        }
-      ]
-    },
-    {
-      "augmentId": 1358,
-      "winrate": 0.4383,
-      "pickrate": 0.0217,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4383,
-          "games": 5314
-        }
-      ]
-    },
-    {
-      "augmentId": 1029,
-      "winrate": 0.438,
-      "pickrate": 0.0336,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.438,
-          "games": 8208
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "winrate": 0.438,
-      "pickrate": 0.0462,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.438,
-          "games": 11285
-        }
-      ]
-    },
-    {
-      "augmentId": 1345,
-      "winrate": 0.4372,
+      "augmentId": 1098,
+      "tier": 4,
       "pickrate": 0.0193,
       "contributions": [
         {
@@ -994,569 +367,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4372,
-          "games": 4712
+          "games": 4720
         }
       ]
     },
     {
-      "augmentId": 1373,
-      "winrate": 0.4368,
-      "pickrate": 0.0701,
+      "augmentId": 1116,
+      "tier": 4,
+      "pickrate": 0.0484,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4368,
-          "games": 17140
+          "games": 11830
         }
       ]
     },
     {
-      "augmentId": 2127,
-      "winrate": 0.4349,
-      "pickrate": 0.0228,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4349,
-          "games": 5583
-        }
-      ]
-    },
-    {
-      "augmentId": 1048,
-      "winrate": 0.4335,
-      "pickrate": 0.0881,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4335,
-          "games": 21522
-        }
-      ]
-    },
-    {
-      "augmentId": 1019,
-      "winrate": 0.4332,
-      "pickrate": 0.0857,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4332,
-          "games": 20951
-        }
-      ]
-    },
-    {
-      "augmentId": 2026,
-      "winrate": 0.4314,
-      "pickrate": 0.0148,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4314,
-          "games": 3628
-        }
-      ]
-    },
-    {
-      "augmentId": 1311,
-      "winrate": 0.4303,
-      "pickrate": 0.009,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4303,
-          "games": 2194
-        }
-      ]
-    },
-    {
-      "augmentId": 1034,
-      "winrate": 0.4296,
-      "pickrate": 0.0198,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4296,
-          "games": 4839
-        }
-      ]
-    },
-    {
-      "augmentId": 1006,
-      "winrate": 0.4293,
-      "pickrate": 0.016,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4293,
-          "games": 3904
-        }
-      ]
-    },
-    {
-      "augmentId": 1150,
-      "winrate": 0.429,
-      "pickrate": 0.0867,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.429,
-          "games": 21186
-        }
-      ]
-    },
-    {
-      "augmentId": 1326,
-      "winrate": 0.4282,
-      "pickrate": 0.0843,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4282,
-          "games": 20615
-        }
-      ]
-    },
-    {
-      "augmentId": 1028,
-      "winrate": 0.4275,
-      "pickrate": 0.0048,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4275,
-          "games": 1165
-        }
-      ]
-    },
-    {
-      "augmentId": 2091,
-      "winrate": 0.4273,
-      "pickrate": 0.0208,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4273,
-          "games": 5095
-        }
-      ]
-    },
-    {
-      "augmentId": 2042,
-      "winrate": 0.4234,
-      "pickrate": 0.0084,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4234,
-          "games": 2062
-        }
-      ]
-    },
-    {
-      "augmentId": 1301,
-      "winrate": 0.4227,
-      "pickrate": 0.0078,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4227,
-          "games": 1909
-        }
-      ]
-    },
-    {
-      "augmentId": 2137,
-      "winrate": 0.4216,
-      "pickrate": 0.0027,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4216,
-          "games": 657
-        }
-      ]
-    },
-    {
-      "augmentId": 2088,
-      "winrate": 0.4185,
-      "pickrate": 0.0128,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4185,
-          "games": 3135
-        }
-      ]
-    },
-    {
-      "augmentId": 2078,
-      "winrate": 0.4167,
-      "pickrate": 0.1129,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4167,
-          "games": 27604
-        }
-      ]
-    },
-    {
-      "augmentId": 1320,
-      "winrate": 0.4149,
-      "pickrate": 0.0832,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4149,
-          "games": 20330
-        }
-      ]
-    },
-    {
-      "augmentId": 1187,
-      "winrate": 0.4148,
-      "pickrate": 0.002,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4148,
-          "games": 487
-        }
-      ]
-    },
-    {
-      "augmentId": 1011,
-      "winrate": 0.4142,
-      "pickrate": 0.0062,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4142,
-          "games": 1516
-        }
-      ]
-    },
-    {
-      "augmentId": 1211,
-      "winrate": 0.4129,
-      "pickrate": 0.0326,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4129,
-          "games": 7972
-        }
-      ]
-    },
-    {
-      "augmentId": 2080,
-      "winrate": 0.4129,
-      "pickrate": 0.0175,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4129,
-          "games": 4282
-        }
-      ]
-    },
-    {
-      "augmentId": 1002,
-      "winrate": 0.4127,
-      "pickrate": 0.0055,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4127,
-          "games": 1352
-        }
-      ]
-    },
-    {
-      "augmentId": 1308,
-      "winrate": 0.4127,
-      "pickrate": 0.0037,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4127,
-          "games": 911
-        }
-      ]
-    },
-    {
-      "augmentId": 2016,
-      "winrate": 0.4119,
-      "pickrate": 0.0016,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4119,
-          "games": 386
-        }
-      ]
-    },
-    {
-      "augmentId": 1151,
-      "winrate": 0.4113,
-      "pickrate": 0.013,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4113,
-          "games": 3173
-        }
-      ]
-    },
-    {
-      "augmentId": 2034,
-      "winrate": 0.4081,
-      "pickrate": 0.0122,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4081,
-          "games": 2972
-        }
-      ]
-    },
-    {
-      "augmentId": 1348,
-      "winrate": 0.408,
-      "pickrate": 0.0015,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.408,
-          "games": 375
-        }
-      ]
-    },
-    {
-      "augmentId": 1349,
-      "winrate": 0.4062,
-      "pickrate": 0.0217,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4062,
-          "games": 5305
-        }
-      ]
-    },
-    {
-      "augmentId": 1088,
-      "winrate": 0.4008,
-      "pickrate": 0.018,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4008,
-          "games": 4411
-        }
-      ]
-    },
-    {
-      "augmentId": 2063,
-      "winrate": 0.4,
-      "pickrate": 0.0011,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4,
-          "games": 260
-        }
-      ]
-    },
-    {
-      "augmentId": 2143,
-      "winrate": 0.3995,
-      "pickrate": 0.01,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3995,
-          "games": 2433
-        }
-      ]
-    },
-    {
-      "augmentId": 2087,
-      "winrate": 0.3955,
-      "pickrate": 0.0343,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3955,
-          "games": 8384
-        }
-      ]
-    },
-    {
-      "augmentId": 1112,
-      "winrate": 0.393,
-      "pickrate": 0.0105,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.393,
-          "games": 2557
-        }
-      ]
-    },
-    {
-      "augmentId": 2018,
-      "winrate": 0.3913,
-      "pickrate": 0.0147,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3913,
-          "games": 3583
-        }
-      ]
-    },
-    {
-      "augmentId": 1323,
-      "winrate": 0.3862,
-      "pickrate": 0.0021,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3862,
-          "games": 523
-        }
-      ]
-    },
-    {
-      "augmentId": 2100,
-      "winrate": 0.3702,
-      "pickrate": 0.0391,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3702,
-          "games": 9558
-        }
-      ]
-    },
-    {
-      "augmentId": 1194,
-      "winrate": 0.3698,
+      "augmentId": 1136,
+      "tier": 4,
       "pickrate": 0.0077,
       "contributions": [
         {
@@ -1564,29 +395,265 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3698,
-          "games": 1893
+          "games": 1874
         }
       ]
     },
     {
-      "augmentId": 1103,
-      "winrate": 0.3697,
-      "pickrate": 0.0259,
+      "augmentId": 1138,
+      "tier": 4,
+      "pickrate": 0.0326,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3697,
-          "games": 6330
+          "games": 7973
+        }
+      ]
+    },
+    {
+      "augmentId": 1206,
+      "tier": 4,
+      "pickrate": 0.0619,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15124
+        }
+      ]
+    },
+    {
+      "augmentId": 1238,
+      "tier": 4,
+      "pickrate": 0.1334,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 32609
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": 4,
+      "pickrate": 0.0256,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6265
+        }
+      ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": 4,
+      "pickrate": 0.0313,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7657
+        }
+      ]
+    },
+    {
+      "augmentId": 1335,
+      "tier": 4,
+      "pickrate": 0.005,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1214
+        }
+      ]
+    },
+    {
+      "augmentId": 1337,
+      "tier": 4,
+      "pickrate": 0.0053,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1285
+        }
+      ]
+    },
+    {
+      "augmentId": 1344,
+      "tier": 4,
+      "pickrate": 0.0155,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3790
+        }
+      ]
+    },
+    {
+      "augmentId": 1375,
+      "tier": 4,
+      "pickrate": 0.0032,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 790
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": 4,
+      "pickrate": 0.0065,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1594
+        }
+      ]
+    },
+    {
+      "augmentId": 1403,
+      "tier": 4,
+      "pickrate": 0.027,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6595
+        }
+      ]
+    },
+    {
+      "augmentId": 2032,
+      "tier": 4,
+      "pickrate": 0.0101,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2466
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": 4,
+      "pickrate": 0.0137,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3342
+        }
+      ]
+    },
+    {
+      "augmentId": 2116,
+      "tier": 4,
+      "pickrate": 0.0996,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 24338
+        }
+      ]
+    },
+    {
+      "augmentId": 2119,
+      "tier": 4,
+      "pickrate": 0.0057,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1404
+        }
+      ]
+    },
+    {
+      "augmentId": 2140,
+      "tier": 4,
+      "pickrate": 0.0579,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14140
+        }
+      ]
+    },
+    {
+      "augmentId": 2141,
+      "tier": 4,
+      "pickrate": 0.0397,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9715
+        }
+      ]
+    },
+    {
+      "augmentId": 2157,
+      "tier": 4,
+      "pickrate": 0.0664,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16223
         }
       ]
     },
     {
       "augmentId": 1001,
-      "winrate": 0.365,
+      "tier": 5,
       "pickrate": 0.0013,
       "contributions": [
         {
@@ -1594,44 +661,153 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.365,
           "games": 326
         }
       ]
     },
     {
-      "augmentId": 1996,
-      "winrate": 0.3619,
-      "pickrate": 0.0065,
+      "augmentId": 1002,
+      "tier": 5,
+      "pickrate": 0.0055,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3619,
-          "games": 1589
+          "games": 1352
         }
       ]
     },
     {
-      "augmentId": 1220,
-      "winrate": 0.3598,
-      "pickrate": 0.0035,
+      "augmentId": 1006,
+      "tier": 5,
+      "pickrate": 0.016,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3598,
-          "games": 856
+          "games": 3904
+        }
+      ]
+    },
+    {
+      "augmentId": 1011,
+      "tier": 5,
+      "pickrate": 0.0062,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1516
+        }
+      ]
+    },
+    {
+      "augmentId": 1019,
+      "tier": 5,
+      "pickrate": 0.0857,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 20951
+        }
+      ]
+    },
+    {
+      "augmentId": 1028,
+      "tier": 5,
+      "pickrate": 0.0048,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1165
+        }
+      ]
+    },
+    {
+      "augmentId": 1029,
+      "tier": 5,
+      "pickrate": 0.0336,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8208
+        }
+      ]
+    },
+    {
+      "augmentId": 1034,
+      "tier": 5,
+      "pickrate": 0.0198,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4839
+        }
+      ]
+    },
+    {
+      "augmentId": 1046,
+      "tier": 5,
+      "pickrate": 0.0187,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4571
+        }
+      ]
+    },
+    {
+      "augmentId": 1048,
+      "tier": 5,
+      "pickrate": 0.0881,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 21522
+        }
+      ]
+    },
+    {
+      "augmentId": 1057,
+      "tier": 5,
+      "pickrate": 0.0014,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 331
         }
       ]
     },
     {
       "augmentId": 1058,
-      "winrate": 0.3409,
+      "tier": 5,
       "pickrate": 0.0081,
       "contributions": [
         {
@@ -1639,44 +815,349 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3409,
           "games": 1989
         }
       ]
     },
     {
-      "augmentId": 2134,
-      "winrate": 0.3392,
-      "pickrate": 0.0012,
+      "augmentId": 1068,
+      "tier": 5,
+      "pickrate": 0.1166,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3392,
-          "games": 283
+          "games": 28501
         }
       ]
     },
     {
-      "augmentId": 2118,
-      "winrate": 0.3239,
-      "pickrate": 0.0065,
+      "augmentId": 1084,
+      "tier": 5,
+      "pickrate": 0.0966,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3239,
-          "games": 1593
+          "games": 23622
         }
       ]
     },
     {
-      "augmentId": 1386,
-      "winrate": 0.3096,
+      "augmentId": 1088,
+      "tier": 5,
+      "pickrate": 0.018,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4411
+        }
+      ]
+    },
+    {
+      "augmentId": 1103,
+      "tier": 5,
+      "pickrate": 0.0259,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6330
+        }
+      ]
+    },
+    {
+      "augmentId": 1105,
+      "tier": 5,
+      "pickrate": 0.0052,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1261
+        }
+      ]
+    },
+    {
+      "augmentId": 1112,
+      "tier": 5,
+      "pickrate": 0.0105,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2557
+        }
+      ]
+    },
+    {
+      "augmentId": 1149,
+      "tier": 5,
+      "pickrate": 0.0016,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 386
+        }
+      ]
+    },
+    {
+      "augmentId": 1150,
+      "tier": 5,
+      "pickrate": 0.0867,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 21186
+        }
+      ]
+    },
+    {
+      "augmentId": 1151,
+      "tier": 5,
+      "pickrate": 0.013,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3173
+        }
+      ]
+    },
+    {
+      "augmentId": 1154,
+      "tier": 5,
+      "pickrate": 0.0122,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2974
+        }
+      ]
+    },
+    {
+      "augmentId": 1187,
+      "tier": 5,
+      "pickrate": 0.002,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 487
+        }
+      ]
+    },
+    {
+      "augmentId": 1194,
+      "tier": 5,
+      "pickrate": 0.0077,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1893
+        }
+      ]
+    },
+    {
+      "augmentId": 1211,
+      "tier": 5,
+      "pickrate": 0.0326,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7972
+        }
+      ]
+    },
+    {
+      "augmentId": 1220,
+      "tier": 5,
+      "pickrate": 0.0035,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 856
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": 5,
+      "pickrate": 0.0462,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11285
+        }
+      ]
+    },
+    {
+      "augmentId": 1301,
+      "tier": 5,
+      "pickrate": 0.0078,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1909
+        }
+      ]
+    },
+    {
+      "augmentId": 1305,
+      "tier": 5,
+      "pickrate": 0.0208,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5073
+        }
+      ]
+    },
+    {
+      "augmentId": 1308,
+      "tier": 5,
+      "pickrate": 0.0037,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 911
+        }
+      ]
+    },
+    {
+      "augmentId": 1311,
+      "tier": 5,
+      "pickrate": 0.009,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2194
+        }
+      ]
+    },
+    {
+      "augmentId": 1320,
+      "tier": 5,
+      "pickrate": 0.0832,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 20330
+        }
+      ]
+    },
+    {
+      "augmentId": 1322,
+      "tier": 5,
+      "pickrate": 0.0285,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6977
+        }
+      ]
+    },
+    {
+      "augmentId": 1323,
+      "tier": 5,
+      "pickrate": 0.0021,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 523
+        }
+      ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": 5,
+      "pickrate": 0.0843,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 20615
+        }
+      ]
+    },
+    {
+      "augmentId": 1345,
+      "tier": 5,
+      "pickrate": 0.0193,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4712
+        }
+      ]
+    },
+    {
+      "augmentId": 1348,
+      "tier": 5,
       "pickrate": 0.0015,
       "contributions": [
         {
@@ -1684,11 +1165,415 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3096,
+          "games": 375
+        }
+      ]
+    },
+    {
+      "augmentId": 1349,
+      "tier": 5,
+      "pickrate": 0.0217,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5305
+        }
+      ]
+    },
+    {
+      "augmentId": 1358,
+      "tier": 5,
+      "pickrate": 0.0217,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5314
+        }
+      ]
+    },
+    {
+      "augmentId": 1373,
+      "tier": 5,
+      "pickrate": 0.0701,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17140
+        }
+      ]
+    },
+    {
+      "augmentId": 1386,
+      "tier": 5,
+      "pickrate": 0.0015,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
           "games": 365
         }
       ]
+    },
+    {
+      "augmentId": 1388,
+      "tier": 5,
+      "pickrate": 0.0356,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8713
+        }
+      ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": 5,
+      "pickrate": 0.0092,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2255
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": 5,
+      "pickrate": 0.0129,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3161
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": 5,
+      "pickrate": 0.0065,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1589
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": 5,
+      "pickrate": 0.0191,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4658
+        }
+      ]
+    },
+    {
+      "augmentId": 2016,
+      "tier": 5,
+      "pickrate": 0.0016,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 386
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": 5,
+      "pickrate": 0.0147,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3583
+        }
+      ]
+    },
+    {
+      "augmentId": 2026,
+      "tier": 5,
+      "pickrate": 0.0148,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3628
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": 5,
+      "pickrate": 0.0122,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2972
+        }
+      ]
+    },
+    {
+      "augmentId": 2042,
+      "tier": 5,
+      "pickrate": 0.0084,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2062
+        }
+      ]
+    },
+    {
+      "augmentId": 2063,
+      "tier": 5,
+      "pickrate": 0.0011,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 260
+        }
+      ]
+    },
+    {
+      "augmentId": 2078,
+      "tier": 5,
+      "pickrate": 0.1129,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 27604
+        }
+      ]
+    },
+    {
+      "augmentId": 2080,
+      "tier": 5,
+      "pickrate": 0.0175,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4282
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": 5,
+      "pickrate": 0.0343,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8384
+        }
+      ]
+    },
+    {
+      "augmentId": 2088,
+      "tier": 5,
+      "pickrate": 0.0128,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3135
+        }
+      ]
+    },
+    {
+      "augmentId": 2091,
+      "tier": 5,
+      "pickrate": 0.0208,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5095
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": 5,
+      "pickrate": 0.0285,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6963
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": 5,
+      "pickrate": 0.0391,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9558
+        }
+      ]
+    },
+    {
+      "augmentId": 2107,
+      "tier": 5,
+      "pickrate": 0.0038,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 930
+        }
+      ]
+    },
+    {
+      "augmentId": 2118,
+      "tier": 5,
+      "pickrate": 0.0065,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1593
+        }
+      ]
+    },
+    {
+      "augmentId": 2127,
+      "tier": 5,
+      "pickrate": 0.0228,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5583
+        }
+      ]
+    },
+    {
+      "augmentId": 2134,
+      "tier": 5,
+      "pickrate": 0.0012,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 283
+        }
+      ]
+    },
+    {
+      "augmentId": 2137,
+      "tier": 5,
+      "pickrate": 0.0027,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 657
+        }
+      ]
+    },
+    {
+      "augmentId": 2143,
+      "tier": 5,
+      "pickrate": 0.01,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2433
+        }
+      ]
+    },
+    {
+      "augmentId": 12317,
+      "tier": 5,
+      "pickrate": 0.0242,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/qiyana?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5912
+        }
+      ]
     }
-  ],
-  "method": "equal-source-mean"
+  ]
 }

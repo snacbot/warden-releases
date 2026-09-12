@@ -1,17 +1,15 @@
 {
+  "version": 1,
+  "method": "warden-performance-tiers-v1",
   "championId": 79,
   "championKey": "Gragas",
   "set": "aram",
-  "source": "Mayhem source average",
-  "sourceUrl": "https://github.com/snacbot/warden-releases/blob/mayhem-data/README.md",
-  "winrateScope": "champion",
-  "pickrateScope": "champion",
   "patch": "16.18",
   "scrapedAt": "2026-09-12T02:34:26.350Z",
   "augments": [
     {
       "augmentId": 2031,
-      "winrate": 0.5511,
+      "tier": 1,
       "pickrate": 0.0261,
       "contributions": [
         {
@@ -19,44 +17,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5511,
           "games": 7969
         }
       ]
     },
     {
-      "augmentId": 2095,
-      "winrate": 0.5491,
-      "pickrate": 0.0207,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5491,
-          "games": 6323
-        }
-      ]
-    },
-    {
-      "augmentId": 1195,
-      "winrate": 0.5326,
-      "pickrate": 0.0108,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5326,
-          "games": 3299
-        }
-      ]
-    },
-    {
       "augmentId": 1053,
-      "winrate": 0.5274,
+      "tier": 2,
       "pickrate": 0.0362,
       "contributions": [
         {
@@ -64,179 +31,41 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5274,
           "games": 11045
         }
       ]
     },
     {
-      "augmentId": 1038,
-      "winrate": 0.5162,
-      "pickrate": 0.0447,
+      "augmentId": 1195,
+      "tier": 2,
+      "pickrate": 0.0108,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5162,
-          "games": 13642
+          "games": 3299
         }
       ]
     },
     {
-      "augmentId": 1389,
-      "winrate": 0.5131,
-      "pickrate": 0.0036,
+      "augmentId": 2095,
+      "tier": 2,
+      "pickrate": 0.0207,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5131,
-          "games": 1111
-        }
-      ]
-    },
-    {
-      "augmentId": 1098,
-      "winrate": 0.5109,
-      "pickrate": 0.0156,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5109,
-          "games": 4770
-        }
-      ]
-    },
-    {
-      "augmentId": 1156,
-      "winrate": 0.5103,
-      "pickrate": 0.0303,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5103,
-          "games": 9241
-        }
-      ]
-    },
-    {
-      "augmentId": 1030,
-      "winrate": 0.51,
-      "pickrate": 0.0728,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.51,
-          "games": 22196
-        }
-      ]
-    },
-    {
-      "augmentId": 1373,
-      "winrate": 0.5098,
-      "pickrate": 0.0715,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5098,
-          "games": 21815
-        }
-      ]
-    },
-    {
-      "augmentId": 1187,
-      "winrate": 0.5089,
-      "pickrate": 0.0011,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5089,
-          "games": 338
-        }
-      ]
-    },
-    {
-      "augmentId": 1388,
-      "winrate": 0.5082,
-      "pickrate": 0.0466,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5082,
-          "games": 14212
-        }
-      ]
-    },
-    {
-      "augmentId": 1180,
-      "winrate": 0.5081,
-      "pickrate": 0.0159,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5081,
-          "games": 4834
-        }
-      ]
-    },
-    {
-      "augmentId": 2119,
-      "winrate": 0.5081,
-      "pickrate": 0.0042,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5081,
-          "games": 1295
-        }
-      ]
-    },
-    {
-      "augmentId": 1361,
-      "winrate": 0.5077,
-      "pickrate": 0.0149,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5077,
-          "games": 4546
+          "games": 6323
         }
       ]
     },
     {
       "augmentId": 1004,
-      "winrate": 0.5074,
+      "tier": 3,
       "pickrate": 0.0216,
       "contributions": [
         {
@@ -244,104 +73,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5074,
           "games": 6583
         }
       ]
     },
     {
-      "augmentId": 1335,
-      "winrate": 0.5073,
-      "pickrate": 0.0052,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5073,
-          "games": 1577
-        }
-      ]
-    },
-    {
-      "augmentId": 1337,
-      "winrate": 0.5072,
-      "pickrate": 0.0055,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5072,
-          "games": 1674
-        }
-      ]
-    },
-    {
-      "augmentId": 1333,
-      "winrate": 0.507,
-      "pickrate": 0.051,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.507,
-          "games": 15550
-        }
-      ]
-    },
-    {
-      "augmentId": 1308,
-      "winrate": 0.5054,
-      "pickrate": 0.0163,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5054,
-          "games": 4980
-        }
-      ]
-    },
-    {
-      "augmentId": 2102,
-      "winrate": 0.5041,
-      "pickrate": 0.0286,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5041,
-          "games": 8716
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "winrate": 0.5016,
-      "pickrate": 0.0383,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5016,
-          "games": 11679
-        }
-      ]
-    },
-    {
       "augmentId": 1015,
-      "winrate": 0.501,
+      "tier": 3,
       "pickrate": 0.0189,
       "contributions": [
         {
@@ -349,74 +87,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.501,
           "games": 5753
         }
       ]
     },
     {
-      "augmentId": 1073,
-      "winrate": 0.5006,
-      "pickrate": 0.0229,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5006,
-          "games": 6970
-        }
-      ]
-    },
-    {
-      "augmentId": 1384,
-      "winrate": 0.5002,
-      "pickrate": 0.0267,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5002,
-          "games": 8140
-        }
-      ]
-    },
-    {
-      "augmentId": 2078,
-      "winrate": 0.4995,
-      "pickrate": 0.1293,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4995,
-          "games": 39428
-        }
-      ]
-    },
-    {
-      "augmentId": 1344,
-      "winrate": 0.4993,
-      "pickrate": 0.0073,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4993,
-          "games": 2213
-        }
-      ]
-    },
-    {
       "augmentId": 1029,
-      "winrate": 0.4991,
+      "tier": 3,
       "pickrate": 0.0821,
       "contributions": [
         {
@@ -424,164 +101,41 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4991,
           "games": 25033
         }
       ]
     },
     {
-      "augmentId": 2132,
-      "winrate": 0.4944,
-      "pickrate": 0.061,
+      "augmentId": 1030,
+      "tier": 3,
+      "pickrate": 0.0728,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4944,
-          "games": 18587
+          "games": 22196
         }
       ]
     },
     {
-      "augmentId": 1415,
-      "winrate": 0.4937,
-      "pickrate": 0.0201,
+      "augmentId": 1038,
+      "tier": 3,
+      "pickrate": 0.0447,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4937,
-          "games": 6127
-        }
-      ]
-    },
-    {
-      "augmentId": 1097,
-      "winrate": 0.4932,
-      "pickrate": 0.0463,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4932,
-          "games": 14116
-        }
-      ]
-    },
-    {
-      "augmentId": 2127,
-      "winrate": 0.4928,
-      "pickrate": 0.0322,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4928,
-          "games": 9818
-        }
-      ]
-    },
-    {
-      "augmentId": 1305,
-      "winrate": 0.4927,
-      "pickrate": 0.0234,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4927,
-          "games": 7148
-        }
-      ]
-    },
-    {
-      "augmentId": 1323,
-      "winrate": 0.4924,
-      "pickrate": 0.0269,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4924,
-          "games": 8194
-        }
-      ]
-    },
-    {
-      "augmentId": 2083,
-      "winrate": 0.4916,
-      "pickrate": 0.0655,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4916,
-          "games": 19970
-        }
-      ]
-    },
-    {
-      "augmentId": 1062,
-      "winrate": 0.4911,
-      "pickrate": 0.0068,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4911,
-          "games": 2081
-        }
-      ]
-    },
-    {
-      "augmentId": 1403,
-      "winrate": 0.4898,
-      "pickrate": 0.0162,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4898,
-          "games": 4951
-        }
-      ]
-    },
-    {
-      "augmentId": 1996,
-      "winrate": 0.4894,
-      "pickrate": 0.0272,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4894,
-          "games": 8296
+          "games": 13642
         }
       ]
     },
     {
       "augmentId": 1048,
-      "winrate": 0.4893,
+      "tier": 3,
       "pickrate": 0.0631,
       "contributions": [
         {
@@ -589,209 +143,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4893,
           "games": 19246
         }
       ]
     },
     {
-      "augmentId": 1060,
-      "winrate": 0.4893,
-      "pickrate": 0.019,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4893,
-          "games": 5788
-        }
-      ]
-    },
-    {
-      "augmentId": 1390,
-      "winrate": 0.4884,
-      "pickrate": 0.0549,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4884,
-          "games": 16725
-        }
-      ]
-    },
-    {
-      "augmentId": 1068,
-      "winrate": 0.4876,
-      "pickrate": 0.1008,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4876,
-          "games": 30728
-        }
-      ]
-    },
-    {
-      "augmentId": 1238,
-      "winrate": 0.4876,
-      "pickrate": 0.0858,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4876,
-          "games": 26166
-        }
-      ]
-    },
-    {
-      "augmentId": 2077,
-      "winrate": 0.4867,
-      "pickrate": 0.0823,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4867,
-          "games": 25103
-        }
-      ]
-    },
-    {
-      "augmentId": 1348,
-      "winrate": 0.4866,
-      "pickrate": 0.001,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4866,
-          "games": 298
-        }
-      ]
-    },
-    {
-      "augmentId": 1116,
-      "winrate": 0.4863,
-      "pickrate": 0.0265,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4863,
-          "games": 8082
-        }
-      ]
-    },
-    {
-      "augmentId": 1319,
-      "winrate": 0.486,
-      "pickrate": 0.0284,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.486,
-          "games": 8664
-        }
-      ]
-    },
-    {
-      "augmentId": 1243,
-      "winrate": 0.4846,
-      "pickrate": 0.0265,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4846,
-          "games": 8091
-        }
-      ]
-    },
-    {
-      "augmentId": 1318,
-      "winrate": 0.484,
-      "pickrate": 0.032,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.484,
-          "games": 9743
-        }
-      ]
-    },
-    {
-      "augmentId": 1152,
-      "winrate": 0.4837,
-      "pickrate": 0.0585,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4837,
-          "games": 17830
-        }
-      ]
-    },
-    {
-      "augmentId": 1129,
-      "winrate": 0.4835,
-      "pickrate": 0.0391,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4835,
-          "games": 11935
-        }
-      ]
-    },
-    {
-      "augmentId": 1311,
-      "winrate": 0.4833,
-      "pickrate": 0.0184,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4833,
-          "games": 5599
-        }
-      ]
-    },
-    {
       "augmentId": 1056,
-      "winrate": 0.4832,
+      "tier": 3,
       "pickrate": 0.031,
       "contributions": [
         {
@@ -799,704 +157,111 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4832,
           "games": 9447
         }
       ]
     },
     {
-      "augmentId": 1205,
-      "winrate": 0.4832,
-      "pickrate": 0.0762,
+      "augmentId": 1060,
+      "tier": 3,
+      "pickrate": 0.019,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4832,
-          "games": 23237
+          "games": 5788
         }
       ]
     },
     {
-      "augmentId": 2026,
-      "winrate": 0.4825,
-      "pickrate": 0.0062,
+      "augmentId": 1062,
+      "tier": 3,
+      "pickrate": 0.0068,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4825,
-          "games": 1888
+          "games": 2081
         }
       ]
     },
     {
-      "augmentId": 2032,
-      "winrate": 0.4819,
-      "pickrate": 0.0131,
+      "augmentId": 1068,
+      "tier": 3,
+      "pickrate": 0.1008,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4819,
-          "games": 3995
+          "games": 30728
         }
       ]
     },
     {
-      "augmentId": 1136,
-      "winrate": 0.4815,
-      "pickrate": 0.0517,
+      "augmentId": 1073,
+      "tier": 3,
+      "pickrate": 0.0229,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4815,
-          "games": 15767
+          "games": 6970
         }
       ]
     },
     {
-      "augmentId": 1310,
-      "winrate": 0.481,
-      "pickrate": 0.0344,
+      "augmentId": 1097,
+      "tier": 3,
+      "pickrate": 0.0463,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.481,
-          "games": 10475
+          "games": 14116
         }
       ]
     },
     {
-      "augmentId": 2009,
-      "winrate": 0.4794,
-      "pickrate": 0.0133,
+      "augmentId": 1098,
+      "tier": 3,
+      "pickrate": 0.0156,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4794,
-          "games": 4068
+          "games": 4770
         }
       ]
     },
     {
-      "augmentId": 1322,
-      "winrate": 0.4793,
-      "pickrate": 0.0047,
+      "augmentId": 1116,
+      "tier": 3,
+      "pickrate": 0.0265,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4793,
-          "games": 1425
+          "games": 8082
         }
       ]
     },
     {
-      "augmentId": 1046,
-      "winrate": 0.4792,
-      "pickrate": 0.0175,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4792,
-          "games": 5325
-        }
-      ]
-    },
-    {
-      "augmentId": 1353,
-      "winrate": 0.4787,
-      "pickrate": 0.0801,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4787,
-          "games": 24438
-        }
-      ]
-    },
-    {
-      "augmentId": 1181,
-      "winrate": 0.4771,
-      "pickrate": 0.0383,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4771,
-          "games": 11688
-        }
-      ]
-    },
-    {
-      "augmentId": 2091,
-      "winrate": 0.4767,
-      "pickrate": 0.0268,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4767,
-          "games": 8185
-        }
-      ]
-    },
-    {
-      "augmentId": 1154,
-      "winrate": 0.476,
-      "pickrate": 0.0096,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.476,
-          "games": 2920
-        }
-      ]
-    },
-    {
-      "augmentId": 1211,
-      "winrate": 0.4752,
-      "pickrate": 0.0308,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4752,
-          "games": 9379
-        }
-      ]
-    },
-    {
-      "augmentId": 1138,
-      "winrate": 0.4746,
-      "pickrate": 0.0247,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4746,
-          "games": 7524
-        }
-      ]
-    },
-    {
-      "augmentId": 2089,
-      "winrate": 0.4743,
-      "pickrate": 0.0102,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4743,
-          "games": 3112
-        }
-      ]
-    },
-    {
-      "augmentId": 1375,
-      "winrate": 0.4737,
-      "pickrate": 0.0276,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4737,
-          "games": 8412
-        }
-      ]
-    },
-    {
-      "augmentId": 1315,
-      "winrate": 0.4734,
-      "pickrate": 0.0172,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4734,
-          "games": 5239
-        }
-      ]
-    },
-    {
-      "augmentId": 2018,
-      "winrate": 0.4726,
-      "pickrate": 0.0559,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4726,
-          "games": 17051
-        }
-      ]
-    },
-    {
-      "augmentId": 1401,
-      "winrate": 0.4725,
-      "pickrate": 0.0312,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4725,
-          "games": 9523
-        }
-      ]
-    },
-    {
-      "augmentId": 1149,
-      "winrate": 0.4717,
-      "pickrate": 0.0139,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4717,
-          "games": 4253
-        }
-      ]
-    },
-    {
-      "augmentId": 1018,
-      "winrate": 0.4714,
-      "pickrate": 0.0232,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4714,
-          "games": 7083
-        }
-      ]
-    },
-    {
-      "augmentId": 2034,
-      "winrate": 0.4712,
-      "pickrate": 0.0131,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4712,
-          "games": 4005
-        }
-      ]
-    },
-    {
-      "augmentId": 1349,
-      "winrate": 0.4704,
-      "pickrate": 0.0249,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4704,
-          "games": 7583
-        }
-      ]
-    },
-    {
-      "augmentId": 2043,
-      "winrate": 0.4701,
-      "pickrate": 0.0137,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4701,
-          "games": 4174
-        }
-      ]
-    },
-    {
-      "augmentId": 1013,
-      "winrate": 0.4698,
-      "pickrate": 0.0432,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4698,
-          "games": 13171
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "winrate": 0.4698,
-      "pickrate": 0.0524,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4698,
-          "games": 15989
-        }
-      ]
-    },
-    {
-      "augmentId": 1020,
-      "winrate": 0.4697,
-      "pickrate": 0.0204,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4697,
-          "games": 6210
-        }
-      ]
-    },
-    {
-      "augmentId": 1041,
-      "winrate": 0.4695,
-      "pickrate": 0.0581,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4695,
-          "games": 17707
-        }
-      ]
-    },
-    {
-      "augmentId": 1358,
-      "winrate": 0.4695,
-      "pickrate": 0.0192,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4695,
-          "games": 5847
-        }
-      ]
-    },
-    {
-      "augmentId": 1332,
-      "winrate": 0.4688,
-      "pickrate": 0.0093,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4688,
-          "games": 2822
-        }
-      ]
-    },
-    {
-      "augmentId": 2042,
-      "winrate": 0.4681,
-      "pickrate": 0.0018,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4681,
-          "games": 549
-        }
-      ]
-    },
-    {
-      "augmentId": 2098,
-      "winrate": 0.4678,
-      "pickrate": 0.0056,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4678,
-          "games": 1706
-        }
-      ]
-    },
-    {
-      "augmentId": 1402,
-      "winrate": 0.4673,
-      "pickrate": 0.0069,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4673,
-          "games": 2095
-        }
-      ]
-    },
-    {
-      "augmentId": 1095,
-      "winrate": 0.4668,
-      "pickrate": 0.0045,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4668,
-          "games": 1369
-        }
-      ]
-    },
-    {
-      "augmentId": 1084,
-      "winrate": 0.4659,
-      "pickrate": 0.0305,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4659,
-          "games": 9312
-        }
-      ]
-    },
-    {
-      "augmentId": 1088,
-      "winrate": 0.4642,
-      "pickrate": 0.0304,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4642,
-          "games": 9264
-        }
-      ]
-    },
-    {
-      "augmentId": 1002,
-      "winrate": 0.4633,
-      "pickrate": 0.0192,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4633,
-          "games": 5845
-        }
-      ]
-    },
-    {
-      "augmentId": 1151,
-      "winrate": 0.4627,
-      "pickrate": 0.0552,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4627,
-          "games": 16839
-        }
-      ]
-    },
-    {
-      "augmentId": 2099,
-      "winrate": 0.4623,
-      "pickrate": 0.0113,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4623,
-          "games": 3444
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "winrate": 0.4618,
-      "pickrate": 0.0085,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4618,
-          "games": 2592
-        }
-      ]
-    },
-    {
-      "augmentId": 2100,
-      "winrate": 0.4613,
-      "pickrate": 0.0439,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4613,
-          "games": 13376
-        }
-      ]
-    },
-    {
-      "augmentId": 2134,
-      "winrate": 0.4611,
-      "pickrate": 0.0019,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4611,
-          "games": 579
-        }
-      ]
-    },
-    {
-      "augmentId": 2082,
-      "winrate": 0.4608,
-      "pickrate": 0.0098,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4608,
-          "games": 3001
-        }
-      ]
-    },
-    {
-      "augmentId": 2116,
-      "winrate": 0.4606,
-      "pickrate": 0.0287,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4606,
-          "games": 8753
-        }
-      ]
-    },
-    {
-      "augmentId": 1063,
-      "winrate": 0.4601,
-      "pickrate": 0.0091,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4601,
-          "games": 2780
-        }
-      ]
-    },
-    {
-      "augmentId": 1006,
-      "winrate": 0.4587,
-      "pickrate": 0.0036,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4587,
-          "games": 1103
-        }
-      ]
-    },
-    {
-      "augmentId": 1025,
-      "winrate": 0.4583,
+      "augmentId": 1129,
+      "tier": 3,
       "pickrate": 0.0391,
       "contributions": [
         {
@@ -1504,194 +269,559 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4583,
-          "games": 11926
+          "games": 11935
         }
       ]
     },
     {
-      "augmentId": 2088,
-      "winrate": 0.4582,
-      "pickrate": 0.0189,
+      "augmentId": 1136,
+      "tier": 3,
+      "pickrate": 0.0517,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4582,
-          "games": 5751
+          "games": 15767
         }
       ]
     },
     {
-      "augmentId": 1386,
-      "winrate": 0.4578,
-      "pickrate": 0.0035,
+      "augmentId": 1152,
+      "tier": 3,
+      "pickrate": 0.0585,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4578,
-          "games": 1079
+          "games": 17830
         }
       ]
     },
     {
-      "augmentId": 1019,
-      "winrate": 0.4575,
-      "pickrate": 0.0189,
+      "augmentId": 1156,
+      "tier": 3,
+      "pickrate": 0.0303,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4575,
-          "games": 5771
+          "games": 9241
         }
       ]
     },
     {
-      "augmentId": 1057,
-      "winrate": 0.4567,
-      "pickrate": 0.0047,
+      "augmentId": 1180,
+      "tier": 3,
+      "pickrate": 0.0159,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4567,
-          "games": 1419
+          "games": 4834
         }
       ]
     },
     {
-      "augmentId": 1028,
-      "winrate": 0.4566,
-      "pickrate": 0.0071,
+      "augmentId": 1187,
+      "tier": 3,
+      "pickrate": 0.0011,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4566,
-          "games": 2155
+          "games": 338
         }
       ]
     },
     {
-      "augmentId": 1326,
-      "winrate": 0.4565,
-      "pickrate": 0.0053,
+      "augmentId": 1205,
+      "tier": 3,
+      "pickrate": 0.0762,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4565,
-          "games": 1608
+          "games": 23237
         }
       ]
     },
     {
-      "augmentId": 2087,
-      "winrate": 0.4565,
-      "pickrate": 0.0397,
+      "augmentId": 1238,
+      "tier": 3,
+      "pickrate": 0.0858,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4565,
-          "games": 12117
+          "games": 26166
         }
       ]
     },
     {
-      "augmentId": 12317,
-      "winrate": 0.4543,
-      "pickrate": 0.0202,
+      "augmentId": 1243,
+      "tier": 3,
+      "pickrate": 0.0265,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4543,
-          "games": 6170
+          "games": 8091
         }
       ]
     },
     {
-      "augmentId": 2107,
-      "winrate": 0.4538,
-      "pickrate": 0.0021,
+      "augmentId": 1305,
+      "tier": 3,
+      "pickrate": 0.0234,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4538,
-          "games": 639
+          "games": 7148
         }
       ]
     },
     {
-      "augmentId": 2073,
-      "winrate": 0.4532,
-      "pickrate": 0.0465,
+      "augmentId": 1308,
+      "tier": 3,
+      "pickrate": 0.0163,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4532,
-          "games": 14189
+          "games": 4980
         }
       ]
     },
     {
-      "augmentId": 1413,
-      "winrate": 0.453,
-      "pickrate": 0.0045,
+      "augmentId": 1310,
+      "tier": 3,
+      "pickrate": 0.0344,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.453,
-          "games": 1362
+          "games": 10475
         }
       ]
     },
     {
-      "augmentId": 2139,
-      "winrate": 0.4522,
-      "pickrate": 0.0117,
+      "augmentId": 1311,
+      "tier": 3,
+      "pickrate": 0.0184,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4522,
-          "games": 3574
+          "games": 5599
+        }
+      ]
+    },
+    {
+      "augmentId": 1318,
+      "tier": 3,
+      "pickrate": 0.032,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9743
+        }
+      ]
+    },
+    {
+      "augmentId": 1319,
+      "tier": 3,
+      "pickrate": 0.0284,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8664
+        }
+      ]
+    },
+    {
+      "augmentId": 1323,
+      "tier": 3,
+      "pickrate": 0.0269,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8194
+        }
+      ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": 3,
+      "pickrate": 0.0383,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11679
+        }
+      ]
+    },
+    {
+      "augmentId": 1333,
+      "tier": 3,
+      "pickrate": 0.051,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15550
+        }
+      ]
+    },
+    {
+      "augmentId": 1335,
+      "tier": 3,
+      "pickrate": 0.0052,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1577
+        }
+      ]
+    },
+    {
+      "augmentId": 1337,
+      "tier": 3,
+      "pickrate": 0.0055,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1674
+        }
+      ]
+    },
+    {
+      "augmentId": 1344,
+      "tier": 3,
+      "pickrate": 0.0073,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2213
+        }
+      ]
+    },
+    {
+      "augmentId": 1348,
+      "tier": 3,
+      "pickrate": 0.001,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 298
+        }
+      ]
+    },
+    {
+      "augmentId": 1361,
+      "tier": 3,
+      "pickrate": 0.0149,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4546
+        }
+      ]
+    },
+    {
+      "augmentId": 1373,
+      "tier": 3,
+      "pickrate": 0.0715,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 21815
+        }
+      ]
+    },
+    {
+      "augmentId": 1384,
+      "tier": 3,
+      "pickrate": 0.0267,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8140
+        }
+      ]
+    },
+    {
+      "augmentId": 1388,
+      "tier": 3,
+      "pickrate": 0.0466,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14212
+        }
+      ]
+    },
+    {
+      "augmentId": 1389,
+      "tier": 3,
+      "pickrate": 0.0036,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1111
+        }
+      ]
+    },
+    {
+      "augmentId": 1390,
+      "tier": 3,
+      "pickrate": 0.0549,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16725
+        }
+      ]
+    },
+    {
+      "augmentId": 1403,
+      "tier": 3,
+      "pickrate": 0.0162,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4951
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": 3,
+      "pickrate": 0.0201,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6127
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": 3,
+      "pickrate": 0.0272,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8296
+        }
+      ]
+    },
+    {
+      "augmentId": 2026,
+      "tier": 3,
+      "pickrate": 0.0062,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1888
+        }
+      ]
+    },
+    {
+      "augmentId": 2032,
+      "tier": 3,
+      "pickrate": 0.0131,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3995
+        }
+      ]
+    },
+    {
+      "augmentId": 2077,
+      "tier": 3,
+      "pickrate": 0.0823,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 25103
+        }
+      ]
+    },
+    {
+      "augmentId": 2078,
+      "tier": 3,
+      "pickrate": 0.1293,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 39428
+        }
+      ]
+    },
+    {
+      "augmentId": 2083,
+      "tier": 3,
+      "pickrate": 0.0655,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 19970
+        }
+      ]
+    },
+    {
+      "augmentId": 2102,
+      "tier": 3,
+      "pickrate": 0.0286,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8716
+        }
+      ]
+    },
+    {
+      "augmentId": 2119,
+      "tier": 3,
+      "pickrate": 0.0042,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1295
+        }
+      ]
+    },
+    {
+      "augmentId": 2127,
+      "tier": 3,
+      "pickrate": 0.0322,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9818
+        }
+      ]
+    },
+    {
+      "augmentId": 2132,
+      "tier": 3,
+      "pickrate": 0.061,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18587
         }
       ]
     },
     {
       "augmentId": 1001,
-      "winrate": 0.452,
+      "tier": 4,
       "pickrate": 0.0143,
       "contributions": [
         {
@@ -1699,44 +829,377 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.452,
           "games": 4372
         }
       ]
     },
     {
-      "augmentId": 2080,
-      "winrate": 0.4514,
-      "pickrate": 0.016,
+      "augmentId": 1002,
+      "tier": 4,
+      "pickrate": 0.0192,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4514,
-          "games": 4878
+          "games": 5845
         }
       ]
     },
     {
-      "augmentId": 2115,
-      "winrate": 0.4514,
-      "pickrate": 0.0037,
+      "augmentId": 1006,
+      "tier": 4,
+      "pickrate": 0.0036,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4514,
-          "games": 1121
+          "games": 1103
+        }
+      ]
+    },
+    {
+      "augmentId": 1013,
+      "tier": 4,
+      "pickrate": 0.0432,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13171
+        }
+      ]
+    },
+    {
+      "augmentId": 1018,
+      "tier": 4,
+      "pickrate": 0.0232,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7083
+        }
+      ]
+    },
+    {
+      "augmentId": 1019,
+      "tier": 4,
+      "pickrate": 0.0189,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5771
+        }
+      ]
+    },
+    {
+      "augmentId": 1020,
+      "tier": 4,
+      "pickrate": 0.0204,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6210
+        }
+      ]
+    },
+    {
+      "augmentId": 1025,
+      "tier": 4,
+      "pickrate": 0.0391,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11926
+        }
+      ]
+    },
+    {
+      "augmentId": 1028,
+      "tier": 4,
+      "pickrate": 0.0071,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2155
+        }
+      ]
+    },
+    {
+      "augmentId": 1041,
+      "tier": 4,
+      "pickrate": 0.0581,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17707
+        }
+      ]
+    },
+    {
+      "augmentId": 1046,
+      "tier": 4,
+      "pickrate": 0.0175,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5325
+        }
+      ]
+    },
+    {
+      "augmentId": 1057,
+      "tier": 4,
+      "pickrate": 0.0047,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1419
+        }
+      ]
+    },
+    {
+      "augmentId": 1063,
+      "tier": 4,
+      "pickrate": 0.0091,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2780
+        }
+      ]
+    },
+    {
+      "augmentId": 1084,
+      "tier": 4,
+      "pickrate": 0.0305,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9312
+        }
+      ]
+    },
+    {
+      "augmentId": 1088,
+      "tier": 4,
+      "pickrate": 0.0304,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9264
+        }
+      ]
+    },
+    {
+      "augmentId": 1095,
+      "tier": 4,
+      "pickrate": 0.0045,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1369
+        }
+      ]
+    },
+    {
+      "augmentId": 1138,
+      "tier": 4,
+      "pickrate": 0.0247,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7524
+        }
+      ]
+    },
+    {
+      "augmentId": 1149,
+      "tier": 4,
+      "pickrate": 0.0139,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4253
+        }
+      ]
+    },
+    {
+      "augmentId": 1151,
+      "tier": 4,
+      "pickrate": 0.0552,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16839
+        }
+      ]
+    },
+    {
+      "augmentId": 1154,
+      "tier": 4,
+      "pickrate": 0.0096,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2920
+        }
+      ]
+    },
+    {
+      "augmentId": 1181,
+      "tier": 4,
+      "pickrate": 0.0383,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11688
+        }
+      ]
+    },
+    {
+      "augmentId": 1211,
+      "tier": 4,
+      "pickrate": 0.0308,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9379
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": 4,
+      "pickrate": 0.0524,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15989
+        }
+      ]
+    },
+    {
+      "augmentId": 1315,
+      "tier": 4,
+      "pickrate": 0.0172,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5239
+        }
+      ]
+    },
+    {
+      "augmentId": 1322,
+      "tier": 4,
+      "pickrate": 0.0047,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1425
+        }
+      ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": 4,
+      "pickrate": 0.0053,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1608
+        }
+      ]
+    },
+    {
+      "augmentId": 1332,
+      "tier": 4,
+      "pickrate": 0.0093,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2822
         }
       ]
     },
     {
       "augmentId": 1345,
-      "winrate": 0.451,
+      "tier": 4,
       "pickrate": 0.014,
       "contributions": [
         {
@@ -1744,14 +1207,139 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.451,
           "games": 4273
         }
       ]
     },
     {
+      "augmentId": 1349,
+      "tier": 4,
+      "pickrate": 0.0249,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7583
+        }
+      ]
+    },
+    {
+      "augmentId": 1353,
+      "tier": 4,
+      "pickrate": 0.0801,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 24438
+        }
+      ]
+    },
+    {
+      "augmentId": 1358,
+      "tier": 4,
+      "pickrate": 0.0192,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5847
+        }
+      ]
+    },
+    {
+      "augmentId": 1375,
+      "tier": 4,
+      "pickrate": 0.0276,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8412
+        }
+      ]
+    },
+    {
+      "augmentId": 1386,
+      "tier": 4,
+      "pickrate": 0.0035,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1079
+        }
+      ]
+    },
+    {
+      "augmentId": 1401,
+      "tier": 4,
+      "pickrate": 0.0312,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9523
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": 4,
+      "pickrate": 0.0069,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2095
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": 4,
+      "pickrate": 0.0085,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2592
+        }
+      ]
+    },
+    {
+      "augmentId": 1413,
+      "tier": 4,
+      "pickrate": 0.0045,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1362
+        }
+      ]
+    },
+    {
       "augmentId": 2006,
-      "winrate": 0.4508,
+      "tier": 4,
       "pickrate": 0.0693,
       "contributions": [
         {
@@ -1759,14 +1347,265 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4508,
           "games": 21123
         }
       ]
     },
     {
+      "augmentId": 2009,
+      "tier": 4,
+      "pickrate": 0.0133,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4068
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": 4,
+      "pickrate": 0.0559,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17051
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": 4,
+      "pickrate": 0.0131,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4005
+        }
+      ]
+    },
+    {
+      "augmentId": 2042,
+      "tier": 4,
+      "pickrate": 0.0018,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 549
+        }
+      ]
+    },
+    {
+      "augmentId": 2043,
+      "tier": 4,
+      "pickrate": 0.0137,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4174
+        }
+      ]
+    },
+    {
+      "augmentId": 2073,
+      "tier": 4,
+      "pickrate": 0.0465,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14189
+        }
+      ]
+    },
+    {
+      "augmentId": 2080,
+      "tier": 4,
+      "pickrate": 0.016,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4878
+        }
+      ]
+    },
+    {
+      "augmentId": 2082,
+      "tier": 4,
+      "pickrate": 0.0098,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3001
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": 4,
+      "pickrate": 0.0397,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12117
+        }
+      ]
+    },
+    {
+      "augmentId": 2088,
+      "tier": 4,
+      "pickrate": 0.0189,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5751
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": 4,
+      "pickrate": 0.0102,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3112
+        }
+      ]
+    },
+    {
+      "augmentId": 2091,
+      "tier": 4,
+      "pickrate": 0.0268,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8185
+        }
+      ]
+    },
+    {
+      "augmentId": 2098,
+      "tier": 4,
+      "pickrate": 0.0056,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1706
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": 4,
+      "pickrate": 0.0113,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3444
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": 4,
+      "pickrate": 0.0439,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13376
+        }
+      ]
+    },
+    {
+      "augmentId": 2107,
+      "tier": 4,
+      "pickrate": 0.0021,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 639
+        }
+      ]
+    },
+    {
+      "augmentId": 2115,
+      "tier": 4,
+      "pickrate": 0.0037,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1121
+        }
+      ]
+    },
+    {
+      "augmentId": 2116,
+      "tier": 4,
+      "pickrate": 0.0287,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8753
+        }
+      ]
+    },
+    {
       "augmentId": 2131,
-      "winrate": 0.4503,
+      "tier": 4,
       "pickrate": 0.0114,
       "contributions": [
         {
@@ -1774,239 +1613,55 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4503,
           "games": 3482
         }
       ]
     },
     {
-      "augmentId": 1392,
-      "winrate": 0.4467,
-      "pickrate": 0.0074,
+      "augmentId": 2134,
+      "tier": 4,
+      "pickrate": 0.0019,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4467,
-          "games": 2259
+          "games": 579
         }
       ]
     },
     {
-      "augmentId": 1150,
-      "winrate": 0.4466,
-      "pickrate": 0.013,
+      "augmentId": 2139,
+      "tier": 4,
+      "pickrate": 0.0117,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4466,
-          "games": 3972
+          "games": 3574
         }
       ]
     },
     {
-      "augmentId": 1301,
-      "winrate": 0.4466,
-      "pickrate": 0.0106,
+      "augmentId": 12317,
+      "tier": 4,
+      "pickrate": 0.0202,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4466,
-          "games": 3240
-        }
-      ]
-    },
-    {
-      "augmentId": 2016,
-      "winrate": 0.4455,
-      "pickrate": 0.0063,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4455,
-          "games": 1908
-        }
-      ]
-    },
-    {
-      "augmentId": 2063,
-      "winrate": 0.4444,
-      "pickrate": 0.0014,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4444,
-          "games": 414
-        }
-      ]
-    },
-    {
-      "augmentId": 1194,
-      "winrate": 0.4397,
-      "pickrate": 0.0108,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4397,
-          "games": 3291
-        }
-      ]
-    },
-    {
-      "augmentId": 2137,
-      "winrate": 0.4397,
-      "pickrate": 0.0032,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4397,
-          "games": 962
-        }
-      ]
-    },
-    {
-      "augmentId": 1103,
-      "winrate": 0.4389,
-      "pickrate": 0.0173,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4389,
-          "games": 5290
-        }
-      ]
-    },
-    {
-      "augmentId": 2005,
-      "winrate": 0.4388,
-      "pickrate": 0.0087,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4388,
-          "games": 2648
-        }
-      ]
-    },
-    {
-      "augmentId": 1044,
-      "winrate": 0.4371,
-      "pickrate": 0.0108,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4371,
-          "games": 3306
-        }
-      ]
-    },
-    {
-      "augmentId": 1421,
-      "winrate": 0.4367,
-      "pickrate": 0.0033,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4367,
-          "games": 1019
-        }
-      ]
-    },
-    {
-      "augmentId": 1058,
-      "winrate": 0.429,
-      "pickrate": 0.0158,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.429,
-          "games": 4825
-        }
-      ]
-    },
-    {
-      "augmentId": 1054,
-      "winrate": 0.4262,
-      "pickrate": 0.0044,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4262,
-          "games": 1328
-        }
-      ]
-    },
-    {
-      "augmentId": 1112,
-      "winrate": 0.4247,
-      "pickrate": 0.006,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4247,
-          "games": 1820
-        }
-      ]
-    },
-    {
-      "augmentId": 2118,
-      "winrate": 0.4243,
-      "pickrate": 0.0297,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4243,
-          "games": 9050
+          "games": 6170
         }
       ]
     },
     {
       "augmentId": 1011,
-      "winrate": 0.4211,
+      "tier": 5,
       "pickrate": 0.0027,
       "contributions": [
         {
@@ -2014,14 +1669,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4211,
           "games": 817
         }
       ]
     },
     {
       "augmentId": 1027,
-      "winrate": 0.4145,
+      "tier": 5,
       "pickrate": 0.0032,
       "contributions": [
         {
@@ -2029,14 +1683,181 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4145,
           "games": 977
         }
       ]
     },
     {
+      "augmentId": 1044,
+      "tier": 5,
+      "pickrate": 0.0108,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3306
+        }
+      ]
+    },
+    {
+      "augmentId": 1054,
+      "tier": 5,
+      "pickrate": 0.0044,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1328
+        }
+      ]
+    },
+    {
+      "augmentId": 1058,
+      "tier": 5,
+      "pickrate": 0.0158,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4825
+        }
+      ]
+    },
+    {
+      "augmentId": 1103,
+      "tier": 5,
+      "pickrate": 0.0173,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5290
+        }
+      ]
+    },
+    {
+      "augmentId": 1112,
+      "tier": 5,
+      "pickrate": 0.006,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1820
+        }
+      ]
+    },
+    {
+      "augmentId": 1150,
+      "tier": 5,
+      "pickrate": 0.013,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3972
+        }
+      ]
+    },
+    {
+      "augmentId": 1194,
+      "tier": 5,
+      "pickrate": 0.0108,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3291
+        }
+      ]
+    },
+    {
+      "augmentId": 1301,
+      "tier": 5,
+      "pickrate": 0.0106,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3240
+        }
+      ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": 5,
+      "pickrate": 0.0074,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2259
+        }
+      ]
+    },
+    {
+      "augmentId": 1421,
+      "tier": 5,
+      "pickrate": 0.0033,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1019
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": 5,
+      "pickrate": 0.0087,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2648
+        }
+      ]
+    },
+    {
+      "augmentId": 2016,
+      "tier": 5,
+      "pickrate": 0.0063,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1908
+        }
+      ]
+    },
+    {
       "augmentId": 2046,
-      "winrate": 0.3916,
+      "tier": 5,
       "pickrate": 0.0016,
       "contributions": [
         {
@@ -2044,11 +1865,51 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3916,
           "games": 475
         }
       ]
+    },
+    {
+      "augmentId": 2063,
+      "tier": 5,
+      "pickrate": 0.0014,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 414
+        }
+      ]
+    },
+    {
+      "augmentId": 2118,
+      "tier": 5,
+      "pickrate": 0.0297,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9050
+        }
+      ]
+    },
+    {
+      "augmentId": 2137,
+      "tier": 5,
+      "pickrate": 0.0032,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 962
+        }
+      ]
     }
-  ],
-  "method": "equal-source-mean"
+  ]
 }

@@ -1,32 +1,15 @@
 {
+  "version": 1,
+  "method": "warden-performance-tiers-v1",
   "championId": 222,
   "championKey": "Jinx",
   "set": "aram",
-  "source": "Mayhem source average",
-  "sourceUrl": "https://github.com/snacbot/warden-releases/blob/mayhem-data/README.md",
-  "winrateScope": "champion",
-  "pickrateScope": "champion",
   "patch": "16.18",
   "scrapedAt": "2026-09-12T02:34:26.350Z",
   "augments": [
     {
-      "augmentId": 2095,
-      "winrate": 0.6169,
-      "pickrate": 0.0524,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.6169,
-          "games": 39652
-        }
-      ]
-    },
-    {
       "augmentId": 1154,
-      "winrate": 0.5684,
+      "tier": 1,
       "pickrate": 0.0165,
       "contributions": [
         {
@@ -34,14 +17,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5684,
           "games": 12453
         }
       ]
     },
     {
       "augmentId": 1333,
-      "winrate": 0.5547,
+      "tier": 1,
       "pickrate": 0.0206,
       "contributions": [
         {
@@ -49,209 +31,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5547,
           "games": 15604
         }
       ]
     },
     {
-      "augmentId": 1389,
-      "winrate": 0.5471,
-      "pickrate": 0.0019,
+      "augmentId": 2095,
+      "tier": 1,
+      "pickrate": 0.0524,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5471,
-          "games": 1402
-        }
-      ]
-    },
-    {
-      "augmentId": 1053,
-      "winrate": 0.5458,
-      "pickrate": 0.014,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5458,
-          "games": 10558
-        }
-      ]
-    },
-    {
-      "augmentId": 1077,
-      "winrate": 0.5435,
-      "pickrate": 0.1423,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5435,
-          "games": 107656
-        }
-      ]
-    },
-    {
-      "augmentId": 1225,
-      "winrate": 0.5386,
-      "pickrate": 0.1583,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5386,
-          "games": 119731
-        }
-      ]
-    },
-    {
-      "augmentId": 1195,
-      "winrate": 0.538,
-      "pickrate": 0.0376,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.538,
-          "games": 28444
-        }
-      ]
-    },
-    {
-      "augmentId": 1356,
-      "winrate": 0.5378,
-      "pickrate": 0.2805,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5378,
-          "games": 212219
-        }
-      ]
-    },
-    {
-      "augmentId": 1105,
-      "winrate": 0.5377,
-      "pickrate": 0.0335,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5377,
-          "games": 25358
-        }
-      ]
-    },
-    {
-      "augmentId": 1384,
-      "winrate": 0.5363,
-      "pickrate": 0.0242,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5363,
-          "games": 18295
-        }
-      ]
-    },
-    {
-      "augmentId": 1206,
-      "winrate": 0.5341,
-      "pickrate": 0.0298,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5341,
-          "games": 22520
-        }
-      ]
-    },
-    {
-      "augmentId": 1081,
-      "winrate": 0.5331,
-      "pickrate": 0.1046,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5331,
-          "games": 79113
-        }
-      ]
-    },
-    {
-      "augmentId": 1403,
-      "winrate": 0.5329,
-      "pickrate": 0.0148,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5329,
-          "games": 11164
-        }
-      ]
-    },
-    {
-      "augmentId": 1310,
-      "winrate": 0.5324,
-      "pickrate": 0.0048,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5324,
-          "games": 3657
-        }
-      ]
-    },
-    {
-      "augmentId": 1335,
-      "winrate": 0.5313,
-      "pickrate": 0.0051,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5313,
-          "games": 3855
+          "games": 39652
         }
       ]
     },
     {
       "augmentId": 1007,
-      "winrate": 0.5312,
+      "tier": 2,
       "pickrate": 0.0724,
       "contributions": [
         {
@@ -259,89 +59,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5312,
           "games": 54796
         }
       ]
     },
     {
-      "augmentId": 2009,
-      "winrate": 0.5309,
-      "pickrate": 0.0426,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5309,
-          "games": 32240
-        }
-      ]
-    },
-    {
-      "augmentId": 1034,
-      "winrate": 0.5294,
-      "pickrate": 0.009,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5294,
-          "games": 6785
-        }
-      ]
-    },
-    {
-      "augmentId": 1238,
-      "winrate": 0.5282,
-      "pickrate": 0.0929,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5282,
-          "games": 70281
-        }
-      ]
-    },
-    {
-      "augmentId": 1402,
-      "winrate": 0.5272,
-      "pickrate": 0.0072,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5272,
-          "games": 5476
-        }
-      ]
-    },
-    {
-      "augmentId": 1038,
-      "winrate": 0.5264,
-      "pickrate": 0.0171,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5264,
-          "games": 12919
-        }
-      ]
-    },
-    {
       "augmentId": 1022,
-      "winrate": 0.5249,
+      "tier": 2,
       "pickrate": 0.1258,
       "contributions": [
         {
@@ -349,1019 +73,41 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5249,
           "games": 95206
         }
       ]
     },
     {
-      "augmentId": 1071,
-      "winrate": 0.5247,
-      "pickrate": 0.1496,
+      "augmentId": 1034,
+      "tier": 2,
+      "pickrate": 0.009,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5247,
-          "games": 113195
+          "games": 6785
         }
       ]
     },
     {
-      "augmentId": 1080,
-      "winrate": 0.5243,
-      "pickrate": 0.0466,
+      "augmentId": 1038,
+      "tier": 2,
+      "pickrate": 0.0171,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5243,
-          "games": 35282
+          "games": 12919
         }
       ]
     },
     {
-      "augmentId": 2119,
-      "winrate": 0.5238,
-      "pickrate": 0.0007,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5238,
-          "games": 504
-        }
-      ]
-    },
-    {
-      "augmentId": 1062,
-      "winrate": 0.5227,
-      "pickrate": 0.0072,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5227,
-          "games": 5458
-        }
-      ]
-    },
-    {
-      "augmentId": 1328,
-      "winrate": 0.5209,
-      "pickrate": 0.1482,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5209,
-          "games": 112122
-        }
-      ]
-    },
-    {
-      "augmentId": 1116,
-      "winrate": 0.5203,
-      "pickrate": 0.0125,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5203,
-          "games": 9450
-        }
-      ]
-    },
-    {
-      "augmentId": 1336,
-      "winrate": 0.5193,
-      "pickrate": 0.1953,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5193,
-          "games": 147718
-        }
-      ]
-    },
-    {
-      "augmentId": 1358,
-      "winrate": 0.5178,
-      "pickrate": 0.0007,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5178,
-          "games": 562
-        }
-      ]
-    },
-    {
-      "augmentId": 1115,
-      "winrate": 0.5176,
-      "pickrate": 0.0971,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5176,
-          "games": 73426
-        }
-      ]
-    },
-    {
-      "augmentId": 2042,
-      "winrate": 0.5171,
-      "pickrate": 0.0005,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5171,
-          "games": 410
-        }
-      ]
-    },
-    {
-      "augmentId": 1028,
-      "winrate": 0.5151,
-      "pickrate": 0.0146,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5151,
-          "games": 11067
-        }
-      ]
-    },
-    {
-      "augmentId": 1036,
-      "winrate": 0.515,
-      "pickrate": 0.0427,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.515,
-          "games": 32323
-        }
-      ]
-    },
-    {
-      "augmentId": 1134,
-      "winrate": 0.5149,
-      "pickrate": 0.0245,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5149,
-          "games": 18500
-        }
-      ]
-    },
-    {
-      "augmentId": 2107,
-      "winrate": 0.5134,
-      "pickrate": 0.0034,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5134,
-          "games": 2544
-        }
-      ]
-    },
-    {
-      "augmentId": 1051,
-      "winrate": 0.5094,
-      "pickrate": 0.0537,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5094,
-          "games": 40630
-        }
-      ]
-    },
-    {
-      "augmentId": 1337,
-      "winrate": 0.5092,
-      "pickrate": 0.004,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5092,
-          "games": 3046
-        }
-      ]
-    },
-    {
-      "augmentId": 1092,
-      "winrate": 0.5084,
-      "pickrate": 0.1889,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5084,
-          "games": 142882
-        }
-      ]
-    },
-    {
-      "augmentId": 1079,
-      "winrate": 0.5083,
-      "pickrate": 0.0492,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5083,
-          "games": 37234
-        }
-      ]
-    },
-    {
-      "augmentId": 1061,
-      "winrate": 0.5081,
-      "pickrate": 0.0039,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5081,
-          "games": 2915
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "winrate": 0.5077,
-      "pickrate": 0.0045,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5077,
-          "games": 3398
-        }
-      ]
-    },
-    {
-      "augmentId": 1320,
-      "winrate": 0.5075,
-      "pickrate": 0.0967,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5075,
-          "games": 73157
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "winrate": 0.5061,
-      "pickrate": 0.008,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5061,
-          "games": 6020
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "winrate": 0.5052,
-      "pickrate": 0.0437,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5052,
-          "games": 33093
-        }
-      ]
-    },
-    {
-      "augmentId": 2089,
-      "winrate": 0.5038,
-      "pickrate": 0.0066,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5038,
-          "games": 4968
-        }
-      ]
-    },
-    {
-      "augmentId": 1322,
-      "winrate": 0.5031,
-      "pickrate": 0.0745,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5031,
-          "games": 56357
-        }
-      ]
-    },
-    {
-      "augmentId": 1047,
-      "winrate": 0.5016,
-      "pickrate": 0.0496,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5016,
-          "games": 37531
-        }
-      ]
-    },
-    {
-      "augmentId": 1243,
-      "winrate": 0.5012,
-      "pickrate": 0.0259,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5012,
-          "games": 19591
-        }
-      ]
-    },
-    {
-      "augmentId": 1170,
-      "winrate": 0.5002,
-      "pickrate": 0.0702,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5002,
-          "games": 53107
-        }
-      ]
-    },
-    {
-      "augmentId": 1084,
-      "winrate": 0.4998,
-      "pickrate": 0.0309,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4998,
-          "games": 23376
-        }
-      ]
-    },
-    {
-      "augmentId": 2127,
-      "winrate": 0.4993,
-      "pickrate": 0.0182,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4993,
-          "games": 13778
-        }
-      ]
-    },
-    {
-      "augmentId": 1220,
-      "winrate": 0.4955,
-      "pickrate": 0.1113,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4955,
-          "games": 84204
-        }
-      ]
-    },
-    {
-      "augmentId": 1415,
-      "winrate": 0.4955,
-      "pickrate": 0.0317,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4955,
-          "games": 23999
-        }
-      ]
-    },
-    {
-      "augmentId": 1416,
-      "winrate": 0.4942,
-      "pickrate": 0.0093,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4942,
-          "games": 7012
-        }
-      ]
-    },
-    {
-      "augmentId": 1112,
-      "winrate": 0.4937,
-      "pickrate": 0.0013,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4937,
-          "games": 946
-        }
-      ]
-    },
-    {
-      "augmentId": 1074,
-      "winrate": 0.4921,
-      "pickrate": 0.0385,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4921,
-          "games": 29155
-        }
-      ]
-    },
-    {
-      "augmentId": 1373,
-      "winrate": 0.492,
-      "pickrate": 0.054,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.492,
-          "games": 40887
-        }
-      ]
-    },
-    {
-      "augmentId": 1326,
-      "winrate": 0.4908,
-      "pickrate": 0.0178,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4908,
-          "games": 13487
-        }
-      ]
-    },
-    {
-      "augmentId": 2083,
-      "winrate": 0.4901,
-      "pickrate": 0.0222,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4901,
-          "games": 16771
-        }
-      ]
-    },
-    {
-      "augmentId": 2016,
-      "winrate": 0.4896,
-      "pickrate": 0.0036,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4896,
-          "games": 2731
-        }
-      ]
-    },
-    {
-      "augmentId": 1087,
-      "winrate": 0.4875,
-      "pickrate": 0.079,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4875,
-          "games": 59761
-        }
-      ]
-    },
-    {
-      "augmentId": 1308,
-      "winrate": 0.4865,
-      "pickrate": 0.0019,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4865,
-          "games": 1441
-        }
-      ]
-    },
-    {
-      "augmentId": 2141,
-      "winrate": 0.4865,
-      "pickrate": 0.0193,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4865,
-          "games": 14572
-        }
-      ]
-    },
-    {
-      "augmentId": 1345,
-      "winrate": 0.4864,
-      "pickrate": 0.0109,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4864,
-          "games": 8252
-        }
-      ]
-    },
-    {
-      "augmentId": 1344,
-      "winrate": 0.4861,
-      "pickrate": 0.0057,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4861,
-          "games": 4275
-        }
-      ]
-    },
-    {
-      "augmentId": 1048,
-      "winrate": 0.4859,
-      "pickrate": 0.0293,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4859,
-          "games": 22200
-        }
-      ]
-    },
-    {
-      "augmentId": 1046,
-      "winrate": 0.4858,
-      "pickrate": 0.0073,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4858,
-          "games": 5550
-        }
-      ]
-    },
-    {
-      "augmentId": 2140,
-      "winrate": 0.4838,
-      "pickrate": 0.0106,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4838,
-          "games": 8005
-        }
-      ]
-    },
-    {
-      "augmentId": 2103,
-      "winrate": 0.4794,
-      "pickrate": 0.0057,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4794,
-          "games": 4291
-        }
-      ]
-    },
-    {
-      "augmentId": 2137,
-      "winrate": 0.4791,
-      "pickrate": 0.002,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4791,
-          "games": 1528
-        }
-      ]
-    },
-    {
-      "augmentId": 12317,
-      "winrate": 0.4787,
-      "pickrate": 0.0208,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4787,
-          "games": 15769
-        }
-      ]
-    },
-    {
-      "augmentId": 1057,
-      "winrate": 0.4768,
-      "pickrate": 0.0013,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4768,
-          "games": 950
-        }
-      ]
-    },
-    {
-      "augmentId": 2010,
-      "winrate": 0.4767,
-      "pickrate": 0.0985,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4767,
-          "games": 74513
-        }
-      ]
-    },
-    {
-      "augmentId": 1133,
-      "winrate": 0.4764,
-      "pickrate": 0.0234,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4764,
-          "games": 17709
-        }
-      ]
-    },
-    {
-      "augmentId": 1011,
-      "winrate": 0.4731,
-      "pickrate": 0.0022,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4731,
-          "games": 1638
-        }
-      ]
-    },
-    {
-      "augmentId": 1002,
-      "winrate": 0.4652,
-      "pickrate": 0.0024,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4652,
-          "games": 1784
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "winrate": 0.4637,
-      "pickrate": 0.0038,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4637,
-          "games": 2866
-        }
-      ]
-    },
-    {
-      "augmentId": 1098,
-      "winrate": 0.462,
-      "pickrate": 0.0053,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.462,
-          "games": 4004
-        }
-      ]
-    },
-    {
-      "augmentId": 1996,
-      "winrate": 0.4603,
-      "pickrate": 0.0029,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4603,
-          "games": 2192
-        }
-      ]
-    },
-    {
-      "augmentId": 2024,
-      "winrate": 0.4577,
-      "pickrate": 0.0138,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4577,
-          "games": 10420
-        }
-      ]
-    },
-    {
-      "augmentId": 1068,
-      "winrate": 0.4549,
-      "pickrate": 0.0084,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4549,
-          "games": 6344
-        }
-      ]
-    },
-    {
-      "augmentId": 2034,
-      "winrate": 0.4544,
-      "pickrate": 0.0007,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4544,
-          "games": 559
-        }
-      ]
-    },
-    {
-      "augmentId": 1211,
-      "winrate": 0.4514,
-      "pickrate": 0.0038,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4514,
-          "games": 2900
-        }
-      ]
-    },
-    {
-      "augmentId": 1151,
-      "winrate": 0.4513,
-      "pickrate": 0.0029,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4513,
-          "games": 2185
-        }
-      ]
-    },
-    {
-      "augmentId": 1150,
-      "winrate": 0.4463,
-      "pickrate": 0.0051,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4463,
-          "games": 3865
-        }
-      ]
-    },
-    {
-      "augmentId": 2134,
-      "winrate": 0.4463,
-      "pickrate": 0.001,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4463,
-          "games": 735
-        }
-      ]
-    },
-    {
-      "augmentId": 1113,
-      "winrate": 0.4403,
-      "pickrate": 0.0077,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4403,
-          "games": 5821
-        }
-      ]
-    },
-    {
-      "augmentId": 1088,
-      "winrate": 0.4399,
-      "pickrate": 0.0061,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4399,
-          "games": 4578
-        }
-      ]
-    },
-    {
-      "augmentId": 1004,
-      "winrate": 0.4386,
+      "augmentId": 1053,
+      "tier": 2,
       "pickrate": 0.014,
       "contributions": [
         {
@@ -1369,14 +115,237 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4386,
-          "games": 10568
+          "games": 10558
         }
       ]
     },
     {
-      "augmentId": 1006,
-      "winrate": 0.4386,
+      "augmentId": 1062,
+      "tier": 2,
+      "pickrate": 0.0072,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5458
+        }
+      ]
+    },
+    {
+      "augmentId": 1071,
+      "tier": 2,
+      "pickrate": 0.1496,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 113195
+        }
+      ]
+    },
+    {
+      "augmentId": 1077,
+      "tier": 2,
+      "pickrate": 0.1423,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 107656
+        }
+      ]
+    },
+    {
+      "augmentId": 1080,
+      "tier": 2,
+      "pickrate": 0.0466,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 35282
+        }
+      ]
+    },
+    {
+      "augmentId": 1081,
+      "tier": 2,
+      "pickrate": 0.1046,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 79113
+        }
+      ]
+    },
+    {
+      "augmentId": 1105,
+      "tier": 2,
+      "pickrate": 0.0335,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 25358
+        }
+      ]
+    },
+    {
+      "augmentId": 1116,
+      "tier": 2,
+      "pickrate": 0.0125,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9450
+        }
+      ]
+    },
+    {
+      "augmentId": 1195,
+      "tier": 2,
+      "pickrate": 0.0376,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 28444
+        }
+      ]
+    },
+    {
+      "augmentId": 1206,
+      "tier": 2,
+      "pickrate": 0.0298,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 22520
+        }
+      ]
+    },
+    {
+      "augmentId": 1225,
+      "tier": 2,
+      "pickrate": 0.1583,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 119731
+        }
+      ]
+    },
+    {
+      "augmentId": 1238,
+      "tier": 2,
+      "pickrate": 0.0929,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 70281
+        }
+      ]
+    },
+    {
+      "augmentId": 1310,
+      "tier": 2,
+      "pickrate": 0.0048,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3657
+        }
+      ]
+    },
+    {
+      "augmentId": 1328,
+      "tier": 2,
+      "pickrate": 0.1482,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 112122
+        }
+      ]
+    },
+    {
+      "augmentId": 1335,
+      "tier": 2,
+      "pickrate": 0.0051,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3855
+        }
+      ]
+    },
+    {
+      "augmentId": 1356,
+      "tier": 2,
+      "pickrate": 0.2805,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 212219
+        }
+      ]
+    },
+    {
+      "augmentId": 1384,
+      "tier": 2,
+      "pickrate": 0.0242,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18295
+        }
+      ]
+    },
+    {
+      "augmentId": 1389,
+      "tier": 2,
       "pickrate": 0.0019,
       "contributions": [
         {
@@ -1384,89 +353,55 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4386,
-          "games": 1473
+          "games": 1402
         }
       ]
     },
     {
-      "augmentId": 2088,
-      "winrate": 0.4385,
-      "pickrate": 0.0004,
+      "augmentId": 1402,
+      "tier": 2,
+      "pickrate": 0.0072,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4385,
-          "games": 317
+          "games": 5476
         }
       ]
     },
     {
-      "augmentId": 1392,
-      "winrate": 0.4365,
-      "pickrate": 0.001,
+      "augmentId": 1403,
+      "tier": 2,
+      "pickrate": 0.0148,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4365,
-          "games": 779
+          "games": 11164
         }
       ]
     },
     {
-      "augmentId": 2099,
-      "winrate": 0.4356,
-      "pickrate": 0.0032,
+      "augmentId": 2009,
+      "tier": 2,
+      "pickrate": 0.0426,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4356,
-          "games": 2447
+          "games": 32240
         }
       ]
     },
     {
-      "augmentId": 2005,
-      "winrate": 0.4323,
-      "pickrate": 0.0022,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4323,
-          "games": 1668
-        }
-      ]
-    },
-    {
-      "augmentId": 1388,
-      "winrate": 0.4288,
-      "pickrate": 0.0063,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4288,
-          "games": 4755
-        }
-      ]
-    },
-    {
-      "augmentId": 2046,
-      "winrate": 0.428,
+      "augmentId": 2119,
+      "tier": 2,
       "pickrate": 0.0007,
       "contributions": [
         {
@@ -1474,59 +409,489 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.428,
-          "games": 528
+          "games": 504
         }
       ]
     },
     {
-      "augmentId": 2118,
-      "winrate": 0.427,
-      "pickrate": 0.0044,
+      "augmentId": 1028,
+      "tier": 3,
+      "pickrate": 0.0146,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.427,
-          "games": 3323
+          "games": 11067
         }
       ]
     },
     {
-      "augmentId": 2063,
-      "winrate": 0.4246,
-      "pickrate": 0.0004,
+      "augmentId": 1036,
+      "tier": 3,
+      "pickrate": 0.0427,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4246,
-          "games": 285
+          "games": 32323
         }
       ]
     },
     {
-      "augmentId": 1058,
-      "winrate": 0.4237,
-      "pickrate": 0.0103,
+      "augmentId": 1046,
+      "tier": 3,
+      "pickrate": 0.0073,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4237,
-          "games": 7790
+          "games": 5550
         }
       ]
     },
     {
-      "augmentId": 2080,
-      "winrate": 0.4233,
+      "augmentId": 1047,
+      "tier": 3,
+      "pickrate": 0.0496,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 37531
+        }
+      ]
+    },
+    {
+      "augmentId": 1048,
+      "tier": 3,
+      "pickrate": 0.0293,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 22200
+        }
+      ]
+    },
+    {
+      "augmentId": 1051,
+      "tier": 3,
+      "pickrate": 0.0537,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 40630
+        }
+      ]
+    },
+    {
+      "augmentId": 1060,
+      "tier": 3,
+      "pickrate": 0.008,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6020
+        }
+      ]
+    },
+    {
+      "augmentId": 1061,
+      "tier": 3,
+      "pickrate": 0.0039,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2915
+        }
+      ]
+    },
+    {
+      "augmentId": 1074,
+      "tier": 3,
+      "pickrate": 0.0385,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 29155
+        }
+      ]
+    },
+    {
+      "augmentId": 1079,
+      "tier": 3,
+      "pickrate": 0.0492,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 37234
+        }
+      ]
+    },
+    {
+      "augmentId": 1084,
+      "tier": 3,
+      "pickrate": 0.0309,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 23376
+        }
+      ]
+    },
+    {
+      "augmentId": 1087,
+      "tier": 3,
+      "pickrate": 0.079,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 59761
+        }
+      ]
+    },
+    {
+      "augmentId": 1092,
+      "tier": 3,
+      "pickrate": 0.1889,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 142882
+        }
+      ]
+    },
+    {
+      "augmentId": 1112,
+      "tier": 3,
+      "pickrate": 0.0013,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 946
+        }
+      ]
+    },
+    {
+      "augmentId": 1115,
+      "tier": 3,
+      "pickrate": 0.0971,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 73426
+        }
+      ]
+    },
+    {
+      "augmentId": 1134,
+      "tier": 3,
+      "pickrate": 0.0245,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18500
+        }
+      ]
+    },
+    {
+      "augmentId": 1170,
+      "tier": 3,
+      "pickrate": 0.0702,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 53107
+        }
+      ]
+    },
+    {
+      "augmentId": 1220,
+      "tier": 3,
+      "pickrate": 0.1113,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 84204
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": 3,
+      "pickrate": 0.0437,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 33093
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": 3,
+      "pickrate": 0.0259,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 19591
+        }
+      ]
+    },
+    {
+      "augmentId": 1308,
+      "tier": 3,
+      "pickrate": 0.0019,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1441
+        }
+      ]
+    },
+    {
+      "augmentId": 1320,
+      "tier": 3,
+      "pickrate": 0.0967,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 73157
+        }
+      ]
+    },
+    {
+      "augmentId": 1322,
+      "tier": 3,
+      "pickrate": 0.0745,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 56357
+        }
+      ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": 3,
+      "pickrate": 0.0178,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13487
+        }
+      ]
+    },
+    {
+      "augmentId": 1336,
+      "tier": 3,
+      "pickrate": 0.1953,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 147718
+        }
+      ]
+    },
+    {
+      "augmentId": 1337,
+      "tier": 3,
+      "pickrate": 0.004,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3046
+        }
+      ]
+    },
+    {
+      "augmentId": 1344,
+      "tier": 3,
+      "pickrate": 0.0057,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4275
+        }
+      ]
+    },
+    {
+      "augmentId": 1345,
+      "tier": 3,
+      "pickrate": 0.0109,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8252
+        }
+      ]
+    },
+    {
+      "augmentId": 1358,
+      "tier": 3,
+      "pickrate": 0.0007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 562
+        }
+      ]
+    },
+    {
+      "augmentId": 1373,
+      "tier": 3,
+      "pickrate": 0.054,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 40887
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": 3,
+      "pickrate": 0.0045,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3398
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": 3,
+      "pickrate": 0.0317,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 23999
+        }
+      ]
+    },
+    {
+      "augmentId": 1416,
+      "tier": 3,
+      "pickrate": 0.0093,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7012
+        }
+      ]
+    },
+    {
+      "augmentId": 2016,
+      "tier": 3,
+      "pickrate": 0.0036,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2731
+        }
+      ]
+    },
+    {
+      "augmentId": 2042,
+      "tier": 3,
       "pickrate": 0.0005,
       "contributions": [
         {
@@ -1534,44 +899,153 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4233,
-          "games": 404
+          "games": 410
         }
       ]
     },
     {
-      "augmentId": 1349,
-      "winrate": 0.4223,
-      "pickrate": 0.0031,
+      "augmentId": 2083,
+      "tier": 3,
+      "pickrate": 0.0222,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4223,
-          "games": 2349
+          "games": 16771
         }
       ]
     },
     {
-      "augmentId": 2087,
-      "winrate": 0.4145,
-      "pickrate": 0.0032,
+      "augmentId": 2089,
+      "tier": 3,
+      "pickrate": 0.0066,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4145,
-          "games": 2420
+          "games": 4968
         }
       ]
     },
     {
-      "augmentId": 1325,
-      "winrate": 0.4133,
+      "augmentId": 2107,
+      "tier": 3,
+      "pickrate": 0.0034,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2544
+        }
+      ]
+    },
+    {
+      "augmentId": 2127,
+      "tier": 3,
+      "pickrate": 0.0182,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13778
+        }
+      ]
+    },
+    {
+      "augmentId": 2140,
+      "tier": 3,
+      "pickrate": 0.0106,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8005
+        }
+      ]
+    },
+    {
+      "augmentId": 2141,
+      "tier": 3,
+      "pickrate": 0.0193,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14572
+        }
+      ]
+    },
+    {
+      "augmentId": 1002,
+      "tier": 4,
+      "pickrate": 0.0024,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1784
+        }
+      ]
+    },
+    {
+      "augmentId": 1011,
+      "tier": 4,
+      "pickrate": 0.0022,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1638
+        }
+      ]
+    },
+    {
+      "augmentId": 1057,
+      "tier": 4,
+      "pickrate": 0.0013,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 950
+        }
+      ]
+    },
+    {
+      "augmentId": 1068,
+      "tier": 4,
+      "pickrate": 0.0084,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6344
+        }
+      ]
+    },
+    {
+      "augmentId": 1098,
+      "tier": 4,
       "pickrate": 0.0053,
       "contributions": [
         {
@@ -1579,29 +1053,139 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4133,
-          "games": 3992
+          "games": 4004
         }
       ]
     },
     {
-      "augmentId": 1386,
-      "winrate": 0.4122,
-      "pickrate": 0.0011,
+      "augmentId": 1133,
+      "tier": 4,
+      "pickrate": 0.0234,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4122,
-          "games": 803
+          "games": 17709
         }
       ]
     },
     {
-      "augmentId": 2018,
-      "winrate": 0.3751,
+      "augmentId": 1151,
+      "tier": 4,
+      "pickrate": 0.0029,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2185
+        }
+      ]
+    },
+    {
+      "augmentId": 1211,
+      "tier": 4,
+      "pickrate": 0.0038,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2900
+        }
+      ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": 4,
+      "pickrate": 0.0038,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2866
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": 4,
+      "pickrate": 0.0029,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2192
+        }
+      ]
+    },
+    {
+      "augmentId": 2010,
+      "tier": 4,
+      "pickrate": 0.0985,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 74513
+        }
+      ]
+    },
+    {
+      "augmentId": 2024,
+      "tier": 4,
+      "pickrate": 0.0138,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10420
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": 4,
+      "pickrate": 0.0007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 559
+        }
+      ]
+    },
+    {
+      "augmentId": 2103,
+      "tier": 4,
+      "pickrate": 0.0057,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4291
+        }
+      ]
+    },
+    {
+      "augmentId": 2137,
+      "tier": 4,
       "pickrate": 0.002,
       "contributions": [
         {
@@ -1609,11 +1193,317 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3751,
+          "games": 1528
+        }
+      ]
+    },
+    {
+      "augmentId": 12317,
+      "tier": 4,
+      "pickrate": 0.0208,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15769
+        }
+      ]
+    },
+    {
+      "augmentId": 1004,
+      "tier": 5,
+      "pickrate": 0.014,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10568
+        }
+      ]
+    },
+    {
+      "augmentId": 1006,
+      "tier": 5,
+      "pickrate": 0.0019,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1473
+        }
+      ]
+    },
+    {
+      "augmentId": 1058,
+      "tier": 5,
+      "pickrate": 0.0103,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7790
+        }
+      ]
+    },
+    {
+      "augmentId": 1088,
+      "tier": 5,
+      "pickrate": 0.0061,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4578
+        }
+      ]
+    },
+    {
+      "augmentId": 1113,
+      "tier": 5,
+      "pickrate": 0.0077,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5821
+        }
+      ]
+    },
+    {
+      "augmentId": 1150,
+      "tier": 5,
+      "pickrate": 0.0051,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3865
+        }
+      ]
+    },
+    {
+      "augmentId": 1325,
+      "tier": 5,
+      "pickrate": 0.0053,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3992
+        }
+      ]
+    },
+    {
+      "augmentId": 1349,
+      "tier": 5,
+      "pickrate": 0.0031,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2349
+        }
+      ]
+    },
+    {
+      "augmentId": 1386,
+      "tier": 5,
+      "pickrate": 0.0011,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 803
+        }
+      ]
+    },
+    {
+      "augmentId": 1388,
+      "tier": 5,
+      "pickrate": 0.0063,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4755
+        }
+      ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": 5,
+      "pickrate": 0.001,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 779
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": 5,
+      "pickrate": 0.0022,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1668
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": 5,
+      "pickrate": 0.002,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
           "games": 1485
         }
       ]
+    },
+    {
+      "augmentId": 2046,
+      "tier": 5,
+      "pickrate": 0.0007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 528
+        }
+      ]
+    },
+    {
+      "augmentId": 2063,
+      "tier": 5,
+      "pickrate": 0.0004,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 285
+        }
+      ]
+    },
+    {
+      "augmentId": 2080,
+      "tier": 5,
+      "pickrate": 0.0005,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 404
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": 5,
+      "pickrate": 0.0032,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2420
+        }
+      ]
+    },
+    {
+      "augmentId": 2088,
+      "tier": 5,
+      "pickrate": 0.0004,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 317
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": 5,
+      "pickrate": 0.0032,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2447
+        }
+      ]
+    },
+    {
+      "augmentId": 2118,
+      "tier": 5,
+      "pickrate": 0.0044,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3323
+        }
+      ]
+    },
+    {
+      "augmentId": 2134,
+      "tier": 5,
+      "pickrate": 0.001,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jinx?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 735
+        }
+      ]
     }
-  ],
-  "method": "equal-source-mean"
+  ]
 }

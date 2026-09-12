@@ -1,17 +1,15 @@
 {
+  "version": 1,
+  "method": "warden-performance-tiers-v1",
   "championId": 154,
   "championKey": "Zac",
   "set": "aram",
-  "source": "Mayhem source average",
-  "sourceUrl": "https://github.com/snacbot/warden-releases/blob/mayhem-data/README.md",
-  "winrateScope": "champion",
-  "pickrateScope": "champion",
   "patch": "16.18",
   "scrapedAt": "2026-09-12T02:34:26.350Z",
   "augments": [
     {
       "augmentId": 1015,
-      "winrate": 0.5514,
+      "tier": 1,
       "pickrate": 0.0807,
       "contributions": [
         {
@@ -19,44 +17,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5514,
           "games": 12560
         }
       ]
     },
     {
-      "augmentId": 2102,
-      "winrate": 0.5024,
-      "pickrate": 0.0703,
+      "augmentId": 1337,
+      "tier": 3,
+      "pickrate": 0.0067,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5024,
-          "games": 10935
-        }
-      ]
-    },
-    {
-      "augmentId": 1389,
-      "winrate": 0.5018,
-      "pickrate": 0.0018,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5018,
-          "games": 275
+          "games": 1039
         }
       ]
     },
     {
       "augmentId": 1361,
-      "winrate": 0.4948,
+      "tier": 3,
       "pickrate": 0.0371,
       "contributions": [
         {
@@ -64,29 +45,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4948,
           "games": 5774
         }
       ]
     },
     {
-      "augmentId": 1337,
-      "winrate": 0.4928,
-      "pickrate": 0.0067,
+      "augmentId": 1389,
+      "tier": 3,
+      "pickrate": 0.0018,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4928,
-          "games": 1039
+          "games": 275
         }
       ]
     },
     {
       "augmentId": 2031,
-      "winrate": 0.4884,
+      "tier": 3,
       "pickrate": 0.0431,
       "contributions": [
         {
@@ -94,29 +73,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4884,
           "games": 6699
         }
       ]
     },
     {
-      "augmentId": 2127,
-      "winrate": 0.4815,
-      "pickrate": 0.0227,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4815,
-          "games": 3539
-        }
-      ]
-    },
-    {
       "augmentId": 2076,
-      "winrate": 0.481,
+      "tier": 3,
       "pickrate": 0.0837,
       "contributions": [
         {
@@ -124,209 +87,55 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.481,
           "games": 13024
         }
       ]
     },
     {
-      "augmentId": 1041,
-      "winrate": 0.4795,
-      "pickrate": 0.1006,
+      "augmentId": 2102,
+      "tier": 3,
+      "pickrate": 0.0703,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4795,
-          "games": 15653
+          "games": 10935
         }
       ]
     },
     {
-      "augmentId": 1195,
-      "winrate": 0.479,
-      "pickrate": 0.002,
+      "augmentId": 2127,
+      "tier": 3,
+      "pickrate": 0.0227,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.479,
-          "games": 309
+          "games": 3539
         }
       ]
     },
     {
-      "augmentId": 1319,
-      "winrate": 0.4782,
-      "pickrate": 0.067,
+      "augmentId": 1002,
+      "tier": 4,
+      "pickrate": 0.0319,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4782,
-          "games": 10429
-        }
-      ]
-    },
-    {
-      "augmentId": 2095,
-      "winrate": 0.4782,
-      "pickrate": 0.0222,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4782,
-          "games": 3448
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "winrate": 0.4755,
-      "pickrate": 0.0156,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4755,
-          "games": 2431
-        }
-      ]
-    },
-    {
-      "augmentId": 1152,
-      "winrate": 0.4742,
-      "pickrate": 0.1316,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4742,
-          "games": 20479
-        }
-      ]
-    },
-    {
-      "augmentId": 1384,
-      "winrate": 0.4701,
-      "pickrate": 0.0226,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4701,
-          "games": 3523
-        }
-      ]
-    },
-    {
-      "augmentId": 1401,
-      "winrate": 0.4686,
-      "pickrate": 0.0827,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4686,
-          "games": 12862
-        }
-      ]
-    },
-    {
-      "augmentId": 1333,
-      "winrate": 0.4683,
-      "pickrate": 0.0436,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4683,
-          "games": 6776
-        }
-      ]
-    },
-    {
-      "augmentId": 1062,
-      "winrate": 0.4664,
-      "pickrate": 0.0056,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4664,
-          "games": 864
-        }
-      ]
-    },
-    {
-      "augmentId": 1353,
-      "winrate": 0.4659,
-      "pickrate": 0.1971,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4659,
-          "games": 30660
-        }
-      ]
-    },
-    {
-      "augmentId": 2089,
-      "winrate": 0.4645,
-      "pickrate": 0.0094,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4645,
-          "games": 1464
-        }
-      ]
-    },
-    {
-      "augmentId": 2098,
-      "winrate": 0.4639,
-      "pickrate": 0.0079,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4639,
-          "games": 1233
+          "games": 4956
         }
       ]
     },
     {
       "augmentId": 1004,
-      "winrate": 0.4637,
+      "tier": 4,
       "pickrate": 0.0144,
       "contributions": [
         {
@@ -334,104 +143,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4637,
           "games": 2245
         }
       ]
     },
     {
-      "augmentId": 1028,
-      "winrate": 0.4632,
-      "pickrate": 0.0088,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4632,
-          "games": 1371
-        }
-      ]
-    },
-    {
-      "augmentId": 1375,
-      "winrate": 0.4599,
-      "pickrate": 0.0504,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4599,
-          "games": 7834
-        }
-      ]
-    },
-    {
-      "augmentId": 1322,
-      "winrate": 0.4594,
-      "pickrate": 0.0028,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4594,
-          "games": 431
-        }
-      ]
-    },
-    {
-      "augmentId": 1243,
-      "winrate": 0.4593,
-      "pickrate": 0.0239,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4593,
-          "games": 3725
-        }
-      ]
-    },
-    {
-      "augmentId": 2091,
-      "winrate": 0.4591,
-      "pickrate": 0.0538,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4591,
-          "games": 8369
-        }
-      ]
-    },
-    {
-      "augmentId": 1046,
-      "winrate": 0.4587,
-      "pickrate": 0.0047,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4587,
-          "games": 726
-        }
-      ]
-    },
-    {
       "augmentId": 1013,
-      "winrate": 0.4585,
+      "tier": 4,
       "pickrate": 0.1237,
       "contributions": [
         {
@@ -439,14 +157,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4585,
           "games": 19248
         }
       ]
     },
     {
       "augmentId": 1020,
-      "winrate": 0.4581,
+      "tier": 4,
       "pickrate": 0.0624,
       "contributions": [
         {
@@ -454,44 +171,55 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4581,
           "games": 9707
         }
       ]
     },
     {
-      "augmentId": 1308,
-      "winrate": 0.458,
-      "pickrate": 0.0037,
+      "augmentId": 1028,
+      "tier": 4,
+      "pickrate": 0.0088,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.458,
-          "games": 572
+          "games": 1371
         }
       ]
     },
     {
-      "augmentId": 1002,
-      "winrate": 0.4572,
-      "pickrate": 0.0319,
+      "augmentId": 1041,
+      "tier": 4,
+      "pickrate": 0.1006,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4572,
-          "games": 4956
+          "games": 15653
+        }
+      ]
+    },
+    {
+      "augmentId": 1046,
+      "tier": 4,
+      "pickrate": 0.0047,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 726
         }
       ]
     },
     {
       "augmentId": 1053,
-      "winrate": 0.4548,
+      "tier": 4,
       "pickrate": 0.0361,
       "contributions": [
         {
@@ -499,14 +227,41 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4548,
           "games": 5611
         }
       ]
     },
     {
+      "augmentId": 1060,
+      "tier": 4,
+      "pickrate": 0.0156,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2431
+        }
+      ]
+    },
+    {
+      "augmentId": 1062,
+      "tier": 4,
+      "pickrate": 0.0056,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 864
+        }
+      ]
+    },
+    {
       "augmentId": 1136,
-      "winrate": 0.4539,
+      "tier": 4,
       "pickrate": 0.0361,
       "contributions": [
         {
@@ -514,59 +269,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4539,
           "games": 5624
         }
       ]
     },
     {
-      "augmentId": 2139,
-      "winrate": 0.4538,
-      "pickrate": 0.0382,
+      "augmentId": 1152,
+      "tier": 4,
+      "pickrate": 0.1316,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4538,
-          "games": 5941
-        }
-      ]
-    },
-    {
-      "augmentId": 1388,
-      "winrate": 0.4536,
-      "pickrate": 0.0168,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4536,
-          "games": 2610
-        }
-      ]
-    },
-    {
-      "augmentId": 1238,
-      "winrate": 0.452,
-      "pickrate": 0.0821,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.452,
-          "games": 12769
+          "games": 20479
         }
       ]
     },
     {
       "augmentId": 1181,
-      "winrate": 0.4519,
+      "tier": 4,
       "pickrate": 0.085,
       "contributions": [
         {
@@ -574,14 +297,181 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4519,
           "games": 13227
         }
       ]
     },
     {
+      "augmentId": 1195,
+      "tier": 4,
+      "pickrate": 0.002,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 309
+        }
+      ]
+    },
+    {
+      "augmentId": 1238,
+      "tier": 4,
+      "pickrate": 0.0821,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12769
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": 4,
+      "pickrate": 0.0239,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3725
+        }
+      ]
+    },
+    {
+      "augmentId": 1308,
+      "tier": 4,
+      "pickrate": 0.0037,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 572
+        }
+      ]
+    },
+    {
+      "augmentId": 1319,
+      "tier": 4,
+      "pickrate": 0.067,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10429
+        }
+      ]
+    },
+    {
+      "augmentId": 1322,
+      "tier": 4,
+      "pickrate": 0.0028,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 431
+        }
+      ]
+    },
+    {
+      "augmentId": 1333,
+      "tier": 4,
+      "pickrate": 0.0436,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6776
+        }
+      ]
+    },
+    {
+      "augmentId": 1353,
+      "tier": 4,
+      "pickrate": 0.1971,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 30660
+        }
+      ]
+    },
+    {
+      "augmentId": 1375,
+      "tier": 4,
+      "pickrate": 0.0504,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7834
+        }
+      ]
+    },
+    {
+      "augmentId": 1384,
+      "tier": 4,
+      "pickrate": 0.0226,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3523
+        }
+      ]
+    },
+    {
+      "augmentId": 1388,
+      "tier": 4,
+      "pickrate": 0.0168,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2610
+        }
+      ]
+    },
+    {
+      "augmentId": 1401,
+      "tier": 4,
+      "pickrate": 0.0827,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12862
+        }
+      ]
+    },
+    {
       "augmentId": 2032,
-      "winrate": 0.4504,
+      "tier": 4,
       "pickrate": 0.0289,
       "contributions": [
         {
@@ -589,119 +479,83 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4504,
           "games": 4496
         }
       ]
     },
     {
-      "augmentId": 1029,
-      "winrate": 0.4496,
-      "pickrate": 0.0949,
+      "augmentId": 2089,
+      "tier": 4,
+      "pickrate": 0.0094,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4496,
-          "games": 14765
+          "games": 1464
         }
       ]
     },
     {
-      "augmentId": 1073,
-      "winrate": 0.4491,
-      "pickrate": 0.0055,
+      "augmentId": 2091,
+      "tier": 4,
+      "pickrate": 0.0538,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4491,
-          "games": 855
+          "games": 8369
         }
       ]
     },
     {
-      "augmentId": 1323,
-      "winrate": 0.4488,
-      "pickrate": 0.0332,
+      "augmentId": 2095,
+      "tier": 4,
+      "pickrate": 0.0222,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4488,
-          "games": 5158
+          "games": 3448
         }
       ]
     },
     {
-      "augmentId": 2119,
-      "winrate": 0.4477,
-      "pickrate": 0.007,
+      "augmentId": 2098,
+      "tier": 4,
+      "pickrate": 0.0079,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4477,
-          "games": 1090
+          "games": 1233
         }
       ]
     },
     {
-      "augmentId": 1025,
-      "winrate": 0.4471,
-      "pickrate": 0.0726,
+      "augmentId": 2139,
+      "tier": 4,
+      "pickrate": 0.0382,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4471,
-          "games": 11295
-        }
-      ]
-    },
-    {
-      "augmentId": 1403,
-      "winrate": 0.4471,
-      "pickrate": 0.0164,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4471,
-          "games": 2550
-        }
-      ]
-    },
-    {
-      "augmentId": 1018,
-      "winrate": 0.4464,
-      "pickrate": 0.036,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4464,
-          "games": 5607
+          "games": 5941
         }
       ]
     },
     {
       "augmentId": 1001,
-      "winrate": 0.4459,
+      "tier": 5,
       "pickrate": 0.0387,
       "contributions": [
         {
@@ -709,719 +563,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4459,
           "games": 6021
         }
       ]
     },
     {
-      "augmentId": 1404,
-      "winrate": 0.4459,
-      "pickrate": 0.0055,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4459,
-          "games": 859
-        }
-      ]
-    },
-    {
-      "augmentId": 1390,
-      "winrate": 0.4455,
-      "pickrate": 0.0381,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4455,
-          "games": 5932
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "winrate": 0.4449,
-      "pickrate": 0.0409,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4449,
-          "games": 6370
-        }
-      ]
-    },
-    {
-      "augmentId": 1058,
-      "winrate": 0.4444,
-      "pickrate": 0.0067,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4444,
-          "games": 1044
-        }
-      ]
-    },
-    {
-      "augmentId": 1349,
-      "winrate": 0.4432,
-      "pickrate": 0.01,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4432,
-          "games": 1559
-        }
-      ]
-    },
-    {
-      "augmentId": 2077,
-      "winrate": 0.4432,
-      "pickrate": 0.0612,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4432,
-          "games": 9527
-        }
-      ]
-    },
-    {
-      "augmentId": 1305,
-      "winrate": 0.4431,
-      "pickrate": 0.0159,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4431,
-          "games": 2480
-        }
-      ]
-    },
-    {
-      "augmentId": 2132,
-      "winrate": 0.4425,
-      "pickrate": 0.0407,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4425,
-          "games": 6337
-        }
-      ]
-    },
-    {
-      "augmentId": 1373,
-      "winrate": 0.4423,
-      "pickrate": 0.0177,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4423,
-          "games": 2749
-        }
-      ]
-    },
-    {
-      "augmentId": 1068,
-      "winrate": 0.4418,
-      "pickrate": 0.0422,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4418,
-          "games": 6558
-        }
-      ]
-    },
-    {
-      "augmentId": 2006,
-      "winrate": 0.4402,
-      "pickrate": 0.1219,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4402,
-          "games": 18968
-        }
-      ]
-    },
-    {
-      "augmentId": 1138,
-      "winrate": 0.44,
-      "pickrate": 0.0216,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.44,
-          "games": 3364
-        }
-      ]
-    },
-    {
-      "augmentId": 2107,
-      "winrate": 0.4387,
-      "pickrate": 0.0051,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4387,
-          "games": 791
-        }
-      ]
-    },
-    {
-      "augmentId": 2082,
-      "winrate": 0.4379,
-      "pickrate": 0.0269,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4379,
-          "games": 4179
-        }
-      ]
-    },
-    {
-      "augmentId": 2018,
-      "winrate": 0.4376,
-      "pickrate": 0.0076,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4376,
-          "games": 1186
-        }
-      ]
-    },
-    {
-      "augmentId": 2073,
-      "winrate": 0.435,
-      "pickrate": 0.0882,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.435,
-          "games": 13724
-        }
-      ]
-    },
-    {
-      "augmentId": 2043,
-      "winrate": 0.4349,
-      "pickrate": 0.0279,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4349,
-          "games": 4346
-        }
-      ]
-    },
-    {
-      "augmentId": 1149,
-      "winrate": 0.4345,
-      "pickrate": 0.0289,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4345,
-          "games": 4499
-        }
-      ]
-    },
-    {
-      "augmentId": 1151,
-      "winrate": 0.4343,
-      "pickrate": 0.0248,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4343,
-          "games": 3866
-        }
-      ]
-    },
-    {
-      "augmentId": 1310,
-      "winrate": 0.4341,
-      "pickrate": 0.0196,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4341,
-          "games": 3057
-        }
-      ]
-    },
-    {
-      "augmentId": 2131,
-      "winrate": 0.4337,
-      "pickrate": 0.021,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4337,
-          "games": 3274
-        }
-      ]
-    },
-    {
-      "augmentId": 1344,
-      "winrate": 0.4335,
-      "pickrate": 0.0176,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4335,
-          "games": 2736
-        }
-      ]
-    },
-    {
-      "augmentId": 2026,
-      "winrate": 0.4294,
-      "pickrate": 0.0033,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4294,
-          "games": 510
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "winrate": 0.4284,
-      "pickrate": 0.026,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4284,
-          "games": 4041
-        }
-      ]
-    },
-    {
-      "augmentId": 1057,
-      "winrate": 0.428,
-      "pickrate": 0.0049,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.428,
-          "games": 757
-        }
-      ]
-    },
-    {
-      "augmentId": 1402,
-      "winrate": 0.4277,
-      "pickrate": 0.0061,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4277,
-          "games": 947
-        }
-      ]
-    },
-    {
-      "augmentId": 1386,
-      "winrate": 0.4275,
-      "pickrate": 0.0025,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4275,
-          "games": 386
-        }
-      ]
-    },
-    {
-      "augmentId": 2005,
-      "winrate": 0.427,
-      "pickrate": 0.0149,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.427,
-          "games": 2316
-        }
-      ]
-    },
-    {
-      "augmentId": 1301,
-      "winrate": 0.4261,
-      "pickrate": 0.0164,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4261,
-          "games": 2558
-        }
-      ]
-    },
-    {
-      "augmentId": 1205,
-      "winrate": 0.4252,
-      "pickrate": 0.0299,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4252,
-          "games": 4645
-        }
-      ]
-    },
-    {
-      "augmentId": 12317,
-      "winrate": 0.4248,
-      "pickrate": 0.0189,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4248,
-          "games": 2945
-        }
-      ]
-    },
-    {
-      "augmentId": 1116,
-      "winrate": 0.4247,
-      "pickrate": 0.0116,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4247,
-          "games": 1806
-        }
-      ]
-    },
-    {
-      "augmentId": 1413,
-      "winrate": 0.4238,
-      "pickrate": 0.0224,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4238,
-          "games": 3490
-        }
-      ]
-    },
-    {
-      "augmentId": 1038,
-      "winrate": 0.4237,
-      "pickrate": 0.0072,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4237,
-          "games": 1121
-        }
-      ]
-    },
-    {
-      "augmentId": 1150,
-      "winrate": 0.4237,
-      "pickrate": 0.0304,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4237,
-          "games": 4735
-        }
-      ]
-    },
-    {
-      "augmentId": 2138,
-      "winrate": 0.4225,
-      "pickrate": 0.0625,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4225,
-          "games": 9731
-        }
-      ]
-    },
-    {
-      "augmentId": 1097,
-      "winrate": 0.4207,
-      "pickrate": 0.0121,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4207,
-          "games": 1878
-        }
-      ]
-    },
-    {
-      "augmentId": 1358,
-      "winrate": 0.4204,
-      "pickrate": 0.0165,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4204,
-          "games": 2569
-        }
-      ]
-    },
-    {
-      "augmentId": 1415,
-      "winrate": 0.4204,
-      "pickrate": 0.0061,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4204,
-          "games": 949
-        }
-      ]
-    },
-    {
-      "augmentId": 1315,
-      "winrate": 0.4198,
-      "pickrate": 0.0073,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4198,
-          "games": 1141
-        }
-      ]
-    },
-    {
-      "augmentId": 2100,
-      "winrate": 0.4189,
-      "pickrate": 0.0305,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4189,
-          "games": 4748
-        }
-      ]
-    },
-    {
-      "augmentId": 1063,
-      "winrate": 0.4187,
-      "pickrate": 0.0084,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4187,
-          "games": 1304
-        }
-      ]
-    },
-    {
-      "augmentId": 1421,
-      "winrate": 0.4182,
-      "pickrate": 0.0083,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4182,
-          "games": 1284
-        }
-      ]
-    },
-    {
-      "augmentId": 2087,
-      "winrate": 0.4179,
-      "pickrate": 0.0099,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4179,
-          "games": 1534
-        }
-      ]
-    },
-    {
-      "augmentId": 1088,
-      "winrate": 0.4172,
-      "pickrate": 0.0104,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4172,
-          "games": 1618
-        }
-      ]
-    },
-    {
-      "augmentId": 1332,
-      "winrate": 0.4158,
-      "pickrate": 0.009,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4158,
-          "games": 1402
-        }
-      ]
-    },
-    {
-      "augmentId": 1326,
-      "winrate": 0.4146,
-      "pickrate": 0.0031,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4146,
-          "games": 480
-        }
-      ]
-    },
-    {
-      "augmentId": 1103,
-      "winrate": 0.4145,
+      "augmentId": 1011,
+      "tier": 5,
       "pickrate": 0.0101,
       "contributions": [
         {
@@ -1429,89 +577,55 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4145,
-          "games": 1568
+          "games": 1567
         }
       ]
     },
     {
-      "augmentId": 1112,
-      "winrate": 0.4142,
-      "pickrate": 0.0153,
+      "augmentId": 1018,
+      "tier": 5,
+      "pickrate": 0.036,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4142,
-          "games": 2373
+          "games": 5607
         }
       ]
     },
     {
-      "augmentId": 1095,
-      "winrate": 0.412,
-      "pickrate": 0.0151,
+      "augmentId": 1019,
+      "tier": 5,
+      "pickrate": 0.0078,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.412,
-          "games": 2347
+          "games": 1213
         }
       ]
     },
     {
-      "augmentId": 1345,
-      "winrate": 0.4114,
-      "pickrate": 0.0148,
+      "augmentId": 1025,
+      "tier": 5,
+      "pickrate": 0.0726,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4114,
-          "games": 2297
-        }
-      ]
-    },
-    {
-      "augmentId": 1044,
-      "winrate": 0.4097,
-      "pickrate": 0.0058,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4097,
-          "games": 908
-        }
-      ]
-    },
-    {
-      "augmentId": 1335,
-      "winrate": 0.4093,
-      "pickrate": 0.0026,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4093,
-          "games": 408
+          "games": 11295
         }
       ]
     },
     {
       "augmentId": 1027,
-      "winrate": 0.4092,
+      "tier": 5,
       "pickrate": 0.0042,
       "contributions": [
         {
@@ -1519,44 +633,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4092,
           "games": 650
         }
       ]
     },
     {
-      "augmentId": 2088,
-      "winrate": 0.4085,
-      "pickrate": 0.0118,
+      "augmentId": 1029,
+      "tier": 5,
+      "pickrate": 0.0949,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4085,
-          "games": 1841
-        }
-      ]
-    },
-    {
-      "augmentId": 2136,
-      "winrate": 0.4084,
-      "pickrate": 0.0319,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4084,
-          "games": 4958
+          "games": 14765
         }
       ]
     },
     {
       "augmentId": 1030,
-      "winrate": 0.4078,
+      "tier": 5,
       "pickrate": 0.0086,
       "contributions": [
         {
@@ -1564,74 +661,41 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4078,
           "games": 1339
         }
       ]
     },
     {
-      "augmentId": 2099,
-      "winrate": 0.4078,
-      "pickrate": 0.0075,
+      "augmentId": 1038,
+      "tier": 5,
+      "pickrate": 0.0072,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4078,
-          "games": 1160
+          "games": 1121
         }
       ]
     },
     {
-      "augmentId": 2137,
-      "winrate": 0.4063,
-      "pickrate": 0.0051,
+      "augmentId": 1044,
+      "tier": 5,
+      "pickrate": 0.0058,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4063,
-          "games": 795
-        }
-      ]
-    },
-    {
-      "augmentId": 2062,
-      "winrate": 0.404,
-      "pickrate": 0.018,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.404,
-          "games": 2807
-        }
-      ]
-    },
-    {
-      "augmentId": 2115,
-      "winrate": 0.4035,
-      "pickrate": 0.0162,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4035,
-          "games": 2523
+          "games": 908
         }
       ]
     },
     {
       "augmentId": 1048,
-      "winrate": 0.403,
+      "tier": 5,
       "pickrate": 0.0148,
       "contributions": [
         {
@@ -1639,299 +703,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.403,
           "games": 2298
         }
       ]
     },
     {
-      "augmentId": 2064,
-      "winrate": 0.4023,
-      "pickrate": 0.0462,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4023,
-          "games": 7182
-        }
-      ]
-    },
-    {
-      "augmentId": 2134,
-      "winrate": 0.4011,
-      "pickrate": 0.0023,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4011,
-          "games": 364
-        }
-      ]
-    },
-    {
-      "augmentId": 2080,
-      "winrate": 0.4004,
-      "pickrate": 0.0146,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4004,
-          "games": 2268
-        }
-      ]
-    },
-    {
-      "augmentId": 2083,
-      "winrate": 0.3997,
-      "pickrate": 0.0098,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3997,
-          "games": 1526
-        }
-      ]
-    },
-    {
-      "augmentId": 1211,
-      "winrate": 0.3995,
-      "pickrate": 0.0111,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3995,
-          "games": 1727
-        }
-      ]
-    },
-    {
-      "augmentId": 1318,
-      "winrate": 0.3993,
-      "pickrate": 0.0054,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3993,
-          "games": 844
-        }
-      ]
-    },
-    {
-      "augmentId": 1180,
-      "winrate": 0.3983,
-      "pickrate": 0.006,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3983,
-          "games": 934
-        }
-      ]
-    },
-    {
-      "augmentId": 2034,
-      "winrate": 0.3979,
-      "pickrate": 0.0116,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3979,
-          "games": 1812
-        }
-      ]
-    },
-    {
-      "augmentId": 1194,
-      "winrate": 0.3968,
-      "pickrate": 0.0196,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3968,
-          "games": 3052
-        }
-      ]
-    },
-    {
-      "augmentId": 1098,
-      "winrate": 0.396,
-      "pickrate": 0.0048,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.396,
-          "games": 750
-        }
-      ]
-    },
-    {
-      "augmentId": 2116,
-      "winrate": 0.3943,
-      "pickrate": 0.0206,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3943,
-          "games": 3201
-        }
-      ]
-    },
-    {
-      "augmentId": 1129,
-      "winrate": 0.3941,
-      "pickrate": 0.0061,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3941,
-          "games": 944
-        }
-      ]
-    },
-    {
-      "augmentId": 1156,
-      "winrate": 0.3874,
-      "pickrate": 0.0078,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3874,
-          "games": 1221
-        }
-      ]
-    },
-    {
-      "augmentId": 1996,
-      "winrate": 0.3863,
-      "pickrate": 0.0032,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3863,
-          "games": 497
-        }
-      ]
-    },
-    {
-      "augmentId": 1392,
-      "winrate": 0.3844,
-      "pickrate": 0.0063,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3844,
-          "games": 986
-        }
-      ]
-    },
-    {
-      "augmentId": 1011,
-      "winrate": 0.3823,
-      "pickrate": 0.0101,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3823,
-          "games": 1567
-        }
-      ]
-    },
-    {
-      "augmentId": 1019,
-      "winrate": 0.3817,
-      "pickrate": 0.0078,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3817,
-          "games": 1213
-        }
-      ]
-    },
-    {
-      "augmentId": 1154,
-      "winrate": 0.3741,
-      "pickrate": 0.0069,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3741,
-          "games": 1080
-        }
-      ]
-    },
-    {
-      "augmentId": 2118,
-      "winrate": 0.3622,
-      "pickrate": 0.0045,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3622,
-          "games": 704
-        }
-      ]
-    },
-    {
       "augmentId": 1054,
-      "winrate": 0.3588,
+      "tier": 5,
       "pickrate": 0.0046,
       "contributions": [
         {
@@ -1939,11 +717,1101 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3588,
           "games": 708
         }
       ]
+    },
+    {
+      "augmentId": 1057,
+      "tier": 5,
+      "pickrate": 0.0049,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 757
+        }
+      ]
+    },
+    {
+      "augmentId": 1058,
+      "tier": 5,
+      "pickrate": 0.0067,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1044
+        }
+      ]
+    },
+    {
+      "augmentId": 1063,
+      "tier": 5,
+      "pickrate": 0.0084,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1304
+        }
+      ]
+    },
+    {
+      "augmentId": 1068,
+      "tier": 5,
+      "pickrate": 0.0422,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6558
+        }
+      ]
+    },
+    {
+      "augmentId": 1073,
+      "tier": 5,
+      "pickrate": 0.0055,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 855
+        }
+      ]
+    },
+    {
+      "augmentId": 1088,
+      "tier": 5,
+      "pickrate": 0.0104,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1618
+        }
+      ]
+    },
+    {
+      "augmentId": 1095,
+      "tier": 5,
+      "pickrate": 0.0151,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2347
+        }
+      ]
+    },
+    {
+      "augmentId": 1097,
+      "tier": 5,
+      "pickrate": 0.0121,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1878
+        }
+      ]
+    },
+    {
+      "augmentId": 1098,
+      "tier": 5,
+      "pickrate": 0.0048,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 750
+        }
+      ]
+    },
+    {
+      "augmentId": 1103,
+      "tier": 5,
+      "pickrate": 0.0101,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1568
+        }
+      ]
+    },
+    {
+      "augmentId": 1112,
+      "tier": 5,
+      "pickrate": 0.0153,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2373
+        }
+      ]
+    },
+    {
+      "augmentId": 1116,
+      "tier": 5,
+      "pickrate": 0.0116,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1806
+        }
+      ]
+    },
+    {
+      "augmentId": 1129,
+      "tier": 5,
+      "pickrate": 0.0061,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 944
+        }
+      ]
+    },
+    {
+      "augmentId": 1138,
+      "tier": 5,
+      "pickrate": 0.0216,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3364
+        }
+      ]
+    },
+    {
+      "augmentId": 1149,
+      "tier": 5,
+      "pickrate": 0.0289,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4499
+        }
+      ]
+    },
+    {
+      "augmentId": 1150,
+      "tier": 5,
+      "pickrate": 0.0304,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4735
+        }
+      ]
+    },
+    {
+      "augmentId": 1151,
+      "tier": 5,
+      "pickrate": 0.0248,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3866
+        }
+      ]
+    },
+    {
+      "augmentId": 1154,
+      "tier": 5,
+      "pickrate": 0.0069,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1080
+        }
+      ]
+    },
+    {
+      "augmentId": 1156,
+      "tier": 5,
+      "pickrate": 0.0078,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1221
+        }
+      ]
+    },
+    {
+      "augmentId": 1180,
+      "tier": 5,
+      "pickrate": 0.006,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 934
+        }
+      ]
+    },
+    {
+      "augmentId": 1194,
+      "tier": 5,
+      "pickrate": 0.0196,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3052
+        }
+      ]
+    },
+    {
+      "augmentId": 1205,
+      "tier": 5,
+      "pickrate": 0.0299,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4645
+        }
+      ]
+    },
+    {
+      "augmentId": 1211,
+      "tier": 5,
+      "pickrate": 0.0111,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1727
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": 5,
+      "pickrate": 0.0409,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6370
+        }
+      ]
+    },
+    {
+      "augmentId": 1301,
+      "tier": 5,
+      "pickrate": 0.0164,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2558
+        }
+      ]
+    },
+    {
+      "augmentId": 1305,
+      "tier": 5,
+      "pickrate": 0.0159,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2480
+        }
+      ]
+    },
+    {
+      "augmentId": 1310,
+      "tier": 5,
+      "pickrate": 0.0196,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3057
+        }
+      ]
+    },
+    {
+      "augmentId": 1315,
+      "tier": 5,
+      "pickrate": 0.0073,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1141
+        }
+      ]
+    },
+    {
+      "augmentId": 1318,
+      "tier": 5,
+      "pickrate": 0.0054,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 844
+        }
+      ]
+    },
+    {
+      "augmentId": 1323,
+      "tier": 5,
+      "pickrate": 0.0332,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5158
+        }
+      ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": 5,
+      "pickrate": 0.0031,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 480
+        }
+      ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": 5,
+      "pickrate": 0.026,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4041
+        }
+      ]
+    },
+    {
+      "augmentId": 1332,
+      "tier": 5,
+      "pickrate": 0.009,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1402
+        }
+      ]
+    },
+    {
+      "augmentId": 1335,
+      "tier": 5,
+      "pickrate": 0.0026,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 408
+        }
+      ]
+    },
+    {
+      "augmentId": 1344,
+      "tier": 5,
+      "pickrate": 0.0176,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2736
+        }
+      ]
+    },
+    {
+      "augmentId": 1345,
+      "tier": 5,
+      "pickrate": 0.0148,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2297
+        }
+      ]
+    },
+    {
+      "augmentId": 1349,
+      "tier": 5,
+      "pickrate": 0.01,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1559
+        }
+      ]
+    },
+    {
+      "augmentId": 1358,
+      "tier": 5,
+      "pickrate": 0.0165,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2569
+        }
+      ]
+    },
+    {
+      "augmentId": 1373,
+      "tier": 5,
+      "pickrate": 0.0177,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2749
+        }
+      ]
+    },
+    {
+      "augmentId": 1386,
+      "tier": 5,
+      "pickrate": 0.0025,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 386
+        }
+      ]
+    },
+    {
+      "augmentId": 1390,
+      "tier": 5,
+      "pickrate": 0.0381,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5932
+        }
+      ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": 5,
+      "pickrate": 0.0063,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 986
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": 5,
+      "pickrate": 0.0061,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 947
+        }
+      ]
+    },
+    {
+      "augmentId": 1403,
+      "tier": 5,
+      "pickrate": 0.0164,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2550
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": 5,
+      "pickrate": 0.0055,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 859
+        }
+      ]
+    },
+    {
+      "augmentId": 1413,
+      "tier": 5,
+      "pickrate": 0.0224,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3490
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": 5,
+      "pickrate": 0.0061,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 949
+        }
+      ]
+    },
+    {
+      "augmentId": 1421,
+      "tier": 5,
+      "pickrate": 0.0083,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1284
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": 5,
+      "pickrate": 0.0032,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 497
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": 5,
+      "pickrate": 0.0149,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2316
+        }
+      ]
+    },
+    {
+      "augmentId": 2006,
+      "tier": 5,
+      "pickrate": 0.1219,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18968
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": 5,
+      "pickrate": 0.0076,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1186
+        }
+      ]
+    },
+    {
+      "augmentId": 2026,
+      "tier": 5,
+      "pickrate": 0.0033,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 510
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": 5,
+      "pickrate": 0.0116,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1812
+        }
+      ]
+    },
+    {
+      "augmentId": 2043,
+      "tier": 5,
+      "pickrate": 0.0279,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4346
+        }
+      ]
+    },
+    {
+      "augmentId": 2062,
+      "tier": 5,
+      "pickrate": 0.018,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2807
+        }
+      ]
+    },
+    {
+      "augmentId": 2064,
+      "tier": 5,
+      "pickrate": 0.0462,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7182
+        }
+      ]
+    },
+    {
+      "augmentId": 2073,
+      "tier": 5,
+      "pickrate": 0.0882,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13724
+        }
+      ]
+    },
+    {
+      "augmentId": 2077,
+      "tier": 5,
+      "pickrate": 0.0612,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9527
+        }
+      ]
+    },
+    {
+      "augmentId": 2080,
+      "tier": 5,
+      "pickrate": 0.0146,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2268
+        }
+      ]
+    },
+    {
+      "augmentId": 2082,
+      "tier": 5,
+      "pickrate": 0.0269,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4179
+        }
+      ]
+    },
+    {
+      "augmentId": 2083,
+      "tier": 5,
+      "pickrate": 0.0098,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1526
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": 5,
+      "pickrate": 0.0099,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1534
+        }
+      ]
+    },
+    {
+      "augmentId": 2088,
+      "tier": 5,
+      "pickrate": 0.0118,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1841
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": 5,
+      "pickrate": 0.0075,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1160
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": 5,
+      "pickrate": 0.0305,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4748
+        }
+      ]
+    },
+    {
+      "augmentId": 2107,
+      "tier": 5,
+      "pickrate": 0.0051,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 791
+        }
+      ]
+    },
+    {
+      "augmentId": 2115,
+      "tier": 5,
+      "pickrate": 0.0162,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2523
+        }
+      ]
+    },
+    {
+      "augmentId": 2116,
+      "tier": 5,
+      "pickrate": 0.0206,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3201
+        }
+      ]
+    },
+    {
+      "augmentId": 2118,
+      "tier": 5,
+      "pickrate": 0.0045,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 704
+        }
+      ]
+    },
+    {
+      "augmentId": 2119,
+      "tier": 5,
+      "pickrate": 0.007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1090
+        }
+      ]
+    },
+    {
+      "augmentId": 2131,
+      "tier": 5,
+      "pickrate": 0.021,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3274
+        }
+      ]
+    },
+    {
+      "augmentId": 2132,
+      "tier": 5,
+      "pickrate": 0.0407,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6337
+        }
+      ]
+    },
+    {
+      "augmentId": 2134,
+      "tier": 5,
+      "pickrate": 0.0023,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 364
+        }
+      ]
+    },
+    {
+      "augmentId": 2136,
+      "tier": 5,
+      "pickrate": 0.0319,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4958
+        }
+      ]
+    },
+    {
+      "augmentId": 2137,
+      "tier": 5,
+      "pickrate": 0.0051,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 795
+        }
+      ]
+    },
+    {
+      "augmentId": 2138,
+      "tier": 5,
+      "pickrate": 0.0625,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9731
+        }
+      ]
+    },
+    {
+      "augmentId": 12317,
+      "tier": 5,
+      "pickrate": 0.0189,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/zac?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2945
+        }
+      ]
     }
-  ],
-  "method": "equal-source-mean"
+  ]
 }

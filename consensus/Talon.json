@@ -1,62 +1,15 @@
 {
+  "version": 1,
+  "method": "warden-performance-tiers-v1",
   "championId": 91,
   "championKey": "Talon",
   "set": "aram",
-  "source": "Mayhem source average",
-  "sourceUrl": "https://github.com/snacbot/warden-releases/blob/mayhem-data/README.md",
-  "winrateScope": "champion",
-  "pickrateScope": "champion",
   "patch": "16.18",
   "scrapedAt": "2026-09-12T02:34:26.350Z",
   "augments": [
     {
-      "augmentId": 2095,
-      "winrate": 0.6106,
-      "pickrate": 0.0288,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.6106,
-          "games": 8791
-        }
-      ]
-    },
-    {
-      "augmentId": 2031,
-      "winrate": 0.5675,
-      "pickrate": 0.0243,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5675,
-          "games": 7435
-        }
-      ]
-    },
-    {
-      "augmentId": 1389,
-      "winrate": 0.5585,
-      "pickrate": 0.0027,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5585,
-          "games": 820
-        }
-      ]
-    },
-    {
       "augmentId": 1310,
-      "winrate": 0.5521,
+      "tier": 1,
       "pickrate": 0.1212,
       "contributions": [
         {
@@ -64,134 +17,55 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5521,
           "games": 37038
         }
       ]
     },
     {
-      "augmentId": 1053,
-      "winrate": 0.5459,
-      "pickrate": 0.0209,
+      "augmentId": 1389,
+      "tier": 1,
+      "pickrate": 0.0027,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5459,
-          "games": 6395
+          "games": 820
         }
       ]
     },
     {
-      "augmentId": 1038,
-      "winrate": 0.5387,
-      "pickrate": 0.109,
+      "augmentId": 2031,
+      "tier": 1,
+      "pickrate": 0.0243,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5387,
-          "games": 33286
+          "games": 7435
         }
       ]
     },
     {
-      "augmentId": 1344,
-      "winrate": 0.5374,
-      "pickrate": 0.0628,
+      "augmentId": 2095,
+      "tier": 1,
+      "pickrate": 0.0288,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5374,
-          "games": 19177
-        }
-      ]
-    },
-    {
-      "augmentId": 1335,
-      "winrate": 0.5314,
-      "pickrate": 0.0051,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5314,
-          "games": 1560
-        }
-      ]
-    },
-    {
-      "augmentId": 2119,
-      "winrate": 0.5299,
-      "pickrate": 0.0049,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5299,
-          "games": 1489
-        }
-      ]
-    },
-    {
-      "augmentId": 2098,
-      "winrate": 0.528,
-      "pickrate": 0.0086,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.528,
-          "games": 2640
-        }
-      ]
-    },
-    {
-      "augmentId": 1333,
-      "winrate": 0.5269,
-      "pickrate": 0.0588,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5269,
-          "games": 17967
-        }
-      ]
-    },
-    {
-      "augmentId": 1403,
-      "winrate": 0.5237,
-      "pickrate": 0.0326,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5237,
-          "games": 9944
+          "games": 8791
         }
       ]
     },
     {
       "augmentId": 1007,
-      "winrate": 0.5236,
+      "tier": 2,
       "pickrate": 0.1492,
       "contributions": [
         {
@@ -199,29 +73,41 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5236,
           "games": 45585
         }
       ]
     },
     {
-      "augmentId": 2141,
-      "winrate": 0.5222,
-      "pickrate": 0.0615,
+      "augmentId": 1038,
+      "tier": 2,
+      "pickrate": 0.109,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5222,
-          "games": 18782
+          "games": 33286
+        }
+      ]
+    },
+    {
+      "augmentId": 1053,
+      "tier": 2,
+      "pickrate": 0.0209,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6395
         }
       ]
     },
     {
       "augmentId": 1238,
-      "winrate": 0.5218,
+      "tier": 2,
       "pickrate": 0.1638,
       "contributions": [
         {
@@ -229,14 +115,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5218,
           "games": 50040
         }
       ]
     },
     {
       "augmentId": 1315,
-      "winrate": 0.5216,
+      "tier": 2,
       "pickrate": 0.01,
       "contributions": [
         {
@@ -244,374 +129,97 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5216,
           "games": 3052
         }
       ]
     },
     {
-      "augmentId": 1384,
-      "winrate": 0.5165,
-      "pickrate": 0.0579,
+      "augmentId": 1333,
+      "tier": 2,
+      "pickrate": 0.0588,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5165,
-          "games": 17695
+          "games": 17967
         }
       ]
     },
     {
-      "augmentId": 2083,
-      "winrate": 0.515,
-      "pickrate": 0.1911,
+      "augmentId": 1335,
+      "tier": 2,
+      "pickrate": 0.0051,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.515,
-          "games": 58362
+          "games": 1560
         }
       ]
     },
     {
-      "augmentId": 1025,
-      "winrate": 0.5129,
-      "pickrate": 0.0549,
+      "augmentId": 1344,
+      "tier": 2,
+      "pickrate": 0.0628,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5129,
-          "games": 16762
+          "games": 19177
         }
       ]
     },
     {
-      "augmentId": 1404,
-      "winrate": 0.5123,
-      "pickrate": 0.0058,
+      "augmentId": 1403,
+      "tier": 2,
+      "pickrate": 0.0326,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5123,
-          "games": 1786
+          "games": 9944
         }
       ]
     },
     {
-      "augmentId": 12317,
-      "winrate": 0.5123,
-      "pickrate": 0.0274,
+      "augmentId": 2098,
+      "tier": 2,
+      "pickrate": 0.0086,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5123,
-          "games": 8367
+          "games": 2640
         }
       ]
     },
     {
-      "augmentId": 1062,
-      "winrate": 0.5117,
-      "pickrate": 0.0045,
+      "augmentId": 2119,
+      "tier": 2,
+      "pickrate": 0.0049,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5117,
-          "games": 1372
+          "games": 1489
         }
       ]
     },
     {
-      "augmentId": 1073,
-      "winrate": 0.51,
-      "pickrate": 0.063,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.51,
-          "games": 19252
-        }
-      ]
-    },
-    {
-      "augmentId": 2032,
-      "winrate": 0.5074,
-      "pickrate": 0.0217,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5074,
-          "games": 6632
-        }
-      ]
-    },
-    {
-      "augmentId": 2140,
-      "winrate": 0.5073,
-      "pickrate": 0.0774,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5073,
-          "games": 23649
-        }
-      ]
-    },
-    {
-      "augmentId": 1194,
-      "winrate": 0.5057,
-      "pickrate": 0.0259,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5057,
-          "games": 7922
-        }
-      ]
-    },
-    {
-      "augmentId": 1098,
-      "winrate": 0.505,
-      "pickrate": 0.0225,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.505,
-          "games": 6867
-        }
-      ]
-    },
-    {
-      "augmentId": 2157,
-      "winrate": 0.5034,
-      "pickrate": 0.0869,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5034,
-          "games": 26537
-        }
-      ]
-    },
-    {
-      "augmentId": 1138,
-      "winrate": 0.5028,
-      "pickrate": 0.0357,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5028,
-          "games": 10896
-        }
-      ]
-    },
-    {
-      "augmentId": 1041,
-      "winrate": 0.5021,
-      "pickrate": 0.0127,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5021,
-          "games": 3874
-        }
-      ]
-    },
-    {
-      "augmentId": 1402,
-      "winrate": 0.5004,
-      "pickrate": 0.0075,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5004,
-          "games": 2276
-        }
-      ]
-    },
-    {
-      "augmentId": 1195,
-      "winrate": 0.4999,
-      "pickrate": 0.0269,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4999,
-          "games": 8228
-        }
-      ]
-    },
-    {
-      "augmentId": 1337,
-      "winrate": 0.4984,
-      "pickrate": 0.0063,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4984,
-          "games": 1910
-        }
-      ]
-    },
-    {
-      "augmentId": 2005,
-      "winrate": 0.4965,
-      "pickrate": 0.0264,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4965,
-          "games": 8069
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "winrate": 0.4963,
-      "pickrate": 0.0053,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4963,
-          "games": 1606
-        }
-      ]
-    },
-    {
-      "augmentId": 2137,
-      "winrate": 0.4961,
-      "pickrate": 0.0017,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4961,
-          "games": 512
-        }
-      ]
-    },
-    {
-      "augmentId": 1322,
-      "winrate": 0.496,
-      "pickrate": 0.0452,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.496,
-          "games": 13797
-        }
-      ]
-    },
-    {
-      "augmentId": 1187,
-      "winrate": 0.4951,
-      "pickrate": 0.0017,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4951,
-          "games": 509
-        }
-      ]
-    },
-    {
-      "augmentId": 1305,
-      "winrate": 0.4951,
-      "pickrate": 0.0159,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4951,
-          "games": 4856
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "winrate": 0.4936,
-      "pickrate": 0.035,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4936,
-          "games": 10690
-        }
-      ]
-    },
-    {
-      "augmentId": 1116,
-      "winrate": 0.4909,
+      "augmentId": 2141,
+      "tier": 2,
       "pickrate": 0.0615,
       "contributions": [
         {
@@ -619,164 +227,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4909,
-          "games": 18795
-        }
-      ]
-    },
-    {
-      "augmentId": 1154,
-      "winrate": 0.4909,
-      "pickrate": 0.0152,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4909,
-          "games": 4657
-        }
-      ]
-    },
-    {
-      "augmentId": 1211,
-      "winrate": 0.4909,
-      "pickrate": 0.0909,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4909,
-          "games": 27753
-        }
-      ]
-    },
-    {
-      "augmentId": 1243,
-      "winrate": 0.4907,
-      "pickrate": 0.0285,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4907,
-          "games": 8702
-        }
-      ]
-    },
-    {
-      "augmentId": 1308,
-      "winrate": 0.4902,
-      "pickrate": 0.0033,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4902,
-          "games": 1018
-        }
-      ]
-    },
-    {
-      "augmentId": 2127,
-      "winrate": 0.4892,
-      "pickrate": 0.0318,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4892,
-          "games": 9729
-        }
-      ]
-    },
-    {
-      "augmentId": 1011,
-      "winrate": 0.4889,
-      "pickrate": 0.0201,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4889,
-          "games": 6152
-        }
-      ]
-    },
-    {
-      "augmentId": 1027,
-      "winrate": 0.4868,
-      "pickrate": 0.0021,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4868,
-          "games": 645
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "winrate": 0.4823,
-      "pickrate": 0.0541,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4823,
-          "games": 16513
-        }
-      ]
-    },
-    {
-      "augmentId": 1046,
-      "winrate": 0.4813,
-      "pickrate": 0.0158,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4813,
-          "games": 4829
-        }
-      ]
-    },
-    {
-      "augmentId": 1068,
-      "winrate": 0.4807,
-      "pickrate": 0.1072,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4807,
-          "games": 32741
+          "games": 18782
         }
       ]
     },
     {
       "augmentId": 1006,
-      "winrate": 0.4801,
+      "tier": 3,
       "pickrate": 0.0298,
       "contributions": [
         {
@@ -784,74 +241,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4801,
           "games": 9105
         }
       ]
     },
     {
-      "augmentId": 1373,
-      "winrate": 0.48,
-      "pickrate": 0.06,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.48,
-          "games": 18331
-        }
-      ]
-    },
-    {
-      "augmentId": 2089,
-      "winrate": 0.4792,
-      "pickrate": 0.0125,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4792,
-          "games": 3823
-        }
-      ]
-    },
-    {
-      "augmentId": 1112,
-      "winrate": 0.479,
-      "pickrate": 0.0394,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.479,
-          "games": 12045
-        }
-      ]
-    },
-    {
-      "augmentId": 1415,
-      "winrate": 0.477,
-      "pickrate": 0.0133,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.477,
-          "games": 4061
-        }
-      ]
-    },
-    {
-      "augmentId": 1034,
-      "winrate": 0.4766,
+      "augmentId": 1011,
+      "tier": 3,
       "pickrate": 0.0201,
       "contributions": [
         {
@@ -859,539 +255,55 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4766,
-          "games": 6146
+          "games": 6152
         }
       ]
     },
     {
-      "augmentId": 1388,
-      "winrate": 0.476,
-      "pickrate": 0.0344,
+      "augmentId": 1025,
+      "tier": 3,
+      "pickrate": 0.0549,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.476,
-          "games": 10498
+          "games": 16762
         }
       ]
     },
     {
-      "augmentId": 1048,
-      "winrate": 0.4756,
-      "pickrate": 0.1122,
+      "augmentId": 1027,
+      "tier": 3,
+      "pickrate": 0.0021,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4756,
-          "games": 34271
+          "games": 645
         }
       ]
     },
     {
-      "augmentId": 1326,
-      "winrate": 0.4746,
-      "pickrate": 0.1207,
+      "augmentId": 1041,
+      "tier": 3,
+      "pickrate": 0.0127,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4746,
-          "games": 36868
+          "games": 3874
         }
       ]
     },
     {
-      "augmentId": 1084,
-      "winrate": 0.4741,
-      "pickrate": 0.1097,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4741,
-          "games": 33512
-        }
-      ]
-    },
-    {
-      "augmentId": 2026,
-      "winrate": 0.474,
-      "pickrate": 0.0115,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.474,
-          "games": 3502
-        }
-      ]
-    },
-    {
-      "augmentId": 2088,
-      "winrate": 0.4723,
-      "pickrate": 0.0146,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4723,
-          "games": 4448
-        }
-      ]
-    },
-    {
-      "augmentId": 1320,
-      "winrate": 0.4722,
-      "pickrate": 0.1192,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4722,
-          "games": 36402
-        }
-      ]
-    },
-    {
-      "augmentId": 2100,
-      "winrate": 0.471,
-      "pickrate": 0.0533,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.471,
-          "games": 16293
-        }
-      ]
-    },
-    {
-      "augmentId": 1345,
-      "winrate": 0.4675,
-      "pickrate": 0.0168,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4675,
-          "games": 5119
-        }
-      ]
-    },
-    {
-      "augmentId": 1088,
-      "winrate": 0.4673,
-      "pickrate": 0.0361,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4673,
-          "games": 11026
-        }
-      ]
-    },
-    {
-      "augmentId": 2042,
-      "winrate": 0.467,
-      "pickrate": 0.0047,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.467,
-          "games": 1439
-        }
-      ]
-    },
-    {
-      "augmentId": 1002,
-      "winrate": 0.4641,
-      "pickrate": 0.0069,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4641,
-          "games": 2118
-        }
-      ]
-    },
-    {
-      "augmentId": 1358,
-      "winrate": 0.4633,
-      "pickrate": 0.0211,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4633,
-          "games": 6439
-        }
-      ]
-    },
-    {
-      "augmentId": 2091,
-      "winrate": 0.4627,
-      "pickrate": 0.0274,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4627,
-          "games": 8374
-        }
-      ]
-    },
-    {
-      "augmentId": 1349,
-      "winrate": 0.4625,
-      "pickrate": 0.037,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4625,
-          "games": 11304
-        }
-      ]
-    },
-    {
-      "augmentId": 2107,
-      "winrate": 0.4613,
-      "pickrate": 0.0038,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4613,
-          "games": 1164
-        }
-      ]
-    },
-    {
-      "augmentId": 2099,
-      "winrate": 0.4603,
-      "pickrate": 0.0452,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4603,
-          "games": 13801
-        }
-      ]
-    },
-    {
-      "augmentId": 1063,
-      "winrate": 0.4601,
-      "pickrate": 0.0065,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4601,
-          "games": 1980
-        }
-      ]
-    },
-    {
-      "augmentId": 2034,
-      "winrate": 0.4593,
-      "pickrate": 0.0149,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4593,
-          "games": 4542
-        }
-      ]
-    },
-    {
-      "augmentId": 1103,
-      "winrate": 0.4592,
-      "pickrate": 0.0477,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4592,
-          "games": 14563
-        }
-      ]
-    },
-    {
-      "augmentId": 2116,
-      "winrate": 0.4561,
-      "pickrate": 0.066,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4561,
-          "games": 20165
-        }
-      ]
-    },
-    {
-      "augmentId": 1301,
-      "winrate": 0.4494,
-      "pickrate": 0.0078,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4494,
-          "games": 2381
-        }
-      ]
-    },
-    {
-      "augmentId": 1348,
-      "winrate": 0.4471,
-      "pickrate": 0.0015,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4471,
-          "games": 463
-        }
-      ]
-    },
-    {
-      "augmentId": 1150,
-      "winrate": 0.4465,
-      "pickrate": 0.0344,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4465,
-          "games": 10515
-        }
-      ]
-    },
-    {
-      "augmentId": 1004,
-      "winrate": 0.446,
-      "pickrate": 0.0044,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.446,
-          "games": 1343
-        }
-      ]
-    },
-    {
-      "augmentId": 1392,
-      "winrate": 0.4432,
-      "pickrate": 0.0123,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4432,
-          "games": 3750
-        }
-      ]
-    },
-    {
-      "augmentId": 2143,
-      "winrate": 0.4368,
-      "pickrate": 0.0179,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4368,
-          "games": 5467
-        }
-      ]
-    },
-    {
-      "augmentId": 2080,
-      "winrate": 0.4324,
-      "pickrate": 0.0196,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4324,
-          "games": 5997
-        }
-      ]
-    },
-    {
-      "augmentId": 1220,
-      "winrate": 0.4251,
-      "pickrate": 0.0061,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4251,
-          "games": 1877
-        }
-      ]
-    },
-    {
-      "augmentId": 2134,
-      "winrate": 0.4248,
-      "pickrate": 0.0022,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4248,
-          "games": 685
-        }
-      ]
-    },
-    {
-      "augmentId": 2018,
-      "winrate": 0.4246,
-      "pickrate": 0.0075,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4246,
-          "games": 2301
-        }
-      ]
-    },
-    {
-      "augmentId": 2063,
-      "winrate": 0.4228,
-      "pickrate": 0.0009,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4228,
-          "games": 272
-        }
-      ]
-    },
-    {
-      "augmentId": 1996,
-      "winrate": 0.4207,
-      "pickrate": 0.009,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4207,
-          "games": 2748
-        }
-      ]
-    },
-    {
-      "augmentId": 2087,
-      "winrate": 0.4179,
-      "pickrate": 0.0089,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4179,
-          "games": 2723
-        }
-      ]
-    },
-    {
-      "augmentId": 1019,
-      "winrate": 0.4088,
-      "pickrate": 0.0172,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4088,
-          "games": 5252
-        }
-      ]
-    },
-    {
-      "augmentId": 2118,
-      "winrate": 0.3874,
+      "augmentId": 1046,
+      "tier": 3,
       "pickrate": 0.0158,
       "contributions": [
         {
@@ -1399,14 +311,881 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3874,
-          "games": 4827
+          "games": 4829
+        }
+      ]
+    },
+    {
+      "augmentId": 1060,
+      "tier": 3,
+      "pickrate": 0.0053,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1606
+        }
+      ]
+    },
+    {
+      "augmentId": 1062,
+      "tier": 3,
+      "pickrate": 0.0045,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1372
+        }
+      ]
+    },
+    {
+      "augmentId": 1068,
+      "tier": 3,
+      "pickrate": 0.1072,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 32741
+        }
+      ]
+    },
+    {
+      "augmentId": 1073,
+      "tier": 3,
+      "pickrate": 0.063,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 19252
+        }
+      ]
+    },
+    {
+      "augmentId": 1098,
+      "tier": 3,
+      "pickrate": 0.0225,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6867
+        }
+      ]
+    },
+    {
+      "augmentId": 1116,
+      "tier": 3,
+      "pickrate": 0.0615,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18795
+        }
+      ]
+    },
+    {
+      "augmentId": 1138,
+      "tier": 3,
+      "pickrate": 0.0357,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10896
+        }
+      ]
+    },
+    {
+      "augmentId": 1154,
+      "tier": 3,
+      "pickrate": 0.0152,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4657
+        }
+      ]
+    },
+    {
+      "augmentId": 1187,
+      "tier": 3,
+      "pickrate": 0.0017,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 509
+        }
+      ]
+    },
+    {
+      "augmentId": 1194,
+      "tier": 3,
+      "pickrate": 0.0259,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7922
+        }
+      ]
+    },
+    {
+      "augmentId": 1195,
+      "tier": 3,
+      "pickrate": 0.0269,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8228
+        }
+      ]
+    },
+    {
+      "augmentId": 1211,
+      "tier": 3,
+      "pickrate": 0.0909,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 27753
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": 3,
+      "pickrate": 0.0541,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16513
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": 3,
+      "pickrate": 0.0285,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8702
+        }
+      ]
+    },
+    {
+      "augmentId": 1305,
+      "tier": 3,
+      "pickrate": 0.0159,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4856
+        }
+      ]
+    },
+    {
+      "augmentId": 1308,
+      "tier": 3,
+      "pickrate": 0.0033,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1018
+        }
+      ]
+    },
+    {
+      "augmentId": 1322,
+      "tier": 3,
+      "pickrate": 0.0452,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13797
+        }
+      ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": 3,
+      "pickrate": 0.035,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10690
+        }
+      ]
+    },
+    {
+      "augmentId": 1337,
+      "tier": 3,
+      "pickrate": 0.0063,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1910
+        }
+      ]
+    },
+    {
+      "augmentId": 1384,
+      "tier": 3,
+      "pickrate": 0.0579,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17695
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": 3,
+      "pickrate": 0.0075,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2276
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": 3,
+      "pickrate": 0.0058,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1786
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": 3,
+      "pickrate": 0.0264,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8069
+        }
+      ]
+    },
+    {
+      "augmentId": 2032,
+      "tier": 3,
+      "pickrate": 0.0217,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6632
+        }
+      ]
+    },
+    {
+      "augmentId": 2083,
+      "tier": 3,
+      "pickrate": 0.1911,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 58362
+        }
+      ]
+    },
+    {
+      "augmentId": 2127,
+      "tier": 3,
+      "pickrate": 0.0318,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9729
+        }
+      ]
+    },
+    {
+      "augmentId": 2137,
+      "tier": 3,
+      "pickrate": 0.0017,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 512
+        }
+      ]
+    },
+    {
+      "augmentId": 2140,
+      "tier": 3,
+      "pickrate": 0.0774,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 23649
+        }
+      ]
+    },
+    {
+      "augmentId": 2157,
+      "tier": 3,
+      "pickrate": 0.0869,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 26537
+        }
+      ]
+    },
+    {
+      "augmentId": 12317,
+      "tier": 3,
+      "pickrate": 0.0274,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8367
+        }
+      ]
+    },
+    {
+      "augmentId": 1002,
+      "tier": 4,
+      "pickrate": 0.0069,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2118
+        }
+      ]
+    },
+    {
+      "augmentId": 1034,
+      "tier": 4,
+      "pickrate": 0.0201,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6146
+        }
+      ]
+    },
+    {
+      "augmentId": 1048,
+      "tier": 4,
+      "pickrate": 0.1122,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 34271
+        }
+      ]
+    },
+    {
+      "augmentId": 1063,
+      "tier": 4,
+      "pickrate": 0.0065,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1980
+        }
+      ]
+    },
+    {
+      "augmentId": 1084,
+      "tier": 4,
+      "pickrate": 0.1097,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 33512
+        }
+      ]
+    },
+    {
+      "augmentId": 1088,
+      "tier": 4,
+      "pickrate": 0.0361,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11026
+        }
+      ]
+    },
+    {
+      "augmentId": 1103,
+      "tier": 4,
+      "pickrate": 0.0477,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14563
+        }
+      ]
+    },
+    {
+      "augmentId": 1112,
+      "tier": 4,
+      "pickrate": 0.0394,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12045
+        }
+      ]
+    },
+    {
+      "augmentId": 1320,
+      "tier": 4,
+      "pickrate": 0.1192,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 36402
+        }
+      ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": 4,
+      "pickrate": 0.1207,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 36868
+        }
+      ]
+    },
+    {
+      "augmentId": 1345,
+      "tier": 4,
+      "pickrate": 0.0168,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5119
+        }
+      ]
+    },
+    {
+      "augmentId": 1349,
+      "tier": 4,
+      "pickrate": 0.037,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11304
+        }
+      ]
+    },
+    {
+      "augmentId": 1358,
+      "tier": 4,
+      "pickrate": 0.0211,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6439
+        }
+      ]
+    },
+    {
+      "augmentId": 1373,
+      "tier": 4,
+      "pickrate": 0.06,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18331
+        }
+      ]
+    },
+    {
+      "augmentId": 1388,
+      "tier": 4,
+      "pickrate": 0.0344,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10498
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": 4,
+      "pickrate": 0.0133,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4061
+        }
+      ]
+    },
+    {
+      "augmentId": 2026,
+      "tier": 4,
+      "pickrate": 0.0115,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3502
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": 4,
+      "pickrate": 0.0149,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4542
+        }
+      ]
+    },
+    {
+      "augmentId": 2042,
+      "tier": 4,
+      "pickrate": 0.0047,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1439
+        }
+      ]
+    },
+    {
+      "augmentId": 2088,
+      "tier": 4,
+      "pickrate": 0.0146,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4448
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": 4,
+      "pickrate": 0.0125,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3823
+        }
+      ]
+    },
+    {
+      "augmentId": 2091,
+      "tier": 4,
+      "pickrate": 0.0274,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8374
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": 4,
+      "pickrate": 0.0452,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13801
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": 4,
+      "pickrate": 0.0533,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16293
+        }
+      ]
+    },
+    {
+      "augmentId": 2107,
+      "tier": 4,
+      "pickrate": 0.0038,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1164
+        }
+      ]
+    },
+    {
+      "augmentId": 2116,
+      "tier": 4,
+      "pickrate": 0.066,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 20165
+        }
+      ]
+    },
+    {
+      "augmentId": 1004,
+      "tier": 5,
+      "pickrate": 0.0044,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1343
+        }
+      ]
+    },
+    {
+      "augmentId": 1019,
+      "tier": 5,
+      "pickrate": 0.0172,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5252
+        }
+      ]
+    },
+    {
+      "augmentId": 1150,
+      "tier": 5,
+      "pickrate": 0.0344,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10515
+        }
+      ]
+    },
+    {
+      "augmentId": 1220,
+      "tier": 5,
+      "pickrate": 0.0061,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1877
+        }
+      ]
+    },
+    {
+      "augmentId": 1301,
+      "tier": 5,
+      "pickrate": 0.0078,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2381
+        }
+      ]
+    },
+    {
+      "augmentId": 1348,
+      "tier": 5,
+      "pickrate": 0.0015,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 463
         }
       ]
     },
     {
       "augmentId": 1386,
-      "winrate": 0.3871,
+      "tier": 5,
       "pickrate": 0.0012,
       "contributions": [
         {
@@ -1414,11 +1193,135 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3871,
           "games": 372
         }
       ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": 5,
+      "pickrate": 0.0123,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3750
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": 5,
+      "pickrate": 0.009,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2748
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": 5,
+      "pickrate": 0.0075,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2301
+        }
+      ]
+    },
+    {
+      "augmentId": 2063,
+      "tier": 5,
+      "pickrate": 0.0009,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 272
+        }
+      ]
+    },
+    {
+      "augmentId": 2080,
+      "tier": 5,
+      "pickrate": 0.0196,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5997
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": 5,
+      "pickrate": 0.0089,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2723
+        }
+      ]
+    },
+    {
+      "augmentId": 2118,
+      "tier": 5,
+      "pickrate": 0.0158,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4827
+        }
+      ]
+    },
+    {
+      "augmentId": 2134,
+      "tier": 5,
+      "pickrate": 0.0022,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 685
+        }
+      ]
+    },
+    {
+      "augmentId": 2143,
+      "tier": 5,
+      "pickrate": 0.0179,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/talon?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5467
+        }
+      ]
     }
-  ],
-  "method": "equal-source-mean"
+  ]
 }

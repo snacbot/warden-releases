@@ -1,17 +1,15 @@
 {
+  "version": 1,
+  "method": "warden-performance-tiers-v1",
   "championId": 429,
   "championKey": "Kalista",
   "set": "aram",
-  "source": "Mayhem source average",
-  "sourceUrl": "https://github.com/snacbot/warden-releases/blob/mayhem-data/README.md",
-  "winrateScope": "champion",
-  "pickrateScope": "champion",
   "patch": "16.18",
   "scrapedAt": "2026-09-12T02:34:26.350Z",
   "augments": [
     {
       "augmentId": 2095,
-      "winrate": 0.593,
+      "tier": 1,
       "pickrate": 0.0461,
       "contributions": [
         {
@@ -19,29 +17,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.593,
           "games": 7949
         }
       ]
     },
     {
-      "augmentId": 1225,
-      "winrate": 0.5457,
-      "pickrate": 0.1448,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5457,
-          "games": 24973
-        }
-      ]
-    },
-    {
       "augmentId": 1063,
-      "winrate": 0.5451,
+      "tier": 2,
       "pickrate": 0.1112,
       "contributions": [
         {
@@ -49,119 +31,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5451,
           "games": 19183
         }
       ]
     },
     {
-      "augmentId": 1073,
-      "winrate": 0.5402,
-      "pickrate": 0.0857,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5402,
-          "games": 14772
-        }
-      ]
-    },
-    {
-      "augmentId": 1138,
-      "winrate": 0.5363,
-      "pickrate": 0.0298,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5363,
-          "games": 5131
-        }
-      ]
-    },
-    {
-      "augmentId": 1315,
-      "winrate": 0.5359,
-      "pickrate": 0.0517,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5359,
-          "games": 8911
-        }
-      ]
-    },
-    {
-      "augmentId": 1333,
-      "winrate": 0.5341,
-      "pickrate": 0.0324,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5341,
-          "games": 5581
-        }
-      ]
-    },
-    {
-      "augmentId": 2009,
-      "winrate": 0.5304,
-      "pickrate": 0.0341,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5304,
-          "games": 5879
-        }
-      ]
-    },
-    {
-      "augmentId": 1077,
-      "winrate": 0.5278,
-      "pickrate": 0.0914,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5278,
-          "games": 15768
-        }
-      ]
-    },
-    {
-      "augmentId": 1356,
-      "winrate": 0.5235,
-      "pickrate": 0.1759,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5235,
-          "games": 30331
-        }
-      ]
-    },
-    {
       "augmentId": 1071,
-      "winrate": 0.5222,
+      "tier": 2,
       "pickrate": 0.1781,
       "contributions": [
         {
@@ -169,14 +45,41 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5222,
           "games": 30718
         }
       ]
     },
     {
+      "augmentId": 1073,
+      "tier": 2,
+      "pickrate": 0.0857,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14772
+        }
+      ]
+    },
+    {
+      "augmentId": 1077,
+      "tier": 2,
+      "pickrate": 0.0914,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15768
+        }
+      ]
+    },
+    {
       "augmentId": 1080,
-      "winrate": 0.5218,
+      "tier": 2,
       "pickrate": 0.0256,
       "contributions": [
         {
@@ -184,494 +87,97 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5218,
           "games": 4408
         }
       ]
     },
     {
-      "augmentId": 1028,
-      "winrate": 0.5198,
-      "pickrate": 0.0129,
+      "augmentId": 1138,
+      "tier": 2,
+      "pickrate": 0.0298,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5198,
-          "games": 2222
+          "games": 5131
         }
       ]
     },
     {
-      "augmentId": 1403,
-      "winrate": 0.5193,
-      "pickrate": 0.0207,
+      "augmentId": 1225,
+      "tier": 2,
+      "pickrate": 0.1448,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5193,
-          "games": 3574
+          "games": 24973
         }
       ]
     },
     {
-      "augmentId": 1154,
-      "winrate": 0.5186,
-      "pickrate": 0.0148,
+      "augmentId": 1315,
+      "tier": 2,
+      "pickrate": 0.0517,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5186,
-          "games": 2559
+          "games": 8911
         }
       ]
     },
     {
-      "augmentId": 1238,
-      "winrate": 0.5178,
-      "pickrate": 0.1034,
+      "augmentId": 1333,
+      "tier": 2,
+      "pickrate": 0.0324,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5178,
-          "games": 17829
+          "games": 5581
         }
       ]
     },
     {
-      "augmentId": 1051,
-      "winrate": 0.517,
-      "pickrate": 0.0362,
+      "augmentId": 1356,
+      "tier": 2,
+      "pickrate": 0.1759,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.517,
-          "games": 6248
+          "games": 30331
         }
       ]
     },
     {
-      "augmentId": 1384,
-      "winrate": 0.5164,
-      "pickrate": 0.032,
+      "augmentId": 2009,
+      "tier": 2,
+      "pickrate": 0.0341,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5164,
-          "games": 5517
-        }
-      ]
-    },
-    {
-      "augmentId": 1053,
-      "winrate": 0.516,
-      "pickrate": 0.0099,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.516,
-          "games": 1715
-        }
-      ]
-    },
-    {
-      "augmentId": 2132,
-      "winrate": 0.5149,
-      "pickrate": 0.0174,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5149,
-          "games": 2995
-        }
-      ]
-    },
-    {
-      "augmentId": 1022,
-      "winrate": 0.5144,
-      "pickrate": 0.1101,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5144,
-          "games": 18988
-        }
-      ]
-    },
-    {
-      "augmentId": 1092,
-      "winrate": 0.5143,
-      "pickrate": 0.1073,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5143,
-          "games": 18501
-        }
-      ]
-    },
-    {
-      "augmentId": 1081,
-      "winrate": 0.5141,
-      "pickrate": 0.1169,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5141,
-          "games": 20157
-        }
-      ]
-    },
-    {
-      "augmentId": 1195,
-      "winrate": 0.514,
-      "pickrate": 0.0638,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.514,
-          "games": 11011
-        }
-      ]
-    },
-    {
-      "augmentId": 2107,
-      "winrate": 0.5116,
-      "pickrate": 0.0033,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5116,
-          "games": 561
-        }
-      ]
-    },
-    {
-      "augmentId": 1026,
-      "winrate": 0.5114,
-      "pickrate": 0.0173,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5114,
-          "games": 2980
-        }
-      ]
-    },
-    {
-      "augmentId": 1019,
-      "winrate": 0.5104,
-      "pickrate": 0.0402,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5104,
-          "games": 6939
-        }
-      ]
-    },
-    {
-      "augmentId": 1206,
-      "winrate": 0.5092,
-      "pickrate": 0.0189,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5092,
-          "games": 3252
-        }
-      ]
-    },
-    {
-      "augmentId": 1036,
-      "winrate": 0.5086,
-      "pickrate": 0.0733,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5086,
-          "games": 12634
-        }
-      ]
-    },
-    {
-      "augmentId": 1328,
-      "winrate": 0.5081,
-      "pickrate": 0.1425,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5081,
-          "games": 24568
-        }
-      ]
-    },
-    {
-      "augmentId": 1034,
-      "winrate": 0.5077,
-      "pickrate": 0.0124,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5077,
-          "games": 2147
-        }
-      ]
-    },
-    {
-      "augmentId": 1220,
-      "winrate": 0.5071,
-      "pickrate": 0.0824,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5071,
-          "games": 14204
-        }
-      ]
-    },
-    {
-      "augmentId": 1062,
-      "winrate": 0.5055,
-      "pickrate": 0.0058,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5055,
-          "games": 993
-        }
-      ]
-    },
-    {
-      "augmentId": 1115,
-      "winrate": 0.5032,
-      "pickrate": 0.0714,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5032,
-          "games": 12311
-        }
-      ]
-    },
-    {
-      "augmentId": 1310,
-      "winrate": 0.5014,
-      "pickrate": 0.0101,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5014,
-          "games": 1743
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "winrate": 0.5014,
-      "pickrate": 0.0043,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5014,
-          "games": 738
-        }
-      ]
-    },
-    {
-      "augmentId": 1996,
-      "winrate": 0.5014,
-      "pickrate": 0.0041,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5014,
-          "games": 706
-        }
-      ]
-    },
-    {
-      "augmentId": 1047,
-      "winrate": 0.5012,
-      "pickrate": 0.0534,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5012,
-          "games": 9213
-        }
-      ]
-    },
-    {
-      "augmentId": 1322,
-      "winrate": 0.5011,
-      "pickrate": 0.0769,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5011,
-          "games": 13259
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "winrate": 0.5,
-      "pickrate": 0.0055,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5,
-          "games": 946
-        }
-      ]
-    },
-    {
-      "augmentId": 1347,
-      "winrate": 0.4976,
-      "pickrate": 0.0073,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4976,
-          "games": 1262
-        }
-      ]
-    },
-    {
-      "augmentId": 2010,
-      "winrate": 0.4967,
-      "pickrate": 0.0742,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4967,
-          "games": 12804
-        }
-      ]
-    },
-    {
-      "augmentId": 1061,
-      "winrate": 0.4964,
-      "pickrate": 0.0057,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4964,
-          "games": 979
-        }
-      ]
-    },
-    {
-      "augmentId": 2127,
-      "winrate": 0.496,
-      "pickrate": 0.0132,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.496,
-          "games": 2270
+          "games": 5879
         }
       ]
     },
     {
       "augmentId": 1007,
-      "winrate": 0.4956,
+      "tier": 3,
       "pickrate": 0.0377,
       "contributions": [
         {
@@ -679,254 +185,97 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4956,
           "games": 6497
         }
       ]
     },
     {
-      "augmentId": 1402,
-      "winrate": 0.495,
-      "pickrate": 0.0063,
+      "augmentId": 1019,
+      "tier": 3,
+      "pickrate": 0.0402,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.495,
-          "games": 1091
+          "games": 6939
         }
       ]
     },
     {
-      "augmentId": 1305,
-      "winrate": 0.4933,
-      "pickrate": 0.0364,
+      "augmentId": 1022,
+      "tier": 3,
+      "pickrate": 0.1101,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4933,
-          "games": 6274
+          "games": 18988
         }
       ]
     },
     {
-      "augmentId": 2091,
-      "winrate": 0.4926,
-      "pickrate": 0.0035,
+      "augmentId": 1026,
+      "tier": 3,
+      "pickrate": 0.0173,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4926,
-          "games": 605
+          "games": 2980
         }
       ]
     },
     {
-      "augmentId": 1116,
-      "winrate": 0.492,
-      "pickrate": 0.0278,
+      "augmentId": 1028,
+      "tier": 3,
+      "pickrate": 0.0129,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.492,
-          "games": 4791
+          "games": 2222
         }
       ]
     },
     {
-      "augmentId": 1105,
-      "winrate": 0.4913,
-      "pickrate": 0.0137,
+      "augmentId": 1034,
+      "tier": 3,
+      "pickrate": 0.0124,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4913,
-          "games": 2359
+          "games": 2147
         }
       ]
     },
     {
-      "augmentId": 1134,
-      "winrate": 0.491,
-      "pickrate": 0.0203,
+      "augmentId": 1036,
+      "tier": 3,
+      "pickrate": 0.0733,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.491,
-          "games": 3495
-        }
-      ]
-    },
-    {
-      "augmentId": 1054,
-      "winrate": 0.4907,
-      "pickrate": 0.0094,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4907,
-          "games": 1614
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "winrate": 0.4894,
-      "pickrate": 0.0301,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4894,
-          "games": 5190
-        }
-      ]
-    },
-    {
-      "augmentId": 1170,
-      "winrate": 0.4887,
-      "pickrate": 0.0551,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4887,
-          "games": 9510
-        }
-      ]
-    },
-    {
-      "augmentId": 1074,
-      "winrate": 0.4881,
-      "pickrate": 0.0588,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4881,
-          "games": 10134
-        }
-      ]
-    },
-    {
-      "augmentId": 1243,
-      "winrate": 0.4876,
-      "pickrate": 0.0224,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4876,
-          "games": 3868
-        }
-      ]
-    },
-    {
-      "augmentId": 1129,
-      "winrate": 0.4875,
-      "pickrate": 0.0051,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4875,
-          "games": 882
-        }
-      ]
-    },
-    {
-      "augmentId": 1308,
-      "winrate": 0.4875,
-      "pickrate": 0.0023,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4875,
-          "games": 400
-        }
-      ]
-    },
-    {
-      "augmentId": 1344,
-      "winrate": 0.4868,
-      "pickrate": 0.0037,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4868,
-          "games": 643
-        }
-      ]
-    },
-    {
-      "augmentId": 2089,
-      "winrate": 0.486,
-      "pickrate": 0.0091,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.486,
-          "games": 1570
-        }
-      ]
-    },
-    {
-      "augmentId": 1087,
-      "winrate": 0.4857,
-      "pickrate": 0.0662,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4857,
-          "games": 11423
+          "games": 12634
         }
       ]
     },
     {
       "augmentId": 1038,
-      "winrate": 0.4832,
+      "tier": 3,
       "pickrate": 0.0223,
       "contributions": [
         {
@@ -934,29 +283,125 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4832,
           "games": 3847
         }
       ]
     },
     {
-      "augmentId": 2141,
-      "winrate": 0.4826,
-      "pickrate": 0.0157,
+      "augmentId": 1047,
+      "tier": 3,
+      "pickrate": 0.0534,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4826,
-          "games": 2704
+          "games": 9213
+        }
+      ]
+    },
+    {
+      "augmentId": 1051,
+      "tier": 3,
+      "pickrate": 0.0362,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6248
+        }
+      ]
+    },
+    {
+      "augmentId": 1053,
+      "tier": 3,
+      "pickrate": 0.0099,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1715
+        }
+      ]
+    },
+    {
+      "augmentId": 1054,
+      "tier": 3,
+      "pickrate": 0.0094,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1614
+        }
+      ]
+    },
+    {
+      "augmentId": 1060,
+      "tier": 3,
+      "pickrate": 0.0055,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 946
+        }
+      ]
+    },
+    {
+      "augmentId": 1061,
+      "tier": 3,
+      "pickrate": 0.0057,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 979
+        }
+      ]
+    },
+    {
+      "augmentId": 1062,
+      "tier": 3,
+      "pickrate": 0.0058,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 993
+        }
+      ]
+    },
+    {
+      "augmentId": 1074,
+      "tier": 3,
+      "pickrate": 0.0588,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10134
         }
       ]
     },
     {
       "augmentId": 1079,
-      "winrate": 0.4822,
+      "tier": 3,
       "pickrate": 0.0541,
       "contributions": [
         {
@@ -964,44 +409,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4822,
           "games": 9334
         }
       ]
     },
     {
-      "augmentId": 2016,
-      "winrate": 0.4821,
-      "pickrate": 0.0037,
+      "augmentId": 1081,
+      "tier": 3,
+      "pickrate": 0.1169,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4821,
-          "games": 641
-        }
-      ]
-    },
-    {
-      "augmentId": 1337,
-      "winrate": 0.4819,
-      "pickrate": 0.0035,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4819,
-          "games": 608
+          "games": 20157
         }
       ]
     },
     {
       "augmentId": 1084,
-      "winrate": 0.4813,
+      "tier": 3,
       "pickrate": 0.0239,
       "contributions": [
         {
@@ -1009,14 +437,209 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4813,
           "games": 4128
         }
       ]
     },
     {
-      "augmentId": 12317,
-      "winrate": 0.4813,
+      "augmentId": 1087,
+      "tier": 3,
+      "pickrate": 0.0662,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11423
+        }
+      ]
+    },
+    {
+      "augmentId": 1092,
+      "tier": 3,
+      "pickrate": 0.1073,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18501
+        }
+      ]
+    },
+    {
+      "augmentId": 1105,
+      "tier": 3,
+      "pickrate": 0.0137,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2359
+        }
+      ]
+    },
+    {
+      "augmentId": 1115,
+      "tier": 3,
+      "pickrate": 0.0714,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12311
+        }
+      ]
+    },
+    {
+      "augmentId": 1116,
+      "tier": 3,
+      "pickrate": 0.0278,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4791
+        }
+      ]
+    },
+    {
+      "augmentId": 1129,
+      "tier": 3,
+      "pickrate": 0.0051,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 882
+        }
+      ]
+    },
+    {
+      "augmentId": 1134,
+      "tier": 3,
+      "pickrate": 0.0203,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3495
+        }
+      ]
+    },
+    {
+      "augmentId": 1154,
+      "tier": 3,
+      "pickrate": 0.0148,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2559
+        }
+      ]
+    },
+    {
+      "augmentId": 1170,
+      "tier": 3,
+      "pickrate": 0.0551,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9510
+        }
+      ]
+    },
+    {
+      "augmentId": 1195,
+      "tier": 3,
+      "pickrate": 0.0638,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11011
+        }
+      ]
+    },
+    {
+      "augmentId": 1206,
+      "tier": 3,
+      "pickrate": 0.0189,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3252
+        }
+      ]
+    },
+    {
+      "augmentId": 1220,
+      "tier": 3,
+      "pickrate": 0.0824,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14204
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": 3,
+      "pickrate": 0.0301,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5190
+        }
+      ]
+    },
+    {
+      "augmentId": 1238,
+      "tier": 3,
+      "pickrate": 0.1034,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17829
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": 3,
       "pickrate": 0.0224,
       "contributions": [
         {
@@ -1024,14 +647,83 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4813,
-          "games": 3858
+          "games": 3868
+        }
+      ]
+    },
+    {
+      "augmentId": 1305,
+      "tier": 3,
+      "pickrate": 0.0364,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6274
+        }
+      ]
+    },
+    {
+      "augmentId": 1308,
+      "tier": 3,
+      "pickrate": 0.0023,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 400
+        }
+      ]
+    },
+    {
+      "augmentId": 1310,
+      "tier": 3,
+      "pickrate": 0.0101,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1743
+        }
+      ]
+    },
+    {
+      "augmentId": 1322,
+      "tier": 3,
+      "pickrate": 0.0769,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13259
+        }
+      ]
+    },
+    {
+      "augmentId": 1328,
+      "tier": 3,
+      "pickrate": 0.1425,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 24568
         }
       ]
     },
     {
       "augmentId": 1335,
-      "winrate": 0.4806,
+      "tier": 3,
       "pickrate": 0.0031,
       "contributions": [
         {
@@ -1039,284 +731,55 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4806,
           "games": 541
         }
       ]
     },
     {
-      "augmentId": 2140,
-      "winrate": 0.4804,
-      "pickrate": 0.0146,
+      "augmentId": 1337,
+      "tier": 3,
+      "pickrate": 0.0035,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4804,
-          "games": 2523
+          "games": 608
         }
       ]
     },
     {
-      "augmentId": 1027,
-      "winrate": 0.4799,
-      "pickrate": 0.0188,
+      "augmentId": 1344,
+      "tier": 3,
+      "pickrate": 0.0037,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4799,
-          "games": 3240
+          "games": 643
         }
       ]
     },
     {
-      "augmentId": 2137,
-      "winrate": 0.4799,
-      "pickrate": 0.0082,
+      "augmentId": 1347,
+      "tier": 3,
+      "pickrate": 0.0073,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4799,
-          "games": 1415
+          "games": 1262
         }
       ]
     },
     {
-      "augmentId": 2098,
-      "winrate": 0.4796,
-      "pickrate": 0.0077,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4796,
-          "games": 1324
-        }
-      ]
-    },
-    {
-      "augmentId": 2073,
-      "winrate": 0.4794,
-      "pickrate": 0.0257,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4794,
-          "games": 4439
-        }
-      ]
-    },
-    {
-      "augmentId": 2026,
-      "winrate": 0.4786,
-      "pickrate": 0.0077,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4786,
-          "games": 1331
-        }
-      ]
-    },
-    {
-      "augmentId": 1373,
-      "winrate": 0.4779,
-      "pickrate": 0.0561,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4779,
-          "games": 9668
-        }
-      ]
-    },
-    {
-      "augmentId": 1336,
-      "winrate": 0.4762,
-      "pickrate": 0.0788,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4762,
-          "games": 13598
-        }
-      ]
-    },
-    {
-      "augmentId": 1415,
-      "winrate": 0.4761,
-      "pickrate": 0.0122,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4761,
-          "games": 2109
-        }
-      ]
-    },
-    {
-      "augmentId": 1006,
-      "winrate": 0.4758,
-      "pickrate": 0.0052,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4758,
-          "games": 889
-        }
-      ]
-    },
-    {
-      "augmentId": 1345,
-      "winrate": 0.4736,
-      "pickrate": 0.0103,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4736,
-          "games": 1778
-        }
-      ]
-    },
-    {
-      "augmentId": 2083,
-      "winrate": 0.4719,
-      "pickrate": 0.0275,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4719,
-          "games": 4738
-        }
-      ]
-    },
-    {
-      "augmentId": 1320,
-      "winrate": 0.4694,
-      "pickrate": 0.0299,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4694,
-          "games": 5164
-        }
-      ]
-    },
-    {
-      "augmentId": 1326,
-      "winrate": 0.4642,
-      "pickrate": 0.0187,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4642,
-          "games": 3227
-        }
-      ]
-    },
-    {
-      "augmentId": 1098,
-      "winrate": 0.4588,
-      "pickrate": 0.0112,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4588,
-          "games": 1931
-        }
-      ]
-    },
-    {
-      "augmentId": 1046,
-      "winrate": 0.4583,
-      "pickrate": 0.0046,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4583,
-          "games": 792
-        }
-      ]
-    },
-    {
-      "augmentId": 1048,
-      "winrate": 0.4565,
-      "pickrate": 0.0155,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4565,
-          "games": 2677
-        }
-      ]
-    },
-    {
-      "augmentId": 1151,
-      "winrate": 0.4563,
-      "pickrate": 0.0133,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4563,
-          "games": 2299
-        }
-      ]
-    },
-    {
-      "augmentId": 1004,
-      "winrate": 0.456,
+      "augmentId": 1384,
+      "tier": 3,
       "pickrate": 0.032,
       "contributions": [
         {
@@ -1324,104 +787,41 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.456,
           "games": 5517
         }
       ]
     },
     {
-      "augmentId": 1416,
-      "winrate": 0.4528,
-      "pickrate": 0.0071,
+      "augmentId": 1402,
+      "tier": 3,
+      "pickrate": 0.0063,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4528,
-          "games": 1230
+          "games": 1091
         }
       ]
     },
     {
-      "augmentId": 1068,
-      "winrate": 0.4483,
-      "pickrate": 0.01,
+      "augmentId": 1403,
+      "tier": 3,
+      "pickrate": 0.0207,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4483,
-          "games": 1731
+          "games": 3574
         }
       ]
     },
     {
-      "augmentId": 2116,
-      "winrate": 0.4453,
-      "pickrate": 0.0327,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4453,
-          "games": 5645
-        }
-      ]
-    },
-    {
-      "augmentId": 1133,
-      "winrate": 0.4442,
-      "pickrate": 0.0123,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4442,
-          "games": 2114
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "winrate": 0.4439,
-      "pickrate": 0.0036,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4439,
-          "games": 615
-        }
-      ]
-    },
-    {
-      "augmentId": 2034,
-      "winrate": 0.4402,
-      "pickrate": 0.0015,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4402,
-          "games": 259
-        }
-      ]
-    },
-    {
-      "augmentId": 1002,
-      "winrate": 0.4349,
+      "augmentId": 1404,
+      "tier": 3,
       "pickrate": 0.0043,
       "contributions": [
         {
@@ -1429,74 +829,83 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4349,
-          "games": 745
+          "games": 738
         }
       ]
     },
     {
-      "augmentId": 1386,
-      "winrate": 0.4297,
-      "pickrate": 0.0015,
+      "augmentId": 1996,
+      "tier": 3,
+      "pickrate": 0.0041,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4297,
-          "games": 263
+          "games": 706
         }
       ]
     },
     {
-      "augmentId": 1103,
-      "winrate": 0.4294,
-      "pickrate": 0.0105,
+      "augmentId": 2010,
+      "tier": 3,
+      "pickrate": 0.0742,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4294,
-          "games": 1814
+          "games": 12804
         }
       ]
     },
     {
-      "augmentId": 1058,
-      "winrate": 0.4283,
-      "pickrate": 0.0144,
+      "augmentId": 2016,
+      "tier": 3,
+      "pickrate": 0.0037,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4283,
-          "games": 2484
+          "games": 641
         }
       ]
     },
     {
-      "augmentId": 2103,
-      "winrate": 0.4272,
-      "pickrate": 0.003,
+      "augmentId": 2089,
+      "tier": 3,
+      "pickrate": 0.0091,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4272,
-          "games": 515
+          "games": 1570
         }
       ]
     },
     {
-      "augmentId": 2099,
-      "winrate": 0.4216,
+      "augmentId": 2091,
+      "tier": 3,
+      "pickrate": 0.0035,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 605
+        }
+      ]
+    },
+    {
+      "augmentId": 2107,
+      "tier": 3,
       "pickrate": 0.0033,
       "contributions": [
         {
@@ -1504,14 +913,97 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4216,
-          "games": 574
+          "games": 561
         }
       ]
     },
     {
-      "augmentId": 2024,
-      "winrate": 0.4206,
+      "augmentId": 2127,
+      "tier": 3,
+      "pickrate": 0.0132,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2270
+        }
+      ]
+    },
+    {
+      "augmentId": 2132,
+      "tier": 3,
+      "pickrate": 0.0174,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2995
+        }
+      ]
+    },
+    {
+      "augmentId": 2140,
+      "tier": 3,
+      "pickrate": 0.0146,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2523
+        }
+      ]
+    },
+    {
+      "augmentId": 2141,
+      "tier": 3,
+      "pickrate": 0.0157,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2704
+        }
+      ]
+    },
+    {
+      "augmentId": 12317,
+      "tier": 3,
+      "pickrate": 0.0224,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3858
+        }
+      ]
+    },
+    {
+      "augmentId": 1004,
+      "tier": 4,
+      "pickrate": 0.032,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5517
+        }
+      ]
+    },
+    {
+      "augmentId": 1006,
+      "tier": 4,
       "pickrate": 0.0052,
       "contributions": [
         {
@@ -1519,104 +1011,265 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4206,
-          "games": 894
+          "games": 889
         }
       ]
     },
     {
-      "augmentId": 1392,
-      "winrate": 0.4194,
-      "pickrate": 0.0022,
+      "augmentId": 1027,
+      "tier": 4,
+      "pickrate": 0.0188,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4194,
-          "games": 372
+          "games": 3240
         }
       ]
     },
     {
-      "augmentId": 2100,
-      "winrate": 0.4182,
-      "pickrate": 0.0168,
+      "augmentId": 1046,
+      "tier": 4,
+      "pickrate": 0.0046,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4182,
-          "games": 2898
+          "games": 792
         }
       ]
     },
     {
-      "augmentId": 1113,
-      "winrate": 0.4078,
-      "pickrate": 0.0078,
+      "augmentId": 1048,
+      "tier": 4,
+      "pickrate": 0.0155,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4078,
-          "games": 1351
+          "games": 2677
         }
       ]
     },
     {
-      "augmentId": 2005,
-      "winrate": 0.4008,
-      "pickrate": 0.003,
+      "augmentId": 1098,
+      "tier": 4,
+      "pickrate": 0.0112,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4008,
-          "games": 524
+          "games": 1931
         }
       ]
     },
     {
-      "augmentId": 1325,
-      "winrate": 0.3981,
-      "pickrate": 0.0024,
+      "augmentId": 1151,
+      "tier": 4,
+      "pickrate": 0.0133,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3981,
-          "games": 412
+          "games": 2299
         }
       ]
     },
     {
-      "augmentId": 1388,
-      "winrate": 0.3954,
-      "pickrate": 0.0038,
+      "augmentId": 1320,
+      "tier": 4,
+      "pickrate": 0.0299,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3954,
-          "games": 650
+          "games": 5164
+        }
+      ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": 4,
+      "pickrate": 0.0187,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3227
+        }
+      ]
+    },
+    {
+      "augmentId": 1336,
+      "tier": 4,
+      "pickrate": 0.0788,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13598
+        }
+      ]
+    },
+    {
+      "augmentId": 1345,
+      "tier": 4,
+      "pickrate": 0.0103,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1778
+        }
+      ]
+    },
+    {
+      "augmentId": 1373,
+      "tier": 4,
+      "pickrate": 0.0561,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9668
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": 4,
+      "pickrate": 0.0122,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2109
+        }
+      ]
+    },
+    {
+      "augmentId": 1416,
+      "tier": 4,
+      "pickrate": 0.0071,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1230
+        }
+      ]
+    },
+    {
+      "augmentId": 2026,
+      "tier": 4,
+      "pickrate": 0.0077,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1331
+        }
+      ]
+    },
+    {
+      "augmentId": 2073,
+      "tier": 4,
+      "pickrate": 0.0257,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4439
+        }
+      ]
+    },
+    {
+      "augmentId": 2083,
+      "tier": 4,
+      "pickrate": 0.0275,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4738
+        }
+      ]
+    },
+    {
+      "augmentId": 2098,
+      "tier": 4,
+      "pickrate": 0.0077,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1324
+        }
+      ]
+    },
+    {
+      "augmentId": 2137,
+      "tier": 4,
+      "pickrate": 0.0082,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1415
+        }
+      ]
+    },
+    {
+      "augmentId": 1002,
+      "tier": 5,
+      "pickrate": 0.0043,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 745
         }
       ]
     },
     {
       "augmentId": 1011,
-      "winrate": 0.3686,
+      "tier": 5,
       "pickrate": 0.0019,
       "contributions": [
         {
@@ -1624,11 +1277,247 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3686,
           "games": 331
         }
       ]
+    },
+    {
+      "augmentId": 1058,
+      "tier": 5,
+      "pickrate": 0.0144,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2484
+        }
+      ]
+    },
+    {
+      "augmentId": 1068,
+      "tier": 5,
+      "pickrate": 0.01,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1731
+        }
+      ]
+    },
+    {
+      "augmentId": 1103,
+      "tier": 5,
+      "pickrate": 0.0105,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1814
+        }
+      ]
+    },
+    {
+      "augmentId": 1113,
+      "tier": 5,
+      "pickrate": 0.0078,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1351
+        }
+      ]
+    },
+    {
+      "augmentId": 1133,
+      "tier": 5,
+      "pickrate": 0.0123,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2114
+        }
+      ]
+    },
+    {
+      "augmentId": 1325,
+      "tier": 5,
+      "pickrate": 0.0024,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 412
+        }
+      ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": 5,
+      "pickrate": 0.0036,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 615
+        }
+      ]
+    },
+    {
+      "augmentId": 1386,
+      "tier": 5,
+      "pickrate": 0.0015,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 263
+        }
+      ]
+    },
+    {
+      "augmentId": 1388,
+      "tier": 5,
+      "pickrate": 0.0038,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 650
+        }
+      ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": 5,
+      "pickrate": 0.0022,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 372
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": 5,
+      "pickrate": 0.003,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 524
+        }
+      ]
+    },
+    {
+      "augmentId": 2024,
+      "tier": 5,
+      "pickrate": 0.0052,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 894
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": 5,
+      "pickrate": 0.0015,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 259
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": 5,
+      "pickrate": 0.0033,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 574
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": 5,
+      "pickrate": 0.0168,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2898
+        }
+      ]
+    },
+    {
+      "augmentId": 2103,
+      "tier": 5,
+      "pickrate": 0.003,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 515
+        }
+      ]
+    },
+    {
+      "augmentId": 2116,
+      "tier": 5,
+      "pickrate": 0.0327,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5645
+        }
+      ]
     }
-  ],
-  "method": "equal-source-mean"
+  ]
 }

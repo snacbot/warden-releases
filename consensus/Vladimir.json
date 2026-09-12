@@ -1,32 +1,15 @@
 {
+  "version": 1,
+  "method": "warden-performance-tiers-v1",
   "championId": 8,
   "championKey": "Vladimir",
   "set": "aram",
-  "source": "Mayhem source average",
-  "sourceUrl": "https://github.com/snacbot/warden-releases/blob/mayhem-data/README.md",
-  "winrateScope": "champion",
-  "pickrateScope": "champion",
   "patch": "16.18",
   "scrapedAt": "2026-09-12T02:34:26.350Z",
   "augments": [
     {
-      "augmentId": 2095,
-      "winrate": 0.5733,
-      "pickrate": 0.0402,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5733,
-          "games": 19712
-        }
-      ]
-    },
-    {
       "augmentId": 1004,
-      "winrate": 0.5519,
+      "tier": 1,
       "pickrate": 0.0656,
       "contributions": [
         {
@@ -34,14 +17,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5519,
           "games": 32172
         }
       ]
     },
     {
+      "augmentId": 2095,
+      "tier": 1,
+      "pickrate": 0.0402,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 19712
+        }
+      ]
+    },
+    {
       "augmentId": 1053,
-      "winrate": 0.5386,
+      "tier": 2,
       "pickrate": 0.0374,
       "contributions": [
         {
@@ -49,14 +45,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5386,
           "games": 18341
         }
       ]
     },
     {
       "augmentId": 1156,
-      "winrate": 0.5374,
+      "tier": 2,
       "pickrate": 0.0338,
       "contributions": [
         {
@@ -64,59 +59,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5374,
           "games": 16557
         }
       ]
     },
     {
-      "augmentId": 1195,
-      "winrate": 0.5144,
-      "pickrate": 0.0213,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5144,
-          "games": 10453
-        }
-      ]
-    },
-    {
-      "augmentId": 1030,
-      "winrate": 0.5139,
-      "pickrate": 0.1234,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5139,
-          "games": 60514
-        }
-      ]
-    },
-    {
-      "augmentId": 1308,
-      "winrate": 0.5137,
-      "pickrate": 0.0145,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5137,
-          "games": 7133
-        }
-      ]
-    },
-    {
       "augmentId": 1013,
-      "winrate": 0.5111,
+      "tier": 3,
       "pickrate": 0.0498,
       "contributions": [
         {
@@ -124,89 +73,13 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5111,
           "games": 24408
         }
       ]
     },
     {
-      "augmentId": 1389,
-      "winrate": 0.5103,
-      "pickrate": 0.0023,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5103,
-          "games": 1113
-        }
-      ]
-    },
-    {
-      "augmentId": 1390,
-      "winrate": 0.5096,
-      "pickrate": 0.0981,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5096,
-          "games": 48130
-        }
-      ]
-    },
-    {
-      "augmentId": 1152,
-      "winrate": 0.5023,
-      "pickrate": 0.0829,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5023,
-          "games": 40640
-        }
-      ]
-    },
-    {
-      "augmentId": 1388,
-      "winrate": 0.5019,
-      "pickrate": 0.061,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5019,
-          "games": 29913
-        }
-      ]
-    },
-    {
-      "augmentId": 1333,
-      "winrate": 0.5008,
-      "pickrate": 0.0449,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.5008,
-          "games": 22029
-        }
-      ]
-    },
-    {
       "augmentId": 1026,
-      "winrate": 0.4982,
+      "tier": 3,
       "pickrate": 0.01,
       "contributions": [
         {
@@ -214,89 +87,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4982,
           "games": 4926
         }
       ]
     },
     {
-      "augmentId": 1384,
-      "winrate": 0.498,
-      "pickrate": 0.026,
+      "augmentId": 1030,
+      "tier": 3,
+      "pickrate": 0.1234,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.498,
-          "games": 12734
-        }
-      ]
-    },
-    {
-      "augmentId": 1062,
-      "winrate": 0.4977,
-      "pickrate": 0.0048,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4977,
-          "games": 2361
-        }
-      ]
-    },
-    {
-      "augmentId": 1041,
-      "winrate": 0.497,
-      "pickrate": 0.0545,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.497,
-          "games": 26749
-        }
-      ]
-    },
-    {
-      "augmentId": 1305,
-      "winrate": 0.496,
-      "pickrate": 0.0421,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.496,
-          "games": 20653
-        }
-      ]
-    },
-    {
-      "augmentId": 2076,
-      "winrate": 0.4956,
-      "pickrate": 0.0697,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4956,
-          "games": 34176
+          "games": 60514
         }
       ]
     },
     {
       "augmentId": 1038,
-      "winrate": 0.495,
+      "tier": 3,
       "pickrate": 0.0304,
       "contributions": [
         {
@@ -304,119 +115,55 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.495,
           "games": 14910
         }
       ]
     },
     {
-      "augmentId": 1332,
-      "winrate": 0.4949,
-      "pickrate": 0.0378,
+      "augmentId": 1041,
+      "tier": 3,
+      "pickrate": 0.0545,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4949,
-          "games": 18561
+          "games": 26749
         }
       ]
     },
     {
-      "augmentId": 1098,
-      "winrate": 0.4925,
-      "pickrate": 0.0615,
+      "augmentId": 1061,
+      "tier": 3,
+      "pickrate": 0.0038,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4925,
-          "games": 30189
+          "games": 1848
         }
       ]
     },
     {
-      "augmentId": 1105,
-      "winrate": 0.4905,
-      "pickrate": 0.0127,
+      "augmentId": 1062,
+      "tier": 3,
+      "pickrate": 0.0048,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4905,
-          "games": 6231
-        }
-      ]
-    },
-    {
-      "augmentId": 1205,
-      "winrate": 0.4902,
-      "pickrate": 0.1048,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4902,
-          "games": 51394
-        }
-      ]
-    },
-    {
-      "augmentId": 1238,
-      "winrate": 0.4896,
-      "pickrate": 0.0942,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4896,
-          "games": 46220
-        }
-      ]
-    },
-    {
-      "augmentId": 1403,
-      "winrate": 0.4889,
-      "pickrate": 0.0203,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4889,
-          "games": 9965
-        }
-      ]
-    },
-    {
-      "augmentId": 1373,
-      "winrate": 0.4885,
-      "pickrate": 0.1266,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4885,
-          "games": 62095
+          "games": 2361
         }
       ]
     },
     {
       "augmentId": 1097,
-      "winrate": 0.4874,
+      "tier": 3,
       "pickrate": 0.058,
       "contributions": [
         {
@@ -424,494 +171,27 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4874,
           "games": 28457
         }
       ]
     },
     {
-      "augmentId": 2098,
-      "winrate": 0.4863,
-      "pickrate": 0.0068,
+      "augmentId": 1098,
+      "tier": 3,
+      "pickrate": 0.0615,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4863,
-          "games": 3317
+          "games": 30189
         }
       ]
     },
     {
-      "augmentId": 1322,
-      "winrate": 0.484,
-      "pickrate": 0.0078,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.484,
-          "games": 3822
-        }
-      ]
-    },
-    {
-      "augmentId": 1353,
-      "winrate": 0.4831,
-      "pickrate": 0.1241,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4831,
-          "games": 60851
-        }
-      ]
-    },
-    {
-      "augmentId": 1349,
-      "winrate": 0.482,
-      "pickrate": 0.0351,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.482,
-          "games": 17236
-        }
-      ]
-    },
-    {
-      "augmentId": 1061,
-      "winrate": 0.4811,
-      "pickrate": 0.0038,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4811,
-          "games": 1848
-        }
-      ]
-    },
-    {
-      "augmentId": 1116,
-      "winrate": 0.4806,
-      "pickrate": 0.0264,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4806,
-          "games": 12935
-        }
-      ]
-    },
-    {
-      "augmentId": 2026,
-      "winrate": 0.4799,
-      "pickrate": 0.0146,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4799,
-          "games": 7156
-        }
-      ]
-    },
-    {
-      "augmentId": 1335,
-      "winrate": 0.4794,
-      "pickrate": 0.0046,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4794,
-          "games": 2238
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "winrate": 0.4767,
-      "pickrate": 0.0089,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4767,
-          "games": 4386
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "winrate": 0.4752,
-      "pickrate": 0.0131,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4752,
-          "games": 6431
-        }
-      ]
-    },
-    {
-      "augmentId": 1068,
-      "winrate": 0.4744,
-      "pickrate": 0.1463,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4744,
-          "games": 71759
-        }
-      ]
-    },
-    {
-      "augmentId": 1015,
-      "winrate": 0.4733,
-      "pickrate": 0.0488,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4733,
-          "games": 23955
-        }
-      ]
-    },
-    {
-      "augmentId": 2132,
-      "winrate": 0.4732,
-      "pickrate": 0.142,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4732,
-          "games": 69676
-        }
-      ]
-    },
-    {
-      "augmentId": 1318,
-      "winrate": 0.472,
-      "pickrate": 0.0383,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.472,
-          "games": 18807
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "winrate": 0.4694,
-      "pickrate": 0.0128,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4694,
-          "games": 6270
-        }
-      ]
-    },
-    {
-      "augmentId": 2018,
-      "winrate": 0.4693,
-      "pickrate": 0.1216,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4693,
-          "games": 59667
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "winrate": 0.4687,
-      "pickrate": 0.048,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4687,
-          "games": 23521
-        }
-      ]
-    },
-    {
-      "augmentId": 1046,
-      "winrate": 0.4676,
-      "pickrate": 0.0088,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4676,
-          "games": 4339
-        }
-      ]
-    },
-    {
-      "augmentId": 2083,
-      "winrate": 0.4671,
-      "pickrate": 0.0476,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4671,
-          "games": 23360
-        }
-      ]
-    },
-    {
-      "augmentId": 2127,
-      "winrate": 0.4669,
-      "pickrate": 0.0227,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4669,
-          "games": 11126
-        }
-      ]
-    },
-    {
-      "augmentId": 2119,
-      "winrate": 0.4651,
-      "pickrate": 0.0025,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4651,
-          "games": 1204
-        }
-      ]
-    },
-    {
-      "augmentId": 1243,
-      "winrate": 0.4646,
-      "pickrate": 0.0238,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4646,
-          "games": 11686
-        }
-      ]
-    },
-    {
-      "augmentId": 1319,
-      "winrate": 0.4646,
-      "pickrate": 0.0089,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4646,
-          "games": 4382
-        }
-      ]
-    },
-    {
-      "augmentId": 1337,
-      "winrate": 0.4643,
-      "pickrate": 0.0058,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4643,
-          "games": 2826
-        }
-      ]
-    },
-    {
-      "augmentId": 1180,
-      "winrate": 0.4639,
-      "pickrate": 0.0184,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4639,
-          "games": 9011
-        }
-      ]
-    },
-    {
-      "augmentId": 2131,
-      "winrate": 0.4623,
-      "pickrate": 0.0363,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4623,
-          "games": 17826
-        }
-      ]
-    },
-    {
-      "augmentId": 1048,
-      "winrate": 0.459,
-      "pickrate": 0.0445,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.459,
-          "games": 21847
-        }
-      ]
-    },
-    {
-      "augmentId": 1401,
-      "winrate": 0.4578,
-      "pickrate": 0.0155,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4578,
-          "games": 7626
-        }
-      ]
-    },
-    {
-      "augmentId": 1138,
-      "winrate": 0.4572,
-      "pickrate": 0.0787,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4572,
-          "games": 38588
-        }
-      ]
-    },
-    {
-      "augmentId": 1402,
-      "winrate": 0.457,
-      "pickrate": 0.0066,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.457,
-          "games": 3219
-        }
-      ]
-    },
-    {
-      "augmentId": 1103,
-      "winrate": 0.4563,
-      "pickrate": 0.0467,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4563,
-          "games": 22927
-        }
-      ]
-    },
-    {
-      "augmentId": 1361,
-      "winrate": 0.4554,
-      "pickrate": 0.0058,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4554,
-          "games": 2824
-        }
-      ]
-    },
-    {
-      "augmentId": 1028,
-      "winrate": 0.4547,
+      "augmentId": 1105,
+      "tier": 3,
       "pickrate": 0.0127,
       "contributions": [
         {
@@ -919,794 +199,223 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4547,
-          "games": 6213
+          "games": 6231
         }
       ]
     },
     {
-      "augmentId": 1416,
-      "winrate": 0.4547,
-      "pickrate": 0.0118,
+      "augmentId": 1116,
+      "tier": 3,
+      "pickrate": 0.0264,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4547,
-          "games": 5802
+          "games": 12935
         }
       ]
     },
     {
-      "augmentId": 1150,
-      "winrate": 0.4537,
-      "pickrate": 0.0885,
+      "augmentId": 1152,
+      "tier": 3,
+      "pickrate": 0.0829,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4537,
-          "games": 43396
+          "games": 40640
         }
       ]
     },
     {
-      "augmentId": 1020,
-      "winrate": 0.4536,
-      "pickrate": 0.0185,
+      "augmentId": 1195,
+      "tier": 3,
+      "pickrate": 0.0213,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4536,
-          "games": 9064
+          "games": 10453
         }
       ]
     },
     {
-      "augmentId": 1344,
-      "winrate": 0.4536,
-      "pickrate": 0.0135,
+      "augmentId": 1205,
+      "tier": 3,
+      "pickrate": 0.1048,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4536,
-          "games": 6642
+          "games": 51394
         }
       ]
     },
     {
-      "augmentId": 1029,
-      "winrate": 0.453,
-      "pickrate": 0.0842,
+      "augmentId": 1238,
+      "tier": 3,
+      "pickrate": 0.0942,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.453,
-          "games": 41310
+          "games": 46220
         }
       ]
     },
     {
-      "augmentId": 2091,
-      "winrate": 0.4526,
-      "pickrate": 0.0177,
+      "augmentId": 1305,
+      "tier": 3,
+      "pickrate": 0.0421,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4526,
-          "games": 8705
+          "games": 20653
         }
       ]
     },
     {
-      "augmentId": 2088,
-      "winrate": 0.4517,
-      "pickrate": 0.008,
+      "augmentId": 1308,
+      "tier": 3,
+      "pickrate": 0.0145,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4517,
-          "games": 3936
+          "games": 7133
         }
       ]
     },
     {
-      "augmentId": 1187,
-      "winrate": 0.4508,
-      "pickrate": 0.0007,
+      "augmentId": 1322,
+      "tier": 3,
+      "pickrate": 0.0078,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4508,
-          "games": 366
+          "games": 3822
         }
       ]
     },
     {
-      "augmentId": 1057,
-      "winrate": 0.4505,
-      "pickrate": 0.0019,
+      "augmentId": 1332,
+      "tier": 3,
+      "pickrate": 0.0378,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4505,
-          "games": 910
+          "games": 18561
         }
       ]
     },
     {
-      "augmentId": 1154,
-      "winrate": 0.4505,
-      "pickrate": 0.0083,
+      "augmentId": 1333,
+      "tier": 3,
+      "pickrate": 0.0449,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4505,
-          "games": 4089
+          "games": 22029
         }
       ]
     },
     {
-      "augmentId": 2100,
-      "winrate": 0.4503,
-      "pickrate": 0.0609,
+      "augmentId": 1349,
+      "tier": 3,
+      "pickrate": 0.0351,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4503,
-          "games": 29889
+          "games": 17236
         }
       ]
     },
     {
-      "augmentId": 1347,
-      "winrate": 0.4499,
-      "pickrate": 0.007,
+      "augmentId": 1353,
+      "tier": 3,
+      "pickrate": 0.1241,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4499,
-          "games": 3445
+          "games": 60851
         }
       ]
     },
     {
-      "augmentId": 1415,
-      "winrate": 0.4491,
-      "pickrate": 0.0162,
+      "augmentId": 1373,
+      "tier": 3,
+      "pickrate": 0.1266,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4491,
-          "games": 7924
+          "games": 62095
         }
       ]
     },
     {
-      "augmentId": 1034,
-      "winrate": 0.4461,
-      "pickrate": 0.0109,
+      "augmentId": 1384,
+      "tier": 3,
+      "pickrate": 0.026,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4461,
-          "games": 5337
+          "games": 12734
         }
       ]
     },
     {
-      "augmentId": 1133,
-      "winrate": 0.4457,
-      "pickrate": 0.0234,
+      "augmentId": 1388,
+      "tier": 3,
+      "pickrate": 0.061,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4457,
-          "games": 11490
+          "games": 29913
         }
       ]
     },
     {
-      "augmentId": 1129,
-      "winrate": 0.445,
-      "pickrate": 0.0118,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.445,
-          "games": 5784
-        }
-      ]
-    },
-    {
-      "augmentId": 2089,
-      "winrate": 0.4447,
-      "pickrate": 0.0076,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4447,
-          "games": 3724
-        }
-      ]
-    },
-    {
-      "augmentId": 2116,
-      "winrate": 0.4446,
-      "pickrate": 0.0399,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4446,
-          "games": 19548
-        }
-      ]
-    },
-    {
-      "augmentId": 1084,
-      "winrate": 0.4444,
-      "pickrate": 0.0236,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4444,
-          "games": 11583
-        }
-      ]
-    },
-    {
-      "augmentId": 1001,
-      "winrate": 0.4443,
-      "pickrate": 0.0061,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4443,
-          "games": 3014
-        }
-      ]
-    },
-    {
-      "augmentId": 2099,
-      "winrate": 0.4434,
-      "pickrate": 0.009,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4434,
-          "games": 4429
-        }
-      ]
-    },
-    {
-      "augmentId": 1211,
-      "winrate": 0.4427,
-      "pickrate": 0.0212,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4427,
-          "games": 10394
-        }
-      ]
-    },
-    {
-      "augmentId": 1326,
-      "winrate": 0.4419,
-      "pickrate": 0.0082,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4419,
-          "games": 4033
-        }
-      ]
-    },
-    {
-      "augmentId": 2005,
-      "winrate": 0.4419,
-      "pickrate": 0.0075,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4419,
-          "games": 3664
-        }
-      ]
-    },
-    {
-      "augmentId": 2006,
-      "winrate": 0.4411,
-      "pickrate": 0.069,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4411,
-          "games": 33847
-        }
-      ]
-    },
-    {
-      "augmentId": 1413,
-      "winrate": 0.4396,
-      "pickrate": 0.0026,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4396,
-          "games": 1274
-        }
-      ]
-    },
-    {
-      "augmentId": 1310,
-      "winrate": 0.4386,
-      "pickrate": 0.0131,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4386,
-          "games": 6409
-        }
-      ]
-    },
-    {
-      "augmentId": 1345,
-      "winrate": 0.4377,
-      "pickrate": 0.0092,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4377,
-          "games": 4510
-        }
-      ]
-    },
-    {
-      "augmentId": 2102,
-      "winrate": 0.4364,
-      "pickrate": 0.0261,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4364,
-          "games": 12793
-        }
-      ]
-    },
-    {
-      "augmentId": 1002,
-      "winrate": 0.4359,
-      "pickrate": 0.0163,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4359,
-          "games": 8000
-        }
-      ]
-    },
-    {
-      "augmentId": 2043,
-      "winrate": 0.4338,
-      "pickrate": 0.0093,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4338,
-          "games": 4583
-        }
-      ]
-    },
-    {
-      "augmentId": 2107,
-      "winrate": 0.4328,
-      "pickrate": 0.0031,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4328,
-          "games": 1525
-        }
-      ]
-    },
-    {
-      "augmentId": 1151,
-      "winrate": 0.4327,
-      "pickrate": 0.0199,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4327,
-          "games": 9752
-        }
-      ]
-    },
-    {
-      "augmentId": 1358,
-      "winrate": 0.4322,
-      "pickrate": 0.0082,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4322,
-          "games": 4028
-        }
-      ]
-    },
-    {
-      "augmentId": 2082,
-      "winrate": 0.432,
-      "pickrate": 0.015,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.432,
-          "games": 7368
-        }
-      ]
-    },
-    {
-      "augmentId": 2137,
-      "winrate": 0.4318,
-      "pickrate": 0.0039,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4318,
-          "games": 1922
-        }
-      ]
-    },
-    {
-      "augmentId": 1348,
-      "winrate": 0.4311,
-      "pickrate": 0.0007,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4311,
-          "games": 341
-        }
-      ]
-    },
-    {
-      "augmentId": 12317,
-      "winrate": 0.4309,
-      "pickrate": 0.0199,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4309,
-          "games": 9775
-        }
-      ]
-    },
-    {
-      "augmentId": 1058,
-      "winrate": 0.4283,
-      "pickrate": 0.017,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4283,
-          "games": 8339
-        }
-      ]
-    },
-    {
-      "augmentId": 1112,
-      "winrate": 0.4282,
-      "pickrate": 0.0087,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4282,
-          "games": 4292
-        }
-      ]
-    },
-    {
-      "augmentId": 1392,
-      "winrate": 0.4279,
-      "pickrate": 0.0046,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4279,
-          "games": 2260
-        }
-      ]
-    },
-    {
-      "augmentId": 1011,
-      "winrate": 0.4254,
-      "pickrate": 0.0042,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4254,
-          "games": 2050
-        }
-      ]
-    },
-    {
-      "augmentId": 1421,
-      "winrate": 0.4249,
-      "pickrate": 0.001,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4249,
-          "games": 466
-        }
-      ]
-    },
-    {
-      "augmentId": 1095,
-      "winrate": 0.423,
-      "pickrate": 0.0066,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.423,
-          "games": 3234
-        }
-      ]
-    },
-    {
-      "augmentId": 1044,
-      "winrate": 0.4218,
-      "pickrate": 0.0122,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4218,
-          "games": 5988
-        }
-      ]
-    },
-    {
-      "augmentId": 2034,
-      "winrate": 0.4212,
-      "pickrate": 0.0038,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4212,
-          "games": 1847
-        }
-      ]
-    },
-    {
-      "augmentId": 2087,
-      "winrate": 0.421,
-      "pickrate": 0.0605,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.421,
-          "games": 29689
-        }
-      ]
-    },
-    {
-      "augmentId": 1386,
-      "winrate": 0.4202,
-      "pickrate": 0.0012,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4202,
-          "games": 595
-        }
-      ]
-    },
-    {
-      "augmentId": 1006,
-      "winrate": 0.4185,
-      "pickrate": 0.0042,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4185,
-          "games": 2043
-        }
-      ]
-    },
-    {
-      "augmentId": 2080,
-      "winrate": 0.4147,
-      "pickrate": 0.0069,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4147,
-          "games": 3369
-        }
-      ]
-    },
-    {
-      "augmentId": 1325,
-      "winrate": 0.4117,
-      "pickrate": 0.0016,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4117,
-          "games": 787
-        }
-      ]
-    },
-    {
-      "augmentId": 2134,
-      "winrate": 0.4106,
-      "pickrate": 0.0021,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4106,
-          "games": 1052
-        }
-      ]
-    },
-    {
-      "augmentId": 2139,
-      "winrate": 0.4083,
+      "augmentId": 1389,
+      "tier": 3,
       "pickrate": 0.0023,
       "contributions": [
         {
@@ -1714,59 +423,685 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4083,
-          "games": 1139
+          "games": 1113
         }
       ]
     },
     {
-      "augmentId": 1996,
-      "winrate": 0.4061,
-      "pickrate": 0.0029,
+      "augmentId": 1390,
+      "tier": 3,
+      "pickrate": 0.0981,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.4061,
-          "games": 1401
+          "games": 48130
         }
       ]
     },
     {
-      "augmentId": 2123,
-      "winrate": 0.3975,
-      "pickrate": 0.0215,
+      "augmentId": 1403,
+      "tier": 3,
+      "pickrate": 0.0203,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3975,
-          "games": 10556
+          "games": 9965
         }
       ]
     },
     {
-      "augmentId": 2042,
-      "winrate": 0.3965,
-      "pickrate": 0.0006,
+      "augmentId": 2076,
+      "tier": 3,
+      "pickrate": 0.0697,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3965,
-          "games": 285
+          "games": 34176
+        }
+      ]
+    },
+    {
+      "augmentId": 2098,
+      "tier": 3,
+      "pickrate": 0.0068,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3317
+        }
+      ]
+    },
+    {
+      "augmentId": 1015,
+      "tier": 4,
+      "pickrate": 0.0488,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 23955
+        }
+      ]
+    },
+    {
+      "augmentId": 1020,
+      "tier": 4,
+      "pickrate": 0.0185,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9064
+        }
+      ]
+    },
+    {
+      "augmentId": 1028,
+      "tier": 4,
+      "pickrate": 0.0127,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6213
+        }
+      ]
+    },
+    {
+      "augmentId": 1029,
+      "tier": 4,
+      "pickrate": 0.0842,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 41310
+        }
+      ]
+    },
+    {
+      "augmentId": 1046,
+      "tier": 4,
+      "pickrate": 0.0088,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4339
+        }
+      ]
+    },
+    {
+      "augmentId": 1048,
+      "tier": 4,
+      "pickrate": 0.0445,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 21847
+        }
+      ]
+    },
+    {
+      "augmentId": 1057,
+      "tier": 4,
+      "pickrate": 0.0019,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 910
+        }
+      ]
+    },
+    {
+      "augmentId": 1060,
+      "tier": 4,
+      "pickrate": 0.0131,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6431
+        }
+      ]
+    },
+    {
+      "augmentId": 1068,
+      "tier": 4,
+      "pickrate": 0.1463,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 71759
+        }
+      ]
+    },
+    {
+      "augmentId": 1103,
+      "tier": 4,
+      "pickrate": 0.0467,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 22927
+        }
+      ]
+    },
+    {
+      "augmentId": 1138,
+      "tier": 4,
+      "pickrate": 0.0787,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 38588
+        }
+      ]
+    },
+    {
+      "augmentId": 1150,
+      "tier": 4,
+      "pickrate": 0.0885,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 43396
+        }
+      ]
+    },
+    {
+      "augmentId": 1154,
+      "tier": 4,
+      "pickrate": 0.0083,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4089
+        }
+      ]
+    },
+    {
+      "augmentId": 1180,
+      "tier": 4,
+      "pickrate": 0.0184,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9011
+        }
+      ]
+    },
+    {
+      "augmentId": 1187,
+      "tier": 4,
+      "pickrate": 0.0007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 366
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": 4,
+      "pickrate": 0.048,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 23521
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": 4,
+      "pickrate": 0.0238,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11686
+        }
+      ]
+    },
+    {
+      "augmentId": 1318,
+      "tier": 4,
+      "pickrate": 0.0383,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18807
+        }
+      ]
+    },
+    {
+      "augmentId": 1319,
+      "tier": 4,
+      "pickrate": 0.0089,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4382
+        }
+      ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": 4,
+      "pickrate": 0.0128,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6270
+        }
+      ]
+    },
+    {
+      "augmentId": 1335,
+      "tier": 4,
+      "pickrate": 0.0046,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2238
+        }
+      ]
+    },
+    {
+      "augmentId": 1337,
+      "tier": 4,
+      "pickrate": 0.0058,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2826
+        }
+      ]
+    },
+    {
+      "augmentId": 1344,
+      "tier": 4,
+      "pickrate": 0.0135,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6642
+        }
+      ]
+    },
+    {
+      "augmentId": 1361,
+      "tier": 4,
+      "pickrate": 0.0058,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2824
+        }
+      ]
+    },
+    {
+      "augmentId": 1401,
+      "tier": 4,
+      "pickrate": 0.0155,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7626
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": 4,
+      "pickrate": 0.0066,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3219
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": 4,
+      "pickrate": 0.0089,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4386
+        }
+      ]
+    },
+    {
+      "augmentId": 1416,
+      "tier": 4,
+      "pickrate": 0.0118,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5802
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": 4,
+      "pickrate": 0.1216,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 59667
+        }
+      ]
+    },
+    {
+      "augmentId": 2026,
+      "tier": 4,
+      "pickrate": 0.0146,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7156
+        }
+      ]
+    },
+    {
+      "augmentId": 2083,
+      "tier": 4,
+      "pickrate": 0.0476,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 23360
+        }
+      ]
+    },
+    {
+      "augmentId": 2088,
+      "tier": 4,
+      "pickrate": 0.008,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3936
+        }
+      ]
+    },
+    {
+      "augmentId": 2091,
+      "tier": 4,
+      "pickrate": 0.0177,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8705
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": 4,
+      "pickrate": 0.0609,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 29889
+        }
+      ]
+    },
+    {
+      "augmentId": 2119,
+      "tier": 4,
+      "pickrate": 0.0025,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1204
+        }
+      ]
+    },
+    {
+      "augmentId": 2127,
+      "tier": 4,
+      "pickrate": 0.0227,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11126
+        }
+      ]
+    },
+    {
+      "augmentId": 2131,
+      "tier": 4,
+      "pickrate": 0.0363,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17826
+        }
+      ]
+    },
+    {
+      "augmentId": 2132,
+      "tier": 4,
+      "pickrate": 0.142,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 69676
+        }
+      ]
+    },
+    {
+      "augmentId": 1001,
+      "tier": 5,
+      "pickrate": 0.0061,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3014
+        }
+      ]
+    },
+    {
+      "augmentId": 1002,
+      "tier": 5,
+      "pickrate": 0.0163,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8000
+        }
+      ]
+    },
+    {
+      "augmentId": 1006,
+      "tier": 5,
+      "pickrate": 0.0042,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2043
+        }
+      ]
+    },
+    {
+      "augmentId": 1011,
+      "tier": 5,
+      "pickrate": 0.0042,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2050
+        }
+      ]
+    },
+    {
+      "augmentId": 1034,
+      "tier": 5,
+      "pickrate": 0.0109,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5337
+        }
+      ]
+    },
+    {
+      "augmentId": 1044,
+      "tier": 5,
+      "pickrate": 0.0122,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5988
         }
       ]
     },
     {
       "augmentId": 1054,
-      "winrate": 0.3831,
+      "tier": 5,
       "pickrate": 0.0057,
       "contributions": [
         {
@@ -1774,29 +1109,41 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3831,
           "games": 2819
         }
       ]
     },
     {
-      "augmentId": 2063,
-      "winrate": 0.3827,
-      "pickrate": 0.0009,
+      "augmentId": 1058,
+      "tier": 5,
+      "pickrate": 0.017,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3827,
-          "games": 439
+          "games": 8339
+        }
+      ]
+    },
+    {
+      "augmentId": 1084,
+      "tier": 5,
+      "pickrate": 0.0236,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11583
         }
       ]
     },
     {
       "augmentId": 1088,
-      "winrate": 0.3826,
+      "tier": 5,
       "pickrate": 0.0059,
       "contributions": [
         {
@@ -1804,29 +1151,83 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3826,
           "games": 2912
         }
       ]
     },
     {
-      "augmentId": 2115,
-      "winrate": 0.3747,
-      "pickrate": 0.0016,
+      "augmentId": 1095,
+      "tier": 5,
+      "pickrate": 0.0066,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3747,
-          "games": 806
+          "games": 3234
+        }
+      ]
+    },
+    {
+      "augmentId": 1112,
+      "tier": 5,
+      "pickrate": 0.0087,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4292
+        }
+      ]
+    },
+    {
+      "augmentId": 1129,
+      "tier": 5,
+      "pickrate": 0.0118,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5784
+        }
+      ]
+    },
+    {
+      "augmentId": 1133,
+      "tier": 5,
+      "pickrate": 0.0234,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11490
+        }
+      ]
+    },
+    {
+      "augmentId": 1151,
+      "tier": 5,
+      "pickrate": 0.0199,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9752
         }
       ]
     },
     {
       "augmentId": 1194,
-      "winrate": 0.3694,
+      "tier": 5,
       "pickrate": 0.0056,
       "contributions": [
         {
@@ -1834,14 +1235,377 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3694,
           "games": 2769
         }
       ]
     },
     {
+      "augmentId": 1211,
+      "tier": 5,
+      "pickrate": 0.0212,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10394
+        }
+      ]
+    },
+    {
+      "augmentId": 1310,
+      "tier": 5,
+      "pickrate": 0.0131,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6409
+        }
+      ]
+    },
+    {
+      "augmentId": 1325,
+      "tier": 5,
+      "pickrate": 0.0016,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 787
+        }
+      ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": 5,
+      "pickrate": 0.0082,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4033
+        }
+      ]
+    },
+    {
+      "augmentId": 1345,
+      "tier": 5,
+      "pickrate": 0.0092,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4510
+        }
+      ]
+    },
+    {
+      "augmentId": 1347,
+      "tier": 5,
+      "pickrate": 0.007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3445
+        }
+      ]
+    },
+    {
+      "augmentId": 1348,
+      "tier": 5,
+      "pickrate": 0.0007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 341
+        }
+      ]
+    },
+    {
+      "augmentId": 1358,
+      "tier": 5,
+      "pickrate": 0.0082,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4028
+        }
+      ]
+    },
+    {
+      "augmentId": 1386,
+      "tier": 5,
+      "pickrate": 0.0012,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 595
+        }
+      ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": 5,
+      "pickrate": 0.0046,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2260
+        }
+      ]
+    },
+    {
+      "augmentId": 1413,
+      "tier": 5,
+      "pickrate": 0.0026,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1274
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": 5,
+      "pickrate": 0.0162,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7924
+        }
+      ]
+    },
+    {
+      "augmentId": 1421,
+      "tier": 5,
+      "pickrate": 0.001,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 466
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": 5,
+      "pickrate": 0.0029,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1401
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": 5,
+      "pickrate": 0.0075,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3664
+        }
+      ]
+    },
+    {
+      "augmentId": 2006,
+      "tier": 5,
+      "pickrate": 0.069,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 33847
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": 5,
+      "pickrate": 0.0038,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1847
+        }
+      ]
+    },
+    {
+      "augmentId": 2042,
+      "tier": 5,
+      "pickrate": 0.0006,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 285
+        }
+      ]
+    },
+    {
+      "augmentId": 2043,
+      "tier": 5,
+      "pickrate": 0.0093,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4583
+        }
+      ]
+    },
+    {
+      "augmentId": 2063,
+      "tier": 5,
+      "pickrate": 0.0009,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 439
+        }
+      ]
+    },
+    {
+      "augmentId": 2080,
+      "tier": 5,
+      "pickrate": 0.0069,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3369
+        }
+      ]
+    },
+    {
+      "augmentId": 2082,
+      "tier": 5,
+      "pickrate": 0.015,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7368
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": 5,
+      "pickrate": 0.0605,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 29689
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": 5,
+      "pickrate": 0.0076,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3724
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": 5,
+      "pickrate": 0.009,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4429
+        }
+      ]
+    },
+    {
+      "augmentId": 2102,
+      "tier": 5,
+      "pickrate": 0.0261,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12793
+        }
+      ]
+    },
+    {
       "augmentId": 2103,
-      "winrate": 0.3602,
+      "tier": 5,
       "pickrate": 0.0017,
       "contributions": [
         {
@@ -1849,11 +1613,121 @@
           "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
           "patch": "16.18",
           "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "winrate": 0.3602,
           "games": 830
         }
       ]
+    },
+    {
+      "augmentId": 2107,
+      "tier": 5,
+      "pickrate": 0.0031,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1525
+        }
+      ]
+    },
+    {
+      "augmentId": 2115,
+      "tier": 5,
+      "pickrate": 0.0016,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 806
+        }
+      ]
+    },
+    {
+      "augmentId": 2116,
+      "tier": 5,
+      "pickrate": 0.0399,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 19548
+        }
+      ]
+    },
+    {
+      "augmentId": 2123,
+      "tier": 5,
+      "pickrate": 0.0215,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10556
+        }
+      ]
+    },
+    {
+      "augmentId": 2134,
+      "tier": 5,
+      "pickrate": 0.0021,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1052
+        }
+      ]
+    },
+    {
+      "augmentId": 2137,
+      "tier": 5,
+      "pickrate": 0.0039,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1922
+        }
+      ]
+    },
+    {
+      "augmentId": 2139,
+      "tier": 5,
+      "pickrate": 0.0023,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1139
+        }
+      ]
+    },
+    {
+      "augmentId": 12317,
+      "tier": 5,
+      "pickrate": 0.0199,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9775
+        }
+      ]
     }
-  ],
-  "method": "equal-source-mean"
+  ]
 }
