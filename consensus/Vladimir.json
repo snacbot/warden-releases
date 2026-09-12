@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "method": "warden-performance-tiers-v1",
+  "version": 2,
+  "method": "warden-win-ratio-grades-v2",
   "championId": 8,
   "championKey": "Vladimir",
   "set": "aram",
@@ -9,7 +9,7 @@
   "augments": [
     {
       "augmentId": 1004,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0656,
       "contributions": [
         {
@@ -23,7 +23,7 @@
     },
     {
       "augmentId": 2095,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0402,
       "contributions": [
         {
@@ -37,7 +37,7 @@
     },
     {
       "augmentId": 1053,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0374,
       "contributions": [
         {
@@ -51,7 +51,7 @@
     },
     {
       "augmentId": 1156,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0338,
       "contributions": [
         {
@@ -65,7 +65,7 @@
     },
     {
       "augmentId": 1013,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0498,
       "contributions": [
         {
@@ -78,22 +78,8 @@
       ]
     },
     {
-      "augmentId": 1026,
-      "tier": 3,
-      "pickrate": 0.01,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4926
-        }
-      ]
-    },
-    {
       "augmentId": 1030,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1234,
       "contributions": [
         {
@@ -106,120 +92,8 @@
       ]
     },
     {
-      "augmentId": 1038,
-      "tier": 3,
-      "pickrate": 0.0304,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 14910
-        }
-      ]
-    },
-    {
-      "augmentId": 1041,
-      "tier": 3,
-      "pickrate": 0.0545,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 26749
-        }
-      ]
-    },
-    {
-      "augmentId": 1061,
-      "tier": 3,
-      "pickrate": 0.0038,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1848
-        }
-      ]
-    },
-    {
-      "augmentId": 1062,
-      "tier": 3,
-      "pickrate": 0.0048,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2361
-        }
-      ]
-    },
-    {
-      "augmentId": 1097,
-      "tier": 3,
-      "pickrate": 0.058,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 28457
-        }
-      ]
-    },
-    {
-      "augmentId": 1098,
-      "tier": 3,
-      "pickrate": 0.0615,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 30189
-        }
-      ]
-    },
-    {
-      "augmentId": 1105,
-      "tier": 3,
-      "pickrate": 0.0127,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6231
-        }
-      ]
-    },
-    {
-      "augmentId": 1116,
-      "tier": 3,
-      "pickrate": 0.0264,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 12935
-        }
-      ]
-    },
-    {
       "augmentId": 1152,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0829,
       "contributions": [
         {
@@ -233,7 +107,7 @@
     },
     {
       "augmentId": 1195,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0213,
       "contributions": [
         {
@@ -246,50 +120,8 @@
       ]
     },
     {
-      "augmentId": 1205,
-      "tier": 3,
-      "pickrate": 0.1048,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 51394
-        }
-      ]
-    },
-    {
-      "augmentId": 1238,
-      "tier": 3,
-      "pickrate": 0.0942,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 46220
-        }
-      ]
-    },
-    {
-      "augmentId": 1305,
-      "tier": 3,
-      "pickrate": 0.0421,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 20653
-        }
-      ]
-    },
-    {
       "augmentId": 1308,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0145,
       "contributions": [
         {
@@ -302,36 +134,8 @@
       ]
     },
     {
-      "augmentId": 1322,
-      "tier": 3,
-      "pickrate": 0.0078,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3822
-        }
-      ]
-    },
-    {
-      "augmentId": 1332,
-      "tier": 3,
-      "pickrate": 0.0378,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 18561
-        }
-      ]
-    },
-    {
       "augmentId": 1333,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0449,
       "contributions": [
         {
@@ -344,64 +148,8 @@
       ]
     },
     {
-      "augmentId": 1349,
-      "tier": 3,
-      "pickrate": 0.0351,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 17236
-        }
-      ]
-    },
-    {
-      "augmentId": 1353,
-      "tier": 3,
-      "pickrate": 0.1241,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 60851
-        }
-      ]
-    },
-    {
-      "augmentId": 1373,
-      "tier": 3,
-      "pickrate": 0.1266,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 62095
-        }
-      ]
-    },
-    {
-      "augmentId": 1384,
-      "tier": 3,
-      "pickrate": 0.026,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 12734
-        }
-      ]
-    },
-    {
       "augmentId": 1388,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.061,
       "contributions": [
         {
@@ -415,7 +163,7 @@
     },
     {
       "augmentId": 1389,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0023,
       "contributions": [
         {
@@ -429,7 +177,7 @@
     },
     {
       "augmentId": 1390,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0981,
       "contributions": [
         {
@@ -442,8 +190,260 @@
       ]
     },
     {
+      "augmentId": 1026,
+      "tier": "C",
+      "pickrate": 0.01,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4926
+        }
+      ]
+    },
+    {
+      "augmentId": 1038,
+      "tier": "C",
+      "pickrate": 0.0304,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14910
+        }
+      ]
+    },
+    {
+      "augmentId": 1041,
+      "tier": "C",
+      "pickrate": 0.0545,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 26749
+        }
+      ]
+    },
+    {
+      "augmentId": 1061,
+      "tier": "C",
+      "pickrate": 0.0038,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1848
+        }
+      ]
+    },
+    {
+      "augmentId": 1062,
+      "tier": "C",
+      "pickrate": 0.0048,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2361
+        }
+      ]
+    },
+    {
+      "augmentId": 1097,
+      "tier": "C",
+      "pickrate": 0.058,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 28457
+        }
+      ]
+    },
+    {
+      "augmentId": 1098,
+      "tier": "C",
+      "pickrate": 0.0615,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 30189
+        }
+      ]
+    },
+    {
+      "augmentId": 1105,
+      "tier": "C",
+      "pickrate": 0.0127,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6231
+        }
+      ]
+    },
+    {
+      "augmentId": 1116,
+      "tier": "C",
+      "pickrate": 0.0264,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12935
+        }
+      ]
+    },
+    {
+      "augmentId": 1205,
+      "tier": "C",
+      "pickrate": 0.1048,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 51394
+        }
+      ]
+    },
+    {
+      "augmentId": 1238,
+      "tier": "C",
+      "pickrate": 0.0942,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 46220
+        }
+      ]
+    },
+    {
+      "augmentId": 1305,
+      "tier": "C",
+      "pickrate": 0.0421,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 20653
+        }
+      ]
+    },
+    {
+      "augmentId": 1322,
+      "tier": "C",
+      "pickrate": 0.0078,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3822
+        }
+      ]
+    },
+    {
+      "augmentId": 1332,
+      "tier": "C",
+      "pickrate": 0.0378,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18561
+        }
+      ]
+    },
+    {
+      "augmentId": 1349,
+      "tier": "C",
+      "pickrate": 0.0351,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17236
+        }
+      ]
+    },
+    {
+      "augmentId": 1353,
+      "tier": "C",
+      "pickrate": 0.1241,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 60851
+        }
+      ]
+    },
+    {
+      "augmentId": 1373,
+      "tier": "C",
+      "pickrate": 0.1266,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 62095
+        }
+      ]
+    },
+    {
+      "augmentId": 1384,
+      "tier": "C",
+      "pickrate": 0.026,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/vladimir?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12734
+        }
+      ]
+    },
+    {
       "augmentId": 1403,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0203,
       "contributions": [
         {
@@ -457,7 +457,7 @@
     },
     {
       "augmentId": 2076,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0697,
       "contributions": [
         {
@@ -471,7 +471,7 @@
     },
     {
       "augmentId": 2098,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0068,
       "contributions": [
         {
@@ -485,7 +485,7 @@
     },
     {
       "augmentId": 1015,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0488,
       "contributions": [
         {
@@ -499,7 +499,7 @@
     },
     {
       "augmentId": 1020,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0185,
       "contributions": [
         {
@@ -513,7 +513,7 @@
     },
     {
       "augmentId": 1028,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0127,
       "contributions": [
         {
@@ -527,7 +527,7 @@
     },
     {
       "augmentId": 1029,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0842,
       "contributions": [
         {
@@ -541,7 +541,7 @@
     },
     {
       "augmentId": 1046,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0088,
       "contributions": [
         {
@@ -555,7 +555,7 @@
     },
     {
       "augmentId": 1048,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0445,
       "contributions": [
         {
@@ -569,7 +569,7 @@
     },
     {
       "augmentId": 1057,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0019,
       "contributions": [
         {
@@ -583,7 +583,7 @@
     },
     {
       "augmentId": 1060,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0131,
       "contributions": [
         {
@@ -597,7 +597,7 @@
     },
     {
       "augmentId": 1068,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.1463,
       "contributions": [
         {
@@ -611,7 +611,7 @@
     },
     {
       "augmentId": 1103,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0467,
       "contributions": [
         {
@@ -625,7 +625,7 @@
     },
     {
       "augmentId": 1138,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0787,
       "contributions": [
         {
@@ -639,7 +639,7 @@
     },
     {
       "augmentId": 1150,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0885,
       "contributions": [
         {
@@ -653,7 +653,7 @@
     },
     {
       "augmentId": 1154,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0083,
       "contributions": [
         {
@@ -667,7 +667,7 @@
     },
     {
       "augmentId": 1180,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0184,
       "contributions": [
         {
@@ -681,7 +681,7 @@
     },
     {
       "augmentId": 1187,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0007,
       "contributions": [
         {
@@ -695,7 +695,7 @@
     },
     {
       "augmentId": 1237,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.048,
       "contributions": [
         {
@@ -709,7 +709,7 @@
     },
     {
       "augmentId": 1243,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0238,
       "contributions": [
         {
@@ -723,7 +723,7 @@
     },
     {
       "augmentId": 1318,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0383,
       "contributions": [
         {
@@ -737,7 +737,7 @@
     },
     {
       "augmentId": 1319,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0089,
       "contributions": [
         {
@@ -751,7 +751,7 @@
     },
     {
       "augmentId": 1329,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0128,
       "contributions": [
         {
@@ -765,7 +765,7 @@
     },
     {
       "augmentId": 1335,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0046,
       "contributions": [
         {
@@ -779,7 +779,7 @@
     },
     {
       "augmentId": 1337,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0058,
       "contributions": [
         {
@@ -793,7 +793,7 @@
     },
     {
       "augmentId": 1344,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0135,
       "contributions": [
         {
@@ -807,7 +807,7 @@
     },
     {
       "augmentId": 1361,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0058,
       "contributions": [
         {
@@ -821,7 +821,7 @@
     },
     {
       "augmentId": 1401,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0155,
       "contributions": [
         {
@@ -835,7 +835,7 @@
     },
     {
       "augmentId": 1402,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0066,
       "contributions": [
         {
@@ -849,7 +849,7 @@
     },
     {
       "augmentId": 1404,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0089,
       "contributions": [
         {
@@ -863,7 +863,7 @@
     },
     {
       "augmentId": 1416,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0118,
       "contributions": [
         {
@@ -877,7 +877,7 @@
     },
     {
       "augmentId": 2018,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.1216,
       "contributions": [
         {
@@ -891,7 +891,7 @@
     },
     {
       "augmentId": 2026,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0146,
       "contributions": [
         {
@@ -905,7 +905,7 @@
     },
     {
       "augmentId": 2083,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0476,
       "contributions": [
         {
@@ -919,7 +919,7 @@
     },
     {
       "augmentId": 2088,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.008,
       "contributions": [
         {
@@ -933,7 +933,7 @@
     },
     {
       "augmentId": 2091,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0177,
       "contributions": [
         {
@@ -947,7 +947,7 @@
     },
     {
       "augmentId": 2100,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0609,
       "contributions": [
         {
@@ -961,7 +961,7 @@
     },
     {
       "augmentId": 2119,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0025,
       "contributions": [
         {
@@ -975,7 +975,7 @@
     },
     {
       "augmentId": 2127,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0227,
       "contributions": [
         {
@@ -989,7 +989,7 @@
     },
     {
       "augmentId": 2131,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0363,
       "contributions": [
         {
@@ -1003,7 +1003,7 @@
     },
     {
       "augmentId": 2132,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.142,
       "contributions": [
         {
@@ -1017,7 +1017,7 @@
     },
     {
       "augmentId": 1001,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0061,
       "contributions": [
         {
@@ -1031,7 +1031,7 @@
     },
     {
       "augmentId": 1002,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0163,
       "contributions": [
         {
@@ -1045,7 +1045,7 @@
     },
     {
       "augmentId": 1006,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0042,
       "contributions": [
         {
@@ -1059,7 +1059,7 @@
     },
     {
       "augmentId": 1011,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0042,
       "contributions": [
         {
@@ -1073,7 +1073,7 @@
     },
     {
       "augmentId": 1034,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0109,
       "contributions": [
         {
@@ -1087,7 +1087,7 @@
     },
     {
       "augmentId": 1044,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0122,
       "contributions": [
         {
@@ -1101,7 +1101,7 @@
     },
     {
       "augmentId": 1054,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0057,
       "contributions": [
         {
@@ -1115,7 +1115,7 @@
     },
     {
       "augmentId": 1058,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.017,
       "contributions": [
         {
@@ -1129,7 +1129,7 @@
     },
     {
       "augmentId": 1084,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0236,
       "contributions": [
         {
@@ -1143,7 +1143,7 @@
     },
     {
       "augmentId": 1088,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0059,
       "contributions": [
         {
@@ -1157,7 +1157,7 @@
     },
     {
       "augmentId": 1095,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0066,
       "contributions": [
         {
@@ -1171,7 +1171,7 @@
     },
     {
       "augmentId": 1112,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0087,
       "contributions": [
         {
@@ -1185,7 +1185,7 @@
     },
     {
       "augmentId": 1129,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0118,
       "contributions": [
         {
@@ -1199,7 +1199,7 @@
     },
     {
       "augmentId": 1133,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0234,
       "contributions": [
         {
@@ -1213,7 +1213,7 @@
     },
     {
       "augmentId": 1151,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0199,
       "contributions": [
         {
@@ -1227,7 +1227,7 @@
     },
     {
       "augmentId": 1194,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0056,
       "contributions": [
         {
@@ -1241,7 +1241,7 @@
     },
     {
       "augmentId": 1211,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0212,
       "contributions": [
         {
@@ -1255,7 +1255,7 @@
     },
     {
       "augmentId": 1310,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0131,
       "contributions": [
         {
@@ -1269,7 +1269,7 @@
     },
     {
       "augmentId": 1325,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0016,
       "contributions": [
         {
@@ -1283,7 +1283,7 @@
     },
     {
       "augmentId": 1326,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0082,
       "contributions": [
         {
@@ -1297,7 +1297,7 @@
     },
     {
       "augmentId": 1345,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0092,
       "contributions": [
         {
@@ -1311,7 +1311,7 @@
     },
     {
       "augmentId": 1347,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.007,
       "contributions": [
         {
@@ -1325,7 +1325,7 @@
     },
     {
       "augmentId": 1348,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0007,
       "contributions": [
         {
@@ -1339,7 +1339,7 @@
     },
     {
       "augmentId": 1358,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0082,
       "contributions": [
         {
@@ -1353,7 +1353,7 @@
     },
     {
       "augmentId": 1386,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0012,
       "contributions": [
         {
@@ -1367,7 +1367,7 @@
     },
     {
       "augmentId": 1392,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0046,
       "contributions": [
         {
@@ -1381,7 +1381,7 @@
     },
     {
       "augmentId": 1413,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0026,
       "contributions": [
         {
@@ -1395,7 +1395,7 @@
     },
     {
       "augmentId": 1415,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0162,
       "contributions": [
         {
@@ -1409,7 +1409,7 @@
     },
     {
       "augmentId": 1421,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.001,
       "contributions": [
         {
@@ -1423,7 +1423,7 @@
     },
     {
       "augmentId": 1996,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0029,
       "contributions": [
         {
@@ -1437,7 +1437,7 @@
     },
     {
       "augmentId": 2005,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0075,
       "contributions": [
         {
@@ -1451,7 +1451,7 @@
     },
     {
       "augmentId": 2006,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.069,
       "contributions": [
         {
@@ -1465,7 +1465,7 @@
     },
     {
       "augmentId": 2034,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0038,
       "contributions": [
         {
@@ -1479,7 +1479,7 @@
     },
     {
       "augmentId": 2042,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0006,
       "contributions": [
         {
@@ -1493,7 +1493,7 @@
     },
     {
       "augmentId": 2043,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0093,
       "contributions": [
         {
@@ -1507,7 +1507,7 @@
     },
     {
       "augmentId": 2063,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0009,
       "contributions": [
         {
@@ -1521,7 +1521,7 @@
     },
     {
       "augmentId": 2080,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0069,
       "contributions": [
         {
@@ -1535,7 +1535,7 @@
     },
     {
       "augmentId": 2082,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.015,
       "contributions": [
         {
@@ -1549,7 +1549,7 @@
     },
     {
       "augmentId": 2087,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0605,
       "contributions": [
         {
@@ -1563,7 +1563,7 @@
     },
     {
       "augmentId": 2089,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0076,
       "contributions": [
         {
@@ -1577,7 +1577,7 @@
     },
     {
       "augmentId": 2099,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.009,
       "contributions": [
         {
@@ -1591,7 +1591,7 @@
     },
     {
       "augmentId": 2102,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0261,
       "contributions": [
         {
@@ -1605,7 +1605,7 @@
     },
     {
       "augmentId": 2103,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0017,
       "contributions": [
         {
@@ -1619,7 +1619,7 @@
     },
     {
       "augmentId": 2107,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0031,
       "contributions": [
         {
@@ -1633,7 +1633,7 @@
     },
     {
       "augmentId": 2115,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0016,
       "contributions": [
         {
@@ -1647,7 +1647,7 @@
     },
     {
       "augmentId": 2116,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0399,
       "contributions": [
         {
@@ -1661,7 +1661,7 @@
     },
     {
       "augmentId": 2123,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0215,
       "contributions": [
         {
@@ -1675,7 +1675,7 @@
     },
     {
       "augmentId": 2134,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0021,
       "contributions": [
         {
@@ -1689,7 +1689,7 @@
     },
     {
       "augmentId": 2137,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0039,
       "contributions": [
         {
@@ -1703,7 +1703,7 @@
     },
     {
       "augmentId": 2139,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0023,
       "contributions": [
         {
@@ -1717,7 +1717,7 @@
     },
     {
       "augmentId": 12317,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0199,
       "contributions": [
         {

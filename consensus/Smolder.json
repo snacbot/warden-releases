@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "method": "warden-performance-tiers-v1",
+  "version": 2,
+  "method": "warden-win-ratio-grades-v2",
   "championId": 901,
   "championKey": "Smolder",
   "set": "aram",
@@ -9,7 +9,7 @@
   "augments": [
     {
       "augmentId": 1048,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.1513,
       "contributions": [
         {
@@ -23,7 +23,7 @@
     },
     {
       "augmentId": 1053,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0307,
       "contributions": [
         {
@@ -37,7 +37,7 @@
     },
     {
       "augmentId": 1204,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0898,
       "contributions": [
         {
@@ -51,7 +51,7 @@
     },
     {
       "augmentId": 2095,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0617,
       "contributions": [
         {
@@ -65,7 +65,7 @@
     },
     {
       "augmentId": 1004,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0767,
       "contributions": [
         {
@@ -79,7 +79,7 @@
     },
     {
       "augmentId": 1092,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.2136,
       "contributions": [
         {
@@ -93,7 +93,7 @@
     },
     {
       "augmentId": 1098,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0182,
       "contributions": [
         {
@@ -107,7 +107,7 @@
     },
     {
       "augmentId": 1105,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0366,
       "contributions": [
         {
@@ -121,7 +121,7 @@
     },
     {
       "augmentId": 1195,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.034,
       "contributions": [
         {
@@ -135,7 +135,7 @@
     },
     {
       "augmentId": 1206,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0476,
       "contributions": [
         {
@@ -149,7 +149,7 @@
     },
     {
       "augmentId": 1373,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0963,
       "contributions": [
         {
@@ -163,7 +163,7 @@
     },
     {
       "augmentId": 1388,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0521,
       "contributions": [
         {
@@ -177,7 +177,7 @@
     },
     {
       "augmentId": 1389,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0036,
       "contributions": [
         {
@@ -191,7 +191,7 @@
     },
     {
       "augmentId": 1996,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0766,
       "contributions": [
         {
@@ -205,7 +205,7 @@
     },
     {
       "augmentId": 1007,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0663,
       "contributions": [
         {
@@ -218,22 +218,8 @@
       ]
     },
     {
-      "augmentId": 1028,
-      "tier": 3,
-      "pickrate": 0.0107,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 8587
-        }
-      ]
-    },
-    {
       "augmentId": 1038,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0321,
       "contributions": [
         {
@@ -246,22 +232,8 @@
       ]
     },
     {
-      "augmentId": 1056,
-      "tier": 3,
-      "pickrate": 0.0039,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3136
-        }
-      ]
-    },
-    {
       "augmentId": 1058,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0563,
       "contributions": [
         {
@@ -274,22 +246,8 @@
       ]
     },
     {
-      "augmentId": 1060,
-      "tier": 3,
-      "pickrate": 0.0116,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 9328
-        }
-      ]
-    },
-    {
       "augmentId": 1062,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0096,
       "contributions": [
         {
@@ -303,7 +261,7 @@
     },
     {
       "augmentId": 1068,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0859,
       "contributions": [
         {
@@ -317,7 +275,7 @@
     },
     {
       "augmentId": 1077,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0813,
       "contributions": [
         {
@@ -331,7 +289,7 @@
     },
     {
       "augmentId": 1080,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0411,
       "contributions": [
         {
@@ -344,64 +302,8 @@
       ]
     },
     {
-      "augmentId": 1084,
-      "tier": 3,
-      "pickrate": 0.0154,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 12368
-        }
-      ]
-    },
-    {
-      "augmentId": 1103,
-      "tier": 3,
-      "pickrate": 0.057,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 45767
-        }
-      ]
-    },
-    {
-      "augmentId": 1113,
-      "tier": 3,
-      "pickrate": 0.092,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 73854
-        }
-      ]
-    },
-    {
-      "augmentId": 1133,
-      "tier": 3,
-      "pickrate": 0.0485,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 38968
-        }
-      ]
-    },
-    {
       "augmentId": 1134,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0223,
       "contributions": [
         {
@@ -415,7 +317,7 @@
     },
     {
       "augmentId": 1138,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0515,
       "contributions": [
         {
@@ -429,7 +331,7 @@
     },
     {
       "augmentId": 1154,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0161,
       "contributions": [
         {
@@ -442,22 +344,8 @@
       ]
     },
     {
-      "augmentId": 1237,
-      "tier": 3,
-      "pickrate": 0.0421,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 33773
-        }
-      ]
-    },
-    {
       "augmentId": 1238,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0908,
       "contributions": [
         {
@@ -470,50 +358,8 @@
       ]
     },
     {
-      "augmentId": 1311,
-      "tier": 3,
-      "pickrate": 0.0094,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 7559
-        }
-      ]
-    },
-    {
-      "augmentId": 1322,
-      "tier": 3,
-      "pickrate": 0.0115,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 9242
-        }
-      ]
-    },
-    {
-      "augmentId": 1326,
-      "tier": 3,
-      "pickrate": 0.0045,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3644
-        }
-      ]
-    },
-    {
       "augmentId": 1335,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0075,
       "contributions": [
         {
@@ -527,7 +373,7 @@
     },
     {
       "augmentId": 1336,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.146,
       "contributions": [
         {
@@ -541,7 +387,7 @@
     },
     {
       "augmentId": 1337,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0054,
       "contributions": [
         {
@@ -555,7 +401,7 @@
     },
     {
       "augmentId": 1356,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.2006,
       "contributions": [
         {
@@ -569,7 +415,7 @@
     },
     {
       "augmentId": 1384,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0209,
       "contributions": [
         {
@@ -582,22 +428,8 @@
       ]
     },
     {
-      "augmentId": 1402,
-      "tier": 3,
-      "pickrate": 0.009,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 7242
-        }
-      ]
-    },
-    {
       "augmentId": 1403,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0134,
       "contributions": [
         {
@@ -610,22 +442,8 @@
       ]
     },
     {
-      "augmentId": 1404,
-      "tier": 3,
-      "pickrate": 0.0046,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3680
-        }
-      ]
-    },
-    {
       "augmentId": 1415,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1,
       "contributions": [
         {
@@ -638,36 +456,8 @@
       ]
     },
     {
-      "augmentId": 2009,
-      "tier": 3,
-      "pickrate": 0.0254,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 20392
-        }
-      ]
-    },
-    {
-      "augmentId": 2024,
-      "tier": 3,
-      "pickrate": 0.0485,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 38982
-        }
-      ]
-    },
-    {
       "augmentId": 2073,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0969,
       "contributions": [
         {
@@ -680,78 +470,8 @@
       ]
     },
     {
-      "augmentId": 2083,
-      "tier": 3,
-      "pickrate": 0.0314,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 25229
-        }
-      ]
-    },
-    {
-      "augmentId": 2089,
-      "tier": 3,
-      "pickrate": 0.0053,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4216
-        }
-      ]
-    },
-    {
-      "augmentId": 2100,
-      "tier": 3,
-      "pickrate": 0.0517,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 41520
-        }
-      ]
-    },
-    {
-      "augmentId": 2103,
-      "tier": 3,
-      "pickrate": 0.0212,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 17017
-        }
-      ]
-    },
-    {
-      "augmentId": 2107,
-      "tier": 3,
-      "pickrate": 0.0018,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1479
-        }
-      ]
-    },
-    {
       "augmentId": 2116,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0421,
       "contributions": [
         {
@@ -765,7 +485,7 @@
     },
     {
       "augmentId": 2119,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0004,
       "contributions": [
         {
@@ -778,8 +498,302 @@
       ]
     },
     {
+      "augmentId": 2141,
+      "tier": "B",
+      "pickrate": 0.0226,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18149
+        }
+      ]
+    },
+    {
+      "augmentId": 1028,
+      "tier": "C",
+      "pickrate": 0.0107,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8587
+        }
+      ]
+    },
+    {
+      "augmentId": 1056,
+      "tier": "C",
+      "pickrate": 0.0039,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3136
+        }
+      ]
+    },
+    {
+      "augmentId": 1060,
+      "tier": "C",
+      "pickrate": 0.0116,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9328
+        }
+      ]
+    },
+    {
+      "augmentId": 1084,
+      "tier": "C",
+      "pickrate": 0.0154,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12368
+        }
+      ]
+    },
+    {
+      "augmentId": 1103,
+      "tier": "C",
+      "pickrate": 0.057,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 45767
+        }
+      ]
+    },
+    {
+      "augmentId": 1113,
+      "tier": "C",
+      "pickrate": 0.092,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 73854
+        }
+      ]
+    },
+    {
+      "augmentId": 1133,
+      "tier": "C",
+      "pickrate": 0.0485,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 38968
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": "C",
+      "pickrate": 0.0421,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 33773
+        }
+      ]
+    },
+    {
+      "augmentId": 1311,
+      "tier": "C",
+      "pickrate": 0.0094,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7559
+        }
+      ]
+    },
+    {
+      "augmentId": 1322,
+      "tier": "C",
+      "pickrate": 0.0115,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9242
+        }
+      ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": "C",
+      "pickrate": 0.0045,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3644
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": "C",
+      "pickrate": 0.009,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7242
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": "C",
+      "pickrate": 0.0046,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3680
+        }
+      ]
+    },
+    {
+      "augmentId": 2009,
+      "tier": "C",
+      "pickrate": 0.0254,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 20392
+        }
+      ]
+    },
+    {
+      "augmentId": 2024,
+      "tier": "C",
+      "pickrate": 0.0485,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 38982
+        }
+      ]
+    },
+    {
+      "augmentId": 2083,
+      "tier": "C",
+      "pickrate": 0.0314,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 25229
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": "C",
+      "pickrate": 0.0053,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4216
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": "C",
+      "pickrate": 0.0517,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 41520
+        }
+      ]
+    },
+    {
+      "augmentId": 2103,
+      "tier": "C",
+      "pickrate": 0.0212,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17017
+        }
+      ]
+    },
+    {
+      "augmentId": 2107,
+      "tier": "C",
+      "pickrate": 0.0018,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1479
+        }
+      ]
+    },
+    {
       "augmentId": 2127,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0253,
       "contributions": [
         {
@@ -793,7 +807,7 @@
     },
     {
       "augmentId": 2128,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0455,
       "contributions": [
         {
@@ -807,7 +821,7 @@
     },
     {
       "augmentId": 2140,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0193,
       "contributions": [
         {
@@ -820,22 +834,8 @@
       ]
     },
     {
-      "augmentId": 2141,
-      "tier": 3,
-      "pickrate": 0.0226,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/smolder?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 18149
-        }
-      ]
-    },
-    {
       "augmentId": 1029,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0494,
       "contributions": [
         {
@@ -849,7 +849,7 @@
     },
     {
       "augmentId": 1045,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0209,
       "contributions": [
         {
@@ -863,7 +863,7 @@
     },
     {
       "augmentId": 1046,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0133,
       "contributions": [
         {
@@ -877,7 +877,7 @@
     },
     {
       "augmentId": 1047,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0329,
       "contributions": [
         {
@@ -891,7 +891,7 @@
     },
     {
       "augmentId": 1051,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0086,
       "contributions": [
         {
@@ -905,7 +905,7 @@
     },
     {
       "augmentId": 1057,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0018,
       "contributions": [
         {
@@ -919,7 +919,7 @@
     },
     {
       "augmentId": 1061,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0027,
       "contributions": [
         {
@@ -933,7 +933,7 @@
     },
     {
       "augmentId": 1074,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.015,
       "contributions": [
         {
@@ -947,7 +947,7 @@
     },
     {
       "augmentId": 1081,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0115,
       "contributions": [
         {
@@ -961,7 +961,7 @@
     },
     {
       "augmentId": 1087,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0176,
       "contributions": [
         {
@@ -975,7 +975,7 @@
     },
     {
       "augmentId": 1088,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0084,
       "contributions": [
         {
@@ -989,7 +989,7 @@
     },
     {
       "augmentId": 1150,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0326,
       "contributions": [
         {
@@ -1003,7 +1003,7 @@
     },
     {
       "augmentId": 1151,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0106,
       "contributions": [
         {
@@ -1017,7 +1017,7 @@
     },
     {
       "augmentId": 1211,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0036,
       "contributions": [
         {
@@ -1031,7 +1031,7 @@
     },
     {
       "augmentId": 1243,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0302,
       "contributions": [
         {
@@ -1045,7 +1045,7 @@
     },
     {
       "augmentId": 1308,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0033,
       "contributions": [
         {
@@ -1059,7 +1059,7 @@
     },
     {
       "augmentId": 1320,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0505,
       "contributions": [
         {
@@ -1073,7 +1073,7 @@
     },
     {
       "augmentId": 1328,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0226,
       "contributions": [
         {
@@ -1087,7 +1087,7 @@
     },
     {
       "augmentId": 1344,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0075,
       "contributions": [
         {
@@ -1101,7 +1101,7 @@
     },
     {
       "augmentId": 1345,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0051,
       "contributions": [
         {
@@ -1115,7 +1115,7 @@
     },
     {
       "augmentId": 1349,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0155,
       "contributions": [
         {
@@ -1129,7 +1129,7 @@
     },
     {
       "augmentId": 1416,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0174,
       "contributions": [
         {
@@ -1143,7 +1143,7 @@
     },
     {
       "augmentId": 2016,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0099,
       "contributions": [
         {
@@ -1157,7 +1157,7 @@
     },
     {
       "augmentId": 2018,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.024,
       "contributions": [
         {
@@ -1171,7 +1171,7 @@
     },
     {
       "augmentId": 2055,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0407,
       "contributions": [
         {
@@ -1185,7 +1185,7 @@
     },
     {
       "augmentId": 2080,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0005,
       "contributions": [
         {
@@ -1199,7 +1199,7 @@
     },
     {
       "augmentId": 2098,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0072,
       "contributions": [
         {
@@ -1213,7 +1213,7 @@
     },
     {
       "augmentId": 2099,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0031,
       "contributions": [
         {
@@ -1227,7 +1227,7 @@
     },
     {
       "augmentId": 2134,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0014,
       "contributions": [
         {
@@ -1241,7 +1241,7 @@
     },
     {
       "augmentId": 12317,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0215,
       "contributions": [
         {
@@ -1255,7 +1255,7 @@
     },
     {
       "augmentId": 1002,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0033,
       "contributions": [
         {
@@ -1269,7 +1269,7 @@
     },
     {
       "augmentId": 1011,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0038,
       "contributions": [
         {
@@ -1283,7 +1283,7 @@
     },
     {
       "augmentId": 1079,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0091,
       "contributions": [
         {
@@ -1297,7 +1297,7 @@
     },
     {
       "augmentId": 1112,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0018,
       "contributions": [
         {
@@ -1311,7 +1311,7 @@
     },
     {
       "augmentId": 1220,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0411,
       "contributions": [
         {
@@ -1325,7 +1325,7 @@
     },
     {
       "augmentId": 1225,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0264,
       "contributions": [
         {
@@ -1339,7 +1339,7 @@
     },
     {
       "augmentId": 1325,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0041,
       "contributions": [
         {
@@ -1353,7 +1353,7 @@
     },
     {
       "augmentId": 1329,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0059,
       "contributions": [
         {
@@ -1367,7 +1367,7 @@
     },
     {
       "augmentId": 1358,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0005,
       "contributions": [
         {
@@ -1381,7 +1381,7 @@
     },
     {
       "augmentId": 1386,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0008,
       "contributions": [
         {
@@ -1395,7 +1395,7 @@
     },
     {
       "augmentId": 1392,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0014,
       "contributions": [
         {
@@ -1409,7 +1409,7 @@
     },
     {
       "augmentId": 2005,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0021,
       "contributions": [
         {
@@ -1423,7 +1423,7 @@
     },
     {
       "augmentId": 2010,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.036,
       "contributions": [
         {
@@ -1437,7 +1437,7 @@
     },
     {
       "augmentId": 2034,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0005,
       "contributions": [
         {
@@ -1451,7 +1451,7 @@
     },
     {
       "augmentId": 2042,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0003,
       "contributions": [
         {
@@ -1465,7 +1465,7 @@
     },
     {
       "augmentId": 2046,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0006,
       "contributions": [
         {
@@ -1479,7 +1479,7 @@
     },
     {
       "augmentId": 2063,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0003,
       "contributions": [
         {
@@ -1493,7 +1493,7 @@
     },
     {
       "augmentId": 2072,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0328,
       "contributions": [
         {
@@ -1507,7 +1507,7 @@
     },
     {
       "augmentId": 2087,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0378,
       "contributions": [
         {
@@ -1521,7 +1521,7 @@
     },
     {
       "augmentId": 2088,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0005,
       "contributions": [
         {
@@ -1535,7 +1535,7 @@
     },
     {
       "augmentId": 2091,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0008,
       "contributions": [
         {
@@ -1549,7 +1549,7 @@
     },
     {
       "augmentId": 2118,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0044,
       "contributions": [
         {
@@ -1563,7 +1563,7 @@
     },
     {
       "augmentId": 2123,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0413,
       "contributions": [
         {

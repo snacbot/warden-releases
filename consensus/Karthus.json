@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "method": "warden-performance-tiers-v1",
+  "version": 2,
+  "method": "warden-win-ratio-grades-v2",
   "championId": 30,
   "championKey": "Karthus",
   "set": "aram",
@@ -9,7 +9,7 @@
   "augments": [
     {
       "augmentId": 2031,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0584,
       "contributions": [
         {
@@ -23,7 +23,7 @@
     },
     {
       "augmentId": 1028,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0243,
       "contributions": [
         {
@@ -37,7 +37,7 @@
     },
     {
       "augmentId": 1187,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0004,
       "contributions": [
         {
@@ -51,7 +51,7 @@
     },
     {
       "augmentId": 1310,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0361,
       "contributions": [
         {
@@ -65,7 +65,7 @@
     },
     {
       "augmentId": 1335,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0062,
       "contributions": [
         {
@@ -79,7 +79,7 @@
     },
     {
       "augmentId": 2095,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.054,
       "contributions": [
         {
@@ -93,7 +93,7 @@
     },
     {
       "augmentId": 1004,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.005,
       "contributions": [
         {
@@ -107,7 +107,7 @@
     },
     {
       "augmentId": 1025,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1069,
       "contributions": [
         {
@@ -120,22 +120,8 @@
       ]
     },
     {
-      "augmentId": 1030,
-      "tier": 3,
-      "pickrate": 0.1555,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 125032
-        }
-      ]
-    },
-    {
       "augmentId": 1038,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0693,
       "contributions": [
         {
@@ -149,7 +135,7 @@
     },
     {
       "augmentId": 1044,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0284,
       "contributions": [
         {
@@ -163,7 +149,7 @@
     },
     {
       "augmentId": 1045,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0388,
       "contributions": [
         {
@@ -176,36 +162,8 @@
       ]
     },
     {
-      "augmentId": 1048,
-      "tier": 3,
-      "pickrate": 0.0728,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 58522
-        }
-      ]
-    },
-    {
-      "augmentId": 1053,
-      "tier": 3,
-      "pickrate": 0.0194,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 15608
-        }
-      ]
-    },
-    {
       "augmentId": 1061,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0061,
       "contributions": [
         {
@@ -218,78 +176,8 @@
       ]
     },
     {
-      "augmentId": 1088,
-      "tier": 3,
-      "pickrate": 0.1057,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 84984
-        }
-      ]
-    },
-    {
-      "augmentId": 1105,
-      "tier": 3,
-      "pickrate": 0.0059,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4715
-        }
-      ]
-    },
-    {
-      "augmentId": 1116,
-      "tier": 3,
-      "pickrate": 0.0124,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 10007
-        }
-      ]
-    },
-    {
-      "augmentId": 1133,
-      "tier": 3,
-      "pickrate": 0.1004,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 80670
-        }
-      ]
-    },
-    {
-      "augmentId": 1156,
-      "tier": 3,
-      "pickrate": 0.0323,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 25963
-        }
-      ]
-    },
-    {
       "augmentId": 1180,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0177,
       "contributions": [
         {
@@ -303,7 +191,7 @@
     },
     {
       "augmentId": 1195,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0091,
       "contributions": [
         {
@@ -316,106 +204,8 @@
       ]
     },
     {
-      "augmentId": 1238,
-      "tier": 3,
-      "pickrate": 0.1235,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 99266
-        }
-      ]
-    },
-    {
-      "augmentId": 1308,
-      "tier": 3,
-      "pickrate": 0.011,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 8862
-        }
-      ]
-    },
-    {
-      "augmentId": 1318,
-      "tier": 3,
-      "pickrate": 0.0316,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 25437
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "tier": 3,
-      "pickrate": 0.0138,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 11111
-        }
-      ]
-    },
-    {
-      "augmentId": 1337,
-      "tier": 3,
-      "pickrate": 0.0044,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3526
-        }
-      ]
-    },
-    {
-      "augmentId": 1384,
-      "tier": 3,
-      "pickrate": 0.0411,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 33048
-        }
-      ]
-    },
-    {
-      "augmentId": 1388,
-      "tier": 3,
-      "pickrate": 0.0741,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 59602
-        }
-      ]
-    },
-    {
       "augmentId": 1389,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0028,
       "contributions": [
         {
@@ -429,7 +219,7 @@
     },
     {
       "augmentId": 1390,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1346,
       "contributions": [
         {
@@ -442,22 +232,8 @@
       ]
     },
     {
-      "augmentId": 1403,
-      "tier": 3,
-      "pickrate": 0.032,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 25733
-        }
-      ]
-    },
-    {
       "augmentId": 1415,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0527,
       "contributions": [
         {
@@ -470,50 +246,8 @@
       ]
     },
     {
-      "augmentId": 2026,
-      "tier": 3,
-      "pickrate": 0.0037,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2985
-        }
-      ]
-    },
-    {
-      "augmentId": 2034,
-      "tier": 3,
-      "pickrate": 0.0095,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 7642
-        }
-      ]
-    },
-    {
-      "augmentId": 2089,
-      "tier": 3,
-      "pickrate": 0.015,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 12024
-        }
-      ]
-    },
-    {
       "augmentId": 2098,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0035,
       "contributions": [
         {
@@ -527,7 +261,7 @@
     },
     {
       "augmentId": 2103,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0817,
       "contributions": [
         {
@@ -541,7 +275,7 @@
     },
     {
       "augmentId": 2116,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0311,
       "contributions": [
         {
@@ -555,7 +289,7 @@
     },
     {
       "augmentId": 2119,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.008,
       "contributions": [
         {
@@ -569,7 +303,7 @@
     },
     {
       "augmentId": 2127,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0398,
       "contributions": [
         {
@@ -583,7 +317,7 @@
     },
     {
       "augmentId": 2128,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.2049,
       "contributions": [
         {
@@ -596,8 +330,274 @@
       ]
     },
     {
+      "augmentId": 1030,
+      "tier": "C",
+      "pickrate": 0.1555,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 125032
+        }
+      ]
+    },
+    {
+      "augmentId": 1048,
+      "tier": "C",
+      "pickrate": 0.0728,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 58522
+        }
+      ]
+    },
+    {
+      "augmentId": 1053,
+      "tier": "C",
+      "pickrate": 0.0194,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15608
+        }
+      ]
+    },
+    {
+      "augmentId": 1088,
+      "tier": "C",
+      "pickrate": 0.1057,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 84984
+        }
+      ]
+    },
+    {
+      "augmentId": 1105,
+      "tier": "C",
+      "pickrate": 0.0059,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4715
+        }
+      ]
+    },
+    {
+      "augmentId": 1116,
+      "tier": "C",
+      "pickrate": 0.0124,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10007
+        }
+      ]
+    },
+    {
+      "augmentId": 1133,
+      "tier": "C",
+      "pickrate": 0.1004,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 80670
+        }
+      ]
+    },
+    {
+      "augmentId": 1156,
+      "tier": "C",
+      "pickrate": 0.0323,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 25963
+        }
+      ]
+    },
+    {
+      "augmentId": 1238,
+      "tier": "C",
+      "pickrate": 0.1235,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 99266
+        }
+      ]
+    },
+    {
+      "augmentId": 1308,
+      "tier": "C",
+      "pickrate": 0.011,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8862
+        }
+      ]
+    },
+    {
+      "augmentId": 1318,
+      "tier": "C",
+      "pickrate": 0.0316,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 25437
+        }
+      ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": "C",
+      "pickrate": 0.0138,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11111
+        }
+      ]
+    },
+    {
+      "augmentId": 1337,
+      "tier": "C",
+      "pickrate": 0.0044,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3526
+        }
+      ]
+    },
+    {
+      "augmentId": 1384,
+      "tier": "C",
+      "pickrate": 0.0411,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 33048
+        }
+      ]
+    },
+    {
+      "augmentId": 1388,
+      "tier": "C",
+      "pickrate": 0.0741,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 59602
+        }
+      ]
+    },
+    {
+      "augmentId": 1403,
+      "tier": "C",
+      "pickrate": 0.032,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 25733
+        }
+      ]
+    },
+    {
+      "augmentId": 2026,
+      "tier": "C",
+      "pickrate": 0.0037,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2985
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": "C",
+      "pickrate": 0.0095,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7642
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": "C",
+      "pickrate": 0.015,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/karthus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12024
+        }
+      ]
+    },
+    {
       "augmentId": 2132,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0414,
       "contributions": [
         {
@@ -611,7 +611,7 @@
     },
     {
       "augmentId": 1046,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0209,
       "contributions": [
         {
@@ -625,7 +625,7 @@
     },
     {
       "augmentId": 1056,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0072,
       "contributions": [
         {
@@ -639,7 +639,7 @@
     },
     {
       "augmentId": 1060,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0058,
       "contributions": [
         {
@@ -653,7 +653,7 @@
     },
     {
       "augmentId": 1062,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0042,
       "contributions": [
         {
@@ -667,7 +667,7 @@
     },
     {
       "augmentId": 1068,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.1691,
       "contributions": [
         {
@@ -681,7 +681,7 @@
     },
     {
       "augmentId": 1084,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0731,
       "contributions": [
         {
@@ -695,7 +695,7 @@
     },
     {
       "augmentId": 1097,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0705,
       "contributions": [
         {
@@ -709,7 +709,7 @@
     },
     {
       "augmentId": 1098,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0133,
       "contributions": [
         {
@@ -723,7 +723,7 @@
     },
     {
       "augmentId": 1138,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0113,
       "contributions": [
         {
@@ -737,7 +737,7 @@
     },
     {
       "augmentId": 1154,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0061,
       "contributions": [
         {
@@ -751,7 +751,7 @@
     },
     {
       "augmentId": 1194,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0123,
       "contributions": [
         {
@@ -765,7 +765,7 @@
     },
     {
       "augmentId": 1205,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.1086,
       "contributions": [
         {
@@ -779,7 +779,7 @@
     },
     {
       "augmentId": 1211,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.1228,
       "contributions": [
         {
@@ -793,7 +793,7 @@
     },
     {
       "augmentId": 1237,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0486,
       "contributions": [
         {
@@ -807,7 +807,7 @@
     },
     {
       "augmentId": 1243,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0242,
       "contributions": [
         {
@@ -821,7 +821,7 @@
     },
     {
       "augmentId": 1305,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0067,
       "contributions": [
         {
@@ -835,7 +835,7 @@
     },
     {
       "augmentId": 1311,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0419,
       "contributions": [
         {
@@ -849,7 +849,7 @@
     },
     {
       "augmentId": 1322,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.002,
       "contributions": [
         {
@@ -863,7 +863,7 @@
     },
     {
       "augmentId": 1326,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0024,
       "contributions": [
         {
@@ -877,7 +877,7 @@
     },
     {
       "augmentId": 1332,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0107,
       "contributions": [
         {
@@ -891,7 +891,7 @@
     },
     {
       "augmentId": 1345,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0223,
       "contributions": [
         {
@@ -905,7 +905,7 @@
     },
     {
       "augmentId": 1358,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0151,
       "contributions": [
         {
@@ -919,7 +919,7 @@
     },
     {
       "augmentId": 1386,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.002,
       "contributions": [
         {
@@ -933,7 +933,7 @@
     },
     {
       "augmentId": 1402,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.007,
       "contributions": [
         {
@@ -947,7 +947,7 @@
     },
     {
       "augmentId": 1404,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0133,
       "contributions": [
         {
@@ -961,7 +961,7 @@
     },
     {
       "augmentId": 1416,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0298,
       "contributions": [
         {
@@ -975,7 +975,7 @@
     },
     {
       "augmentId": 2005,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0031,
       "contributions": [
         {
@@ -989,7 +989,7 @@
     },
     {
       "augmentId": 2018,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.136,
       "contributions": [
         {
@@ -1003,7 +1003,7 @@
     },
     {
       "augmentId": 2042,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0036,
       "contributions": [
         {
@@ -1017,7 +1017,7 @@
     },
     {
       "augmentId": 2046,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0005,
       "contributions": [
         {
@@ -1031,7 +1031,7 @@
     },
     {
       "augmentId": 2073,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0176,
       "contributions": [
         {
@@ -1045,7 +1045,7 @@
     },
     {
       "augmentId": 2080,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0122,
       "contributions": [
         {
@@ -1059,7 +1059,7 @@
     },
     {
       "augmentId": 2083,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.1296,
       "contributions": [
         {
@@ -1073,7 +1073,7 @@
     },
     {
       "augmentId": 2088,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0139,
       "contributions": [
         {
@@ -1087,7 +1087,7 @@
     },
     {
       "augmentId": 2091,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0037,
       "contributions": [
         {
@@ -1101,7 +1101,7 @@
     },
     {
       "augmentId": 2107,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0017,
       "contributions": [
         {
@@ -1115,7 +1115,7 @@
     },
     {
       "augmentId": 2136,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0301,
       "contributions": [
         {
@@ -1129,7 +1129,7 @@
     },
     {
       "augmentId": 2137,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0019,
       "contributions": [
         {
@@ -1143,7 +1143,7 @@
     },
     {
       "augmentId": 2138,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0142,
       "contributions": [
         {
@@ -1157,7 +1157,7 @@
     },
     {
       "augmentId": 12317,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0228,
       "contributions": [
         {
@@ -1171,7 +1171,7 @@
     },
     {
       "augmentId": 1002,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0098,
       "contributions": [
         {
@@ -1185,7 +1185,7 @@
     },
     {
       "augmentId": 1011,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.001,
       "contributions": [
         {
@@ -1199,7 +1199,7 @@
     },
     {
       "augmentId": 1029,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0305,
       "contributions": [
         {
@@ -1213,7 +1213,7 @@
     },
     {
       "augmentId": 1054,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0029,
       "contributions": [
         {
@@ -1227,7 +1227,7 @@
     },
     {
       "augmentId": 1057,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0011,
       "contributions": [
         {
@@ -1241,7 +1241,7 @@
     },
     {
       "augmentId": 1058,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0052,
       "contributions": [
         {
@@ -1255,7 +1255,7 @@
     },
     {
       "augmentId": 1112,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0034,
       "contributions": [
         {
@@ -1269,7 +1269,7 @@
     },
     {
       "augmentId": 1113,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0136,
       "contributions": [
         {
@@ -1283,7 +1283,7 @@
     },
     {
       "augmentId": 1129,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0082,
       "contributions": [
         {
@@ -1297,7 +1297,7 @@
     },
     {
       "augmentId": 1150,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0064,
       "contributions": [
         {
@@ -1311,7 +1311,7 @@
     },
     {
       "augmentId": 1325,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.026,
       "contributions": [
         {
@@ -1325,7 +1325,7 @@
     },
     {
       "augmentId": 1344,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0017,
       "contributions": [
         {
@@ -1339,7 +1339,7 @@
     },
     {
       "augmentId": 1349,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0298,
       "contributions": [
         {
@@ -1353,7 +1353,7 @@
     },
     {
       "augmentId": 1373,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.1017,
       "contributions": [
         {
@@ -1367,7 +1367,7 @@
     },
     {
       "augmentId": 1392,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0043,
       "contributions": [
         {
@@ -1381,7 +1381,7 @@
     },
     {
       "augmentId": 1996,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0019,
       "contributions": [
         {
@@ -1395,7 +1395,7 @@
     },
     {
       "augmentId": 2016,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0089,
       "contributions": [
         {
@@ -1409,7 +1409,7 @@
     },
     {
       "augmentId": 2063,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0005,
       "contributions": [
         {
@@ -1423,7 +1423,7 @@
     },
     {
       "augmentId": 2099,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.001,
       "contributions": [
         {
@@ -1437,7 +1437,7 @@
     },
     {
       "augmentId": 2118,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.1183,
       "contributions": [
         {
@@ -1451,7 +1451,7 @@
     },
     {
       "augmentId": 2131,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0046,
       "contributions": [
         {
@@ -1465,7 +1465,7 @@
     },
     {
       "augmentId": 2134,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0029,
       "contributions": [
         {

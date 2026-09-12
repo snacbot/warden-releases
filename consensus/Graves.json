@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "method": "warden-performance-tiers-v1",
+  "version": 2,
+  "method": "warden-win-ratio-grades-v2",
   "championId": 104,
   "championKey": "Graves",
   "set": "aram",
@@ -9,7 +9,7 @@
   "augments": [
     {
       "augmentId": 1004,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0451,
       "contributions": [
         {
@@ -23,7 +23,7 @@
     },
     {
       "augmentId": 1134,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.1785,
       "contributions": [
         {
@@ -37,7 +37,7 @@
     },
     {
       "augmentId": 1315,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0121,
       "contributions": [
         {
@@ -51,7 +51,7 @@
     },
     {
       "augmentId": 1333,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0365,
       "contributions": [
         {
@@ -65,7 +65,7 @@
     },
     {
       "augmentId": 1389,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0028,
       "contributions": [
         {
@@ -79,7 +79,7 @@
     },
     {
       "augmentId": 2095,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.024,
       "contributions": [
         {
@@ -93,7 +93,7 @@
     },
     {
       "augmentId": 1007,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.1201,
       "contributions": [
         {
@@ -107,7 +107,7 @@
     },
     {
       "augmentId": 1038,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0574,
       "contributions": [
         {
@@ -121,7 +121,7 @@
     },
     {
       "augmentId": 1048,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0757,
       "contributions": [
         {
@@ -135,7 +135,7 @@
     },
     {
       "augmentId": 1053,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0246,
       "contributions": [
         {
@@ -149,7 +149,7 @@
     },
     {
       "augmentId": 1062,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.008,
       "contributions": [
         {
@@ -163,7 +163,7 @@
     },
     {
       "augmentId": 1071,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0736,
       "contributions": [
         {
@@ -177,7 +177,7 @@
     },
     {
       "augmentId": 1073,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0368,
       "contributions": [
         {
@@ -191,7 +191,7 @@
     },
     {
       "augmentId": 1077,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.206,
       "contributions": [
         {
@@ -205,7 +205,7 @@
     },
     {
       "augmentId": 1080,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0789,
       "contributions": [
         {
@@ -219,7 +219,7 @@
     },
     {
       "augmentId": 1138,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0876,
       "contributions": [
         {
@@ -233,7 +233,7 @@
     },
     {
       "augmentId": 1195,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0316,
       "contributions": [
         {
@@ -247,7 +247,7 @@
     },
     {
       "augmentId": 1206,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0635,
       "contributions": [
         {
@@ -261,7 +261,7 @@
     },
     {
       "augmentId": 1238,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.1121,
       "contributions": [
         {
@@ -275,7 +275,7 @@
     },
     {
       "augmentId": 1310,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0566,
       "contributions": [
         {
@@ -289,7 +289,7 @@
     },
     {
       "augmentId": 1356,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.1311,
       "contributions": [
         {
@@ -303,7 +303,7 @@
     },
     {
       "augmentId": 1384,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0348,
       "contributions": [
         {
@@ -317,7 +317,7 @@
     },
     {
       "augmentId": 1403,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0209,
       "contributions": [
         {
@@ -331,7 +331,7 @@
     },
     {
       "augmentId": 2083,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.1111,
       "contributions": [
         {
@@ -345,7 +345,7 @@
     },
     {
       "augmentId": 2107,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0047,
       "contributions": [
         {
@@ -359,7 +359,7 @@
     },
     {
       "augmentId": 2141,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0416,
       "contributions": [
         {
@@ -372,22 +372,8 @@
       ]
     },
     {
-      "augmentId": 1022,
-      "tier": 3,
-      "pickrate": 0.0145,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 12074
-        }
-      ]
-    },
-    {
       "augmentId": 1028,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0087,
       "contributions": [
         {
@@ -401,7 +387,7 @@
     },
     {
       "augmentId": 1034,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0127,
       "contributions": [
         {
@@ -414,36 +400,8 @@
       ]
     },
     {
-      "augmentId": 1036,
-      "tier": 3,
-      "pickrate": 0.0082,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6883
-        }
-      ]
-    },
-    {
-      "augmentId": 1046,
-      "tier": 3,
-      "pickrate": 0.0118,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 9877
-        }
-      ]
-    },
-    {
       "augmentId": 1047,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0738,
       "contributions": [
         {
@@ -456,22 +414,8 @@
       ]
     },
     {
-      "augmentId": 1057,
-      "tier": 3,
-      "pickrate": 0.0014,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1190
-        }
-      ]
-    },
-    {
       "augmentId": 1060,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0062,
       "contributions": [
         {
@@ -485,7 +429,7 @@
     },
     {
       "augmentId": 1061,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0034,
       "contributions": [
         {
@@ -499,7 +443,7 @@
     },
     {
       "augmentId": 1063,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0189,
       "contributions": [
         {
@@ -512,22 +456,8 @@
       ]
     },
     {
-      "augmentId": 1068,
-      "tier": 3,
-      "pickrate": 0.0141,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 11758
-        }
-      ]
-    },
-    {
       "augmentId": 1084,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0685,
       "contributions": [
         {
@@ -540,36 +470,8 @@
       ]
     },
     {
-      "augmentId": 1092,
-      "tier": 3,
-      "pickrate": 0.1258,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 105054
-        }
-      ]
-    },
-    {
-      "augmentId": 1098,
-      "tier": 3,
-      "pickrate": 0.0035,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2961
-        }
-      ]
-    },
-    {
       "augmentId": 1105,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0084,
       "contributions": [
         {
@@ -583,7 +485,7 @@
     },
     {
       "augmentId": 1115,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0341,
       "contributions": [
         {
@@ -597,7 +499,7 @@
     },
     {
       "augmentId": 1116,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.028,
       "contributions": [
         {
@@ -611,7 +513,7 @@
     },
     {
       "augmentId": 1151,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0242,
       "contributions": [
         {
@@ -625,7 +527,7 @@
     },
     {
       "augmentId": 1154,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0196,
       "contributions": [
         {
@@ -639,7 +541,7 @@
     },
     {
       "augmentId": 1170,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0317,
       "contributions": [
         {
@@ -652,50 +554,8 @@
       ]
     },
     {
-      "augmentId": 1220,
-      "tier": 3,
-      "pickrate": 0.0311,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 26006
-        }
-      ]
-    },
-    {
-      "augmentId": 1225,
-      "tier": 3,
-      "pickrate": 0.0288,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 24074
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "tier": 3,
-      "pickrate": 0.0437,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 36510
-        }
-      ]
-    },
-    {
       "augmentId": 1243,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0301,
       "contributions": [
         {
@@ -708,22 +568,8 @@
       ]
     },
     {
-      "augmentId": 1308,
-      "tier": 3,
-      "pickrate": 0.0027,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2215
-        }
-      ]
-    },
-    {
       "augmentId": 1320,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1135,
       "contributions": [
         {
@@ -737,7 +583,7 @@
     },
     {
       "augmentId": 1322,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0433,
       "contributions": [
         {
@@ -750,36 +596,8 @@
       ]
     },
     {
-      "augmentId": 1326,
-      "tier": 3,
-      "pickrate": 0.0338,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 28217
-        }
-      ]
-    },
-    {
-      "augmentId": 1328,
-      "tier": 3,
-      "pickrate": 0.0621,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 51881
-        }
-      ]
-    },
-    {
       "augmentId": 1329,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0248,
       "contributions": [
         {
@@ -792,22 +610,8 @@
       ]
     },
     {
-      "augmentId": 1335,
-      "tier": 3,
-      "pickrate": 0.0047,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3935
-        }
-      ]
-    },
-    {
       "augmentId": 1336,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.2295,
       "contributions": [
         {
@@ -820,22 +624,8 @@
       ]
     },
     {
-      "augmentId": 1337,
-      "tier": 3,
-      "pickrate": 0.0076,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6344
-        }
-      ]
-    },
-    {
       "augmentId": 1344,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0131,
       "contributions": [
         {
@@ -848,36 +638,8 @@
       ]
     },
     {
-      "augmentId": 1358,
-      "tier": 3,
-      "pickrate": 0.0089,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 7422
-        }
-      ]
-    },
-    {
-      "augmentId": 1361,
-      "tier": 3,
-      "pickrate": 0.0004,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 334
-        }
-      ]
-    },
-    {
       "augmentId": 1373,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0301,
       "contributions": [
         {
@@ -890,22 +652,8 @@
       ]
     },
     {
-      "augmentId": 1388,
-      "tier": 3,
-      "pickrate": 0.0056,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4669
-        }
-      ]
-    },
-    {
       "augmentId": 1402,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0084,
       "contributions": [
         {
@@ -919,7 +667,7 @@
     },
     {
       "augmentId": 1404,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.006,
       "contributions": [
         {
@@ -933,7 +681,7 @@
     },
     {
       "augmentId": 1415,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0154,
       "contributions": [
         {
@@ -946,22 +694,8 @@
       ]
     },
     {
-      "augmentId": 1416,
-      "tier": 3,
-      "pickrate": 0.0101,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 8413
-        }
-      ]
-    },
-    {
       "augmentId": 2009,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0259,
       "contributions": [
         {
@@ -974,8 +708,316 @@
       ]
     },
     {
+      "augmentId": 2098,
+      "tier": "B",
+      "pickrate": 0.013,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10874
+        }
+      ]
+    },
+    {
+      "augmentId": 2119,
+      "tier": "B",
+      "pickrate": 0.0014,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1201
+        }
+      ]
+    },
+    {
+      "augmentId": 2140,
+      "tier": "B",
+      "pickrate": 0.0253,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 21143
+        }
+      ]
+    },
+    {
+      "augmentId": 1022,
+      "tier": "C",
+      "pickrate": 0.0145,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12074
+        }
+      ]
+    },
+    {
+      "augmentId": 1036,
+      "tier": "C",
+      "pickrate": 0.0082,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6883
+        }
+      ]
+    },
+    {
+      "augmentId": 1046,
+      "tier": "C",
+      "pickrate": 0.0118,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9877
+        }
+      ]
+    },
+    {
+      "augmentId": 1057,
+      "tier": "C",
+      "pickrate": 0.0014,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1190
+        }
+      ]
+    },
+    {
+      "augmentId": 1068,
+      "tier": "C",
+      "pickrate": 0.0141,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11758
+        }
+      ]
+    },
+    {
+      "augmentId": 1092,
+      "tier": "C",
+      "pickrate": 0.1258,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 105054
+        }
+      ]
+    },
+    {
+      "augmentId": 1098,
+      "tier": "C",
+      "pickrate": 0.0035,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2961
+        }
+      ]
+    },
+    {
+      "augmentId": 1220,
+      "tier": "C",
+      "pickrate": 0.0311,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 26006
+        }
+      ]
+    },
+    {
+      "augmentId": 1225,
+      "tier": "C",
+      "pickrate": 0.0288,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 24074
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": "C",
+      "pickrate": 0.0437,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 36510
+        }
+      ]
+    },
+    {
+      "augmentId": 1308,
+      "tier": "C",
+      "pickrate": 0.0027,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2215
+        }
+      ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": "C",
+      "pickrate": 0.0338,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 28217
+        }
+      ]
+    },
+    {
+      "augmentId": 1328,
+      "tier": "C",
+      "pickrate": 0.0621,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 51881
+        }
+      ]
+    },
+    {
+      "augmentId": 1335,
+      "tier": "C",
+      "pickrate": 0.0047,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3935
+        }
+      ]
+    },
+    {
+      "augmentId": 1337,
+      "tier": "C",
+      "pickrate": 0.0076,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6344
+        }
+      ]
+    },
+    {
+      "augmentId": 1358,
+      "tier": "C",
+      "pickrate": 0.0089,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7422
+        }
+      ]
+    },
+    {
+      "augmentId": 1361,
+      "tier": "C",
+      "pickrate": 0.0004,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 334
+        }
+      ]
+    },
+    {
+      "augmentId": 1388,
+      "tier": "C",
+      "pickrate": 0.0056,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4669
+        }
+      ]
+    },
+    {
+      "augmentId": 1416,
+      "tier": "C",
+      "pickrate": 0.0101,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8413
+        }
+      ]
+    },
+    {
       "augmentId": 2024,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0273,
       "contributions": [
         {
@@ -989,7 +1031,7 @@
     },
     {
       "augmentId": 2034,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0058,
       "contributions": [
         {
@@ -1003,7 +1045,7 @@
     },
     {
       "augmentId": 2088,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0069,
       "contributions": [
         {
@@ -1017,7 +1059,7 @@
     },
     {
       "augmentId": 2089,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0081,
       "contributions": [
         {
@@ -1030,22 +1072,8 @@
       ]
     },
     {
-      "augmentId": 2098,
-      "tier": 3,
-      "pickrate": 0.013,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 10874
-        }
-      ]
-    },
-    {
       "augmentId": 2099,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0136,
       "contributions": [
         {
@@ -1058,22 +1086,8 @@
       ]
     },
     {
-      "augmentId": 2119,
-      "tier": 3,
-      "pickrate": 0.0014,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1201
-        }
-      ]
-    },
-    {
       "augmentId": 2127,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0229,
       "contributions": [
         {
@@ -1087,7 +1101,7 @@
     },
     {
       "augmentId": 2137,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0019,
       "contributions": [
         {
@@ -1100,22 +1114,8 @@
       ]
     },
     {
-      "augmentId": 2140,
-      "tier": 3,
-      "pickrate": 0.0253,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/graves?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 21143
-        }
-      ]
-    },
-    {
       "augmentId": 1001,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.004,
       "contributions": [
         {
@@ -1129,7 +1129,7 @@
     },
     {
       "augmentId": 1002,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0025,
       "contributions": [
         {
@@ -1143,7 +1143,7 @@
     },
     {
       "augmentId": 1006,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0134,
       "contributions": [
         {
@@ -1157,7 +1157,7 @@
     },
     {
       "augmentId": 1011,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.003,
       "contributions": [
         {
@@ -1171,7 +1171,7 @@
     },
     {
       "augmentId": 1019,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0143,
       "contributions": [
         {
@@ -1185,7 +1185,7 @@
     },
     {
       "augmentId": 1051,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0041,
       "contributions": [
         {
@@ -1199,7 +1199,7 @@
     },
     {
       "augmentId": 1074,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0182,
       "contributions": [
         {
@@ -1213,7 +1213,7 @@
     },
     {
       "augmentId": 1079,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0154,
       "contributions": [
         {
@@ -1227,7 +1227,7 @@
     },
     {
       "augmentId": 1081,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0071,
       "contributions": [
         {
@@ -1241,7 +1241,7 @@
     },
     {
       "augmentId": 1087,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0124,
       "contributions": [
         {
@@ -1255,7 +1255,7 @@
     },
     {
       "augmentId": 1103,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0112,
       "contributions": [
         {
@@ -1269,7 +1269,7 @@
     },
     {
       "augmentId": 1150,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0041,
       "contributions": [
         {
@@ -1283,7 +1283,7 @@
     },
     {
       "augmentId": 1211,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.006,
       "contributions": [
         {
@@ -1297,7 +1297,7 @@
     },
     {
       "augmentId": 1345,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0087,
       "contributions": [
         {
@@ -1311,7 +1311,7 @@
     },
     {
       "augmentId": 1349,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0042,
       "contributions": [
         {
@@ -1325,7 +1325,7 @@
     },
     {
       "augmentId": 1392,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0112,
       "contributions": [
         {
@@ -1339,7 +1339,7 @@
     },
     {
       "augmentId": 2005,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0068,
       "contributions": [
         {
@@ -1353,7 +1353,7 @@
     },
     {
       "augmentId": 2006,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0302,
       "contributions": [
         {
@@ -1367,7 +1367,7 @@
     },
     {
       "augmentId": 2016,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0028,
       "contributions": [
         {
@@ -1381,7 +1381,7 @@
     },
     {
       "augmentId": 2042,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0014,
       "contributions": [
         {
@@ -1395,7 +1395,7 @@
     },
     {
       "augmentId": 2080,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0093,
       "contributions": [
         {
@@ -1409,7 +1409,7 @@
     },
     {
       "augmentId": 2091,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0116,
       "contributions": [
         {
@@ -1423,7 +1423,7 @@
     },
     {
       "augmentId": 2115,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0007,
       "contributions": [
         {
@@ -1437,7 +1437,7 @@
     },
     {
       "augmentId": 2116,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.023,
       "contributions": [
         {
@@ -1451,7 +1451,7 @@
     },
     {
       "augmentId": 12317,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0271,
       "contributions": [
         {
@@ -1465,7 +1465,7 @@
     },
     {
       "augmentId": 1027,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0013,
       "contributions": [
         {
@@ -1479,7 +1479,7 @@
     },
     {
       "augmentId": 1058,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0148,
       "contributions": [
         {
@@ -1493,7 +1493,7 @@
     },
     {
       "augmentId": 1088,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0059,
       "contributions": [
         {
@@ -1507,7 +1507,7 @@
     },
     {
       "augmentId": 1112,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0021,
       "contributions": [
         {
@@ -1521,7 +1521,7 @@
     },
     {
       "augmentId": 1325,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.005,
       "contributions": [
         {
@@ -1535,7 +1535,7 @@
     },
     {
       "augmentId": 1386,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0016,
       "contributions": [
         {
@@ -1549,7 +1549,7 @@
     },
     {
       "augmentId": 2010,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0394,
       "contributions": [
         {
@@ -1563,7 +1563,7 @@
     },
     {
       "augmentId": 2018,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0022,
       "contributions": [
         {
@@ -1577,7 +1577,7 @@
     },
     {
       "augmentId": 2046,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0007,
       "contributions": [
         {
@@ -1591,7 +1591,7 @@
     },
     {
       "augmentId": 2055,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0106,
       "contributions": [
         {
@@ -1605,7 +1605,7 @@
     },
     {
       "augmentId": 2063,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0015,
       "contributions": [
         {
@@ -1619,7 +1619,7 @@
     },
     {
       "augmentId": 2087,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0028,
       "contributions": [
         {
@@ -1633,7 +1633,7 @@
     },
     {
       "augmentId": 2100,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0135,
       "contributions": [
         {
@@ -1647,7 +1647,7 @@
     },
     {
       "augmentId": 2118,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.003,
       "contributions": [
         {
@@ -1661,7 +1661,7 @@
     },
     {
       "augmentId": 2123,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0089,
       "contributions": [
         {
@@ -1675,7 +1675,7 @@
     },
     {
       "augmentId": 2134,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0007,
       "contributions": [
         {
@@ -1689,7 +1689,7 @@
     },
     {
       "augmentId": 2139,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0007,
       "contributions": [
         {

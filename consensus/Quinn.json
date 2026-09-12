@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "method": "warden-performance-tiers-v1",
+  "version": 2,
+  "method": "warden-win-ratio-grades-v2",
   "championId": 133,
   "championKey": "Quinn",
   "set": "aram",
@@ -9,7 +9,7 @@
   "augments": [
     {
       "augmentId": 2095,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0213,
       "contributions": [
         {
@@ -23,7 +23,7 @@
     },
     {
       "augmentId": 1310,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.025,
       "contributions": [
         {
@@ -37,7 +37,7 @@
     },
     {
       "augmentId": 1403,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0141,
       "contributions": [
         {
@@ -51,7 +51,7 @@
     },
     {
       "augmentId": 1007,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0804,
       "contributions": [
         {
@@ -64,8 +64,148 @@
       ]
     },
     {
+      "augmentId": 1038,
+      "tier": "B",
+      "pickrate": 0.0334,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/quinn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5821
+        }
+      ]
+    },
+    {
+      "augmentId": 1053,
+      "tier": "B",
+      "pickrate": 0.0145,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/quinn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2516
+        }
+      ]
+    },
+    {
+      "augmentId": 1077,
+      "tier": "B",
+      "pickrate": 0.1388,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/quinn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 24162
+        }
+      ]
+    },
+    {
+      "augmentId": 1206,
+      "tier": "B",
+      "pickrate": 0.0358,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/quinn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6229
+        }
+      ]
+    },
+    {
+      "augmentId": 1225,
+      "tier": "B",
+      "pickrate": 0.1181,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/quinn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 20554
+        }
+      ]
+    },
+    {
+      "augmentId": 1315,
+      "tier": "B",
+      "pickrate": 0.0067,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/quinn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1161
+        }
+      ]
+    },
+    {
+      "augmentId": 1333,
+      "tier": "B",
+      "pickrate": 0.0371,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/quinn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6457
+        }
+      ]
+    },
+    {
+      "augmentId": 1356,
+      "tier": "B",
+      "pickrate": 0.2223,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/quinn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 38695
+        }
+      ]
+    },
+    {
+      "augmentId": 1389,
+      "tier": "B",
+      "pickrate": 0.002,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/quinn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 341
+        }
+      ]
+    },
+    {
+      "augmentId": 2009,
+      "tier": "B",
+      "pickrate": 0.0432,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/quinn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7517
+        }
+      ]
+    },
+    {
       "augmentId": 1022,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0786,
       "contributions": [
         {
@@ -79,7 +219,7 @@
     },
     {
       "augmentId": 1026,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0213,
       "contributions": [
         {
@@ -93,7 +233,7 @@
     },
     {
       "augmentId": 1028,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0105,
       "contributions": [
         {
@@ -107,7 +247,7 @@
     },
     {
       "augmentId": 1034,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0213,
       "contributions": [
         {
@@ -121,7 +261,7 @@
     },
     {
       "augmentId": 1036,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0246,
       "contributions": [
         {
@@ -134,22 +274,8 @@
       ]
     },
     {
-      "augmentId": 1038,
-      "tier": 3,
-      "pickrate": 0.0334,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/quinn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 5821
-        }
-      ]
-    },
-    {
       "augmentId": 1051,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0282,
       "contributions": [
         {
@@ -162,22 +288,8 @@
       ]
     },
     {
-      "augmentId": 1053,
-      "tier": 3,
-      "pickrate": 0.0145,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/quinn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2516
-        }
-      ]
-    },
-    {
       "augmentId": 1062,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0067,
       "contributions": [
         {
@@ -190,22 +302,8 @@
       ]
     },
     {
-      "augmentId": 1077,
-      "tier": 3,
-      "pickrate": 0.1388,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/quinn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 24162
-        }
-      ]
-    },
-    {
       "augmentId": 1080,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0543,
       "contributions": [
         {
@@ -219,7 +317,7 @@
     },
     {
       "augmentId": 1081,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0367,
       "contributions": [
         {
@@ -233,7 +331,7 @@
     },
     {
       "augmentId": 1092,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.1696,
       "contributions": [
         {
@@ -247,7 +345,7 @@
     },
     {
       "augmentId": 1105,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0257,
       "contributions": [
         {
@@ -261,7 +359,7 @@
     },
     {
       "augmentId": 1116,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0169,
       "contributions": [
         {
@@ -275,7 +373,7 @@
     },
     {
       "augmentId": 1134,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0492,
       "contributions": [
         {
@@ -289,7 +387,7 @@
     },
     {
       "augmentId": 1154,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0181,
       "contributions": [
         {
@@ -303,7 +401,7 @@
     },
     {
       "augmentId": 1195,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0805,
       "contributions": [
         {
@@ -316,22 +414,8 @@
       ]
     },
     {
-      "augmentId": 1206,
-      "tier": 3,
-      "pickrate": 0.0358,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/quinn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6229
-        }
-      ]
-    },
-    {
       "augmentId": 1220,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.1035,
       "contributions": [
         {
@@ -344,22 +428,8 @@
       ]
     },
     {
-      "augmentId": 1225,
-      "tier": 3,
-      "pickrate": 0.1181,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/quinn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 20554
-        }
-      ]
-    },
-    {
       "augmentId": 1238,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0877,
       "contributions": [
         {
@@ -372,8 +442,22 @@
       ]
     },
     {
+      "augmentId": 1243,
+      "tier": "C",
+      "pickrate": 0.0239,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/quinn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4158
+        }
+      ]
+    },
+    {
       "augmentId": 1308,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0035,
       "contributions": [
         {
@@ -386,22 +470,8 @@
       ]
     },
     {
-      "augmentId": 1315,
-      "tier": 3,
-      "pickrate": 0.0067,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/quinn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1161
-        }
-      ]
-    },
-    {
       "augmentId": 1328,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.1144,
       "contributions": [
         {
@@ -414,22 +484,8 @@
       ]
     },
     {
-      "augmentId": 1333,
-      "tier": 3,
-      "pickrate": 0.0371,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/quinn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6457
-        }
-      ]
-    },
-    {
       "augmentId": 1337,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0059,
       "contributions": [
         {
@@ -442,22 +498,8 @@
       ]
     },
     {
-      "augmentId": 1356,
-      "tier": 3,
-      "pickrate": 0.2223,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/quinn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 38695
-        }
-      ]
-    },
-    {
       "augmentId": 1384,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0244,
       "contributions": [
         {
@@ -470,22 +512,8 @@
       ]
     },
     {
-      "augmentId": 1389,
-      "tier": 3,
-      "pickrate": 0.002,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/quinn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 341
-        }
-      ]
-    },
-    {
       "augmentId": 1402,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0067,
       "contributions": [
         {
@@ -498,22 +526,8 @@
       ]
     },
     {
-      "augmentId": 2009,
-      "tier": 3,
-      "pickrate": 0.0432,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/quinn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 7517
-        }
-      ]
-    },
-    {
       "augmentId": 2016,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0036,
       "contributions": [
         {
@@ -527,7 +541,7 @@
     },
     {
       "augmentId": 2083,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0617,
       "contributions": [
         {
@@ -541,7 +555,7 @@
     },
     {
       "augmentId": 2141,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0261,
       "contributions": [
         {
@@ -555,7 +569,7 @@
     },
     {
       "augmentId": 1004,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0398,
       "contributions": [
         {
@@ -569,7 +583,7 @@
     },
     {
       "augmentId": 1006,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0092,
       "contributions": [
         {
@@ -583,7 +597,7 @@
     },
     {
       "augmentId": 1029,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0245,
       "contributions": [
         {
@@ -597,7 +611,7 @@
     },
     {
       "augmentId": 1046,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0098,
       "contributions": [
         {
@@ -611,7 +625,7 @@
     },
     {
       "augmentId": 1047,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0609,
       "contributions": [
         {
@@ -625,7 +639,7 @@
     },
     {
       "augmentId": 1048,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.043,
       "contributions": [
         {
@@ -639,7 +653,7 @@
     },
     {
       "augmentId": 1061,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0064,
       "contributions": [
         {
@@ -653,7 +667,7 @@
     },
     {
       "augmentId": 1063,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.003,
       "contributions": [
         {
@@ -667,7 +681,7 @@
     },
     {
       "augmentId": 1071,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0892,
       "contributions": [
         {
@@ -681,7 +695,7 @@
     },
     {
       "augmentId": 1073,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0126,
       "contributions": [
         {
@@ -695,7 +709,7 @@
     },
     {
       "augmentId": 1074,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0349,
       "contributions": [
         {
@@ -709,7 +723,7 @@
     },
     {
       "augmentId": 1079,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0234,
       "contributions": [
         {
@@ -723,7 +737,7 @@
     },
     {
       "augmentId": 1084,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0539,
       "contributions": [
         {
@@ -737,7 +751,7 @@
     },
     {
       "augmentId": 1087,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0528,
       "contributions": [
         {
@@ -751,7 +765,7 @@
     },
     {
       "augmentId": 1115,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0455,
       "contributions": [
         {
@@ -765,7 +779,7 @@
     },
     {
       "augmentId": 1151,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0188,
       "contributions": [
         {
@@ -779,7 +793,7 @@
     },
     {
       "augmentId": 1170,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0371,
       "contributions": [
         {
@@ -793,7 +807,7 @@
     },
     {
       "augmentId": 1194,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0083,
       "contributions": [
         {
@@ -807,7 +821,7 @@
     },
     {
       "augmentId": 1211,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0076,
       "contributions": [
         {
@@ -821,7 +835,7 @@
     },
     {
       "augmentId": 1237,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.036,
       "contributions": [
         {
@@ -834,22 +848,8 @@
       ]
     },
     {
-      "augmentId": 1243,
-      "tier": 4,
-      "pickrate": 0.0239,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/quinn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4158
-        }
-      ]
-    },
-    {
       "augmentId": 1305,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0314,
       "contributions": [
         {
@@ -863,7 +863,7 @@
     },
     {
       "augmentId": 1320,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0922,
       "contributions": [
         {
@@ -877,7 +877,7 @@
     },
     {
       "augmentId": 1322,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0492,
       "contributions": [
         {
@@ -891,7 +891,7 @@
     },
     {
       "augmentId": 1335,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0042,
       "contributions": [
         {
@@ -905,7 +905,7 @@
     },
     {
       "augmentId": 1336,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.1838,
       "contributions": [
         {
@@ -919,7 +919,7 @@
     },
     {
       "augmentId": 1344,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0205,
       "contributions": [
         {
@@ -933,7 +933,7 @@
     },
     {
       "augmentId": 1347,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0074,
       "contributions": [
         {
@@ -947,7 +947,7 @@
     },
     {
       "augmentId": 1373,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0503,
       "contributions": [
         {
@@ -961,7 +961,7 @@
     },
     {
       "augmentId": 1392,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0037,
       "contributions": [
         {
@@ -975,7 +975,7 @@
     },
     {
       "augmentId": 1404,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0049,
       "contributions": [
         {
@@ -989,7 +989,7 @@
     },
     {
       "augmentId": 1415,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0266,
       "contributions": [
         {
@@ -1003,7 +1003,7 @@
     },
     {
       "augmentId": 1416,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0149,
       "contributions": [
         {
@@ -1017,7 +1017,7 @@
     },
     {
       "augmentId": 1996,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0076,
       "contributions": [
         {
@@ -1031,7 +1031,7 @@
     },
     {
       "augmentId": 2010,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0801,
       "contributions": [
         {
@@ -1045,7 +1045,7 @@
     },
     {
       "augmentId": 2026,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0108,
       "contributions": [
         {
@@ -1059,7 +1059,7 @@
     },
     {
       "augmentId": 2034,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0017,
       "contributions": [
         {
@@ -1073,7 +1073,7 @@
     },
     {
       "augmentId": 2127,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.019,
       "contributions": [
         {
@@ -1087,7 +1087,7 @@
     },
     {
       "augmentId": 2137,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0034,
       "contributions": [
         {
@@ -1101,7 +1101,7 @@
     },
     {
       "augmentId": 2140,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0157,
       "contributions": [
         {
@@ -1115,7 +1115,7 @@
     },
     {
       "augmentId": 12317,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0204,
       "contributions": [
         {
@@ -1129,7 +1129,7 @@
     },
     {
       "augmentId": 1002,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0034,
       "contributions": [
         {
@@ -1143,7 +1143,7 @@
     },
     {
       "augmentId": 1011,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.005,
       "contributions": [
         {
@@ -1157,7 +1157,7 @@
     },
     {
       "augmentId": 1019,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0075,
       "contributions": [
         {
@@ -1171,7 +1171,7 @@
     },
     {
       "augmentId": 1027,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0016,
       "contributions": [
         {
@@ -1185,7 +1185,7 @@
     },
     {
       "augmentId": 1057,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0015,
       "contributions": [
         {
@@ -1199,7 +1199,7 @@
     },
     {
       "augmentId": 1058,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0196,
       "contributions": [
         {
@@ -1213,7 +1213,7 @@
     },
     {
       "augmentId": 1060,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0062,
       "contributions": [
         {
@@ -1227,7 +1227,7 @@
     },
     {
       "augmentId": 1068,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0237,
       "contributions": [
         {
@@ -1241,7 +1241,7 @@
     },
     {
       "augmentId": 1098,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0089,
       "contributions": [
         {
@@ -1255,7 +1255,7 @@
     },
     {
       "augmentId": 1103,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0192,
       "contributions": [
         {
@@ -1269,7 +1269,7 @@
     },
     {
       "augmentId": 1112,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0033,
       "contributions": [
         {
@@ -1283,7 +1283,7 @@
     },
     {
       "augmentId": 1113,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0136,
       "contributions": [
         {
@@ -1297,7 +1297,7 @@
     },
     {
       "augmentId": 1133,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0137,
       "contributions": [
         {
@@ -1311,7 +1311,7 @@
     },
     {
       "augmentId": 1150,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0026,
       "contributions": [
         {
@@ -1325,7 +1325,7 @@
     },
     {
       "augmentId": 1325,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0028,
       "contributions": [
         {
@@ -1339,7 +1339,7 @@
     },
     {
       "augmentId": 1326,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0306,
       "contributions": [
         {
@@ -1353,7 +1353,7 @@
     },
     {
       "augmentId": 1329,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0102,
       "contributions": [
         {
@@ -1367,7 +1367,7 @@
     },
     {
       "augmentId": 1345,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0089,
       "contributions": [
         {
@@ -1381,7 +1381,7 @@
     },
     {
       "augmentId": 1349,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0024,
       "contributions": [
         {
@@ -1395,7 +1395,7 @@
     },
     {
       "augmentId": 1358,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0027,
       "contributions": [
         {
@@ -1409,7 +1409,7 @@
     },
     {
       "augmentId": 1386,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0017,
       "contributions": [
         {
@@ -1423,7 +1423,7 @@
     },
     {
       "augmentId": 1388,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0064,
       "contributions": [
         {
@@ -1437,7 +1437,7 @@
     },
     {
       "augmentId": 2005,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0059,
       "contributions": [
         {
@@ -1451,7 +1451,7 @@
     },
     {
       "augmentId": 2024,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0242,
       "contributions": [
         {
@@ -1465,7 +1465,7 @@
     },
     {
       "augmentId": 2055,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0171,
       "contributions": [
         {
@@ -1479,7 +1479,7 @@
     },
     {
       "augmentId": 2072,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0173,
       "contributions": [
         {
@@ -1493,7 +1493,7 @@
     },
     {
       "augmentId": 2080,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0024,
       "contributions": [
         {
@@ -1507,7 +1507,7 @@
     },
     {
       "augmentId": 2087,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0046,
       "contributions": [
         {
@@ -1521,7 +1521,7 @@
     },
     {
       "augmentId": 2088,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0018,
       "contributions": [
         {
@@ -1535,7 +1535,7 @@
     },
     {
       "augmentId": 2089,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0073,
       "contributions": [
         {
@@ -1549,7 +1549,7 @@
     },
     {
       "augmentId": 2098,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0082,
       "contributions": [
         {
@@ -1563,7 +1563,7 @@
     },
     {
       "augmentId": 2099,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.009,
       "contributions": [
         {
@@ -1577,7 +1577,7 @@
     },
     {
       "augmentId": 2100,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0272,
       "contributions": [
         {
@@ -1591,7 +1591,7 @@
     },
     {
       "augmentId": 2103,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0031,
       "contributions": [
         {
@@ -1605,7 +1605,7 @@
     },
     {
       "augmentId": 2107,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0027,
       "contributions": [
         {
@@ -1619,7 +1619,7 @@
     },
     {
       "augmentId": 2116,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0189,
       "contributions": [
         {
@@ -1633,7 +1633,7 @@
     },
     {
       "augmentId": 2119,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0015,
       "contributions": [
         {
@@ -1647,7 +1647,7 @@
     },
     {
       "augmentId": 2123,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0106,
       "contributions": [
         {
@@ -1661,7 +1661,7 @@
     },
     {
       "augmentId": 2131,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0029,
       "contributions": [
         {

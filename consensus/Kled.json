@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "method": "warden-performance-tiers-v1",
+  "version": 2,
+  "method": "warden-win-ratio-grades-v2",
   "championId": 240,
   "championKey": "Kled",
   "set": "aram",
@@ -9,7 +9,7 @@
   "augments": [
     {
       "augmentId": 1152,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.1056,
       "contributions": [
         {
@@ -23,7 +23,7 @@
     },
     {
       "augmentId": 1041,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0802,
       "contributions": [
         {
@@ -37,7 +37,7 @@
     },
     {
       "augmentId": 1181,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.1139,
       "contributions": [
         {
@@ -51,7 +51,7 @@
     },
     {
       "augmentId": 1361,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0209,
       "contributions": [
         {
@@ -65,7 +65,7 @@
     },
     {
       "augmentId": 2095,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0223,
       "contributions": [
         {
@@ -79,7 +79,7 @@
     },
     {
       "augmentId": 2102,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0476,
       "contributions": [
         {
@@ -93,7 +93,7 @@
     },
     {
       "augmentId": 2141,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0759,
       "contributions": [
         {
@@ -106,64 +106,8 @@
       ]
     },
     {
-      "augmentId": 1007,
-      "tier": 3,
-      "pickrate": 0.0875,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 7251
-        }
-      ]
-    },
-    {
-      "augmentId": 1013,
-      "tier": 3,
-      "pickrate": 0.0784,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6496
-        }
-      ]
-    },
-    {
-      "augmentId": 1025,
-      "tier": 3,
-      "pickrate": 0.0346,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2868
-        }
-      ]
-    },
-    {
-      "augmentId": 1029,
-      "tier": 3,
-      "pickrate": 0.0552,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4574
-        }
-      ]
-    },
-    {
       "augmentId": 1053,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0344,
       "contributions": [
         {
@@ -176,78 +120,8 @@
       ]
     },
     {
-      "augmentId": 1062,
-      "tier": 3,
-      "pickrate": 0.0083,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 692
-        }
-      ]
-    },
-    {
-      "augmentId": 1071,
-      "tier": 3,
-      "pickrate": 0.0692,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 5740
-        }
-      ]
-    },
-    {
-      "augmentId": 1073,
-      "tier": 3,
-      "pickrate": 0.024,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1988
-        }
-      ]
-    },
-    {
-      "augmentId": 1087,
-      "tier": 3,
-      "pickrate": 0.0086,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 712
-        }
-      ]
-    },
-    {
-      "augmentId": 1115,
-      "tier": 3,
-      "pickrate": 0.0242,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2010
-        }
-      ]
-    },
-    {
       "augmentId": 1225,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0192,
       "contributions": [
         {
@@ -260,78 +134,8 @@
       ]
     },
     {
-      "augmentId": 1238,
-      "tier": 3,
-      "pickrate": 0.1058,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 8769
-        }
-      ]
-    },
-    {
-      "augmentId": 1243,
-      "tier": 3,
-      "pickrate": 0.0305,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2531
-        }
-      ]
-    },
-    {
-      "augmentId": 1310,
-      "tier": 3,
-      "pickrate": 0.0394,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3263
-        }
-      ]
-    },
-    {
-      "augmentId": 1319,
-      "tier": 3,
-      "pickrate": 0.0316,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2617
-        }
-      ]
-    },
-    {
-      "augmentId": 1322,
-      "tier": 3,
-      "pickrate": 0.0409,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3391
-        }
-      ]
-    },
-    {
       "augmentId": 1333,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0589,
       "contributions": [
         {
@@ -344,22 +148,8 @@
       ]
     },
     {
-      "augmentId": 1337,
-      "tier": 3,
-      "pickrate": 0.0092,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 765
-        }
-      ]
-    },
-    {
       "augmentId": 1353,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.138,
       "contributions": [
         {
@@ -373,7 +163,7 @@
     },
     {
       "augmentId": 1384,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0343,
       "contributions": [
         {
@@ -386,36 +176,8 @@
       ]
     },
     {
-      "augmentId": 1401,
-      "tier": 3,
-      "pickrate": 0.0558,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4629
-        }
-      ]
-    },
-    {
-      "augmentId": 1402,
-      "tier": 3,
-      "pickrate": 0.0083,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 690
-        }
-      ]
-    },
-    {
       "augmentId": 1403,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0242,
       "contributions": [
         {
@@ -429,7 +191,7 @@
     },
     {
       "augmentId": 1404,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0059,
       "contributions": [
         {
@@ -442,22 +204,8 @@
       ]
     },
     {
-      "augmentId": 2026,
-      "tier": 3,
-      "pickrate": 0.016,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1325
-        }
-      ]
-    },
-    {
       "augmentId": 2031,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0203,
       "contributions": [
         {
@@ -470,8 +218,274 @@
       ]
     },
     {
+      "augmentId": 2127,
+      "tier": "B",
+      "pickrate": 0.0304,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2518
+        }
+      ]
+    },
+    {
+      "augmentId": 1007,
+      "tier": "C",
+      "pickrate": 0.0875,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7251
+        }
+      ]
+    },
+    {
+      "augmentId": 1013,
+      "tier": "C",
+      "pickrate": 0.0784,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6496
+        }
+      ]
+    },
+    {
+      "augmentId": 1025,
+      "tier": "C",
+      "pickrate": 0.0346,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2868
+        }
+      ]
+    },
+    {
+      "augmentId": 1029,
+      "tier": "C",
+      "pickrate": 0.0552,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4574
+        }
+      ]
+    },
+    {
+      "augmentId": 1062,
+      "tier": "C",
+      "pickrate": 0.0083,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 692
+        }
+      ]
+    },
+    {
+      "augmentId": 1071,
+      "tier": "C",
+      "pickrate": 0.0692,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5740
+        }
+      ]
+    },
+    {
+      "augmentId": 1073,
+      "tier": "C",
+      "pickrate": 0.024,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1988
+        }
+      ]
+    },
+    {
+      "augmentId": 1087,
+      "tier": "C",
+      "pickrate": 0.0086,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 712
+        }
+      ]
+    },
+    {
+      "augmentId": 1115,
+      "tier": "C",
+      "pickrate": 0.0242,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2010
+        }
+      ]
+    },
+    {
+      "augmentId": 1238,
+      "tier": "C",
+      "pickrate": 0.1058,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8769
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": "C",
+      "pickrate": 0.0305,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2531
+        }
+      ]
+    },
+    {
+      "augmentId": 1310,
+      "tier": "C",
+      "pickrate": 0.0394,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3263
+        }
+      ]
+    },
+    {
+      "augmentId": 1319,
+      "tier": "C",
+      "pickrate": 0.0316,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2617
+        }
+      ]
+    },
+    {
+      "augmentId": 1322,
+      "tier": "C",
+      "pickrate": 0.0409,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3391
+        }
+      ]
+    },
+    {
+      "augmentId": 1337,
+      "tier": "C",
+      "pickrate": 0.0092,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 765
+        }
+      ]
+    },
+    {
+      "augmentId": 1401,
+      "tier": "C",
+      "pickrate": 0.0558,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4629
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": "C",
+      "pickrate": 0.0083,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 690
+        }
+      ]
+    },
+    {
+      "augmentId": 2026,
+      "tier": "C",
+      "pickrate": 0.016,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1325
+        }
+      ]
+    },
+    {
       "augmentId": 2091,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0948,
       "contributions": [
         {
@@ -485,7 +499,7 @@
     },
     {
       "augmentId": 2107,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0143,
       "contributions": [
         {
@@ -498,22 +512,8 @@
       ]
     },
     {
-      "augmentId": 2127,
-      "tier": 3,
-      "pickrate": 0.0304,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kled?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2518
-        }
-      ]
-    },
-    {
       "augmentId": 1001,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0379,
       "contributions": [
         {
@@ -527,7 +527,7 @@
     },
     {
       "augmentId": 1002,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0349,
       "contributions": [
         {
@@ -541,7 +541,7 @@
     },
     {
       "augmentId": 1004,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0268,
       "contributions": [
         {
@@ -555,7 +555,7 @@
     },
     {
       "augmentId": 1006,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0262,
       "contributions": [
         {
@@ -569,7 +569,7 @@
     },
     {
       "augmentId": 1019,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0141,
       "contributions": [
         {
@@ -583,7 +583,7 @@
     },
     {
       "augmentId": 1020,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0446,
       "contributions": [
         {
@@ -597,7 +597,7 @@
     },
     {
       "augmentId": 1022,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0276,
       "contributions": [
         {
@@ -611,7 +611,7 @@
     },
     {
       "augmentId": 1027,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.008,
       "contributions": [
         {
@@ -625,7 +625,7 @@
     },
     {
       "augmentId": 1028,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0103,
       "contributions": [
         {
@@ -639,7 +639,7 @@
     },
     {
       "augmentId": 1038,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0177,
       "contributions": [
         {
@@ -653,7 +653,7 @@
     },
     {
       "augmentId": 1046,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0071,
       "contributions": [
         {
@@ -667,7 +667,7 @@
     },
     {
       "augmentId": 1060,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0114,
       "contributions": [
         {
@@ -681,7 +681,7 @@
     },
     {
       "augmentId": 1063,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0301,
       "contributions": [
         {
@@ -695,7 +695,7 @@
     },
     {
       "augmentId": 1068,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0384,
       "contributions": [
         {
@@ -709,7 +709,7 @@
     },
     {
       "augmentId": 1079,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0312,
       "contributions": [
         {
@@ -723,7 +723,7 @@
     },
     {
       "augmentId": 1081,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0064,
       "contributions": [
         {
@@ -737,7 +737,7 @@
     },
     {
       "augmentId": 1084,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0282,
       "contributions": [
         {
@@ -751,7 +751,7 @@
     },
     {
       "augmentId": 1116,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0304,
       "contributions": [
         {
@@ -765,7 +765,7 @@
     },
     {
       "augmentId": 1138,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.055,
       "contributions": [
         {
@@ -779,7 +779,7 @@
     },
     {
       "augmentId": 1151,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0131,
       "contributions": [
         {
@@ -793,7 +793,7 @@
     },
     {
       "augmentId": 1170,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0314,
       "contributions": [
         {
@@ -807,7 +807,7 @@
     },
     {
       "augmentId": 1195,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0103,
       "contributions": [
         {
@@ -821,7 +821,7 @@
     },
     {
       "augmentId": 1237,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0505,
       "contributions": [
         {
@@ -835,7 +835,7 @@
     },
     {
       "augmentId": 1305,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0365,
       "contributions": [
         {
@@ -849,7 +849,7 @@
     },
     {
       "augmentId": 1308,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0052,
       "contributions": [
         {
@@ -863,7 +863,7 @@
     },
     {
       "augmentId": 1315,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.016,
       "contributions": [
         {
@@ -877,7 +877,7 @@
     },
     {
       "augmentId": 1329,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0353,
       "contributions": [
         {
@@ -891,7 +891,7 @@
     },
     {
       "augmentId": 1358,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0232,
       "contributions": [
         {
@@ -905,7 +905,7 @@
     },
     {
       "augmentId": 1373,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0205,
       "contributions": [
         {
@@ -919,7 +919,7 @@
     },
     {
       "augmentId": 1421,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.006,
       "contributions": [
         {
@@ -933,7 +933,7 @@
     },
     {
       "augmentId": 2005,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0345,
       "contributions": [
         {
@@ -947,7 +947,7 @@
     },
     {
       "augmentId": 2006,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.1133,
       "contributions": [
         {
@@ -961,7 +961,7 @@
     },
     {
       "augmentId": 2034,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0146,
       "contributions": [
         {
@@ -975,7 +975,7 @@
     },
     {
       "augmentId": 2083,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0313,
       "contributions": [
         {
@@ -989,7 +989,7 @@
     },
     {
       "augmentId": 2089,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0122,
       "contributions": [
         {
@@ -1003,7 +1003,7 @@
     },
     {
       "augmentId": 2098,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0159,
       "contributions": [
         {
@@ -1017,7 +1017,7 @@
     },
     {
       "augmentId": 2119,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0103,
       "contributions": [
         {
@@ -1031,7 +1031,7 @@
     },
     {
       "augmentId": 2137,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0074,
       "contributions": [
         {
@@ -1045,7 +1045,7 @@
     },
     {
       "augmentId": 2139,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0266,
       "contributions": [
         {
@@ -1059,7 +1059,7 @@
     },
     {
       "augmentId": 12317,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0272,
       "contributions": [
         {
@@ -1073,7 +1073,7 @@
     },
     {
       "augmentId": 1011,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0036,
       "contributions": [
         {
@@ -1087,7 +1087,7 @@
     },
     {
       "augmentId": 1034,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0083,
       "contributions": [
         {
@@ -1101,7 +1101,7 @@
     },
     {
       "augmentId": 1036,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0222,
       "contributions": [
         {
@@ -1115,7 +1115,7 @@
     },
     {
       "augmentId": 1048,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0106,
       "contributions": [
         {
@@ -1129,7 +1129,7 @@
     },
     {
       "augmentId": 1057,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0043,
       "contributions": [
         {
@@ -1143,7 +1143,7 @@
     },
     {
       "augmentId": 1058,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0374,
       "contributions": [
         {
@@ -1157,7 +1157,7 @@
     },
     {
       "augmentId": 1074,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0191,
       "contributions": [
         {
@@ -1171,7 +1171,7 @@
     },
     {
       "augmentId": 1077,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.02,
       "contributions": [
         {
@@ -1185,7 +1185,7 @@
     },
     {
       "augmentId": 1098,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.008,
       "contributions": [
         {
@@ -1199,7 +1199,7 @@
     },
     {
       "augmentId": 1103,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0168,
       "contributions": [
         {
@@ -1213,7 +1213,7 @@
     },
     {
       "augmentId": 1211,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0068,
       "contributions": [
         {
@@ -1227,7 +1227,7 @@
     },
     {
       "augmentId": 1220,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0196,
       "contributions": [
         {
@@ -1241,7 +1241,7 @@
     },
     {
       "augmentId": 1301,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0195,
       "contributions": [
         {
@@ -1255,7 +1255,7 @@
     },
     {
       "augmentId": 1320,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0142,
       "contributions": [
         {
@@ -1269,7 +1269,7 @@
     },
     {
       "augmentId": 1326,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0171,
       "contributions": [
         {
@@ -1283,7 +1283,7 @@
     },
     {
       "augmentId": 1328,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0167,
       "contributions": [
         {
@@ -1297,7 +1297,7 @@
     },
     {
       "augmentId": 1344,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0203,
       "contributions": [
         {
@@ -1311,7 +1311,7 @@
     },
     {
       "augmentId": 1345,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0165,
       "contributions": [
         {
@@ -1325,7 +1325,7 @@
     },
     {
       "augmentId": 1349,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0083,
       "contributions": [
         {
@@ -1339,7 +1339,7 @@
     },
     {
       "augmentId": 1386,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0047,
       "contributions": [
         {
@@ -1353,7 +1353,7 @@
     },
     {
       "augmentId": 1388,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.011,
       "contributions": [
         {
@@ -1367,7 +1367,7 @@
     },
     {
       "augmentId": 1392,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0114,
       "contributions": [
         {
@@ -1381,7 +1381,7 @@
     },
     {
       "augmentId": 1413,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0075,
       "contributions": [
         {
@@ -1395,7 +1395,7 @@
     },
     {
       "augmentId": 1415,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0054,
       "contributions": [
         {
@@ -1409,7 +1409,7 @@
     },
     {
       "augmentId": 1996,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0212,
       "contributions": [
         {
@@ -1423,7 +1423,7 @@
     },
     {
       "augmentId": 2032,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0158,
       "contributions": [
         {
@@ -1437,7 +1437,7 @@
     },
     {
       "augmentId": 2043,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0193,
       "contributions": [
         {
@@ -1451,7 +1451,7 @@
     },
     {
       "augmentId": 2080,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0215,
       "contributions": [
         {
@@ -1465,7 +1465,7 @@
     },
     {
       "augmentId": 2082,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.013,
       "contributions": [
         {
@@ -1479,7 +1479,7 @@
     },
     {
       "augmentId": 2087,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0048,
       "contributions": [
         {
@@ -1493,7 +1493,7 @@
     },
     {
       "augmentId": 2088,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0145,
       "contributions": [
         {
@@ -1507,7 +1507,7 @@
     },
     {
       "augmentId": 2115,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0061,
       "contributions": [
         {
@@ -1521,7 +1521,7 @@
     },
     {
       "augmentId": 2116,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0159,
       "contributions": [
         {
@@ -1535,7 +1535,7 @@
     },
     {
       "augmentId": 2140,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0771,
       "contributions": [
         {
@@ -1549,7 +1549,7 @@
     },
     {
       "augmentId": 2143,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0715,
       "contributions": [
         {
@@ -1563,7 +1563,7 @@
     },
     {
       "augmentId": 2157,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.1095,
       "contributions": [
         {

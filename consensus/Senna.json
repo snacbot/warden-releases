@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "method": "warden-performance-tiers-v1",
+  "version": 2,
+  "method": "warden-win-ratio-grades-v2",
   "championId": 235,
   "championKey": "Senna",
   "set": "aram",
@@ -9,7 +9,7 @@
   "augments": [
     {
       "augmentId": 1005,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0122,
       "contributions": [
         {
@@ -23,7 +23,7 @@
     },
     {
       "augmentId": 1204,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0756,
       "contributions": [
         {
@@ -37,7 +37,7 @@
     },
     {
       "augmentId": 2095,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0539,
       "contributions": [
         {
@@ -51,7 +51,7 @@
     },
     {
       "augmentId": 1053,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0179,
       "contributions": [
         {
@@ -65,7 +65,7 @@
     },
     {
       "augmentId": 1095,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0059,
       "contributions": [
         {
@@ -79,7 +79,7 @@
     },
     {
       "augmentId": 1154,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0171,
       "contributions": [
         {
@@ -93,7 +93,7 @@
     },
     {
       "augmentId": 1389,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0032,
       "contributions": [
         {
@@ -106,92 +106,8 @@
       ]
     },
     {
-      "augmentId": 1007,
-      "tier": 3,
-      "pickrate": 0.0656,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 40273
-        }
-      ]
-    },
-    {
-      "augmentId": 1028,
-      "tier": 3,
-      "pickrate": 0.013,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 7982
-        }
-      ]
-    },
-    {
-      "augmentId": 1036,
-      "tier": 3,
-      "pickrate": 0.0318,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 19539
-        }
-      ]
-    },
-    {
-      "augmentId": 1037,
-      "tier": 3,
-      "pickrate": 0.019,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 11645
-        }
-      ]
-    },
-    {
-      "augmentId": 1038,
-      "tier": 3,
-      "pickrate": 0.0327,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 20063
-        }
-      ]
-    },
-    {
-      "augmentId": 1051,
-      "tier": 3,
-      "pickrate": 0.0283,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 17363
-        }
-      ]
-    },
-    {
       "augmentId": 1060,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0107,
       "contributions": [
         {
@@ -204,106 +120,8 @@
       ]
     },
     {
-      "augmentId": 1061,
-      "tier": 3,
-      "pickrate": 0.0046,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2814
-        }
-      ]
-    },
-    {
-      "augmentId": 1062,
-      "tier": 3,
-      "pickrate": 0.0074,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4569
-        }
-      ]
-    },
-    {
-      "augmentId": 1068,
-      "tier": 3,
-      "pickrate": 0.0232,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 14263
-        }
-      ]
-    },
-    {
-      "augmentId": 1071,
-      "tier": 3,
-      "pickrate": 0.1154,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 70844
-        }
-      ]
-    },
-    {
-      "augmentId": 1076,
-      "tier": 3,
-      "pickrate": 0.0142,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 8744
-        }
-      ]
-    },
-    {
-      "augmentId": 1081,
-      "tier": 3,
-      "pickrate": 0.0637,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 39145
-        }
-      ]
-    },
-    {
-      "augmentId": 1087,
-      "tier": 3,
-      "pickrate": 0.0673,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 41326
-        }
-      ]
-    },
-    {
       "augmentId": 1105,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0339,
       "contributions": [
         {
@@ -316,36 +134,8 @@
       ]
     },
     {
-      "augmentId": 1118,
-      "tier": 3,
-      "pickrate": 0.0584,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 35845
-        }
-      ]
-    },
-    {
-      "augmentId": 1134,
-      "tier": 3,
-      "pickrate": 0.021,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 12897
-        }
-      ]
-    },
-    {
       "augmentId": 1141,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.014,
       "contributions": [
         {
@@ -359,7 +149,7 @@
     },
     {
       "augmentId": 1195,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0283,
       "contributions": [
         {
@@ -373,7 +163,7 @@
     },
     {
       "augmentId": 1206,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0441,
       "contributions": [
         {
@@ -386,50 +176,8 @@
       ]
     },
     {
-      "augmentId": 1220,
-      "tier": 3,
-      "pickrate": 0.0786,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 48276
-        }
-      ]
-    },
-    {
-      "augmentId": 1225,
-      "tier": 3,
-      "pickrate": 0.1088,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 66807
-        }
-      ]
-    },
-    {
-      "augmentId": 1238,
-      "tier": 3,
-      "pickrate": 0.0792,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 48623
-        }
-      ]
-    },
-    {
       "augmentId": 1324,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0115,
       "contributions": [
         {
@@ -442,50 +190,8 @@
       ]
     },
     {
-      "augmentId": 1335,
-      "tier": 3,
-      "pickrate": 0.0065,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3987
-        }
-      ]
-    },
-    {
-      "augmentId": 1337,
-      "tier": 3,
-      "pickrate": 0.004,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2463
-        }
-      ]
-    },
-    {
-      "augmentId": 1356,
-      "tier": 3,
-      "pickrate": 0.1976,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 121364
-        }
-      ]
-    },
-    {
       "augmentId": 1373,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0683,
       "contributions": [
         {
@@ -499,7 +205,7 @@
     },
     {
       "augmentId": 1379,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0433,
       "contributions": [
         {
@@ -512,36 +218,8 @@
       ]
     },
     {
-      "augmentId": 1384,
-      "tier": 3,
-      "pickrate": 0.02,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 12302
-        }
-      ]
-    },
-    {
-      "augmentId": 1388,
-      "tier": 3,
-      "pickrate": 0.0186,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 11449
-        }
-      ]
-    },
-    {
       "augmentId": 1403,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0145,
       "contributions": [
         {
@@ -555,7 +233,7 @@
     },
     {
       "augmentId": 1420,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0132,
       "contributions": [
         {
@@ -568,22 +246,8 @@
       ]
     },
     {
-      "augmentId": 2089,
-      "tier": 3,
-      "pickrate": 0.0093,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 5687
-        }
-      ]
-    },
-    {
       "augmentId": 2104,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0153,
       "contributions": [
         {
@@ -596,8 +260,358 @@
       ]
     },
     {
+      "augmentId": 2141,
+      "tier": "B",
+      "pickrate": 0.0287,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17602
+        }
+      ]
+    },
+    {
+      "augmentId": 1007,
+      "tier": "C",
+      "pickrate": 0.0656,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 40273
+        }
+      ]
+    },
+    {
+      "augmentId": 1028,
+      "tier": "C",
+      "pickrate": 0.013,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7982
+        }
+      ]
+    },
+    {
+      "augmentId": 1036,
+      "tier": "C",
+      "pickrate": 0.0318,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 19539
+        }
+      ]
+    },
+    {
+      "augmentId": 1037,
+      "tier": "C",
+      "pickrate": 0.019,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11645
+        }
+      ]
+    },
+    {
+      "augmentId": 1038,
+      "tier": "C",
+      "pickrate": 0.0327,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 20063
+        }
+      ]
+    },
+    {
+      "augmentId": 1051,
+      "tier": "C",
+      "pickrate": 0.0283,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17363
+        }
+      ]
+    },
+    {
+      "augmentId": 1061,
+      "tier": "C",
+      "pickrate": 0.0046,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2814
+        }
+      ]
+    },
+    {
+      "augmentId": 1062,
+      "tier": "C",
+      "pickrate": 0.0074,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4569
+        }
+      ]
+    },
+    {
+      "augmentId": 1068,
+      "tier": "C",
+      "pickrate": 0.0232,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14263
+        }
+      ]
+    },
+    {
+      "augmentId": 1071,
+      "tier": "C",
+      "pickrate": 0.1154,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 70844
+        }
+      ]
+    },
+    {
+      "augmentId": 1076,
+      "tier": "C",
+      "pickrate": 0.0142,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8744
+        }
+      ]
+    },
+    {
+      "augmentId": 1081,
+      "tier": "C",
+      "pickrate": 0.0637,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 39145
+        }
+      ]
+    },
+    {
+      "augmentId": 1087,
+      "tier": "C",
+      "pickrate": 0.0673,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 41326
+        }
+      ]
+    },
+    {
+      "augmentId": 1118,
+      "tier": "C",
+      "pickrate": 0.0584,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 35845
+        }
+      ]
+    },
+    {
+      "augmentId": 1134,
+      "tier": "C",
+      "pickrate": 0.021,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12897
+        }
+      ]
+    },
+    {
+      "augmentId": 1220,
+      "tier": "C",
+      "pickrate": 0.0786,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 48276
+        }
+      ]
+    },
+    {
+      "augmentId": 1225,
+      "tier": "C",
+      "pickrate": 0.1088,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 66807
+        }
+      ]
+    },
+    {
+      "augmentId": 1238,
+      "tier": "C",
+      "pickrate": 0.0792,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 48623
+        }
+      ]
+    },
+    {
+      "augmentId": 1335,
+      "tier": "C",
+      "pickrate": 0.0065,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3987
+        }
+      ]
+    },
+    {
+      "augmentId": 1337,
+      "tier": "C",
+      "pickrate": 0.004,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2463
+        }
+      ]
+    },
+    {
+      "augmentId": 1356,
+      "tier": "C",
+      "pickrate": 0.1976,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 121364
+        }
+      ]
+    },
+    {
+      "augmentId": 1384,
+      "tier": "C",
+      "pickrate": 0.02,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12302
+        }
+      ]
+    },
+    {
+      "augmentId": 1388,
+      "tier": "C",
+      "pickrate": 0.0186,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11449
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": "C",
+      "pickrate": 0.0093,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5687
+        }
+      ]
+    },
+    {
       "augmentId": 2119,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0005,
       "contributions": [
         {
@@ -611,7 +625,7 @@
     },
     {
       "augmentId": 2127,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0196,
       "contributions": [
         {
@@ -624,22 +638,8 @@
       ]
     },
     {
-      "augmentId": 2141,
-      "tier": 3,
-      "pickrate": 0.0287,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 17602
-        }
-      ]
-    },
-    {
       "augmentId": 1002,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0059,
       "contributions": [
         {
@@ -653,7 +653,7 @@
     },
     {
       "augmentId": 1004,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0296,
       "contributions": [
         {
@@ -667,7 +667,7 @@
     },
     {
       "augmentId": 1015,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0109,
       "contributions": [
         {
@@ -681,7 +681,7 @@
     },
     {
       "augmentId": 1022,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0755,
       "contributions": [
         {
@@ -695,7 +695,7 @@
     },
     {
       "augmentId": 1046,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0087,
       "contributions": [
         {
@@ -709,7 +709,7 @@
     },
     {
       "augmentId": 1054,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0141,
       "contributions": [
         {
@@ -723,7 +723,7 @@
     },
     {
       "augmentId": 1056,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.002,
       "contributions": [
         {
@@ -737,7 +737,7 @@
     },
     {
       "augmentId": 1057,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0016,
       "contributions": [
         {
@@ -751,7 +751,7 @@
     },
     {
       "augmentId": 1058,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0348,
       "contributions": [
         {
@@ -765,7 +765,7 @@
     },
     {
       "augmentId": 1072,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0071,
       "contributions": [
         {
@@ -779,7 +779,7 @@
     },
     {
       "augmentId": 1074,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0428,
       "contributions": [
         {
@@ -793,7 +793,7 @@
     },
     {
       "augmentId": 1077,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.1048,
       "contributions": [
         {
@@ -807,7 +807,7 @@
     },
     {
       "augmentId": 1080,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0412,
       "contributions": [
         {
@@ -821,7 +821,7 @@
     },
     {
       "augmentId": 1084,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0299,
       "contributions": [
         {
@@ -835,7 +835,7 @@
     },
     {
       "augmentId": 1092,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.1497,
       "contributions": [
         {
@@ -849,7 +849,7 @@
     },
     {
       "augmentId": 1097,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0009,
       "contributions": [
         {
@@ -863,7 +863,7 @@
     },
     {
       "augmentId": 1098,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0088,
       "contributions": [
         {
@@ -877,7 +877,7 @@
     },
     {
       "augmentId": 1103,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0299,
       "contributions": [
         {
@@ -891,7 +891,7 @@
     },
     {
       "augmentId": 1113,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0207,
       "contributions": [
         {
@@ -905,7 +905,7 @@
     },
     {
       "augmentId": 1115,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0697,
       "contributions": [
         {
@@ -919,7 +919,7 @@
     },
     {
       "augmentId": 1129,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0044,
       "contributions": [
         {
@@ -933,7 +933,7 @@
     },
     {
       "augmentId": 1170,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0577,
       "contributions": [
         {
@@ -947,7 +947,7 @@
     },
     {
       "augmentId": 1237,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0391,
       "contributions": [
         {
@@ -961,7 +961,7 @@
     },
     {
       "augmentId": 1243,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0237,
       "contributions": [
         {
@@ -975,7 +975,7 @@
     },
     {
       "augmentId": 1301,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0113,
       "contributions": [
         {
@@ -989,7 +989,7 @@
     },
     {
       "augmentId": 1308,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0033,
       "contributions": [
         {
@@ -1003,7 +1003,7 @@
     },
     {
       "augmentId": 1318,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0005,
       "contributions": [
         {
@@ -1017,7 +1017,7 @@
     },
     {
       "augmentId": 1320,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0742,
       "contributions": [
         {
@@ -1031,7 +1031,7 @@
     },
     {
       "augmentId": 1322,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0282,
       "contributions": [
         {
@@ -1045,7 +1045,7 @@
     },
     {
       "augmentId": 1326,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0063,
       "contributions": [
         {
@@ -1059,7 +1059,7 @@
     },
     {
       "augmentId": 1328,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0913,
       "contributions": [
         {
@@ -1073,7 +1073,7 @@
     },
     {
       "augmentId": 1331,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.004,
       "contributions": [
         {
@@ -1087,7 +1087,7 @@
     },
     {
       "augmentId": 1332,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0024,
       "contributions": [
         {
@@ -1101,7 +1101,7 @@
     },
     {
       "augmentId": 1336,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.1361,
       "contributions": [
         {
@@ -1115,7 +1115,7 @@
     },
     {
       "augmentId": 1345,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0084,
       "contributions": [
         {
@@ -1129,7 +1129,7 @@
     },
     {
       "augmentId": 1386,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0013,
       "contributions": [
         {
@@ -1143,7 +1143,7 @@
     },
     {
       "augmentId": 1390,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0059,
       "contributions": [
         {
@@ -1157,7 +1157,7 @@
     },
     {
       "augmentId": 1402,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0072,
       "contributions": [
         {
@@ -1171,7 +1171,7 @@
     },
     {
       "augmentId": 1404,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0051,
       "contributions": [
         {
@@ -1185,7 +1185,7 @@
     },
     {
       "augmentId": 1415,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0434,
       "contributions": [
         {
@@ -1199,7 +1199,7 @@
     },
     {
       "augmentId": 1416,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0193,
       "contributions": [
         {
@@ -1213,7 +1213,7 @@
     },
     {
       "augmentId": 1996,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0156,
       "contributions": [
         {
@@ -1227,7 +1227,7 @@
     },
     {
       "augmentId": 2004,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0118,
       "contributions": [
         {
@@ -1241,7 +1241,7 @@
     },
     {
       "augmentId": 2009,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0471,
       "contributions": [
         {
@@ -1255,7 +1255,7 @@
     },
     {
       "augmentId": 2010,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0787,
       "contributions": [
         {
@@ -1269,7 +1269,7 @@
     },
     {
       "augmentId": 2016,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.009,
       "contributions": [
         {
@@ -1283,7 +1283,7 @@
     },
     {
       "augmentId": 2024,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0263,
       "contributions": [
         {
@@ -1297,7 +1297,7 @@
     },
     {
       "augmentId": 2063,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0007,
       "contributions": [
         {
@@ -1311,7 +1311,7 @@
     },
     {
       "augmentId": 2077,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0144,
       "contributions": [
         {
@@ -1324,8 +1324,22 @@
       ]
     },
     {
+      "augmentId": 2083,
+      "tier": "D",
+      "pickrate": 0.0228,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14012
+        }
+      ]
+    },
+    {
       "augmentId": 2100,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0395,
       "contributions": [
         {
@@ -1339,7 +1353,7 @@
     },
     {
       "augmentId": 2107,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0018,
       "contributions": [
         {
@@ -1353,7 +1367,7 @@
     },
     {
       "augmentId": 2116,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0273,
       "contributions": [
         {
@@ -1367,7 +1381,7 @@
     },
     {
       "augmentId": 2132,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0137,
       "contributions": [
         {
@@ -1381,7 +1395,7 @@
     },
     {
       "augmentId": 2133,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.075,
       "contributions": [
         {
@@ -1395,7 +1409,7 @@
     },
     {
       "augmentId": 2140,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0224,
       "contributions": [
         {
@@ -1409,7 +1423,7 @@
     },
     {
       "augmentId": 1011,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0016,
       "contributions": [
         {
@@ -1423,7 +1437,7 @@
     },
     {
       "augmentId": 1030,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0013,
       "contributions": [
         {
@@ -1437,7 +1451,7 @@
     },
     {
       "augmentId": 1047,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0423,
       "contributions": [
         {
@@ -1451,7 +1465,7 @@
     },
     {
       "augmentId": 1048,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0344,
       "contributions": [
         {
@@ -1465,7 +1479,7 @@
     },
     {
       "augmentId": 1079,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0304,
       "contributions": [
         {
@@ -1479,7 +1493,7 @@
     },
     {
       "augmentId": 1088,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0047,
       "contributions": [
         {
@@ -1493,7 +1507,7 @@
     },
     {
       "augmentId": 1112,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0012,
       "contributions": [
         {
@@ -1507,7 +1521,7 @@
     },
     {
       "augmentId": 1133,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.023,
       "contributions": [
         {
@@ -1521,7 +1535,7 @@
     },
     {
       "augmentId": 1150,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0074,
       "contributions": [
         {
@@ -1535,7 +1549,7 @@
     },
     {
       "augmentId": 1151,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0018,
       "contributions": [
         {
@@ -1549,7 +1563,7 @@
     },
     {
       "augmentId": 1194,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0062,
       "contributions": [
         {
@@ -1563,7 +1577,7 @@
     },
     {
       "augmentId": 1205,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0013,
       "contributions": [
         {
@@ -1577,7 +1591,7 @@
     },
     {
       "augmentId": 1211,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0029,
       "contributions": [
         {
@@ -1591,7 +1605,7 @@
     },
     {
       "augmentId": 1311,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0028,
       "contributions": [
         {
@@ -1605,7 +1619,7 @@
     },
     {
       "augmentId": 1325,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0048,
       "contributions": [
         {
@@ -1619,7 +1633,7 @@
     },
     {
       "augmentId": 1329,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0046,
       "contributions": [
         {
@@ -1633,7 +1647,7 @@
     },
     {
       "augmentId": 1344,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0041,
       "contributions": [
         {
@@ -1647,7 +1661,7 @@
     },
     {
       "augmentId": 1349,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0043,
       "contributions": [
         {
@@ -1661,7 +1675,7 @@
     },
     {
       "augmentId": 1358,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0008,
       "contributions": [
         {
@@ -1675,7 +1689,7 @@
     },
     {
       "augmentId": 1392,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0008,
       "contributions": [
         {
@@ -1689,7 +1703,7 @@
     },
     {
       "augmentId": 2005,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0017,
       "contributions": [
         {
@@ -1703,7 +1717,7 @@
     },
     {
       "augmentId": 2018,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0035,
       "contributions": [
         {
@@ -1717,7 +1731,7 @@
     },
     {
       "augmentId": 2034,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0008,
       "contributions": [
         {
@@ -1731,7 +1745,7 @@
     },
     {
       "augmentId": 2046,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0009,
       "contributions": [
         {
@@ -1745,7 +1759,7 @@
     },
     {
       "augmentId": 2055,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.01,
       "contributions": [
         {
@@ -1759,7 +1773,7 @@
     },
     {
       "augmentId": 2072,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0122,
       "contributions": [
         {
@@ -1773,7 +1787,7 @@
     },
     {
       "augmentId": 2080,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0006,
       "contributions": [
         {
@@ -1786,22 +1800,8 @@
       ]
     },
     {
-      "augmentId": 2083,
-      "tier": 5,
-      "pickrate": 0.0228,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/senna?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 14012
-        }
-      ]
-    },
-    {
       "augmentId": 2087,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0077,
       "contributions": [
         {
@@ -1815,7 +1815,7 @@
     },
     {
       "augmentId": 2088,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0006,
       "contributions": [
         {
@@ -1829,7 +1829,7 @@
     },
     {
       "augmentId": 2099,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0022,
       "contributions": [
         {
@@ -1843,7 +1843,7 @@
     },
     {
       "augmentId": 2103,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0096,
       "contributions": [
         {
@@ -1857,7 +1857,7 @@
     },
     {
       "augmentId": 2118,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0028,
       "contributions": [
         {
@@ -1871,7 +1871,7 @@
     },
     {
       "augmentId": 2134,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0011,
       "contributions": [
         {
@@ -1885,7 +1885,7 @@
     },
     {
       "augmentId": 12317,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0182,
       "contributions": [
         {

@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "method": "warden-performance-tiers-v1",
+  "version": 2,
+  "method": "warden-win-ratio-grades-v2",
   "championId": 429,
   "championKey": "Kalista",
   "set": "aram",
@@ -9,7 +9,7 @@
   "augments": [
     {
       "augmentId": 2095,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0461,
       "contributions": [
         {
@@ -23,7 +23,7 @@
     },
     {
       "augmentId": 1063,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.1112,
       "contributions": [
         {
@@ -37,7 +37,7 @@
     },
     {
       "augmentId": 1071,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.1781,
       "contributions": [
         {
@@ -51,7 +51,7 @@
     },
     {
       "augmentId": 1073,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0857,
       "contributions": [
         {
@@ -65,7 +65,7 @@
     },
     {
       "augmentId": 1077,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0914,
       "contributions": [
         {
@@ -79,7 +79,7 @@
     },
     {
       "augmentId": 1080,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0256,
       "contributions": [
         {
@@ -93,7 +93,7 @@
     },
     {
       "augmentId": 1138,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0298,
       "contributions": [
         {
@@ -107,7 +107,7 @@
     },
     {
       "augmentId": 1225,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.1448,
       "contributions": [
         {
@@ -121,7 +121,7 @@
     },
     {
       "augmentId": 1315,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0517,
       "contributions": [
         {
@@ -135,7 +135,7 @@
     },
     {
       "augmentId": 1333,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0324,
       "contributions": [
         {
@@ -149,7 +149,7 @@
     },
     {
       "augmentId": 1356,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.1759,
       "contributions": [
         {
@@ -163,7 +163,7 @@
     },
     {
       "augmentId": 2009,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0341,
       "contributions": [
         {
@@ -176,22 +176,8 @@
       ]
     },
     {
-      "augmentId": 1007,
-      "tier": 3,
-      "pickrate": 0.0377,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6497
-        }
-      ]
-    },
-    {
       "augmentId": 1019,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0402,
       "contributions": [
         {
@@ -205,7 +191,7 @@
     },
     {
       "augmentId": 1022,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1101,
       "contributions": [
         {
@@ -219,7 +205,7 @@
     },
     {
       "augmentId": 1026,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0173,
       "contributions": [
         {
@@ -233,7 +219,7 @@
     },
     {
       "augmentId": 1028,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0129,
       "contributions": [
         {
@@ -247,7 +233,7 @@
     },
     {
       "augmentId": 1034,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0124,
       "contributions": [
         {
@@ -261,7 +247,7 @@
     },
     {
       "augmentId": 1036,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0733,
       "contributions": [
         {
@@ -274,22 +260,8 @@
       ]
     },
     {
-      "augmentId": 1038,
-      "tier": 3,
-      "pickrate": 0.0223,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3847
-        }
-      ]
-    },
-    {
       "augmentId": 1047,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0534,
       "contributions": [
         {
@@ -303,7 +275,7 @@
     },
     {
       "augmentId": 1051,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0362,
       "contributions": [
         {
@@ -317,7 +289,7 @@
     },
     {
       "augmentId": 1053,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0099,
       "contributions": [
         {
@@ -330,22 +302,8 @@
       ]
     },
     {
-      "augmentId": 1054,
-      "tier": 3,
-      "pickrate": 0.0094,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1614
-        }
-      ]
-    },
-    {
       "augmentId": 1060,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0055,
       "contributions": [
         {
@@ -358,22 +316,8 @@
       ]
     },
     {
-      "augmentId": 1061,
-      "tier": 3,
-      "pickrate": 0.0057,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 979
-        }
-      ]
-    },
-    {
       "augmentId": 1062,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0058,
       "contributions": [
         {
@@ -386,36 +330,8 @@
       ]
     },
     {
-      "augmentId": 1074,
-      "tier": 3,
-      "pickrate": 0.0588,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 10134
-        }
-      ]
-    },
-    {
-      "augmentId": 1079,
-      "tier": 3,
-      "pickrate": 0.0541,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 9334
-        }
-      ]
-    },
-    {
       "augmentId": 1081,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1169,
       "contributions": [
         {
@@ -428,36 +344,8 @@
       ]
     },
     {
-      "augmentId": 1084,
-      "tier": 3,
-      "pickrate": 0.0239,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4128
-        }
-      ]
-    },
-    {
-      "augmentId": 1087,
-      "tier": 3,
-      "pickrate": 0.0662,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 11423
-        }
-      ]
-    },
-    {
       "augmentId": 1092,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1073,
       "contributions": [
         {
@@ -470,22 +358,8 @@
       ]
     },
     {
-      "augmentId": 1105,
-      "tier": 3,
-      "pickrate": 0.0137,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2359
-        }
-      ]
-    },
-    {
       "augmentId": 1115,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0714,
       "contributions": [
         {
@@ -498,50 +372,8 @@
       ]
     },
     {
-      "augmentId": 1116,
-      "tier": 3,
-      "pickrate": 0.0278,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4791
-        }
-      ]
-    },
-    {
-      "augmentId": 1129,
-      "tier": 3,
-      "pickrate": 0.0051,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 882
-        }
-      ]
-    },
-    {
-      "augmentId": 1134,
-      "tier": 3,
-      "pickrate": 0.0203,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3495
-        }
-      ]
-    },
-    {
       "augmentId": 1154,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0148,
       "contributions": [
         {
@@ -554,22 +386,8 @@
       ]
     },
     {
-      "augmentId": 1170,
-      "tier": 3,
-      "pickrate": 0.0551,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 9510
-        }
-      ]
-    },
-    {
       "augmentId": 1195,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0638,
       "contributions": [
         {
@@ -583,7 +401,7 @@
     },
     {
       "augmentId": 1206,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0189,
       "contributions": [
         {
@@ -597,7 +415,7 @@
     },
     {
       "augmentId": 1220,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0824,
       "contributions": [
         {
@@ -610,22 +428,8 @@
       ]
     },
     {
-      "augmentId": 1237,
-      "tier": 3,
-      "pickrate": 0.0301,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 5190
-        }
-      ]
-    },
-    {
       "augmentId": 1238,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1034,
       "contributions": [
         {
@@ -638,50 +442,8 @@
       ]
     },
     {
-      "augmentId": 1243,
-      "tier": 3,
-      "pickrate": 0.0224,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3868
-        }
-      ]
-    },
-    {
-      "augmentId": 1305,
-      "tier": 3,
-      "pickrate": 0.0364,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6274
-        }
-      ]
-    },
-    {
-      "augmentId": 1308,
-      "tier": 3,
-      "pickrate": 0.0023,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 400
-        }
-      ]
-    },
-    {
       "augmentId": 1310,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0101,
       "contributions": [
         {
@@ -695,7 +457,7 @@
     },
     {
       "augmentId": 1322,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0769,
       "contributions": [
         {
@@ -709,7 +471,7 @@
     },
     {
       "augmentId": 1328,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1425,
       "contributions": [
         {
@@ -722,64 +484,8 @@
       ]
     },
     {
-      "augmentId": 1335,
-      "tier": 3,
-      "pickrate": 0.0031,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 541
-        }
-      ]
-    },
-    {
-      "augmentId": 1337,
-      "tier": 3,
-      "pickrate": 0.0035,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 608
-        }
-      ]
-    },
-    {
-      "augmentId": 1344,
-      "tier": 3,
-      "pickrate": 0.0037,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 643
-        }
-      ]
-    },
-    {
-      "augmentId": 1347,
-      "tier": 3,
-      "pickrate": 0.0073,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1262
-        }
-      ]
-    },
-    {
       "augmentId": 1384,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.032,
       "contributions": [
         {
@@ -792,22 +498,8 @@
       ]
     },
     {
-      "augmentId": 1402,
-      "tier": 3,
-      "pickrate": 0.0063,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1091
-        }
-      ]
-    },
-    {
       "augmentId": 1403,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0207,
       "contributions": [
         {
@@ -821,7 +513,7 @@
     },
     {
       "augmentId": 1404,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0043,
       "contributions": [
         {
@@ -835,7 +527,7 @@
     },
     {
       "augmentId": 1996,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0041,
       "contributions": [
         {
@@ -848,8 +540,344 @@
       ]
     },
     {
+      "augmentId": 2107,
+      "tier": "B",
+      "pickrate": 0.0033,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 561
+        }
+      ]
+    },
+    {
+      "augmentId": 2132,
+      "tier": "B",
+      "pickrate": 0.0174,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2995
+        }
+      ]
+    },
+    {
+      "augmentId": 1007,
+      "tier": "C",
+      "pickrate": 0.0377,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6497
+        }
+      ]
+    },
+    {
+      "augmentId": 1038,
+      "tier": "C",
+      "pickrate": 0.0223,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3847
+        }
+      ]
+    },
+    {
+      "augmentId": 1054,
+      "tier": "C",
+      "pickrate": 0.0094,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1614
+        }
+      ]
+    },
+    {
+      "augmentId": 1061,
+      "tier": "C",
+      "pickrate": 0.0057,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 979
+        }
+      ]
+    },
+    {
+      "augmentId": 1074,
+      "tier": "C",
+      "pickrate": 0.0588,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10134
+        }
+      ]
+    },
+    {
+      "augmentId": 1079,
+      "tier": "C",
+      "pickrate": 0.0541,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9334
+        }
+      ]
+    },
+    {
+      "augmentId": 1084,
+      "tier": "C",
+      "pickrate": 0.0239,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4128
+        }
+      ]
+    },
+    {
+      "augmentId": 1087,
+      "tier": "C",
+      "pickrate": 0.0662,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11423
+        }
+      ]
+    },
+    {
+      "augmentId": 1105,
+      "tier": "C",
+      "pickrate": 0.0137,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2359
+        }
+      ]
+    },
+    {
+      "augmentId": 1116,
+      "tier": "C",
+      "pickrate": 0.0278,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4791
+        }
+      ]
+    },
+    {
+      "augmentId": 1129,
+      "tier": "C",
+      "pickrate": 0.0051,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 882
+        }
+      ]
+    },
+    {
+      "augmentId": 1134,
+      "tier": "C",
+      "pickrate": 0.0203,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3495
+        }
+      ]
+    },
+    {
+      "augmentId": 1170,
+      "tier": "C",
+      "pickrate": 0.0551,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9510
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": "C",
+      "pickrate": 0.0301,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5190
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": "C",
+      "pickrate": 0.0224,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3868
+        }
+      ]
+    },
+    {
+      "augmentId": 1305,
+      "tier": "C",
+      "pickrate": 0.0364,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6274
+        }
+      ]
+    },
+    {
+      "augmentId": 1308,
+      "tier": "C",
+      "pickrate": 0.0023,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 400
+        }
+      ]
+    },
+    {
+      "augmentId": 1335,
+      "tier": "C",
+      "pickrate": 0.0031,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 541
+        }
+      ]
+    },
+    {
+      "augmentId": 1337,
+      "tier": "C",
+      "pickrate": 0.0035,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 608
+        }
+      ]
+    },
+    {
+      "augmentId": 1344,
+      "tier": "C",
+      "pickrate": 0.0037,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 643
+        }
+      ]
+    },
+    {
+      "augmentId": 1347,
+      "tier": "C",
+      "pickrate": 0.0073,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1262
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": "C",
+      "pickrate": 0.0063,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1091
+        }
+      ]
+    },
+    {
       "augmentId": 2010,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0742,
       "contributions": [
         {
@@ -863,7 +891,7 @@
     },
     {
       "augmentId": 2016,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0037,
       "contributions": [
         {
@@ -877,7 +905,7 @@
     },
     {
       "augmentId": 2089,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0091,
       "contributions": [
         {
@@ -891,7 +919,7 @@
     },
     {
       "augmentId": 2091,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0035,
       "contributions": [
         {
@@ -904,22 +932,8 @@
       ]
     },
     {
-      "augmentId": 2107,
-      "tier": 3,
-      "pickrate": 0.0033,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 561
-        }
-      ]
-    },
-    {
       "augmentId": 2127,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0132,
       "contributions": [
         {
@@ -932,22 +946,8 @@
       ]
     },
     {
-      "augmentId": 2132,
-      "tier": 3,
-      "pickrate": 0.0174,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/kalista?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2995
-        }
-      ]
-    },
-    {
       "augmentId": 2140,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0146,
       "contributions": [
         {
@@ -961,7 +961,7 @@
     },
     {
       "augmentId": 2141,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0157,
       "contributions": [
         {
@@ -975,7 +975,7 @@
     },
     {
       "augmentId": 12317,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0224,
       "contributions": [
         {
@@ -989,7 +989,7 @@
     },
     {
       "augmentId": 1004,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.032,
       "contributions": [
         {
@@ -1003,7 +1003,7 @@
     },
     {
       "augmentId": 1006,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0052,
       "contributions": [
         {
@@ -1017,7 +1017,7 @@
     },
     {
       "augmentId": 1027,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0188,
       "contributions": [
         {
@@ -1031,7 +1031,7 @@
     },
     {
       "augmentId": 1046,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0046,
       "contributions": [
         {
@@ -1045,7 +1045,7 @@
     },
     {
       "augmentId": 1048,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0155,
       "contributions": [
         {
@@ -1059,7 +1059,7 @@
     },
     {
       "augmentId": 1098,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0112,
       "contributions": [
         {
@@ -1073,7 +1073,7 @@
     },
     {
       "augmentId": 1151,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0133,
       "contributions": [
         {
@@ -1087,7 +1087,7 @@
     },
     {
       "augmentId": 1320,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0299,
       "contributions": [
         {
@@ -1101,7 +1101,7 @@
     },
     {
       "augmentId": 1326,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0187,
       "contributions": [
         {
@@ -1115,7 +1115,7 @@
     },
     {
       "augmentId": 1336,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0788,
       "contributions": [
         {
@@ -1129,7 +1129,7 @@
     },
     {
       "augmentId": 1345,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0103,
       "contributions": [
         {
@@ -1143,7 +1143,7 @@
     },
     {
       "augmentId": 1373,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0561,
       "contributions": [
         {
@@ -1157,7 +1157,7 @@
     },
     {
       "augmentId": 1415,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0122,
       "contributions": [
         {
@@ -1171,7 +1171,7 @@
     },
     {
       "augmentId": 1416,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0071,
       "contributions": [
         {
@@ -1185,7 +1185,7 @@
     },
     {
       "augmentId": 2026,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0077,
       "contributions": [
         {
@@ -1199,7 +1199,7 @@
     },
     {
       "augmentId": 2073,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0257,
       "contributions": [
         {
@@ -1213,7 +1213,7 @@
     },
     {
       "augmentId": 2083,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0275,
       "contributions": [
         {
@@ -1227,7 +1227,7 @@
     },
     {
       "augmentId": 2098,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0077,
       "contributions": [
         {
@@ -1241,7 +1241,7 @@
     },
     {
       "augmentId": 2137,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0082,
       "contributions": [
         {
@@ -1255,7 +1255,7 @@
     },
     {
       "augmentId": 1002,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0043,
       "contributions": [
         {
@@ -1269,7 +1269,7 @@
     },
     {
       "augmentId": 1011,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0019,
       "contributions": [
         {
@@ -1283,7 +1283,7 @@
     },
     {
       "augmentId": 1058,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0144,
       "contributions": [
         {
@@ -1297,7 +1297,7 @@
     },
     {
       "augmentId": 1068,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.01,
       "contributions": [
         {
@@ -1311,7 +1311,7 @@
     },
     {
       "augmentId": 1103,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0105,
       "contributions": [
         {
@@ -1325,7 +1325,7 @@
     },
     {
       "augmentId": 1113,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0078,
       "contributions": [
         {
@@ -1339,7 +1339,7 @@
     },
     {
       "augmentId": 1133,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0123,
       "contributions": [
         {
@@ -1353,7 +1353,7 @@
     },
     {
       "augmentId": 1325,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0024,
       "contributions": [
         {
@@ -1367,7 +1367,7 @@
     },
     {
       "augmentId": 1329,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0036,
       "contributions": [
         {
@@ -1381,7 +1381,7 @@
     },
     {
       "augmentId": 1386,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0015,
       "contributions": [
         {
@@ -1395,7 +1395,7 @@
     },
     {
       "augmentId": 1388,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0038,
       "contributions": [
         {
@@ -1409,7 +1409,7 @@
     },
     {
       "augmentId": 1392,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0022,
       "contributions": [
         {
@@ -1423,7 +1423,7 @@
     },
     {
       "augmentId": 2005,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.003,
       "contributions": [
         {
@@ -1437,7 +1437,7 @@
     },
     {
       "augmentId": 2024,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0052,
       "contributions": [
         {
@@ -1451,7 +1451,7 @@
     },
     {
       "augmentId": 2034,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0015,
       "contributions": [
         {
@@ -1465,7 +1465,7 @@
     },
     {
       "augmentId": 2099,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0033,
       "contributions": [
         {
@@ -1479,7 +1479,7 @@
     },
     {
       "augmentId": 2100,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0168,
       "contributions": [
         {
@@ -1493,7 +1493,7 @@
     },
     {
       "augmentId": 2103,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.003,
       "contributions": [
         {
@@ -1507,7 +1507,7 @@
     },
     {
       "augmentId": 2116,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0327,
       "contributions": [
         {

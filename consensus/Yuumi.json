@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "method": "warden-performance-tiers-v1",
+  "version": 2,
+  "method": "warden-win-ratio-grades-v2",
   "championId": 350,
   "championKey": "Yuumi",
   "set": "aram",
@@ -9,7 +9,7 @@
   "augments": [
     {
       "augmentId": 1095,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0724,
       "contributions": [
         {
@@ -23,7 +23,7 @@
     },
     {
       "augmentId": 1388,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0402,
       "contributions": [
         {
@@ -37,7 +37,7 @@
     },
     {
       "augmentId": 1389,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0049,
       "contributions": [
         {
@@ -51,7 +51,7 @@
     },
     {
       "augmentId": 2104,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.1194,
       "contributions": [
         {
@@ -65,7 +65,7 @@
     },
     {
       "augmentId": 1005,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.1049,
       "contributions": [
         {
@@ -79,7 +79,7 @@
     },
     {
       "augmentId": 1068,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0947,
       "contributions": [
         {
@@ -93,7 +93,7 @@
     },
     {
       "augmentId": 1076,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.1333,
       "contributions": [
         {
@@ -107,7 +107,7 @@
     },
     {
       "augmentId": 1151,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0769,
       "contributions": [
         {
@@ -121,7 +121,7 @@
     },
     {
       "augmentId": 1194,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0687,
       "contributions": [
         {
@@ -135,7 +135,7 @@
     },
     {
       "augmentId": 1337,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0029,
       "contributions": [
         {
@@ -149,7 +149,7 @@
     },
     {
       "augmentId": 1373,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.1564,
       "contributions": [
         {
@@ -163,7 +163,7 @@
     },
     {
       "augmentId": 1420,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.1965,
       "contributions": [
         {
@@ -177,7 +177,7 @@
     },
     {
       "augmentId": 2089,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0331,
       "contributions": [
         {
@@ -190,36 +190,8 @@
       ]
     },
     {
-      "augmentId": 1015,
-      "tier": 3,
-      "pickrate": 0.0935,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 17754
-        }
-      ]
-    },
-    {
-      "augmentId": 1030,
-      "tier": 3,
-      "pickrate": 0.0315,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 5986
-        }
-      ]
-    },
-    {
       "augmentId": 1037,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1739,
       "contributions": [
         {
@@ -232,50 +204,8 @@
       ]
     },
     {
-      "augmentId": 1038,
-      "tier": 3,
-      "pickrate": 0.0095,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1797
-        }
-      ]
-    },
-    {
-      "augmentId": 1053,
-      "tier": 3,
-      "pickrate": 0.0112,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2124
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "tier": 3,
-      "pickrate": 0.0161,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3055
-        }
-      ]
-    },
-    {
       "augmentId": 1061,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0194,
       "contributions": [
         {
@@ -289,7 +219,7 @@
     },
     {
       "augmentId": 1072,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0275,
       "contributions": [
         {
@@ -303,7 +233,7 @@
     },
     {
       "augmentId": 1088,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0157,
       "contributions": [
         {
@@ -316,36 +246,8 @@
       ]
     },
     {
-      "augmentId": 1097,
-      "tier": 3,
-      "pickrate": 0.0336,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6375
-        }
-      ]
-    },
-    {
-      "augmentId": 1118,
-      "tier": 3,
-      "pickrate": 0.1354,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 25723
-        }
-      ]
-    },
-    {
       "augmentId": 1141,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.2006,
       "contributions": [
         {
@@ -358,50 +260,8 @@
       ]
     },
     {
-      "augmentId": 1154,
-      "tier": 3,
-      "pickrate": 0.0064,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1210
-        }
-      ]
-    },
-    {
-      "augmentId": 1211,
-      "tier": 3,
-      "pickrate": 0.0067,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1269
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "tier": 3,
-      "pickrate": 0.0502,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 9526
-        }
-      ]
-    },
-    {
       "augmentId": 1238,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1091,
       "contributions": [
         {
@@ -414,22 +274,8 @@
       ]
     },
     {
-      "augmentId": 1243,
-      "tier": 3,
-      "pickrate": 0.0218,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4146
-        }
-      ]
-    },
-    {
       "augmentId": 1301,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1526,
       "contributions": [
         {
@@ -442,36 +288,8 @@
       ]
     },
     {
-      "augmentId": 1308,
-      "tier": 3,
-      "pickrate": 0.0193,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3674
-        }
-      ]
-    },
-    {
-      "augmentId": 1311,
-      "tier": 3,
-      "pickrate": 0.0349,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6622
-        }
-      ]
-    },
-    {
       "augmentId": 1329,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0099,
       "contributions": [
         {
@@ -485,7 +303,7 @@
     },
     {
       "augmentId": 1349,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0159,
       "contributions": [
         {
@@ -499,7 +317,7 @@
     },
     {
       "augmentId": 1384,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0252,
       "contributions": [
         {
@@ -512,50 +330,8 @@
       ]
     },
     {
-      "augmentId": 1402,
-      "tier": 3,
-      "pickrate": 0.0047,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 901
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "tier": 3,
-      "pickrate": 0.0083,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1573
-        }
-      ]
-    },
-    {
-      "augmentId": 1416,
-      "tier": 3,
-      "pickrate": 0.0162,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3074
-        }
-      ]
-    },
-    {
       "augmentId": 2004,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1049,
       "contributions": [
         {
@@ -569,7 +345,7 @@
     },
     {
       "augmentId": 2018,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0573,
       "contributions": [
         {
@@ -582,8 +358,246 @@
       ]
     },
     {
+      "augmentId": 2123,
+      "tier": "B",
+      "pickrate": 0.0371,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7049
+        }
+      ]
+    },
+    {
+      "augmentId": 1015,
+      "tier": "C",
+      "pickrate": 0.0935,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17754
+        }
+      ]
+    },
+    {
+      "augmentId": 1030,
+      "tier": "C",
+      "pickrate": 0.0315,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5986
+        }
+      ]
+    },
+    {
+      "augmentId": 1038,
+      "tier": "C",
+      "pickrate": 0.0095,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1797
+        }
+      ]
+    },
+    {
+      "augmentId": 1053,
+      "tier": "C",
+      "pickrate": 0.0112,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2124
+        }
+      ]
+    },
+    {
+      "augmentId": 1060,
+      "tier": "C",
+      "pickrate": 0.0161,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3055
+        }
+      ]
+    },
+    {
+      "augmentId": 1097,
+      "tier": "C",
+      "pickrate": 0.0336,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6375
+        }
+      ]
+    },
+    {
+      "augmentId": 1118,
+      "tier": "C",
+      "pickrate": 0.1354,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 25723
+        }
+      ]
+    },
+    {
+      "augmentId": 1154,
+      "tier": "C",
+      "pickrate": 0.0064,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1210
+        }
+      ]
+    },
+    {
+      "augmentId": 1211,
+      "tier": "C",
+      "pickrate": 0.0067,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1269
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": "C",
+      "pickrate": 0.0502,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9526
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": "C",
+      "pickrate": 0.0218,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4146
+        }
+      ]
+    },
+    {
+      "augmentId": 1308,
+      "tier": "C",
+      "pickrate": 0.0193,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3674
+        }
+      ]
+    },
+    {
+      "augmentId": 1311,
+      "tier": "C",
+      "pickrate": 0.0349,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6622
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": "C",
+      "pickrate": 0.0047,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 901
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": "C",
+      "pickrate": 0.0083,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1573
+        }
+      ]
+    },
+    {
+      "augmentId": 1416,
+      "tier": "C",
+      "pickrate": 0.0162,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3074
+        }
+      ]
+    },
+    {
       "augmentId": 2087,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0376,
       "contributions": [
         {
@@ -597,7 +611,7 @@
     },
     {
       "augmentId": 2095,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0124,
       "contributions": [
         {
@@ -610,22 +624,8 @@
       ]
     },
     {
-      "augmentId": 2123,
-      "tier": 3,
-      "pickrate": 0.0371,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/yuumi?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 7049
-        }
-      ]
-    },
-    {
       "augmentId": 2127,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0189,
       "contributions": [
         {
@@ -639,7 +639,7 @@
     },
     {
       "augmentId": 2144,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.1653,
       "contributions": [
         {
@@ -653,7 +653,7 @@
     },
     {
       "augmentId": 1002,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0214,
       "contributions": [
         {
@@ -667,7 +667,7 @@
     },
     {
       "augmentId": 1004,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0213,
       "contributions": [
         {
@@ -681,7 +681,7 @@
     },
     {
       "augmentId": 1028,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0109,
       "contributions": [
         {
@@ -695,7 +695,7 @@
     },
     {
       "augmentId": 1044,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0193,
       "contributions": [
         {
@@ -709,7 +709,7 @@
     },
     {
       "augmentId": 1046,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0069,
       "contributions": [
         {
@@ -723,7 +723,7 @@
     },
     {
       "augmentId": 1056,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0112,
       "contributions": [
         {
@@ -737,7 +737,7 @@
     },
     {
       "augmentId": 1062,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0047,
       "contributions": [
         {
@@ -751,7 +751,7 @@
     },
     {
       "augmentId": 1098,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0031,
       "contributions": [
         {
@@ -765,7 +765,7 @@
     },
     {
       "augmentId": 1103,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0181,
       "contributions": [
         {
@@ -779,7 +779,7 @@
     },
     {
       "augmentId": 1113,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0207,
       "contributions": [
         {
@@ -793,7 +793,7 @@
     },
     {
       "augmentId": 1133,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0342,
       "contributions": [
         {
@@ -807,7 +807,7 @@
     },
     {
       "augmentId": 1205,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0245,
       "contributions": [
         {
@@ -821,7 +821,7 @@
     },
     {
       "augmentId": 1318,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0023,
       "contributions": [
         {
@@ -835,7 +835,7 @@
     },
     {
       "augmentId": 1324,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0665,
       "contributions": [
         {
@@ -849,7 +849,7 @@
     },
     {
       "augmentId": 1331,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0304,
       "contributions": [
         {
@@ -863,7 +863,7 @@
     },
     {
       "augmentId": 1335,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0031,
       "contributions": [
         {
@@ -877,7 +877,7 @@
     },
     {
       "augmentId": 1358,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0059,
       "contributions": [
         {
@@ -891,7 +891,7 @@
     },
     {
       "augmentId": 1390,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0277,
       "contributions": [
         {
@@ -905,7 +905,7 @@
     },
     {
       "augmentId": 1403,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0127,
       "contributions": [
         {
@@ -919,7 +919,7 @@
     },
     {
       "augmentId": 1415,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.019,
       "contributions": [
         {
@@ -933,7 +933,7 @@
     },
     {
       "augmentId": 2034,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0052,
       "contributions": [
         {
@@ -947,7 +947,7 @@
     },
     {
       "augmentId": 2100,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0265,
       "contributions": [
         {
@@ -961,7 +961,7 @@
     },
     {
       "augmentId": 2103,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0193,
       "contributions": [
         {
@@ -975,7 +975,7 @@
     },
     {
       "augmentId": 2116,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0195,
       "contributions": [
         {
@@ -989,7 +989,7 @@
     },
     {
       "augmentId": 1027,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0024,
       "contributions": [
         {
@@ -1003,7 +1003,7 @@
     },
     {
       "augmentId": 1029,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.014,
       "contributions": [
         {
@@ -1017,7 +1017,7 @@
     },
     {
       "augmentId": 1048,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0104,
       "contributions": [
         {
@@ -1031,7 +1031,7 @@
     },
     {
       "augmentId": 1054,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0016,
       "contributions": [
         {
@@ -1045,7 +1045,7 @@
     },
     {
       "augmentId": 1058,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0016,
       "contributions": [
         {
@@ -1059,7 +1059,7 @@
     },
     {
       "augmentId": 1105,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0025,
       "contributions": [
         {
@@ -1073,7 +1073,7 @@
     },
     {
       "augmentId": 1112,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0015,
       "contributions": [
         {
@@ -1087,7 +1087,7 @@
     },
     {
       "augmentId": 1129,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0025,
       "contributions": [
         {
@@ -1101,7 +1101,7 @@
     },
     {
       "augmentId": 1156,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0089,
       "contributions": [
         {
@@ -1115,7 +1115,7 @@
     },
     {
       "augmentId": 1180,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0042,
       "contributions": [
         {
@@ -1129,7 +1129,7 @@
     },
     {
       "augmentId": 1195,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0021,
       "contributions": [
         {
@@ -1143,7 +1143,7 @@
     },
     {
       "augmentId": 1315,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.002,
       "contributions": [
         {
@@ -1157,7 +1157,7 @@
     },
     {
       "augmentId": 1325,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0063,
       "contributions": [
         {
@@ -1171,7 +1171,7 @@
     },
     {
       "augmentId": 1332,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0036,
       "contributions": [
         {
@@ -1185,7 +1185,7 @@
     },
     {
       "augmentId": 1344,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0014,
       "contributions": [
         {
@@ -1199,7 +1199,7 @@
     },
     {
       "augmentId": 1379,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0061,
       "contributions": [
         {
@@ -1213,7 +1213,7 @@
     },
     {
       "augmentId": 1996,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0017,
       "contributions": [
         {
@@ -1227,7 +1227,7 @@
     },
     {
       "augmentId": 2005,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0028,
       "contributions": [
         {
@@ -1241,7 +1241,7 @@
     },
     {
       "augmentId": 2016,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0026,
       "contributions": [
         {
@@ -1255,7 +1255,7 @@
     },
     {
       "augmentId": 2046,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0026,
       "contributions": [
         {
@@ -1269,7 +1269,7 @@
     },
     {
       "augmentId": 2063,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0042,
       "contributions": [
         {
@@ -1283,7 +1283,7 @@
     },
     {
       "augmentId": 2080,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0023,
       "contributions": [
         {
@@ -1297,7 +1297,7 @@
     },
     {
       "augmentId": 2083,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0019,
       "contributions": [
         {
@@ -1311,7 +1311,7 @@
     },
     {
       "augmentId": 2088,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0038,
       "contributions": [
         {
@@ -1325,7 +1325,7 @@
     },
     {
       "augmentId": 2118,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0105,
       "contributions": [
         {
@@ -1339,7 +1339,7 @@
     },
     {
       "augmentId": 2132,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0035,
       "contributions": [
         {
@@ -1353,7 +1353,7 @@
     },
     {
       "augmentId": 2134,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0032,
       "contributions": [
         {
@@ -1367,7 +1367,7 @@
     },
     {
       "augmentId": 12317,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0216,
       "contributions": [
         {

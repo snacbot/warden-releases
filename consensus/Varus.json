@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "method": "warden-performance-tiers-v1",
+  "version": 2,
+  "method": "warden-win-ratio-grades-v2",
   "championId": 110,
   "championKey": "Varus",
   "set": "aram",
@@ -9,7 +9,7 @@
   "augments": [
     {
       "augmentId": 1134,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0453,
       "contributions": [
         {
@@ -23,7 +23,7 @@
     },
     {
       "augmentId": 2095,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.023,
       "contributions": [
         {
@@ -36,36 +36,8 @@
       ]
     },
     {
-      "augmentId": 1028,
-      "tier": 3,
-      "pickrate": 0.0168,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/varus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 9905
-        }
-      ]
-    },
-    {
-      "augmentId": 1038,
-      "tier": 3,
-      "pickrate": 0.0561,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/varus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 33090
-        }
-      ]
-    },
-    {
       "augmentId": 1053,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0237,
       "contributions": [
         {
@@ -78,78 +50,8 @@
       ]
     },
     {
-      "augmentId": 1071,
-      "tier": 3,
-      "pickrate": 0.0811,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/varus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 47832
-        }
-      ]
-    },
-    {
-      "augmentId": 1077,
-      "tier": 3,
-      "pickrate": 0.0308,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/varus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 18176
-        }
-      ]
-    },
-    {
-      "augmentId": 1080,
-      "tier": 3,
-      "pickrate": 0.014,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/varus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 8231
-        }
-      ]
-    },
-    {
-      "augmentId": 1081,
-      "tier": 3,
-      "pickrate": 0.0317,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/varus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 18727
-        }
-      ]
-    },
-    {
-      "augmentId": 1105,
-      "tier": 3,
-      "pickrate": 0.0409,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/varus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 24151
-        }
-      ]
-    },
-    {
       "augmentId": 1154,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.02,
       "contributions": [
         {
@@ -163,7 +65,7 @@
     },
     {
       "augmentId": 1195,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0334,
       "contributions": [
         {
@@ -176,8 +78,134 @@
       ]
     },
     {
+      "augmentId": 1389,
+      "tier": "B",
+      "pickrate": 0.0034,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/varus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2029
+        }
+      ]
+    },
+    {
+      "augmentId": 2119,
+      "tier": "B",
+      "pickrate": 0.0007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/varus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 417
+        }
+      ]
+    },
+    {
+      "augmentId": 1028,
+      "tier": "C",
+      "pickrate": 0.0168,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/varus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9905
+        }
+      ]
+    },
+    {
+      "augmentId": 1038,
+      "tier": "C",
+      "pickrate": 0.0561,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/varus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 33090
+        }
+      ]
+    },
+    {
+      "augmentId": 1071,
+      "tier": "C",
+      "pickrate": 0.0811,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/varus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 47832
+        }
+      ]
+    },
+    {
+      "augmentId": 1077,
+      "tier": "C",
+      "pickrate": 0.0308,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/varus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18176
+        }
+      ]
+    },
+    {
+      "augmentId": 1080,
+      "tier": "C",
+      "pickrate": 0.014,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/varus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8231
+        }
+      ]
+    },
+    {
+      "augmentId": 1081,
+      "tier": "C",
+      "pickrate": 0.0317,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/varus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18727
+        }
+      ]
+    },
+    {
+      "augmentId": 1105,
+      "tier": "C",
+      "pickrate": 0.0409,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/varus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 24151
+        }
+      ]
+    },
+    {
       "augmentId": 1206,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0454,
       "contributions": [
         {
@@ -191,7 +219,7 @@
     },
     {
       "augmentId": 1225,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0848,
       "contributions": [
         {
@@ -205,7 +233,7 @@
     },
     {
       "augmentId": 1328,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0654,
       "contributions": [
         {
@@ -219,7 +247,7 @@
     },
     {
       "augmentId": 1335,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0074,
       "contributions": [
         {
@@ -233,7 +261,7 @@
     },
     {
       "augmentId": 1344,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0099,
       "contributions": [
         {
@@ -246,22 +274,8 @@
       ]
     },
     {
-      "augmentId": 1389,
-      "tier": 3,
-      "pickrate": 0.0034,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/varus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2029
-        }
-      ]
-    },
-    {
       "augmentId": 2107,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0017,
       "contributions": [
         {
@@ -274,22 +288,8 @@
       ]
     },
     {
-      "augmentId": 2119,
-      "tier": 3,
-      "pickrate": 0.0007,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/varus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 417
-        }
-      ]
-    },
-    {
       "augmentId": 2132,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0551,
       "contributions": [
         {
@@ -303,7 +303,7 @@
     },
     {
       "augmentId": 1004,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0333,
       "contributions": [
         {
@@ -317,7 +317,7 @@
     },
     {
       "augmentId": 1007,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0738,
       "contributions": [
         {
@@ -331,7 +331,7 @@
     },
     {
       "augmentId": 1022,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0836,
       "contributions": [
         {
@@ -345,7 +345,7 @@
     },
     {
       "augmentId": 1036,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0307,
       "contributions": [
         {
@@ -359,7 +359,7 @@
     },
     {
       "augmentId": 1046,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0194,
       "contributions": [
         {
@@ -373,7 +373,7 @@
     },
     {
       "augmentId": 1047,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0227,
       "contributions": [
         {
@@ -387,7 +387,7 @@
     },
     {
       "augmentId": 1051,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0277,
       "contributions": [
         {
@@ -401,7 +401,7 @@
     },
     {
       "augmentId": 1056,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0033,
       "contributions": [
         {
@@ -415,7 +415,7 @@
     },
     {
       "augmentId": 1060,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0121,
       "contributions": [
         {
@@ -429,7 +429,7 @@
     },
     {
       "augmentId": 1061,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0074,
       "contributions": [
         {
@@ -443,7 +443,7 @@
     },
     {
       "augmentId": 1062,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0085,
       "contributions": [
         {
@@ -457,7 +457,7 @@
     },
     {
       "augmentId": 1074,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0286,
       "contributions": [
         {
@@ -471,7 +471,7 @@
     },
     {
       "augmentId": 1079,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0214,
       "contributions": [
         {
@@ -485,7 +485,7 @@
     },
     {
       "augmentId": 1087,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0464,
       "contributions": [
         {
@@ -499,7 +499,7 @@
     },
     {
       "augmentId": 1092,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0607,
       "contributions": [
         {
@@ -513,7 +513,7 @@
     },
     {
       "augmentId": 1098,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0172,
       "contributions": [
         {
@@ -527,7 +527,7 @@
     },
     {
       "augmentId": 1115,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0402,
       "contributions": [
         {
@@ -541,7 +541,7 @@
     },
     {
       "augmentId": 1129,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0755,
       "contributions": [
         {
@@ -555,7 +555,7 @@
     },
     {
       "augmentId": 1133,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0562,
       "contributions": [
         {
@@ -569,7 +569,7 @@
     },
     {
       "augmentId": 1170,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0384,
       "contributions": [
         {
@@ -583,7 +583,7 @@
     },
     {
       "augmentId": 1180,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0065,
       "contributions": [
         {
@@ -597,7 +597,7 @@
     },
     {
       "augmentId": 1220,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0702,
       "contributions": [
         {
@@ -611,7 +611,7 @@
     },
     {
       "augmentId": 1238,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.1025,
       "contributions": [
         {
@@ -625,7 +625,7 @@
     },
     {
       "augmentId": 1243,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0275,
       "contributions": [
         {
@@ -639,7 +639,7 @@
     },
     {
       "augmentId": 1320,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0302,
       "contributions": [
         {
@@ -653,7 +653,7 @@
     },
     {
       "augmentId": 1322,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0364,
       "contributions": [
         {
@@ -667,7 +667,7 @@
     },
     {
       "augmentId": 1326,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0121,
       "contributions": [
         {
@@ -681,7 +681,7 @@
     },
     {
       "augmentId": 1332,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0069,
       "contributions": [
         {
@@ -695,7 +695,7 @@
     },
     {
       "augmentId": 1336,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0353,
       "contributions": [
         {
@@ -709,7 +709,7 @@
     },
     {
       "augmentId": 1337,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0038,
       "contributions": [
         {
@@ -723,7 +723,7 @@
     },
     {
       "augmentId": 1356,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.1387,
       "contributions": [
         {
@@ -737,7 +737,7 @@
     },
     {
       "augmentId": 1373,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0758,
       "contributions": [
         {
@@ -751,7 +751,7 @@
     },
     {
       "augmentId": 1384,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0318,
       "contributions": [
         {
@@ -765,7 +765,7 @@
     },
     {
       "augmentId": 1402,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0082,
       "contributions": [
         {
@@ -779,7 +779,7 @@
     },
     {
       "augmentId": 1403,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0195,
       "contributions": [
         {
@@ -793,7 +793,7 @@
     },
     {
       "augmentId": 1404,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0075,
       "contributions": [
         {
@@ -807,7 +807,7 @@
     },
     {
       "augmentId": 1415,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0533,
       "contributions": [
         {
@@ -821,7 +821,7 @@
     },
     {
       "augmentId": 1416,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0291,
       "contributions": [
         {
@@ -835,7 +835,7 @@
     },
     {
       "augmentId": 1996,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.014,
       "contributions": [
         {
@@ -849,7 +849,7 @@
     },
     {
       "augmentId": 2009,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0701,
       "contributions": [
         {
@@ -863,7 +863,7 @@
     },
     {
       "augmentId": 2010,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0474,
       "contributions": [
         {
@@ -877,7 +877,7 @@
     },
     {
       "augmentId": 2042,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0017,
       "contributions": [
         {
@@ -891,7 +891,7 @@
     },
     {
       "augmentId": 2083,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0787,
       "contributions": [
         {
@@ -905,7 +905,7 @@
     },
     {
       "augmentId": 2089,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0091,
       "contributions": [
         {
@@ -919,7 +919,7 @@
     },
     {
       "augmentId": 2100,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0692,
       "contributions": [
         {
@@ -933,7 +933,7 @@
     },
     {
       "augmentId": 2103,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0383,
       "contributions": [
         {
@@ -947,7 +947,7 @@
     },
     {
       "augmentId": 2116,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0656,
       "contributions": [
         {
@@ -961,7 +961,7 @@
     },
     {
       "augmentId": 2127,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0241,
       "contributions": [
         {
@@ -975,7 +975,7 @@
     },
     {
       "augmentId": 2140,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0115,
       "contributions": [
         {
@@ -989,7 +989,7 @@
     },
     {
       "augmentId": 2141,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0157,
       "contributions": [
         {
@@ -1003,7 +1003,7 @@
     },
     {
       "augmentId": 1002,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0047,
       "contributions": [
         {
@@ -1017,7 +1017,7 @@
     },
     {
       "augmentId": 1011,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0054,
       "contributions": [
         {
@@ -1031,7 +1031,7 @@
     },
     {
       "augmentId": 1030,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.032,
       "contributions": [
         {
@@ -1045,7 +1045,7 @@
     },
     {
       "augmentId": 1044,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0033,
       "contributions": [
         {
@@ -1059,7 +1059,7 @@
     },
     {
       "augmentId": 1048,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.102,
       "contributions": [
         {
@@ -1073,7 +1073,7 @@
     },
     {
       "augmentId": 1054,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0472,
       "contributions": [
         {
@@ -1087,7 +1087,7 @@
     },
     {
       "augmentId": 1057,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0026,
       "contributions": [
         {
@@ -1101,7 +1101,7 @@
     },
     {
       "augmentId": 1058,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0231,
       "contributions": [
         {
@@ -1115,7 +1115,7 @@
     },
     {
       "augmentId": 1068,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0728,
       "contributions": [
         {
@@ -1129,7 +1129,7 @@
     },
     {
       "augmentId": 1088,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0183,
       "contributions": [
         {
@@ -1143,7 +1143,7 @@
     },
     {
       "augmentId": 1097,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.022,
       "contributions": [
         {
@@ -1157,7 +1157,7 @@
     },
     {
       "augmentId": 1103,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0542,
       "contributions": [
         {
@@ -1171,7 +1171,7 @@
     },
     {
       "augmentId": 1112,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0064,
       "contributions": [
         {
@@ -1185,7 +1185,7 @@
     },
     {
       "augmentId": 1113,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.1122,
       "contributions": [
         {
@@ -1199,7 +1199,7 @@
     },
     {
       "augmentId": 1150,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0183,
       "contributions": [
         {
@@ -1213,7 +1213,7 @@
     },
     {
       "augmentId": 1151,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0137,
       "contributions": [
         {
@@ -1227,7 +1227,7 @@
     },
     {
       "augmentId": 1156,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0183,
       "contributions": [
         {
@@ -1241,7 +1241,7 @@
     },
     {
       "augmentId": 1205,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0375,
       "contributions": [
         {
@@ -1255,7 +1255,7 @@
     },
     {
       "augmentId": 1211,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0196,
       "contributions": [
         {
@@ -1269,7 +1269,7 @@
     },
     {
       "augmentId": 1237,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0437,
       "contributions": [
         {
@@ -1283,7 +1283,7 @@
     },
     {
       "augmentId": 1308,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0067,
       "contributions": [
         {
@@ -1297,7 +1297,7 @@
     },
     {
       "augmentId": 1311,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0084,
       "contributions": [
         {
@@ -1311,7 +1311,7 @@
     },
     {
       "augmentId": 1318,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0112,
       "contributions": [
         {
@@ -1325,7 +1325,7 @@
     },
     {
       "augmentId": 1325,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0103,
       "contributions": [
         {
@@ -1339,7 +1339,7 @@
     },
     {
       "augmentId": 1329,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0081,
       "contributions": [
         {
@@ -1353,7 +1353,7 @@
     },
     {
       "augmentId": 1345,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0108,
       "contributions": [
         {
@@ -1367,7 +1367,7 @@
     },
     {
       "augmentId": 1349,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0168,
       "contributions": [
         {
@@ -1381,7 +1381,7 @@
     },
     {
       "augmentId": 1358,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0016,
       "contributions": [
         {
@@ -1395,7 +1395,7 @@
     },
     {
       "augmentId": 1386,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0019,
       "contributions": [
         {
@@ -1409,7 +1409,7 @@
     },
     {
       "augmentId": 1388,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0396,
       "contributions": [
         {
@@ -1423,7 +1423,7 @@
     },
     {
       "augmentId": 1390,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0367,
       "contributions": [
         {
@@ -1437,7 +1437,7 @@
     },
     {
       "augmentId": 1392,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0014,
       "contributions": [
         {
@@ -1451,7 +1451,7 @@
     },
     {
       "augmentId": 2005,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0021,
       "contributions": [
         {
@@ -1465,7 +1465,7 @@
     },
     {
       "augmentId": 2016,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0121,
       "contributions": [
         {
@@ -1479,7 +1479,7 @@
     },
     {
       "augmentId": 2018,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0217,
       "contributions": [
         {
@@ -1493,7 +1493,7 @@
     },
     {
       "augmentId": 2024,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0091,
       "contributions": [
         {
@@ -1507,7 +1507,7 @@
     },
     {
       "augmentId": 2034,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0015,
       "contributions": [
         {
@@ -1521,7 +1521,7 @@
     },
     {
       "augmentId": 2046,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0009,
       "contributions": [
         {
@@ -1535,7 +1535,7 @@
     },
     {
       "augmentId": 2063,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0004,
       "contributions": [
         {
@@ -1549,7 +1549,7 @@
     },
     {
       "augmentId": 2080,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0012,
       "contributions": [
         {
@@ -1563,7 +1563,7 @@
     },
     {
       "augmentId": 2087,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0308,
       "contributions": [
         {
@@ -1577,7 +1577,7 @@
     },
     {
       "augmentId": 2088,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0011,
       "contributions": [
         {
@@ -1591,7 +1591,7 @@
     },
     {
       "augmentId": 2099,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0027,
       "contributions": [
         {
@@ -1605,7 +1605,7 @@
     },
     {
       "augmentId": 2118,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0133,
       "contributions": [
         {
@@ -1619,7 +1619,7 @@
     },
     {
       "augmentId": 2131,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.024,
       "contributions": [
         {
@@ -1633,7 +1633,7 @@
     },
     {
       "augmentId": 2134,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0021,
       "contributions": [
         {
@@ -1647,7 +1647,7 @@
     },
     {
       "augmentId": 12317,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0219,
       "contributions": [
         {

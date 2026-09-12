@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "method": "warden-performance-tiers-v1",
+  "version": 2,
+  "method": "warden-win-ratio-grades-v2",
   "championId": 68,
   "championKey": "Rumble",
   "set": "aram",
@@ -9,7 +9,7 @@
   "augments": [
     {
       "augmentId": 1038,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0478,
       "contributions": [
         {
@@ -23,7 +23,7 @@
     },
     {
       "augmentId": 2031,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0214,
       "contributions": [
         {
@@ -37,7 +37,7 @@
     },
     {
       "augmentId": 2095,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0236,
       "contributions": [
         {
@@ -51,7 +51,7 @@
     },
     {
       "augmentId": 1028,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0451,
       "contributions": [
         {
@@ -65,7 +65,7 @@
     },
     {
       "augmentId": 1053,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0249,
       "contributions": [
         {
@@ -79,7 +79,7 @@
     },
     {
       "augmentId": 1156,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0477,
       "contributions": [
         {
@@ -93,7 +93,7 @@
     },
     {
       "augmentId": 1180,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0304,
       "contributions": [
         {
@@ -107,7 +107,7 @@
     },
     {
       "augmentId": 1187,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0008,
       "contributions": [
         {
@@ -121,7 +121,7 @@
     },
     {
       "augmentId": 1195,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0183,
       "contributions": [
         {
@@ -135,7 +135,7 @@
     },
     {
       "augmentId": 1333,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0512,
       "contributions": [
         {
@@ -149,7 +149,7 @@
     },
     {
       "augmentId": 1388,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0393,
       "contributions": [
         {
@@ -163,7 +163,7 @@
     },
     {
       "augmentId": 1389,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0031,
       "contributions": [
         {
@@ -177,7 +177,7 @@
     },
     {
       "augmentId": 1403,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0213,
       "contributions": [
         {
@@ -191,7 +191,7 @@
     },
     {
       "augmentId": 2032,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0106,
       "contributions": [
         {
@@ -205,7 +205,7 @@
     },
     {
       "augmentId": 2098,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0116,
       "contributions": [
         {
@@ -219,7 +219,7 @@
     },
     {
       "augmentId": 2127,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0413,
       "contributions": [
         {
@@ -233,7 +233,7 @@
     },
     {
       "augmentId": 2132,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.1807,
       "contributions": [
         {
@@ -247,7 +247,7 @@
     },
     {
       "augmentId": 1004,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0175,
       "contributions": [
         {
@@ -261,7 +261,7 @@
     },
     {
       "augmentId": 1006,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.016,
       "contributions": [
         {
@@ -274,22 +274,8 @@
       ]
     },
     {
-      "augmentId": 1013,
-      "tier": 3,
-      "pickrate": 0.0134,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 5613
-        }
-      ]
-    },
-    {
       "augmentId": 1020,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0102,
       "contributions": [
         {
@@ -303,7 +289,7 @@
     },
     {
       "augmentId": 1025,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0233,
       "contributions": [
         {
@@ -316,22 +302,8 @@
       ]
     },
     {
-      "augmentId": 1029,
-      "tier": 3,
-      "pickrate": 0.0799,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 33353
-        }
-      ]
-    },
-    {
       "augmentId": 1030,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0736,
       "contributions": [
         {
@@ -344,36 +316,8 @@
       ]
     },
     {
-      "augmentId": 1034,
-      "tier": 3,
-      "pickrate": 0.0101,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4217
-        }
-      ]
-    },
-    {
-      "augmentId": 1041,
-      "tier": 3,
-      "pickrate": 0.0234,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 9759
-        }
-      ]
-    },
-    {
       "augmentId": 1045,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1092,
       "contributions": [
         {
@@ -386,50 +330,8 @@
       ]
     },
     {
-      "augmentId": 1046,
-      "tier": 3,
-      "pickrate": 0.0171,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 7135
-        }
-      ]
-    },
-    {
-      "augmentId": 1048,
-      "tier": 3,
-      "pickrate": 0.1013,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 42273
-        }
-      ]
-    },
-    {
-      "augmentId": 1057,
-      "tier": 3,
-      "pickrate": 0.0016,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 677
-        }
-      ]
-    },
-    {
       "augmentId": 1060,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0094,
       "contributions": [
         {
@@ -443,7 +345,7 @@
     },
     {
       "augmentId": 1062,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0064,
       "contributions": [
         {
@@ -457,7 +359,7 @@
     },
     {
       "augmentId": 1067,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0475,
       "contributions": [
         {
@@ -471,7 +373,7 @@
     },
     {
       "augmentId": 1068,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0945,
       "contributions": [
         {
@@ -484,22 +386,8 @@
       ]
     },
     {
-      "augmentId": 1084,
-      "tier": 3,
-      "pickrate": 0.0723,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 30168
-        }
-      ]
-    },
-    {
       "augmentId": 1097,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0499,
       "contributions": [
         {
@@ -513,7 +401,7 @@
     },
     {
       "augmentId": 1098,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0184,
       "contributions": [
         {
@@ -526,36 +414,8 @@
       ]
     },
     {
-      "augmentId": 1116,
-      "tier": 3,
-      "pickrate": 0.0246,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 10283
-        }
-      ]
-    },
-    {
-      "augmentId": 1129,
-      "tier": 3,
-      "pickrate": 0.0353,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 14740
-        }
-      ]
-    },
-    {
       "augmentId": 1138,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0934,
       "contributions": [
         {
@@ -568,78 +428,8 @@
       ]
     },
     {
-      "augmentId": 1150,
-      "tier": 3,
-      "pickrate": 0.0095,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3985
-        }
-      ]
-    },
-    {
-      "augmentId": 1154,
-      "tier": 3,
-      "pickrate": 0.0109,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4531
-        }
-      ]
-    },
-    {
-      "augmentId": 1205,
-      "tier": 3,
-      "pickrate": 0.0822,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 34316
-        }
-      ]
-    },
-    {
-      "augmentId": 1211,
-      "tier": 3,
-      "pickrate": 0.0611,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 25496
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "tier": 3,
-      "pickrate": 0.0487,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 20345
-        }
-      ]
-    },
-    {
       "augmentId": 1238,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.098,
       "contributions": [
         {
@@ -653,7 +443,7 @@
     },
     {
       "augmentId": 1243,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0255,
       "contributions": [
         {
@@ -667,7 +457,7 @@
     },
     {
       "augmentId": 1305,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0239,
       "contributions": [
         {
@@ -681,7 +471,7 @@
     },
     {
       "augmentId": 1308,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0115,
       "contributions": [
         {
@@ -695,7 +485,7 @@
     },
     {
       "augmentId": 1310,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0343,
       "contributions": [
         {
@@ -708,22 +498,8 @@
       ]
     },
     {
-      "augmentId": 1314,
-      "tier": 3,
-      "pickrate": 0.0237,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 9911
-        }
-      ]
-    },
-    {
       "augmentId": 1318,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1029,
       "contributions": [
         {
@@ -736,36 +512,8 @@
       ]
     },
     {
-      "augmentId": 1322,
-      "tier": 3,
-      "pickrate": 0.0101,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4216
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "tier": 3,
-      "pickrate": 0.0302,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 12619
-        }
-      ]
-    },
-    {
       "augmentId": 1335,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0089,
       "contributions": [
         {
@@ -779,7 +527,7 @@
     },
     {
       "augmentId": 1337,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0042,
       "contributions": [
         {
@@ -793,7 +541,7 @@
     },
     {
       "augmentId": 1344,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0207,
       "contributions": [
         {
@@ -807,7 +555,7 @@
     },
     {
       "augmentId": 1361,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0024,
       "contributions": [
         {
@@ -821,7 +569,7 @@
     },
     {
       "augmentId": 1373,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0682,
       "contributions": [
         {
@@ -835,7 +583,7 @@
     },
     {
       "augmentId": 1384,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0338,
       "contributions": [
         {
@@ -849,7 +597,7 @@
     },
     {
       "augmentId": 1390,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.102,
       "contributions": [
         {
@@ -863,7 +611,7 @@
     },
     {
       "augmentId": 1402,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.007,
       "contributions": [
         {
@@ -876,22 +624,8 @@
       ]
     },
     {
-      "augmentId": 1404,
-      "tier": 3,
-      "pickrate": 0.0058,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2408
-        }
-      ]
-    },
-    {
       "augmentId": 1415,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0523,
       "contributions": [
         {
@@ -904,176 +638,8 @@
       ]
     },
     {
-      "augmentId": 2005,
-      "tier": 3,
-      "pickrate": 0.0129,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 5375
-        }
-      ]
-    },
-    {
-      "augmentId": 2009,
-      "tier": 3,
-      "pickrate": 0.0139,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 5811
-        }
-      ]
-    },
-    {
-      "augmentId": 2026,
-      "tier": 3,
-      "pickrate": 0.008,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3348
-        }
-      ]
-    },
-    {
-      "augmentId": 2034,
-      "tier": 3,
-      "pickrate": 0.0079,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3279
-        }
-      ]
-    },
-    {
-      "augmentId": 2043,
-      "tier": 3,
-      "pickrate": 0.0097,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4043
-        }
-      ]
-    },
-    {
-      "augmentId": 2064,
-      "tier": 3,
-      "pickrate": 0.0335,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 14000
-        }
-      ]
-    },
-    {
-      "augmentId": 2083,
-      "tier": 3,
-      "pickrate": 0.0746,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 31155
-        }
-      ]
-    },
-    {
-      "augmentId": 2088,
-      "tier": 3,
-      "pickrate": 0.0122,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 5093
-        }
-      ]
-    },
-    {
-      "augmentId": 2089,
-      "tier": 3,
-      "pickrate": 0.013,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 5444
-        }
-      ]
-    },
-    {
-      "augmentId": 2091,
-      "tier": 3,
-      "pickrate": 0.0163,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6824
-        }
-      ]
-    },
-    {
-      "augmentId": 2099,
-      "tier": 3,
-      "pickrate": 0.0109,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4565
-        }
-      ]
-    },
-    {
-      "augmentId": 2100,
-      "tier": 3,
-      "pickrate": 0.0358,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 14948
-        }
-      ]
-    },
-    {
       "augmentId": 2116,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0516,
       "contributions": [
         {
@@ -1087,7 +653,7 @@
     },
     {
       "augmentId": 2119,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0036,
       "contributions": [
         {
@@ -1101,7 +667,7 @@
     },
     {
       "augmentId": 2128,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.2343,
       "contributions": [
         {
@@ -1114,8 +680,442 @@
       ]
     },
     {
+      "augmentId": 1013,
+      "tier": "C",
+      "pickrate": 0.0134,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5613
+        }
+      ]
+    },
+    {
+      "augmentId": 1029,
+      "tier": "C",
+      "pickrate": 0.0799,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 33353
+        }
+      ]
+    },
+    {
+      "augmentId": 1034,
+      "tier": "C",
+      "pickrate": 0.0101,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4217
+        }
+      ]
+    },
+    {
+      "augmentId": 1041,
+      "tier": "C",
+      "pickrate": 0.0234,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9759
+        }
+      ]
+    },
+    {
+      "augmentId": 1046,
+      "tier": "C",
+      "pickrate": 0.0171,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7135
+        }
+      ]
+    },
+    {
+      "augmentId": 1048,
+      "tier": "C",
+      "pickrate": 0.1013,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 42273
+        }
+      ]
+    },
+    {
+      "augmentId": 1057,
+      "tier": "C",
+      "pickrate": 0.0016,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 677
+        }
+      ]
+    },
+    {
+      "augmentId": 1084,
+      "tier": "C",
+      "pickrate": 0.0723,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 30168
+        }
+      ]
+    },
+    {
+      "augmentId": 1116,
+      "tier": "C",
+      "pickrate": 0.0246,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10283
+        }
+      ]
+    },
+    {
+      "augmentId": 1129,
+      "tier": "C",
+      "pickrate": 0.0353,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14740
+        }
+      ]
+    },
+    {
+      "augmentId": 1150,
+      "tier": "C",
+      "pickrate": 0.0095,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3985
+        }
+      ]
+    },
+    {
+      "augmentId": 1154,
+      "tier": "C",
+      "pickrate": 0.0109,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4531
+        }
+      ]
+    },
+    {
+      "augmentId": 1205,
+      "tier": "C",
+      "pickrate": 0.0822,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 34316
+        }
+      ]
+    },
+    {
+      "augmentId": 1211,
+      "tier": "C",
+      "pickrate": 0.0611,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 25496
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": "C",
+      "pickrate": 0.0487,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 20345
+        }
+      ]
+    },
+    {
+      "augmentId": 1314,
+      "tier": "C",
+      "pickrate": 0.0237,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9911
+        }
+      ]
+    },
+    {
+      "augmentId": 1322,
+      "tier": "C",
+      "pickrate": 0.0101,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4216
+        }
+      ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": "C",
+      "pickrate": 0.0302,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12619
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": "C",
+      "pickrate": 0.0058,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2408
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": "C",
+      "pickrate": 0.0129,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5375
+        }
+      ]
+    },
+    {
+      "augmentId": 2009,
+      "tier": "C",
+      "pickrate": 0.0139,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5811
+        }
+      ]
+    },
+    {
+      "augmentId": 2026,
+      "tier": "C",
+      "pickrate": 0.008,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3348
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": "C",
+      "pickrate": 0.0079,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3279
+        }
+      ]
+    },
+    {
+      "augmentId": 2043,
+      "tier": "C",
+      "pickrate": 0.0097,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4043
+        }
+      ]
+    },
+    {
+      "augmentId": 2064,
+      "tier": "C",
+      "pickrate": 0.0335,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14000
+        }
+      ]
+    },
+    {
+      "augmentId": 2083,
+      "tier": "C",
+      "pickrate": 0.0746,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 31155
+        }
+      ]
+    },
+    {
+      "augmentId": 2088,
+      "tier": "C",
+      "pickrate": 0.0122,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5093
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": "C",
+      "pickrate": 0.013,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5444
+        }
+      ]
+    },
+    {
+      "augmentId": 2091,
+      "tier": "C",
+      "pickrate": 0.0163,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6824
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": "C",
+      "pickrate": 0.0109,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4565
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": "C",
+      "pickrate": 0.0358,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/rumble?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14948
+        }
+      ]
+    },
+    {
       "augmentId": 12317,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0211,
       "contributions": [
         {
@@ -1129,7 +1129,7 @@
     },
     {
       "augmentId": 1001,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0066,
       "contributions": [
         {
@@ -1143,7 +1143,7 @@
     },
     {
       "augmentId": 1002,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0097,
       "contributions": [
         {
@@ -1157,7 +1157,7 @@
     },
     {
       "augmentId": 1044,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0521,
       "contributions": [
         {
@@ -1171,7 +1171,7 @@
     },
     {
       "augmentId": 1058,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0074,
       "contributions": [
         {
@@ -1185,7 +1185,7 @@
     },
     {
       "augmentId": 1088,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0523,
       "contributions": [
         {
@@ -1199,7 +1199,7 @@
     },
     {
       "augmentId": 1103,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0285,
       "contributions": [
         {
@@ -1213,7 +1213,7 @@
     },
     {
       "augmentId": 1151,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0103,
       "contributions": [
         {
@@ -1227,7 +1227,7 @@
     },
     {
       "augmentId": 1194,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0332,
       "contributions": [
         {
@@ -1241,7 +1241,7 @@
     },
     {
       "augmentId": 1301,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0113,
       "contributions": [
         {
@@ -1255,7 +1255,7 @@
     },
     {
       "augmentId": 1326,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0083,
       "contributions": [
         {
@@ -1269,7 +1269,7 @@
     },
     {
       "augmentId": 1332,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.022,
       "contributions": [
         {
@@ -1283,7 +1283,7 @@
     },
     {
       "augmentId": 1345,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0181,
       "contributions": [
         {
@@ -1297,7 +1297,7 @@
     },
     {
       "augmentId": 1347,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0021,
       "contributions": [
         {
@@ -1311,7 +1311,7 @@
     },
     {
       "augmentId": 1348,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0007,
       "contributions": [
         {
@@ -1325,7 +1325,7 @@
     },
     {
       "augmentId": 1349,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0207,
       "contributions": [
         {
@@ -1339,7 +1339,7 @@
     },
     {
       "augmentId": 1358,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0157,
       "contributions": [
         {
@@ -1353,7 +1353,7 @@
     },
     {
       "augmentId": 1392,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0087,
       "contributions": [
         {
@@ -1367,7 +1367,7 @@
     },
     {
       "augmentId": 2018,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0409,
       "contributions": [
         {
@@ -1381,7 +1381,7 @@
     },
     {
       "augmentId": 2042,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.002,
       "contributions": [
         {
@@ -1395,7 +1395,7 @@
     },
     {
       "augmentId": 2080,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0132,
       "contributions": [
         {
@@ -1409,7 +1409,7 @@
     },
     {
       "augmentId": 2087,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0276,
       "contributions": [
         {
@@ -1423,7 +1423,7 @@
     },
     {
       "augmentId": 2102,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0101,
       "contributions": [
         {
@@ -1437,7 +1437,7 @@
     },
     {
       "augmentId": 2107,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0037,
       "contributions": [
         {
@@ -1451,7 +1451,7 @@
     },
     {
       "augmentId": 2118,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0458,
       "contributions": [
         {
@@ -1465,7 +1465,7 @@
     },
     {
       "augmentId": 2134,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.003,
       "contributions": [
         {
@@ -1479,7 +1479,7 @@
     },
     {
       "augmentId": 2136,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0157,
       "contributions": [
         {
@@ -1493,7 +1493,7 @@
     },
     {
       "augmentId": 2137,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0039,
       "contributions": [
         {
@@ -1507,7 +1507,7 @@
     },
     {
       "augmentId": 1011,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0046,
       "contributions": [
         {
@@ -1521,7 +1521,7 @@
     },
     {
       "augmentId": 1054,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0055,
       "contributions": [
         {
@@ -1535,7 +1535,7 @@
     },
     {
       "augmentId": 1095,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0007,
       "contributions": [
         {
@@ -1549,7 +1549,7 @@
     },
     {
       "augmentId": 1112,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0061,
       "contributions": [
         {
@@ -1563,7 +1563,7 @@
     },
     {
       "augmentId": 1152,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0125,
       "contributions": [
         {
@@ -1577,7 +1577,7 @@
     },
     {
       "augmentId": 1181,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0026,
       "contributions": [
         {
@@ -1591,7 +1591,7 @@
     },
     {
       "augmentId": 1386,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0018,
       "contributions": [
         {
@@ -1605,7 +1605,7 @@
     },
     {
       "augmentId": 1421,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0007,
       "contributions": [
         {
@@ -1619,7 +1619,7 @@
     },
     {
       "augmentId": 1996,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0028,
       "contributions": [
         {
@@ -1633,7 +1633,7 @@
     },
     {
       "augmentId": 2046,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0011,
       "contributions": [
         {
@@ -1647,7 +1647,7 @@
     },
     {
       "augmentId": 2063,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0009,
       "contributions": [
         {
@@ -1661,7 +1661,7 @@
     },
     {
       "augmentId": 2115,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.001,
       "contributions": [
         {
@@ -1675,7 +1675,7 @@
     },
     {
       "augmentId": 2139,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0017,
       "contributions": [
         {

@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "method": "warden-performance-tiers-v1",
+  "version": 2,
+  "method": "warden-win-ratio-grades-v2",
   "championId": 202,
   "championKey": "Jhin",
   "set": "aram",
@@ -9,7 +9,7 @@
   "augments": [
     {
       "augmentId": 2095,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0313,
       "contributions": [
         {
@@ -23,7 +23,7 @@
     },
     {
       "augmentId": 1154,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0278,
       "contributions": [
         {
@@ -37,7 +37,7 @@
     },
     {
       "augmentId": 1310,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0142,
       "contributions": [
         {
@@ -51,7 +51,7 @@
     },
     {
       "augmentId": 1004,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.037,
       "contributions": [
         {
@@ -64,50 +64,8 @@
       ]
     },
     {
-      "augmentId": 1007,
-      "tier": 3,
-      "pickrate": 0.1255,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 106882
-        }
-      ]
-    },
-    {
-      "augmentId": 1026,
-      "tier": 3,
-      "pickrate": 0.0339,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 28840
-        }
-      ]
-    },
-    {
-      "augmentId": 1034,
-      "tier": 3,
-      "pickrate": 0.011,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 9406
-        }
-      ]
-    },
-    {
       "augmentId": 1038,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0569,
       "contributions": [
         {
@@ -120,22 +78,8 @@
       ]
     },
     {
-      "augmentId": 1046,
-      "tier": 3,
-      "pickrate": 0.0133,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 11358
-        }
-      ]
-    },
-    {
       "augmentId": 1053,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0351,
       "contributions": [
         {
@@ -148,22 +92,8 @@
       ]
     },
     {
-      "augmentId": 1057,
-      "tier": 3,
-      "pickrate": 0.0018,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1492
-        }
-      ]
-    },
-    {
       "augmentId": 1060,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0066,
       "contributions": [
         {
@@ -177,7 +107,7 @@
     },
     {
       "augmentId": 1061,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0058,
       "contributions": [
         {
@@ -191,7 +121,7 @@
     },
     {
       "augmentId": 1062,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0121,
       "contributions": [
         {
@@ -204,50 +134,8 @@
       ]
     },
     {
-      "augmentId": 1068,
-      "tier": 3,
-      "pickrate": 0.0216,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 18370
-        }
-      ]
-    },
-    {
-      "augmentId": 1077,
-      "tier": 3,
-      "pickrate": 0.1532,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 130447
-        }
-      ]
-    },
-    {
-      "augmentId": 1080,
-      "tier": 3,
-      "pickrate": 0.0541,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 46043
-        }
-      ]
-    },
-    {
       "augmentId": 1105,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0619,
       "contributions": [
         {
@@ -260,22 +148,8 @@
       ]
     },
     {
-      "augmentId": 1116,
-      "tier": 3,
-      "pickrate": 0.0165,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 14023
-        }
-      ]
-    },
-    {
       "augmentId": 1134,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0572,
       "contributions": [
         {
@@ -289,7 +163,7 @@
     },
     {
       "augmentId": 1195,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1127,
       "contributions": [
         {
@@ -302,50 +176,8 @@
       ]
     },
     {
-      "augmentId": 1206,
-      "tier": 3,
-      "pickrate": 0.063,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 53615
-        }
-      ]
-    },
-    {
-      "augmentId": 1238,
-      "tier": 3,
-      "pickrate": 0.1055,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 89816
-        }
-      ]
-    },
-    {
-      "augmentId": 1305,
-      "tier": 3,
-      "pickrate": 0.0514,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 43803
-        }
-      ]
-    },
-    {
       "augmentId": 1333,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0201,
       "contributions": [
         {
@@ -359,7 +191,7 @@
     },
     {
       "augmentId": 1335,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0087,
       "contributions": [
         {
@@ -372,64 +204,8 @@
       ]
     },
     {
-      "augmentId": 1336,
-      "tier": 3,
-      "pickrate": 0.2294,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 195327
-        }
-      ]
-    },
-    {
-      "augmentId": 1337,
-      "tier": 3,
-      "pickrate": 0.0066,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 5633
-        }
-      ]
-    },
-    {
-      "augmentId": 1356,
-      "tier": 3,
-      "pickrate": 0.2071,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 176345
-        }
-      ]
-    },
-    {
-      "augmentId": 1373,
-      "tier": 3,
-      "pickrate": 0.0785,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 66812
-        }
-      ]
-    },
-    {
       "augmentId": 1384,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0318,
       "contributions": [
         {
@@ -443,7 +219,7 @@
     },
     {
       "augmentId": 1389,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0051,
       "contributions": [
         {
@@ -456,8 +232,260 @@
       ]
     },
     {
+      "augmentId": 2054,
+      "tier": "B",
+      "pickrate": 0.0396,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 33749
+        }
+      ]
+    },
+    {
+      "augmentId": 2103,
+      "tier": "B",
+      "pickrate": 0.0098,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8303
+        }
+      ]
+    },
+    {
+      "augmentId": 1007,
+      "tier": "C",
+      "pickrate": 0.1255,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 106882
+        }
+      ]
+    },
+    {
+      "augmentId": 1026,
+      "tier": "C",
+      "pickrate": 0.0339,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 28840
+        }
+      ]
+    },
+    {
+      "augmentId": 1034,
+      "tier": "C",
+      "pickrate": 0.011,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9406
+        }
+      ]
+    },
+    {
+      "augmentId": 1046,
+      "tier": "C",
+      "pickrate": 0.0133,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11358
+        }
+      ]
+    },
+    {
+      "augmentId": 1057,
+      "tier": "C",
+      "pickrate": 0.0018,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1492
+        }
+      ]
+    },
+    {
+      "augmentId": 1068,
+      "tier": "C",
+      "pickrate": 0.0216,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18370
+        }
+      ]
+    },
+    {
+      "augmentId": 1077,
+      "tier": "C",
+      "pickrate": 0.1532,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 130447
+        }
+      ]
+    },
+    {
+      "augmentId": 1080,
+      "tier": "C",
+      "pickrate": 0.0541,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 46043
+        }
+      ]
+    },
+    {
+      "augmentId": 1116,
+      "tier": "C",
+      "pickrate": 0.0165,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14023
+        }
+      ]
+    },
+    {
+      "augmentId": 1206,
+      "tier": "C",
+      "pickrate": 0.063,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 53615
+        }
+      ]
+    },
+    {
+      "augmentId": 1238,
+      "tier": "C",
+      "pickrate": 0.1055,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 89816
+        }
+      ]
+    },
+    {
+      "augmentId": 1305,
+      "tier": "C",
+      "pickrate": 0.0514,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 43803
+        }
+      ]
+    },
+    {
+      "augmentId": 1336,
+      "tier": "C",
+      "pickrate": 0.2294,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 195327
+        }
+      ]
+    },
+    {
+      "augmentId": 1337,
+      "tier": "C",
+      "pickrate": 0.0066,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5633
+        }
+      ]
+    },
+    {
+      "augmentId": 1356,
+      "tier": "C",
+      "pickrate": 0.2071,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 176345
+        }
+      ]
+    },
+    {
+      "augmentId": 1373,
+      "tier": "C",
+      "pickrate": 0.0785,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 66812
+        }
+      ]
+    },
+    {
       "augmentId": 1402,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.012,
       "contributions": [
         {
@@ -471,7 +499,7 @@
     },
     {
       "augmentId": 1403,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0212,
       "contributions": [
         {
@@ -485,7 +513,7 @@
     },
     {
       "augmentId": 1404,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0062,
       "contributions": [
         {
@@ -499,7 +527,7 @@
     },
     {
       "augmentId": 1415,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0265,
       "contributions": [
         {
@@ -512,8 +540,22 @@
       ]
     },
     {
+      "augmentId": 1416,
+      "tier": "C",
+      "pickrate": 0.0168,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14312
+        }
+      ]
+    },
+    {
       "augmentId": 2009,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0395,
       "contributions": [
         {
@@ -526,22 +568,8 @@
       ]
     },
     {
-      "augmentId": 2054,
-      "tier": 3,
-      "pickrate": 0.0396,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 33749
-        }
-      ]
-    },
-    {
       "augmentId": 2083,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0698,
       "contributions": [
         {
@@ -555,7 +583,7 @@
     },
     {
       "augmentId": 2089,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.009,
       "contributions": [
         {
@@ -569,7 +597,7 @@
     },
     {
       "augmentId": 2098,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0091,
       "contributions": [
         {
@@ -582,22 +610,8 @@
       ]
     },
     {
-      "augmentId": 2103,
-      "tier": 3,
-      "pickrate": 0.0098,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 8303
-        }
-      ]
-    },
-    {
       "augmentId": 2119,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0007,
       "contributions": [
         {
@@ -611,7 +625,7 @@
     },
     {
       "augmentId": 2140,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0108,
       "contributions": [
         {
@@ -625,7 +639,7 @@
     },
     {
       "augmentId": 2141,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0309,
       "contributions": [
         {
@@ -639,7 +653,7 @@
     },
     {
       "augmentId": 1006,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0036,
       "contributions": [
         {
@@ -653,7 +667,7 @@
     },
     {
       "augmentId": 1047,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0794,
       "contributions": [
         {
@@ -667,7 +681,7 @@
     },
     {
       "augmentId": 1048,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0757,
       "contributions": [
         {
@@ -681,7 +695,7 @@
     },
     {
       "augmentId": 1051,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0136,
       "contributions": [
         {
@@ -695,7 +709,7 @@
     },
     {
       "augmentId": 1084,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0564,
       "contributions": [
         {
@@ -709,7 +723,7 @@
     },
     {
       "augmentId": 1087,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0297,
       "contributions": [
         {
@@ -723,7 +737,7 @@
     },
     {
       "augmentId": 1088,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0195,
       "contributions": [
         {
@@ -737,7 +751,7 @@
     },
     {
       "augmentId": 1092,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.158,
       "contributions": [
         {
@@ -751,7 +765,7 @@
     },
     {
       "augmentId": 1098,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.02,
       "contributions": [
         {
@@ -765,7 +779,7 @@
     },
     {
       "augmentId": 1113,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0168,
       "contributions": [
         {
@@ -779,7 +793,7 @@
     },
     {
       "augmentId": 1133,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0189,
       "contributions": [
         {
@@ -793,7 +807,7 @@
     },
     {
       "augmentId": 1150,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0117,
       "contributions": [
         {
@@ -807,7 +821,7 @@
     },
     {
       "augmentId": 1151,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.007,
       "contributions": [
         {
@@ -821,7 +835,7 @@
     },
     {
       "augmentId": 1211,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0089,
       "contributions": [
         {
@@ -835,7 +849,7 @@
     },
     {
       "augmentId": 1220,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.1203,
       "contributions": [
         {
@@ -849,7 +863,7 @@
     },
     {
       "augmentId": 1237,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0413,
       "contributions": [
         {
@@ -863,7 +877,7 @@
     },
     {
       "augmentId": 1243,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0375,
       "contributions": [
         {
@@ -877,7 +891,7 @@
     },
     {
       "augmentId": 1308,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0047,
       "contributions": [
         {
@@ -891,7 +905,7 @@
     },
     {
       "augmentId": 1320,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.1142,
       "contributions": [
         {
@@ -905,7 +919,7 @@
     },
     {
       "augmentId": 1322,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0619,
       "contributions": [
         {
@@ -919,7 +933,7 @@
     },
     {
       "augmentId": 1326,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0167,
       "contributions": [
         {
@@ -933,7 +947,7 @@
     },
     {
       "augmentId": 1328,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.084,
       "contributions": [
         {
@@ -947,7 +961,7 @@
     },
     {
       "augmentId": 1329,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0081,
       "contributions": [
         {
@@ -961,7 +975,7 @@
     },
     {
       "augmentId": 1345,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0106,
       "contributions": [
         {
@@ -975,7 +989,7 @@
     },
     {
       "augmentId": 1347,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0095,
       "contributions": [
         {
@@ -989,7 +1003,7 @@
     },
     {
       "augmentId": 1358,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0012,
       "contributions": [
         {
@@ -1003,7 +1017,7 @@
     },
     {
       "augmentId": 1388,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0157,
       "contributions": [
         {
@@ -1016,22 +1030,8 @@
       ]
     },
     {
-      "augmentId": 1416,
-      "tier": 4,
-      "pickrate": 0.0168,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/jhin?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 14312
-        }
-      ]
-    },
-    {
       "augmentId": 1996,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0048,
       "contributions": [
         {
@@ -1045,7 +1045,7 @@
     },
     {
       "augmentId": 2024,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0331,
       "contributions": [
         {
@@ -1059,7 +1059,7 @@
     },
     {
       "augmentId": 2026,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0137,
       "contributions": [
         {
@@ -1073,7 +1073,7 @@
     },
     {
       "augmentId": 2042,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0011,
       "contributions": [
         {
@@ -1087,7 +1087,7 @@
     },
     {
       "augmentId": 2099,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0041,
       "contributions": [
         {
@@ -1101,7 +1101,7 @@
     },
     {
       "augmentId": 2100,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0166,
       "contributions": [
         {
@@ -1115,7 +1115,7 @@
     },
     {
       "augmentId": 2116,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0245,
       "contributions": [
         {
@@ -1129,7 +1129,7 @@
     },
     {
       "augmentId": 2127,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0212,
       "contributions": [
         {
@@ -1143,7 +1143,7 @@
     },
     {
       "augmentId": 2137,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0043,
       "contributions": [
         {
@@ -1157,7 +1157,7 @@
     },
     {
       "augmentId": 12317,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0307,
       "contributions": [
         {
@@ -1171,7 +1171,7 @@
     },
     {
       "augmentId": 1002,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0029,
       "contributions": [
         {
@@ -1185,7 +1185,7 @@
     },
     {
       "augmentId": 1011,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0021,
       "contributions": [
         {
@@ -1199,7 +1199,7 @@
     },
     {
       "augmentId": 1074,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0257,
       "contributions": [
         {
@@ -1213,7 +1213,7 @@
     },
     {
       "augmentId": 1079,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0164,
       "contributions": [
         {
@@ -1227,7 +1227,7 @@
     },
     {
       "augmentId": 1081,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0605,
       "contributions": [
         {
@@ -1241,7 +1241,7 @@
     },
     {
       "augmentId": 1103,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0142,
       "contributions": [
         {
@@ -1255,7 +1255,7 @@
     },
     {
       "augmentId": 1112,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0017,
       "contributions": [
         {
@@ -1269,7 +1269,7 @@
     },
     {
       "augmentId": 1325,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0122,
       "contributions": [
         {
@@ -1283,7 +1283,7 @@
     },
     {
       "augmentId": 1344,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0027,
       "contributions": [
         {
@@ -1297,7 +1297,7 @@
     },
     {
       "augmentId": 1349,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0065,
       "contributions": [
         {
@@ -1311,7 +1311,7 @@
     },
     {
       "augmentId": 1386,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.002,
       "contributions": [
         {
@@ -1325,7 +1325,7 @@
     },
     {
       "augmentId": 1392,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0016,
       "contributions": [
         {
@@ -1339,7 +1339,7 @@
     },
     {
       "augmentId": 2005,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0026,
       "contributions": [
         {
@@ -1353,7 +1353,7 @@
     },
     {
       "augmentId": 2010,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0698,
       "contributions": [
         {
@@ -1367,7 +1367,7 @@
     },
     {
       "augmentId": 2016,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0026,
       "contributions": [
         {
@@ -1381,7 +1381,7 @@
     },
     {
       "augmentId": 2018,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0059,
       "contributions": [
         {
@@ -1395,7 +1395,7 @@
     },
     {
       "augmentId": 2034,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0011,
       "contributions": [
         {
@@ -1409,7 +1409,7 @@
     },
     {
       "augmentId": 2046,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0013,
       "contributions": [
         {
@@ -1423,7 +1423,7 @@
     },
     {
       "augmentId": 2063,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0006,
       "contributions": [
         {
@@ -1437,7 +1437,7 @@
     },
     {
       "augmentId": 2080,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0008,
       "contributions": [
         {
@@ -1451,7 +1451,7 @@
     },
     {
       "augmentId": 2087,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0089,
       "contributions": [
         {
@@ -1465,7 +1465,7 @@
     },
     {
       "augmentId": 2088,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0008,
       "contributions": [
         {
@@ -1479,7 +1479,7 @@
     },
     {
       "augmentId": 2107,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0022,
       "contributions": [
         {
@@ -1493,7 +1493,7 @@
     },
     {
       "augmentId": 2118,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0153,
       "contributions": [
         {
@@ -1507,7 +1507,7 @@
     },
     {
       "augmentId": 2131,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0016,
       "contributions": [
         {
@@ -1521,7 +1521,7 @@
     },
     {
       "augmentId": 2134,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0013,
       "contributions": [
         {

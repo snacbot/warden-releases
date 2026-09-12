@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "method": "warden-performance-tiers-v1",
+  "version": 2,
+  "method": "warden-win-ratio-grades-v2",
   "championId": 234,
   "championKey": "Viego",
   "set": "aram",
@@ -9,7 +9,7 @@
   "augments": [
     {
       "augmentId": 1029,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0485,
       "contributions": [
         {
@@ -23,7 +23,7 @@
     },
     {
       "augmentId": 1038,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.053,
       "contributions": [
         {
@@ -37,7 +37,7 @@
     },
     {
       "augmentId": 1403,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0221,
       "contributions": [
         {
@@ -51,7 +51,7 @@
     },
     {
       "augmentId": 2031,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0108,
       "contributions": [
         {
@@ -65,7 +65,7 @@
     },
     {
       "augmentId": 2083,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.1049,
       "contributions": [
         {
@@ -79,7 +79,7 @@
     },
     {
       "augmentId": 2095,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0248,
       "contributions": [
         {
@@ -93,7 +93,7 @@
     },
     {
       "augmentId": 1007,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0826,
       "contributions": [
         {
@@ -107,7 +107,7 @@
     },
     {
       "augmentId": 1022,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0264,
       "contributions": [
         {
@@ -121,7 +121,7 @@
     },
     {
       "augmentId": 1048,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0943,
       "contributions": [
         {
@@ -135,7 +135,7 @@
     },
     {
       "augmentId": 1053,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0245,
       "contributions": [
         {
@@ -149,7 +149,7 @@
     },
     {
       "augmentId": 1062,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0063,
       "contributions": [
         {
@@ -163,7 +163,7 @@
     },
     {
       "augmentId": 1073,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.036,
       "contributions": [
         {
@@ -177,7 +177,7 @@
     },
     {
       "augmentId": 1077,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.1442,
       "contributions": [
         {
@@ -191,7 +191,7 @@
     },
     {
       "augmentId": 1080,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0492,
       "contributions": [
         {
@@ -205,7 +205,7 @@
     },
     {
       "augmentId": 1154,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0221,
       "contributions": [
         {
@@ -219,7 +219,7 @@
     },
     {
       "augmentId": 1195,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0249,
       "contributions": [
         {
@@ -233,7 +233,7 @@
     },
     {
       "augmentId": 1206,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.04,
       "contributions": [
         {
@@ -247,7 +247,7 @@
     },
     {
       "augmentId": 1238,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.1088,
       "contributions": [
         {
@@ -261,7 +261,7 @@
     },
     {
       "augmentId": 1310,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0721,
       "contributions": [
         {
@@ -275,7 +275,7 @@
     },
     {
       "augmentId": 1315,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0078,
       "contributions": [
         {
@@ -289,7 +289,7 @@
     },
     {
       "augmentId": 1333,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0492,
       "contributions": [
         {
@@ -303,7 +303,7 @@
     },
     {
       "augmentId": 1344,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0976,
       "contributions": [
         {
@@ -317,7 +317,7 @@
     },
     {
       "augmentId": 1356,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0487,
       "contributions": [
         {
@@ -331,7 +331,7 @@
     },
     {
       "augmentId": 1384,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0375,
       "contributions": [
         {
@@ -345,7 +345,7 @@
     },
     {
       "augmentId": 1389,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0021,
       "contributions": [
         {
@@ -359,7 +359,7 @@
     },
     {
       "augmentId": 2009,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.021,
       "contributions": [
         {
@@ -372,22 +372,8 @@
       ]
     },
     {
-      "augmentId": 1006,
-      "tier": 3,
-      "pickrate": 0.0317,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 10795
-        }
-      ]
-    },
-    {
       "augmentId": 1011,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0545,
       "contributions": [
         {
@@ -401,7 +387,7 @@
     },
     {
       "augmentId": 1025,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0148,
       "contributions": [
         {
@@ -414,36 +400,8 @@
       ]
     },
     {
-      "augmentId": 1027,
-      "tier": 3,
-      "pickrate": 0.003,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1023
-        }
-      ]
-    },
-    {
-      "augmentId": 1034,
-      "tier": 3,
-      "pickrate": 0.0112,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3823
-        }
-      ]
-    },
-    {
       "augmentId": 1041,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0216,
       "contributions": [
         {
@@ -456,22 +414,8 @@
       ]
     },
     {
-      "augmentId": 1046,
-      "tier": 3,
-      "pickrate": 0.0074,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2529
-        }
-      ]
-    },
-    {
       "augmentId": 1047,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0676,
       "contributions": [
         {
@@ -484,22 +428,8 @@
       ]
     },
     {
-      "augmentId": 1060,
-      "tier": 3,
-      "pickrate": 0.0031,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1054
-        }
-      ]
-    },
-    {
       "augmentId": 1063,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.012,
       "contributions": [
         {
@@ -513,7 +443,7 @@
     },
     {
       "augmentId": 1071,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0401,
       "contributions": [
         {
@@ -527,7 +457,7 @@
     },
     {
       "augmentId": 1079,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0157,
       "contributions": [
         {
@@ -540,36 +470,8 @@
       ]
     },
     {
-      "augmentId": 1084,
-      "tier": 3,
-      "pickrate": 0.0523,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 17798
-        }
-      ]
-    },
-    {
-      "augmentId": 1087,
-      "tier": 3,
-      "pickrate": 0.0055,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1881
-        }
-      ]
-    },
-    {
       "augmentId": 1092,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0915,
       "contributions": [
         {
@@ -582,22 +484,8 @@
       ]
     },
     {
-      "augmentId": 1112,
-      "tier": 3,
-      "pickrate": 0.0435,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 14796
-        }
-      ]
-    },
-    {
       "augmentId": 1116,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0359,
       "contributions": [
         {
@@ -611,7 +499,7 @@
     },
     {
       "augmentId": 1138,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0623,
       "contributions": [
         {
@@ -624,22 +512,8 @@
       ]
     },
     {
-      "augmentId": 1220,
-      "tier": 3,
-      "pickrate": 0.0183,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6225
-        }
-      ]
-    },
-    {
       "augmentId": 1225,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0276,
       "contributions": [
         {
@@ -652,22 +526,8 @@
       ]
     },
     {
-      "augmentId": 1237,
-      "tier": 3,
-      "pickrate": 0.0378,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 12875
-        }
-      ]
-    },
-    {
       "augmentId": 1243,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0291,
       "contributions": [
         {
@@ -680,22 +540,8 @@
       ]
     },
     {
-      "augmentId": 1305,
-      "tier": 3,
-      "pickrate": 0.0133,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4524
-        }
-      ]
-    },
-    {
       "augmentId": 1320,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0923,
       "contributions": [
         {
@@ -708,22 +554,8 @@
       ]
     },
     {
-      "augmentId": 1322,
-      "tier": 3,
-      "pickrate": 0.0654,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 22281
-        }
-      ]
-    },
-    {
       "augmentId": 1328,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0517,
       "contributions": [
         {
@@ -736,22 +568,8 @@
       ]
     },
     {
-      "augmentId": 1329,
-      "tier": 3,
-      "pickrate": 0.0344,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 11722
-        }
-      ]
-    },
-    {
       "augmentId": 1335,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0036,
       "contributions": [
         {
@@ -765,7 +583,7 @@
     },
     {
       "augmentId": 1336,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.169,
       "contributions": [
         {
@@ -778,36 +596,8 @@
       ]
     },
     {
-      "augmentId": 1337,
-      "tier": 3,
-      "pickrate": 0.0078,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2640
-        }
-      ]
-    },
-    {
-      "augmentId": 1401,
-      "tier": 3,
-      "pickrate": 0.0206,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 7026
-        }
-      ]
-    },
-    {
       "augmentId": 1402,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0079,
       "contributions": [
         {
@@ -821,7 +611,7 @@
     },
     {
       "augmentId": 1404,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0036,
       "contributions": [
         {
@@ -835,7 +625,7 @@
     },
     {
       "augmentId": 1415,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0077,
       "contributions": [
         {
@@ -848,36 +638,8 @@
       ]
     },
     {
-      "augmentId": 1996,
-      "tier": 3,
-      "pickrate": 0.0128,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4368
-        }
-      ]
-    },
-    {
-      "augmentId": 2005,
-      "tier": 3,
-      "pickrate": 0.0282,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 9600
-        }
-      ]
-    },
-    {
       "augmentId": 2010,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0312,
       "contributions": [
         {
@@ -891,7 +653,7 @@
     },
     {
       "augmentId": 2032,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0064,
       "contributions": [
         {
@@ -904,64 +666,8 @@
       ]
     },
     {
-      "augmentId": 2034,
-      "tier": 3,
-      "pickrate": 0.0094,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3206
-        }
-      ]
-    },
-    {
-      "augmentId": 2042,
-      "tier": 3,
-      "pickrate": 0.0019,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 637
-        }
-      ]
-    },
-    {
-      "augmentId": 2073,
-      "tier": 3,
-      "pickrate": 0.0342,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 11654
-        }
-      ]
-    },
-    {
-      "augmentId": 2082,
-      "tier": 3,
-      "pickrate": 0.0047,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1584
-        }
-      ]
-    },
-    {
       "augmentId": 2089,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0098,
       "contributions": [
         {
@@ -974,36 +680,8 @@
       ]
     },
     {
-      "augmentId": 2091,
-      "tier": 3,
-      "pickrate": 0.0312,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 10638
-        }
-      ]
-    },
-    {
-      "augmentId": 2107,
-      "tier": 3,
-      "pickrate": 0.0118,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4006
-        }
-      ]
-    },
-    {
       "augmentId": 2116,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0396,
       "contributions": [
         {
@@ -1017,7 +695,7 @@
     },
     {
       "augmentId": 2119,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0047,
       "contributions": [
         {
@@ -1031,7 +709,7 @@
     },
     {
       "augmentId": 2127,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0177,
       "contributions": [
         {
@@ -1044,8 +722,330 @@
       ]
     },
     {
+      "augmentId": 1006,
+      "tier": "C",
+      "pickrate": 0.0317,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10795
+        }
+      ]
+    },
+    {
+      "augmentId": 1027,
+      "tier": "C",
+      "pickrate": 0.003,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1023
+        }
+      ]
+    },
+    {
+      "augmentId": 1034,
+      "tier": "C",
+      "pickrate": 0.0112,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3823
+        }
+      ]
+    },
+    {
+      "augmentId": 1046,
+      "tier": "C",
+      "pickrate": 0.0074,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2529
+        }
+      ]
+    },
+    {
+      "augmentId": 1060,
+      "tier": "C",
+      "pickrate": 0.0031,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1054
+        }
+      ]
+    },
+    {
+      "augmentId": 1084,
+      "tier": "C",
+      "pickrate": 0.0523,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17798
+        }
+      ]
+    },
+    {
+      "augmentId": 1087,
+      "tier": "C",
+      "pickrate": 0.0055,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1881
+        }
+      ]
+    },
+    {
+      "augmentId": 1112,
+      "tier": "C",
+      "pickrate": 0.0435,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14796
+        }
+      ]
+    },
+    {
+      "augmentId": 1220,
+      "tier": "C",
+      "pickrate": 0.0183,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6225
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": "C",
+      "pickrate": 0.0378,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12875
+        }
+      ]
+    },
+    {
+      "augmentId": 1305,
+      "tier": "C",
+      "pickrate": 0.0133,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4524
+        }
+      ]
+    },
+    {
+      "augmentId": 1322,
+      "tier": "C",
+      "pickrate": 0.0654,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 22281
+        }
+      ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": "C",
+      "pickrate": 0.0344,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11722
+        }
+      ]
+    },
+    {
+      "augmentId": 1337,
+      "tier": "C",
+      "pickrate": 0.0078,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2640
+        }
+      ]
+    },
+    {
+      "augmentId": 1401,
+      "tier": "C",
+      "pickrate": 0.0206,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7026
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": "C",
+      "pickrate": 0.0128,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4368
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": "C",
+      "pickrate": 0.0282,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9600
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": "C",
+      "pickrate": 0.0094,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3206
+        }
+      ]
+    },
+    {
+      "augmentId": 2042,
+      "tier": "C",
+      "pickrate": 0.0019,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 637
+        }
+      ]
+    },
+    {
+      "augmentId": 2073,
+      "tier": "C",
+      "pickrate": 0.0342,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11654
+        }
+      ]
+    },
+    {
+      "augmentId": 2082,
+      "tier": "C",
+      "pickrate": 0.0047,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1584
+        }
+      ]
+    },
+    {
+      "augmentId": 2091,
+      "tier": "C",
+      "pickrate": 0.0312,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10638
+        }
+      ]
+    },
+    {
+      "augmentId": 2107,
+      "tier": "C",
+      "pickrate": 0.0118,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/viego?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4006
+        }
+      ]
+    },
+    {
       "augmentId": 2140,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0448,
       "contributions": [
         {
@@ -1059,7 +1059,7 @@
     },
     {
       "augmentId": 2157,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0997,
       "contributions": [
         {
@@ -1073,7 +1073,7 @@
     },
     {
       "augmentId": 12317,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0248,
       "contributions": [
         {
@@ -1087,7 +1087,7 @@
     },
     {
       "augmentId": 1002,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0035,
       "contributions": [
         {
@@ -1101,7 +1101,7 @@
     },
     {
       "augmentId": 1004,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.001,
       "contributions": [
         {
@@ -1115,7 +1115,7 @@
     },
     {
       "augmentId": 1015,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0018,
       "contributions": [
         {
@@ -1129,7 +1129,7 @@
     },
     {
       "augmentId": 1019,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0231,
       "contributions": [
         {
@@ -1143,7 +1143,7 @@
     },
     {
       "augmentId": 1028,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0033,
       "contributions": [
         {
@@ -1157,7 +1157,7 @@
     },
     {
       "augmentId": 1036,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0077,
       "contributions": [
         {
@@ -1171,7 +1171,7 @@
     },
     {
       "augmentId": 1058,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0257,
       "contributions": [
         {
@@ -1185,7 +1185,7 @@
     },
     {
       "augmentId": 1068,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0219,
       "contributions": [
         {
@@ -1199,7 +1199,7 @@
     },
     {
       "augmentId": 1074,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0116,
       "contributions": [
         {
@@ -1213,7 +1213,7 @@
     },
     {
       "augmentId": 1103,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0166,
       "contributions": [
         {
@@ -1227,7 +1227,7 @@
     },
     {
       "augmentId": 1115,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0136,
       "contributions": [
         {
@@ -1241,7 +1241,7 @@
     },
     {
       "augmentId": 1151,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0041,
       "contributions": [
         {
@@ -1255,7 +1255,7 @@
     },
     {
       "augmentId": 1170,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0118,
       "contributions": [
         {
@@ -1269,7 +1269,7 @@
     },
     {
       "augmentId": 1187,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.001,
       "contributions": [
         {
@@ -1283,7 +1283,7 @@
     },
     {
       "augmentId": 1194,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0253,
       "contributions": [
         {
@@ -1297,7 +1297,7 @@
     },
     {
       "augmentId": 1211,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0285,
       "contributions": [
         {
@@ -1311,7 +1311,7 @@
     },
     {
       "augmentId": 1301,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0098,
       "contributions": [
         {
@@ -1325,7 +1325,7 @@
     },
     {
       "augmentId": 1308,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0014,
       "contributions": [
         {
@@ -1339,7 +1339,7 @@
     },
     {
       "augmentId": 1326,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0746,
       "contributions": [
         {
@@ -1353,7 +1353,7 @@
     },
     {
       "augmentId": 1345,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0197,
       "contributions": [
         {
@@ -1367,7 +1367,7 @@
     },
     {
       "augmentId": 1348,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0008,
       "contributions": [
         {
@@ -1381,7 +1381,7 @@
     },
     {
       "augmentId": 1358,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0146,
       "contributions": [
         {
@@ -1395,7 +1395,7 @@
     },
     {
       "augmentId": 1373,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0358,
       "contributions": [
         {
@@ -1409,7 +1409,7 @@
     },
     {
       "augmentId": 1392,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0128,
       "contributions": [
         {
@@ -1423,7 +1423,7 @@
     },
     {
       "augmentId": 1421,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0009,
       "contributions": [
         {
@@ -1437,7 +1437,7 @@
     },
     {
       "augmentId": 2006,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0248,
       "contributions": [
         {
@@ -1451,7 +1451,7 @@
     },
     {
       "augmentId": 2024,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0134,
       "contributions": [
         {
@@ -1465,7 +1465,7 @@
     },
     {
       "augmentId": 2026,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0094,
       "contributions": [
         {
@@ -1479,7 +1479,7 @@
     },
     {
       "augmentId": 2080,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0151,
       "contributions": [
         {
@@ -1493,7 +1493,7 @@
     },
     {
       "augmentId": 2088,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0069,
       "contributions": [
         {
@@ -1507,7 +1507,7 @@
     },
     {
       "augmentId": 2098,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0104,
       "contributions": [
         {
@@ -1521,7 +1521,7 @@
     },
     {
       "augmentId": 2134,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0035,
       "contributions": [
         {
@@ -1535,7 +1535,7 @@
     },
     {
       "augmentId": 2137,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0019,
       "contributions": [
         {
@@ -1549,7 +1549,7 @@
     },
     {
       "augmentId": 2138,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0152,
       "contributions": [
         {
@@ -1563,7 +1563,7 @@
     },
     {
       "augmentId": 2139,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.001,
       "contributions": [
         {
@@ -1577,7 +1577,7 @@
     },
     {
       "augmentId": 1001,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0038,
       "contributions": [
         {
@@ -1591,7 +1591,7 @@
     },
     {
       "augmentId": 1081,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0025,
       "contributions": [
         {
@@ -1605,7 +1605,7 @@
     },
     {
       "augmentId": 1088,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0101,
       "contributions": [
         {
@@ -1619,7 +1619,7 @@
     },
     {
       "augmentId": 1150,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0065,
       "contributions": [
         {
@@ -1633,7 +1633,7 @@
     },
     {
       "augmentId": 1349,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0184,
       "contributions": [
         {
@@ -1647,7 +1647,7 @@
     },
     {
       "augmentId": 1388,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0079,
       "contributions": [
         {
@@ -1661,7 +1661,7 @@
     },
     {
       "augmentId": 2046,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0008,
       "contributions": [
         {
@@ -1675,7 +1675,7 @@
     },
     {
       "augmentId": 2063,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0016,
       "contributions": [
         {
@@ -1689,7 +1689,7 @@
     },
     {
       "augmentId": 2087,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.003,
       "contributions": [
         {
@@ -1703,7 +1703,7 @@
     },
     {
       "augmentId": 2099,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0273,
       "contributions": [
         {
@@ -1717,7 +1717,7 @@
     },
     {
       "augmentId": 2100,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.02,
       "contributions": [
         {
@@ -1731,7 +1731,7 @@
     },
     {
       "augmentId": 2118,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.006,
       "contributions": [
         {
@@ -1745,7 +1745,7 @@
     },
     {
       "augmentId": 2143,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0321,
       "contributions": [
         {

@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "method": "warden-performance-tiers-v1",
+  "version": 2,
+  "method": "warden-win-ratio-grades-v2",
   "championId": 28,
   "championKey": "Evelynn",
   "set": "aram",
@@ -9,7 +9,7 @@
   "augments": [
     {
       "augmentId": 2031,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0242,
       "contributions": [
         {
@@ -23,7 +23,7 @@
     },
     {
       "augmentId": 1038,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0871,
       "contributions": [
         {
@@ -37,7 +37,7 @@
     },
     {
       "augmentId": 1053,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0246,
       "contributions": [
         {
@@ -51,7 +51,7 @@
     },
     {
       "augmentId": 1073,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0307,
       "contributions": [
         {
@@ -65,7 +65,7 @@
     },
     {
       "augmentId": 1154,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0122,
       "contributions": [
         {
@@ -79,7 +79,7 @@
     },
     {
       "augmentId": 1390,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.1201,
       "contributions": [
         {
@@ -93,7 +93,7 @@
     },
     {
       "augmentId": 2095,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0332,
       "contributions": [
         {
@@ -107,7 +107,7 @@
     },
     {
       "augmentId": 1026,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0191,
       "contributions": [
         {
@@ -120,78 +120,8 @@
       ]
     },
     {
-      "augmentId": 1034,
-      "tier": 3,
-      "pickrate": 0.0317,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1466
-        }
-      ]
-    },
-    {
-      "augmentId": 1046,
-      "tier": 3,
-      "pickrate": 0.0188,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 872
-        }
-      ]
-    },
-    {
-      "augmentId": 1097,
-      "tier": 3,
-      "pickrate": 0.0704,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3262
-        }
-      ]
-    },
-    {
-      "augmentId": 1105,
-      "tier": 3,
-      "pickrate": 0.0446,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2064
-        }
-      ]
-    },
-    {
-      "augmentId": 1150,
-      "tier": 3,
-      "pickrate": 0.014,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 648
-        }
-      ]
-    },
-    {
       "augmentId": 1156,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.056,
       "contributions": [
         {
@@ -204,22 +134,8 @@
       ]
     },
     {
-      "augmentId": 1180,
-      "tier": 3,
-      "pickrate": 0.0399,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1848
-        }
-      ]
-    },
-    {
       "augmentId": 1195,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0567,
       "contributions": [
         {
@@ -232,78 +148,8 @@
       ]
     },
     {
-      "augmentId": 1205,
-      "tier": 3,
-      "pickrate": 0.0976,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4522
-        }
-      ]
-    },
-    {
-      "augmentId": 1238,
-      "tier": 3,
-      "pickrate": 0.1351,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6258
-        }
-      ]
-    },
-    {
-      "augmentId": 1308,
-      "tier": 3,
-      "pickrate": 0.0137,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 636
-        }
-      ]
-    },
-    {
-      "augmentId": 1310,
-      "tier": 3,
-      "pickrate": 0.0808,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3744
-        }
-      ]
-    },
-    {
-      "augmentId": 1311,
-      "tier": 3,
-      "pickrate": 0.0096,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 443
-        }
-      ]
-    },
-    {
       "augmentId": 1329,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0397,
       "contributions": [
         {
@@ -317,7 +163,7 @@
     },
     {
       "augmentId": 1333,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0581,
       "contributions": [
         {
@@ -330,50 +176,8 @@
       ]
     },
     {
-      "augmentId": 1373,
-      "tier": 3,
-      "pickrate": 0.0829,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3841
-        }
-      ]
-    },
-    {
-      "augmentId": 1384,
-      "tier": 3,
-      "pickrate": 0.0445,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2060
-        }
-      ]
-    },
-    {
-      "augmentId": 1402,
-      "tier": 3,
-      "pickrate": 0.0072,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 333
-        }
-      ]
-    },
-    {
       "augmentId": 1403,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0268,
       "contributions": [
         {
@@ -387,7 +191,7 @@
     },
     {
       "augmentId": 1404,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0079,
       "contributions": [
         {
@@ -400,8 +204,204 @@
       ]
     },
     {
+      "augmentId": 1034,
+      "tier": "C",
+      "pickrate": 0.0317,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1466
+        }
+      ]
+    },
+    {
+      "augmentId": 1046,
+      "tier": "C",
+      "pickrate": 0.0188,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 872
+        }
+      ]
+    },
+    {
+      "augmentId": 1097,
+      "tier": "C",
+      "pickrate": 0.0704,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3262
+        }
+      ]
+    },
+    {
+      "augmentId": 1105,
+      "tier": "C",
+      "pickrate": 0.0446,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2064
+        }
+      ]
+    },
+    {
+      "augmentId": 1150,
+      "tier": "C",
+      "pickrate": 0.014,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 648
+        }
+      ]
+    },
+    {
+      "augmentId": 1180,
+      "tier": "C",
+      "pickrate": 0.0399,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1848
+        }
+      ]
+    },
+    {
+      "augmentId": 1205,
+      "tier": "C",
+      "pickrate": 0.0976,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4522
+        }
+      ]
+    },
+    {
+      "augmentId": 1238,
+      "tier": "C",
+      "pickrate": 0.1351,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6258
+        }
+      ]
+    },
+    {
+      "augmentId": 1308,
+      "tier": "C",
+      "pickrate": 0.0137,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 636
+        }
+      ]
+    },
+    {
+      "augmentId": 1310,
+      "tier": "C",
+      "pickrate": 0.0808,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3744
+        }
+      ]
+    },
+    {
+      "augmentId": 1311,
+      "tier": "C",
+      "pickrate": 0.0096,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 443
+        }
+      ]
+    },
+    {
+      "augmentId": 1373,
+      "tier": "C",
+      "pickrate": 0.0829,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3841
+        }
+      ]
+    },
+    {
+      "augmentId": 1384,
+      "tier": "C",
+      "pickrate": 0.0445,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2060
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": "C",
+      "pickrate": 0.0072,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 333
+        }
+      ]
+    },
+    {
       "augmentId": 1415,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0255,
       "contributions": [
         {
@@ -415,7 +415,7 @@
     },
     {
       "augmentId": 2083,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.1452,
       "contributions": [
         {
@@ -429,7 +429,7 @@
     },
     {
       "augmentId": 2127,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.032,
       "contributions": [
         {
@@ -443,7 +443,7 @@
     },
     {
       "augmentId": 2132,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.1585,
       "contributions": [
         {
@@ -457,7 +457,7 @@
     },
     {
       "augmentId": 1019,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0227,
       "contributions": [
         {
@@ -471,7 +471,7 @@
     },
     {
       "augmentId": 1025,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.03,
       "contributions": [
         {
@@ -485,7 +485,7 @@
     },
     {
       "augmentId": 1030,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0918,
       "contributions": [
         {
@@ -499,7 +499,7 @@
     },
     {
       "augmentId": 1048,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.1173,
       "contributions": [
         {
@@ -513,7 +513,7 @@
     },
     {
       "augmentId": 1060,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0078,
       "contributions": [
         {
@@ -527,7 +527,7 @@
     },
     {
       "augmentId": 1068,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0979,
       "contributions": [
         {
@@ -541,7 +541,7 @@
     },
     {
       "augmentId": 1084,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0911,
       "contributions": [
         {
@@ -555,7 +555,7 @@
     },
     {
       "augmentId": 1098,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0287,
       "contributions": [
         {
@@ -569,7 +569,7 @@
     },
     {
       "augmentId": 1116,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0549,
       "contributions": [
         {
@@ -583,7 +583,7 @@
     },
     {
       "augmentId": 1129,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0656,
       "contributions": [
         {
@@ -597,7 +597,7 @@
     },
     {
       "augmentId": 1138,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.033,
       "contributions": [
         {
@@ -611,7 +611,7 @@
     },
     {
       "augmentId": 1237,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0507,
       "contributions": [
         {
@@ -625,7 +625,7 @@
     },
     {
       "augmentId": 1243,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.027,
       "contributions": [
         {
@@ -639,7 +639,7 @@
     },
     {
       "augmentId": 1305,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0382,
       "contributions": [
         {
@@ -653,7 +653,7 @@
     },
     {
       "augmentId": 1318,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0427,
       "contributions": [
         {
@@ -667,7 +667,7 @@
     },
     {
       "augmentId": 1322,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0217,
       "contributions": [
         {
@@ -681,7 +681,7 @@
     },
     {
       "augmentId": 1332,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0206,
       "contributions": [
         {
@@ -695,7 +695,7 @@
     },
     {
       "augmentId": 1337,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0079,
       "contributions": [
         {
@@ -709,7 +709,7 @@
     },
     {
       "augmentId": 1345,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.017,
       "contributions": [
         {
@@ -723,7 +723,7 @@
     },
     {
       "augmentId": 1392,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0117,
       "contributions": [
         {
@@ -737,7 +737,7 @@
     },
     {
       "augmentId": 1996,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0622,
       "contributions": [
         {
@@ -751,7 +751,7 @@
     },
     {
       "augmentId": 2018,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.033,
       "contributions": [
         {
@@ -765,7 +765,7 @@
     },
     {
       "augmentId": 2026,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.032,
       "contributions": [
         {
@@ -779,7 +779,7 @@
     },
     {
       "augmentId": 2088,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0194,
       "contributions": [
         {
@@ -793,7 +793,7 @@
     },
     {
       "augmentId": 2098,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0098,
       "contributions": [
         {
@@ -807,7 +807,7 @@
     },
     {
       "augmentId": 2123,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0279,
       "contributions": [
         {
@@ -821,7 +821,7 @@
     },
     {
       "augmentId": 12317,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0255,
       "contributions": [
         {
@@ -835,7 +835,7 @@
     },
     {
       "augmentId": 1002,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0089,
       "contributions": [
         {
@@ -849,7 +849,7 @@
     },
     {
       "augmentId": 1006,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0141,
       "contributions": [
         {
@@ -863,7 +863,7 @@
     },
     {
       "augmentId": 1041,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0127,
       "contributions": [
         {
@@ -877,7 +877,7 @@
     },
     {
       "augmentId": 1054,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0073,
       "contributions": [
         {
@@ -891,7 +891,7 @@
     },
     {
       "augmentId": 1088,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0472,
       "contributions": [
         {
@@ -905,7 +905,7 @@
     },
     {
       "augmentId": 1103,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0203,
       "contributions": [
         {
@@ -919,7 +919,7 @@
     },
     {
       "augmentId": 1151,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.025,
       "contributions": [
         {
@@ -933,7 +933,7 @@
     },
     {
       "augmentId": 1211,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0455,
       "contributions": [
         {
@@ -947,7 +947,7 @@
     },
     {
       "augmentId": 1301,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0085,
       "contributions": [
         {
@@ -961,7 +961,7 @@
     },
     {
       "augmentId": 1326,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0515,
       "contributions": [
         {
@@ -975,7 +975,7 @@
     },
     {
       "augmentId": 1335,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0057,
       "contributions": [
         {
@@ -989,7 +989,7 @@
     },
     {
       "augmentId": 1344,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.013,
       "contributions": [
         {
@@ -1003,7 +1003,7 @@
     },
     {
       "augmentId": 1349,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0183,
       "contributions": [
         {
@@ -1017,7 +1017,7 @@
     },
     {
       "augmentId": 1358,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0225,
       "contributions": [
         {
@@ -1031,7 +1031,7 @@
     },
     {
       "augmentId": 1388,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0399,
       "contributions": [
         {
@@ -1045,7 +1045,7 @@
     },
     {
       "augmentId": 2005,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0127,
       "contributions": [
         {
@@ -1059,7 +1059,7 @@
     },
     {
       "augmentId": 2032,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0165,
       "contributions": [
         {
@@ -1073,7 +1073,7 @@
     },
     {
       "augmentId": 2034,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0167,
       "contributions": [
         {
@@ -1087,7 +1087,7 @@
     },
     {
       "augmentId": 2080,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0189,
       "contributions": [
         {
@@ -1101,7 +1101,7 @@
     },
     {
       "augmentId": 2089,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0111,
       "contributions": [
         {
@@ -1115,7 +1115,7 @@
     },
     {
       "augmentId": 2091,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0098,
       "contributions": [
         {
@@ -1129,7 +1129,7 @@
     },
     {
       "augmentId": 2099,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0159,
       "contributions": [
         {
@@ -1143,7 +1143,7 @@
     },
     {
       "augmentId": 2100,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0297,
       "contributions": [
         {
@@ -1157,7 +1157,7 @@
     },
     {
       "augmentId": 2116,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0551,
       "contributions": [
         {
@@ -1171,7 +1171,7 @@
     },
     {
       "augmentId": 2118,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0363,
       "contributions": [
         {
@@ -1185,7 +1185,7 @@
     },
     {
       "augmentId": 2136,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0566,
       "contributions": [
         {

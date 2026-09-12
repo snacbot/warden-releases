@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "method": "warden-performance-tiers-v1",
+  "version": 2,
+  "method": "warden-win-ratio-grades-v2",
   "championId": 63,
   "championKey": "Brand",
   "set": "aram",
@@ -9,7 +9,7 @@
   "augments": [
     {
       "augmentId": 1028,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0463,
       "contributions": [
         {
@@ -23,7 +23,7 @@
     },
     {
       "augmentId": 1045,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.1833,
       "contributions": [
         {
@@ -37,7 +37,7 @@
     },
     {
       "augmentId": 1105,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.047,
       "contributions": [
         {
@@ -51,7 +51,7 @@
     },
     {
       "augmentId": 1195,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0185,
       "contributions": [
         {
@@ -65,7 +65,7 @@
     },
     {
       "augmentId": 2095,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0213,
       "contributions": [
         {
@@ -79,7 +79,7 @@
     },
     {
       "augmentId": 1034,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0133,
       "contributions": [
         {
@@ -93,7 +93,7 @@
     },
     {
       "augmentId": 1053,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0241,
       "contributions": [
         {
@@ -107,7 +107,7 @@
     },
     {
       "augmentId": 1060,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0209,
       "contributions": [
         {
@@ -121,7 +121,7 @@
     },
     {
       "augmentId": 1062,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0071,
       "contributions": [
         {
@@ -135,7 +135,7 @@
     },
     {
       "augmentId": 1098,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0234,
       "contributions": [
         {
@@ -149,7 +149,7 @@
     },
     {
       "augmentId": 1133,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.1166,
       "contributions": [
         {
@@ -163,7 +163,7 @@
     },
     {
       "augmentId": 1138,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0372,
       "contributions": [
         {
@@ -177,7 +177,7 @@
     },
     {
       "augmentId": 1180,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0212,
       "contributions": [
         {
@@ -191,7 +191,7 @@
     },
     {
       "augmentId": 1305,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0114,
       "contributions": [
         {
@@ -205,7 +205,7 @@
     },
     {
       "augmentId": 1333,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0214,
       "contributions": [
         {
@@ -219,7 +219,7 @@
     },
     {
       "augmentId": 1337,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0042,
       "contributions": [
         {
@@ -233,7 +233,7 @@
     },
     {
       "augmentId": 1344,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0089,
       "contributions": [
         {
@@ -247,7 +247,7 @@
     },
     {
       "augmentId": 1373,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.1241,
       "contributions": [
         {
@@ -261,7 +261,7 @@
     },
     {
       "augmentId": 1388,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0602,
       "contributions": [
         {
@@ -275,7 +275,7 @@
     },
     {
       "augmentId": 1389,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0028,
       "contributions": [
         {
@@ -289,7 +289,7 @@
     },
     {
       "augmentId": 1390,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.1257,
       "contributions": [
         {
@@ -303,7 +303,7 @@
     },
     {
       "augmentId": 1403,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0166,
       "contributions": [
         {
@@ -317,7 +317,7 @@
     },
     {
       "augmentId": 2098,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0102,
       "contributions": [
         {
@@ -331,7 +331,7 @@
     },
     {
       "augmentId": 2127,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0505,
       "contributions": [
         {
@@ -345,7 +345,7 @@
     },
     {
       "augmentId": 2128,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.2942,
       "contributions": [
         {
@@ -359,7 +359,7 @@
     },
     {
       "augmentId": 2132,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.1461,
       "contributions": [
         {
@@ -372,22 +372,8 @@
       ]
     },
     {
-      "augmentId": 1002,
-      "tier": 3,
-      "pickrate": 0.0067,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6554
-        }
-      ]
-    },
-    {
       "augmentId": 1004,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0085,
       "contributions": [
         {
@@ -401,7 +387,7 @@
     },
     {
       "augmentId": 1026,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0046,
       "contributions": [
         {
@@ -415,7 +401,7 @@
     },
     {
       "augmentId": 1030,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1075,
       "contributions": [
         {
@@ -429,7 +415,7 @@
     },
     {
       "augmentId": 1038,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0405,
       "contributions": [
         {
@@ -443,7 +429,7 @@
     },
     {
       "augmentId": 1044,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1294,
       "contributions": [
         {
@@ -456,36 +442,8 @@
       ]
     },
     {
-      "augmentId": 1046,
-      "tier": 3,
-      "pickrate": 0.0161,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 15676
-        }
-      ]
-    },
-    {
-      "augmentId": 1048,
-      "tier": 3,
-      "pickrate": 0.0728,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 70875
-        }
-      ]
-    },
-    {
       "augmentId": 1056,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0118,
       "contributions": [
         {
@@ -499,7 +457,7 @@
     },
     {
       "augmentId": 1057,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0013,
       "contributions": [
         {
@@ -513,7 +471,7 @@
     },
     {
       "augmentId": 1061,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0047,
       "contributions": [
         {
@@ -527,7 +485,7 @@
     },
     {
       "augmentId": 1068,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1167,
       "contributions": [
         {
@@ -540,64 +498,8 @@
       ]
     },
     {
-      "augmentId": 1084,
-      "tier": 3,
-      "pickrate": 0.0379,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 36915
-        }
-      ]
-    },
-    {
-      "augmentId": 1097,
-      "tier": 3,
-      "pickrate": 0.0447,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 43469
-        }
-      ]
-    },
-    {
-      "augmentId": 1103,
-      "tier": 3,
-      "pickrate": 0.0162,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 15733
-        }
-      ]
-    },
-    {
-      "augmentId": 1113,
-      "tier": 3,
-      "pickrate": 0.057,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 55491
-        }
-      ]
-    },
-    {
       "augmentId": 1116,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0124,
       "contributions": [
         {
@@ -611,7 +513,7 @@
     },
     {
       "augmentId": 1136,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0064,
       "contributions": [
         {
@@ -624,106 +526,8 @@
       ]
     },
     {
-      "augmentId": 1150,
-      "tier": 3,
-      "pickrate": 0.0327,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 31782
-        }
-      ]
-    },
-    {
-      "augmentId": 1151,
-      "tier": 3,
-      "pickrate": 0.0309,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 30093
-        }
-      ]
-    },
-    {
-      "augmentId": 1154,
-      "tier": 3,
-      "pickrate": 0.0087,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 8431
-        }
-      ]
-    },
-    {
-      "augmentId": 1156,
-      "tier": 3,
-      "pickrate": 0.0318,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 30982
-        }
-      ]
-    },
-    {
-      "augmentId": 1194,
-      "tier": 3,
-      "pickrate": 0.0161,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 15704
-        }
-      ]
-    },
-    {
-      "augmentId": 1205,
-      "tier": 3,
-      "pickrate": 0.0754,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 73359
-        }
-      ]
-    },
-    {
-      "augmentId": 1211,
-      "tier": 3,
-      "pickrate": 0.0418,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 40675
-        }
-      ]
-    },
-    {
       "augmentId": 1237,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0539,
       "contributions": [
         {
@@ -737,7 +541,7 @@
     },
     {
       "augmentId": 1238,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0991,
       "contributions": [
         {
@@ -751,7 +555,7 @@
     },
     {
       "augmentId": 1243,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0278,
       "contributions": [
         {
@@ -764,36 +568,8 @@
       ]
     },
     {
-      "augmentId": 1308,
-      "tier": 3,
-      "pickrate": 0.0085,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 8307
-        }
-      ]
-    },
-    {
-      "augmentId": 1310,
-      "tier": 3,
-      "pickrate": 0.0086,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 8324
-        }
-      ]
-    },
-    {
       "augmentId": 1318,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0451,
       "contributions": [
         {
@@ -806,64 +582,8 @@
       ]
     },
     {
-      "augmentId": 1322,
-      "tier": 3,
-      "pickrate": 0.0036,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3482
-        }
-      ]
-    },
-    {
-      "augmentId": 1326,
-      "tier": 3,
-      "pickrate": 0.0041,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3979
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "tier": 3,
-      "pickrate": 0.008,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 7764
-        }
-      ]
-    },
-    {
-      "augmentId": 1332,
-      "tier": 3,
-      "pickrate": 0.0139,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 13481
-        }
-      ]
-    },
-    {
       "augmentId": 1335,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0105,
       "contributions": [
         {
@@ -876,22 +596,8 @@
       ]
     },
     {
-      "augmentId": 1345,
-      "tier": 3,
-      "pickrate": 0.0159,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 15494
-        }
-      ]
-    },
-    {
       "augmentId": 1347,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0029,
       "contributions": [
         {
@@ -904,22 +610,8 @@
       ]
     },
     {
-      "augmentId": 1349,
-      "tier": 3,
-      "pickrate": 0.0269,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 26195
-        }
-      ]
-    },
-    {
       "augmentId": 1375,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0019,
       "contributions": [
         {
@@ -933,7 +625,7 @@
     },
     {
       "augmentId": 1384,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0243,
       "contributions": [
         {
@@ -947,7 +639,7 @@
     },
     {
       "augmentId": 1402,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0069,
       "contributions": [
         {
@@ -960,22 +652,8 @@
       ]
     },
     {
-      "augmentId": 1404,
-      "tier": 3,
-      "pickrate": 0.0053,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 5176
-        }
-      ]
-    },
-    {
       "augmentId": 1415,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0829,
       "contributions": [
         {
@@ -989,7 +667,7 @@
     },
     {
       "augmentId": 1416,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0213,
       "contributions": [
         {
@@ -1002,64 +680,8 @@
       ]
     },
     {
-      "augmentId": 2016,
-      "tier": 3,
-      "pickrate": 0.0067,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6554
-        }
-      ]
-    },
-    {
-      "augmentId": 2018,
-      "tier": 3,
-      "pickrate": 0.0677,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 65881
-        }
-      ]
-    },
-    {
-      "augmentId": 2077,
-      "tier": 3,
-      "pickrate": 0.0194,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 18853
-        }
-      ]
-    },
-    {
-      "augmentId": 2087,
-      "tier": 3,
-      "pickrate": 0.0628,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 61146
-        }
-      ]
-    },
-    {
       "augmentId": 2089,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0114,
       "contributions": [
         {
@@ -1072,22 +694,8 @@
       ]
     },
     {
-      "augmentId": 2100,
-      "tier": 3,
-      "pickrate": 0.035,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 34087
-        }
-      ]
-    },
-    {
       "augmentId": 2103,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0514,
       "contributions": [
         {
@@ -1101,7 +709,7 @@
     },
     {
       "augmentId": 2107,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0013,
       "contributions": [
         {
@@ -1115,7 +723,7 @@
     },
     {
       "augmentId": 2119,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0009,
       "contributions": [
         {
@@ -1128,8 +736,400 @@
       ]
     },
     {
+      "augmentId": 1002,
+      "tier": "C",
+      "pickrate": 0.0067,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6554
+        }
+      ]
+    },
+    {
+      "augmentId": 1046,
+      "tier": "C",
+      "pickrate": 0.0161,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15676
+        }
+      ]
+    },
+    {
+      "augmentId": 1048,
+      "tier": "C",
+      "pickrate": 0.0728,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 70875
+        }
+      ]
+    },
+    {
+      "augmentId": 1084,
+      "tier": "C",
+      "pickrate": 0.0379,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 36915
+        }
+      ]
+    },
+    {
+      "augmentId": 1097,
+      "tier": "C",
+      "pickrate": 0.0447,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 43469
+        }
+      ]
+    },
+    {
+      "augmentId": 1103,
+      "tier": "C",
+      "pickrate": 0.0162,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15733
+        }
+      ]
+    },
+    {
+      "augmentId": 1113,
+      "tier": "C",
+      "pickrate": 0.057,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 55491
+        }
+      ]
+    },
+    {
+      "augmentId": 1150,
+      "tier": "C",
+      "pickrate": 0.0327,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 31782
+        }
+      ]
+    },
+    {
+      "augmentId": 1151,
+      "tier": "C",
+      "pickrate": 0.0309,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 30093
+        }
+      ]
+    },
+    {
+      "augmentId": 1154,
+      "tier": "C",
+      "pickrate": 0.0087,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8431
+        }
+      ]
+    },
+    {
+      "augmentId": 1156,
+      "tier": "C",
+      "pickrate": 0.0318,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 30982
+        }
+      ]
+    },
+    {
+      "augmentId": 1194,
+      "tier": "C",
+      "pickrate": 0.0161,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15704
+        }
+      ]
+    },
+    {
+      "augmentId": 1205,
+      "tier": "C",
+      "pickrate": 0.0754,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 73359
+        }
+      ]
+    },
+    {
+      "augmentId": 1211,
+      "tier": "C",
+      "pickrate": 0.0418,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 40675
+        }
+      ]
+    },
+    {
+      "augmentId": 1308,
+      "tier": "C",
+      "pickrate": 0.0085,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8307
+        }
+      ]
+    },
+    {
+      "augmentId": 1310,
+      "tier": "C",
+      "pickrate": 0.0086,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8324
+        }
+      ]
+    },
+    {
+      "augmentId": 1322,
+      "tier": "C",
+      "pickrate": 0.0036,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3482
+        }
+      ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": "C",
+      "pickrate": 0.0041,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3979
+        }
+      ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": "C",
+      "pickrate": 0.008,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 7764
+        }
+      ]
+    },
+    {
+      "augmentId": 1332,
+      "tier": "C",
+      "pickrate": 0.0139,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13481
+        }
+      ]
+    },
+    {
+      "augmentId": 1345,
+      "tier": "C",
+      "pickrate": 0.0159,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15494
+        }
+      ]
+    },
+    {
+      "augmentId": 1349,
+      "tier": "C",
+      "pickrate": 0.0269,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 26195
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": "C",
+      "pickrate": 0.0053,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5176
+        }
+      ]
+    },
+    {
+      "augmentId": 2016,
+      "tier": "C",
+      "pickrate": 0.0067,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6554
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": "C",
+      "pickrate": 0.0677,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 65881
+        }
+      ]
+    },
+    {
+      "augmentId": 2077,
+      "tier": "C",
+      "pickrate": 0.0194,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 18853
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": "C",
+      "pickrate": 0.0628,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 61146
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": "C",
+      "pickrate": 0.035,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/brand?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 34087
+        }
+      ]
+    },
+    {
       "augmentId": 1011,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0062,
       "contributions": [
         {
@@ -1143,7 +1143,7 @@
     },
     {
       "augmentId": 1018,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0008,
       "contributions": [
         {
@@ -1157,7 +1157,7 @@
     },
     {
       "augmentId": 1029,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0611,
       "contributions": [
         {
@@ -1171,7 +1171,7 @@
     },
     {
       "augmentId": 1058,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0098,
       "contributions": [
         {
@@ -1185,7 +1185,7 @@
     },
     {
       "augmentId": 1088,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0291,
       "contributions": [
         {
@@ -1199,7 +1199,7 @@
     },
     {
       "augmentId": 1112,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0074,
       "contributions": [
         {
@@ -1213,7 +1213,7 @@
     },
     {
       "augmentId": 1129,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0092,
       "contributions": [
         {
@@ -1227,7 +1227,7 @@
     },
     {
       "augmentId": 1149,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0017,
       "contributions": [
         {
@@ -1241,7 +1241,7 @@
     },
     {
       "augmentId": 1311,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.01,
       "contributions": [
         {
@@ -1255,7 +1255,7 @@
     },
     {
       "augmentId": 1323,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0031,
       "contributions": [
         {
@@ -1269,7 +1269,7 @@
     },
     {
       "augmentId": 1358,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0027,
       "contributions": [
         {
@@ -1283,7 +1283,7 @@
     },
     {
       "augmentId": 1386,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0006,
       "contributions": [
         {
@@ -1297,7 +1297,7 @@
     },
     {
       "augmentId": 2005,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0017,
       "contributions": [
         {
@@ -1311,7 +1311,7 @@
     },
     {
       "augmentId": 2026,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0015,
       "contributions": [
         {
@@ -1325,7 +1325,7 @@
     },
     {
       "augmentId": 2034,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0027,
       "contributions": [
         {
@@ -1339,7 +1339,7 @@
     },
     {
       "augmentId": 2042,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.001,
       "contributions": [
         {
@@ -1353,7 +1353,7 @@
     },
     {
       "augmentId": 2046,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0008,
       "contributions": [
         {
@@ -1367,7 +1367,7 @@
     },
     {
       "augmentId": 2054,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0492,
       "contributions": [
         {
@@ -1381,7 +1381,7 @@
     },
     {
       "augmentId": 2055,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0123,
       "contributions": [
         {
@@ -1395,7 +1395,7 @@
     },
     {
       "augmentId": 2072,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.018,
       "contributions": [
         {
@@ -1409,7 +1409,7 @@
     },
     {
       "augmentId": 2083,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0431,
       "contributions": [
         {
@@ -1423,7 +1423,7 @@
     },
     {
       "augmentId": 2088,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0021,
       "contributions": [
         {
@@ -1437,7 +1437,7 @@
     },
     {
       "augmentId": 2099,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0027,
       "contributions": [
         {
@@ -1451,7 +1451,7 @@
     },
     {
       "augmentId": 2116,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0278,
       "contributions": [
         {
@@ -1465,7 +1465,7 @@
     },
     {
       "augmentId": 2118,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.015,
       "contributions": [
         {
@@ -1479,7 +1479,7 @@
     },
     {
       "augmentId": 2123,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0281,
       "contributions": [
         {
@@ -1493,7 +1493,7 @@
     },
     {
       "augmentId": 2134,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0032,
       "contributions": [
         {
@@ -1507,7 +1507,7 @@
     },
     {
       "augmentId": 2137,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0018,
       "contributions": [
         {
@@ -1521,7 +1521,7 @@
     },
     {
       "augmentId": 12317,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0211,
       "contributions": [
         {
@@ -1535,7 +1535,7 @@
     },
     {
       "augmentId": 1054,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0045,
       "contributions": [
         {
@@ -1549,7 +1549,7 @@
     },
     {
       "augmentId": 1325,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0054,
       "contributions": [
         {
@@ -1563,7 +1563,7 @@
     },
     {
       "augmentId": 1392,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0026,
       "contributions": [
         {
@@ -1577,7 +1577,7 @@
     },
     {
       "augmentId": 1996,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0015,
       "contributions": [
         {
@@ -1591,7 +1591,7 @@
     },
     {
       "augmentId": 2063,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0004,
       "contributions": [
         {
@@ -1605,7 +1605,7 @@
     },
     {
       "augmentId": 2080,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0021,
       "contributions": [
         {
@@ -1619,7 +1619,7 @@
     },
     {
       "augmentId": 2091,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0005,
       "contributions": [
         {

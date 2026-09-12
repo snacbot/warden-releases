@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "method": "warden-performance-tiers-v1",
+  "version": 2,
+  "method": "warden-win-ratio-grades-v2",
   "championId": 427,
   "championKey": "Ivern",
   "set": "aram",
@@ -9,7 +9,7 @@
   "augments": [
     {
       "augmentId": 1005,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0985,
       "contributions": [
         {
@@ -23,7 +23,7 @@
     },
     {
       "augmentId": 1095,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0525,
       "contributions": [
         {
@@ -37,7 +37,7 @@
     },
     {
       "augmentId": 1373,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.1372,
       "contributions": [
         {
@@ -51,7 +51,7 @@
     },
     {
       "augmentId": 2104,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.1,
       "contributions": [
         {
@@ -65,7 +65,7 @@
     },
     {
       "augmentId": 1004,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0189,
       "contributions": [
         {
@@ -79,7 +79,7 @@
     },
     {
       "augmentId": 1053,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0185,
       "contributions": [
         {
@@ -93,7 +93,7 @@
     },
     {
       "augmentId": 1061,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0115,
       "contributions": [
         {
@@ -107,7 +107,7 @@
     },
     {
       "augmentId": 1136,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0264,
       "contributions": [
         {
@@ -121,7 +121,7 @@
     },
     {
       "augmentId": 1151,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0551,
       "contributions": [
         {
@@ -135,7 +135,7 @@
     },
     {
       "augmentId": 1311,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0195,
       "contributions": [
         {
@@ -149,7 +149,7 @@
     },
     {
       "augmentId": 1388,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0524,
       "contributions": [
         {
@@ -163,7 +163,7 @@
     },
     {
       "augmentId": 1420,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.1145,
       "contributions": [
         {
@@ -177,7 +177,7 @@
     },
     {
       "augmentId": 2018,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0568,
       "contributions": [
         {
@@ -191,7 +191,7 @@
     },
     {
       "augmentId": 2089,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0252,
       "contributions": [
         {
@@ -205,7 +205,7 @@
     },
     {
       "augmentId": 2095,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0193,
       "contributions": [
         {
@@ -218,22 +218,8 @@
       ]
     },
     {
-      "augmentId": 1028,
-      "tier": 3,
-      "pickrate": 0.008,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ivern?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 385
-        }
-      ]
-    },
-    {
       "augmentId": 1037,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1228,
       "contributions": [
         {
@@ -247,7 +233,7 @@
     },
     {
       "augmentId": 1056,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0282,
       "contributions": [
         {
@@ -260,36 +246,8 @@
       ]
     },
     {
-      "augmentId": 1057,
-      "tier": 3,
-      "pickrate": 0.0073,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ivern?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 351
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "tier": 3,
-      "pickrate": 0.0243,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ivern?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1165
-        }
-      ]
-    },
-    {
       "augmentId": 1062,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0078,
       "contributions": [
         {
@@ -303,7 +261,7 @@
     },
     {
       "augmentId": 1068,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.107,
       "contributions": [
         {
@@ -317,7 +275,7 @@
     },
     {
       "augmentId": 1076,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1028,
       "contributions": [
         {
@@ -330,36 +288,8 @@
       ]
     },
     {
-      "augmentId": 1098,
-      "tier": 3,
-      "pickrate": 0.0235,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ivern?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1123
-        }
-      ]
-    },
-    {
-      "augmentId": 1105,
-      "tier": 3,
-      "pickrate": 0.0385,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ivern?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1843
-        }
-      ]
-    },
-    {
       "augmentId": 1116,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0091,
       "contributions": [
         {
@@ -373,7 +303,7 @@
     },
     {
       "augmentId": 1118,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.094,
       "contributions": [
         {
@@ -387,7 +317,7 @@
     },
     {
       "augmentId": 1141,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1278,
       "contributions": [
         {
@@ -401,7 +331,7 @@
     },
     {
       "augmentId": 1154,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0091,
       "contributions": [
         {
@@ -414,36 +344,8 @@
       ]
     },
     {
-      "augmentId": 1156,
-      "tier": 3,
-      "pickrate": 0.0088,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ivern?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 419
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "tier": 3,
-      "pickrate": 0.0475,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ivern?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2276
-        }
-      ]
-    },
-    {
       "augmentId": 1238,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0937,
       "contributions": [
         {
@@ -456,50 +358,8 @@
       ]
     },
     {
-      "augmentId": 1243,
-      "tier": 3,
-      "pickrate": 0.0254,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ivern?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1216
-        }
-      ]
-    },
-    {
-      "augmentId": 1301,
-      "tier": 3,
-      "pickrate": 0.065,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ivern?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3112
-        }
-      ]
-    },
-    {
-      "augmentId": 1305,
-      "tier": 3,
-      "pickrate": 0.0261,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ivern?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1251
-        }
-      ]
-    },
-    {
       "augmentId": 1324,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0652,
       "contributions": [
         {
@@ -513,7 +373,7 @@
     },
     {
       "augmentId": 1329,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0294,
       "contributions": [
         {
@@ -527,7 +387,7 @@
     },
     {
       "augmentId": 1331,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0436,
       "contributions": [
         {
@@ -541,7 +401,7 @@
     },
     {
       "augmentId": 1403,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0118,
       "contributions": [
         {
@@ -554,8 +414,176 @@
       ]
     },
     {
+      "augmentId": 2123,
+      "tier": "B",
+      "pickrate": 0.0426,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ivern?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2040
+        }
+      ]
+    },
+    {
+      "augmentId": 2144,
+      "tier": "B",
+      "pickrate": 0.1317,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ivern?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6306
+        }
+      ]
+    },
+    {
+      "augmentId": 1028,
+      "tier": "C",
+      "pickrate": 0.008,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ivern?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 385
+        }
+      ]
+    },
+    {
+      "augmentId": 1057,
+      "tier": "C",
+      "pickrate": 0.0073,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ivern?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 351
+        }
+      ]
+    },
+    {
+      "augmentId": 1060,
+      "tier": "C",
+      "pickrate": 0.0243,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ivern?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1165
+        }
+      ]
+    },
+    {
+      "augmentId": 1098,
+      "tier": "C",
+      "pickrate": 0.0235,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ivern?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1123
+        }
+      ]
+    },
+    {
+      "augmentId": 1105,
+      "tier": "C",
+      "pickrate": 0.0385,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ivern?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1843
+        }
+      ]
+    },
+    {
+      "augmentId": 1156,
+      "tier": "C",
+      "pickrate": 0.0088,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ivern?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 419
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": "C",
+      "pickrate": 0.0475,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ivern?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2276
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": "C",
+      "pickrate": 0.0254,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ivern?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1216
+        }
+      ]
+    },
+    {
+      "augmentId": 1301,
+      "tier": "C",
+      "pickrate": 0.065,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ivern?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3112
+        }
+      ]
+    },
+    {
+      "augmentId": 1305,
+      "tier": "C",
+      "pickrate": 0.0261,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ivern?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1251
+        }
+      ]
+    },
+    {
       "augmentId": 2004,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0764,
       "contributions": [
         {
@@ -569,7 +597,7 @@
     },
     {
       "augmentId": 2077,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0533,
       "contributions": [
         {
@@ -583,7 +611,7 @@
     },
     {
       "augmentId": 2087,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0488,
       "contributions": [
         {
@@ -596,22 +624,8 @@
       ]
     },
     {
-      "augmentId": 2123,
-      "tier": 3,
-      "pickrate": 0.0426,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ivern?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2040
-        }
-      ]
-    },
-    {
       "augmentId": 2133,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0701,
       "contributions": [
         {
@@ -624,22 +638,8 @@
       ]
     },
     {
-      "augmentId": 2144,
-      "tier": 3,
-      "pickrate": 0.1317,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ivern?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6306
-        }
-      ]
-    },
-    {
       "augmentId": 1002,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0153,
       "contributions": [
         {
@@ -653,7 +653,7 @@
     },
     {
       "augmentId": 1030,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0301,
       "contributions": [
         {
@@ -667,7 +667,7 @@
     },
     {
       "augmentId": 1044,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0219,
       "contributions": [
         {
@@ -681,7 +681,7 @@
     },
     {
       "augmentId": 1058,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.006,
       "contributions": [
         {
@@ -695,7 +695,7 @@
     },
     {
       "augmentId": 1072,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0291,
       "contributions": [
         {
@@ -709,7 +709,7 @@
     },
     {
       "augmentId": 1087,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0069,
       "contributions": [
         {
@@ -723,7 +723,7 @@
     },
     {
       "augmentId": 1097,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.019,
       "contributions": [
         {
@@ -737,7 +737,7 @@
     },
     {
       "augmentId": 1103,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0238,
       "contributions": [
         {
@@ -751,7 +751,7 @@
     },
     {
       "augmentId": 1104,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.1442,
       "contributions": [
         {
@@ -765,7 +765,7 @@
     },
     {
       "augmentId": 1149,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0112,
       "contributions": [
         {
@@ -779,7 +779,7 @@
     },
     {
       "augmentId": 1150,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0164,
       "contributions": [
         {
@@ -793,7 +793,7 @@
     },
     {
       "augmentId": 1205,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0196,
       "contributions": [
         {
@@ -807,7 +807,7 @@
     },
     {
       "augmentId": 1308,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0062,
       "contributions": [
         {
@@ -821,7 +821,7 @@
     },
     {
       "augmentId": 1349,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0243,
       "contributions": [
         {
@@ -835,7 +835,7 @@
     },
     {
       "augmentId": 1375,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0137,
       "contributions": [
         {
@@ -849,7 +849,7 @@
     },
     {
       "augmentId": 1379,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0356,
       "contributions": [
         {
@@ -863,7 +863,7 @@
     },
     {
       "augmentId": 1384,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0218,
       "contributions": [
         {
@@ -877,7 +877,7 @@
     },
     {
       "augmentId": 1390,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0244,
       "contributions": [
         {
@@ -891,7 +891,7 @@
     },
     {
       "augmentId": 1402,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0056,
       "contributions": [
         {
@@ -905,7 +905,7 @@
     },
     {
       "augmentId": 2072,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0329,
       "contributions": [
         {
@@ -919,7 +919,7 @@
     },
     {
       "augmentId": 2100,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0408,
       "contributions": [
         {
@@ -933,7 +933,7 @@
     },
     {
       "augmentId": 2127,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0161,
       "contributions": [
         {
@@ -947,7 +947,7 @@
     },
     {
       "augmentId": 2137,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0063,
       "contributions": [
         {
@@ -961,7 +961,7 @@
     },
     {
       "augmentId": 12317,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0246,
       "contributions": [
         {
@@ -975,7 +975,7 @@
     },
     {
       "augmentId": 1018,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0083,
       "contributions": [
         {
@@ -989,7 +989,7 @@
     },
     {
       "augmentId": 1022,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0084,
       "contributions": [
         {
@@ -1003,7 +1003,7 @@
     },
     {
       "augmentId": 1029,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0189,
       "contributions": [
         {
@@ -1017,7 +1017,7 @@
     },
     {
       "augmentId": 1036,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0076,
       "contributions": [
         {
@@ -1031,7 +1031,7 @@
     },
     {
       "augmentId": 1038,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0057,
       "contributions": [
         {
@@ -1045,7 +1045,7 @@
     },
     {
       "augmentId": 1046,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0061,
       "contributions": [
         {
@@ -1059,7 +1059,7 @@
     },
     {
       "augmentId": 1048,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0087,
       "contributions": [
         {
@@ -1073,7 +1073,7 @@
     },
     {
       "augmentId": 1074,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0149,
       "contributions": [
         {
@@ -1087,7 +1087,7 @@
     },
     {
       "augmentId": 1088,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0254,
       "contributions": [
         {
@@ -1101,7 +1101,7 @@
     },
     {
       "augmentId": 1129,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0132,
       "contributions": [
         {
@@ -1115,7 +1115,7 @@
     },
     {
       "augmentId": 1133,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0158,
       "contributions": [
         {
@@ -1129,7 +1129,7 @@
     },
     {
       "augmentId": 1134,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0053,
       "contributions": [
         {
@@ -1143,7 +1143,7 @@
     },
     {
       "augmentId": 1180,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0057,
       "contributions": [
         {
@@ -1157,7 +1157,7 @@
     },
     {
       "augmentId": 1195,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.006,
       "contributions": [
         {
@@ -1171,7 +1171,7 @@
     },
     {
       "augmentId": 1211,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0073,
       "contributions": [
         {
@@ -1185,7 +1185,7 @@
     },
     {
       "augmentId": 1225,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0055,
       "contributions": [
         {
@@ -1199,7 +1199,7 @@
     },
     {
       "augmentId": 1310,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0096,
       "contributions": [
         {
@@ -1213,7 +1213,7 @@
     },
     {
       "augmentId": 1318,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0116,
       "contributions": [
         {
@@ -1227,7 +1227,7 @@
     },
     {
       "augmentId": 1323,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.014,
       "contributions": [
         {
@@ -1241,7 +1241,7 @@
     },
     {
       "augmentId": 1344,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0067,
       "contributions": [
         {
@@ -1255,7 +1255,7 @@
     },
     {
       "augmentId": 1358,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0133,
       "contributions": [
         {
@@ -1269,7 +1269,7 @@
     },
     {
       "augmentId": 1386,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0055,
       "contributions": [
         {
@@ -1283,7 +1283,7 @@
     },
     {
       "augmentId": 1404,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0079,
       "contributions": [
         {
@@ -1297,7 +1297,7 @@
     },
     {
       "augmentId": 1415,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0166,
       "contributions": [
         {
@@ -1311,7 +1311,7 @@
     },
     {
       "augmentId": 2009,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0186,
       "contributions": [
         {
@@ -1325,7 +1325,7 @@
     },
     {
       "augmentId": 2034,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0055,
       "contributions": [
         {
@@ -1339,7 +1339,7 @@
     },
     {
       "augmentId": 2042,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0061,
       "contributions": [
         {
@@ -1353,7 +1353,7 @@
     },
     {
       "augmentId": 2080,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0088,
       "contributions": [
         {
@@ -1367,7 +1367,7 @@
     },
     {
       "augmentId": 2088,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0104,
       "contributions": [
         {
@@ -1381,7 +1381,7 @@
     },
     {
       "augmentId": 2103,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0106,
       "contributions": [
         {
@@ -1395,7 +1395,7 @@
     },
     {
       "augmentId": 2116,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0126,
       "contributions": [
         {
@@ -1409,7 +1409,7 @@
     },
     {
       "augmentId": 2118,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0254,
       "contributions": [
         {
@@ -1423,7 +1423,7 @@
     },
     {
       "augmentId": 2132,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0104,
       "contributions": [
         {

@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "method": "warden-performance-tiers-v1",
+  "version": 2,
+  "method": "warden-win-ratio-grades-v2",
   "championId": 111,
   "championKey": "Nautilus",
   "set": "aram",
@@ -9,7 +9,7 @@
   "augments": [
     {
       "augmentId": 1361,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0429,
       "contributions": [
         {
@@ -23,7 +23,7 @@
     },
     {
       "augmentId": 2095,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0169,
       "contributions": [
         {
@@ -37,7 +37,7 @@
     },
     {
       "augmentId": 2102,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0773,
       "contributions": [
         {
@@ -50,22 +50,8 @@
       ]
     },
     {
-      "augmentId": 1013,
-      "tier": 3,
-      "pickrate": 0.1371,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 65872
-        }
-      ]
-    },
-    {
       "augmentId": 1018,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0802,
       "contributions": [
         {
@@ -78,36 +64,8 @@
       ]
     },
     {
-      "augmentId": 1020,
-      "tier": 3,
-      "pickrate": 0.0631,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 30304
-        }
-      ]
-    },
-    {
-      "augmentId": 1041,
-      "tier": 3,
-      "pickrate": 0.1045,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 50240
-        }
-      ]
-    },
-    {
       "augmentId": 1053,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0342,
       "contributions": [
         {
@@ -120,22 +78,8 @@
       ]
     },
     {
-      "augmentId": 1060,
-      "tier": 3,
-      "pickrate": 0.0172,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 8264
-        }
-      ]
-    },
-    {
       "augmentId": 1062,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0083,
       "contributions": [
         {
@@ -148,22 +92,8 @@
       ]
     },
     {
-      "augmentId": 1068,
-      "tier": 3,
-      "pickrate": 0.048,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 23076
-        }
-      ]
-    },
-    {
       "augmentId": 1152,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1446,
       "contributions": [
         {
@@ -176,64 +106,8 @@
       ]
     },
     {
-      "augmentId": 1181,
-      "tier": 3,
-      "pickrate": 0.1172,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 56338
-        }
-      ]
-    },
-    {
-      "augmentId": 1238,
-      "tier": 3,
-      "pickrate": 0.0813,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 39084
-        }
-      ]
-    },
-    {
-      "augmentId": 1305,
-      "tier": 3,
-      "pickrate": 0.0285,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 13715
-        }
-      ]
-    },
-    {
-      "augmentId": 1319,
-      "tier": 3,
-      "pickrate": 0.0758,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 36448
-        }
-      ]
-    },
-    {
       "augmentId": 1323,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0475,
       "contributions": [
         {
@@ -247,7 +121,7 @@
     },
     {
       "augmentId": 1333,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0497,
       "contributions": [
         {
@@ -260,92 +134,8 @@
       ]
     },
     {
-      "augmentId": 1335,
-      "tier": 3,
-      "pickrate": 0.0037,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1758
-        }
-      ]
-    },
-    {
-      "augmentId": 1337,
-      "tier": 3,
-      "pickrate": 0.0061,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2931
-        }
-      ]
-    },
-    {
-      "augmentId": 1353,
-      "tier": 3,
-      "pickrate": 0.2146,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 103159
-        }
-      ]
-    },
-    {
-      "augmentId": 1373,
-      "tier": 3,
-      "pickrate": 0.0219,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 10526
-        }
-      ]
-    },
-    {
-      "augmentId": 1375,
-      "tier": 3,
-      "pickrate": 0.0812,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 39005
-        }
-      ]
-    },
-    {
-      "augmentId": 1384,
-      "tier": 3,
-      "pickrate": 0.0219,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 10522
-        }
-      ]
-    },
-    {
       "augmentId": 1388,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0206,
       "contributions": [
         {
@@ -359,7 +149,7 @@
     },
     {
       "augmentId": 1389,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0022,
       "contributions": [
         {
@@ -372,22 +162,8 @@
       ]
     },
     {
-      "augmentId": 1401,
-      "tier": 3,
-      "pickrate": 0.0689,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 33128
-        }
-      ]
-    },
-    {
       "augmentId": 2031,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0333,
       "contributions": [
         {
@@ -400,8 +176,260 @@
       ]
     },
     {
+      "augmentId": 2076,
+      "tier": "B",
+      "pickrate": 0.078,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 37508
+        }
+      ]
+    },
+    {
+      "augmentId": 2098,
+      "tier": "B",
+      "pickrate": 0.008,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3868
+        }
+      ]
+    },
+    {
+      "augmentId": 1013,
+      "tier": "C",
+      "pickrate": 0.1371,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 65872
+        }
+      ]
+    },
+    {
+      "augmentId": 1020,
+      "tier": "C",
+      "pickrate": 0.0631,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 30304
+        }
+      ]
+    },
+    {
+      "augmentId": 1041,
+      "tier": "C",
+      "pickrate": 0.1045,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 50240
+        }
+      ]
+    },
+    {
+      "augmentId": 1060,
+      "tier": "C",
+      "pickrate": 0.0172,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8264
+        }
+      ]
+    },
+    {
+      "augmentId": 1068,
+      "tier": "C",
+      "pickrate": 0.048,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 23076
+        }
+      ]
+    },
+    {
+      "augmentId": 1181,
+      "tier": "C",
+      "pickrate": 0.1172,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 56338
+        }
+      ]
+    },
+    {
+      "augmentId": 1238,
+      "tier": "C",
+      "pickrate": 0.0813,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 39084
+        }
+      ]
+    },
+    {
+      "augmentId": 1305,
+      "tier": "C",
+      "pickrate": 0.0285,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13715
+        }
+      ]
+    },
+    {
+      "augmentId": 1319,
+      "tier": "C",
+      "pickrate": 0.0758,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 36448
+        }
+      ]
+    },
+    {
+      "augmentId": 1335,
+      "tier": "C",
+      "pickrate": 0.0037,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 1758
+        }
+      ]
+    },
+    {
+      "augmentId": 1337,
+      "tier": "C",
+      "pickrate": 0.0061,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2931
+        }
+      ]
+    },
+    {
+      "augmentId": 1353,
+      "tier": "C",
+      "pickrate": 0.2146,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 103159
+        }
+      ]
+    },
+    {
+      "augmentId": 1373,
+      "tier": "C",
+      "pickrate": 0.0219,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10526
+        }
+      ]
+    },
+    {
+      "augmentId": 1375,
+      "tier": "C",
+      "pickrate": 0.0812,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 39005
+        }
+      ]
+    },
+    {
+      "augmentId": 1384,
+      "tier": "C",
+      "pickrate": 0.0219,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10522
+        }
+      ]
+    },
+    {
+      "augmentId": 1401,
+      "tier": "C",
+      "pickrate": 0.0689,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 33128
+        }
+      ]
+    },
+    {
       "augmentId": 2032,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0192,
       "contributions": [
         {
@@ -415,7 +443,7 @@
     },
     {
       "augmentId": 2062,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0133,
       "contributions": [
         {
@@ -428,22 +456,8 @@
       ]
     },
     {
-      "augmentId": 2076,
-      "tier": 3,
-      "pickrate": 0.078,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 37508
-        }
-      ]
-    },
-    {
       "augmentId": 2091,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0561,
       "contributions": [
         {
@@ -456,22 +470,8 @@
       ]
     },
     {
-      "augmentId": 2098,
-      "tier": 3,
-      "pickrate": 0.008,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/nautilus?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3868
-        }
-      ]
-    },
-    {
       "augmentId": 2119,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0066,
       "contributions": [
         {
@@ -485,7 +485,7 @@
     },
     {
       "augmentId": 2127,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0234,
       "contributions": [
         {
@@ -499,7 +499,7 @@
     },
     {
       "augmentId": 1001,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0476,
       "contributions": [
         {
@@ -513,7 +513,7 @@
     },
     {
       "augmentId": 1002,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0332,
       "contributions": [
         {
@@ -527,7 +527,7 @@
     },
     {
       "augmentId": 1004,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0098,
       "contributions": [
         {
@@ -541,7 +541,7 @@
     },
     {
       "augmentId": 1006,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0053,
       "contributions": [
         {
@@ -555,7 +555,7 @@
     },
     {
       "augmentId": 1019,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0032,
       "contributions": [
         {
@@ -569,7 +569,7 @@
     },
     {
       "augmentId": 1025,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0539,
       "contributions": [
         {
@@ -583,7 +583,7 @@
     },
     {
       "augmentId": 1028,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0108,
       "contributions": [
         {
@@ -597,7 +597,7 @@
     },
     {
       "augmentId": 1029,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0623,
       "contributions": [
         {
@@ -611,7 +611,7 @@
     },
     {
       "augmentId": 1044,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0138,
       "contributions": [
         {
@@ -625,7 +625,7 @@
     },
     {
       "augmentId": 1045,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0067,
       "contributions": [
         {
@@ -639,7 +639,7 @@
     },
     {
       "augmentId": 1046,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0045,
       "contributions": [
         {
@@ -653,7 +653,7 @@
     },
     {
       "augmentId": 1056,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.027,
       "contributions": [
         {
@@ -667,7 +667,7 @@
     },
     {
       "augmentId": 1057,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0081,
       "contributions": [
         {
@@ -681,7 +681,7 @@
     },
     {
       "augmentId": 1063,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0058,
       "contributions": [
         {
@@ -695,7 +695,7 @@
     },
     {
       "augmentId": 1072,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0061,
       "contributions": [
         {
@@ -709,7 +709,7 @@
     },
     {
       "augmentId": 1073,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0035,
       "contributions": [
         {
@@ -723,7 +723,7 @@
     },
     {
       "augmentId": 1103,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0282,
       "contributions": [
         {
@@ -737,7 +737,7 @@
     },
     {
       "augmentId": 1116,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0144,
       "contributions": [
         {
@@ -751,7 +751,7 @@
     },
     {
       "augmentId": 1136,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0751,
       "contributions": [
         {
@@ -765,7 +765,7 @@
     },
     {
       "augmentId": 1149,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0449,
       "contributions": [
         {
@@ -779,7 +779,7 @@
     },
     {
       "augmentId": 1150,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0266,
       "contributions": [
         {
@@ -793,7 +793,7 @@
     },
     {
       "augmentId": 1151,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0133,
       "contributions": [
         {
@@ -807,7 +807,7 @@
     },
     {
       "augmentId": 1154,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0074,
       "contributions": [
         {
@@ -821,7 +821,7 @@
     },
     {
       "augmentId": 1170,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0048,
       "contributions": [
         {
@@ -835,7 +835,7 @@
     },
     {
       "augmentId": 1195,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0043,
       "contributions": [
         {
@@ -849,7 +849,7 @@
     },
     {
       "augmentId": 1220,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0019,
       "contributions": [
         {
@@ -863,7 +863,7 @@
     },
     {
       "augmentId": 1237,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0449,
       "contributions": [
         {
@@ -877,7 +877,7 @@
     },
     {
       "augmentId": 1243,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0269,
       "contributions": [
         {
@@ -891,7 +891,7 @@
     },
     {
       "augmentId": 1301,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0283,
       "contributions": [
         {
@@ -905,7 +905,7 @@
     },
     {
       "augmentId": 1308,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0072,
       "contributions": [
         {
@@ -919,7 +919,7 @@
     },
     {
       "augmentId": 1310,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0185,
       "contributions": [
         {
@@ -933,7 +933,7 @@
     },
     {
       "augmentId": 1314,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0285,
       "contributions": [
         {
@@ -947,7 +947,7 @@
     },
     {
       "augmentId": 1315,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0073,
       "contributions": [
         {
@@ -961,7 +961,7 @@
     },
     {
       "augmentId": 1329,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0393,
       "contributions": [
         {
@@ -975,7 +975,7 @@
     },
     {
       "augmentId": 1344,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0087,
       "contributions": [
         {
@@ -989,7 +989,7 @@
     },
     {
       "augmentId": 1349,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0112,
       "contributions": [
         {
@@ -1003,7 +1003,7 @@
     },
     {
       "augmentId": 1358,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0189,
       "contributions": [
         {
@@ -1017,7 +1017,7 @@
     },
     {
       "augmentId": 1390,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0196,
       "contributions": [
         {
@@ -1031,7 +1031,7 @@
     },
     {
       "augmentId": 1402,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0072,
       "contributions": [
         {
@@ -1045,7 +1045,7 @@
     },
     {
       "augmentId": 1403,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.015,
       "contributions": [
         {
@@ -1059,7 +1059,7 @@
     },
     {
       "augmentId": 1404,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0067,
       "contributions": [
         {
@@ -1073,7 +1073,7 @@
     },
     {
       "augmentId": 1413,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0166,
       "contributions": [
         {
@@ -1087,7 +1087,7 @@
     },
     {
       "augmentId": 1415,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0053,
       "contributions": [
         {
@@ -1101,7 +1101,7 @@
     },
     {
       "augmentId": 1421,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0104,
       "contributions": [
         {
@@ -1115,7 +1115,7 @@
     },
     {
       "augmentId": 2005,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0128,
       "contributions": [
         {
@@ -1129,7 +1129,7 @@
     },
     {
       "augmentId": 2006,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.13,
       "contributions": [
         {
@@ -1143,7 +1143,7 @@
     },
     {
       "augmentId": 2009,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0036,
       "contributions": [
         {
@@ -1157,7 +1157,7 @@
     },
     {
       "augmentId": 2018,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0066,
       "contributions": [
         {
@@ -1171,7 +1171,7 @@
     },
     {
       "augmentId": 2026,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0058,
       "contributions": [
         {
@@ -1185,7 +1185,7 @@
     },
     {
       "augmentId": 2034,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0137,
       "contributions": [
         {
@@ -1199,7 +1199,7 @@
     },
     {
       "augmentId": 2043,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0248,
       "contributions": [
         {
@@ -1213,7 +1213,7 @@
     },
     {
       "augmentId": 2077,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0749,
       "contributions": [
         {
@@ -1227,7 +1227,7 @@
     },
     {
       "augmentId": 2080,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0194,
       "contributions": [
         {
@@ -1241,7 +1241,7 @@
     },
     {
       "augmentId": 2082,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0177,
       "contributions": [
         {
@@ -1255,7 +1255,7 @@
     },
     {
       "augmentId": 2088,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0199,
       "contributions": [
         {
@@ -1269,7 +1269,7 @@
     },
     {
       "augmentId": 2089,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.011,
       "contributions": [
         {
@@ -1283,7 +1283,7 @@
     },
     {
       "augmentId": 2099,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0081,
       "contributions": [
         {
@@ -1297,7 +1297,7 @@
     },
     {
       "augmentId": 2107,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0058,
       "contributions": [
         {
@@ -1311,7 +1311,7 @@
     },
     {
       "augmentId": 2115,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0143,
       "contributions": [
         {
@@ -1325,7 +1325,7 @@
     },
     {
       "augmentId": 2128,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0241,
       "contributions": [
         {
@@ -1339,7 +1339,7 @@
     },
     {
       "augmentId": 2137,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0074,
       "contributions": [
         {
@@ -1353,7 +1353,7 @@
     },
     {
       "augmentId": 2139,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0432,
       "contributions": [
         {
@@ -1367,7 +1367,7 @@
     },
     {
       "augmentId": 2144,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0822,
       "contributions": [
         {
@@ -1381,7 +1381,7 @@
     },
     {
       "augmentId": 1011,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0041,
       "contributions": [
         {
@@ -1395,7 +1395,7 @@
     },
     {
       "augmentId": 1027,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0029,
       "contributions": [
         {
@@ -1409,7 +1409,7 @@
     },
     {
       "augmentId": 1030,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0068,
       "contributions": [
         {
@@ -1423,7 +1423,7 @@
     },
     {
       "augmentId": 1036,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.008,
       "contributions": [
         {
@@ -1437,7 +1437,7 @@
     },
     {
       "augmentId": 1038,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0046,
       "contributions": [
         {
@@ -1451,7 +1451,7 @@
     },
     {
       "augmentId": 1048,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0064,
       "contributions": [
         {
@@ -1465,7 +1465,7 @@
     },
     {
       "augmentId": 1054,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.005,
       "contributions": [
         {
@@ -1479,7 +1479,7 @@
     },
     {
       "augmentId": 1058,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0094,
       "contributions": [
         {
@@ -1493,7 +1493,7 @@
     },
     {
       "augmentId": 1071,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0067,
       "contributions": [
         {
@@ -1507,7 +1507,7 @@
     },
     {
       "augmentId": 1074,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0073,
       "contributions": [
         {
@@ -1521,7 +1521,7 @@
     },
     {
       "augmentId": 1079,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0015,
       "contributions": [
         {
@@ -1535,7 +1535,7 @@
     },
     {
       "augmentId": 1088,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0139,
       "contributions": [
         {
@@ -1549,7 +1549,7 @@
     },
     {
       "augmentId": 1095,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0111,
       "contributions": [
         {
@@ -1563,7 +1563,7 @@
     },
     {
       "augmentId": 1097,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0059,
       "contributions": [
         {
@@ -1577,7 +1577,7 @@
     },
     {
       "augmentId": 1098,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0058,
       "contributions": [
         {
@@ -1591,7 +1591,7 @@
     },
     {
       "augmentId": 1112,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.007,
       "contributions": [
         {
@@ -1605,7 +1605,7 @@
     },
     {
       "augmentId": 1115,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0036,
       "contributions": [
         {
@@ -1619,7 +1619,7 @@
     },
     {
       "augmentId": 1129,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0048,
       "contributions": [
         {
@@ -1633,7 +1633,7 @@
     },
     {
       "augmentId": 1156,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0035,
       "contributions": [
         {
@@ -1647,7 +1647,7 @@
     },
     {
       "augmentId": 1180,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0029,
       "contributions": [
         {
@@ -1661,7 +1661,7 @@
     },
     {
       "augmentId": 1194,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0101,
       "contributions": [
         {
@@ -1675,7 +1675,7 @@
     },
     {
       "augmentId": 1205,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0143,
       "contributions": [
         {
@@ -1689,7 +1689,7 @@
     },
     {
       "augmentId": 1211,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0049,
       "contributions": [
         {
@@ -1703,7 +1703,7 @@
     },
     {
       "augmentId": 1225,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0009,
       "contributions": [
         {
@@ -1717,7 +1717,7 @@
     },
     {
       "augmentId": 1311,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0037,
       "contributions": [
         {
@@ -1731,7 +1731,7 @@
     },
     {
       "augmentId": 1318,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0026,
       "contributions": [
         {
@@ -1745,7 +1745,7 @@
     },
     {
       "augmentId": 1332,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0032,
       "contributions": [
         {
@@ -1759,7 +1759,7 @@
     },
     {
       "augmentId": 1347,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0024,
       "contributions": [
         {
@@ -1773,7 +1773,7 @@
     },
     {
       "augmentId": 1386,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0044,
       "contributions": [
         {
@@ -1787,7 +1787,7 @@
     },
     {
       "augmentId": 1392,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0127,
       "contributions": [
         {
@@ -1801,7 +1801,7 @@
     },
     {
       "augmentId": 2016,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.001,
       "contributions": [
         {
@@ -1815,7 +1815,7 @@
     },
     {
       "augmentId": 2046,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0019,
       "contributions": [
         {
@@ -1829,7 +1829,7 @@
     },
     {
       "augmentId": 2063,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0028,
       "contributions": [
         {
@@ -1843,7 +1843,7 @@
     },
     {
       "augmentId": 2083,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0058,
       "contributions": [
         {
@@ -1857,7 +1857,7 @@
     },
     {
       "augmentId": 2087,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0131,
       "contributions": [
         {
@@ -1871,7 +1871,7 @@
     },
     {
       "augmentId": 2100,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0321,
       "contributions": [
         {
@@ -1885,7 +1885,7 @@
     },
     {
       "augmentId": 2116,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0111,
       "contributions": [
         {
@@ -1899,7 +1899,7 @@
     },
     {
       "augmentId": 2118,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0067,
       "contributions": [
         {
@@ -1913,7 +1913,7 @@
     },
     {
       "augmentId": 2123,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0111,
       "contributions": [
         {
@@ -1927,7 +1927,7 @@
     },
     {
       "augmentId": 2132,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0102,
       "contributions": [
         {
@@ -1941,7 +1941,7 @@
     },
     {
       "augmentId": 2134,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.002,
       "contributions": [
         {
@@ -1955,7 +1955,7 @@
     },
     {
       "augmentId": 12317,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0192,
       "contributions": [
         {

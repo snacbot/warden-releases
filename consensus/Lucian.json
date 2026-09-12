@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "method": "warden-performance-tiers-v1",
+  "version": 2,
+  "method": "warden-win-ratio-grades-v2",
   "championId": 236,
   "championKey": "Lucian",
   "set": "aram",
@@ -9,7 +9,7 @@
   "augments": [
     {
       "augmentId": 1048,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.1343,
       "contributions": [
         {
@@ -23,7 +23,7 @@
     },
     {
       "augmentId": 1053,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.02,
       "contributions": [
         {
@@ -37,7 +37,7 @@
     },
     {
       "augmentId": 1092,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.2436,
       "contributions": [
         {
@@ -51,7 +51,7 @@
     },
     {
       "augmentId": 2095,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0212,
       "contributions": [
         {
@@ -65,7 +65,7 @@
     },
     {
       "augmentId": 1038,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.041,
       "contributions": [
         {
@@ -79,7 +79,7 @@
     },
     {
       "augmentId": 1134,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0668,
       "contributions": [
         {
@@ -93,7 +93,7 @@
     },
     {
       "augmentId": 1154,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0163,
       "contributions": [
         {
@@ -107,7 +107,7 @@
     },
     {
       "augmentId": 1310,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0209,
       "contributions": [
         {
@@ -121,7 +121,7 @@
     },
     {
       "augmentId": 1333,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0339,
       "contributions": [
         {
@@ -135,7 +135,7 @@
     },
     {
       "augmentId": 1384,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0256,
       "contributions": [
         {
@@ -149,7 +149,7 @@
     },
     {
       "augmentId": 1389,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0022,
       "contributions": [
         {
@@ -163,7 +163,7 @@
     },
     {
       "augmentId": 1403,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0151,
       "contributions": [
         {
@@ -177,7 +177,7 @@
     },
     {
       "augmentId": 2083,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0765,
       "contributions": [
         {
@@ -191,7 +191,7 @@
     },
     {
       "augmentId": 1007,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0791,
       "contributions": [
         {
@@ -204,106 +204,8 @@
       ]
     },
     {
-      "augmentId": 1022,
-      "tier": 3,
-      "pickrate": 0.0363,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 33684
-        }
-      ]
-    },
-    {
-      "augmentId": 1026,
-      "tier": 3,
-      "pickrate": 0.0057,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 5251
-        }
-      ]
-    },
-    {
-      "augmentId": 1028,
-      "tier": 3,
-      "pickrate": 0.0143,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 13250
-        }
-      ]
-    },
-    {
-      "augmentId": 1034,
-      "tier": 3,
-      "pickrate": 0.0153,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 14156
-        }
-      ]
-    },
-    {
-      "augmentId": 1047,
-      "tier": 3,
-      "pickrate": 0.0475,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 44063
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "tier": 3,
-      "pickrate": 0.0062,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 5795
-        }
-      ]
-    },
-    {
-      "augmentId": 1061,
-      "tier": 3,
-      "pickrate": 0.0041,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3772
-        }
-      ]
-    },
-    {
       "augmentId": 1062,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0064,
       "contributions": [
         {
@@ -316,50 +218,8 @@
       ]
     },
     {
-      "augmentId": 1063,
-      "tier": 3,
-      "pickrate": 0.0101,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 9361
-        }
-      ]
-    },
-    {
-      "augmentId": 1068,
-      "tier": 3,
-      "pickrate": 0.0503,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 46652
-        }
-      ]
-    },
-    {
-      "augmentId": 1073,
-      "tier": 3,
-      "pickrate": 0.0389,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 36100
-        }
-      ]
-    },
-    {
       "augmentId": 1077,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1188,
       "contributions": [
         {
@@ -373,7 +233,7 @@
     },
     {
       "augmentId": 1080,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.048,
       "contributions": [
         {
@@ -386,64 +246,8 @@
       ]
     },
     {
-      "augmentId": 1084,
-      "tier": 3,
-      "pickrate": 0.0499,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 46231
-        }
-      ]
-    },
-    {
-      "augmentId": 1105,
-      "tier": 3,
-      "pickrate": 0.0125,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 11572
-        }
-      ]
-    },
-    {
-      "augmentId": 1112,
-      "tier": 3,
-      "pickrate": 0.0181,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 16764
-        }
-      ]
-    },
-    {
-      "augmentId": 1116,
-      "tier": 3,
-      "pickrate": 0.0222,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 20567
-        }
-      ]
-    },
-    {
       "augmentId": 1138,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.056,
       "contributions": [
         {
@@ -456,22 +260,8 @@
       ]
     },
     {
-      "augmentId": 1151,
-      "tier": 3,
-      "pickrate": 0.0263,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 24435
-        }
-      ]
-    },
-    {
       "augmentId": 1195,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0609,
       "contributions": [
         {
@@ -485,7 +275,7 @@
     },
     {
       "augmentId": 1206,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0442,
       "contributions": [
         {
@@ -498,36 +288,8 @@
       ]
     },
     {
-      "augmentId": 1211,
-      "tier": 3,
-      "pickrate": 0.0285,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 26417
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "tier": 3,
-      "pickrate": 0.0386,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 35773
-        }
-      ]
-    },
-    {
       "augmentId": 1238,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.084,
       "contributions": [
         {
@@ -540,106 +302,8 @@
       ]
     },
     {
-      "augmentId": 1243,
-      "tier": 3,
-      "pickrate": 0.0283,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 26285
-        }
-      ]
-    },
-    {
-      "augmentId": 1305,
-      "tier": 3,
-      "pickrate": 0.0156,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 14435
-        }
-      ]
-    },
-    {
-      "augmentId": 1315,
-      "tier": 3,
-      "pickrate": 0.0135,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 12561
-        }
-      ]
-    },
-    {
-      "augmentId": 1320,
-      "tier": 3,
-      "pickrate": 0.0877,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 81335
-        }
-      ]
-    },
-    {
-      "augmentId": 1322,
-      "tier": 3,
-      "pickrate": 0.0327,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 30298
-        }
-      ]
-    },
-    {
-      "augmentId": 1326,
-      "tier": 3,
-      "pickrate": 0.018,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 16648
-        }
-      ]
-    },
-    {
-      "augmentId": 1335,
-      "tier": 3,
-      "pickrate": 0.0052,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4837
-        }
-      ]
-    },
-    {
       "augmentId": 1336,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1701,
       "contributions": [
         {
@@ -652,22 +316,8 @@
       ]
     },
     {
-      "augmentId": 1337,
-      "tier": 3,
-      "pickrate": 0.0055,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 5114
-        }
-      ]
-    },
-    {
       "augmentId": 1344,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0152,
       "contributions": [
         {
@@ -680,22 +330,8 @@
       ]
     },
     {
-      "augmentId": 1347,
-      "tier": 3,
-      "pickrate": 0.0055,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 5120
-        }
-      ]
-    },
-    {
       "augmentId": 1356,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1935,
       "contributions": [
         {
@@ -708,22 +344,8 @@
       ]
     },
     {
-      "augmentId": 1373,
-      "tier": 3,
-      "pickrate": 0.0571,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 52908
-        }
-      ]
-    },
-    {
       "augmentId": 1402,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0071,
       "contributions": [
         {
@@ -736,92 +358,8 @@
       ]
     },
     {
-      "augmentId": 1404,
-      "tier": 3,
-      "pickrate": 0.0043,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4033
-        }
-      ]
-    },
-    {
-      "augmentId": 1415,
-      "tier": 3,
-      "pickrate": 0.0605,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 56083
-        }
-      ]
-    },
-    {
-      "augmentId": 1996,
-      "tier": 3,
-      "pickrate": 0.0398,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 36866
-        }
-      ]
-    },
-    {
-      "augmentId": 2009,
-      "tier": 3,
-      "pickrate": 0.0304,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 28218
-        }
-      ]
-    },
-    {
-      "augmentId": 2024,
-      "tier": 3,
-      "pickrate": 0.0396,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 36761
-        }
-      ]
-    },
-    {
-      "augmentId": 2026,
-      "tier": 3,
-      "pickrate": 0.0049,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4571
-        }
-      ]
-    },
-    {
       "augmentId": 2119,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0008,
       "contributions": [
         {
@@ -835,7 +373,7 @@
     },
     {
       "augmentId": 2141,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0207,
       "contributions": [
         {
@@ -848,8 +386,470 @@
       ]
     },
     {
+      "augmentId": 1022,
+      "tier": "C",
+      "pickrate": 0.0363,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 33684
+        }
+      ]
+    },
+    {
+      "augmentId": 1026,
+      "tier": "C",
+      "pickrate": 0.0057,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5251
+        }
+      ]
+    },
+    {
+      "augmentId": 1028,
+      "tier": "C",
+      "pickrate": 0.0143,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 13250
+        }
+      ]
+    },
+    {
+      "augmentId": 1034,
+      "tier": "C",
+      "pickrate": 0.0153,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14156
+        }
+      ]
+    },
+    {
+      "augmentId": 1047,
+      "tier": "C",
+      "pickrate": 0.0475,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 44063
+        }
+      ]
+    },
+    {
+      "augmentId": 1060,
+      "tier": "C",
+      "pickrate": 0.0062,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5795
+        }
+      ]
+    },
+    {
+      "augmentId": 1061,
+      "tier": "C",
+      "pickrate": 0.0041,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3772
+        }
+      ]
+    },
+    {
+      "augmentId": 1063,
+      "tier": "C",
+      "pickrate": 0.0101,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9361
+        }
+      ]
+    },
+    {
+      "augmentId": 1068,
+      "tier": "C",
+      "pickrate": 0.0503,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 46652
+        }
+      ]
+    },
+    {
+      "augmentId": 1073,
+      "tier": "C",
+      "pickrate": 0.0389,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 36100
+        }
+      ]
+    },
+    {
+      "augmentId": 1084,
+      "tier": "C",
+      "pickrate": 0.0499,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 46231
+        }
+      ]
+    },
+    {
+      "augmentId": 1105,
+      "tier": "C",
+      "pickrate": 0.0125,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 11572
+        }
+      ]
+    },
+    {
+      "augmentId": 1112,
+      "tier": "C",
+      "pickrate": 0.0181,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16764
+        }
+      ]
+    },
+    {
+      "augmentId": 1116,
+      "tier": "C",
+      "pickrate": 0.0222,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 20567
+        }
+      ]
+    },
+    {
+      "augmentId": 1151,
+      "tier": "C",
+      "pickrate": 0.0263,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 24435
+        }
+      ]
+    },
+    {
+      "augmentId": 1211,
+      "tier": "C",
+      "pickrate": 0.0285,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 26417
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": "C",
+      "pickrate": 0.0386,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 35773
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": "C",
+      "pickrate": 0.0283,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 26285
+        }
+      ]
+    },
+    {
+      "augmentId": 1305,
+      "tier": "C",
+      "pickrate": 0.0156,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14435
+        }
+      ]
+    },
+    {
+      "augmentId": 1315,
+      "tier": "C",
+      "pickrate": 0.0135,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12561
+        }
+      ]
+    },
+    {
+      "augmentId": 1320,
+      "tier": "C",
+      "pickrate": 0.0877,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 81335
+        }
+      ]
+    },
+    {
+      "augmentId": 1322,
+      "tier": "C",
+      "pickrate": 0.0327,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 30298
+        }
+      ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": "C",
+      "pickrate": 0.018,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 16648
+        }
+      ]
+    },
+    {
+      "augmentId": 1335,
+      "tier": "C",
+      "pickrate": 0.0052,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4837
+        }
+      ]
+    },
+    {
+      "augmentId": 1337,
+      "tier": "C",
+      "pickrate": 0.0055,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5114
+        }
+      ]
+    },
+    {
+      "augmentId": 1347,
+      "tier": "C",
+      "pickrate": 0.0055,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5120
+        }
+      ]
+    },
+    {
+      "augmentId": 1373,
+      "tier": "C",
+      "pickrate": 0.0571,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 52908
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": "C",
+      "pickrate": 0.0043,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4033
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": "C",
+      "pickrate": 0.0605,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 56083
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": "C",
+      "pickrate": 0.0398,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 36866
+        }
+      ]
+    },
+    {
+      "augmentId": 2009,
+      "tier": "C",
+      "pickrate": 0.0304,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 28218
+        }
+      ]
+    },
+    {
+      "augmentId": 2024,
+      "tier": "C",
+      "pickrate": 0.0396,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 36761
+        }
+      ]
+    },
+    {
+      "augmentId": 2026,
+      "tier": "C",
+      "pickrate": 0.0049,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/lucian?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4571
+        }
+      ]
+    },
+    {
       "augmentId": 1004,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0089,
       "contributions": [
         {
@@ -863,7 +863,7 @@
     },
     {
       "augmentId": 1006,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0051,
       "contributions": [
         {
@@ -877,7 +877,7 @@
     },
     {
       "augmentId": 1029,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0457,
       "contributions": [
         {
@@ -891,7 +891,7 @@
     },
     {
       "augmentId": 1036,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0172,
       "contributions": [
         {
@@ -905,7 +905,7 @@
     },
     {
       "augmentId": 1046,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0095,
       "contributions": [
         {
@@ -919,7 +919,7 @@
     },
     {
       "augmentId": 1051,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0183,
       "contributions": [
         {
@@ -933,7 +933,7 @@
     },
     {
       "augmentId": 1057,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.001,
       "contributions": [
         {
@@ -947,7 +947,7 @@
     },
     {
       "augmentId": 1058,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0534,
       "contributions": [
         {
@@ -961,7 +961,7 @@
     },
     {
       "augmentId": 1071,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0483,
       "contributions": [
         {
@@ -975,7 +975,7 @@
     },
     {
       "augmentId": 1079,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.018,
       "contributions": [
         {
@@ -989,7 +989,7 @@
     },
     {
       "augmentId": 1081,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0158,
       "contributions": [
         {
@@ -1003,7 +1003,7 @@
     },
     {
       "augmentId": 1088,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0351,
       "contributions": [
         {
@@ -1017,7 +1017,7 @@
     },
     {
       "augmentId": 1098,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0104,
       "contributions": [
         {
@@ -1031,7 +1031,7 @@
     },
     {
       "augmentId": 1115,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0224,
       "contributions": [
         {
@@ -1045,7 +1045,7 @@
     },
     {
       "augmentId": 1133,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0256,
       "contributions": [
         {
@@ -1059,7 +1059,7 @@
     },
     {
       "augmentId": 1170,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.021,
       "contributions": [
         {
@@ -1073,7 +1073,7 @@
     },
     {
       "augmentId": 1220,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0538,
       "contributions": [
         {
@@ -1087,7 +1087,7 @@
     },
     {
       "augmentId": 1225,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0604,
       "contributions": [
         {
@@ -1101,7 +1101,7 @@
     },
     {
       "augmentId": 1311,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0063,
       "contributions": [
         {
@@ -1115,7 +1115,7 @@
     },
     {
       "augmentId": 1328,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0652,
       "contributions": [
         {
@@ -1129,7 +1129,7 @@
     },
     {
       "augmentId": 1329,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0059,
       "contributions": [
         {
@@ -1143,7 +1143,7 @@
     },
     {
       "augmentId": 1345,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0088,
       "contributions": [
         {
@@ -1157,7 +1157,7 @@
     },
     {
       "augmentId": 1349,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0208,
       "contributions": [
         {
@@ -1171,7 +1171,7 @@
     },
     {
       "augmentId": 1358,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0012,
       "contributions": [
         {
@@ -1185,7 +1185,7 @@
     },
     {
       "augmentId": 1388,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0256,
       "contributions": [
         {
@@ -1199,7 +1199,7 @@
     },
     {
       "augmentId": 1416,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0129,
       "contributions": [
         {
@@ -1213,7 +1213,7 @@
     },
     {
       "augmentId": 2016,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0064,
       "contributions": [
         {
@@ -1227,7 +1227,7 @@
     },
     {
       "augmentId": 2034,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0012,
       "contributions": [
         {
@@ -1241,7 +1241,7 @@
     },
     {
       "augmentId": 2042,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0009,
       "contributions": [
         {
@@ -1255,7 +1255,7 @@
     },
     {
       "augmentId": 2088,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0006,
       "contributions": [
         {
@@ -1269,7 +1269,7 @@
     },
     {
       "augmentId": 2089,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0075,
       "contributions": [
         {
@@ -1283,7 +1283,7 @@
     },
     {
       "augmentId": 2098,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0075,
       "contributions": [
         {
@@ -1297,7 +1297,7 @@
     },
     {
       "augmentId": 2099,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0067,
       "contributions": [
         {
@@ -1311,7 +1311,7 @@
     },
     {
       "augmentId": 2107,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0028,
       "contributions": [
         {
@@ -1325,7 +1325,7 @@
     },
     {
       "augmentId": 2116,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0209,
       "contributions": [
         {
@@ -1339,7 +1339,7 @@
     },
     {
       "augmentId": 2127,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0219,
       "contributions": [
         {
@@ -1353,7 +1353,7 @@
     },
     {
       "augmentId": 2131,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0037,
       "contributions": [
         {
@@ -1367,7 +1367,7 @@
     },
     {
       "augmentId": 2134,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0021,
       "contributions": [
         {
@@ -1381,7 +1381,7 @@
     },
     {
       "augmentId": 2137,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0023,
       "contributions": [
         {
@@ -1395,7 +1395,7 @@
     },
     {
       "augmentId": 2140,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0137,
       "contributions": [
         {
@@ -1409,7 +1409,7 @@
     },
     {
       "augmentId": 1002,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.003,
       "contributions": [
         {
@@ -1423,7 +1423,7 @@
     },
     {
       "augmentId": 1011,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0117,
       "contributions": [
         {
@@ -1437,7 +1437,7 @@
     },
     {
       "augmentId": 1019,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0189,
       "contributions": [
         {
@@ -1451,7 +1451,7 @@
     },
     {
       "augmentId": 1027,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0014,
       "contributions": [
         {
@@ -1465,7 +1465,7 @@
     },
     {
       "augmentId": 1056,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0008,
       "contributions": [
         {
@@ -1479,7 +1479,7 @@
     },
     {
       "augmentId": 1074,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0239,
       "contributions": [
         {
@@ -1493,7 +1493,7 @@
     },
     {
       "augmentId": 1087,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0289,
       "contributions": [
         {
@@ -1507,7 +1507,7 @@
     },
     {
       "augmentId": 1103,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0096,
       "contributions": [
         {
@@ -1521,7 +1521,7 @@
     },
     {
       "augmentId": 1113,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0127,
       "contributions": [
         {
@@ -1535,7 +1535,7 @@
     },
     {
       "augmentId": 1150,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0056,
       "contributions": [
         {
@@ -1549,7 +1549,7 @@
     },
     {
       "augmentId": 1308,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0024,
       "contributions": [
         {
@@ -1563,7 +1563,7 @@
     },
     {
       "augmentId": 1325,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0057,
       "contributions": [
         {
@@ -1577,7 +1577,7 @@
     },
     {
       "augmentId": 1386,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0011,
       "contributions": [
         {
@@ -1591,7 +1591,7 @@
     },
     {
       "augmentId": 1392,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0031,
       "contributions": [
         {
@@ -1605,7 +1605,7 @@
     },
     {
       "augmentId": 2005,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0096,
       "contributions": [
         {
@@ -1619,7 +1619,7 @@
     },
     {
       "augmentId": 2010,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0525,
       "contributions": [
         {
@@ -1633,7 +1633,7 @@
     },
     {
       "augmentId": 2018,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.009,
       "contributions": [
         {
@@ -1647,7 +1647,7 @@
     },
     {
       "augmentId": 2046,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0006,
       "contributions": [
         {
@@ -1661,7 +1661,7 @@
     },
     {
       "augmentId": 2055,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.011,
       "contributions": [
         {
@@ -1675,7 +1675,7 @@
     },
     {
       "augmentId": 2063,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0007,
       "contributions": [
         {
@@ -1689,7 +1689,7 @@
     },
     {
       "augmentId": 2072,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0085,
       "contributions": [
         {
@@ -1703,7 +1703,7 @@
     },
     {
       "augmentId": 2080,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0011,
       "contributions": [
         {
@@ -1717,7 +1717,7 @@
     },
     {
       "augmentId": 2087,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0163,
       "contributions": [
         {
@@ -1731,7 +1731,7 @@
     },
     {
       "augmentId": 2091,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0023,
       "contributions": [
         {
@@ -1745,7 +1745,7 @@
     },
     {
       "augmentId": 2100,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0131,
       "contributions": [
         {
@@ -1759,7 +1759,7 @@
     },
     {
       "augmentId": 2103,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0061,
       "contributions": [
         {
@@ -1773,7 +1773,7 @@
     },
     {
       "augmentId": 2118,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0257,
       "contributions": [
         {
@@ -1787,7 +1787,7 @@
     },
     {
       "augmentId": 2123,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0109,
       "contributions": [
         {
@@ -1801,7 +1801,7 @@
     },
     {
       "augmentId": 12317,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.022,
       "contributions": [
         {

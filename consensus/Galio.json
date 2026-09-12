@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "method": "warden-performance-tiers-v1",
+  "version": 2,
+  "method": "warden-win-ratio-grades-v2",
   "championId": 3,
   "championKey": "Galio",
   "set": "aram",
@@ -9,7 +9,7 @@
   "augments": [
     {
       "augmentId": 1004,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0309,
       "contributions": [
         {
@@ -23,7 +23,7 @@
     },
     {
       "augmentId": 2095,
-      "tier": 1,
+      "tier": "S",
       "pickrate": 0.0196,
       "contributions": [
         {
@@ -37,7 +37,7 @@
     },
     {
       "augmentId": 1053,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0343,
       "contributions": [
         {
@@ -51,7 +51,7 @@
     },
     {
       "augmentId": 1062,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0074,
       "contributions": [
         {
@@ -65,7 +65,7 @@
     },
     {
       "augmentId": 1073,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0139,
       "contributions": [
         {
@@ -79,7 +79,7 @@
     },
     {
       "augmentId": 1150,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0358,
       "contributions": [
         {
@@ -93,7 +93,7 @@
     },
     {
       "augmentId": 1152,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.1341,
       "contributions": [
         {
@@ -107,7 +107,7 @@
     },
     {
       "augmentId": 1181,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.1101,
       "contributions": [
         {
@@ -121,7 +121,7 @@
     },
     {
       "augmentId": 1337,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0063,
       "contributions": [
         {
@@ -135,7 +135,7 @@
     },
     {
       "augmentId": 1361,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.038,
       "contributions": [
         {
@@ -149,7 +149,7 @@
     },
     {
       "augmentId": 1373,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0367,
       "contributions": [
         {
@@ -163,7 +163,7 @@
     },
     {
       "augmentId": 1388,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0277,
       "contributions": [
         {
@@ -177,7 +177,7 @@
     },
     {
       "augmentId": 2031,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0358,
       "contributions": [
         {
@@ -191,7 +191,7 @@
     },
     {
       "augmentId": 2098,
-      "tier": 2,
+      "tier": "A",
       "pickrate": 0.0046,
       "contributions": [
         {
@@ -204,36 +204,8 @@
       ]
     },
     {
-      "augmentId": 1001,
-      "tier": 3,
-      "pickrate": 0.0392,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 17935
-        }
-      ]
-    },
-    {
-      "augmentId": 1002,
-      "tier": 3,
-      "pickrate": 0.0348,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 15915
-        }
-      ]
-    },
-    {
       "augmentId": 1013,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1174,
       "contributions": [
         {
@@ -247,7 +219,7 @@
     },
     {
       "augmentId": 1018,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0575,
       "contributions": [
         {
@@ -261,7 +233,7 @@
     },
     {
       "augmentId": 1020,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.049,
       "contributions": [
         {
@@ -274,22 +246,8 @@
       ]
     },
     {
-      "augmentId": 1025,
-      "tier": 3,
-      "pickrate": 0.0633,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 28937
-        }
-      ]
-    },
-    {
       "augmentId": 1028,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.015,
       "contributions": [
         {
@@ -302,22 +260,8 @@
       ]
     },
     {
-      "augmentId": 1029,
-      "tier": 3,
-      "pickrate": 0.0496,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 22660
-        }
-      ]
-    },
-    {
       "augmentId": 1030,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0218,
       "contributions": [
         {
@@ -331,7 +275,7 @@
     },
     {
       "augmentId": 1038,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0182,
       "contributions": [
         {
@@ -345,7 +289,7 @@
     },
     {
       "augmentId": 1041,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0998,
       "contributions": [
         {
@@ -358,64 +302,8 @@
       ]
     },
     {
-      "augmentId": 1046,
-      "tier": 3,
-      "pickrate": 0.0087,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3990
-        }
-      ]
-    },
-    {
-      "augmentId": 1048,
-      "tier": 3,
-      "pickrate": 0.0193,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 8833
-        }
-      ]
-    },
-    {
-      "augmentId": 1056,
-      "tier": 3,
-      "pickrate": 0.033,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 15084
-        }
-      ]
-    },
-    {
-      "augmentId": 1057,
-      "tier": 3,
-      "pickrate": 0.0084,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3825
-        }
-      ]
-    },
-    {
       "augmentId": 1060,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0228,
       "contributions": [
         {
@@ -429,7 +317,7 @@
     },
     {
       "augmentId": 1068,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0707,
       "contributions": [
         {
@@ -442,22 +330,8 @@
       ]
     },
     {
-      "augmentId": 1072,
-      "tier": 3,
-      "pickrate": 0.0071,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3229
-        }
-      ]
-    },
-    {
       "augmentId": 1097,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0192,
       "contributions": [
         {
@@ -470,36 +344,8 @@
       ]
     },
     {
-      "augmentId": 1098,
-      "tier": 3,
-      "pickrate": 0.0091,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4173
-        }
-      ]
-    },
-    {
-      "augmentId": 1116,
-      "tier": 3,
-      "pickrate": 0.0185,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 8450
-        }
-      ]
-    },
-    {
       "augmentId": 1136,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0705,
       "contributions": [
         {
@@ -512,22 +358,8 @@
       ]
     },
     {
-      "augmentId": 1149,
-      "tier": 3,
-      "pickrate": 0.0326,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 14885
-        }
-      ]
-    },
-    {
       "augmentId": 1154,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0074,
       "contributions": [
         {
@@ -541,7 +373,7 @@
     },
     {
       "augmentId": 1156,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0119,
       "contributions": [
         {
@@ -554,22 +386,8 @@
       ]
     },
     {
-      "augmentId": 1180,
-      "tier": 3,
-      "pickrate": 0.009,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4121
-        }
-      ]
-    },
-    {
       "augmentId": 1187,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0008,
       "contributions": [
         {
@@ -583,7 +401,7 @@
     },
     {
       "augmentId": 1195,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0043,
       "contributions": [
         {
@@ -596,36 +414,8 @@
       ]
     },
     {
-      "augmentId": 1205,
-      "tier": 3,
-      "pickrate": 0.0427,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 19493
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "tier": 3,
-      "pickrate": 0.0544,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 24859
-        }
-      ]
-    },
-    {
       "augmentId": 1238,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0921,
       "contributions": [
         {
@@ -638,22 +428,8 @@
       ]
     },
     {
-      "augmentId": 1243,
-      "tier": 3,
-      "pickrate": 0.0272,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 12447
-        }
-      ]
-    },
-    {
       "augmentId": 1305,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0308,
       "contributions": [
         {
@@ -666,50 +442,8 @@
       ]
     },
     {
-      "augmentId": 1308,
-      "tier": 3,
-      "pickrate": 0.012,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 5480
-        }
-      ]
-    },
-    {
-      "augmentId": 1310,
-      "tier": 3,
-      "pickrate": 0.0223,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 10190
-        }
-      ]
-    },
-    {
-      "augmentId": 1318,
-      "tier": 3,
-      "pickrate": 0.012,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 5473
-        }
-      ]
-    },
-    {
       "augmentId": 1319,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0827,
       "contributions": [
         {
@@ -723,7 +457,7 @@
     },
     {
       "augmentId": 1323,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0501,
       "contributions": [
         {
@@ -737,7 +471,7 @@
     },
     {
       "augmentId": 1329,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0346,
       "contributions": [
         {
@@ -751,7 +485,7 @@
     },
     {
       "augmentId": 1333,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0567,
       "contributions": [
         {
@@ -765,7 +499,7 @@
     },
     {
       "augmentId": 1335,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0046,
       "contributions": [
         {
@@ -778,36 +512,8 @@
       ]
     },
     {
-      "augmentId": 1348,
-      "tier": 3,
-      "pickrate": 0.0006,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 292
-        }
-      ]
-    },
-    {
-      "augmentId": 1349,
-      "tier": 3,
-      "pickrate": 0.0076,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3452
-        }
-      ]
-    },
-    {
       "augmentId": 1353,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.1994,
       "contributions": [
         {
@@ -821,7 +527,7 @@
     },
     {
       "augmentId": 1375,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.058,
       "contributions": [
         {
@@ -835,7 +541,7 @@
     },
     {
       "augmentId": 1384,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0265,
       "contributions": [
         {
@@ -849,7 +555,7 @@
     },
     {
       "augmentId": 1389,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0028,
       "contributions": [
         {
@@ -863,7 +569,7 @@
     },
     {
       "augmentId": 1390,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0498,
       "contributions": [
         {
@@ -877,7 +583,7 @@
     },
     {
       "augmentId": 1401,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0638,
       "contributions": [
         {
@@ -891,7 +597,7 @@
     },
     {
       "augmentId": 1402,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0073,
       "contributions": [
         {
@@ -904,106 +610,8 @@
       ]
     },
     {
-      "augmentId": 1403,
-      "tier": 3,
-      "pickrate": 0.0175,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 8006
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "tier": 3,
-      "pickrate": 0.0082,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3760
-        }
-      ]
-    },
-    {
-      "augmentId": 1415,
-      "tier": 3,
-      "pickrate": 0.0142,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6484
-        }
-      ]
-    },
-    {
-      "augmentId": 1421,
-      "tier": 3,
-      "pickrate": 0.0095,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4332
-        }
-      ]
-    },
-    {
-      "augmentId": 2006,
-      "tier": 3,
-      "pickrate": 0.1292,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 59047
-        }
-      ]
-    },
-    {
-      "augmentId": 2009,
-      "tier": 3,
-      "pickrate": 0.0068,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3130
-        }
-      ]
-    },
-    {
-      "augmentId": 2018,
-      "tier": 3,
-      "pickrate": 0.0187,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 8538
-        }
-      ]
-    },
-    {
       "augmentId": 2026,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0064,
       "contributions": [
         {
@@ -1016,36 +624,8 @@
       ]
     },
     {
-      "augmentId": 2032,
-      "tier": 3,
-      "pickrate": 0.0203,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 9296
-        }
-      ]
-    },
-    {
-      "augmentId": 2077,
-      "tier": 3,
-      "pickrate": 0.0545,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 24916
-        }
-      ]
-    },
-    {
       "augmentId": 2089,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0111,
       "contributions": [
         {
@@ -1058,36 +638,8 @@
       ]
     },
     {
-      "augmentId": 2091,
-      "tier": 3,
-      "pickrate": 0.051,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 23291
-        }
-      ]
-    },
-    {
-      "augmentId": 2100,
-      "tier": 3,
-      "pickrate": 0.0277,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 12664
-        }
-      ]
-    },
-    {
       "augmentId": 2102,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.069,
       "contributions": [
         {
@@ -1100,36 +652,8 @@
       ]
     },
     {
-      "augmentId": 2107,
-      "tier": 3,
-      "pickrate": 0.005,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2303
-        }
-      ]
-    },
-    {
-      "augmentId": 2116,
-      "tier": 3,
-      "pickrate": 0.0235,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 10723
-        }
-      ]
-    },
-    {
       "augmentId": 2119,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0065,
       "contributions": [
         {
@@ -1143,7 +667,7 @@
     },
     {
       "augmentId": 2127,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.0311,
       "contributions": [
         {
@@ -1156,22 +680,8 @@
       ]
     },
     {
-      "augmentId": 2131,
-      "tier": 3,
-      "pickrate": 0.0487,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 22244
-        }
-      ]
-    },
-    {
       "augmentId": 2132,
-      "tier": 3,
+      "tier": "B",
       "pickrate": 0.038,
       "contributions": [
         {
@@ -1184,8 +694,498 @@
       ]
     },
     {
+      "augmentId": 1001,
+      "tier": "C",
+      "pickrate": 0.0392,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 17935
+        }
+      ]
+    },
+    {
+      "augmentId": 1002,
+      "tier": "C",
+      "pickrate": 0.0348,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15915
+        }
+      ]
+    },
+    {
+      "augmentId": 1025,
+      "tier": "C",
+      "pickrate": 0.0633,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 28937
+        }
+      ]
+    },
+    {
+      "augmentId": 1029,
+      "tier": "C",
+      "pickrate": 0.0496,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 22660
+        }
+      ]
+    },
+    {
+      "augmentId": 1046,
+      "tier": "C",
+      "pickrate": 0.0087,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3990
+        }
+      ]
+    },
+    {
+      "augmentId": 1048,
+      "tier": "C",
+      "pickrate": 0.0193,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8833
+        }
+      ]
+    },
+    {
+      "augmentId": 1056,
+      "tier": "C",
+      "pickrate": 0.033,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 15084
+        }
+      ]
+    },
+    {
+      "augmentId": 1057,
+      "tier": "C",
+      "pickrate": 0.0084,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3825
+        }
+      ]
+    },
+    {
+      "augmentId": 1072,
+      "tier": "C",
+      "pickrate": 0.0071,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3229
+        }
+      ]
+    },
+    {
+      "augmentId": 1098,
+      "tier": "C",
+      "pickrate": 0.0091,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4173
+        }
+      ]
+    },
+    {
+      "augmentId": 1116,
+      "tier": "C",
+      "pickrate": 0.0185,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8450
+        }
+      ]
+    },
+    {
+      "augmentId": 1149,
+      "tier": "C",
+      "pickrate": 0.0326,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 14885
+        }
+      ]
+    },
+    {
+      "augmentId": 1180,
+      "tier": "C",
+      "pickrate": 0.009,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4121
+        }
+      ]
+    },
+    {
+      "augmentId": 1205,
+      "tier": "C",
+      "pickrate": 0.0427,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 19493
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": "C",
+      "pickrate": 0.0544,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 24859
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": "C",
+      "pickrate": 0.0272,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12447
+        }
+      ]
+    },
+    {
+      "augmentId": 1308,
+      "tier": "C",
+      "pickrate": 0.012,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5480
+        }
+      ]
+    },
+    {
+      "augmentId": 1310,
+      "tier": "C",
+      "pickrate": 0.0223,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10190
+        }
+      ]
+    },
+    {
+      "augmentId": 1318,
+      "tier": "C",
+      "pickrate": 0.012,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 5473
+        }
+      ]
+    },
+    {
+      "augmentId": 1348,
+      "tier": "C",
+      "pickrate": 0.0006,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 292
+        }
+      ]
+    },
+    {
+      "augmentId": 1349,
+      "tier": "C",
+      "pickrate": 0.0076,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3452
+        }
+      ]
+    },
+    {
+      "augmentId": 1403,
+      "tier": "C",
+      "pickrate": 0.0175,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8006
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": "C",
+      "pickrate": 0.0082,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3760
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": "C",
+      "pickrate": 0.0142,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 6484
+        }
+      ]
+    },
+    {
+      "augmentId": 1421,
+      "tier": "C",
+      "pickrate": 0.0095,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 4332
+        }
+      ]
+    },
+    {
+      "augmentId": 2006,
+      "tier": "C",
+      "pickrate": 0.1292,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 59047
+        }
+      ]
+    },
+    {
+      "augmentId": 2009,
+      "tier": "C",
+      "pickrate": 0.0068,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 3130
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": "C",
+      "pickrate": 0.0187,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 8538
+        }
+      ]
+    },
+    {
+      "augmentId": 2032,
+      "tier": "C",
+      "pickrate": 0.0203,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 9296
+        }
+      ]
+    },
+    {
+      "augmentId": 2077,
+      "tier": "C",
+      "pickrate": 0.0545,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 24916
+        }
+      ]
+    },
+    {
+      "augmentId": 2091,
+      "tier": "C",
+      "pickrate": 0.051,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 23291
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": "C",
+      "pickrate": 0.0277,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 12664
+        }
+      ]
+    },
+    {
+      "augmentId": 2107,
+      "tier": "C",
+      "pickrate": 0.005,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 2303
+        }
+      ]
+    },
+    {
+      "augmentId": 2116,
+      "tier": "C",
+      "pickrate": 0.0235,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 10723
+        }
+      ]
+    },
+    {
+      "augmentId": 2131,
+      "tier": "C",
+      "pickrate": 0.0487,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/galio?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-12T02:34:26.350Z",
+          "games": 22244
+        }
+      ]
+    },
+    {
       "augmentId": 2139,
-      "tier": 3,
+      "tier": "C",
       "pickrate": 0.0371,
       "contributions": [
         {
@@ -1199,7 +1199,7 @@
     },
     {
       "augmentId": 1006,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0043,
       "contributions": [
         {
@@ -1213,7 +1213,7 @@
     },
     {
       "augmentId": 1019,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0084,
       "contributions": [
         {
@@ -1227,7 +1227,7 @@
     },
     {
       "augmentId": 1027,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0031,
       "contributions": [
         {
@@ -1241,7 +1241,7 @@
     },
     {
       "augmentId": 1044,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0078,
       "contributions": [
         {
@@ -1255,7 +1255,7 @@
     },
     {
       "augmentId": 1054,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.005,
       "contributions": [
         {
@@ -1269,7 +1269,7 @@
     },
     {
       "augmentId": 1058,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0051,
       "contributions": [
         {
@@ -1283,7 +1283,7 @@
     },
     {
       "augmentId": 1063,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0099,
       "contributions": [
         {
@@ -1297,7 +1297,7 @@
     },
     {
       "augmentId": 1088,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0056,
       "contributions": [
         {
@@ -1311,7 +1311,7 @@
     },
     {
       "augmentId": 1103,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0207,
       "contributions": [
         {
@@ -1325,7 +1325,7 @@
     },
     {
       "augmentId": 1129,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0159,
       "contributions": [
         {
@@ -1339,7 +1339,7 @@
     },
     {
       "augmentId": 1151,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0192,
       "contributions": [
         {
@@ -1353,7 +1353,7 @@
     },
     {
       "augmentId": 1301,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0255,
       "contributions": [
         {
@@ -1367,7 +1367,7 @@
     },
     {
       "augmentId": 1311,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0053,
       "contributions": [
         {
@@ -1381,7 +1381,7 @@
     },
     {
       "augmentId": 1315,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0146,
       "contributions": [
         {
@@ -1395,7 +1395,7 @@
     },
     {
       "augmentId": 1332,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.006,
       "contributions": [
         {
@@ -1409,7 +1409,7 @@
     },
     {
       "augmentId": 1358,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0183,
       "contributions": [
         {
@@ -1423,7 +1423,7 @@
     },
     {
       "augmentId": 1386,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0037,
       "contributions": [
         {
@@ -1437,7 +1437,7 @@
     },
     {
       "augmentId": 1392,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0094,
       "contributions": [
         {
@@ -1451,7 +1451,7 @@
     },
     {
       "augmentId": 1413,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0096,
       "contributions": [
         {
@@ -1465,7 +1465,7 @@
     },
     {
       "augmentId": 2005,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0125,
       "contributions": [
         {
@@ -1479,7 +1479,7 @@
     },
     {
       "augmentId": 2034,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0137,
       "contributions": [
         {
@@ -1493,7 +1493,7 @@
     },
     {
       "augmentId": 2043,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0231,
       "contributions": [
         {
@@ -1507,7 +1507,7 @@
     },
     {
       "augmentId": 2055,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0208,
       "contributions": [
         {
@@ -1521,7 +1521,7 @@
     },
     {
       "augmentId": 2062,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0153,
       "contributions": [
         {
@@ -1535,7 +1535,7 @@
     },
     {
       "augmentId": 2080,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0193,
       "contributions": [
         {
@@ -1549,7 +1549,7 @@
     },
     {
       "augmentId": 2082,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.016,
       "contributions": [
         {
@@ -1563,7 +1563,7 @@
     },
     {
       "augmentId": 2083,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0226,
       "contributions": [
         {
@@ -1577,7 +1577,7 @@
     },
     {
       "augmentId": 2087,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0184,
       "contributions": [
         {
@@ -1591,7 +1591,7 @@
     },
     {
       "augmentId": 2088,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0203,
       "contributions": [
         {
@@ -1605,7 +1605,7 @@
     },
     {
       "augmentId": 2099,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0102,
       "contributions": [
         {
@@ -1619,7 +1619,7 @@
     },
     {
       "augmentId": 2115,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0105,
       "contributions": [
         {
@@ -1633,7 +1633,7 @@
     },
     {
       "augmentId": 2137,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0058,
       "contributions": [
         {
@@ -1647,7 +1647,7 @@
     },
     {
       "augmentId": 12317,
-      "tier": 4,
+      "tier": "D",
       "pickrate": 0.0211,
       "contributions": [
         {
@@ -1661,7 +1661,7 @@
     },
     {
       "augmentId": 1011,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.002,
       "contributions": [
         {
@@ -1675,7 +1675,7 @@
     },
     {
       "augmentId": 1194,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0046,
       "contributions": [
         {
@@ -1689,7 +1689,7 @@
     },
     {
       "augmentId": 1211,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0033,
       "contributions": [
         {
@@ -1703,7 +1703,7 @@
     },
     {
       "augmentId": 1344,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0056,
       "contributions": [
         {
@@ -1717,7 +1717,7 @@
     },
     {
       "augmentId": 1996,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0048,
       "contributions": [
         {
@@ -1731,7 +1731,7 @@
     },
     {
       "augmentId": 2016,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0017,
       "contributions": [
         {
@@ -1745,7 +1745,7 @@
     },
     {
       "augmentId": 2042,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0007,
       "contributions": [
         {
@@ -1759,7 +1759,7 @@
     },
     {
       "augmentId": 2046,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0014,
       "contributions": [
         {
@@ -1773,7 +1773,7 @@
     },
     {
       "augmentId": 2063,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.002,
       "contributions": [
         {
@@ -1787,7 +1787,7 @@
     },
     {
       "augmentId": 2118,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0035,
       "contributions": [
         {
@@ -1801,7 +1801,7 @@
     },
     {
       "augmentId": 2123,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0114,
       "contributions": [
         {
@@ -1815,7 +1815,7 @@
     },
     {
       "augmentId": 2134,
-      "tier": 5,
+      "tier": "F",
       "pickrate": 0.0011,
       "contributions": [
         {
