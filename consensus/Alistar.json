@@ -1,12 +1,61 @@
 {
-  "version": 2,
-  "method": "warden-sample-weighted-grades-v1",
+  "version": 3,
+  "method": "warden-champion-rarity-percentiles-v1",
   "championId": 12,
   "championKey": "Alistar",
   "set": "aram",
   "patch": "16.18",
-  "scrapedAt": "2026-09-13T21:52:42.336Z",
+  "scrapedAt": "2026-09-13T21:58:37.471Z",
   "augments": [
+    {
+      "augmentId": 1005,
+      "tier": "S",
+      "pickrate": 0.00445,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 268
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2867
+        }
+      ]
+    },
+    {
+      "augmentId": 1013,
+      "tier": "S",
+      "pickrate": 0.11046666666666666,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6096
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 71640
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1018
+        }
+      ]
+    },
     {
       "augmentId": 1015,
       "tier": "S",
@@ -16,15 +65,43 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 705
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 7364
+        }
+      ]
+    },
+    {
+      "augmentId": 1018,
+      "tier": "S",
+      "pickrate": 0.0782,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4194
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 46059
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 836
         }
       ]
     },
@@ -37,22 +114,43 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2009
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 22963
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 261
+        }
+      ]
+    },
+    {
+      "augmentId": 1060,
+      "tier": "S",
+      "pickrate": 0.017750000000000002,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 969
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 11640
         }
       ]
     },
@@ -65,22 +163,50 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 6683
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 78456
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 984
+        }
+      ]
+    },
+    {
+      "augmentId": 1181,
+      "tier": "S",
+      "pickrate": 0.09373333333333334,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5004
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 57441
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 951
         }
       ]
     },
@@ -93,21 +219,21 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 3946
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 47209
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 526
         }
       ]
@@ -121,21 +247,21 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 3809
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 42835
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 644
         }
       ]
@@ -149,15 +275,71 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 298
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 3445
+        }
+      ]
+    },
+    {
+      "augmentId": 1349,
+      "tier": "S",
+      "pickrate": 0.027899999999999998,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1550
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 16443
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 296
+        }
+      ]
+    },
+    {
+      "augmentId": 1353,
+      "tier": "S",
+      "pickrate": 0.17246666666666666,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 9846
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 114948
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1506
         }
       ]
     },
@@ -170,8 +352,92 @@
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 22585
+        }
+      ]
+    },
+    {
+      "augmentId": 1375,
+      "tier": "S",
+      "pickrate": 0.07629999999999999,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3937
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 46606
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 791
+        }
+      ]
+    },
+    {
+      "augmentId": 1401,
+      "tier": "S",
+      "pickrate": 0.0613,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3453
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 39066
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 578
+        }
+      ]
+    },
+    {
+      "augmentId": 2076,
+      "tier": "S",
+      "pickrate": 0.09966666666666668,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5223
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 58235
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1092
         }
       ]
     },
@@ -184,14 +450,14 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 985
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 11089
         }
       ]
@@ -205,21 +471,21 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 3598
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 42722
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 591
         }
       ]
@@ -233,99 +499,71 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1472
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 16213
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 263
         }
       ]
     },
     {
-      "augmentId": 1005,
-      "tier": "A",
-      "pickrate": 0.00445,
+      "augmentId": 2139,
+      "tier": "S",
+      "pickrate": 0.042833333333333334,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 268
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1956
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2867
-        }
-      ]
-    },
-    {
-      "augmentId": 1013,
-      "tier": "A",
-      "pickrate": 0.11046666666666666,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6096
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 71640
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 22240
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1018
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 538
         }
       ]
     },
     {
-      "augmentId": 1018,
+      "augmentId": 1002,
       "tier": "A",
-      "pickrate": 0.0782,
+      "pickrate": 0.0279,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4194
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1635
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 46059
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 836
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 18302
         }
       ]
     },
@@ -338,22 +576,50 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2632
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 29681
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 535
+        }
+      ]
+    },
+    {
+      "augmentId": 1025,
+      "tier": "A",
+      "pickrate": 0.05736666666666667,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3522
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 39787
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 445
         }
       ]
     },
@@ -366,14 +632,14 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 607
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 6683
         }
       ]
@@ -387,43 +653,43 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 5080
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 57949
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 850
         }
       ]
     },
     {
-      "augmentId": 1060,
+      "augmentId": 1045,
       "tier": "A",
-      "pickrate": 0.017750000000000002,
+      "pickrate": 0.00625,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 969
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 348
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 11640
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3989
         }
       ]
     },
@@ -436,14 +702,14 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 375
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 3656
         }
       ]
@@ -457,22 +723,43 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 4323
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 48295
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 644
+        }
+      ]
+    },
+    {
+      "augmentId": 1072,
+      "tier": "A",
+      "pickrate": 0.0073,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 438
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4715
         }
       ]
     },
@@ -485,22 +772,36 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1695
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 18595
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 256
+        }
+      ]
+    },
+    {
+      "augmentId": 1095,
+      "tier": "A",
+      "pickrate": 0.0032,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2106
         }
       ]
     },
@@ -513,50 +814,127 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 4875
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 56564
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 637
         }
       ]
     },
     {
-      "augmentId": 1181,
+      "augmentId": 1149,
       "tier": "A",
-      "pickrate": 0.09373333333333334,
+      "pickrate": 0.04146666666666666,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5004
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2027
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 57441
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 23288
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 951
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 471
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": "A",
+      "pickrate": 0.04206666666666667,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2514
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 30727
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 299
+        }
+      ]
+    },
+    {
+      "augmentId": 1238,
+      "tier": "A",
+      "pickrate": 0.06913333333333334,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4324
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 50130
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 505
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": "A",
+      "pickrate": 0.0247,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1403
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 15707
         }
       ]
     },
@@ -569,21 +947,21 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2352
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 26966
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 495
         }
       ]
@@ -597,15 +975,36 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 541
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 6060
+        }
+      ]
+    },
+    {
+      "augmentId": 1324,
+      "tier": "A",
+      "pickrate": 0.0125,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 761
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 8001
         }
       ]
     },
@@ -618,78 +1017,50 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 3190
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 36396
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 568
         }
       ]
     },
     {
-      "augmentId": 1349,
+      "augmentId": 1358,
       "tier": "A",
-      "pickrate": 0.027899999999999998,
+      "pickrate": 0.0251,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1550
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1120
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 16443
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 12694
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 296
-        }
-      ]
-    },
-    {
-      "augmentId": 1353,
-      "tier": "A",
-      "pickrate": 0.17246666666666666,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 9846
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 114948
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1506
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 319
         }
       ]
     },
@@ -702,50 +1073,43 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 3105
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 34968
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 310
         }
       ]
     },
     {
-      "augmentId": 1375,
+      "augmentId": 1384,
       "tier": "A",
-      "pickrate": 0.07629999999999999,
+      "pickrate": 0.02,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3937
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1142
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 46606
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 791
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 12936
         }
       ]
     },
@@ -758,21 +1122,21 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1981
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 22584
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 275
         }
       ]
@@ -780,49 +1144,84 @@
     {
       "augmentId": 1389,
       "tier": "A",
-      "pickrate": 0.0021,
+      "pickrate": 0.0018,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 467
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1216
         }
       ]
     },
     {
-      "augmentId": 1401,
+      "augmentId": 1402,
       "tier": "A",
-      "pickrate": 0.0613,
+      "pickrate": 0.0057,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3453
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 322
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 39066
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3616
+        }
+      ]
+    },
+    {
+      "augmentId": 2006,
+      "tier": "A",
+      "pickrate": 0.1161,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6983
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 79771
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 578
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 933
+        }
+      ]
+    },
+    {
+      "augmentId": 2026,
+      "tier": "A",
+      "pickrate": 0.00925,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 552
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6010
         }
       ]
     },
@@ -835,15 +1234,36 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1975
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 21565
+        }
+      ]
+    },
+    {
+      "augmentId": 2032,
+      "tier": "A",
+      "pickrate": 0.0179,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1046
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 11469
         }
       ]
     },
@@ -856,50 +1276,120 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1751
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 20573
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 406
         }
       ]
     },
     {
-      "augmentId": 2076,
+      "augmentId": 2077,
       "tier": "A",
-      "pickrate": 0.09966666666666668,
+      "pickrate": 0.09596666666666666,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5223
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4787
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 58235
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 53103
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1092
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1121
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": "A",
+      "pickrate": 0.00925,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 543
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6010
+        }
+      ]
+    },
+    {
+      "augmentId": 2091,
+      "tier": "A",
+      "pickrate": 0.045000000000000005,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2596
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 28135
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 438
+        }
+      ]
+    },
+    {
+      "augmentId": 2098,
+      "tier": "A",
+      "pickrate": 0.00575,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 342
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3404
         }
       ]
     },
@@ -912,14 +1402,14 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 256
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2379
         }
       ]
@@ -933,113 +1423,120 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 562
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 5851
         }
       ]
     },
     {
-      "augmentId": 2139,
+      "augmentId": 2119,
       "tier": "A",
-      "pickrate": 0.042833333333333334,
+      "pickrate": 0.007,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1956
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 398
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 22240
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4614
+        }
+      ]
+    },
+    {
+      "augmentId": 1001,
+      "tier": "B",
+      "pickrate": 0.03793333333333333,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2214
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 23280
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 538
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 370
         }
       ]
     },
     {
-      "augmentId": 1002,
+      "augmentId": 1026,
       "tier": "B",
-      "pickrate": 0.0279,
+      "pickrate": 0.0025,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1663
+        }
+      ]
+    },
+    {
+      "augmentId": 1029,
+      "tier": "B",
+      "pickrate": 0.0591,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1635
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3437
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 18302
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 38770
         }
       ]
     },
     {
-      "augmentId": 1025,
+      "augmentId": 1030,
       "tier": "B",
-      "pickrate": 0.05736666666666667,
+      "pickrate": 0.01715,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3522
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1001
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 39787
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 445
-        }
-      ]
-    },
-    {
-      "augmentId": 1045,
-      "tier": "B",
-      "pickrate": 0.00625,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 348
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3989
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 11000
         }
       ]
     },
@@ -1052,43 +1549,85 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1456
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 17180
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 310
         }
       ]
     },
     {
-      "augmentId": 1072,
+      "augmentId": 1057,
       "tier": "B",
-      "pickrate": 0.0073,
+      "pickrate": 0.00755,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 438
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 446
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4715
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4936
+        }
+      ]
+    },
+    {
+      "augmentId": 1058,
+      "tier": "B",
+      "pickrate": 0.008199999999999999,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 546
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5149
+        }
+      ]
+    },
+    {
+      "augmentId": 1063,
+      "tier": "B",
+      "pickrate": 0.01345,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 778
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 8747
         }
       ]
     },
@@ -1101,64 +1640,106 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 390
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 4381
         }
       ]
     },
     {
-      "augmentId": 1095,
+      "augmentId": 1088,
       "tier": "B",
-      "pickrate": 0.0034000000000000002,
+      "pickrate": 0.00975,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 748
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 592
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2106
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6049
         }
       ]
     },
     {
-      "augmentId": 1149,
+      "augmentId": 1098,
       "tier": "B",
-      "pickrate": 0.04146666666666666,
+      "pickrate": 0.01105,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2027
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 658
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 23288
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 7145
+        }
+      ]
+    },
+    {
+      "augmentId": 1103,
+      "tier": "B",
+      "pickrate": 0.04513333333333334,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2492
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 26511
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 471
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 469
+        }
+      ]
+    },
+    {
+      "augmentId": 1116,
+      "tier": "B",
+      "pickrate": 0.0279,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1589
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 18330
         }
       ]
     },
@@ -1171,92 +1752,71 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 439
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 4303
         }
       ]
     },
     {
-      "augmentId": 1237,
+      "augmentId": 1187,
       "tier": "B",
-      "pickrate": 0.04206666666666667,
+      "pickrate": 0.0012,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2514
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 30727
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 299
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 811
         }
       ]
     },
     {
-      "augmentId": 1238,
+      "augmentId": 1195,
       "tier": "B",
-      "pickrate": 0.06913333333333334,
+      "pickrate": 0.00615,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4324
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 327
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 50130
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 505
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3831
         }
       ]
     },
     {
-      "augmentId": 1243,
+      "augmentId": 1301,
       "tier": "B",
-      "pickrate": 0.0247,
+      "pickrate": 0.03055,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1403
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1788
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 15707
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 19999
         }
       ]
     },
@@ -1269,36 +1829,43 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1387
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 15968
         }
       ]
     },
     {
-      "augmentId": 1324,
+      "augmentId": 1315,
       "tier": "B",
-      "pickrate": 0.0125,
+      "pickrate": 0.028666666666666663,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 761
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1576
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 8001
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 17508
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 295
         }
       ]
     },
@@ -1311,92 +1878,155 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2140
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 24185
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 376
         }
       ]
     },
     {
-      "augmentId": 1358,
+      "augmentId": 1331,
       "tier": "B",
-      "pickrate": 0.0251,
+      "pickrate": 0.0034,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1120
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 12694
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 319
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2237
         }
       ]
     },
     {
-      "augmentId": 1384,
+      "augmentId": 1335,
       "tier": "B",
-      "pickrate": 0.02,
+      "pickrate": 0.0029,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1142
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 12936
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1936
         }
       ]
     },
     {
-      "augmentId": 1402,
+      "augmentId": 1344,
       "tier": "B",
-      "pickrate": 0.0057,
+      "pickrate": 0.0095,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 322
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 564
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3616
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5996
+        }
+      ]
+    },
+    {
+      "augmentId": 1386,
+      "tier": "B",
+      "pickrate": 0.0066,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 384
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4405
+        }
+      ]
+    },
+    {
+      "augmentId": 1390,
+      "tier": "B",
+      "pickrate": 0.027049999999999998,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1595
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 17968
+        }
+      ]
+    },
+    {
+      "augmentId": 1403,
+      "tier": "B",
+      "pickrate": 0.0129,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 742
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 8285
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": "B",
+      "pickrate": 0.0072499999999999995,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 402
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4676
         }
       ]
     },
@@ -1409,22 +2039,64 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1065
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 11480
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 280
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": "B",
+      "pickrate": 0.0077,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 456
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4982
+        }
+      ]
+    },
+    {
+      "augmentId": 1420,
+      "tier": "B",
+      "pickrate": 0.00975,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 580
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6263
         }
       ]
     },
@@ -1437,14 +2109,14 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 533
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 5748
         }
       ]
@@ -1458,92 +2130,148 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 739
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 8032
         }
       ]
     },
     {
-      "augmentId": 2006,
+      "augmentId": 2018,
       "tier": "B",
-      "pickrate": 0.1161,
+      "pickrate": 0.024149999999999998,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6983
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1435
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 79771
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 15797
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": "B",
+      "pickrate": 0.01175,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 655
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 7626
+        }
+      ]
+    },
+    {
+      "augmentId": 2043,
+      "tier": "B",
+      "pickrate": 0.02255,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1274
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 14504
+        }
+      ]
+    },
+    {
+      "augmentId": 2078,
+      "tier": "B",
+      "pickrate": 0.08376666666666666,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4277
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 47550
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 933
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 943
         }
       ]
     },
     {
-      "augmentId": 2026,
+      "augmentId": 2082,
       "tier": "B",
-      "pickrate": 0.00925,
+      "pickrate": 0.01795,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 552
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1046
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6010
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 11558
         }
       ]
     },
     {
-      "augmentId": 2077,
+      "augmentId": 2087,
       "tier": "B",
-      "pickrate": 0.09596666666666666,
+      "pickrate": 0.02435,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4787
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1416
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 53103
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1121
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 15240
         }
       ]
     },
@@ -1556,363 +2284,216 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1342
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 16067
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 323
         }
       ]
     },
     {
-      "augmentId": 2089,
+      "augmentId": 2100,
       "tier": "B",
-      "pickrate": 0.00925,
+      "pickrate": 0.038733333333333335,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 543
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2074
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6010
-        }
-      ]
-    },
-    {
-      "augmentId": 2091,
-      "tier": "B",
-      "pickrate": 0.045000000000000005,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2596
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 28135
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 24613
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 438
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 375
         }
       ]
     },
     {
-      "augmentId": 2098,
+      "augmentId": 2104,
       "tier": "B",
-      "pickrate": 0.00575,
+      "pickrate": 0.0024,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 342
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3404
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1571
         }
       ]
     },
     {
-      "augmentId": 2119,
+      "augmentId": 2128,
       "tier": "B",
-      "pickrate": 0.007,
+      "pickrate": 0.019450000000000002,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 398
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1096
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4614
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 12712
         }
       ]
     },
     {
-      "augmentId": 1001,
+      "augmentId": 2137,
+      "tier": "B",
+      "pickrate": 0.0062,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 341
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3920
+        }
+      ]
+    },
+    {
+      "augmentId": 1004,
       "tier": "C",
-      "pickrate": 0.03793333333333333,
+      "pickrate": 0.0121,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2214
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 708
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 23280
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 370
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 7733
         }
       ]
     },
     {
-      "augmentId": 1026,
+      "augmentId": 1027,
       "tier": "C",
-      "pickrate": 0.00255,
+      "pickrate": 0.0074,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 475
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 410
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1663
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4572
         }
       ]
     },
     {
-      "augmentId": 1029,
+      "augmentId": 1038,
       "tier": "C",
-      "pickrate": 0.0591,
+      "pickrate": 0.00475,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3437
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 274
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 38770
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3167
         }
       ]
     },
     {
-      "augmentId": 1030,
+      "augmentId": 1046,
       "tier": "C",
-      "pickrate": 0.01715,
+      "pickrate": 0.00595,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1001
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 363
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 11000
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3833
         }
       ]
     },
     {
-      "augmentId": 1057,
+      "augmentId": 1105,
       "tier": "C",
-      "pickrate": 0.00755,
+      "pickrate": 0.009899999999999999,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 446
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 567
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4936
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6507
         }
       ]
     },
     {
-      "augmentId": 1058,
-      "tier": "C",
-      "pickrate": 0.008199999999999999,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 546
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5149
-        }
-      ]
-    },
-    {
-      "augmentId": 1063,
-      "tier": "C",
-      "pickrate": 0.01345,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 778
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 8747
-        }
-      ]
-    },
-    {
-      "augmentId": 1088,
-      "tier": "C",
-      "pickrate": 0.00975,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 592
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6049
-        }
-      ]
-    },
-    {
-      "augmentId": 1098,
-      "tier": "C",
-      "pickrate": 0.01105,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 658
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 7145
-        }
-      ]
-    },
-    {
-      "augmentId": 1103,
-      "tier": "C",
-      "pickrate": 0.04513333333333334,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2492
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 26511
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 469
-        }
-      ]
-    },
-    {
-      "augmentId": 1116,
-      "tier": "C",
-      "pickrate": 0.0279,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1589
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 18330
-        }
-      ]
-    },
-    {
-      "augmentId": 1195,
+      "augmentId": 1118,
       "tier": "C",
       "pickrate": 0.00615,
       "contributions": [
@@ -1920,498 +2501,309 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 327
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 371
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3831
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3999
         }
       ]
     },
     {
-      "augmentId": 1301,
+      "augmentId": 1150,
       "tier": "C",
-      "pickrate": 0.03055,
+      "pickrate": 0.029133333333333334,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1788
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1625
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 19999
-        }
-      ]
-    },
-    {
-      "augmentId": 1315,
-      "tier": "C",
-      "pickrate": 0.028666666666666663,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1576
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 17508
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 17558
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 295
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 291
         }
       ]
     },
     {
-      "augmentId": 1331,
+      "augmentId": 1151,
       "tier": "C",
-      "pickrate": 0.0036,
+      "pickrate": 0.0065,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 803
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 399
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2237
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4112
         }
       ]
     },
     {
-      "augmentId": 1335,
+      "augmentId": 1205,
+      "tier": "C",
+      "pickrate": 0.026049999999999997,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1525
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 17000
+        }
+      ]
+    },
+    {
+      "augmentId": 1311,
+      "tier": "C",
+      "pickrate": 0.0039,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2582
+        }
+      ]
+    },
+    {
+      "augmentId": 1318,
+      "tier": "C",
+      "pickrate": 0.00665,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 379
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4369
+        }
+      ]
+    },
+    {
+      "augmentId": 1332,
       "tier": "C",
       "pickrate": 0.003,
       "contributions": [
         {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 727
-        },
-        {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1936
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1991
         }
       ]
     },
     {
-      "augmentId": 1344,
+      "augmentId": 1347,
       "tier": "C",
-      "pickrate": 0.0095,
+      "pickrate": 0.0022,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1479
+        }
+      ]
+    },
+    {
+      "augmentId": 1379,
+      "tier": "C",
+      "pickrate": 0.001,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 642
+        }
+      ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": "C",
+      "pickrate": 0.01055,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 564
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 623
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5996
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6524
         }
       ]
     },
     {
-      "augmentId": 1386,
+      "augmentId": 2064,
       "tier": "C",
-      "pickrate": 0.0066,
+      "pickrate": 0.0411,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 384
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2104
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4405
-        }
-      ]
-    },
-    {
-      "augmentId": 1390,
-      "tier": "C",
-      "pickrate": 0.027049999999999998,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1595
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 17968
-        }
-      ]
-    },
-    {
-      "augmentId": 1403,
-      "tier": "C",
-      "pickrate": 0.0129,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 742
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 8285
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "tier": "C",
-      "pickrate": 0.0072499999999999995,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 402
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4676
-        }
-      ]
-    },
-    {
-      "augmentId": 1415,
-      "tier": "C",
-      "pickrate": 0.0077,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 456
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4982
-        }
-      ]
-    },
-    {
-      "augmentId": 1420,
-      "tier": "C",
-      "pickrate": 0.00975,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 580
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6263
-        }
-      ]
-    },
-    {
-      "augmentId": 2018,
-      "tier": "C",
-      "pickrate": 0.024149999999999998,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1435
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 15797
-        }
-      ]
-    },
-    {
-      "augmentId": 2032,
-      "tier": "C",
-      "pickrate": 0.0179,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1046
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 11469
-        }
-      ]
-    },
-    {
-      "augmentId": 2034,
-      "tier": "C",
-      "pickrate": 0.01175,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 655
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 7626
-        }
-      ]
-    },
-    {
-      "augmentId": 2043,
-      "tier": "C",
-      "pickrate": 0.02255,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1274
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 14504
-        }
-      ]
-    },
-    {
-      "augmentId": 2078,
-      "tier": "C",
-      "pickrate": 0.08376666666666666,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4277
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 47550
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 24082
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 943
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 438
         }
       ]
     },
     {
-      "augmentId": 2082,
+      "augmentId": 2080,
       "tier": "C",
-      "pickrate": 0.01795,
+      "pickrate": 0.0189,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1046
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1126
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 11558
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 12279
         }
       ]
     },
     {
-      "augmentId": 2087,
+      "augmentId": 2099,
       "tier": "C",
-      "pickrate": 0.02435,
+      "pickrate": 0.01095,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1416
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 628
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 15240
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6711
         }
       ]
     },
     {
-      "augmentId": 2100,
+      "augmentId": 2118,
       "tier": "C",
-      "pickrate": 0.038733333333333335,
+      "pickrate": 0.0044,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2074
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 272
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 24613
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 375
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2716
         }
       ]
     },
     {
-      "augmentId": 2104,
+      "augmentId": 2132,
       "tier": "C",
-      "pickrate": 0.0026,
+      "pickrate": 0.015649999999999997,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 570
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 920
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1571
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 9989
         }
       ]
     },
     {
-      "augmentId": 2128,
+      "augmentId": 2134,
       "tier": "C",
-      "pickrate": 0.019450000000000002,
+      "pickrate": 0.0018,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1096
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 12712
-        }
-      ]
-    },
-    {
-      "augmentId": 2137,
-      "tier": "C",
-      "pickrate": 0.0062,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 341
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3920
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1190
         }
       ]
     },
@@ -2424,140 +2816,84 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 917
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 11857
         }
       ]
     },
     {
-      "augmentId": 1004,
+      "augmentId": 1011,
       "tier": "D",
-      "pickrate": 0.0121,
+      "pickrate": 0.00425,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 708
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 261
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 7733
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2583
         }
       ]
     },
     {
-      "augmentId": 1027,
+      "augmentId": 1019,
       "tier": "D",
-      "pickrate": 0.0074,
+      "pickrate": 0.01455,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 410
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 870
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4572
-        }
-      ]
-    },
-    {
-      "augmentId": 1038,
-      "tier": "D",
-      "pickrate": 0.00475,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 274
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3167
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 9226
         }
       ]
     },
     {
       "augmentId": 1044,
       "tier": "D",
-      "pickrate": 0.00455,
+      "pickrate": 0.0044,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 790
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2912
-        }
-      ]
-    },
-    {
-      "augmentId": 1046,
-      "tier": "D",
-      "pickrate": 0.00595,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 363
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3833
         }
       ]
     },
     {
       "augmentId": 1054,
       "tier": "D",
-      "pickrate": 0.0028,
+      "pickrate": 0.0026,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 524
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1730
         }
       ]
@@ -2571,36 +2907,15 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 734
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 8129
-        }
-      ]
-    },
-    {
-      "augmentId": 1105,
-      "tier": "D",
-      "pickrate": 0.009899999999999999,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 567
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6507
         }
       ]
     },
@@ -2613,106 +2928,71 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 593
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 6559
         }
       ]
     },
     {
-      "augmentId": 1118,
+      "augmentId": 1129,
       "tier": "D",
-      "pickrate": 0.00615,
+      "pickrate": 0.00525,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 371
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 323
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3999
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3411
         }
       ]
     },
     {
       "augmentId": 1141,
       "tier": "D",
-      "pickrate": 0.0034999999999999996,
+      "pickrate": 0.0034,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 688
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2254
         }
       ]
     },
     {
-      "augmentId": 1150,
+      "augmentId": 1156,
       "tier": "D",
-      "pickrate": 0.029133333333333334,
+      "pickrate": 0.006999999999999999,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1625
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 425
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 17558
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 291
-        }
-      ]
-    },
-    {
-      "augmentId": 1151,
-      "tier": "D",
-      "pickrate": 0.0065,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 399
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4112
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4554
         }
       ]
     },
@@ -2725,210 +3005,42 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 264
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2785
-        }
-      ]
-    },
-    {
-      "augmentId": 1187,
-      "tier": "D",
-      "pickrate": 0.0012,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 811
-        }
-      ]
-    },
-    {
-      "augmentId": 1205,
-      "tier": "D",
-      "pickrate": 0.026049999999999997,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1525
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 17000
-        }
-      ]
-    },
-    {
-      "augmentId": 1311,
-      "tier": "D",
-      "pickrate": 0.00405,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 763
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2582
-        }
-      ]
-    },
-    {
-      "augmentId": 1318,
-      "tier": "D",
-      "pickrate": 0.00665,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 379
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4369
         }
       ]
     },
     {
       "augmentId": 1326,
       "tier": "D",
-      "pickrate": 0.00395,
+      "pickrate": 0.0037,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 666
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2479
-        }
-      ]
-    },
-    {
-      "augmentId": 1332,
-      "tier": "D",
-      "pickrate": 0.0033,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 760
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1991
-        }
-      ]
-    },
-    {
-      "augmentId": 1347,
-      "tier": "D",
-      "pickrate": 0.0023,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 482
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1479
-        }
-      ]
-    },
-    {
-      "augmentId": 1379,
-      "tier": "D",
-      "pickrate": 0.001,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 642
-        }
-      ]
-    },
-    {
-      "augmentId": 1392,
-      "tier": "D",
-      "pickrate": 0.01055,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 623
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6524
         }
       ]
     },
     {
       "augmentId": 1996,
       "tier": "D",
-      "pickrate": 0.00345,
+      "pickrate": 0.0034,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 695
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2243
         }
       ]
@@ -2936,196 +3048,14 @@
     {
       "augmentId": 2004,
       "tier": "D",
-      "pickrate": 0.0036499999999999996,
+      "pickrate": 0.0034,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 742
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2291
-        }
-      ]
-    },
-    {
-      "augmentId": 2064,
-      "tier": "D",
-      "pickrate": 0.0411,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2104
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 24082
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/alistar?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 438
-        }
-      ]
-    },
-    {
-      "augmentId": 2080,
-      "tier": "D",
-      "pickrate": 0.0189,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1126
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 12279
-        }
-      ]
-    },
-    {
-      "augmentId": 2099,
-      "tier": "D",
-      "pickrate": 0.01095,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 628
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6711
-        }
-      ]
-    },
-    {
-      "augmentId": 2118,
-      "tier": "D",
-      "pickrate": 0.0044,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 272
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2716
-        }
-      ]
-    },
-    {
-      "augmentId": 2132,
-      "tier": "D",
-      "pickrate": 0.015649999999999997,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 920
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 9989
-        }
-      ]
-    },
-    {
-      "augmentId": 2134,
-      "tier": "D",
-      "pickrate": 0.00215,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 527
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1190
-        }
-      ]
-    },
-    {
-      "augmentId": 1011,
-      "tier": "F",
-      "pickrate": 0.00425,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 261
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2583
-        }
-      ]
-    },
-    {
-      "augmentId": 1019,
-      "tier": "F",
-      "pickrate": 0.01455,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 870
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 9226
         }
       ]
     },
@@ -3138,77 +3068,28 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 920
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 9101
-        }
-      ]
-    },
-    {
-      "augmentId": 1129,
-      "tier": "F",
-      "pickrate": 0.00525,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 323
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3411
-        }
-      ]
-    },
-    {
-      "augmentId": 1156,
-      "tier": "F",
-      "pickrate": 0.006999999999999999,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 425
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4554
         }
       ]
     },
     {
       "augmentId": 1211,
       "tier": "F",
-      "pickrate": 0.00225,
+      "pickrate": 0.0021,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 420
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1383
         }
       ]
@@ -3222,7 +3103,7 @@
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 746
         }
       ]
@@ -3236,7 +3117,7 @@
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 757
         }
       ]
@@ -3250,7 +3131,7 @@
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 383
         }
       ]
@@ -3261,17 +3142,10 @@
       "pickrate": 0.0014,
       "contributions": [
         {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 399
-        },
-        {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 901
         }
       ]
@@ -3279,20 +3153,13 @@
     {
       "augmentId": 2063,
       "tier": "F",
-      "pickrate": 0.0020499999999999997,
+      "pickrate": 0.0018,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/12",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 557
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1183
         }
       ]
@@ -3306,14 +3173,14 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/12",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 770
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/alistar?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 8563
         }
       ]

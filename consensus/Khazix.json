@@ -1,12 +1,355 @@
 {
-  "version": 2,
-  "method": "warden-sample-weighted-grades-v1",
+  "version": 3,
+  "method": "warden-champion-rarity-percentiles-v1",
   "championId": 121,
   "championKey": "Khazix",
   "set": "aram",
   "patch": "16.18",
-  "scrapedAt": "2026-09-13T21:52:42.336Z",
+  "scrapedAt": "2026-09-13T21:58:37.471Z",
   "augments": [
+    {
+      "augmentId": 1004,
+      "tier": "S",
+      "pickrate": 0.05895,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2833
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 32727
+        }
+      ]
+    },
+    {
+      "augmentId": 1007,
+      "tier": "S",
+      "pickrate": 0.12553333333333333,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5825
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 66724
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 835
+        }
+      ]
+    },
+    {
+      "augmentId": 1038,
+      "tier": "S",
+      "pickrate": 0.10826666666666666,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5089
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 60459
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 687
+        }
+      ]
+    },
+    {
+      "augmentId": 1053,
+      "tier": "S",
+      "pickrate": 0.03055,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1566
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 16418
+        }
+      ]
+    },
+    {
+      "augmentId": 1056,
+      "tier": "S",
+      "pickrate": 0.0021,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1238
+        }
+      ]
+    },
+    {
+      "augmentId": 1206,
+      "tier": "S",
+      "pickrate": 0.06546666666666667,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3168
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 36158
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 406
+        }
+      ]
+    },
+    {
+      "augmentId": 1238,
+      "tier": "S",
+      "pickrate": 0.13026666666666667,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6465
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 78940
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 706
+        }
+      ]
+    },
+    {
+      "augmentId": 1315,
+      "tier": "S",
+      "pickrate": 0.009600000000000001,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 520
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5312
+        }
+      ]
+    },
+    {
+      "augmentId": 1333,
+      "tier": "S",
+      "pickrate": 0.051,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2643
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 29808
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 281
+        }
+      ]
+    },
+    {
+      "augmentId": 1384,
+      "tier": "S",
+      "pickrate": 0.051000000000000004,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2442
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 27837
+        }
+      ]
+    },
+    {
+      "augmentId": 1389,
+      "tier": "S",
+      "pickrate": 0.0032,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1867
+        }
+      ]
+    },
+    {
+      "augmentId": 1403,
+      "tier": "S",
+      "pickrate": 0.0313,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1528
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 17006
+        }
+      ]
+    },
+    {
+      "augmentId": 2031,
+      "tier": "S",
+      "pickrate": 0.01575,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 864
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 8529
+        }
+      ]
+    },
+    {
+      "augmentId": 2032,
+      "tier": "S",
+      "pickrate": 0.01185,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 607
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6469
+        }
+      ]
+    },
+    {
+      "augmentId": 2083,
+      "tier": "S",
+      "pickrate": 0.15336666666666668,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 7740
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 93724
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 818
+        }
+      ]
+    },
     {
       "augmentId": 2095,
       "tier": "S",
@@ -16,1077 +359,1959 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/121",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1272
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 15614
         }
       ]
     },
     {
-      "augmentId": 1004,
-      "tier": "A",
-      "pickrate": 0.05895,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2833
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 32727
-        }
-      ]
-    },
-    {
-      "augmentId": 1389,
-      "tier": "A",
-      "pickrate": 0.00395,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 905
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1867
-        }
-      ]
-    },
-    {
-      "augmentId": 1038,
-      "tier": "B",
-      "pickrate": 0.10826666666666666,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5089
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 60459
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 687
-        }
-      ]
-    },
-    {
-      "augmentId": 1053,
-      "tier": "B",
-      "pickrate": 0.03055,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1566
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 16418
-        }
-      ]
-    },
-    {
-      "augmentId": 1056,
-      "tier": "B",
-      "pickrate": 0.00225,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 424
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1238
-        }
-      ]
-    },
-    {
-      "augmentId": 1206,
-      "tier": "B",
-      "pickrate": 0.06546666666666667,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3168
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 36158
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 406
-        }
-      ]
-    },
-    {
-      "augmentId": 1310,
-      "tier": "B",
-      "pickrate": 0.10343333333333334,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5203
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 58583
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 599
-        }
-      ]
-    },
-    {
-      "augmentId": 1333,
-      "tier": "B",
-      "pickrate": 0.051,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2643
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 29808
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 281
-        }
-      ]
-    },
-    {
-      "augmentId": 1335,
-      "tier": "B",
-      "pickrate": 0.0074,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 373
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4138
-        }
-      ]
-    },
-    {
-      "augmentId": 1384,
-      "tier": "B",
-      "pickrate": 0.051000000000000004,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2442
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 27837
-        }
-      ]
-    },
-    {
-      "augmentId": 2031,
-      "tier": "B",
-      "pickrate": 0.01575,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 864
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 8529
-        }
-      ]
-    },
-    {
       "augmentId": 2141,
-      "tier": "B",
+      "tier": "S",
       "pickrate": 0.05676666666666667,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/121",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2590
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 30097
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 389
         }
       ]
     },
     {
       "augmentId": 1006,
-      "tier": "C",
+      "tier": "A",
       "pickrate": 0.0232,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/121",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1233
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 12600
         }
       ]
     },
     {
-      "augmentId": 1007,
-      "tier": "C",
-      "pickrate": 0.12553333333333333,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5825
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 66724
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 835
-        }
-      ]
-    },
-    {
-      "augmentId": 1034,
-      "tier": "C",
-      "pickrate": 0.019799999999999998,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1018
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 11111
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "tier": "C",
-      "pickrate": 0.0088,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 437
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4905
-        }
-      ]
-    },
-    {
-      "augmentId": 1062,
-      "tier": "C",
-      "pickrate": 0.008799999999999999,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 445
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4649
-        }
-      ]
-    },
-    {
-      "augmentId": 1073,
-      "tier": "C",
-      "pickrate": 0.056066666666666674,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2803
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 31020
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 343
-        }
-      ]
-    },
-    {
-      "augmentId": 1098,
-      "tier": "C",
-      "pickrate": 0.031566666666666666,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1201
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 13851
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 275
-        }
-      ]
-    },
-    {
-      "augmentId": 1195,
-      "tier": "C",
-      "pickrate": 0.07579999999999999,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3684
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 40595
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 485
-        }
-      ]
-    },
-    {
-      "augmentId": 1238,
-      "tier": "C",
-      "pickrate": 0.13026666666666667,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6465
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 78940
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 706
-        }
-      ]
-    },
-    {
-      "augmentId": 1305,
-      "tier": "C",
-      "pickrate": 0.02335,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1173
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 13003
-        }
-      ]
-    },
-    {
-      "augmentId": 1308,
-      "tier": "C",
-      "pickrate": 0.00315,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 694
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1766
-        }
-      ]
-    },
-    {
-      "augmentId": 1315,
-      "tier": "C",
-      "pickrate": 0.009600000000000001,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 520
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5312
-        }
-      ]
-    },
-    {
-      "augmentId": 1337,
-      "tier": "C",
-      "pickrate": 0.009649999999999999,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 460
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5139
-        }
-      ]
-    },
-    {
-      "augmentId": 1344,
-      "tier": "C",
-      "pickrate": 0.04,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1922
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 20124
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 277
-        }
-      ]
-    },
-    {
-      "augmentId": 1402,
-      "tier": "C",
-      "pickrate": 0.0092,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 429
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5020
-        }
-      ]
-    },
-    {
-      "augmentId": 1403,
-      "tier": "C",
-      "pickrate": 0.0313,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1528
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 17006
-        }
-      ]
-    },
-    {
-      "augmentId": 1415,
-      "tier": "C",
-      "pickrate": 0.01415,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 686
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 7853
-        }
-      ]
-    },
-    {
-      "augmentId": 2032,
-      "tier": "C",
-      "pickrate": 0.01185,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 607
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6469
-        }
-      ]
-    },
-    {
-      "augmentId": 2083,
-      "tier": "C",
-      "pickrate": 0.15336666666666668,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 7740
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 93724
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 818
-        }
-      ]
-    },
-    {
-      "augmentId": 1025,
-      "tier": "D",
-      "pickrate": 0.02305,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1142
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 12870
-        }
-      ]
-    },
-    {
       "augmentId": 1026,
-      "tier": "D",
+      "tier": "A",
       "pickrate": 0.011699999999999999,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/121",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 576
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 6541
         }
       ]
     },
     {
       "augmentId": 1029,
-      "tier": "D",
+      "tier": "A",
       "pickrate": 0.033549999999999996,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/121",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1679
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 18444
         }
       ]
     },
     {
-      "augmentId": 1041,
-      "tier": "D",
-      "pickrate": 0.019450000000000002,
+      "augmentId": 1034,
+      "tier": "A",
+      "pickrate": 0.019799999999999998,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/121",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1048
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1018
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 10181
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 11111
         }
       ]
     },
     {
-      "augmentId": 1046,
-      "tier": "D",
-      "pickrate": 0.0187,
+      "augmentId": 1060,
+      "tier": "A",
+      "pickrate": 0.0088,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/121",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 934
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 437
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 10469
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4905
         }
       ]
     },
     {
-      "augmentId": 1048,
-      "tier": "D",
-      "pickrate": 0.12093333333333334,
+      "augmentId": 1062,
+      "tier": "A",
+      "pickrate": 0.008799999999999999,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/121",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6032
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 445
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 67269
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 725
-        }
-      ]
-    },
-    {
-      "augmentId": 1057,
-      "tier": "D",
-      "pickrate": 0.00135,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 257
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 725
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4649
         }
       ]
     },
     {
       "augmentId": 1068,
-      "tier": "D",
+      "tier": "A",
       "pickrate": 0.10433333333333333,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/121",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 5467
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 60179
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 594
         }
       ]
     },
     {
-      "augmentId": 1084,
-      "tier": "D",
-      "pickrate": 0.12776666666666667,
+      "augmentId": 1073,
+      "tier": "A",
+      "pickrate": 0.056066666666666674,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/121",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5761
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2803
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 65181
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 31020
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 894
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 343
+        }
+      ]
+    },
+    {
+      "augmentId": 1098,
+      "tier": "A",
+      "pickrate": 0.031566666666666666,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1201
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 13851
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 275
         }
       ]
     },
     {
       "augmentId": 1105,
-      "tier": "D",
+      "tier": "A",
       "pickrate": 0.0131,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/121",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 679
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 7373
         }
       ]
     },
     {
+      "augmentId": 1195,
+      "tier": "A",
+      "pickrate": 0.07579999999999999,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3684
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 40595
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 485
+        }
+      ]
+    },
+    {
+      "augmentId": 1305,
+      "tier": "A",
+      "pickrate": 0.02335,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1173
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 13003
+        }
+      ]
+    },
+    {
+      "augmentId": 1310,
+      "tier": "A",
+      "pickrate": 0.10343333333333334,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5203
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 58583
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 599
+        }
+      ]
+    },
+    {
+      "augmentId": 1311,
+      "tier": "A",
+      "pickrate": 0.013399999999999999,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 607
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 7378
+        }
+      ]
+    },
+    {
+      "augmentId": 1322,
+      "tier": "A",
+      "pickrate": 0.0524,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2616
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 29282
+        }
+      ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": "A",
+      "pickrate": 0.03855,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1979
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 21233
+        }
+      ]
+    },
+    {
+      "augmentId": 1335,
+      "tier": "A",
+      "pickrate": 0.0074,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 373
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4138
+        }
+      ]
+    },
+    {
+      "augmentId": 1337,
+      "tier": "A",
+      "pickrate": 0.009649999999999999,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 460
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5139
+        }
+      ]
+    },
+    {
+      "augmentId": 1344,
+      "tier": "A",
+      "pickrate": 0.04,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1922
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 20124
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 277
+        }
+      ]
+    },
+    {
+      "augmentId": 1373,
+      "tier": "A",
+      "pickrate": 0.10856666666666666,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5507
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 61750
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 641
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": "A",
+      "pickrate": 0.0092,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 429
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5020
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": "A",
+      "pickrate": 0.01415,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 686
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 7853
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": "A",
+      "pickrate": 0.01395,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 690
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 7811
+        }
+      ]
+    },
+    {
+      "augmentId": 2098,
+      "tier": "A",
+      "pickrate": 0.0158,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 760
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 8308
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": "A",
+      "pickrate": 0.04585,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2272
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 24936
+        }
+      ]
+    },
+    {
+      "augmentId": 2119,
+      "tier": "A",
+      "pickrate": 0.005350000000000001,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 268
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2951
+        }
+      ]
+    },
+    {
+      "augmentId": 2140,
+      "tier": "A",
+      "pickrate": 0.06076666666666666,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3000
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 34825
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 373
+        }
+      ]
+    },
+    {
+      "augmentId": 2157,
+      "tier": "A",
+      "pickrate": 0.06246666666666667,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3623
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 40388
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 262
+        }
+      ]
+    },
+    {
+      "augmentId": 1002,
+      "tier": "B",
+      "pickrate": 0.0068000000000000005,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 351
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3798
+        }
+      ]
+    },
+    {
+      "augmentId": 1011,
+      "tier": "B",
+      "pickrate": 0.01765,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 920
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 9388
+        }
+      ]
+    },
+    {
+      "augmentId": 1025,
+      "tier": "B",
+      "pickrate": 0.02305,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1142
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 12870
+        }
+      ]
+    },
+    {
+      "augmentId": 1027,
+      "tier": "B",
+      "pickrate": 0.00485,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 264
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2383
+        }
+      ]
+    },
+    {
+      "augmentId": 1041,
+      "tier": "B",
+      "pickrate": 0.019450000000000002,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1048
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 10181
+        }
+      ]
+    },
+    {
+      "augmentId": 1046,
+      "tier": "B",
+      "pickrate": 0.0187,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 934
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 10469
+        }
+      ]
+    },
+    {
+      "augmentId": 1048,
+      "tier": "B",
+      "pickrate": 0.12093333333333334,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6032
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 67269
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 725
+        }
+      ]
+    },
+    {
+      "augmentId": 1057,
+      "tier": "B",
+      "pickrate": 0.0013,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 725
+        }
+      ]
+    },
+    {
+      "augmentId": 1084,
+      "tier": "B",
+      "pickrate": 0.12776666666666667,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5761
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 65181
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 894
+        }
+      ]
+    },
+    {
       "augmentId": 1116,
-      "tier": "D",
+      "tier": "B",
       "pickrate": 0.03435,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/121",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1706
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 19181
         }
       ]
     },
     {
       "augmentId": 1150,
-      "tier": "D",
+      "tier": "B",
       "pickrate": 0.08516666666666667,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/121",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 4601
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 47583
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 493
         }
       ]
     },
     {
       "augmentId": 1154,
-      "tier": "D",
+      "tier": "B",
       "pickrate": 0.019999999999999997,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/121",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1014
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 11059
         }
       ]
     },
     {
+      "augmentId": 1211,
+      "tier": "B",
+      "pickrate": 0.0112,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 575
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6032
+        }
+      ]
+    },
+    {
       "augmentId": 1237,
-      "tier": "D",
+      "tier": "B",
       "pickrate": 0.0426,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/121",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2113
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 23775
         }
       ]
     },
     {
       "augmentId": 1243,
+      "tier": "B",
+      "pickrate": 0.0327,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1638
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 17374
+        }
+      ]
+    },
+    {
+      "augmentId": 1308,
+      "tier": "B",
+      "pickrate": 0.0031,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1766
+        }
+      ]
+    },
+    {
+      "augmentId": 1320,
+      "tier": "B",
+      "pickrate": 0.1002,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4978
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 56498
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 612
+        }
+      ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": "B",
+      "pickrate": 0.15713333333333332,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6856
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 77838
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1158
+        }
+      ]
+    },
+    {
+      "augmentId": 1345,
+      "tier": "B",
+      "pickrate": 0.0234,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1220
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 12773
+        }
+      ]
+    },
+    {
+      "augmentId": 1349,
+      "tier": "B",
+      "pickrate": 0.01815,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 941
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 9663
+        }
+      ]
+    },
+    {
+      "augmentId": 1358,
+      "tier": "B",
+      "pickrate": 0.01985,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 987
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 10985
+        }
+      ]
+    },
+    {
+      "augmentId": 1388,
+      "tier": "B",
+      "pickrate": 0.0373,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1919
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 21215
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": "B",
+      "pickrate": 0.0059,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 281
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3224
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": "B",
+      "pickrate": 0.0188,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 938
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 9911
+        }
+      ]
+    },
+    {
+      "augmentId": 2073,
+      "tier": "B",
+      "pickrate": 0.08773333333333333,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3708
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 41329
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 699
+        }
+      ]
+    },
+    {
+      "augmentId": 2088,
+      "tier": "B",
+      "pickrate": 0.01105,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 530
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6049
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": "B",
+      "pickrate": 0.054400000000000004,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2763
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 31907
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 314
+        }
+      ]
+    },
+    {
+      "augmentId": 2107,
+      "tier": "B",
+      "pickrate": 0.00585,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 327
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2874
+        }
+      ]
+    },
+    {
+      "augmentId": 2116,
+      "tier": "B",
+      "pickrate": 0.09643333333333333,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4347
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 50836
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 676
+        }
+      ]
+    },
+    {
+      "augmentId": 2123,
+      "tier": "B",
+      "pickrate": 0.03726666666666667,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1737
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 17899
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 278
+        }
+      ]
+    },
+    {
+      "augmentId": 2127,
+      "tier": "B",
+      "pickrate": 0.025849999999999998,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1280
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 14249
+        }
+      ]
+    },
+    {
+      "augmentId": 12317,
+      "tier": "B",
+      "pickrate": 0.024800000000000003,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1073
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 14912
+        }
+      ]
+    },
+    {
+      "augmentId": 1001,
+      "tier": "C",
+      "pickrate": 0.0012,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 700
+        }
+      ]
+    },
+    {
+      "augmentId": 1063,
+      "tier": "C",
+      "pickrate": 0.008150000000000001,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 437
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4479
+        }
+      ]
+    },
+    {
+      "augmentId": 1103,
+      "tier": "C",
+      "pickrate": 0.055333333333333325,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2403
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 25465
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 439
+        }
+      ]
+    },
+    {
+      "augmentId": 1112,
+      "tier": "C",
+      "pickrate": 0.01425,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 759
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 7904
+        }
+      ]
+    },
+    {
+      "augmentId": 1220,
+      "tier": "C",
+      "pickrate": 0.00745,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 434
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3778
+        }
+      ]
+    },
+    {
+      "augmentId": 1301,
+      "tier": "C",
+      "pickrate": 0.00915,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 453
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4963
+        }
+      ]
+    },
+    {
+      "augmentId": 1348,
+      "tier": "C",
+      "pickrate": 0.0009,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 526
+        }
+      ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": "C",
+      "pickrate": 0.0112,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 582
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5952
+        }
+      ]
+    },
+    {
+      "augmentId": 1421,
+      "tier": "C",
+      "pickrate": 0.0007,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 433
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": "C",
+      "pickrate": 0.0085,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 454
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4739
+        }
+      ]
+    },
+    {
+      "augmentId": 2026,
+      "tier": "C",
+      "pickrate": 0.01815,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 882
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 10100
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": "C",
+      "pickrate": 0.0134,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 653
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 7287
+        }
+      ]
+    },
+    {
+      "augmentId": 2042,
+      "tier": "C",
+      "pickrate": 0.00855,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 404
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4731
+        }
+      ]
+    },
+    {
+      "augmentId": 2046,
+      "tier": "C",
+      "pickrate": 0.0009,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 527
+        }
+      ]
+    },
+    {
+      "augmentId": 2080,
+      "tier": "C",
+      "pickrate": 0.019700000000000002,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 958
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 10915
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": "C",
+      "pickrate": 0.0148,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 837
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 7739
+        }
+      ]
+    },
+    {
+      "augmentId": 2125,
+      "tier": "C",
+      "pickrate": 0.034333333333333334,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1365
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 14889
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 299
+        }
+      ]
+    },
+    {
+      "augmentId": 2134,
+      "tier": "C",
+      "pickrate": 0.0009,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 511
+        }
+      ]
+    },
+    {
+      "augmentId": 1019,
+      "tier": "D",
+      "pickrate": 0.01845,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 994
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 9981
+        }
+      ]
+    },
+    {
+      "augmentId": 1028,
+      "tier": "D",
+      "pickrate": 0.0043,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2514
+        }
+      ]
+    },
+    {
+      "augmentId": 1058,
+      "tier": "D",
+      "pickrate": 0.007350000000000001,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 406
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3909
+        }
+      ]
+    },
+    {
+      "augmentId": 1088,
+      "tier": "D",
+      "pickrate": 0.0052499999999999995,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 264
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2726
+        }
+      ]
+    },
+    {
+      "augmentId": 1151,
+      "tier": "D",
+      "pickrate": 0.02135,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1127
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 11494
+        }
+      ]
+    },
+    {
+      "augmentId": 1187,
+      "tier": "D",
+      "pickrate": 0.001,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 570
+        }
+      ]
+    },
+    {
+      "augmentId": 1347,
+      "tier": "D",
+      "pickrate": 0.0018,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1036
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": "D",
+      "pickrate": 0.009649999999999999,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 497
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5349
+        }
+      ]
+    },
+    {
+      "augmentId": 2063,
+      "tier": "D",
+      "pickrate": 0.0019,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1077
+        }
+      ]
+    },
+    {
+      "augmentId": 2091,
+      "tier": "D",
+      "pickrate": 0.0234,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1199
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 12959
+        }
+      ]
+    },
+    {
+      "augmentId": 2096,
       "tier": "D",
       "pickrate": 0.0327,
       "contributions": [
@@ -1094,946 +2319,22 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/121",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1638
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1274
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 17374
-        }
-      ]
-    },
-    {
-      "augmentId": 1311,
-      "tier": "D",
-      "pickrate": 0.013399999999999999,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 607
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 7378
-        }
-      ]
-    },
-    {
-      "augmentId": 1320,
-      "tier": "D",
-      "pickrate": 0.1002,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4978
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 56498
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 13881
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 612
-        }
-      ]
-    },
-    {
-      "augmentId": 1322,
-      "tier": "D",
-      "pickrate": 0.0524,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2616
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 29282
-        }
-      ]
-    },
-    {
-      "augmentId": 1326,
-      "tier": "D",
-      "pickrate": 0.15713333333333332,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6856
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 77838
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1158
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "tier": "D",
-      "pickrate": 0.03855,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1979
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 21233
-        }
-      ]
-    },
-    {
-      "augmentId": 1358,
-      "tier": "D",
-      "pickrate": 0.01985,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 987
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 10985
-        }
-      ]
-    },
-    {
-      "augmentId": 1373,
-      "tier": "D",
-      "pickrate": 0.10856666666666666,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5507
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 61750
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 641
-        }
-      ]
-    },
-    {
-      "augmentId": 1388,
-      "tier": "D",
-      "pickrate": 0.0373,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1919
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 21215
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "tier": "D",
-      "pickrate": 0.0059,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 281
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3224
-        }
-      ]
-    },
-    {
-      "augmentId": 2026,
-      "tier": "D",
-      "pickrate": 0.01815,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 882
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 10100
-        }
-      ]
-    },
-    {
-      "augmentId": 2073,
-      "tier": "D",
-      "pickrate": 0.08773333333333333,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3708
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 41329
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 699
-        }
-      ]
-    },
-    {
-      "augmentId": 2088,
-      "tier": "D",
-      "pickrate": 0.01105,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 530
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6049
-        }
-      ]
-    },
-    {
-      "augmentId": 2089,
-      "tier": "D",
-      "pickrate": 0.01395,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 690
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 7811
-        }
-      ]
-    },
-    {
-      "augmentId": 2098,
-      "tier": "D",
-      "pickrate": 0.0158,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 760
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 8308
-        }
-      ]
-    },
-    {
-      "augmentId": 2099,
-      "tier": "D",
-      "pickrate": 0.04585,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2272
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 24936
-        }
-      ]
-    },
-    {
-      "augmentId": 2100,
-      "tier": "D",
-      "pickrate": 0.054400000000000004,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2763
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 31907
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 314
-        }
-      ]
-    },
-    {
-      "augmentId": 2116,
-      "tier": "D",
-      "pickrate": 0.09643333333333333,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4347
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 50836
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 676
-        }
-      ]
-    },
-    {
-      "augmentId": 2119,
-      "tier": "D",
-      "pickrate": 0.005350000000000001,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 268
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2951
-        }
-      ]
-    },
-    {
-      "augmentId": 2127,
-      "tier": "D",
-      "pickrate": 0.025849999999999998,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1280
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 14249
-        }
-      ]
-    },
-    {
-      "augmentId": 2140,
-      "tier": "D",
-      "pickrate": 0.06076666666666666,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3000
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 34825
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 373
-        }
-      ]
-    },
-    {
-      "augmentId": 2157,
-      "tier": "D",
-      "pickrate": 0.06246666666666667,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3623
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 40388
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 262
-        }
-      ]
-    },
-    {
-      "augmentId": 12317,
-      "tier": "D",
-      "pickrate": 0.024800000000000003,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1073
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 14912
-        }
-      ]
-    },
-    {
-      "augmentId": 1001,
-      "tier": "F",
-      "pickrate": 0.0015,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 357
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 700
-        }
-      ]
-    },
-    {
-      "augmentId": 1002,
-      "tier": "F",
-      "pickrate": 0.0068000000000000005,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 351
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3798
-        }
-      ]
-    },
-    {
-      "augmentId": 1011,
-      "tier": "F",
-      "pickrate": 0.01765,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 920
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 9388
-        }
-      ]
-    },
-    {
-      "augmentId": 1019,
-      "tier": "F",
-      "pickrate": 0.01845,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 994
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 9981
-        }
-      ]
-    },
-    {
-      "augmentId": 1027,
-      "tier": "F",
-      "pickrate": 0.00485,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 264
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2383
-        }
-      ]
-    },
-    {
-      "augmentId": 1028,
-      "tier": "F",
-      "pickrate": 0.00455,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 892
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2514
-        }
-      ]
-    },
-    {
-      "augmentId": 1058,
-      "tier": "F",
-      "pickrate": 0.007350000000000001,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 406
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3909
-        }
-      ]
-    },
-    {
-      "augmentId": 1063,
-      "tier": "F",
-      "pickrate": 0.008150000000000001,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 437
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4479
-        }
-      ]
-    },
-    {
-      "augmentId": 1088,
-      "tier": "F",
-      "pickrate": 0.0052499999999999995,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 264
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2726
-        }
-      ]
-    },
-    {
-      "augmentId": 1103,
-      "tier": "F",
-      "pickrate": 0.055333333333333325,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2403
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 25465
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 439
-        }
-      ]
-    },
-    {
-      "augmentId": 1112,
-      "tier": "F",
-      "pickrate": 0.01425,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 759
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 7904
-        }
-      ]
-    },
-    {
-      "augmentId": 1151,
-      "tier": "F",
-      "pickrate": 0.02135,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1127
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 11494
-        }
-      ]
-    },
-    {
-      "augmentId": 1187,
-      "tier": "F",
-      "pickrate": 0.001,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 570
-        }
-      ]
-    },
-    {
-      "augmentId": 1211,
-      "tier": "F",
-      "pickrate": 0.0112,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 575
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6032
-        }
-      ]
-    },
-    {
-      "augmentId": 1220,
-      "tier": "F",
-      "pickrate": 0.00745,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 434
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3778
-        }
-      ]
-    },
-    {
-      "augmentId": 1301,
-      "tier": "F",
-      "pickrate": 0.00915,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 453
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4963
-        }
-      ]
-    },
-    {
-      "augmentId": 1345,
-      "tier": "F",
-      "pickrate": 0.0234,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1220
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 12773
-        }
-      ]
-    },
-    {
-      "augmentId": 1347,
-      "tier": "F",
-      "pickrate": 0.00185,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 364
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1036
-        }
-      ]
-    },
-    {
-      "augmentId": 1348,
-      "tier": "F",
-      "pickrate": 0.0009,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 526
-        }
-      ]
-    },
-    {
-      "augmentId": 1349,
-      "tier": "F",
-      "pickrate": 0.01815,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 941
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 9663
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 289
         }
       ]
     },
@@ -2046,428 +2347,36 @@
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 358
-        }
-      ]
-    },
-    {
-      "augmentId": 1392,
-      "tier": "F",
-      "pickrate": 0.0112,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 582
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5952
-        }
-      ]
-    },
-    {
-      "augmentId": 1421,
-      "tier": "F",
-      "pickrate": 0.0009499999999999999,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 275
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 433
-        }
-      ]
-    },
-    {
-      "augmentId": 1996,
-      "tier": "F",
-      "pickrate": 0.009649999999999999,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 497
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5349
-        }
-      ]
-    },
-    {
-      "augmentId": 2005,
-      "tier": "F",
-      "pickrate": 0.0188,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 938
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 9911
         }
       ]
     },
     {
       "augmentId": 2016,
       "tier": "F",
-      "pickrate": 0.0017000000000000001,
+      "pickrate": 0.0016,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 303
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 949
-        }
-      ]
-    },
-    {
-      "augmentId": 2018,
-      "tier": "F",
-      "pickrate": 0.0085,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 454
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4739
-        }
-      ]
-    },
-    {
-      "augmentId": 2034,
-      "tier": "F",
-      "pickrate": 0.0134,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 653
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 7287
-        }
-      ]
-    },
-    {
-      "augmentId": 2042,
-      "tier": "F",
-      "pickrate": 0.00855,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 404
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4731
-        }
-      ]
-    },
-    {
-      "augmentId": 2046,
-      "tier": "F",
-      "pickrate": 0.00095,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 307
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 527
-        }
-      ]
-    },
-    {
-      "augmentId": 2063,
-      "tier": "F",
-      "pickrate": 0.0022,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 623
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1077
-        }
-      ]
-    },
-    {
-      "augmentId": 2080,
-      "tier": "F",
-      "pickrate": 0.019700000000000002,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 958
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 10915
-        }
-      ]
-    },
-    {
-      "augmentId": 2087,
-      "tier": "F",
-      "pickrate": 0.0148,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 837
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 7739
-        }
-      ]
-    },
-    {
-      "augmentId": 2091,
-      "tier": "F",
-      "pickrate": 0.0234,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1199
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 12959
-        }
-      ]
-    },
-    {
-      "augmentId": 2096,
-      "tier": "F",
-      "pickrate": 0.0327,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1274
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 13881
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 289
-        }
-      ]
-    },
-    {
-      "augmentId": 2107,
-      "tier": "F",
-      "pickrate": 0.00585,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 327
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2874
         }
       ]
     },
     {
       "augmentId": 2118,
       "tier": "F",
-      "pickrate": 0.0022500000000000003,
+      "pickrate": 0.002,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 526
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1144
-        }
-      ]
-    },
-    {
-      "augmentId": 2123,
-      "tier": "F",
-      "pickrate": 0.03726666666666667,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1737
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 17899
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 278
-        }
-      ]
-    },
-    {
-      "augmentId": 2125,
-      "tier": "F",
-      "pickrate": 0.034333333333333334,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1365
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 14889
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/khazix?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 299
-        }
-      ]
-    },
-    {
-      "augmentId": 2134,
-      "tier": "F",
-      "pickrate": 0.00125,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 299
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 511
         }
       ]
     },
@@ -2480,7 +2389,7 @@
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 6323
         }
       ]
@@ -2488,20 +2397,13 @@
     {
       "augmentId": 2137,
       "tier": "F",
-      "pickrate": 0.00245,
+      "pickrate": 0.0023,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/121",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 501
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1351
         }
       ]
@@ -2515,14 +2417,14 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/121",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 721
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/khazix?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 8121
         }
       ]

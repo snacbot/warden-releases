@@ -1,1451 +1,2536 @@
 {
-  "version": 2,
-  "method": "warden-sample-weighted-grades-v1",
+  "version": 3,
+  "method": "warden-champion-rarity-percentiles-v1",
   "championId": 79,
   "championKey": "Gragas",
   "set": "aram",
   "patch": "16.18",
-  "scrapedAt": "2026-09-13T21:52:42.336Z",
+  "scrapedAt": "2026-09-13T21:58:37.471Z",
   "augments": [
     {
-      "augmentId": 1156,
-      "tier": "A",
-      "pickrate": 0.03643333333333334,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1274
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 14789
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 321
-        }
-      ]
-    },
-    {
-      "augmentId": 1195,
-      "tier": "A",
-      "pickrate": 0.01145,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 491
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5269
-        }
-      ]
-    },
-    {
-      "augmentId": 1388,
-      "tier": "A",
-      "pickrate": 0.047599999999999996,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1948
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 22804
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 326
-        }
-      ]
-    },
-    {
-      "augmentId": 2031,
-      "tier": "A",
-      "pickrate": 0.0276,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1208
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 12745
-        }
-      ]
-    },
-    {
-      "augmentId": 2095,
-      "tier": "A",
-      "pickrate": 0.02095,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 913
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 10022
-        }
-      ]
-    },
-    {
       "augmentId": 1004,
-      "tier": "B",
+      "tier": "S",
       "pickrate": 0.02175,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 920
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 10201
         }
       ]
     },
     {
       "augmentId": 1029,
-      "tier": "B",
+      "tier": "S",
       "pickrate": 0.07043333333333333,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 3402
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 39678
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 295
         }
       ]
     },
     {
-      "augmentId": 1030,
-      "tier": "B",
-      "pickrate": 0.0822,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3342
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 35291
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 656
-        }
-      ]
-    },
-    {
       "augmentId": 1038,
-      "tier": "B",
+      "tier": "S",
       "pickrate": 0.04563333333333333,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1835
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 21813
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 315
         }
       ]
     },
     {
       "augmentId": 1053,
-      "tier": "B",
+      "tier": "S",
       "pickrate": 0.03763333333333333,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1650
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 17506
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 255
         }
       ]
     },
     {
-      "augmentId": 1062,
-      "tier": "B",
-      "pickrate": 0.0075,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 306
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3374
-        }
-      ]
-    },
-    {
       "augmentId": 1068,
-      "tier": "B",
+      "tier": "S",
       "pickrate": 0.1063,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 4336
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 48537
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 784
         }
       ]
     },
     {
       "augmentId": 1073,
-      "tier": "B",
+      "tier": "S",
       "pickrate": 0.023,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1029
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 10988
         }
       ]
     },
     {
+      "augmentId": 1156,
+      "tier": "S",
+      "pickrate": 0.03643333333333334,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1274
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 14789
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 321
+        }
+      ]
+    },
+    {
+      "augmentId": 1195,
+      "tier": "S",
+      "pickrate": 0.01145,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 491
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5269
+        }
+      ]
+    },
+    {
       "augmentId": 1238,
-      "tier": "B",
+      "tier": "S",
       "pickrate": 0.08376666666666666,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 3531
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 41458
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 535
         }
       ]
     },
     {
-      "augmentId": 1333,
-      "tier": "B",
-      "pickrate": 0.05296666666666667,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2278
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 24774
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 372
-        }
-      ]
-    },
-    {
-      "augmentId": 1348,
-      "tier": "B",
-      "pickrate": 0.001,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 465
-        }
-      ]
-    },
-    {
-      "augmentId": 1361,
-      "tier": "B",
-      "pickrate": 0.0146,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 7052
-        }
-      ]
-    },
-    {
-      "augmentId": 1373,
-      "tier": "B",
-      "pickrate": 0.06796666666666666,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3067
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 34513
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 398
-        }
-      ]
-    },
-    {
-      "augmentId": 1384,
-      "tier": "B",
-      "pickrate": 0.02765,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1175
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 12882
-        }
-      ]
-    },
-    {
-      "augmentId": 1389,
-      "tier": "B",
-      "pickrate": 0.00415,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 633
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1747
-        }
-      ]
-    },
-    {
-      "augmentId": 1390,
-      "tier": "B",
-      "pickrate": 0.0635,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2327
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 26557
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 547
-        }
-      ]
-    },
-    {
-      "augmentId": 2083,
-      "tier": "B",
-      "pickrate": 0.06240000000000001,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2650
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 31879
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 377
-        }
-      ]
-    },
-    {
-      "augmentId": 2102,
-      "tier": "B",
-      "pickrate": 0.02895,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1242
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 13796
-        }
-      ]
-    },
-    {
-      "augmentId": 2132,
-      "tier": "B",
-      "pickrate": 0.06936666666666667,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2599
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 29566
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 565
-        }
-      ]
-    },
-    {
-      "augmentId": 1015,
-      "tier": "C",
-      "pickrate": 0.019700000000000002,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 848
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 9099
-        }
-      ]
-    },
-    {
-      "augmentId": 1046,
-      "tier": "C",
-      "pickrate": 0.01765,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 682
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 8398
-        }
-      ]
-    },
-    {
-      "augmentId": 1048,
-      "tier": "C",
-      "pickrate": 0.07516666666666667,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2853
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 30768
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 640
-        }
-      ]
-    },
-    {
-      "augmentId": 1056,
-      "tier": "C",
-      "pickrate": 0.0309,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1307
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 14752
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "tier": "C",
-      "pickrate": 0.02,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 853
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 9346
-        }
-      ]
-    },
-    {
-      "augmentId": 1097,
-      "tier": "C",
-      "pickrate": 0.06036666666666666,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2032
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 22647
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 576
-        }
-      ]
-    },
-    {
-      "augmentId": 1098,
-      "tier": "C",
-      "pickrate": 0.016050000000000002,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 665
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 7503
-        }
-      ]
-    },
-    {
-      "augmentId": 1116,
-      "tier": "C",
-      "pickrate": 0.031233333333333335,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1083
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 12807
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 271
-        }
-      ]
-    },
-    {
-      "augmentId": 1129,
-      "tier": "C",
-      "pickrate": 0.05043333333333333,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1698
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 18882
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 490
-        }
-      ]
-    },
-    {
-      "augmentId": 1136,
-      "tier": "C",
-      "pickrate": 0.050499999999999996,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2264
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 24864
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 321
-        }
-      ]
-    },
-    {
-      "augmentId": 1180,
-      "tier": "C",
-      "pickrate": 0.016800000000000002,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 703
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 7776
-        }
-      ]
-    },
-    {
-      "augmentId": 1187,
-      "tier": "C",
-      "pickrate": 0.0011,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 538
-        }
-      ]
-    },
-    {
-      "augmentId": 1205,
-      "tier": "C",
-      "pickrate": 0.07673333333333333,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3237
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 36871
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 511
-        }
-      ]
-    },
-    {
-      "augmentId": 1243,
-      "tier": "C",
-      "pickrate": 0.0283,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1178
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 12794
-        }
-      ]
-    },
-    {
       "augmentId": 1305,
-      "tier": "C",
+      "tier": "S",
       "pickrate": 0.029366666666666666,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1038
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 11217
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 283
         }
       ]
     },
     {
       "augmentId": 1308,
-      "tier": "C",
+      "tier": "S",
       "pickrate": 0.0167,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 667
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 7880
         }
       ]
     },
     {
-      "augmentId": 1310,
-      "tier": "C",
-      "pickrate": 0.03485,
+      "augmentId": 1333,
+      "tier": "S",
+      "pickrate": 0.05296666666666667,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1439
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2278
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 16360
-        }
-      ]
-    },
-    {
-      "augmentId": 1311,
-      "tier": "C",
-      "pickrate": 0.01925,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 851
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 8987
-        }
-      ]
-    },
-    {
-      "augmentId": 1315,
-      "tier": "C",
-      "pickrate": 0.01755,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 745
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 8317
-        }
-      ]
-    },
-    {
-      "augmentId": 1318,
-      "tier": "C",
-      "pickrate": 0.034466666666666666,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1360
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 15355
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 24774
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 271
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 372
         }
       ]
     },
     {
-      "augmentId": 1322,
-      "tier": "C",
-      "pickrate": 0.00475,
+      "augmentId": 1348,
+      "tier": "S",
+      "pickrate": 0.001,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 465
+        }
+      ]
+    },
+    {
+      "augmentId": 1373,
+      "tier": "S",
+      "pickrate": 0.06796666666666666,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 599
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3067
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2245
-        }
-      ]
-    },
-    {
-      "augmentId": 1323,
-      "tier": "C",
-      "pickrate": 0.028249999999999997,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1300
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 13019
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "tier": "C",
-      "pickrate": 0.03893333333333333,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1636
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 18546
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 34513
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 255
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 398
         }
       ]
     },
     {
-      "augmentId": 1335,
-      "tier": "C",
-      "pickrate": 0.00535,
+      "augmentId": 1384,
+      "tier": "S",
+      "pickrate": 0.02765,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 849
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1175
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2503
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 12882
         }
       ]
     },
     {
-      "augmentId": 1337,
-      "tier": "C",
-      "pickrate": 0.0056,
+      "augmentId": 1388,
+      "tier": "S",
+      "pickrate": 0.047599999999999996,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 265
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1948
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2572
-        }
-      ]
-    },
-    {
-      "augmentId": 1353,
-      "tier": "C",
-      "pickrate": 0.07166666666666667,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3576
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 38439
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 22804
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 358
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 326
         }
       ]
     },
     {
-      "augmentId": 1415,
-      "tier": "C",
-      "pickrate": 0.020499999999999997,
+      "augmentId": 1389,
+      "tier": "S",
+      "pickrate": 0.0036,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1747
+        }
+      ]
+    },
+    {
+      "augmentId": 1390,
+      "tier": "S",
+      "pickrate": 0.0635,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 868
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2327
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 9704
-        }
-      ]
-    },
-    {
-      "augmentId": 1996,
-      "tier": "C",
-      "pickrate": 0.0313,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1128
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 13067
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 26557
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 266
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 547
         }
       ]
     },
     {
-      "augmentId": 2077,
-      "tier": "C",
-      "pickrate": 0.09756666666666665,
+      "augmentId": 2031,
+      "tier": "S",
+      "pickrate": 0.0276,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3659
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1208
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 39541
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 861
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 12745
         }
       ]
     },
     {
-      "augmentId": 2078,
-      "tier": "C",
-      "pickrate": 0.14123333333333332,
+      "augmentId": 2095,
+      "tier": "S",
+      "pickrate": 0.02095,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5674
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 913
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 63018
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1069
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 10022
         }
       ]
     },
     {
-      "augmentId": 2127,
-      "tier": "C",
-      "pickrate": 0.03295,
+      "augmentId": 2102,
+      "tier": "S",
+      "pickrate": 0.02895,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1429
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1242
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 15593
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 13796
         }
       ]
     },
     {
-      "augmentId": 1002,
-      "tier": "D",
-      "pickrate": 0.019549999999999998,
+      "augmentId": 1015,
+      "tier": "A",
+      "pickrate": 0.019700000000000002,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 848
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 9214
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 9099
         }
       ]
     },
     {
-      "augmentId": 1006,
-      "tier": "D",
-      "pickrate": 0.004,
+      "augmentId": 1030,
+      "tier": "A",
+      "pickrate": 0.0822,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 630
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3342
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1763
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 35291
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 656
         }
       ]
     },
     {
-      "augmentId": 1013,
-      "tier": "D",
-      "pickrate": 0.0434,
+      "augmentId": 1046,
+      "tier": "A",
+      "pickrate": 0.01765,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1800
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 682
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 20709
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 8398
         }
       ]
     },
     {
-      "augmentId": 1018,
-      "tier": "D",
-      "pickrate": 0.02435,
+      "augmentId": 1048,
+      "tier": "A",
+      "pickrate": 0.07516666666666667,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1093
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2853
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 11263
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 30768
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 640
         }
       ]
     },
     {
-      "augmentId": 1019,
-      "tier": "D",
+      "augmentId": 1060,
+      "tier": "A",
+      "pickrate": 0.02,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 853
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 9346
+        }
+      ]
+    },
+    {
+      "augmentId": 1062,
+      "tier": "A",
+      "pickrate": 0.0075,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 306
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3374
+        }
+      ]
+    },
+    {
+      "augmentId": 1097,
+      "tier": "A",
+      "pickrate": 0.06036666666666666,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2032
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 22647
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 576
+        }
+      ]
+    },
+    {
+      "augmentId": 1098,
+      "tier": "A",
+      "pickrate": 0.016050000000000002,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 665
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 7503
+        }
+      ]
+    },
+    {
+      "augmentId": 1116,
+      "tier": "A",
+      "pickrate": 0.031233333333333335,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1083
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 12807
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 271
+        }
+      ]
+    },
+    {
+      "augmentId": 1129,
+      "tier": "A",
+      "pickrate": 0.05043333333333333,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1698
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 18882
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 490
+        }
+      ]
+    },
+    {
+      "augmentId": 1136,
+      "tier": "A",
+      "pickrate": 0.050499999999999996,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2264
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 24864
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 321
+        }
+      ]
+    },
+    {
+      "augmentId": 1180,
+      "tier": "A",
+      "pickrate": 0.016800000000000002,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 703
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 7776
+        }
+      ]
+    },
+    {
+      "augmentId": 1187,
+      "tier": "A",
+      "pickrate": 0.0011,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 538
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": "A",
+      "pickrate": 0.0283,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1178
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 12794
+        }
+      ]
+    },
+    {
+      "augmentId": 1310,
+      "tier": "A",
+      "pickrate": 0.03485,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1439
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 16360
+        }
+      ]
+    },
+    {
+      "augmentId": 1311,
+      "tier": "A",
       "pickrate": 0.01925,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 851
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 8987
+        }
+      ]
+    },
+    {
+      "augmentId": 1315,
+      "tier": "A",
+      "pickrate": 0.01755,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 745
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 8317
+        }
+      ]
+    },
+    {
+      "augmentId": 1318,
+      "tier": "A",
+      "pickrate": 0.034466666666666666,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1360
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 15355
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 271
+        }
+      ]
+    },
+    {
+      "augmentId": 1323,
+      "tier": "A",
+      "pickrate": 0.028249999999999997,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1300
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 13019
+        }
+      ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": "A",
+      "pickrate": 0.03893333333333333,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1636
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 18546
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 255
+        }
+      ]
+    },
+    {
+      "augmentId": 1335,
+      "tier": "A",
+      "pickrate": 0.0052,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2503
+        }
+      ]
+    },
+    {
+      "augmentId": 1337,
+      "tier": "A",
+      "pickrate": 0.0056,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 265
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2572
+        }
+      ]
+    },
+    {
+      "augmentId": 1349,
+      "tier": "A",
+      "pickrate": 0.027,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1178
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 12154
+        }
+      ]
+    },
+    {
+      "augmentId": 1353,
+      "tier": "A",
+      "pickrate": 0.07166666666666667,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3576
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 38439
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 358
+        }
+      ]
+    },
+    {
+      "augmentId": 1361,
+      "tier": "A",
+      "pickrate": 0.0146,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 7052
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": "A",
+      "pickrate": 0.020499999999999997,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 868
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 9704
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": "A",
+      "pickrate": 0.0313,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1128
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 13067
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 266
+        }
+      ]
+    },
+    {
+      "augmentId": 2077,
+      "tier": "A",
+      "pickrate": 0.09756666666666665,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3659
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 39541
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 861
+        }
+      ]
+    },
+    {
+      "augmentId": 2078,
+      "tier": "A",
+      "pickrate": 0.14123333333333332,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5674
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 63018
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1069
+        }
+      ]
+    },
+    {
+      "augmentId": 2083,
+      "tier": "A",
+      "pickrate": 0.06240000000000001,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2650
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 31879
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 377
+        }
+      ]
+    },
+    {
+      "augmentId": 2119,
+      "tier": "A",
+      "pickrate": 0.0043,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2063
+        }
+      ]
+    },
+    {
+      "augmentId": 2127,
+      "tier": "A",
+      "pickrate": 0.03295,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1429
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 15593
+        }
+      ]
+    },
+    {
+      "augmentId": 2132,
+      "tier": "A",
+      "pickrate": 0.06936666666666667,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2599
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 29566
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 565
+        }
+      ]
+    },
+    {
+      "augmentId": 1006,
+      "tier": "B",
+      "pickrate": 0.0037,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1763
+        }
+      ]
+    },
+    {
+      "augmentId": 1013,
+      "tier": "B",
+      "pickrate": 0.0434,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1800
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 20709
+        }
+      ]
+    },
+    {
+      "augmentId": 1018,
+      "tier": "B",
+      "pickrate": 0.02435,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1093
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 11263
+        }
+      ]
+    },
+    {
+      "augmentId": 1019,
+      "tier": "B",
+      "pickrate": 0.01925,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 802
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 9004
         }
       ]
     },
     {
       "augmentId": 1020,
-      "tier": "D",
+      "tier": "B",
       "pickrate": 0.02045,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 900
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 9676
+        }
+      ]
+    },
+    {
+      "augmentId": 1028,
+      "tier": "B",
+      "pickrate": 0.00745,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 323
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3452
+        }
+      ]
+    },
+    {
+      "augmentId": 1041,
+      "tier": "B",
+      "pickrate": 0.06103333333333333,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2541
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 27788
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 445
+        }
+      ]
+    },
+    {
+      "augmentId": 1056,
+      "tier": "B",
+      "pickrate": 0.0309,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1307
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 14752
+        }
+      ]
+    },
+    {
+      "augmentId": 1084,
+      "tier": "B",
+      "pickrate": 0.0395,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1371
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 14919
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 376
+        }
+      ]
+    },
+    {
+      "augmentId": 1095,
+      "tier": "B",
+      "pickrate": 0.0044,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2130
+        }
+      ]
+    },
+    {
+      "augmentId": 1138,
+      "tier": "B",
+      "pickrate": 0.025599999999999998,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1085
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 11963
+        }
+      ]
+    },
+    {
+      "augmentId": 1149,
+      "tier": "B",
+      "pickrate": 0.01475,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 626
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6849
+        }
+      ]
+    },
+    {
+      "augmentId": 1151,
+      "tier": "B",
+      "pickrate": 0.06160000000000001,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2473
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 26716
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 477
+        }
+      ]
+    },
+    {
+      "augmentId": 1152,
+      "tier": "B",
+      "pickrate": 0.05253333333333333,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2464
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 28149
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 281
+        }
+      ]
+    },
+    {
+      "augmentId": 1154,
+      "tier": "B",
+      "pickrate": 0.01005,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 457
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4657
+        }
+      ]
+    },
+    {
+      "augmentId": 1181,
+      "tier": "B",
+      "pickrate": 0.03895,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1659
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 18434
+        }
+      ]
+    },
+    {
+      "augmentId": 1205,
+      "tier": "B",
+      "pickrate": 0.07673333333333333,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3237
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 36871
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 511
+        }
+      ]
+    },
+    {
+      "augmentId": 1211,
+      "tier": "B",
+      "pickrate": 0.03155,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1402
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 14826
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": "B",
+      "pickrate": 0.04993333333333333,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2137
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 25411
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 296
+        }
+      ]
+    },
+    {
+      "augmentId": 1301,
+      "tier": "B",
+      "pickrate": 0.01105,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 476
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5128
+        }
+      ]
+    },
+    {
+      "augmentId": 1319,
+      "tier": "B",
+      "pickrate": 0.0286,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1158
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 13688
+        }
+      ]
+    },
+    {
+      "augmentId": 1322,
+      "tier": "B",
+      "pickrate": 0.0046,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2245
+        }
+      ]
+    },
+    {
+      "augmentId": 1332,
+      "tier": "B",
+      "pickrate": 0.009999999999999998,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 429
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4472
+        }
+      ]
+    },
+    {
+      "augmentId": 1344,
+      "tier": "B",
+      "pickrate": 0.008,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 353
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3477
+        }
+      ]
+    },
+    {
+      "augmentId": 1358,
+      "tier": "B",
+      "pickrate": 0.0203,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 874
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 9395
+        }
+      ]
+    },
+    {
+      "augmentId": 1375,
+      "tier": "B",
+      "pickrate": 0.0275,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1140
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 13188
+        }
+      ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": "B",
+      "pickrate": 0.0081,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 360
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3648
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": "B",
+      "pickrate": 0.00705,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 282
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3293
+        }
+      ]
+    },
+    {
+      "augmentId": 1403,
+      "tier": "B",
+      "pickrate": 0.0171,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 711
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 7904
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": "B",
+      "pickrate": 0.008799999999999999,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 352
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4163
+        }
+      ]
+    },
+    {
+      "augmentId": 2006,
+      "tier": "B",
+      "pickrate": 0.06830000000000001,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3062
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 33267
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 436
+        }
+      ]
+    },
+    {
+      "augmentId": 2009,
+      "tier": "B",
+      "pickrate": 0.0139,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 584
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6509
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": "B",
+      "pickrate": 0.0569,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2396
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 27055
+        }
+      ]
+    },
+    {
+      "augmentId": 2032,
+      "tier": "B",
+      "pickrate": 0.013600000000000001,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 615
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6348
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": "B",
+      "pickrate": 0.01405,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 599
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6455
+        }
+      ]
+    },
+    {
+      "augmentId": 2042,
+      "tier": "B",
+      "pickrate": 0.0018,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 861
+        }
+      ]
+    },
+    {
+      "augmentId": 2063,
+      "tier": "B",
+      "pickrate": 0.0013,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 650
+        }
+      ]
+    },
+    {
+      "augmentId": 2098,
+      "tier": "B",
+      "pickrate": 0.0060999999999999995,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 259
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2665
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": "B",
+      "pickrate": 0.0124,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 520
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5552
+        }
+      ]
+    },
+    {
+      "augmentId": 2107,
+      "tier": "B",
+      "pickrate": 0.0021,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1007
+        }
+      ]
+    },
+    {
+      "augmentId": 2116,
+      "tier": "B",
+      "pickrate": 0.036,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1174
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 13614
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 355
+        }
+      ]
+    },
+    {
+      "augmentId": 2134,
+      "tier": "B",
+      "pickrate": 0.0019,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 901
+        }
+      ]
+    },
+    {
+      "augmentId": 1001,
+      "tier": "C",
+      "pickrate": 0.015,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 646
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6926
+        }
+      ]
+    },
+    {
+      "augmentId": 1002,
+      "tier": "C",
+      "pickrate": 0.019549999999999998,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 848
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 9214
+        }
+      ]
+    },
+    {
+      "augmentId": 1011,
+      "tier": "C",
+      "pickrate": 0.0027,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1291
+        }
+      ]
+    },
+    {
+      "augmentId": 1057,
+      "tier": "C",
+      "pickrate": 0.0047,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2289
+        }
+      ]
+    },
+    {
+      "augmentId": 1088,
+      "tier": "C",
+      "pickrate": 0.0373,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1408
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 14611
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 332
+        }
+      ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": "C",
+      "pickrate": 0.0054,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2587
+        }
+      ]
+    },
+    {
+      "augmentId": 1386,
+      "tier": "C",
+      "pickrate": 0.0035,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1712
+        }
+      ]
+    },
+    {
+      "augmentId": 1401,
+      "tier": "C",
+      "pickrate": 0.0314,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1289
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 14871
+        }
+      ]
+    },
+    {
+      "augmentId": 1413,
+      "tier": "C",
+      "pickrate": 0.0045,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2166
+        }
+      ]
+    },
+    {
+      "augmentId": 1421,
+      "tier": "C",
+      "pickrate": 0.0033,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1584
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": "C",
+      "pickrate": 0.0092,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 434
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4116
+        }
+      ]
+    },
+    {
+      "augmentId": 2016,
+      "tier": "C",
+      "pickrate": 0.006200000000000001,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 276
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2932
+        }
+      ]
+    },
+    {
+      "augmentId": 2026,
+      "tier": "C",
+      "pickrate": 0.00605,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 280
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2917
+        }
+      ]
+    },
+    {
+      "augmentId": 2043,
+      "tier": "C",
+      "pickrate": 0.013999999999999999,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 626
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6571
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": "C",
+      "pickrate": 0.041,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1819
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 19226
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 268
+        }
+      ]
+    },
+    {
+      "augmentId": 2088,
+      "tier": "C",
+      "pickrate": 0.02025,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 852
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 9376
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": "C",
+      "pickrate": 0.010450000000000001,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 431
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4864
+        }
+      ]
+    },
+    {
+      "augmentId": 2091,
+      "tier": "C",
+      "pickrate": 0.0267,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1207
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 12688
+        }
+      ]
+    },
+    {
+      "augmentId": 2139,
+      "tier": "C",
+      "pickrate": 0.012150000000000001,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 538
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5648
         }
       ]
     },
@@ -1458,85 +2543,71 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1690
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 18891
         }
       ]
     },
     {
-      "augmentId": 1028,
+      "augmentId": 1027,
       "tier": "D",
-      "pickrate": 0.00745,
+      "pickrate": 0.0031,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 323
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3452
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1497
         }
       ]
     },
     {
-      "augmentId": 1041,
+      "augmentId": 1044,
       "tier": "D",
-      "pickrate": 0.06103333333333333,
+      "pickrate": 0.0112,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2541
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 472
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 27788
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 445
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5251
         }
       ]
     },
     {
-      "augmentId": 1057,
+      "augmentId": 1058,
       "tier": "D",
-      "pickrate": 0.0049,
+      "pickrate": 0.01585,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 697
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 727
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2289
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 7426
         }
       ]
     },
@@ -1549,85 +2620,15 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 412
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 4405
-        }
-      ]
-    },
-    {
-      "augmentId": 1084,
-      "tier": "D",
-      "pickrate": 0.0395,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1371
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 14919
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 376
-        }
-      ]
-    },
-    {
-      "augmentId": 1138,
-      "tier": "D",
-      "pickrate": 0.025599999999999998,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1085
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 11963
-        }
-      ]
-    },
-    {
-      "augmentId": 1149,
-      "tier": "D",
-      "pickrate": 0.01475,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 626
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6849
         }
       ]
     },
@@ -1640,687 +2641,50 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 633
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 6320
         }
       ]
     },
     {
-      "augmentId": 1151,
+      "augmentId": 1345,
       "tier": "D",
-      "pickrate": 0.06160000000000001,
+      "pickrate": 0.0146,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2473
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 576
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 26716
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 477
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6824
         }
       ]
     },
     {
-      "augmentId": 1152,
+      "augmentId": 2046,
       "tier": "D",
-      "pickrate": 0.05253333333333333,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2464
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 28149
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 281
-        }
-      ]
-    },
-    {
-      "augmentId": 1154,
-      "tier": "D",
-      "pickrate": 0.01005,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 457
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4657
-        }
-      ]
-    },
-    {
-      "augmentId": 1181,
-      "tier": "D",
-      "pickrate": 0.03895,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1659
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 18434
-        }
-      ]
-    },
-    {
-      "augmentId": 1211,
-      "tier": "D",
-      "pickrate": 0.03155,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1402
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 14826
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "tier": "D",
-      "pickrate": 0.04993333333333333,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2137
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 25411
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 296
-        }
-      ]
-    },
-    {
-      "augmentId": 1301,
-      "tier": "D",
-      "pickrate": 0.01105,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 476
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5128
-        }
-      ]
-    },
-    {
-      "augmentId": 1319,
-      "tier": "D",
-      "pickrate": 0.0286,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1158
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 13688
-        }
-      ]
-    },
-    {
-      "augmentId": 1326,
-      "tier": "D",
-      "pickrate": 0.0056500000000000005,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 719
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2587
-        }
-      ]
-    },
-    {
-      "augmentId": 1332,
-      "tier": "D",
-      "pickrate": 0.009999999999999998,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 429
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4472
-        }
-      ]
-    },
-    {
-      "augmentId": 1344,
-      "tier": "D",
-      "pickrate": 0.008,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 353
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3477
-        }
-      ]
-    },
-    {
-      "augmentId": 1349,
-      "tier": "D",
-      "pickrate": 0.027,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1178
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 12154
-        }
-      ]
-    },
-    {
-      "augmentId": 1358,
-      "tier": "D",
-      "pickrate": 0.0203,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 874
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 9395
-        }
-      ]
-    },
-    {
-      "augmentId": 1375,
-      "tier": "D",
-      "pickrate": 0.0275,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1140
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 13188
-        }
-      ]
-    },
-    {
-      "augmentId": 1386,
-      "tier": "D",
-      "pickrate": 0.00355,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 554
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1712
-        }
-      ]
-    },
-    {
-      "augmentId": 1401,
-      "tier": "D",
-      "pickrate": 0.0314,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1289
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 14871
-        }
-      ]
-    },
-    {
-      "augmentId": 1402,
-      "tier": "D",
-      "pickrate": 0.00705,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 282
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3293
-        }
-      ]
-    },
-    {
-      "augmentId": 1403,
-      "tier": "D",
-      "pickrate": 0.0171,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 711
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 7904
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "tier": "D",
-      "pickrate": 0.008799999999999999,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 352
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4163
-        }
-      ]
-    },
-    {
-      "augmentId": 1413,
-      "tier": "D",
-      "pickrate": 0.0049,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 702
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2166
-        }
-      ]
-    },
-    {
-      "augmentId": 1421,
-      "tier": "D",
-      "pickrate": 0.00365,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 639
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1584
-        }
-      ]
-    },
-    {
-      "augmentId": 2006,
-      "tier": "D",
-      "pickrate": 0.06830000000000001,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3062
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 33267
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 436
-        }
-      ]
-    },
-    {
-      "augmentId": 2009,
-      "tier": "D",
-      "pickrate": 0.0139,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 584
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6509
-        }
-      ]
-    },
-    {
-      "augmentId": 2016,
-      "tier": "D",
-      "pickrate": 0.006200000000000001,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 276
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2932
-        }
-      ]
-    },
-    {
-      "augmentId": 2018,
-      "tier": "D",
-      "pickrate": 0.0569,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2396
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 27055
-        }
-      ]
-    },
-    {
-      "augmentId": 2026,
-      "tier": "D",
-      "pickrate": 0.00605,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 280
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2917
-        }
-      ]
-    },
-    {
-      "augmentId": 2032,
-      "tier": "D",
-      "pickrate": 0.013600000000000001,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 615
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6348
-        }
-      ]
-    },
-    {
-      "augmentId": 2034,
-      "tier": "D",
-      "pickrate": 0.01405,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 599
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6455
-        }
-      ]
-    },
-    {
-      "augmentId": 2042,
-      "tier": "D",
-      "pickrate": 0.0018,
+      "pickrate": 0.0015,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 861
-        }
-      ]
-    },
-    {
-      "augmentId": 2043,
-      "tier": "D",
-      "pickrate": 0.013999999999999999,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 626
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6571
-        }
-      ]
-    },
-    {
-      "augmentId": 2063,
-      "tier": "D",
-      "pickrate": 0.00155,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 258
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 650
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 714
         }
       ]
     },
@@ -2333,21 +2697,21 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2065
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 22362
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 631
         }
       ]
@@ -2361,120 +2725,15 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 420
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 4749
-        }
-      ]
-    },
-    {
-      "augmentId": 2088,
-      "tier": "D",
-      "pickrate": 0.02025,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 852
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 9376
-        }
-      ]
-    },
-    {
-      "augmentId": 2089,
-      "tier": "D",
-      "pickrate": 0.010450000000000001,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 431
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4864
-        }
-      ]
-    },
-    {
-      "augmentId": 2091,
-      "tier": "D",
-      "pickrate": 0.0267,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1207
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 12688
-        }
-      ]
-    },
-    {
-      "augmentId": 2098,
-      "tier": "D",
-      "pickrate": 0.0060999999999999995,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 259
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2665
-        }
-      ]
-    },
-    {
-      "augmentId": 2099,
-      "tier": "D",
-      "pickrate": 0.0124,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 520
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5552
         }
       ]
     },
@@ -2487,330 +2746,71 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1889
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 21176
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 370
         }
       ]
     },
     {
-      "augmentId": 2107,
+      "augmentId": 2115,
       "tier": "D",
-      "pickrate": 0.00245,
+      "pickrate": 0.0037,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 408
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1007
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1793
         }
       ]
     },
     {
-      "augmentId": 2116,
+      "augmentId": 12317,
       "tier": "D",
-      "pickrate": 0.036,
+      "pickrate": 0.019299999999999998,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1174
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 725
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 13614
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 355
-        }
-      ]
-    },
-    {
-      "augmentId": 2119,
-      "tier": "D",
-      "pickrate": 0.00445,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 620
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2063
-        }
-      ]
-    },
-    {
-      "augmentId": 2134,
-      "tier": "D",
-      "pickrate": 0.0023,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 337
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 901
-        }
-      ]
-    },
-    {
-      "augmentId": 2137,
-      "tier": "D",
-      "pickrate": 0.0033,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 420
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1543
-        }
-      ]
-    },
-    {
-      "augmentId": 2139,
-      "tier": "D",
-      "pickrate": 0.012150000000000001,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 538
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5648
-        }
-      ]
-    },
-    {
-      "augmentId": 1001,
-      "tier": "F",
-      "pickrate": 0.015,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 646
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6926
-        }
-      ]
-    },
-    {
-      "augmentId": 1011,
-      "tier": "F",
-      "pickrate": 0.00315,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 466
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1291
-        }
-      ]
-    },
-    {
-      "augmentId": 1027,
-      "tier": "F",
-      "pickrate": 0.0034000000000000002,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 499
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1497
-        }
-      ]
-    },
-    {
-      "augmentId": 1044,
-      "tier": "F",
-      "pickrate": 0.0112,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 472
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5251
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 9768
         }
       ]
     },
     {
       "augmentId": 1054,
       "tier": "F",
-      "pickrate": 0.004399999999999999,
+      "pickrate": 0.0042,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 621
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2023
-        }
-      ]
-    },
-    {
-      "augmentId": 1058,
-      "tier": "F",
-      "pickrate": 0.01585,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 727
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 7426
-        }
-      ]
-    },
-    {
-      "augmentId": 1088,
-      "tier": "F",
-      "pickrate": 0.0373,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1408
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 14611
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 332
-        }
-      ]
-    },
-    {
-      "augmentId": 1095,
-      "tier": "F",
-      "pickrate": 0.0048000000000000004,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 724
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2130
         }
       ]
     },
@@ -2823,14 +2823,14 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 817
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 8385
         }
       ]
@@ -2844,14 +2844,14 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 276
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2843
         }
       ]
@@ -2865,99 +2865,15 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 521
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 5325
-        }
-      ]
-    },
-    {
-      "augmentId": 1345,
-      "tier": "F",
-      "pickrate": 0.0146,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 576
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6824
-        }
-      ]
-    },
-    {
-      "augmentId": 1392,
-      "tier": "F",
-      "pickrate": 0.0081,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 360
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3648
-        }
-      ]
-    },
-    {
-      "augmentId": 2005,
-      "tier": "F",
-      "pickrate": 0.0092,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 434
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4116
-        }
-      ]
-    },
-    {
-      "augmentId": 2046,
-      "tier": "F",
-      "pickrate": 0.0015500000000000002,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 272
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 714
         }
       ]
     },
@@ -2970,64 +2886,15 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 670
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 7817
-        }
-      ]
-    },
-    {
-      "augmentId": 2087,
-      "tier": "F",
-      "pickrate": 0.041,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1819
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 19226
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/gragas?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 268
-        }
-      ]
-    },
-    {
-      "augmentId": 2115,
-      "tier": "F",
-      "pickrate": 0.0040999999999999995,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 662
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1793
         }
       ]
     },
@@ -3040,14 +2907,14 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1359
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 14413
         }
       ]
@@ -3061,36 +2928,29 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/79",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 490
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 5509
         }
       ]
     },
     {
-      "augmentId": 12317,
+      "augmentId": 2137,
       "tier": "F",
-      "pickrate": 0.019299999999999998,
+      "pickrate": 0.0032,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/79",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 725
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/gragas?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 9768
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1543
         }
       ]
     }

@@ -1,1121 +1,2290 @@
 {
-  "version": 2,
-  "method": "warden-sample-weighted-grades-v1",
+  "version": 3,
+  "method": "warden-champion-rarity-percentiles-v1",
   "championId": 897,
   "championKey": "KSante",
   "set": "aram",
   "patch": "16.18",
-  "scrapedAt": "2026-09-13T21:52:42.336Z",
+  "scrapedAt": "2026-09-13T21:58:37.471Z",
   "augments": [
     {
-      "augmentId": 2095,
-      "tier": "C",
-      "pickrate": 0.0191,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 341
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4357
-        }
-      ]
-    },
-    {
-      "augmentId": 1361,
-      "tier": "D",
-      "pickrate": 0.0434,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 9856
-        }
-      ]
-    },
-    {
-      "augmentId": 2102,
-      "tier": "D",
-      "pickrate": 0.06534999999999999,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1248
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 14844
-        }
-      ]
-    },
-    {
-      "augmentId": 1001,
-      "tier": "F",
-      "pickrate": 0.060899999999999996,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1148
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 13421
-        }
-      ]
-    },
-    {
-      "augmentId": 1002,
-      "tier": "F",
-      "pickrate": 0.0405,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 728
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 9002
-        }
-      ]
-    },
-    {
-      "augmentId": 1004,
-      "tier": "F",
-      "pickrate": 0.0183,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 356
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4033
-        }
-      ]
-    },
-    {
-      "augmentId": 1006,
-      "tier": "F",
-      "pickrate": 0.00915,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 838
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1955
-        }
-      ]
-    },
-    {
-      "augmentId": 1007,
-      "tier": "F",
-      "pickrate": 0.0131,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1047
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2880
-        }
-      ]
-    },
-    {
-      "augmentId": 1011,
-      "tier": "F",
-      "pickrate": 0.00825,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 697
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1689
-        }
-      ]
-    },
-    {
-      "augmentId": 1013,
-      "tier": "F",
-      "pickrate": 0.1247,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2270
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 27694
-        }
-      ]
-    },
-    {
-      "augmentId": 1018,
-      "tier": "F",
-      "pickrate": 0.02895,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 557
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6265
-        }
-      ]
-    },
-    {
       "augmentId": 1019,
-      "tier": "F",
+      "tier": "S",
       "pickrate": 0.04865,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/897",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 884
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 10722
         }
       ]
     },
     {
-      "augmentId": 1020,
-      "tier": "F",
-      "pickrate": 0.06394999999999999,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1174
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 14133
-        }
-      ]
-    },
-    {
-      "augmentId": 1025,
-      "tier": "F",
-      "pickrate": 0.029249999999999998,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 539
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6540
-        }
-      ]
-    },
-    {
-      "augmentId": 1027,
-      "tier": "F",
-      "pickrate": 0.0098,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 886
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2049
-        }
-      ]
-    },
-    {
-      "augmentId": 1028,
-      "tier": "F",
-      "pickrate": 0.00835,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 717
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1871
-        }
-      ]
-    },
-    {
-      "augmentId": 1029,
-      "tier": "F",
-      "pickrate": 0.06785,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1218
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 15024
-        }
-      ]
-    },
-    {
-      "augmentId": 1036,
-      "tier": "F",
-      "pickrate": 0.0106,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 892
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2348
-        }
-      ]
-    },
-    {
-      "augmentId": 1038,
-      "tier": "F",
-      "pickrate": 0.0029,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 659
-        }
-      ]
-    },
-    {
-      "augmentId": 1041,
-      "tier": "F",
-      "pickrate": 0.10435,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1888
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 22973
-        }
-      ]
-    },
-    {
-      "augmentId": 1046,
-      "tier": "F",
-      "pickrate": 0.00345,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 287
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 788
-        }
-      ]
-    },
-    {
-      "augmentId": 1048,
-      "tier": "F",
-      "pickrate": 0.0069,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 643
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1454
-        }
-      ]
-    },
-    {
       "augmentId": 1053,
-      "tier": "F",
+      "tier": "S",
       "pickrate": 0.03975,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/897",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 785
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 8635
         }
       ]
     },
     {
-      "augmentId": 1056,
-      "tier": "F",
-      "pickrate": 0.01845,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 296
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4036
-        }
-      ]
-    },
-    {
-      "augmentId": 1057,
-      "tier": "F",
-      "pickrate": 0.00835,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 635
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1816
-        }
-      ]
-    },
-    {
-      "augmentId": 1058,
-      "tier": "F",
-      "pickrate": 0.022949999999999998,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 467
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4959
-        }
-      ]
-    },
-    {
       "augmentId": 1060,
-      "tier": "F",
+      "tier": "S",
       "pickrate": 0.02095,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/897",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 372
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 4687
         }
       ]
     },
     {
       "augmentId": 1062,
-      "tier": "F",
-      "pickrate": 0.0093,
+      "tier": "S",
+      "pickrate": 0.0087,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 860
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1979
         }
       ]
     },
     {
       "augmentId": 1063,
-      "tier": "F",
+      "tier": "S",
       "pickrate": 0.08933333333333333,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/897",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1325
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 16196
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/ksante?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 274
         }
       ]
     },
     {
-      "augmentId": 1068,
-      "tier": "F",
-      "pickrate": 0.05395,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 964
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 11920
-        }
-      ]
-    },
-    {
-      "augmentId": 1071,
-      "tier": "F",
-      "pickrate": 0.01105,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 864
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2419
-        }
-      ]
-    },
-    {
-      "augmentId": 1072,
-      "tier": "F",
-      "pickrate": 0.0037,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 328
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 793
-        }
-      ]
-    },
-    {
       "augmentId": 1073,
-      "tier": "F",
+      "tier": "S",
       "pickrate": 0.0395,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/897",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 730
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 8799
         }
       ]
     },
     {
-      "augmentId": 1074,
-      "tier": "F",
-      "pickrate": 0.009899999999999999,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 842
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2207
-        }
-      ]
-    },
-    {
-      "augmentId": 1079,
-      "tier": "F",
-      "pickrate": 0.00825,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 826
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1752
-        }
-      ]
-    },
-    {
-      "augmentId": 1088,
-      "tier": "F",
-      "pickrate": 0.00435,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 413
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 927
-        }
-      ]
-    },
-    {
-      "augmentId": 1098,
-      "tier": "F",
-      "pickrate": 0.0056,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 493
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1211
-        }
-      ]
-    },
-    {
-      "augmentId": 1112,
-      "tier": "F",
-      "pickrate": 0.0119,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 948
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2624
-        }
-      ]
-    },
-    {
-      "augmentId": 1115,
-      "tier": "F",
-      "pickrate": 0.0046,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 387
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 963
-        }
-      ]
-    },
-    {
-      "augmentId": 1116,
-      "tier": "F",
-      "pickrate": 0.0212,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 379
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4643
-        }
-      ]
-    },
-    {
-      "augmentId": 1136,
-      "tier": "F",
-      "pickrate": 0.02335,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 450
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5142
-        }
-      ]
-    },
-    {
-      "augmentId": 1138,
-      "tier": "F",
-      "pickrate": 0.0224,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 415
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4991
-        }
-      ]
-    },
-    {
-      "augmentId": 1149,
-      "tier": "F",
-      "pickrate": 0.0422,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 793
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 9363
-        }
-      ]
-    },
-    {
-      "augmentId": 1150,
-      "tier": "F",
-      "pickrate": 0.02665,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 489
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5801
-        }
-      ]
-    },
-    {
       "augmentId": 1151,
-      "tier": "F",
+      "tier": "S",
       "pickrate": 0.0283,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/897",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 503
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 6125
         }
       ]
     },
     {
-      "augmentId": 1152,
-      "tier": "F",
-      "pickrate": 0.13256666666666664,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2439
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 31069
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/ksante?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 279
-        }
-      ]
-    },
-    {
-      "augmentId": 1154,
-      "tier": "F",
-      "pickrate": 0.0108,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1026
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2309
-        }
-      ]
-    },
-    {
-      "augmentId": 1170,
-      "tier": "F",
-      "pickrate": 0.0068000000000000005,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 537
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1528
-        }
-      ]
-    },
-    {
       "augmentId": 1181,
-      "tier": "F",
+      "tier": "S",
       "pickrate": 0.13410000000000002,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/897",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2496
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 29330
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/ksante?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 310
         }
       ]
     },
     {
-      "augmentId": 1194,
-      "tier": "F",
-      "pickrate": 0.0036,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 824
-        }
-      ]
-    },
-    {
       "augmentId": 1195,
-      "tier": "F",
-      "pickrate": 0.00415,
+      "tier": "S",
+      "pickrate": 0.0038,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 357
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 857
         }
       ]
     },
     {
-      "augmentId": 1211,
-      "tier": "F",
-      "pickrate": 0.0047,
+      "augmentId": 1319,
+      "tier": "S",
+      "pickrate": 0.067,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/897",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1195
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 15120
+        }
+      ]
+    },
+    {
+      "augmentId": 1333,
+      "tier": "S",
+      "pickrate": 0.04995,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 960
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 11086
+        }
+      ]
+    },
+    {
+      "augmentId": 1337,
+      "tier": "S",
+      "pickrate": 0.0058,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1324
+        }
+      ]
+    },
+    {
+      "augmentId": 1361,
+      "tier": "S",
+      "pickrate": 0.0434,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 9856
+        }
+      ]
+    },
+    {
+      "augmentId": 1384,
+      "tier": "S",
+      "pickrate": 0.0262,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 451
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5744
+        }
+      ]
+    },
+    {
+      "augmentId": 1401,
+      "tier": "S",
+      "pickrate": 0.060450000000000004,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1053
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 13518
+        }
+      ]
+    },
+    {
+      "augmentId": 1403,
+      "tier": "S",
+      "pickrate": 0.019200000000000002,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 311
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4129
+        }
+      ]
+    },
+    {
+      "augmentId": 2031,
+      "tier": "S",
+      "pickrate": 0.01685,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 323
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3652
+        }
+      ]
+    },
+    {
+      "augmentId": 2095,
+      "tier": "S",
+      "pickrate": 0.0191,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 341
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4357
+        }
+      ]
+    },
+    {
+      "augmentId": 2102,
+      "tier": "S",
+      "pickrate": 0.06534999999999999,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1248
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 14844
+        }
+      ]
+    },
+    {
+      "augmentId": 2139,
+      "tier": "S",
+      "pickrate": 0.05525,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1045
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 12321
+        }
+      ]
+    },
+    {
+      "augmentId": 1002,
+      "tier": "A",
+      "pickrate": 0.0405,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 728
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 9002
+        }
+      ]
+    },
+    {
+      "augmentId": 1006,
+      "tier": "A",
+      "pickrate": 0.0086,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1955
+        }
+      ]
+    },
+    {
+      "augmentId": 1013,
+      "tier": "A",
+      "pickrate": 0.1247,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2270
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 27694
+        }
+      ]
+    },
+    {
+      "augmentId": 1018,
+      "tier": "A",
+      "pickrate": 0.02895,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 557
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6265
+        }
+      ]
+    },
+    {
+      "augmentId": 1025,
+      "tier": "A",
+      "pickrate": 0.029249999999999998,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 539
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6540
+        }
+      ]
+    },
+    {
+      "augmentId": 1028,
+      "tier": "A",
+      "pickrate": 0.0082,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1871
+        }
+      ]
+    },
+    {
+      "augmentId": 1041,
+      "tier": "A",
+      "pickrate": 0.10435,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1888
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 22973
+        }
+      ]
+    },
+    {
+      "augmentId": 1068,
+      "tier": "A",
+      "pickrate": 0.05395,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 964
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 11920
+        }
+      ]
+    },
+    {
+      "augmentId": 1149,
+      "tier": "A",
+      "pickrate": 0.0422,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 793
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 9363
+        }
+      ]
+    },
+    {
+      "augmentId": 1150,
+      "tier": "A",
+      "pickrate": 0.02665,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 489
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5801
+        }
+      ]
+    },
+    {
+      "augmentId": 1152,
+      "tier": "A",
+      "pickrate": 0.13256666666666664,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2439
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 31069
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/ksante?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 279
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": "A",
+      "pickrate": 0.04635,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 827
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 10367
+        }
+      ]
+    },
+    {
+      "augmentId": 1238,
+      "tier": "A",
+      "pickrate": 0.0884,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1595
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 19825
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": "A",
+      "pickrate": 0.0293,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 516
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6227
+        }
+      ]
+    },
+    {
+      "augmentId": 1305,
+      "tier": "A",
+      "pickrate": 0.03765,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 724
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 8274
+        }
+      ]
+    },
+    {
+      "augmentId": 1311,
+      "tier": "A",
+      "pickrate": 0.0032,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 736
+        }
+      ]
+    },
+    {
+      "augmentId": 1315,
+      "tier": "A",
+      "pickrate": 0.0413,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 721
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 9034
+        }
+      ]
+    },
+    {
+      "augmentId": 1322,
+      "tier": "A",
+      "pickrate": 0.0071,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1620
+        }
+      ]
+    },
+    {
+      "augmentId": 1323,
+      "tier": "A",
+      "pickrate": 0.0095,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2154
+        }
+      ]
+    },
+    {
+      "augmentId": 1344,
+      "tier": "A",
+      "pickrate": 0.045700000000000005,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 857
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 10023
+        }
+      ]
+    },
+    {
+      "augmentId": 1349,
+      "tier": "A",
+      "pickrate": 0.01725,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 282
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3744
+        }
+      ]
+    },
+    {
+      "augmentId": 1358,
+      "tier": "A",
+      "pickrate": 0.016849999999999997,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 325
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3708
+        }
+      ]
+    },
+    {
+      "augmentId": 1375,
+      "tier": "A",
+      "pickrate": 0.0343,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 614
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 7732
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": "A",
+      "pickrate": 0.0076,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1737
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": "A",
+      "pickrate": 0.0068,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1548
+        }
+      ]
+    },
+    {
+      "augmentId": 1413,
+      "tier": "A",
+      "pickrate": 0.015349999999999999,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 283
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3215
+        }
+      ]
+    },
+    {
+      "augmentId": 2032,
+      "tier": "A",
+      "pickrate": 0.0096,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2193
+        }
+      ]
+    },
+    {
+      "augmentId": 2091,
+      "tier": "A",
+      "pickrate": 0.07405,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1362
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 16402
+        }
+      ]
+    },
+    {
+      "augmentId": 2098,
+      "tier": "A",
+      "pickrate": 0.0126,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2870
+        }
+      ]
+    },
+    {
+      "augmentId": 2107,
+      "tier": "A",
+      "pickrate": 0.0093,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2107
+        }
+      ]
+    },
+    {
+      "augmentId": 2123,
+      "tier": "A",
+      "pickrate": 0.027749999999999997,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 522
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6036
+        }
+      ]
+    },
+    {
+      "augmentId": 2127,
+      "tier": "A",
+      "pickrate": 0.0237,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 430
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5346
+        }
+      ]
+    },
+    {
+      "augmentId": 1001,
+      "tier": "B",
+      "pickrate": 0.060899999999999996,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1148
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 13421
+        }
+      ]
+    },
+    {
+      "augmentId": 1020,
+      "tier": "B",
+      "pickrate": 0.06394999999999999,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1174
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 14133
+        }
+      ]
+    },
+    {
+      "augmentId": 1027,
+      "tier": "B",
+      "pickrate": 0.009,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2049
+        }
+      ]
+    },
+    {
+      "augmentId": 1038,
+      "tier": "B",
+      "pickrate": 0.0029,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 659
+        }
+      ]
+    },
+    {
+      "augmentId": 1046,
+      "tier": "B",
+      "pickrate": 0.0035,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 788
+        }
+      ]
+    },
+    {
+      "augmentId": 1057,
+      "tier": "B",
+      "pickrate": 0.008,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1816
+        }
+      ]
+    },
+    {
+      "augmentId": 1072,
+      "tier": "B",
+      "pickrate": 0.0035,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 793
+        }
+      ]
+    },
+    {
+      "augmentId": 1079,
+      "tier": "B",
+      "pickrate": 0.0077,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1752
+        }
+      ]
+    },
+    {
+      "augmentId": 1098,
+      "tier": "B",
+      "pickrate": 0.0053,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1211
+        }
+      ]
+    },
+    {
+      "augmentId": 1116,
+      "tier": "B",
+      "pickrate": 0.0212,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 379
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4643
+        }
+      ]
+    },
+    {
+      "augmentId": 1136,
+      "tier": "B",
+      "pickrate": 0.02335,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 450
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5142
+        }
+      ]
+    },
+    {
+      "augmentId": 1138,
+      "tier": "B",
+      "pickrate": 0.0224,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 415
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4991
+        }
+      ]
+    },
+    {
+      "augmentId": 1301,
+      "tier": "B",
+      "pickrate": 0.02145,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 399
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4780
+        }
+      ]
+    },
+    {
+      "augmentId": 1308,
+      "tier": "B",
+      "pickrate": 0.0029,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 668
+        }
+      ]
+    },
+    {
+      "augmentId": 1310,
+      "tier": "B",
+      "pickrate": 0.0199,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 364
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4362
+        }
+      ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": "B",
+      "pickrate": 0.033,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 612
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 7303
+        }
+      ]
+    },
+    {
+      "augmentId": 1335,
+      "tier": "B",
+      "pickrate": 0.0026,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 592
+        }
+      ]
+    },
+    {
+      "augmentId": 1345,
+      "tier": "B",
+      "pickrate": 0.0116,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2644
+        }
+      ]
+    },
+    {
+      "augmentId": 1353,
+      "tier": "B",
+      "pickrate": 0.19000000000000003,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3627
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 43191
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/ksante?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 408
+        }
+      ]
+    },
+    {
+      "augmentId": 1373,
+      "tier": "B",
+      "pickrate": 0.01415,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 271
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3193
+        }
+      ]
+    },
+    {
+      "augmentId": 1388,
+      "tier": "B",
+      "pickrate": 0.01845,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 343
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4107
+        }
+      ]
+    },
+    {
+      "augmentId": 1421,
+      "tier": "B",
+      "pickrate": 0.0077,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1739
+        }
+      ]
+    },
+    {
+      "augmentId": 1996,
+      "tier": "B",
+      "pickrate": 0.04965,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 899
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 11114
+        }
+      ]
+    },
+    {
+      "augmentId": 2005,
+      "tier": "B",
+      "pickrate": 0.01985,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 390
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4311
+        }
+      ]
+    },
+    {
+      "augmentId": 2006,
+      "tier": "B",
+      "pickrate": 0.13596666666666668,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2494
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 30796
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/ksante?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 295
+        }
+      ]
+    },
+    {
+      "augmentId": 2026,
+      "tier": "B",
+      "pickrate": 0.0069,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1568
+        }
+      ]
+    },
+    {
+      "augmentId": 2043,
+      "tier": "B",
+      "pickrate": 0.0286,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 477
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6352
+        }
+      ]
+    },
+    {
+      "augmentId": 2063,
+      "tier": "B",
+      "pickrate": 0.0029,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 664
+        }
+      ]
+    },
+    {
+      "augmentId": 2073,
+      "tier": "B",
+      "pickrate": 0.0796,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1498
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 17681
+        }
+      ]
+    },
+    {
+      "augmentId": 2082,
+      "tier": "B",
+      "pickrate": 0.01975,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 362
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4412
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": "B",
+      "pickrate": 0.0107,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2426
+        }
+      ]
+    },
+    {
+      "augmentId": 2088,
+      "tier": "B",
+      "pickrate": 0.0143,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 255
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3176
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": "B",
+      "pickrate": 0.0137,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 282
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2916
+        }
+      ]
+    },
+    {
+      "augmentId": 2115,
+      "tier": "B",
+      "pickrate": 0.0108,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2445
+        }
+      ]
+    },
+    {
+      "augmentId": 2119,
+      "tier": "B",
+      "pickrate": 0.0058,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1308
+        }
+      ]
+    },
+    {
+      "augmentId": 2131,
+      "tier": "B",
+      "pickrate": 0.02225,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 373
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4888
+        }
+      ]
+    },
+    {
+      "augmentId": 2137,
+      "tier": "B",
+      "pickrate": 0.0072,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1635
+        }
+      ]
+    },
+    {
+      "augmentId": 12317,
+      "tier": "B",
+      "pickrate": 0.02095,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 336
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4967
+        }
+      ]
+    },
+    {
+      "augmentId": 1004,
+      "tier": "C",
+      "pickrate": 0.0183,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 356
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4033
+        }
+      ]
+    },
+    {
+      "augmentId": 1007,
+      "tier": "C",
+      "pickrate": 0.0127,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2880
+        }
+      ]
+    },
+    {
+      "augmentId": 1011,
+      "tier": "C",
+      "pickrate": 0.0074,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1689
+        }
+      ]
+    },
+    {
+      "augmentId": 1029,
+      "tier": "C",
+      "pickrate": 0.06785,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1218
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 15024
+        }
+      ]
+    },
+    {
+      "augmentId": 1036,
+      "tier": "C",
+      "pickrate": 0.0103,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2348
+        }
+      ]
+    },
+    {
+      "augmentId": 1048,
+      "tier": "C",
+      "pickrate": 0.0064,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1454
+        }
+      ]
+    },
+    {
+      "augmentId": 1056,
+      "tier": "C",
+      "pickrate": 0.01845,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 296
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4036
+        }
+      ]
+    },
+    {
+      "augmentId": 1058,
+      "tier": "C",
+      "pickrate": 0.022949999999999998,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 467
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4959
+        }
+      ]
+    },
+    {
+      "augmentId": 1071,
+      "tier": "C",
+      "pickrate": 0.0106,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2419
+        }
+      ]
+    },
+    {
+      "augmentId": 1154,
+      "tier": "C",
+      "pickrate": 0.0102,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2309
+        }
+      ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": "C",
+      "pickrate": 0.0028,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 635
+        }
+      ]
+    },
+    {
+      "augmentId": 1392,
+      "tier": "C",
+      "pickrate": 0.0097,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2201
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": "C",
+      "pickrate": 0.0026,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 584
+        }
+      ]
+    },
+    {
+      "augmentId": 2046,
+      "tier": "C",
+      "pickrate": 0.0013,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 302
+        }
+      ]
+    },
+    {
+      "augmentId": 2078,
+      "tier": "C",
+      "pickrate": 0.06385,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1200
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 14046
+        }
+      ]
+    },
+    {
+      "augmentId": 2080,
+      "tier": "C",
+      "pickrate": 0.01755,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 362
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3800
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": "C",
+      "pickrate": 0.0077,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1740
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": "C",
+      "pickrate": 0.0276,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 527
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6226
+        }
+      ]
+    },
+    {
+      "augmentId": 2118,
+      "tier": "C",
+      "pickrate": 0.0026,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 587
+        }
+      ]
+    },
+    {
+      "augmentId": 2138,
+      "tier": "C",
+      "pickrate": 0.10210000000000001,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1688
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 20739
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/ksante?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 270
+        }
+      ]
+    },
+    {
+      "augmentId": 2157,
+      "tier": "C",
+      "pickrate": 0.018500000000000003,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 348
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4110
+        }
+      ]
+    },
+    {
+      "augmentId": 1074,
+      "tier": "D",
+      "pickrate": 0.0097,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2207
+        }
+      ]
+    },
+    {
+      "augmentId": 1088,
+      "tier": "D",
+      "pickrate": 0.0041,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 927
+        }
+      ]
+    },
+    {
+      "augmentId": 1112,
+      "tier": "D",
+      "pickrate": 0.0115,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2624
+        }
+      ]
+    },
+    {
+      "augmentId": 1115,
+      "tier": "D",
+      "pickrate": 0.0042,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 963
+        }
+      ]
+    },
+    {
+      "augmentId": 1170,
+      "tier": "D",
+      "pickrate": 0.0067,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1528
+        }
+      ]
+    },
+    {
+      "augmentId": 1194,
+      "tier": "D",
+      "pickrate": 0.0036,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 824
+        }
+      ]
+    },
+    {
+      "augmentId": 1211,
+      "tier": "D",
+      "pickrate": 0.0044,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1000
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": "D",
+      "pickrate": 0.0026,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 581
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": "D",
+      "pickrate": 0.01,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2268
+        }
+      ]
+    },
+    {
+      "augmentId": 2083,
+      "tier": "D",
+      "pickrate": 0.0035,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 803
+        }
+      ]
+    },
+    {
+      "augmentId": 2116,
+      "tier": "D",
+      "pickrate": 0.026,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 475
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5904
+        }
+      ]
+    },
+    {
+      "augmentId": 2134,
+      "tier": "D",
+      "pickrate": 0.0014,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 327
+        }
+      ]
+    },
+    {
+      "augmentId": 2141,
+      "tier": "D",
+      "pickrate": 0.01795,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 298
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3932
         }
       ]
     },
     {
       "augmentId": 1220,
       "tier": "F",
-      "pickrate": 0.00255,
+      "pickrate": 0.0022,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 266
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 508
         }
       ]
@@ -1129,1562 +2298,50 @@
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 371
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "tier": "F",
-      "pickrate": 0.04635,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 827
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 10367
-        }
-      ]
-    },
-    {
-      "augmentId": 1238,
-      "tier": "F",
-      "pickrate": 0.0884,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1595
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 19825
-        }
-      ]
-    },
-    {
-      "augmentId": 1243,
-      "tier": "F",
-      "pickrate": 0.0293,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 516
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6227
-        }
-      ]
-    },
-    {
-      "augmentId": 1301,
-      "tier": "F",
-      "pickrate": 0.02145,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 399
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4780
-        }
-      ]
-    },
-    {
-      "augmentId": 1305,
-      "tier": "F",
-      "pickrate": 0.03765,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 724
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 8274
-        }
-      ]
-    },
-    {
-      "augmentId": 1308,
-      "tier": "F",
-      "pickrate": 0.0030499999999999998,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 314
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 668
-        }
-      ]
-    },
-    {
-      "augmentId": 1310,
-      "tier": "F",
-      "pickrate": 0.0199,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 364
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4362
-        }
-      ]
-    },
-    {
-      "augmentId": 1311,
-      "tier": "F",
-      "pickrate": 0.00335,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 255
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 736
-        }
-      ]
-    },
-    {
-      "augmentId": 1315,
-      "tier": "F",
-      "pickrate": 0.0413,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 721
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 9034
-        }
-      ]
-    },
-    {
-      "augmentId": 1319,
-      "tier": "F",
-      "pickrate": 0.067,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1195
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 15120
-        }
-      ]
-    },
-    {
-      "augmentId": 1322,
-      "tier": "F",
-      "pickrate": 0.0073,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 634
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1620
-        }
-      ]
-    },
-    {
-      "augmentId": 1323,
-      "tier": "F",
-      "pickrate": 0.01005,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 945
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2154
-        }
-      ]
-    },
-    {
-      "augmentId": 1326,
-      "tier": "F",
-      "pickrate": 0.0028,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 635
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "tier": "F",
-      "pickrate": 0.033,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 612
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 7303
-        }
-      ]
-    },
-    {
-      "augmentId": 1333,
-      "tier": "F",
-      "pickrate": 0.04995,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 960
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 11086
-        }
-      ]
-    },
-    {
-      "augmentId": 1335,
-      "tier": "F",
-      "pickrate": 0.0026,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 592
-        }
-      ]
-    },
-    {
-      "augmentId": 1337,
-      "tier": "F",
-      "pickrate": 0.00625,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 562
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1324
-        }
-      ]
-    },
-    {
-      "augmentId": 1344,
-      "tier": "F",
-      "pickrate": 0.045700000000000005,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 857
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 10023
-        }
-      ]
-    },
-    {
-      "augmentId": 1345,
-      "tier": "F",
-      "pickrate": 0.011949999999999999,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 968
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2644
-        }
-      ]
-    },
-    {
-      "augmentId": 1349,
-      "tier": "F",
-      "pickrate": 0.01725,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 282
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3744
-        }
-      ]
-    },
-    {
-      "augmentId": 1353,
-      "tier": "F",
-      "pickrate": 0.19000000000000003,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3627
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 43191
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/ksante?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 408
-        }
-      ]
-    },
-    {
-      "augmentId": 1358,
-      "tier": "F",
-      "pickrate": 0.016849999999999997,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 325
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3708
-        }
-      ]
-    },
-    {
-      "augmentId": 1373,
-      "tier": "F",
-      "pickrate": 0.01415,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 271
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3193
-        }
-      ]
-    },
-    {
-      "augmentId": 1375,
-      "tier": "F",
-      "pickrate": 0.0343,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 614
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 7732
-        }
-      ]
-    },
-    {
-      "augmentId": 1384,
-      "tier": "F",
-      "pickrate": 0.0262,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 451
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5744
         }
       ]
     },
     {
       "augmentId": 1386,
       "tier": "F",
-      "pickrate": 0.0040999999999999995,
+      "pickrate": 0.0042,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 393
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 953
-        }
-      ]
-    },
-    {
-      "augmentId": 1388,
-      "tier": "F",
-      "pickrate": 0.01845,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 343
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4107
-        }
-      ]
-    },
-    {
-      "augmentId": 1392,
-      "tier": "F",
-      "pickrate": 0.010499999999999999,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 980
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2201
-        }
-      ]
-    },
-    {
-      "augmentId": 1401,
-      "tier": "F",
-      "pickrate": 0.060450000000000004,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1053
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 13518
-        }
-      ]
-    },
-    {
-      "augmentId": 1402,
-      "tier": "F",
-      "pickrate": 0.008,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 783
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1737
-        }
-      ]
-    },
-    {
-      "augmentId": 1403,
-      "tier": "F",
-      "pickrate": 0.019200000000000002,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 311
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4129
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "tier": "F",
-      "pickrate": 0.00705,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 603
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1548
-        }
-      ]
-    },
-    {
-      "augmentId": 1413,
-      "tier": "F",
-      "pickrate": 0.015349999999999999,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 283
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3215
-        }
-      ]
-    },
-    {
-      "augmentId": 1415,
-      "tier": "F",
-      "pickrate": 0.0026,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 584
-        }
-      ]
-    },
-    {
-      "augmentId": 1421,
-      "tier": "F",
-      "pickrate": 0.008199999999999999,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 797
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1739
-        }
-      ]
-    },
-    {
-      "augmentId": 1996,
-      "tier": "F",
-      "pickrate": 0.04965,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 899
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 11114
-        }
-      ]
-    },
-    {
-      "augmentId": 2005,
-      "tier": "F",
-      "pickrate": 0.01985,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 390
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4311
-        }
-      ]
-    },
-    {
-      "augmentId": 2006,
-      "tier": "F",
-      "pickrate": 0.13596666666666668,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2494
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 30796
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/ksante?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 295
-        }
-      ]
-    },
-    {
-      "augmentId": 2018,
-      "tier": "F",
-      "pickrate": 0.0026,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 581
-        }
-      ]
-    },
-    {
-      "augmentId": 2026,
-      "tier": "F",
-      "pickrate": 0.0072499999999999995,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 546
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1568
-        }
-      ]
-    },
-    {
-      "augmentId": 2031,
-      "tier": "F",
-      "pickrate": 0.01685,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 323
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3652
-        }
-      ]
-    },
-    {
-      "augmentId": 2032,
-      "tier": "F",
-      "pickrate": 0.009999999999999998,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 712
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2193
-        }
-      ]
-    },
-    {
-      "augmentId": 2034,
-      "tier": "F",
-      "pickrate": 0.0102,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 894
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2268
-        }
-      ]
-    },
-    {
-      "augmentId": 2043,
-      "tier": "F",
-      "pickrate": 0.0286,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 477
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6352
-        }
-      ]
-    },
-    {
-      "augmentId": 2046,
-      "tier": "F",
-      "pickrate": 0.0013,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 302
-        }
-      ]
-    },
-    {
-      "augmentId": 2063,
-      "tier": "F",
-      "pickrate": 0.0033499999999999997,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 287
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 664
-        }
-      ]
-    },
-    {
-      "augmentId": 2073,
-      "tier": "F",
-      "pickrate": 0.0796,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1498
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 17681
-        }
-      ]
-    },
-    {
-      "augmentId": 2078,
-      "tier": "F",
-      "pickrate": 0.06385,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1200
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 14046
-        }
-      ]
-    },
-    {
-      "augmentId": 2080,
-      "tier": "F",
-      "pickrate": 0.01755,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 362
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3800
-        }
-      ]
-    },
-    {
-      "augmentId": 2082,
-      "tier": "F",
-      "pickrate": 0.01975,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 362
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4412
-        }
-      ]
-    },
-    {
-      "augmentId": 2083,
-      "tier": "F",
-      "pickrate": 0.00355,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 260
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 803
-        }
-      ]
-    },
-    {
-      "augmentId": 2087,
-      "tier": "F",
-      "pickrate": 0.0114,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1026
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2426
-        }
-      ]
-    },
-    {
-      "augmentId": 2088,
-      "tier": "F",
-      "pickrate": 0.0143,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 255
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3176
-        }
-      ]
-    },
-    {
-      "augmentId": 2089,
-      "tier": "F",
-      "pickrate": 0.00795,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 688
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1740
-        }
-      ]
-    },
-    {
-      "augmentId": 2091,
-      "tier": "F",
-      "pickrate": 0.07405,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1362
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 16402
-        }
-      ]
-    },
-    {
-      "augmentId": 2098,
-      "tier": "F",
-      "pickrate": 0.0133,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1430
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2870
-        }
-      ]
-    },
-    {
-      "augmentId": 2099,
-      "tier": "F",
-      "pickrate": 0.0137,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 282
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2916
-        }
-      ]
-    },
-    {
-      "augmentId": 2100,
-      "tier": "F",
-      "pickrate": 0.0276,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 527
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6226
-        }
-      ]
-    },
-    {
-      "augmentId": 2107,
-      "tier": "F",
-      "pickrate": 0.0102,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 893
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2107
-        }
-      ]
-    },
-    {
-      "augmentId": 2115,
-      "tier": "F",
-      "pickrate": 0.01165,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1118
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2445
-        }
-      ]
-    },
-    {
-      "augmentId": 2116,
-      "tier": "F",
-      "pickrate": 0.026,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 475
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5904
-        }
-      ]
-    },
-    {
-      "augmentId": 2118,
-      "tier": "F",
-      "pickrate": 0.0029,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 260
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 587
-        }
-      ]
-    },
-    {
-      "augmentId": 2119,
-      "tier": "F",
-      "pickrate": 0.006,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 542
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1308
-        }
-      ]
-    },
-    {
-      "augmentId": 2123,
-      "tier": "F",
-      "pickrate": 0.027749999999999997,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 522
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6036
-        }
-      ]
-    },
-    {
-      "augmentId": 2127,
-      "tier": "F",
-      "pickrate": 0.0237,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 430
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5346
-        }
-      ]
-    },
-    {
-      "augmentId": 2131,
-      "tier": "F",
-      "pickrate": 0.02225,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 373
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4888
-        }
-      ]
-    },
-    {
-      "augmentId": 2134,
-      "tier": "F",
-      "pickrate": 0.0014,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 327
-        }
-      ]
-    },
-    {
-      "augmentId": 2137,
-      "tier": "F",
-      "pickrate": 0.0076,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 659
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1635
-        }
-      ]
-    },
-    {
-      "augmentId": 2138,
-      "tier": "F",
-      "pickrate": 0.10210000000000001,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1688
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 20739
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/ksante?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 270
-        }
-      ]
-    },
-    {
-      "augmentId": 2139,
-      "tier": "F",
-      "pickrate": 0.05525,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1045
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 12321
         }
       ]
     },
     {
       "augmentId": 2140,
       "tier": "F",
-      "pickrate": 0.009049999999999999,
+      "pickrate": 0.0088,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 775
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2009
-        }
-      ]
-    },
-    {
-      "augmentId": 2141,
-      "tier": "F",
-      "pickrate": 0.01795,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 298
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3932
         }
       ]
     },
     {
       "augmentId": 2143,
       "tier": "F",
-      "pickrate": 0.012,
+      "pickrate": 0.0119,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1008
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2712
-        }
-      ]
-    },
-    {
-      "augmentId": 2157,
-      "tier": "F",
-      "pickrate": 0.018500000000000003,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 348
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4110
-        }
-      ]
-    },
-    {
-      "augmentId": 12317,
-      "tier": "F",
-      "pickrate": 0.02095,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/897",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 336
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/ksante?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4967
         }
       ]
     }

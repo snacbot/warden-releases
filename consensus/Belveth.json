@@ -1,166 +1,12 @@
 {
-  "version": 2,
-  "method": "warden-sample-weighted-grades-v1",
+  "version": 3,
+  "method": "warden-champion-rarity-percentiles-v1",
   "championId": 200,
   "championKey": "Belveth",
   "set": "aram",
   "patch": "16.18",
-  "scrapedAt": "2026-09-13T21:52:42.336Z",
+  "scrapedAt": "2026-09-13T21:58:37.471Z",
   "augments": [
-    {
-      "augmentId": 1001,
-      "tier": "S",
-      "pickrate": 0.01365,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 424
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4647
-        }
-      ]
-    },
-    {
-      "augmentId": 1007,
-      "tier": "S",
-      "pickrate": 0.0417,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1271
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 14844
-        }
-      ]
-    },
-    {
-      "augmentId": 1013,
-      "tier": "S",
-      "pickrate": 0.021699999999999997,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 695
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 7811
-        }
-      ]
-    },
-    {
-      "augmentId": 1020,
-      "tier": "S",
-      "pickrate": 0.01065,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 364
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3790
-        }
-      ]
-    },
-    {
-      "augmentId": 1022,
-      "tier": "S",
-      "pickrate": 0.06873333333333333,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1978
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 23108
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/belveth?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 312
-        }
-      ]
-    },
-    {
-      "augmentId": 1028,
-      "tier": "S",
-      "pickrate": 0.01575,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 489
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5660
-        }
-      ]
-    },
-    {
-      "augmentId": 1029,
-      "tier": "S",
-      "pickrate": 0.06420000000000001,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2061
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 22822
-        }
-      ]
-    },
     {
       "augmentId": 1036,
       "tier": "S",
@@ -170,43 +16,22 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2512
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 28543
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/belveth?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 568
-        }
-      ]
-    },
-    {
-      "augmentId": 1041,
-      "tier": "S",
-      "pickrate": 0.035750000000000004,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1203
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 12289
         }
       ]
     },
@@ -219,85 +44,22 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1379
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 16168
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/belveth?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 296
-        }
-      ]
-    },
-    {
-      "augmentId": 1053,
-      "tier": "S",
-      "pickrate": 0.01755,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 561
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6028
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "tier": "S",
-      "pickrate": 0.0055,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 577
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1939
-        }
-      ]
-    },
-    {
-      "augmentId": 1062,
-      "tier": "S",
-      "pickrate": 0.0045000000000000005,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 499
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1503
         }
       ]
     },
@@ -310,50 +72,22 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1790
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 21959
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/belveth?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 397
-        }
-      ]
-    },
-    {
-      "augmentId": 1071,
-      "tier": "S",
-      "pickrate": 0.11886666666666668,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3643
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 41808
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/belveth?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 488
         }
       ]
     },
@@ -366,14 +100,14 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1690
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 18644
         }
       ]
@@ -387,50 +121,22 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2765
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 32719
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/belveth?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 555
-        }
-      ]
-    },
-    {
-      "augmentId": 1079,
-      "tier": "S",
-      "pickrate": 0.06456666666666666,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1774
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 20534
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/belveth?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 306
         }
       ]
     },
@@ -443,43 +149,15 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 874
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 10637
-        }
-      ]
-    },
-    {
-      "augmentId": 1081,
-      "tier": "S",
-      "pickrate": 0.040766666666666666,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 922
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 9791
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/belveth?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 264
         }
       ]
     },
@@ -492,21 +170,21 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1411
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 16097
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/belveth?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 267
         }
       ]
@@ -520,43 +198,22 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 3213
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 36702
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/belveth?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 385
-        }
-      ]
-    },
-    {
-      "augmentId": 1115,
-      "tier": "S",
-      "pickrate": 0.049,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1465
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 16985
         }
       ]
     },
@@ -569,106 +226,22 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2376
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 27149
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/belveth?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 330
-        }
-      ]
-    },
-    {
-      "augmentId": 1151,
-      "tier": "S",
-      "pickrate": 0.033350000000000005,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1003
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 11536
-        }
-      ]
-    },
-    {
-      "augmentId": 1152,
-      "tier": "S",
-      "pickrate": 0.03665,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1199
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 13406
-        }
-      ]
-    },
-    {
-      "augmentId": 1154,
-      "tier": "S",
-      "pickrate": 0.015649999999999997,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 515
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5438
-        }
-      ]
-    },
-    {
-      "augmentId": 1170,
-      "tier": "S",
-      "pickrate": 0.0436,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1314
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 15491
         }
       ]
     },
@@ -681,57 +254,15 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 618
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 6539
-        }
-      ]
-    },
-    {
-      "augmentId": 1195,
-      "tier": "S",
-      "pickrate": 0.02785,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 838
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 9706
-        }
-      ]
-    },
-    {
-      "augmentId": 1206,
-      "tier": "S",
-      "pickrate": 0.027049999999999998,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 825
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 9643
         }
       ]
     },
@@ -744,14 +275,14 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1075
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 11460
         }
       ]
@@ -765,21 +296,21 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 3221
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 37423
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/belveth?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 579
         }
       ]
@@ -793,92 +324,22 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2761
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 34144
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/belveth?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 310
-        }
-      ]
-    },
-    {
-      "augmentId": 1243,
-      "tier": "S",
-      "pickrate": 0.025099999999999997,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 763
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 8606
-        }
-      ]
-    },
-    {
-      "augmentId": 1315,
-      "tier": "S",
-      "pickrate": 0.024300000000000002,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 722
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 8666
-        }
-      ]
-    },
-    {
-      "augmentId": 1322,
-      "tier": "S",
-      "pickrate": 0.06443333333333334,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2057
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 23089
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/belveth?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 257
         }
       ]
     },
@@ -891,21 +352,21 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1803
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 20863
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/belveth?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 430
         }
       ]
@@ -919,78 +380,15 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1167
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 13681
-        }
-      ]
-    },
-    {
-      "augmentId": 1337,
-      "tier": "S",
-      "pickrate": 0.0045000000000000005,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 481
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1475
-        }
-      ]
-    },
-    {
-      "augmentId": 1344,
-      "tier": "S",
-      "pickrate": 0.049850000000000005,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1536
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 17350
-        }
-      ]
-    },
-    {
-      "augmentId": 1353,
-      "tier": "S",
-      "pickrate": 0.038000000000000006,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1274
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 13549
         }
       ]
     },
@@ -1003,190 +401,36 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2219
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 25851
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/belveth?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 365
-        }
-      ]
-    },
-    {
-      "augmentId": 1375,
-      "tier": "S",
-      "pickrate": 0.00895,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 276
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3262
-        }
-      ]
-    },
-    {
-      "augmentId": 1384,
-      "tier": "S",
-      "pickrate": 0.0304,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 911
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 10790
         }
       ]
     },
     {
       "augmentId": 1389,
       "tier": "S",
-      "pickrate": 0.0021999999999999997,
+      "pickrate": 0.0018,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 258
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 666
-        }
-      ]
-    },
-    {
-      "augmentId": 1402,
-      "tier": "S",
-      "pickrate": 0.007050000000000001,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 778
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2441
-        }
-      ]
-    },
-    {
-      "augmentId": 1403,
-      "tier": "S",
-      "pickrate": 0.0221,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 685
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 7788
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "tier": "S",
-      "pickrate": 0.0048000000000000004,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 478
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1692
-        }
-      ]
-    },
-    {
-      "augmentId": 1415,
-      "tier": "S",
-      "pickrate": 0.0117,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 334
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4035
-        }
-      ]
-    },
-    {
-      "augmentId": 2009,
-      "tier": "S",
-      "pickrate": 0.03655,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1049
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 12974
         }
       ]
     },
@@ -1199,43 +443,22 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1121
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 12898
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/belveth?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 255
-        }
-      ]
-    },
-    {
-      "augmentId": 2031,
-      "tier": "S",
-      "pickrate": 0.018000000000000002,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 569
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6164
         }
       ]
     },
@@ -1248,36 +471,15 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1471
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 17278
-        }
-      ]
-    },
-    {
-      "augmentId": 2098,
-      "tier": "S",
-      "pickrate": 0.0144,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 437
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4799
         }
       ]
     },
@@ -1290,85 +492,15 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 370
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 3565
-        }
-      ]
-    },
-    {
-      "augmentId": 2119,
-      "tier": "S",
-      "pickrate": 0.00365,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 371
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1300
-        }
-      ]
-    },
-    {
-      "augmentId": 2127,
-      "tier": "S",
-      "pickrate": 0.0238,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 738
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 8386
-        }
-      ]
-    },
-    {
-      "augmentId": 2140,
-      "tier": "S",
-      "pickrate": 0.06926666666666666,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2135
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 26210
-        },
-        {
-          "source": "mayhemmeta.com",
-          "sourceUrl": "https://mayhemmeta.com/champions/belveth?patch=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 257
         }
       ]
     },
@@ -1381,847 +513,875 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1668
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 19985
         }
       ]
     },
     {
+      "augmentId": 1001,
+      "tier": "A",
+      "pickrate": 0.01365,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 424
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4647
+        }
+      ]
+    },
+    {
+      "augmentId": 1007,
+      "tier": "A",
+      "pickrate": 0.0417,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1271
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 14844
+        }
+      ]
+    },
+    {
+      "augmentId": 1013,
+      "tier": "A",
+      "pickrate": 0.021699999999999997,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 695
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 7811
+        }
+      ]
+    },
+    {
+      "augmentId": 1020,
+      "tier": "A",
+      "pickrate": 0.01065,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 364
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3790
+        }
+      ]
+    },
+    {
+      "augmentId": 1022,
+      "tier": "A",
+      "pickrate": 0.06873333333333333,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1978
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 23108
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/belveth?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 312
+        }
+      ]
+    },
+    {
+      "augmentId": 1028,
+      "tier": "A",
+      "pickrate": 0.01575,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 489
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5660
+        }
+      ]
+    },
+    {
+      "augmentId": 1029,
+      "tier": "A",
+      "pickrate": 0.06420000000000001,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2061
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 22822
+        }
+      ]
+    },
+    {
+      "augmentId": 1041,
+      "tier": "A",
+      "pickrate": 0.035750000000000004,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1203
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 12289
+        }
+      ]
+    },
+    {
+      "augmentId": 1053,
+      "tier": "A",
+      "pickrate": 0.01755,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 561
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6028
+        }
+      ]
+    },
+    {
+      "augmentId": 1062,
+      "tier": "A",
+      "pickrate": 0.0041,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1503
+        }
+      ]
+    },
+    {
+      "augmentId": 1071,
+      "tier": "A",
+      "pickrate": 0.11886666666666668,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3643
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 41808
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/belveth?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 488
+        }
+      ]
+    },
+    {
+      "augmentId": 1079,
+      "tier": "A",
+      "pickrate": 0.06456666666666666,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1774
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 20534
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/belveth?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 306
+        }
+      ]
+    },
+    {
+      "augmentId": 1081,
+      "tier": "A",
+      "pickrate": 0.040766666666666666,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 922
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 9791
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/belveth?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 264
+        }
+      ]
+    },
+    {
+      "augmentId": 1115,
+      "tier": "A",
+      "pickrate": 0.049,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1465
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 16985
+        }
+      ]
+    },
+    {
+      "augmentId": 1151,
+      "tier": "A",
+      "pickrate": 0.033350000000000005,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1003
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 11536
+        }
+      ]
+    },
+    {
+      "augmentId": 1152,
+      "tier": "A",
+      "pickrate": 0.03665,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1199
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 13406
+        }
+      ]
+    },
+    {
+      "augmentId": 1195,
+      "tier": "A",
+      "pickrate": 0.02785,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 838
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 9706
+        }
+      ]
+    },
+    {
+      "augmentId": 1206,
+      "tier": "A",
+      "pickrate": 0.027049999999999998,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 825
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 9643
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": "A",
+      "pickrate": 0.025099999999999997,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 763
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 8606
+        }
+      ]
+    },
+    {
+      "augmentId": 1315,
+      "tier": "A",
+      "pickrate": 0.024300000000000002,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 722
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 8666
+        }
+      ]
+    },
+    {
+      "augmentId": 1322,
+      "tier": "A",
+      "pickrate": 0.06443333333333334,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2057
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 23089
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/belveth?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 257
+        }
+      ]
+    },
+    {
+      "augmentId": 1337,
+      "tier": "A",
+      "pickrate": 0.0041,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1475
+        }
+      ]
+    },
+    {
+      "augmentId": 1344,
+      "tier": "A",
+      "pickrate": 0.049850000000000005,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1536
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 17350
+        }
+      ]
+    },
+    {
+      "augmentId": 1353,
+      "tier": "A",
+      "pickrate": 0.038000000000000006,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1274
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 13549
+        }
+      ]
+    },
+    {
+      "augmentId": 1375,
+      "tier": "A",
+      "pickrate": 0.00895,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 276
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3262
+        }
+      ]
+    },
+    {
+      "augmentId": 1384,
+      "tier": "A",
+      "pickrate": 0.0304,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 911
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 10790
+        }
+      ]
+    },
+    {
+      "augmentId": 1402,
+      "tier": "A",
+      "pickrate": 0.0067,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2441
+        }
+      ]
+    },
+    {
+      "augmentId": 1403,
+      "tier": "A",
+      "pickrate": 0.0221,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 685
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 7788
+        }
+      ]
+    },
+    {
+      "augmentId": 1415,
+      "tier": "A",
+      "pickrate": 0.0117,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 334
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4035
+        }
+      ]
+    },
+    {
+      "augmentId": 2009,
+      "tier": "A",
+      "pickrate": 0.03655,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1049
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 12974
+        }
+      ]
+    },
+    {
+      "augmentId": 2031,
+      "tier": "A",
+      "pickrate": 0.018000000000000002,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 569
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6164
+        }
+      ]
+    },
+    {
+      "augmentId": 2119,
+      "tier": "A",
+      "pickrate": 0.0036,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1300
+        }
+      ]
+    },
+    {
+      "augmentId": 2127,
+      "tier": "A",
+      "pickrate": 0.0238,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 738
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 8386
+        }
+      ]
+    },
+    {
+      "augmentId": 2140,
+      "tier": "A",
+      "pickrate": 0.06926666666666666,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2135
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 26210
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/belveth?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 257
+        }
+      ]
+    },
+    {
       "augmentId": 2157,
-      "tier": "S",
+      "tier": "A",
       "pickrate": 0.08589999999999999,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2914
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 33096
         },
         {
           "source": "mayhemmeta.com",
           "sourceUrl": "https://mayhemmeta.com/champions/belveth?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 287
         }
       ]
     },
     {
       "augmentId": 1006,
-      "tier": "A",
+      "tier": "B",
       "pickrate": 0.01865,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 596
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 6372
         }
       ]
     },
     {
       "augmentId": 1011,
-      "tier": "A",
+      "tier": "B",
       "pickrate": 0.01875,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 583
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 6482
-        }
-      ]
-    },
-    {
-      "augmentId": 1025,
-      "tier": "A",
-      "pickrate": 0.02275,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 670
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 8112
-        }
-      ]
-    },
-    {
-      "augmentId": 1026,
-      "tier": "A",
-      "pickrate": 0.00465,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 467
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1685
-        }
-      ]
-    },
-    {
-      "augmentId": 1027,
-      "tier": "A",
-      "pickrate": 0.00605,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 754
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1940
-        }
-      ]
-    },
-    {
-      "augmentId": 1034,
-      "tier": "A",
-      "pickrate": 0.00595,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 534
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2054
-        }
-      ]
-    },
-    {
-      "augmentId": 1038,
-      "tier": "A",
-      "pickrate": 0.02085,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 582
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 7556
-        }
-      ]
-    },
-    {
-      "augmentId": 1074,
-      "tier": "A",
-      "pickrate": 0.03205,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 947
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 11261
-        }
-      ]
-    },
-    {
-      "augmentId": 1098,
-      "tier": "A",
-      "pickrate": 0.00415,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 388
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1452
-        }
-      ]
-    },
-    {
-      "augmentId": 1105,
-      "tier": "A",
-      "pickrate": 0.0024,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 873
-        }
-      ]
-    },
-    {
-      "augmentId": 1116,
-      "tier": "A",
-      "pickrate": 0.0207,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 635
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 7421
-        }
-      ]
-    },
-    {
-      "augmentId": 1136,
-      "tier": "A",
-      "pickrate": 0.00645,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 668
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2270
-        }
-      ]
-    },
-    {
-      "augmentId": 1204,
-      "tier": "A",
-      "pickrate": 0.05105,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1503
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 18407
-        }
-      ]
-    },
-    {
-      "augmentId": 1237,
-      "tier": "A",
-      "pickrate": 0.03535,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1028
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 12530
-        }
-      ]
-    },
-    {
-      "augmentId": 1305,
-      "tier": "A",
-      "pickrate": 0.015550000000000001,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 548
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5556
-        }
-      ]
-    },
-    {
-      "augmentId": 1308,
-      "tier": "A",
-      "pickrate": 0.0027,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 319
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 992
-        }
-      ]
-    },
-    {
-      "augmentId": 1310,
-      "tier": "A",
-      "pickrate": 0.0277,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 752
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 9598
-        }
-      ]
-    },
-    {
-      "augmentId": 1319,
-      "tier": "A",
-      "pickrate": 0.0046,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 497
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1660
-        }
-      ]
-    },
-    {
-      "augmentId": 1320,
-      "tier": "A",
-      "pickrate": 0.0166,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 523
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5825
-        }
-      ]
-    },
-    {
-      "augmentId": 1326,
-      "tier": "A",
-      "pickrate": 0.024550000000000002,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 733
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 8715
-        }
-      ]
-    },
-    {
-      "augmentId": 1329,
-      "tier": "A",
-      "pickrate": 0.019000000000000003,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 581
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6569
-        }
-      ]
-    },
-    {
-      "augmentId": 1336,
-      "tier": "A",
-      "pickrate": 0.04795,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1430
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 16933
-        }
-      ]
-    },
-    {
-      "augmentId": 1361,
-      "tier": "A",
-      "pickrate": 0.003,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1083
-        }
-      ]
-    },
-    {
-      "augmentId": 1373,
-      "tier": "A",
-      "pickrate": 0.0314,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 943
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 11244
-        }
-      ]
-    },
-    {
-      "augmentId": 1401,
-      "tier": "A",
-      "pickrate": 0.018099999999999998,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 572
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6545
-        }
-      ]
-    },
-    {
-      "augmentId": 2006,
-      "tier": "A",
-      "pickrate": 0.03695,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1206
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 13053
-        }
-      ]
-    },
-    {
-      "augmentId": 2024,
-      "tier": "A",
-      "pickrate": 0.00445,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 324
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1561
-        }
-      ]
-    },
-    {
-      "augmentId": 2026,
-      "tier": "A",
-      "pickrate": 0.00655,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 640
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2304
-        }
-      ]
-    },
-    {
-      "augmentId": 2032,
-      "tier": "A",
-      "pickrate": 0.010450000000000001,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 316
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3778
-        }
-      ]
-    },
-    {
-      "augmentId": 2043,
-      "tier": "A",
-      "pickrate": 0.00655,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 850
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2351
-        }
-      ]
-    },
-    {
-      "augmentId": 2077,
-      "tier": "A",
-      "pickrate": 0.04415,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1429
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 15830
-        }
-      ]
-    },
-    {
-      "augmentId": 2082,
-      "tier": "A",
-      "pickrate": 0.0056,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 668
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1991
-        }
-      ]
-    },
-    {
-      "augmentId": 2089,
-      "tier": "A",
-      "pickrate": 0.0093,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 304
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3350
-        }
-      ]
-    },
-    {
-      "augmentId": 2091,
-      "tier": "A",
-      "pickrate": 0.0499,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1588
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 17783
-        }
-      ]
-    },
-    {
-      "augmentId": 2102,
-      "tier": "A",
-      "pickrate": 0.01005,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 319
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3602
-        }
-      ]
-    },
-    {
-      "augmentId": 2137,
-      "tier": "A",
-      "pickrate": 0.0028,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 268
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 948
-        }
-      ]
-    },
-    {
-      "augmentId": 12317,
-      "tier": "A",
-      "pickrate": 0.02055,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 606
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 7920
         }
       ]
     },
     {
       "augmentId": 1015,
       "tier": "B",
-      "pickrate": 0.00325,
+      "pickrate": 0.0029,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1069
+        }
+      ]
+    },
+    {
+      "augmentId": 1026,
+      "tier": "B",
+      "pickrate": 0.0046,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1685
+        }
+      ]
+    },
+    {
+      "augmentId": 1038,
+      "tier": "B",
+      "pickrate": 0.02085,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 336
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 582
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1069
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 7556
         }
       ]
     },
     {
       "augmentId": 1046,
       "tier": "B",
-      "pickrate": 0.00465,
+      "pickrate": 0.0045,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 413
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1643
         }
       ]
@@ -2235,288 +1395,554 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 711
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 7666
         }
       ]
     },
     {
-      "augmentId": 1058,
+      "augmentId": 1060,
       "tier": "B",
-      "pickrate": 0.06745,
+      "pickrate": 0.0053,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2084
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 23644
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1939
         }
       ]
     },
     {
-      "augmentId": 1068,
+      "augmentId": 1074,
       "tier": "B",
-      "pickrate": 0.0194,
+      "pickrate": 0.03205,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 588
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 947
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6884
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 11261
         }
       ]
     },
     {
-      "augmentId": 1084,
+      "augmentId": 1098,
       "tier": "B",
-      "pickrate": 0.01745,
+      "pickrate": 0.004,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 529
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6242
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1452
         }
       ]
     },
     {
-      "augmentId": 1149,
+      "augmentId": 1105,
       "tier": "B",
-      "pickrate": 0.00315,
+      "pickrate": 0.0024,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 310
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1139
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 873
         }
       ]
     },
     {
-      "augmentId": 1211,
+      "augmentId": 1116,
       "tier": "B",
-      "pickrate": 0.0133,
+      "pickrate": 0.0207,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 400
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 635
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4669
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 7421
         }
       ]
     },
     {
-      "augmentId": 1301,
+      "augmentId": 1136,
       "tier": "B",
-      "pickrate": 0.00995,
+      "pickrate": 0.0063,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2270
+        }
+      ]
+    },
+    {
+      "augmentId": 1154,
+      "tier": "B",
+      "pickrate": 0.015649999999999997,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 321
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 515
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3520
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5438
+        }
+      ]
+    },
+    {
+      "augmentId": 1170,
+      "tier": "B",
+      "pickrate": 0.0436,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1314
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 15491
+        }
+      ]
+    },
+    {
+      "augmentId": 1237,
+      "tier": "B",
+      "pickrate": 0.03535,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1028
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 12530
+        }
+      ]
+    },
+    {
+      "augmentId": 1305,
+      "tier": "B",
+      "pickrate": 0.015550000000000001,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 548
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5556
+        }
+      ]
+    },
+    {
+      "augmentId": 1310,
+      "tier": "B",
+      "pickrate": 0.0277,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 752
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 9598
+        }
+      ]
+    },
+    {
+      "augmentId": 1320,
+      "tier": "B",
+      "pickrate": 0.0166,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 523
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5825
+        }
+      ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": "B",
+      "pickrate": 0.024550000000000002,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 733
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 8715
+        }
+      ]
+    },
+    {
+      "augmentId": 1329,
+      "tier": "B",
+      "pickrate": 0.019000000000000003,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 581
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6569
         }
       ]
     },
     {
       "augmentId": 1335,
       "tier": "B",
-      "pickrate": 0.0025,
+      "pickrate": 0.0023,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 292
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 838
         }
       ]
     },
     {
-      "augmentId": 1345,
+      "augmentId": 1336,
       "tier": "B",
-      "pickrate": 0.01575,
+      "pickrate": 0.04795,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 431
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1430
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5591
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 16933
         }
       ]
     },
     {
-      "augmentId": 1996,
+      "augmentId": 1361,
       "tier": "B",
-      "pickrate": 0.0079,
+      "pickrate": 0.003,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 267
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2777
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1083
         }
       ]
     },
     {
-      "augmentId": 2018,
+      "augmentId": 1373,
       "tier": "B",
-      "pickrate": 0.0048,
+      "pickrate": 0.0314,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 438
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 943
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1732
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 11244
         }
       ]
     },
     {
-      "augmentId": 2034,
+      "augmentId": 1401,
       "tier": "B",
-      "pickrate": 0.00835,
+      "pickrate": 0.018099999999999998,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 876
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 572
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2981
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6545
         }
       ]
     },
     {
-      "augmentId": 2083,
+      "augmentId": 1404,
       "tier": "B",
-      "pickrate": 0.03975,
+      "pickrate": 0.0047,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1201
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 14386
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1692
         }
       ]
     },
     {
-      "augmentId": 2088,
+      "augmentId": 2006,
       "tier": "B",
-      "pickrate": 0.0057,
+      "pickrate": 0.03695,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 616
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1206
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2021
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 13053
+        }
+      ]
+    },
+    {
+      "augmentId": 2026,
+      "tier": "B",
+      "pickrate": 0.0064,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2304
+        }
+      ]
+    },
+    {
+      "augmentId": 2032,
+      "tier": "B",
+      "pickrate": 0.010450000000000001,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 316
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3778
+        }
+      ]
+    },
+    {
+      "augmentId": 2043,
+      "tier": "B",
+      "pickrate": 0.0065,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2351
+        }
+      ]
+    },
+    {
+      "augmentId": 2077,
+      "tier": "B",
+      "pickrate": 0.04415,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1429
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 15830
+        }
+      ]
+    },
+    {
+      "augmentId": 2082,
+      "tier": "B",
+      "pickrate": 0.0055,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1991
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": "B",
+      "pickrate": 0.0093,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 304
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3350
+        }
+      ]
+    },
+    {
+      "augmentId": 2091,
+      "tier": "B",
+      "pickrate": 0.0499,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1588
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 17783
+        }
+      ]
+    },
+    {
+      "augmentId": 2098,
+      "tier": "B",
+      "pickrate": 0.0144,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 437
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4799
         }
       ]
     },
@@ -2529,99 +1955,85 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 824
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 8820
+        }
+      ]
+    },
+    {
+      "augmentId": 2102,
+      "tier": "B",
+      "pickrate": 0.01005,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 319
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3602
         }
       ]
     },
     {
       "augmentId": 2115,
       "tier": "B",
-      "pickrate": 0.0010999999999999998,
+      "pickrate": 0.0009,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 274
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 332
         }
       ]
     },
     {
-      "augmentId": 2139,
+      "augmentId": 2137,
       "tier": "B",
-      "pickrate": 0.0036,
+      "pickrate": 0.0026,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 423
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1284
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 948
         }
       ]
     },
     {
-      "augmentId": 2143,
+      "augmentId": 12317,
       "tier": "B",
-      "pickrate": 0.01815,
+      "pickrate": 0.02055,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 561
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 606
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 6576
-        }
-      ]
-    },
-    {
-      "augmentId": 1002,
-      "tier": "C",
-      "pickrate": 0.01165,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 384
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 4254
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 7920
         }
       ]
     },
@@ -2634,50 +2046,190 @@
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 630
         }
       ]
     },
     {
-      "augmentId": 1150,
+      "augmentId": 1025,
       "tier": "C",
-      "pickrate": 0.01585,
+      "pickrate": 0.02275,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 519
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 670
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 5544
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 8112
         }
       ]
     },
     {
-      "augmentId": 1194,
+      "augmentId": 1027,
       "tier": "C",
-      "pickrate": 0.0072,
+      "pickrate": 0.0053,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1940
+        }
+      ]
+    },
+    {
+      "augmentId": 1034,
+      "tier": "C",
+      "pickrate": 0.0057,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2054
+        }
+      ]
+    },
+    {
+      "augmentId": 1058,
+      "tier": "C",
+      "pickrate": 0.06745,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 729
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2084
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 2358
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 23644
+        }
+      ]
+    },
+    {
+      "augmentId": 1068,
+      "tier": "C",
+      "pickrate": 0.0194,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 588
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6884
+        }
+      ]
+    },
+    {
+      "augmentId": 1084,
+      "tier": "C",
+      "pickrate": 0.01745,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 529
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6242
+        }
+      ]
+    },
+    {
+      "augmentId": 1149,
+      "tier": "C",
+      "pickrate": 0.0031,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1139
+        }
+      ]
+    },
+    {
+      "augmentId": 1204,
+      "tier": "C",
+      "pickrate": 0.05105,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1503
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 18407
+        }
+      ]
+    },
+    {
+      "augmentId": 1301,
+      "tier": "C",
+      "pickrate": 0.00995,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 321
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3520
+        }
+      ]
+    },
+    {
+      "augmentId": 1319,
+      "tier": "C",
+      "pickrate": 0.0046,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1660
         }
       ]
     },
@@ -2690,43 +2242,29 @@
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 813
         }
       ]
     },
     {
-      "augmentId": 1347,
+      "augmentId": 1345,
       "tier": "C",
-      "pickrate": 0.0014,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 493
-        }
-      ]
-    },
-    {
-      "augmentId": 1358,
-      "tier": "C",
-      "pickrate": 0.01065,
+      "pickrate": 0.01575,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 318
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 431
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3749
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5591
         }
       ]
     },
@@ -2739,14 +2277,14 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 325
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 3225
         }
       ]
@@ -2754,63 +2292,133 @@
     {
       "augmentId": 1392,
       "tier": "C",
-      "pickrate": 0.0063,
+      "pickrate": 0.0056,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 668
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2041
         }
       ]
     },
     {
-      "augmentId": 2080,
+      "augmentId": 1421,
       "tier": "C",
-      "pickrate": 0.010450000000000001,
+      "pickrate": 0.0009,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 342
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 3712
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 332
         }
       ]
     },
     {
-      "augmentId": 2134,
+      "augmentId": 2024,
       "tier": "C",
-      "pickrate": 0.0019,
+      "pickrate": 0.0043,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1561
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": "C",
+      "pickrate": 0.0082,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2981
+        }
+      ]
+    },
+    {
+      "augmentId": 2063,
+      "tier": "C",
+      "pickrate": 0.0009,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 340
+        }
+      ]
+    },
+    {
+      "augmentId": 2083,
+      "tier": "C",
+      "pickrate": 0.03975,
       "contributions": [
         {
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 264
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1201
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 552
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 14386
+        }
+      ]
+    },
+    {
+      "augmentId": 2143,
+      "tier": "C",
+      "pickrate": 0.01815,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 561
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 6576
+        }
+      ]
+    },
+    {
+      "augmentId": 1002,
+      "tier": "D",
+      "pickrate": 0.01165,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 384
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4254
         }
       ]
     },
@@ -2823,85 +2431,141 @@
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 462
+        }
+      ]
+    },
+    {
+      "augmentId": 1150,
+      "tier": "D",
+      "pickrate": 0.01585,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 519
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 5544
+        }
+      ]
+    },
+    {
+      "augmentId": 1194,
+      "tier": "D",
+      "pickrate": 0.0065,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2358
+        }
+      ]
+    },
+    {
+      "augmentId": 1211,
+      "tier": "D",
+      "pickrate": 0.0133,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 400
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 4669
+        }
+      ]
+    },
+    {
+      "augmentId": 1308,
+      "tier": "D",
+      "pickrate": 0.0027,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 992
+        }
+      ]
+    },
+    {
+      "augmentId": 1347,
+      "tier": "D",
+      "pickrate": 0.0014,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 493
         }
       ]
     },
     {
       "augmentId": 1349,
       "tier": "D",
-      "pickrate": 0.006999999999999999,
+      "pickrate": 0.0065,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 743
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 2370
-        }
-      ]
-    },
-    {
-      "augmentId": 1386,
-      "tier": "D",
-      "pickrate": 0.00195,
-      "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 256
-        },
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 700
         }
       ]
     },
     {
       "augmentId": 1413,
       "tier": "D",
-      "pickrate": 0.0035,
+      "pickrate": 0.0032,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 417
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 1148
         }
       ]
     },
     {
-      "augmentId": 1421,
+      "augmentId": 1996,
       "tier": "D",
-      "pickrate": 0.0009,
+      "pickrate": 0.0079,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 267
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 332
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2777
         }
       ]
     },
@@ -2914,71 +2578,57 @@
           "source": "aramgg.com",
           "sourceUrl": "https://aramgg.com/en/champion-stats/200",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 720
         },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 7600
         }
       ]
     },
     {
-      "augmentId": 2063,
+      "augmentId": 2088,
       "tier": "D",
-      "pickrate": 0.0009,
+      "pickrate": 0.0056,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 340
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 2021
         }
       ]
     },
     {
-      "augmentId": 2087,
+      "augmentId": 2134,
       "tier": "D",
-      "pickrate": 0.0037,
+      "pickrate": 0.0015,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 370
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 1227
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 552
         }
       ]
     },
     {
-      "augmentId": 2100,
+      "augmentId": 2139,
       "tier": "D",
-      "pickrate": 0.025050000000000003,
+      "pickrate": 0.0035,
       "contributions": [
-        {
-          "source": "aramgg.com",
-          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 791
-        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
-          "games": 9095
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1284
         }
       ]
     },
@@ -2991,8 +2641,113 @@
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
           "games": 654
+        }
+      ]
+    },
+    {
+      "augmentId": 1358,
+      "tier": "F",
+      "pickrate": 0.01065,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 318
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3749
+        }
+      ]
+    },
+    {
+      "augmentId": 1386,
+      "tier": "F",
+      "pickrate": 0.0019,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 700
+        }
+      ]
+    },
+    {
+      "augmentId": 2018,
+      "tier": "F",
+      "pickrate": 0.0048,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1732
+        }
+      ]
+    },
+    {
+      "augmentId": 2080,
+      "tier": "F",
+      "pickrate": 0.010450000000000001,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 342
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 3712
+        }
+      ]
+    },
+    {
+      "augmentId": 2087,
+      "tier": "F",
+      "pickrate": 0.0034,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 1227
+        }
+      ]
+    },
+    {
+      "augmentId": 2100,
+      "tier": "F",
+      "pickrate": 0.025050000000000003,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/200",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 791
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/belveth?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:58:37.471Z",
+          "games": 9095
         }
       ]
     }

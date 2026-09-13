@@ -1,11 +1,16 @@
 # Mayhem champion augment ratings
 
 Warden presents augment recommendations as **S, A, B, C, D, F**, with S highest.
-The grade uses a sample-reliability-weighted champion-specific source ratio: S at
-55% or above, A at 52–55%, B at 50–52%, C at 48–50%, D at 45–48%, and F below
-45%. Each interval includes its lower bound and excludes its upper bound.
-These thresholds define Warden's grading method; individual win percentages
-are not displayed or published. Missing data remains unrated, never F.
+Grades compare measured augments **for the same champion and rarity**. They
+describe relative choices, so a champion with a lower overall result baseline
+can still have S-tier augments. They do not represent outcome probabilities.
+The bottom-to-top percentile bands are F below 5, D from 5, C from 15, B from 30,
+A from 60 and S from 85. Each band includes its lower bound. Ties share their
+midrank; a cohort of identical observations receives B rather than arbitrary
+grades based on ID or order. Each rarity requires at least ten eligible
+observations. Unknown catalog IDs and thinner cohorts produce no measured grade.
+Individual win percentages are not displayed or published. Missing data is
+never converted to F.
 The pick overlay displays only the tier, with no source counts, popularity
 captions or ingestion details. Missing champion ratings fall back to a fit
 estimate or global catalog tier, explained in the tooltip; absent data is Unrated.
@@ -21,7 +26,10 @@ https://developer.riotgames.com/docs/lol#game-policy
 
 The maintainer job polls ARAMGG, ARAMKit and Mayhem:Meta every six hours. Inputs
 must identify the requested champion and patch, declare champion-specific
-statistics, and report at least 255 games. Repeated polls replace observations.
+statistics, and report at least 255 games. ARAMGG rows must also identify the
+same patch as their parent response; mixed-patch carryovers are excluded.
+The ingestion cache namespace was reset to `verified-row-patch-v1` so old
+unverified rows cannot return through the outage fallback. Repeated polls replace observations.
 Source datasets can overlap, so their game counts are never added together.
 Mirrors and sources that repeat global data on champion pages are excluded.
 
@@ -31,8 +39,12 @@ average for validation. Grade calculation weights each eligible observation by
 A minimum-size sample has weight 0.5; weight approaches 1 for large samples.
 Thus a large provider has at most twice the influence of a minimum-size sample,
 instead of equal influence or dominance from pooling game counts. One source
-retains its original estimate. This is a bounded reliability heuristic, not a
-calibrated confidence interval or a proven prediction-accuracy improvement.
+retains its original estimate at this stage. Before ranking, each estimate is
+shrunk toward the median estimate for that champion/rarity using the mean of
+its per-source reliability weights. Counts are never summed. Scores are rounded
+to the input precision (four decimal places) before ties and percentiles are
+calculated. Pick rate is not a scoring input. These are bounded reliability
+heuristics, not calibrated confidence intervals or proven prediction accuracy.
 Freshness, patch, champion, minimum sample and duplicate-source checks still apply.
 The **public stage exports only grade, pick rate, patch, source
 URLs, retrieval dates and per-source game counts**. It exports no win percentages,
@@ -47,13 +59,13 @@ replaces the current JSON files on the mayhem-data branch of
 snacbot/warden-releases. Git history is preserved. Application source and
 credentials are never published.
 
-The public shape remains version 2, with method `warden-sample-weighted-grades-v1`.
-Existing `warden-win-ratio-grades-v2` public snapshots remain readable until refreshed;
-private snapshots are regraded from their individual source observations.
-Older numeric
-version-1 ratings cannot distinguish the new grade boundaries and are rejected;
-the new desktop instead recomputes from current bundled win-ratio data when
-the new public feed is unavailable.
+The public format is version 3, method `warden-champion-rarity-percentiles-v1`.
+Version 1 and 2 public grades are rejected: they do not contain the private
+observations needed to convert absolute grades into relative ones. The desktop
+regrades current bundled private snapshots using its ARAM rarity catalog when
+the new public feed is unavailable. This prevents old cached absolute grades
+from overriding the new method. A missing catalog cannot fabricate a cohort;
+valid version-3 remote grades remain usable without the local catalog.
 
 The desktop caches remote snapshots for six hours and retries outages after
 15 minutes. It falls back to current bundled data, converts legacy private
@@ -66,3 +78,15 @@ Tooltips explain the rating's scope without source counts or ingestion details.
 They do not display source win rates or local win/loss scorelines.
 Percentages in augment effect descriptions are ordinary game mechanics; the
 restriction concerns outcome statistics.
+
+## Calibration checks
+
+Run `pnpm exec tsx scripts/check-mayhem-calibration.ts` to compare current
+patch-matched inputs against the dated reference observations in `docs/research/`.
+The script records agreement with exposed METAsrc recommendations, old/new grades
+and all-champion coverage in `.ingest-cache/mayhem-calibration-report.json`.
+The additional Ashe/Leona/Garen sample was collected after the thresholds were
+chosen. Both samples expose mostly top recommendations; they are not a complete
+tier-scale or prediction-accuracy benchmark. Mobalytics' global expert grades
+are contextual evidence, not champion-specific scoring inputs. No external
+letter grades or champion-specific overrides are hardcoded into the formula.
