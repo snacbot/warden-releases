@@ -1,149 +1,366 @@
 {
   "version": 2,
-  "method": "warden-win-ratio-grades-v2",
+  "method": "warden-sample-weighted-grades-v1",
   "championId": 28,
   "championKey": "Evelynn",
   "set": "aram",
   "patch": "16.18",
-  "scrapedAt": "2026-09-12T02:34:26.350Z",
+  "scrapedAt": "2026-09-13T21:52:42.336Z",
   "augments": [
     {
-      "augmentId": 2031,
+      "augmentId": 1389,
       "tier": "S",
-      "pickrate": 0.0242,
+      "pickrate": 0.0035,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1120
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 261
+        }
+      ]
+    },
+    {
+      "augmentId": 2031,
+      "tier": "S",
+      "pickrate": 0.02565,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 484
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1777
         }
       ]
     },
     {
       "augmentId": 1038,
       "tier": "A",
-      "pickrate": 0.0871,
+      "pickrate": 0.08875,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 543
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4032
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 6503
         }
       ]
     },
     {
       "augmentId": 1053,
       "tier": "A",
-      "pickrate": 0.0246,
+      "pickrate": 0.0266,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 631
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1141
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1820
         }
       ]
     },
     {
-      "augmentId": 1073,
+      "augmentId": 1156,
       "tier": "A",
-      "pickrate": 0.0307,
+      "pickrate": 0.0557,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 378
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1422
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 4088
         }
       ]
     },
     {
-      "augmentId": 1154,
+      "augmentId": 1333,
       "tier": "A",
-      "pickrate": 0.0122,
+      "pickrate": 0.05965,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 390
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 566
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 4286
         }
       ]
     },
     {
       "augmentId": 1390,
       "tier": "A",
-      "pickrate": 0.1201,
+      "pickrate": 0.12703333333333333,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 762
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 8854
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/evelynn?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 346
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": "A",
+      "pickrate": 0.0076,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 5561
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 562
         }
       ]
     },
     {
       "augmentId": 2095,
       "tier": "A",
-      "pickrate": 0.0332,
+      "pickrate": 0.032799999999999996,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1239
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1539
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2447
         }
       ]
     },
     {
-      "augmentId": 1026,
-      "tier": "B",
-      "pickrate": 0.0191,
+      "augmentId": 2132,
+      "tier": "A",
+      "pickrate": 0.1682,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1050
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 885
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 11756
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/evelynn?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 435
         }
       ]
     },
     {
-      "augmentId": 1156,
+      "augmentId": 1048,
       "tier": "B",
-      "pickrate": 0.056,
+      "pickrate": 0.1334,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 827
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2595
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 8779
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/evelynn?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 373
+        }
+      ]
+    },
+    {
+      "augmentId": 1073,
+      "tier": "B",
+      "pickrate": 0.0315,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 793
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2283
+        }
+      ]
+    },
+    {
+      "augmentId": 1097,
+      "tier": "B",
+      "pickrate": 0.0903,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 467
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 5248
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/evelynn?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 298
         }
       ]
     },
     {
       "augmentId": 1195,
       "tier": "B",
-      "pickrate": 0.0567,
+      "pickrate": 0.05945,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 398
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2627
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 4169
+        }
+      ]
+    },
+    {
+      "augmentId": 1238,
+      "tier": "B",
+      "pickrate": 0.12463333333333333,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 829
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 9893
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/evelynn?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 258
+        }
+      ]
+    },
+    {
+      "augmentId": 1310,
+      "tier": "B",
+      "pickrate": 0.08495,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 529
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 5995
         }
       ]
     },
@@ -153,543 +370,816 @@
       "pickrate": 0.0397,
       "contributions": [
         {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1839
-        }
-      ]
-    },
-    {
-      "augmentId": 1333,
-      "tier": "B",
-      "pickrate": 0.0581,
-      "contributions": [
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1077
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2692
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2870
         }
       ]
     },
     {
       "augmentId": 1403,
       "tier": "B",
-      "pickrate": 0.0268,
+      "pickrate": 0.029,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 627
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1239
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1978
         }
       ]
     },
     {
-      "augmentId": 1404,
+      "augmentId": 1415,
       "tier": "B",
-      "pickrate": 0.0079,
+      "pickrate": 0.026000000000000002,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 591
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 365
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1867
         }
       ]
     },
     {
-      "augmentId": 1034,
-      "tier": "C",
-      "pickrate": 0.0317,
+      "augmentId": 2083,
+      "tier": "B",
+      "pickrate": 0.13283333333333333,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 893
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1466
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 10817
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/evelynn?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 261
         }
       ]
     },
     {
       "augmentId": 1046,
       "tier": "C",
-      "pickrate": 0.0188,
+      "pickrate": 0.0189,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 443
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 872
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1378
         }
       ]
     },
     {
-      "augmentId": 1097,
+      "augmentId": 1060,
       "tier": "C",
-      "pickrate": 0.0704,
+      "pickrate": 0.0082,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3262
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 608
+        }
+      ]
+    },
+    {
+      "augmentId": 1062,
+      "tier": "C",
+      "pickrate": 0.0055,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 408
+        }
+      ]
+    },
+    {
+      "augmentId": 1084,
+      "tier": "C",
+      "pickrate": 0.1078,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 641
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 6741
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/evelynn?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 328
+        }
+      ]
+    },
+    {
+      "augmentId": 1098,
+      "tier": "C",
+      "pickrate": 0.02975,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 707
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2090
         }
       ]
     },
     {
       "augmentId": 1105,
       "tier": "C",
-      "pickrate": 0.0446,
+      "pickrate": 0.0468,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 321
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2064
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 3334
         }
       ]
     },
     {
-      "augmentId": 1150,
+      "augmentId": 1116,
       "tier": "C",
-      "pickrate": 0.014,
+      "pickrate": 0.0565,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 344
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 648
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 4074
+        }
+      ]
+    },
+    {
+      "augmentId": 1154,
+      "tier": "C",
+      "pickrate": 0.0133,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 354
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 920
         }
       ]
     },
     {
       "augmentId": 1180,
       "tier": "C",
-      "pickrate": 0.0399,
+      "pickrate": 0.042050000000000004,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 282
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1848
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2971
         }
       ]
     },
     {
       "augmentId": 1205,
       "tier": "C",
-      "pickrate": 0.0976,
+      "pickrate": 0.10075,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 652
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4522
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 7198
         }
       ]
     },
     {
-      "augmentId": 1238,
+      "augmentId": 1237,
       "tier": "C",
-      "pickrate": 0.1351,
+      "pickrate": 0.0528,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 303
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6258
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 3795
+        }
+      ]
+    },
+    {
+      "augmentId": 1243,
+      "tier": "C",
+      "pickrate": 0.03055,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 741
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2014
         }
       ]
     },
     {
       "augmentId": 1308,
       "tier": "C",
-      "pickrate": 0.0137,
+      "pickrate": 0.01455,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 336
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 636
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1015
         }
       ]
     },
     {
-      "augmentId": 1310,
+      "augmentId": 1332,
       "tier": "C",
-      "pickrate": 0.0808,
+      "pickrate": 0.0216,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 565
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3744
-        }
-      ]
-    },
-    {
-      "augmentId": 1311,
-      "tier": "C",
-      "pickrate": 0.0096,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 443
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1497
         }
       ]
     },
     {
       "augmentId": 1373,
       "tier": "C",
-      "pickrate": 0.0829,
+      "pickrate": 0.0869,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 558
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3841
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 6180
         }
       ]
     },
     {
       "augmentId": 1384,
       "tier": "C",
-      "pickrate": 0.0445,
+      "pickrate": 0.045899999999999996,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 279
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2060
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 3256
         }
       ]
     },
     {
-      "augmentId": 1402,
+      "augmentId": 1996,
       "tier": "C",
-      "pickrate": 0.0072,
+      "pickrate": 0.06334999999999999,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 391
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 333
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 4586
         }
       ]
     },
     {
-      "augmentId": 1415,
+      "augmentId": 2034,
       "tier": "C",
-      "pickrate": 0.0255,
+      "pickrate": 0.0178,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 443
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1181
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1240
         }
       ]
     },
     {
-      "augmentId": 2083,
+      "augmentId": 2088,
       "tier": "C",
-      "pickrate": 0.1452,
+      "pickrate": 0.0203,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 506
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6726
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1459
         }
       ]
     },
     {
-      "augmentId": 2127,
-      "tier": "C",
-      "pickrate": 0.032,
+      "augmentId": 1002,
+      "tier": "D",
+      "pickrate": 0.0091,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1482
-        }
-      ]
-    },
-    {
-      "augmentId": 2132,
-      "tier": "C",
-      "pickrate": 0.1585,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 7340
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 672
         }
       ]
     },
     {
       "augmentId": 1019,
       "tier": "D",
-      "pickrate": 0.0227,
+      "pickrate": 0.0232,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 592
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1051
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1637
         }
       ]
     },
     {
       "augmentId": 1025,
       "tier": "D",
-      "pickrate": 0.03,
+      "pickrate": 0.0314,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 511
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1390
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2214
+        }
+      ]
+    },
+    {
+      "augmentId": 1026,
+      "tier": "D",
+      "pickrate": 0.01965,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 429
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1410
         }
       ]
     },
     {
       "augmentId": 1030,
       "tier": "D",
-      "pickrate": 0.0918,
+      "pickrate": 0.09745000000000001,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 643
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4253
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 6854
         }
       ]
     },
     {
-      "augmentId": 1048,
+      "augmentId": 1034,
       "tier": "D",
-      "pickrate": 0.1173,
+      "pickrate": 0.0322,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 751
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 5431
-        }
-      ]
-    },
-    {
-      "augmentId": 1060,
-      "tier": "D",
-      "pickrate": 0.0078,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 363
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2330
         }
       ]
     },
     {
       "augmentId": 1068,
       "tier": "D",
-      "pickrate": 0.0979,
+      "pickrate": 0.10085,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 640
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4532
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 7233
         }
       ]
     },
     {
-      "augmentId": 1084,
+      "augmentId": 1088,
       "tier": "D",
-      "pickrate": 0.0911,
+      "pickrate": 0.05035,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 339
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4220
-        }
-      ]
-    },
-    {
-      "augmentId": 1098,
-      "tier": "D",
-      "pickrate": 0.0287,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1329
-        }
-      ]
-    },
-    {
-      "augmentId": 1116,
-      "tier": "D",
-      "pickrate": 0.0549,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2542
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 3503
         }
       ]
     },
     {
       "augmentId": 1129,
       "tier": "D",
-      "pickrate": 0.0656,
+      "pickrate": 0.06889999999999999,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 474
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3039
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 4864
         }
       ]
     },
     {
       "augmentId": 1138,
       "tier": "D",
-      "pickrate": 0.033,
+      "pickrate": 0.034449999999999995,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 697
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1529
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2436
         }
       ]
     },
     {
-      "augmentId": 1237,
+      "augmentId": 1151,
       "tier": "D",
-      "pickrate": 0.0507,
+      "pickrate": 0.02625,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 574
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2347
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1830
         }
       ]
     },
     {
-      "augmentId": 1243,
+      "augmentId": 1211,
       "tier": "D",
-      "pickrate": 0.027,
+      "pickrate": 0.0471,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 309
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1251
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 3350
         }
       ]
     },
     {
       "augmentId": 1305,
       "tier": "D",
-      "pickrate": 0.0382,
+      "pickrate": 0.03945,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 264
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2791
+        }
+      ]
+    },
+    {
+      "augmentId": 1311,
+      "tier": "D",
+      "pickrate": 0.010249999999999999,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 353
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 728
+        }
+      ]
+    },
+    {
+      "augmentId": 1315,
+      "tier": "D",
+      "pickrate": 0.0049,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1771
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 362
         }
       ]
     },
     {
       "augmentId": 1318,
       "tier": "D",
-      "pickrate": 0.0427,
+      "pickrate": 0.04315,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 290
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1977
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 3158
         }
       ]
     },
     {
-      "augmentId": 1322,
+      "augmentId": 1335,
       "tier": "D",
-      "pickrate": 0.0217,
+      "pickrate": 0.006,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1003
-        }
-      ]
-    },
-    {
-      "augmentId": 1332,
-      "tier": "D",
-      "pickrate": 0.0206,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 955
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 446
         }
       ]
     },
@@ -702,498 +1192,708 @@
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 366
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 588
         }
       ]
     },
     {
       "augmentId": 1345,
       "tier": "D",
-      "pickrate": 0.017,
+      "pickrate": 0.0186,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 399
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 786
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1270
+        }
+      ]
+    },
+    {
+      "augmentId": 1358,
+      "tier": "D",
+      "pickrate": 0.02425,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 551
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1725
+        }
+      ]
+    },
+    {
+      "augmentId": 1388,
+      "tier": "D",
+      "pickrate": 0.0407,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 262
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2950
         }
       ]
     },
     {
       "augmentId": 1392,
       "tier": "D",
-      "pickrate": 0.0117,
+      "pickrate": 0.0139,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 381
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 541
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 906
         }
       ]
     },
     {
-      "augmentId": 1996,
+      "augmentId": 1402,
       "tier": "D",
-      "pickrate": 0.0622,
+      "pickrate": 0.0071,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2880
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 528
+        }
+      ]
+    },
+    {
+      "augmentId": 2016,
+      "tier": "D",
+      "pickrate": 0.0039,
+      "contributions": [
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 288
         }
       ]
     },
     {
       "augmentId": 2018,
       "tier": "D",
-      "pickrate": 0.033,
+      "pickrate": 0.03405,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 841
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1529
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2455
         }
       ]
     },
     {
       "augmentId": 2026,
       "tier": "D",
-      "pickrate": 0.032,
+      "pickrate": 0.0348,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 810
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1480
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2447
         }
       ]
     },
     {
-      "augmentId": 2088,
+      "augmentId": 2032,
       "tier": "D",
-      "pickrate": 0.0194,
+      "pickrate": 0.017349999999999997,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 309
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 898
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1198
+        }
+      ]
+    },
+    {
+      "augmentId": 2080,
+      "tier": "D",
+      "pickrate": 0.01995,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 522
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1417
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": "D",
+      "pickrate": 0.0115,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 264
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 813
         }
       ]
     },
     {
       "augmentId": 2098,
       "tier": "D",
-      "pickrate": 0.0098,
+      "pickrate": 0.01055,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 318
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 455
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 720
         }
       ]
     },
     {
-      "augmentId": 2123,
+      "augmentId": 2116,
       "tier": "D",
-      "pickrate": 0.0279,
+      "pickrate": 0.055900000000000005,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 356
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 4090
+        }
+      ]
+    },
+    {
+      "augmentId": 2119,
+      "tier": "D",
+      "pickrate": 0.0037,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1291
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 272
+        }
+      ]
+    },
+    {
+      "augmentId": 2127,
+      "tier": "D",
+      "pickrate": 0.0324,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 689
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2326
+        }
+      ]
+    },
+    {
+      "augmentId": 2136,
+      "tier": "D",
+      "pickrate": 0.07396666666666667,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 374
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 4159
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/evelynn?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 268
         }
       ]
     },
     {
       "augmentId": 12317,
       "tier": "D",
-      "pickrate": 0.0255,
+      "pickrate": 0.02385,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 481
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1182
-        }
-      ]
-    },
-    {
-      "augmentId": 1002,
-      "tier": "F",
-      "pickrate": 0.0089,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 412
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1869
         }
       ]
     },
     {
       "augmentId": 1006,
       "tier": "F",
-      "pickrate": 0.0141,
+      "pickrate": 0.014249999999999999,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 345
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 653
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1000
         }
       ]
     },
     {
       "augmentId": 1041,
       "tier": "F",
-      "pickrate": 0.0127,
+      "pickrate": 0.0152,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 400
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 984
+        }
+      ]
+    },
+    {
+      "augmentId": 1044,
+      "tier": "F",
+      "pickrate": 0.0036,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 588
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 267
         }
       ]
     },
     {
       "augmentId": 1054,
       "tier": "F",
-      "pickrate": 0.0073,
+      "pickrate": 0.0072,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 339
-        }
-      ]
-    },
-    {
-      "augmentId": 1088,
-      "tier": "F",
-      "pickrate": 0.0472,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2186
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 534
         }
       ]
     },
     {
       "augmentId": 1103,
       "tier": "F",
-      "pickrate": 0.0203,
+      "pickrate": 0.021249999999999998,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 504
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 939
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1440
         }
       ]
     },
     {
-      "augmentId": 1151,
+      "augmentId": 1150,
       "tier": "F",
-      "pickrate": 0.025,
+      "pickrate": 0.01475,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 345
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1157
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1025
         }
       ]
     },
     {
-      "augmentId": 1211,
+      "augmentId": 1194,
       "tier": "F",
-      "pickrate": 0.0455,
+      "pickrate": 0.005,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2106
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 371
         }
       ]
     },
     {
       "augmentId": 1301,
       "tier": "F",
-      "pickrate": 0.0085,
+      "pickrate": 0.0083,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 392
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 616
+        }
+      ]
+    },
+    {
+      "augmentId": 1322,
+      "tier": "F",
+      "pickrate": 0.0224,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 544
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1591
         }
       ]
     },
     {
       "augmentId": 1326,
       "tier": "F",
-      "pickrate": 0.0515,
+      "pickrate": 0.05575,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 370
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2385
-        }
-      ]
-    },
-    {
-      "augmentId": 1335,
-      "tier": "F",
-      "pickrate": 0.0057,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 263
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 3911
         }
       ]
     },
     {
       "augmentId": 1344,
       "tier": "F",
-      "pickrate": 0.013,
+      "pickrate": 0.0147,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 346
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 601
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 972
         }
       ]
     },
     {
       "augmentId": 1349,
       "tier": "F",
-      "pickrate": 0.0183,
+      "pickrate": 0.02135,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 532
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 849
-        }
-      ]
-    },
-    {
-      "augmentId": 1358,
-      "tier": "F",
-      "pickrate": 0.0225,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1040
-        }
-      ]
-    },
-    {
-      "augmentId": 1388,
-      "tier": "F",
-      "pickrate": 0.0399,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1847
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1400
         }
       ]
     },
     {
       "augmentId": 2005,
       "tier": "F",
-      "pickrate": 0.0127,
+      "pickrate": 0.01375,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 304
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 589
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 935
         }
       ]
     },
     {
-      "augmentId": 2032,
+      "augmentId": 2042,
       "tier": "F",
-      "pickrate": 0.0165,
+      "pickrate": 0.00465,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 672
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 765
-        }
-      ]
-    },
-    {
-      "augmentId": 2034,
-      "tier": "F",
-      "pickrate": 0.0167,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 772
-        }
-      ]
-    },
-    {
-      "augmentId": 2080,
-      "tier": "F",
-      "pickrate": 0.0189,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 877
-        }
-      ]
-    },
-    {
-      "augmentId": 2089,
-      "tier": "F",
-      "pickrate": 0.0111,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 515
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 327
         }
       ]
     },
     {
       "augmentId": 2091,
       "tier": "F",
-      "pickrate": 0.0098,
+      "pickrate": 0.0096,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 456
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 708
         }
       ]
     },
     {
       "augmentId": 2099,
       "tier": "F",
-      "pickrate": 0.0159,
+      "pickrate": 0.0155,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 737
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1149
         }
       ]
     },
     {
       "augmentId": 2100,
       "tier": "F",
-      "pickrate": 0.0297,
+      "pickrate": 0.02915,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 648
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1376
-        }
-      ]
-    },
-    {
-      "augmentId": 2116,
-      "tier": "F",
-      "pickrate": 0.0551,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2550
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2129
         }
       ]
     },
     {
       "augmentId": 2118,
       "tier": "F",
-      "pickrate": 0.0363,
+      "pickrate": 0.03795,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 263
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1679
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2656
         }
       ]
     },
     {
-      "augmentId": 2136,
+      "augmentId": 2123,
       "tier": "F",
-      "pickrate": 0.0566,
+      "pickrate": 0.03,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/28",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 661
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/evelynn?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2621
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2065
         }
       ]
     }

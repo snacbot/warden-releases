@@ -1,1605 +1,2732 @@
 {
   "version": 2,
-  "method": "warden-win-ratio-grades-v2",
+  "method": "warden-sample-weighted-grades-v1",
   "championId": 120,
   "championKey": "Hecarim",
   "set": "aram",
   "patch": "16.18",
-  "scrapedAt": "2026-09-12T02:34:26.350Z",
+  "scrapedAt": "2026-09-13T21:52:42.336Z",
   "augments": [
     {
       "augmentId": 1004,
       "tier": "S",
-      "pickrate": 0.0592,
+      "pickrate": 0.060399999999999995,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 5231
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 40655
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 62262
         }
       ]
     },
     {
       "augmentId": 1007,
       "tier": "S",
-      "pickrate": 0.0455,
+      "pickrate": 0.04566666666666666,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 4035
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 31259
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 47550
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 255
+        }
+      ]
+    },
+    {
+      "augmentId": 1028,
+      "tier": "S",
+      "pickrate": 0.0086,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 814
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 9025
         }
       ]
     },
     {
       "augmentId": 1029,
       "tier": "S",
-      "pickrate": 0.2295,
+      "pickrate": 0.21119999999999997,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 20272
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 157730
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 243476
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 907
         }
       ]
     },
     {
       "augmentId": 1038,
       "tier": "S",
-      "pickrate": 0.0194,
+      "pickrate": 0.01995,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1771
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 13364
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 20686
         }
       ]
     },
     {
       "augmentId": 1053,
       "tier": "S",
-      "pickrate": 0.0314,
+      "pickrate": 0.037433333333333325,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2942
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 21604
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 33289
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 258
         }
       ]
     },
     {
       "augmentId": 1058,
       "tier": "S",
-      "pickrate": 0.1236,
+      "pickrate": 0.10916666666666668,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 11015
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 84940
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 130360
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 416
+        }
+      ]
+    },
+    {
+      "augmentId": 1060,
+      "tier": "S",
+      "pickrate": 0.009149999999999998,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 847
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 9456
+        }
+      ]
+    },
+    {
+      "augmentId": 1062,
+      "tier": "S",
+      "pickrate": 0.00455,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 410
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 4421
         }
       ]
     },
     {
       "augmentId": 1068,
       "tier": "S",
-      "pickrate": 0.137,
+      "pickrate": 0.13266666666666665,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 11968
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 94130
-        }
-      ]
-    },
-    {
-      "augmentId": 1073,
-      "tier": "S",
-      "pickrate": 0.009,
-      "contributions": [
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 144725
+        },
         {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6181
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 662
         }
       ]
     },
     {
       "augmentId": 1098,
       "tier": "S",
-      "pickrate": 0.0612,
+      "pickrate": 0.07963333333333333,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 5296
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 42050
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 64522
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 639
+        }
+      ]
+    },
+    {
+      "augmentId": 1103,
+      "tier": "S",
+      "pickrate": 0.10486666666666666,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 9538
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 109534
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 551
         }
       ]
     },
     {
       "augmentId": 1195,
       "tier": "S",
-      "pickrate": 0.0315,
+      "pickrate": 0.04583333333333334,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 3004
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 21663
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 33225
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 397
         }
       ]
     },
     {
       "augmentId": 1206,
       "tier": "S",
-      "pickrate": 0.0212,
+      "pickrate": 0.02205,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1893
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 14574
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 22505
         }
       ]
     },
     {
       "augmentId": 1214,
       "tier": "S",
-      "pickrate": 0.1486,
+      "pickrate": 0.1475,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 12976
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 102121
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 156696
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 778
         }
       ]
     },
     {
       "augmentId": 1238,
       "tier": "S",
-      "pickrate": 0.0979,
+      "pickrate": 0.09443333333333333,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 8292
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 67315
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 103331
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 489
         }
       ]
     },
     {
       "augmentId": 1310,
       "tier": "S",
-      "pickrate": 0.0169,
+      "pickrate": 0.01765,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1580
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 11617
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 17722
         }
       ]
     },
     {
       "augmentId": 1322,
       "tier": "S",
-      "pickrate": 0.0544,
+      "pickrate": 0.056566666666666675,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 4748
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 37410
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 57690
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 323
         }
       ]
     },
     {
       "augmentId": 1333,
       "tier": "S",
-      "pickrate": 0.0288,
+      "pickrate": 0.029900000000000003,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2660
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 19802
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 30734
         }
       ]
     },
     {
-      "augmentId": 1335,
+      "augmentId": 1344,
       "tier": "S",
-      "pickrate": 0.0031,
+      "pickrate": 0.0359,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 3273
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2152
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 36032
         }
       ]
     },
     {
       "augmentId": 1349,
       "tier": "S",
-      "pickrate": 0.0988,
+      "pickrate": 0.08736666666666666,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 8959
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 67905
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 104790
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 318
         }
       ]
     },
     {
       "augmentId": 1373,
       "tier": "S",
-      "pickrate": 0.0844,
+      "pickrate": 0.09343333333333333,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 7409
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 58039
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 88955
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 608
         }
       ]
     },
     {
       "augmentId": 1384,
       "tier": "S",
-      "pickrate": 0.028,
+      "pickrate": 0.0284,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2522
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 19235
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 29319
         }
       ]
     },
     {
       "augmentId": 1388,
       "tier": "S",
-      "pickrate": 0.0471,
+      "pickrate": 0.04815,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 4306
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 32348
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 49948
         }
       ]
     },
     {
       "augmentId": 1389,
       "tier": "S",
-      "pickrate": 0.0012,
+      "pickrate": 0.00155,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 534
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 834
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1281
         }
       ]
     },
     {
       "augmentId": 1403,
       "tier": "S",
-      "pickrate": 0.0184,
+      "pickrate": 0.019200000000000002,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1639
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 12674
-        }
-      ]
-    },
-    {
-      "augmentId": 1404,
-      "tier": "S",
-      "pickrate": 0.0024,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1682
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 19556
         }
       ]
     },
     {
       "augmentId": 1415,
       "tier": "S",
-      "pickrate": 0.0063,
+      "pickrate": 0.0063999999999999994,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 553
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4358
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 6640
         }
       ]
     },
     {
       "augmentId": 2005,
       "tier": "S",
-      "pickrate": 0.0391,
+      "pickrate": 0.045033333333333335,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 3639
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 26850
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 41389
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 294
         }
       ]
     },
     {
       "augmentId": 2018,
       "tier": "S",
-      "pickrate": 0.0311,
+      "pickrate": 0.032350000000000004,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2868
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 21368
-        }
-      ]
-    },
-    {
-      "augmentId": 2031,
-      "tier": "S",
-      "pickrate": 0.0075,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 5186
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 33263
         }
       ]
     },
     {
       "augmentId": 2076,
       "tier": "S",
-      "pickrate": 0.0838,
+      "pickrate": 0.09266666666666666,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 7710
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 57606
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 89125
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 589
         }
       ]
     },
     {
       "augmentId": 2083,
       "tier": "S",
-      "pickrate": 0.0404,
+      "pickrate": 0.0407,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 3524
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 27792
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 42803
         }
       ]
     },
     {
       "augmentId": 2095,
       "tier": "S",
-      "pickrate": 0.0194,
+      "pickrate": 0.0193,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1655
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 13324
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 20423
         }
       ]
     },
     {
       "augmentId": 2098,
       "tier": "S",
-      "pickrate": 0.0226,
+      "pickrate": 0.02525,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2217
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 15562
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 24756
         }
       ]
     },
     {
       "augmentId": 2107,
       "tier": "S",
-      "pickrate": 0.0066,
+      "pickrate": 0.0076,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 743
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4505
-        }
-      ]
-    },
-    {
-      "augmentId": 2136,
-      "tier": "S",
-      "pickrate": 0.0467,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 32090
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 6944
         }
       ]
     },
     {
       "augmentId": 2140,
       "tier": "S",
-      "pickrate": 0.0746,
+      "pickrate": 0.07783333333333332,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 6379
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 51302
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 79087
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 466
         }
       ]
     },
     {
       "augmentId": 1020,
       "tier": "A",
-      "pickrate": 0.0234,
+      "pickrate": 0.0236,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2134
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 16049
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 24396
         }
       ]
     },
     {
       "augmentId": 1026,
       "tier": "A",
-      "pickrate": 0.021,
+      "pickrate": 0.0216,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1814
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 14414
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 22302
         }
       ]
     },
     {
-      "augmentId": 1028,
+      "augmentId": 1041,
       "tier": "A",
-      "pickrate": 0.0086,
+      "pickrate": 0.040600000000000004,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 3213
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 5889
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 34491
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 298
         }
       ]
     },
     {
       "augmentId": 1056,
       "tier": "A",
-      "pickrate": 0.0092,
+      "pickrate": 0.009399999999999999,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 811
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6341
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 9680
         }
       ]
     },
     {
-      "augmentId": 1060,
+      "augmentId": 1073,
       "tier": "A",
-      "pickrate": 0.0089,
+      "pickrate": 0.00925,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 809
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6142
-        }
-      ]
-    },
-    {
-      "augmentId": 1062,
-      "tier": "A",
-      "pickrate": 0.0042,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2887
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 9532
         }
       ]
     },
     {
       "augmentId": 1084,
       "tier": "A",
-      "pickrate": 0.0188,
+      "pickrate": 0.0194,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1672
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 12887
-        }
-      ]
-    },
-    {
-      "augmentId": 1103,
-      "tier": "A",
-      "pickrate": 0.1038,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 71308
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 19923
         }
       ]
     },
     {
       "augmentId": 1112,
       "tier": "A",
-      "pickrate": 0.0127,
+      "pickrate": 0.0129,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1128
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 8713
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 13318
         }
       ]
     },
     {
       "augmentId": 1116,
       "tier": "A",
-      "pickrate": 0.0173,
+      "pickrate": 0.017599999999999998,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1488
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 11923
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 18306
         }
       ]
     },
     {
       "augmentId": 1138,
       "tier": "A",
-      "pickrate": 0.0512,
+      "pickrate": 0.05306666666666667,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 4640
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 35192
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 54147
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 303
         }
       ]
     },
     {
       "augmentId": 1154,
       "tier": "A",
-      "pickrate": 0.0106,
+      "pickrate": 0.011349999999999999,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1040
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 11317
+        }
+      ]
+    },
+    {
+      "augmentId": 1187,
+      "tier": "A",
+      "pickrate": 0.0003,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 7253
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 354
+        }
+      ]
+    },
+    {
+      "augmentId": 1211,
+      "tier": "A",
+      "pickrate": 0.00995,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 875
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 10180
         }
       ]
     },
     {
       "augmentId": 1237,
       "tier": "A",
-      "pickrate": 0.0285,
+      "pickrate": 0.0296,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2537
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 19579
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 30253
         }
       ]
     },
     {
       "augmentId": 1243,
       "tier": "A",
-      "pickrate": 0.0252,
+      "pickrate": 0.027049999999999998,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2396
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 17312
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 26762
         }
       ]
     },
     {
       "augmentId": 1305,
       "tier": "A",
-      "pickrate": 0.0397,
+      "pickrate": 0.04626666666666666,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 3512
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 27303
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 42069
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 319
+        }
+      ]
+    },
+    {
+      "augmentId": 1308,
+      "tier": "A",
+      "pickrate": 0.0034999999999999996,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 341
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 3583
         }
       ]
     },
     {
       "augmentId": 1311,
       "tier": "A",
-      "pickrate": 0.0189,
+      "pickrate": 0.0194,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1657
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 12991
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 20004
         }
       ]
     },
     {
       "augmentId": 1319,
       "tier": "A",
-      "pickrate": 0.0105,
+      "pickrate": 0.01035,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 955
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 7203
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 10884
         }
       ]
     },
     {
-      "augmentId": 1326,
+      "augmentId": 1335,
       "tier": "A",
-      "pickrate": 0.0229,
+      "pickrate": 0.0031999999999999997,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 294
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 15722
-        }
-      ]
-    },
-    {
-      "augmentId": 1344,
-      "tier": "A",
-      "pickrate": 0.034,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 23399
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 3252
         }
       ]
     },
     {
       "augmentId": 1347,
       "tier": "A",
-      "pickrate": 0.0053,
+      "pickrate": 0.00555,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 452
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3661
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 5714
+        }
+      ]
+    },
+    {
+      "augmentId": 1401,
+      "tier": "A",
+      "pickrate": 0.0276,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2505
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 28519
         }
       ]
     },
     {
       "augmentId": 1402,
       "tier": "A",
-      "pickrate": 0.0052,
+      "pickrate": 0.005549999999999999,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 482
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 3558
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 5548
+        }
+      ]
+    },
+    {
+      "augmentId": 1404,
+      "tier": "A",
+      "pickrate": 0.0024999999999999996,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 814
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2578
         }
       ]
     },
     {
       "augmentId": 1413,
       "tier": "A",
-      "pickrate": 0.0082,
+      "pickrate": 0.00895,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 882
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 5610
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 8643
+        }
+      ]
+    },
+    {
+      "augmentId": 2016,
+      "tier": "A",
+      "pickrate": 0.003,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 273
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 3101
         }
       ]
     },
     {
       "augmentId": 2026,
       "tier": "A",
-      "pickrate": 0.014,
+      "pickrate": 0.01415,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1191
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 9597
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 14684
+        }
+      ]
+    },
+    {
+      "augmentId": 2031,
+      "tier": "A",
+      "pickrate": 0.00825,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 720
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 8083
         }
       ]
     },
     {
       "augmentId": 2032,
       "tier": "A",
-      "pickrate": 0.006,
+      "pickrate": 0.00625,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 544
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4118
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 6362
         }
       ]
     },
     {
       "augmentId": 2087,
       "tier": "A",
-      "pickrate": 0.0273,
+      "pickrate": 0.02905,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2652
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 18787
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 28904
         }
       ]
     },
     {
       "augmentId": 2091,
       "tier": "A",
-      "pickrate": 0.063,
+      "pickrate": 0.06953333333333334,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 5836
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 43291
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 66733
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 438
         }
       ]
     },
     {
       "augmentId": 2100,
       "tier": "A",
-      "pickrate": 0.0416,
+      "pickrate": 0.044300000000000006,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 3746
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 28565
-        }
-      ]
-    },
-    {
-      "augmentId": 2102,
-      "tier": "A",
-      "pickrate": 0.0276,
-      "contributions": [
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 44227
+        },
         {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 18957
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 268
         }
       ]
     },
     {
       "augmentId": 2119,
       "tier": "A",
-      "pickrate": 0.0039,
+      "pickrate": 0.00405,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 393
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2674
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 4157
         }
       ]
     },
     {
       "augmentId": 2127,
       "tier": "A",
-      "pickrate": 0.0131,
+      "pickrate": 0.013600000000000001,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1243
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 9019
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 13916
+        }
+      ]
+    },
+    {
+      "augmentId": 2136,
+      "tier": "A",
+      "pickrate": 0.05406666666666667,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 4190
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 49076
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 378
         }
       ]
     },
     {
       "augmentId": 2138,
       "tier": "A",
-      "pickrate": 0.0688,
+      "pickrate": 0.07276666666666666,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 6358
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 47276
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 72356
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 441
         }
       ]
     },
     {
       "augmentId": 2139,
       "tier": "A",
-      "pickrate": 0.009,
+      "pickrate": 0.009399999999999999,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 853
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6156
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 9487
         }
       ]
     },
     {
       "augmentId": 2141,
       "tier": "A",
-      "pickrate": 0.03,
+      "pickrate": 0.03065,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2674
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 20604
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 31714
         }
       ]
     },
     {
       "augmentId": 2157,
       "tier": "A",
-      "pickrate": 0.0772,
+      "pickrate": 0.07453333333333334,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 6849
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 53028
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 81319
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 366
         }
       ]
     },
     {
       "augmentId": 12317,
       "tier": "A",
-      "pickrate": 0.0201,
+      "pickrate": 0.0189,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1536
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 13800
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 21002
         }
       ]
     },
     {
       "augmentId": 1001,
       "tier": "B",
-      "pickrate": 0.0214,
+      "pickrate": 0.02265,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2127
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 14694
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 22566
         }
       ]
     },
     {
       "augmentId": 1013,
       "tier": "B",
-      "pickrate": 0.0355,
+      "pickrate": 0.035699999999999996,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 3149
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 24421
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 37267
         }
       ]
     },
     {
       "augmentId": 1015,
       "tier": "B",
-      "pickrate": 0.009,
+      "pickrate": 0.0095,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 955
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6180
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 9433
         }
       ]
     },
     {
       "augmentId": 1025,
       "tier": "B",
-      "pickrate": 0.0103,
+      "pickrate": 0.01075,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 957
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 7047
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 10983
         }
       ]
     },
     {
-      "augmentId": 1041,
+      "augmentId": 1046,
       "tier": "B",
-      "pickrate": 0.0331,
+      "pickrate": 0.00295,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 276
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 22729
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 3019
         }
       ]
     },
     {
-      "augmentId": 1057,
+      "augmentId": 1095,
       "tier": "B",
-      "pickrate": 0.0007,
+      "pickrate": 0.00315,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 297
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 464
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2928
         }
       ]
     },
     {
       "augmentId": 1105,
       "tier": "B",
-      "pickrate": 0.0084,
+      "pickrate": 0.008400000000000001,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 781
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 5747
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 8696
         }
       ]
     },
     {
       "augmentId": 1150,
       "tier": "B",
-      "pickrate": 0.0279,
+      "pickrate": 0.0292,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2684
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 19180
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 29589
         }
       ]
     },
     {
-      "augmentId": 1211,
+      "augmentId": 1181,
       "tier": "B",
-      "pickrate": 0.0096,
+      "pickrate": 0.01465,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1356
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6629
-        }
-      ]
-    },
-    {
-      "augmentId": 1308,
-      "tier": "B",
-      "pickrate": 0.0034,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2349
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 15504
         }
       ]
     },
     {
       "augmentId": 1315,
       "tier": "B",
-      "pickrate": 0.0024,
+      "pickrate": 0.00245,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 754
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1667
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2540
+        }
+      ]
+    },
+    {
+      "augmentId": 1326,
+      "tier": "B",
+      "pickrate": 0.02355,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2032
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 24148
         }
       ]
     },
     {
       "augmentId": 1337,
       "tier": "B",
-      "pickrate": 0.0066,
+      "pickrate": 0.007,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 597
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 6926
+        }
+      ]
+    },
+    {
+      "augmentId": 1345,
+      "tier": "B",
+      "pickrate": 0.01105,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 930
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 11342
+        }
+      ]
+    },
+    {
+      "augmentId": 1348,
+      "tier": "B",
+      "pickrate": 0.0003,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4522
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 311
         }
       ]
     },
     {
       "augmentId": 1361,
       "tier": "B",
-      "pickrate": 0.0064,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4394
-        }
-      ]
-    },
-    {
-      "augmentId": 1401,
-      "tier": "B",
-      "pickrate": 0.027,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 18537
-        }
-      ]
-    },
-    {
-      "augmentId": 1996,
-      "tier": "B",
-      "pickrate": 0.0263,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 18080
-        }
-      ]
-    },
-    {
-      "augmentId": 2016,
-      "tier": "B",
-      "pickrate": 0.003,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2029
-        }
-      ]
-    },
-    {
-      "augmentId": 2043,
-      "tier": "B",
-      "pickrate": 0.01,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6897
-        }
-      ]
-    },
-    {
-      "augmentId": 2062,
-      "tier": "B",
-      "pickrate": 0.04,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 27472
-        }
-      ]
-    },
-    {
-      "augmentId": 2064,
-      "tier": "B",
-      "pickrate": 0.0746,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 51241
-        }
-      ]
-    },
-    {
-      "augmentId": 2082,
-      "tier": "B",
-      "pickrate": 0.015,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 10306
-        }
-      ]
-    },
-    {
-      "augmentId": 2089,
-      "tier": "B",
-      "pickrate": 0.0073,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 5032
-        }
-      ]
-    },
-    {
-      "augmentId": 2137,
-      "tier": "B",
-      "pickrate": 0.0116,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 7965
-        }
-      ]
-    },
-    {
-      "augmentId": 1011,
-      "tier": "C",
       "pickrate": 0.0062,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4264
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 6581
         }
       ]
     },
     {
-      "augmentId": 1046,
-      "tier": "C",
-      "pickrate": 0.0029,
+      "augmentId": 1996,
+      "tier": "B",
+      "pickrate": 0.02665,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2361
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1990
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 27759
+        }
+      ]
+    },
+    {
+      "augmentId": 2034,
+      "tier": "B",
+      "pickrate": 0.006699999999999999,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 600
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 6859
+        }
+      ]
+    },
+    {
+      "augmentId": 2043,
+      "tier": "B",
+      "pickrate": 0.010450000000000001,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 913
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 10766
+        }
+      ]
+    },
+    {
+      "augmentId": 2062,
+      "tier": "B",
+      "pickrate": 0.04703333333333334,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 3703
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 42275
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 320
+        }
+      ]
+    },
+    {
+      "augmentId": 2064,
+      "tier": "B",
+      "pickrate": 0.08123333333333334,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 6793
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 78773
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 506
+        }
+      ]
+    },
+    {
+      "augmentId": 2082,
+      "tier": "B",
+      "pickrate": 0.0154,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1355
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 15807
+        }
+      ]
+    },
+    {
+      "augmentId": 2089,
+      "tier": "B",
+      "pickrate": 0.0077,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 661
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 7857
+        }
+      ]
+    },
+    {
+      "augmentId": 2102,
+      "tier": "B",
+      "pickrate": 0.02725,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2608
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 28771
+        }
+      ]
+    },
+    {
+      "augmentId": 2137,
+      "tier": "B",
+      "pickrate": 0.012150000000000001,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1037
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 12361
+        }
+      ]
+    },
+    {
+      "augmentId": 1002,
+      "tier": "C",
+      "pickrate": 0.013649999999999999,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1157
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 14087
+        }
+      ]
+    },
+    {
+      "augmentId": 1011,
+      "tier": "C",
+      "pickrate": 0.0069,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 634
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 6518
         }
       ]
     },
     {
       "augmentId": 1048,
       "tier": "C",
-      "pickrate": 0.0262,
+      "pickrate": 0.0274,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2430
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 17992
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 27433
         }
       ]
     },
     {
-      "augmentId": 1095,
+      "augmentId": 1057,
       "tier": "C",
-      "pickrate": 0.0028,
+      "pickrate": 0.0007,
       "contributions": [
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1926
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 714
         }
       ]
     },
     {
-      "augmentId": 1151,
+      "augmentId": 1088,
       "tier": "C",
-      "pickrate": 0.0111,
+      "pickrate": 0.013250000000000001,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1261
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 7660
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 13005
         }
       ]
     },
     {
       "augmentId": 1152,
       "tier": "C",
-      "pickrate": 0.0532,
+      "pickrate": 0.05306666666666667,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 4957
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 36566
-        }
-      ]
-    },
-    {
-      "augmentId": 1181,
-      "tier": "C",
-      "pickrate": 0.0151,
-      "contributions": [
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 55171
+        },
         {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 10362
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 306
         }
       ]
     },
     {
       "augmentId": 1301,
       "tier": "C",
-      "pickrate": 0.0093,
+      "pickrate": 0.00945,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 858
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6365
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 9716
+        }
+      ]
+    },
+    {
+      "augmentId": 1320,
+      "tier": "C",
+      "pickrate": 0.004200000000000001,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 380
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 4328
         }
       ]
     },
     {
       "augmentId": 1329,
       "tier": "C",
-      "pickrate": 0.0124,
+      "pickrate": 0.0133,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1215
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 8517
-        }
-      ]
-    },
-    {
-      "augmentId": 1345,
-      "tier": "C",
-      "pickrate": 0.0108,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 7404
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 13076
         }
       ]
     },
     {
       "augmentId": 1353,
       "tier": "C",
-      "pickrate": 0.0678,
+      "pickrate": 0.06903333333333332,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 6279
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 46628
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 70446
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 401
         }
       ]
     },
     {
       "augmentId": 1358,
       "tier": "C",
-      "pickrate": 0.009,
+      "pickrate": 0.0091,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 837
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6156
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 9342
         }
       ]
     },
     {
       "augmentId": 1421,
       "tier": "C",
-      "pickrate": 0.0032,
+      "pickrate": 0.0038000000000000004,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 361
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2167
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 3370
         }
       ]
     },
     {
       "augmentId": 2006,
       "tier": "C",
-      "pickrate": 0.0791,
+      "pickrate": 0.08366666666666667,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 7234
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 54357
-        }
-      ]
-    },
-    {
-      "augmentId": 2034,
-      "tier": "C",
-      "pickrate": 0.0064,
-      "contributions": [
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 82583
+        },
         {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4420
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 506
         }
       ]
     },
     {
       "augmentId": 2078,
       "tier": "C",
-      "pickrate": 0.0259,
+      "pickrate": 0.034866666666666664,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2319
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 17809
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 27035
+        },
+        {
+          "source": "mayhemmeta.com",
+          "sourceUrl": "https://mayhemmeta.com/champions/hecarim?patch=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 293
+        }
+      ]
+    },
+    {
+      "augmentId": 2080,
+      "tier": "C",
+      "pickrate": 0.00925,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 844
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 9359
+        }
+      ]
+    },
+    {
+      "augmentId": 2088,
+      "tier": "C",
+      "pickrate": 0.0035,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 316
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 3436
+        }
+      ]
+    },
+    {
+      "augmentId": 2099,
+      "tier": "C",
+      "pickrate": 0.011949999999999999,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1060
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 11600
         }
       ]
     },
     {
       "augmentId": 2134,
       "tier": "C",
-      "pickrate": 0.0022,
+      "pickrate": 0.00275,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 262
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1501
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2305
         }
       ]
     },
     {
-      "augmentId": 1002,
-      "tier": "D",
-      "pickrate": 0.0133,
+      "augmentId": 2143,
+      "tier": "C",
+      "pickrate": 0.028499999999999998,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2497
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 9138
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 29880
         }
       ]
     },
     {
-      "augmentId": 1088,
+      "augmentId": 1019,
       "tier": "D",
-      "pickrate": 0.0124,
+      "pickrate": 0.00735,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 704
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 8541
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 7286
+        }
+      ]
+    },
+    {
+      "augmentId": 1151,
+      "tier": "D",
+      "pickrate": 0.011550000000000001,
+      "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 994
+        },
+        {
+          "source": "aramkit.com",
+          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 11716
         }
       ]
     },
     {
       "augmentId": 1194,
       "tier": "D",
-      "pickrate": 0.0081,
+      "pickrate": 0.008799999999999999,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 853
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 5581
-        }
-      ]
-    },
-    {
-      "augmentId": 1320,
-      "tier": "D",
-      "pickrate": 0.0041,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2810
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 8513
         }
       ]
     },
     {
       "augmentId": 1392,
       "tier": "D",
-      "pickrate": 0.0041,
+      "pickrate": 0.0046,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 419
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2786
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 4255
         }
       ]
     },
@@ -1612,92 +2739,50 @@
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 465
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 711
         }
       ]
     },
     {
-      "augmentId": 2080,
+      "augmentId": 2115,
       "tier": "D",
-      "pickrate": 0.0088,
+      "pickrate": 0.0020499999999999997,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 756
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 6055
-        }
-      ]
-    },
-    {
-      "augmentId": 2088,
-      "tier": "D",
-      "pickrate": 0.0032,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2227
-        }
-      ]
-    },
-    {
-      "augmentId": 2099,
-      "tier": "D",
-      "pickrate": 0.011,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 7577
-        }
-      ]
-    },
-    {
-      "augmentId": 2143,
-      "tier": "D",
-      "pickrate": 0.0285,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 19590
-        }
-      ]
-    },
-    {
-      "augmentId": 1019,
-      "tier": "F",
-      "pickrate": 0.007,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 4789
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 1798
         }
       ]
     },
     {
       "augmentId": 1220,
       "tier": "F",
-      "pickrate": 0.0023,
+      "pickrate": 0.00275,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 278
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1612
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 2455
         }
       ]
     },
@@ -1707,11 +2792,18 @@
       "pickrate": 0.0006,
       "contributions": [
         {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 265
+        },
+        {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 427
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 644
         }
       ]
     },
@@ -1724,50 +2816,50 @@
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 294
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 447
         }
       ]
     },
     {
       "augmentId": 2063,
       "tier": "F",
-      "pickrate": 0.0009,
+      "pickrate": 0.0012000000000000001,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 459
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 613
-        }
-      ]
-    },
-    {
-      "augmentId": 2115,
-      "tier": "F",
-      "pickrate": 0.0017,
-      "contributions": [
-        {
-          "source": "aramkit.com",
-          "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
-          "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 1172
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 945
         }
       ]
     },
     {
       "augmentId": 2118,
       "tier": "F",
-      "pickrate": 0.0039,
+      "pickrate": 0.0041,
       "contributions": [
+        {
+          "source": "aramgg.com",
+          "sourceUrl": "https://aramgg.com/en/champion-stats/120",
+          "patch": "16.18",
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 375
+        },
         {
           "source": "aramkit.com",
           "sourceUrl": "https://aramkit.com/en-US/champions/hecarim?version=16.18",
           "patch": "16.18",
-          "fetchedAt": "2026-09-12T02:34:26.350Z",
-          "games": 2655
+          "fetchedAt": "2026-09-13T21:52:42.336Z",
+          "games": 4056
         }
       ]
     }
