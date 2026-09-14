@@ -1,7 +1,7 @@
 # Mayhem champion augment ratings
 
 Warden presents augment recommendations as **S, A, B, C, D, F**, with S highest.
-Grades compare measured augments **for the same champion and rarity**. They
+Grades balance measured performance and pick popularity **for the same champion and rarity**. They
 describe relative choices, so a champion with a lower overall result baseline
 can still have S-tier augments. They do not represent outcome probabilities.
 The bottom-to-top percentile bands are F below 5, D from 5, C from 15, B from 30,
@@ -43,7 +43,12 @@ retains its original estimate at this stage. Before ranking, each estimate is
 shrunk toward the median estimate for that champion/rarity using the mean of
 its per-source reliability weights. Counts are never summed. Scores are rounded
 to the input precision (four decimal places) before ties and percentiles are
-calculated. Pick rate is not a scoring input. These are bounded reliability
+calculated. Performance and pick-rate midrank percentiles receive equal weight.
+The combined score is rounded to six decimal places and ranked within the same
+cohort before applying the letter bands. Equal evidence produces equal grades;
+equal performance can be distinguished by popularity. Pick rate describes use,
+not selection probability when offered, and can reflect availability and fashion.
+It is therefore only one of two signals, not proof of strength. These are bounded reliability
 heuristics, not calibrated confidence intervals or proven prediction accuracy.
 Freshness, patch, champion, minimum sample and duplicate-source checks still apply.
 The **public stage exports only grade, pick rate, patch, source
@@ -59,13 +64,13 @@ replaces the current JSON files on the mayhem-data branch of
 snacbot/warden-releases. Git history is preserved. Application source and
 credentials are never published.
 
-The public format is version 3, method `warden-champion-rarity-percentiles-v1`.
-Version 1 and 2 public grades are rejected: they do not contain the private
-observations needed to convert absolute grades into relative ones. The desktop
+The public format is version 4, method `warden-champion-recommendations-v1`.
+Version 1, 2 and 3 public grades are rejected: they do not contain the private
+observations needed to compute the new recommendation scores. The desktop
 regrades current bundled private snapshots using its ARAM rarity catalog when
 the new public feed is unavailable. This prevents old cached absolute grades
 from overriding the new method. A missing catalog cannot fabricate a cohort;
-valid version-3 remote grades remain usable without the local catalog.
+valid version-4 remote grades remain usable without the local catalog.
 
 The desktop caches remote snapshots for six hours and retries outages after
 15 minutes. It falls back to current bundled data, converts legacy private
@@ -85,8 +90,13 @@ Run `pnpm exec tsx scripts/check-mayhem-calibration.ts` to compare current
 patch-matched inputs against the dated reference observations in `docs/research/`.
 The script records agreement with exposed METAsrc recommendations, old/new grades
 and all-champion coverage in `.ingest-cache/mayhem-calibration-report.json`.
-The additional Ashe/Leona/Garen sample was collected after the thresholds were
-chosen. Both samples expose mostly top recommendations; they are not a complete
+The additional Ashe/Leona/Garen sample predates the recommendation-score change.
+Both samples expose mostly top recommendations; they are not a complete
 tier-scale or prediction-accuracy benchmark. Mobalytics' global expert grades
 are contextual evidence, not champion-specific scoring inputs. No external
 letter grades or champion-specific overrides are hardcoded into the formula.
+
+The September 13 recommendation review adds a later Swain/Vayne/Nami sample.
+See `docs/research/mayhem-recommendation-review-2026-09-13.md` for source methods,
+before/after agreement and limitations. This is closer alignment with observed
+recommendations, not a claim that most providers share our formula.
