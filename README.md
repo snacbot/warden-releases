@@ -1,5 +1,72 @@
 # Mayhem champion augment ratings
 
+## Context evidence and shadow evaluation (September 17 update)
+
+The private importer now preserves ARAMKit stage rows separately, availability
+metadata, its all-stage champion baseline, dataset version and generation time.
+Every contribution retains its own pick rate. ARAMGG generation time and observed
+source-family identity are retained; unknown lineage and popularity denominators
+remain unknown. Known shared source families count once. Proxy outcome inputs are
+excluded. Generation age is checked independently of retrieval age, so polling an
+old dataset does not renew it. The cache namespace is now `context-evidence-v2`.
+Legacy snapshots remain readable but cannot reconstruct per-source popularity.
+
+The compatible v4 feed stays at `consensus/<champion>.json`. A separate strict v5
+envelope is published at `consensus/context/<champion>.json`; it contains separately
+keyed all-stage and stage-specific categorical snapshots. Neither envelope exports
+outcome values or internal ranking scores. For v4 compatibility, the contribution
+timestamp is conservatively the older of retrieval and known generation time.
+Global tiers consume only all-stage ratings, so stage rows never add extra votes.
+
+`getMayhemOfferRatings` can select a verified stage only when every offered ID has
+a grade in that stage. Otherwise the whole offer uses the all-stage fallback.
+The current OCR capture provides no verified stage, so the live overlay continues
+using all-stage ratings and explains that scope in its localized tooltip. Level,
+card position and owned-augment count are not stage evidence. Automatic stage
+selection and alternate scoring have **not** been enabled. The v5 stage calculation
+currently uses the existing formula for comparison, not a validated new model.
+
+Developer commands:
+
+```sh
+pnpm diagnose:mayhem --champion=Blitzcrank --augment=1103 --patch=16.18
+pnpm diagnose:mayhem --champion=Blitzcrank --augment=1103 --stage=2
+pnpm ingest:mayhem --shadow
+pnpm check:mayhem-experiments --shadow
+pnpm diagnose:mayhem --shadow --champion=Blitzcrank --augment=1103 --stage=2
+```
+
+Shadow ingestion writes to `.ingest-cache/mayhem-shadow/consensus`; it does not
+replace bundled inputs. Single-champion runs write their status under the cache
+instead of overwriting the all-champion health report. Experiment results go to
+`.ingest-cache/mayhem-experiments.json`. The normal polling job also runs the
+experiment report against its new inputs, without changing scoring configuration.
+Rich stage evidence stays in `.ingest-cache/mayhem/context`, outside installer
+resources; bundled snapshots retain all-stage evidence. Publishing and diagnostics
+join the rich snapshot only when champion, patch, poll time and all-stage rows
+match exactly. Offline clients without context data use the all-stage fallback.
+
+The report compares v4, performance-only, 25% popularity and provider-normalized
+ranking over common same-rarity coverage. The latter requires each provider's own
+popularity and two providers, and is explicitly experimental while denominator and
+lineage remain unknown. It reports missing coverage, exact-tier agreement, ordinal
+distance, S precision/recall on labeled rows, severe disagreements, pairwise order,
+stage coverage, source-dropout changes and paired champion-bootstrap intervals.
+Top-only labels cannot measure false S recommendations or pairwise ordering.
+
+`docs/research/mayhem-benchmark-split.json` declares 15 calibration and 15 held-out
+champions. Existing reference files are calibration evidence. Supply new dated
+reference labels with `--reference=<file>` (the existing patch/rows/name/rarity/tier
+format, all-stage only; explicit stage/build labels are rejected); compare providers
+in separate runs. No held-out labels are fabricated,
+and a missing benchmark never authorizes model promotion. Future-patch references
+must match the observations; older references do not become current automatically.
+
+The September 17 implementation did not add an unverified external feed, hardcode
+Bread And Butter to S, or promote a scoring candidate. At stage 2 the current
+formula still gives that augment B because of low popularity, while the
+performance-only candidate gives S. Stage ingestion alone is not a complete fix.
+
 Warden presents augment recommendations as **S, A, B, C, D, F**, with S highest.
 Grades balance measured performance and pick popularity **for the same champion and rarity**. They
 describe relative choices, so a champion with a lower overall result baseline
